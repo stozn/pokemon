@@ -81,6 +81,34 @@ const ROUTES = {
     , maxLevel: 16
     , unlocked: true
     }
+   , route5: {
+      name: 'Route 6'
+    , pokes: ['Pidgey',	'Pidgeotto',	'Oddish',	'Meowth',	'Mankey',	'Abra',	'Bellsprout']
+    , minLevel: 10
+    , maxLevel: 16
+    , unlocked: true
+    }
+   , route6: {
+      name: 'Route 7'
+    , pokes: ['Pidgey',	'Vulpix',	'Oddish',	'Meowth',	'Mankey',	'Growlithe',	'Bellsprout']
+    , minLevel: 18
+    , maxLevel: 22
+    , unlocked: true
+    }
+   , route7: {
+      name: 'Route 8'
+    , pokes: ['Pidgey',	'Pidgeotto',	'Vulpix',	'Oddish',	'Meowth',	'Mankey',	'Growlithe',	'Abra',	'Kadabra',	'Bellsprout']
+    , minLevel: 15
+    , maxLevel: 20
+    , unlocked: true
+    }
+   , special3: {
+      name: 'Diglett Cave'
+    , pokes: ['Diglett',	'Dugtrio']
+    , minLevel: 15
+    , maxLevel: 31
+    , unlocked: true
+    }
 }
 
 const RNG = (func, chance) => {
