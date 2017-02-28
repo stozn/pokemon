@@ -109,6 +109,34 @@ const ROUTES = {
     , maxLevel: 31
     , unlocked: true
     }
+   , route8: {
+      name: 'Route 9'
+    , pokes: ['Spearow',	'Ekans',	'Sandshrew',	'Drowzee']
+    , minLevel: 9
+    , maxLevel: 17
+    , unlocked: true
+    }
+   , route9: {
+      name: 'Route 10'
+    , pokes: ['Spearow',	'Ekans',	'Sandshrew',	'Voltorb']
+    , minLevel: 11
+    , maxLevel: 17
+    , unlocked: true
+    }
+   , special4: {
+      name: 'Rock Tunnel'
+    , pokes: ['Zubat',	'Machop',	'Geodude',	'Onix']
+    , minLevel: 11
+    , maxLevel: 17
+    , unlocked: true
+    }
+   , special5: {
+      name: 'Power Plant'
+    , pokes: ['Pikachu',	'Raichu',	'Magnemite',	'Magneton',	'Voltorb',	'Electrode',	'Electabuzz']
+    , minLevel: 11
+    , maxLevel: 17
+    , unlocked: true
+    }
 }
 
 const RNG = (func, chance) => {
