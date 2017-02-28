@@ -24,19 +24,19 @@ const EVOLUTIONS = {
     "to":"Blastoise"
   },
   "Caterpie":{
-    "level":"10",
+    "level":"7",
     "to":"Metapod"
   },
   "Metapod":{
-    "level":"50",
+    "level":"10",
     "to":"Butterfree"
   },
   "Weedle":{
-    "level":"10",
+    "level":"7",
     "to":"Kakuna"
   },
   "Kakuna":{
-    "level":"50",
+    "level":"10",
     "to":"Beedrill"
   },
   "Pidgey":{
