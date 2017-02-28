@@ -123,7 +123,7 @@ const ROUTES = {
     , maxLevel: 90
     , unlocked: true
     }
-  , field6: {
+  , fields6: {
       name: 'Who wants Eeveelutions ?'
     , pokes: ['Vaporeon', 'Jolteon', 'Flareon']
     , minLevel: 90
