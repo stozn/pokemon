@@ -123,6 +123,13 @@ const ROUTES = {
     , maxLevel: 90
     , unlocked: true
     }
+  , starter3: {
+      name: 'Who wants Eeveelutions ?'
+    , pokes: ['Vaporeon', 'Jolteon', 'Flareon']
+    , minLevel: 90
+    , maxLevel: 95
+    , unlocked: true
+    }
   , birds: {
       name: 'Birds'
     , pokes: ['Articuno', 'Zapdos', 'Moltres']
