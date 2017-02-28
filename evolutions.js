@@ -16,11 +16,11 @@ const EVOLUTIONS = {
     "to":"Charizard"
   },
   "Squirtle":{
-    "level":"35",
+    "level":"16",
     "to":"Wartortle"
   },
   "Wartortle":{
-    "level":"70",
+    "level":"36",
     "to":"Blastoise"
   },
   "Caterpie":{
