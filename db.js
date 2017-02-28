@@ -92082,12 +92082,12 @@ const POKEDEX = [
          {
             "catch rate": "45",
             "growth rate": "Medium Slow",
-            "hp": "2500",
-            "attack": "350",
-            "defense": "300",
-            "sp atk": "5000",
-            "sp def": "5000",
-            "speed": "300",
+            "hp": "100",
+            "attack": "100",
+            "defense": "100",
+            "sp atk": "100",
+            "sp def": "100",
+            "speed": "100",
             "types": {
                "text": "Psychic",
                "href": "http://pokemondb.net/type/psychic"
