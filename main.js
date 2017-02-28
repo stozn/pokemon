@@ -19,6 +19,13 @@ EXP_TABLE["Fast"] = [1, 2, 6, 21, 51, 100, 172, 274, 409, 583, 800, 1064, 1382, 
 var currentRouteId = 'starter'
 const ROUTES = {
     starter: {
+      name: 'Pallet Town'
+    , pokes: ['Bulbasaur', 'Charmander', 'Squirtle']
+    , minLevel: 1
+    , maxLevel: 2
+    , unlocked: true
+    }
+   , starter: {
       name: 'Starter Area'
     , pokes: ['Caterpie', 'Weedle']
     , minLevel: 2
