@@ -1,18 +1,18 @@
 const EVOLUTIONS = {
   "Bulbasaur":{
-    "level":"35",
+    "level":"16",
     "to":"Ivysaur"
   },
   "Ivysaur":{
-    "level":"70",
+    "level":"32",
     "to":"Venusaur"
   },
   "Charmander":{
-    "level":"35",
+    "level":"16",
     "to":"Charmeleon"
   },
   "Charmeleon":{
-    "level":"70",
+    "level":"36",
     "to":"Charizard"
   },
   "Squirtle":{
