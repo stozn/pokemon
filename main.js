@@ -32,6 +32,55 @@ const ROUTES = {
     , maxLevel: 5
     , unlocked: true
     }
+   , route1: {
+      name: 'Route 2'
+    , pokes: ['Pidgey',	'Rattata',	'Caterpie',	'Weedle']
+    , minLevel: 3
+    , maxLevel: 5
+    , unlocked: true
+    }
+   , special: {
+      name: 'Virdian Forest'
+    , pokes: ['Caterpie',	'Metapod',	'Weedle',	'Kakuna',	'Pikachu']
+    , minLevel: 3
+    , maxLevel: 6
+    , unlocked: true
+    }
+   , special1: {
+      name: 'Pewter City'
+    , pokes: ['Omanyte',	'Kabuto',	'Aerodactyl']
+    , minLevel: 5
+    , maxLevel: 5
+    , unlocked: true
+    }
+   , route2: {
+      name: 'Route 3'
+    , pokes: ['Pidgey',	'Spearow',	'Jigglypuff']
+    , minLevel: 5
+    , maxLevel: 12
+    , unlocked: true
+    }
+   , special2: {
+      name: 'Mt. Moon'
+    , pokes: ['Zubat',	'Clefairy', 'Paras',	'Geodude']
+    , minLevel: 6
+    , maxLevel: 12
+    , unlocked: true
+    }
+   , route3: {
+      name: 'Route 4'
+    , pokes: ['Rattata',	'Spearow',	'Ekans',	'Sandshrew']
+    , minLevel: 6
+    , maxLevel: 12
+    , unlocked: true
+    }
+   , route4: {
+      name: 'Route 5'
+    , pokes: ['Pidgey',	'Oddish',	'Meowth',	'Mankey',	'Bellsprout']
+    , minLevel: 10
+    , maxLevel: 16
+    , unlocked: true
+    }
 }
 
 const RNG = (func, chance) => {
