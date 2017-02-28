@@ -25,7 +25,7 @@ const ROUTES = {
     , maxLevel: 2
     , unlocked: true
     }
-   , starter: {
+   , starter1: {
       name: 'Starter Area'
     , pokes: ['Caterpie', 'Weedle']
     , minLevel: 2
@@ -132,7 +132,7 @@ const ROUTES = {
     }
   , god: {
       name: 'God'
-    , pokes: ['Mew']
+    , pokes: ['Mewtwo','Mew']
     , minLevel: 99
     , maxLevel: 99
     , unlocked: true
