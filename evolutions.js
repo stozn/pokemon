@@ -79,6 +79,18 @@ const EVOLUTIONS = {
     "level":"80",
     "to":"Nidoking"
   },
+  "Clefairy":{
+    "level":"60",
+    "to":"Clefable"
+  },
+  "Vulpix":{
+    "level":"60",
+    "to":"Ninetales"
+  },
+  "Jigglypuff":{
+    "level":"60",
+    "to":"Wigglytuff"
+  },
   "Zubat":{
     "level":"50",
     "to":"Golbat"
