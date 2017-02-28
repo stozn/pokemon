@@ -11,3 +11,6 @@ Planned :
 - Later : Other gens.
 
 My coding skills are really really (when I say really it's really) limited. So any help would be more than apprecied. Just trying to bring some ideas and doing the boring stuff.
+
+Last version NGGYU.2 :
+- Fixed all the evolutions levels.
