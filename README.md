@@ -9,3 +9,5 @@ Planned :
 - Ordering Team
 - Evos back to classic levels.
 - Later : Other gens.
+
+My coding skills are really really (when I say really it's really) limited. So any help would be more than apprecied. Just trying to bring some ideas and doing the boring stuff.
