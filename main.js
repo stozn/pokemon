@@ -21,127 +21,15 @@ const ROUTES = {
     starter: {
       name: 'Pallet Town'
     , pokes: ['Bulbasaur', 'Charmander', 'Squirtle']
-    , minLevel: 1
-    , maxLevel: 2
-    , unlocked: true
-    }
-   , starter1: {
-      name: 'Starter Area'
-    , pokes: ['Caterpie', 'Weedle']
-    , minLevel: 2
-    , maxLevel: 4
-    , unlocked: true
-    }
-  , starter2: {
-      name: 'Starter Area 2'
-    , pokes: ['Rattata', 'Pidgey', 'Spearow']
     , minLevel: 5
-    , maxLevel: 10
+    , maxLevel: 5
     , unlocked: true
     }
-  , cavern1: {
-      name: 'Cavern'
-    , pokes: ['Zubat', 'Diglett', 'Machop', 'Abra']
-    , minLevel: 8
-    , maxLevel: 16
-    , unlocked: true
-    }
-  , rock_arena: {
-      name: 'Rock Arena'
-    , pokes: ['Geodude', 'Onix']
-    , minLevel: 20
-    , maxLevel: 30
-    , unlocked: true
-    }
-  , fields: {
-      name: 'Fields'
-    , pokes: ['Sandshrew', 'Nidoran f', 'Nidoran m', 'Venonat', 'Vulpix']
-    , minLevel: 25
-    , maxLevel: 40
-    , unlocked: true
-    }
-  , toxic_area: {
-      name: 'Toxic Area'
-    , pokes: ['Grimer', 'Koffing']
-    , minLevel: 25
-    , maxLevel: 40
-    , unlocked: true
-    }
-  , water_arena: {
-      name: 'Water Arena'
-    , pokes: ['Goldeen', 'Staryu', 'Shellder', 'Horsea', 'Seel']
-    , minLevel: 35
-    , maxLevel: 50
-    , unlocked: true
-    }
-  , fields2: {
-      name: 'Fields 2'
-    , pokes: ['Mankey', 'Psyduck', 'Meowth', 'Ekans', 'Paras']
-    , minLevel: 40
-    , maxLevel: 55
-    , unlocked: true
-    }
-  , thunder_arena: {
-      name: 'Thunder Arena'
-    , pokes: ['Pikachu', 'Magnemite', 'Voltorb']
-    , minLevel: 50
-    , maxLevel: 65
-    , unlocked: true
-    }
-  , mtmoon: {
-      name: 'Mt. Moon'
-    , pokes: ['Jigglypuff', 'Voltorb', 'Porygon', 'Slowpoke']
-    , minLevel: 60
-    , maxLevel: 70
-    , unlocked: true
-    }
-  , fields3: {
-      name: 'Fields 3'
-    , pokes: ['Growlithe', 'Drowzee', 'Cubone', 'Rhyhorn', 'Ponyta']
-    , minLevel: 65
-    , maxLevel: 75
-    , unlocked: true
-    }
-  , scareland: {
-      name: 'Scareland'
-    , pokes: ['Gastly', 'Jynx', 'Mr. Mime']
-    , minLevel: 75
-    , maxLevel: 80
-    , unlocked: true
-    }
-  , fields4: {
-      name: 'Fields 4'
-    , pokes: ['Hitmonlee', 'Hitmonchan', 'Lickitung', 'Snorlax', 'Dratini']
-    , minLevel: 80
-    , maxLevel: 85
-    , unlocked: true
-    }
-  , fields5: {
-      name: 'Fields 5'
-    , pokes: ['Tangela', 'Scyther', 'Electabuzz', 'Pinsir', 'Omanyte', 'Kabuto', 'Aerodactyl']
-    , minLevel: 85
-    , maxLevel: 90
-    , unlocked: true
-    }
-  , fields6: {
-      name: 'Eeveelution'
-    , pokes: ['Vaporeon', 'Jolteon', 'Flareon']
-    , minLevel: 90
-    , maxLevel: 95
-    , unlocked: true
-    }
-  , birds: {
-      name: 'Birds'
-    , pokes: ['Articuno', 'Zapdos', 'Moltres']
-    , minLevel: 90
-    , maxLevel: 99
-    , unlocked: true
-    }
-  , god: {
-      name: 'God'
-    , pokes: ['Mewtwo','Mew']
-    , minLevel: 99
-    , maxLevel: 99
+   , route: {
+      name: 'Route 1'
+    , pokes: ['Pidgey',	'Rattata']
+    , minLevel: 2
+    , maxLevel: 5
     , unlocked: true
     }
 }
