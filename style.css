@@ -91,7 +91,7 @@ ul {
   max-height: none;
   height: 960px;
   border-radius: 0 5px 5px 5px;
-  width: 210px;
+  width: 190px;
   text-align: right;
 }
 
@@ -117,11 +117,11 @@ ul {
 
 #playerPokes {
   float: left;
-  height: 600px;
+  height: 960px;
   overflow: hidden;
   text-align: center;
   text-align: left;
-  max-height: 600px;
+  max-height: 960px;
 }
 
 #playerPokes .checkDescription {
