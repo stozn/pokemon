@@ -158,6 +158,76 @@ const ROUTES = {
     , maxLevel: 30
     , unlocked: true
     }
+   , special8: {
+      name: 'Saffron City'
+    , pokes: ['Hitmonlee', 'Hitmonchan', 'Lapras']
+    , minLevel: 30
+    , maxLevel: 30
+    , unlocked: true
+    }
+   , route11: {
+      name: 'Route 12'
+    , pokes: ['Pidgey', 'Oddish', 'Gloom', 'Venonat', 'Bellsprout', 'Weepinbell', 'Snorlax']
+    , minLevel: 22
+    , maxLevel: 30
+    , unlocked: true
+    }
+   , route12: {
+      name: 'Route 13'
+    , pokes: ['Pidgey', 'Oddish', 'Gloom', 'Venonat', 'Bellsprout', 'Weepinbell', 'Ditto']
+    , minLevel: 22
+    , maxLevel: 30
+    , unlocked: true
+    }
+   , route13: {
+      name: 'Route 14'
+    , pokes: ['Pidgey', 'Pidgeotto', 'Oddish', 'Gloom', 'Venonat', 'Bellsprout', 'Weepinbell', 'Ditto']
+    , minLevel: 23
+    , maxLevel: 30
+    , unlocked: true
+    }
+   , route14: {
+      name: 'Route 15'
+    , pokes: ['Pidgey', 'Pidgeotto', 'Oddish', 'Gloom', 'Venonat', 'Bellsprout', 'Weepinbell', 'Ditto']
+    , minLevel: 22
+    , maxLevel: 30
+    , unlocked: true
+    }
+   , route15: {
+      name: 'Route 16'
+    , pokes: ['Rattata', 'Raticate', 'Spearow', 'Doduo', 'Snorlax']
+    , minLevel: 18
+    , maxLevel: 30
+    , unlocked: true
+    }
+   , route16: {
+      name: 'Route 17'
+    , pokes: ['Raticate', 'Spearow', 'Fearow', 'Doduo']
+    , minLevel: 20
+    , maxLevel: 29
+    , unlocked: true
+    }
+   , route17: {
+      name: 'Route 18'
+    , pokes: ['Rattata', 'Raticate', 'Spearow', 'Fearow', 'Doduo']
+    , minLevel: 20
+    , maxLevel: 29
+    , unlocked: true
+    }
+   , special9: {
+      name: 'Safari Zone'
+    , pokes: ['Nidoran f', 'Nidorina', 'Nidoran m', 'Nidorino', 'Parasect', 'Venonat', 'Exeggcute', 'Rhyhorn', 'Scyther', 'Pinsir', 'Tauros']
+    , minLevel: 22
+    , maxLevel: 31
+    , unlocked: true
+    }
+   , special10: {
+      name: 'Trading Center'
+    , pokes: ['Jynx', 'Farfetchd', 'Lickitung' 'Mr.Mime']
+    , minLevel: 30
+    , maxLevel: 30
+    , unlocked: true
+    }
 }
 
 const RNG = (func, chance) => {
