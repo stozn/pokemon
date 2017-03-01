@@ -250,7 +250,7 @@ const ROUTES = {
     , unlocked: true
     }
    , special12: {
-      name: 'Pokemon Mansion'
+      name: 'Pkmn Mansion'
     , pokes: ['Vulpix', 'Growlithe', 'Ponyta', 'Grimer', 'Muk', 'Koffing', 'Weezing', 'Magmar'] 
     , minLevel: 32
     , maxLevel: 40
