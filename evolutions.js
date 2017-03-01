@@ -260,15 +260,15 @@ const EVOLUTIONS = {
     "to":"Gyarados"
   },
   "Eevee":{
-    "level":"35",
+    "level":"25",
     "to":"Vaporeon"
   },
   "Eevee":{
-    "level":"35",
+    "level":"27",
     "to":"Jolteon"
   },
   "Eevee":{
-    "level":"35",
+    "level":"29",
     "to":"Flareon"
   },
   "Omanyte":{
