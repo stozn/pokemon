@@ -27,133 +27,133 @@ const ROUTES = {
     }
    , route: {
       name: 'Route 1'
-    , pokes: ['Pidgey',	'Rattata']
+    , pokes: ['Pidgey', 'Rattata']
     , minLevel: 2
     , maxLevel: 5
     , unlocked: true
     }
    , route1: {
       name: 'Route 2'
-    , pokes: ['Pidgey',	'Rattata',	'Caterpie',	'Weedle']
+    , pokes: ['Pidgey', 'Rattata', 'Caterpie', 'Weedle']
     , minLevel: 3
     , maxLevel: 5
     , unlocked: true
     }
    , special: {
       name: 'Virdian Forest'
-    , pokes: ['Caterpie',	'Metapod',	'Weedle',	'Kakuna',	'Pikachu']
+    , pokes: ['Caterpie', 'Metapod', 'Weedle', 'Kakuna', 'Pikachu']
     , minLevel: 3
     , maxLevel: 6
     , unlocked: true
     }
    , special1: {
       name: 'Pewter City'
-    , pokes: ['Omanyte',	'Kabuto',	'Aerodactyl']
+    , pokes: ['Omanyte', 'Kabuto', 'Aerodactyl']
     , minLevel: 5
     , maxLevel: 5
     , unlocked: true
     }
    , route2: {
       name: 'Route 3'
-    , pokes: ['Pidgey',	'Spearow',	'Jigglypuff']
+    , pokes: ['Pidgey', 'Spearow', 'Jigglypuff']
     , minLevel: 5
     , maxLevel: 12
     , unlocked: true
     }
    , special2: {
       name: 'Mt. Moon'
-    , pokes: ['Zubat',	'Clefairy', 'Paras',	'Geodude']
+    , pokes: ['Zubat', 'Clefairy', 'Paras', 'Geodude']
     , minLevel: 6
     , maxLevel: 12
     , unlocked: true
     }
    , route3: {
       name: 'Route 4'
-    , pokes: ['Rattata',	'Spearow',	'Ekans',	'Sandshrew']
+    , pokes: ['Rattata', 'Spearow', 'Ekans', 'Sandshrew']
     , minLevel: 6
     , maxLevel: 12
     , unlocked: true
     }
    , route4: {
       name: 'Route 5'
-    , pokes: ['Pidgey',	'Oddish',	'Meowth',	'Mankey',	'Bellsprout']
+    , pokes: ['Pidgey', 'Oddish', 'Meowth', 'Mankey', 'Bellsprout']
     , minLevel: 10
     , maxLevel: 16
     , unlocked: true
     }
    , route5: {
       name: 'Route 6'
-    , pokes: ['Pidgey',	'Pidgeotto',	'Oddish',	'Meowth',	'Mankey',	'Abra',	'Bellsprout']
+    , pokes: ['Pidgey',	'Pidgeotto', 'Oddish', 'Meowth', 'Mankey', 'Abra', 'Bellsprout']
     , minLevel: 10
     , maxLevel: 16
     , unlocked: true
     }
    , route6: {
       name: 'Route 7'
-    , pokes: ['Pidgey',	'Vulpix',	'Oddish',	'Meowth',	'Mankey',	'Growlithe',	'Bellsprout']
+    , pokes: ['Pidgey', 'Vulpix', 'Oddish', 'Meowth', 'Mankey', 'Growlithe', 'Bellsprout']
     , minLevel: 18
     , maxLevel: 22
     , unlocked: true
     }
    , route7: {
       name: 'Route 8'
-    , pokes: ['Pidgey',	'Pidgeotto',	'Vulpix',	'Oddish',	'Meowth',	'Mankey',	'Growlithe',	'Abra',	'Kadabra',	'Bellsprout']
+    , pokes: ['Pidgey', 'Pidgeotto', 'Vulpix', 'Oddish', 'Meowth', 'Mankey', 'Growlithe', 'Abra', 'Kadabra', 'Bellsprout']
     , minLevel: 15
     , maxLevel: 20
     , unlocked: true
     }
    , special3: {
       name: 'Diglett Cave'
-    , pokes: ['Diglett',	'Dugtrio']
+    , pokes: ['Diglett', 'Dugtrio']
     , minLevel: 15
     , maxLevel: 31
     , unlocked: true
     }
    , route8: {
       name: 'Route 9'
-    , pokes: ['Spearow',	'Ekans',	'Sandshrew',	'Drowzee']
+    , pokes: ['Spearow', 'Ekans', 'Sandshrew', 'Drowzee']
     , minLevel: 9
     , maxLevel: 17
     , unlocked: true
     }
    , route9: {
       name: 'Route 10'
-    , pokes: ['Spearow',	'Ekans',	'Sandshrew',	'Voltorb']
+    , pokes: ['Spearow', 'Ekans', 'Sandshrew', 'Voltorb']
     , minLevel: 11
     , maxLevel: 17
     , unlocked: true
     }
    , special4: {
       name: 'Rock Tunnel'
-    , pokes: ['Zubat',	'Machop',	'Geodude',	'Onix']
+    , pokes: ['Zubat', 'Machop', 'Geodude', 'Onix']
     , minLevel: 11
     , maxLevel: 17
     , unlocked: true
     }
    , special5: {
       name: 'Power Plant'
-    , pokes: ['Pikachu',	'Raichu',	'Magnemite',	'Magneton',	'Voltorb',	'Electrode',	'Electabuzz']
+    , pokes: ['Pikachu', 'Raichu', 'Magnemite', 'Magneton', 'Voltorb', 'Electrode', 'Electabuzz']
     , minLevel: 25
     , maxLevel: 35
     , unlocked: true
     }
    , special6: {
       name: 'Pokemon Tower'
-    , pokes: ['Gastly',	'Haunter',	'Cubone']
+    , pokes: ['Gastly',	'Haunter', 'Cubone']
     , minLevel: 13
     , maxLevel: 18
     , unlocked: true
     }
    , route10: {
       name: 'Route 11'
-    , pokes: ['Eevee',	'Porygon']
+    , pokes: ['Spearow', 'Ekans', 'Sandshrew', 'Drowzee']
     , minLevel: 18
     , maxLevel: 25
     , unlocked: true
     }
    , special7: {
       name: 'Celadon City'
-    , pokes: ['Gastly',	'Haunter',	'Cubone']
+    , pokes: ['Eevee', 'Porygon']
     , minLevel: 25
     , maxLevel: 30
     , unlocked: true
