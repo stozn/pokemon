@@ -133,8 +133,29 @@ const ROUTES = {
    , special5: {
       name: 'Power Plant'
     , pokes: ['Pikachu',	'Raichu',	'Magnemite',	'Magneton',	'Voltorb',	'Electrode',	'Electabuzz']
-    , minLevel: 11
-    , maxLevel: 17
+    , minLevel: 25
+    , maxLevel: 35
+    , unlocked: true
+    }
+   , special6: {
+      name: 'Pokemon Tower'
+    , pokes: ['Gastly',	'Haunter',	'Cubone']
+    , minLevel: 13
+    , maxLevel: 18
+    , unlocked: true
+    }
+   , route10: {
+      name: 'Route 11'
+    , pokes: ['Eevee',	'Porygon']
+    , minLevel: 18
+    , maxLevel: 25
+    , unlocked: true
+    }
+   , special7: {
+      name: 'Celadon City'
+    , pokes: ['Gastly',	'Haunter',	'Cubone']
+    , minLevel: 25
+    , maxLevel: 30
     , unlocked: true
     }
 }
