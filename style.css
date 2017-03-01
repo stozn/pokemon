@@ -8,7 +8,7 @@ body {
   width: 800px;
   margin: auto;
   background-color: rgb(82, 153, 228);
-  height: 602px;
+  height: 1002px;
   padding: 10px;
   border-radius: 3px;
   box-shadow: 0 0 10px black;
@@ -89,7 +89,7 @@ ul {
   float: right;
   min-height: none;
   max-height: none;
-  height: 1100px;
+  height: 1000px;
   border-radius: 0 5px 5px 5px;
   width: 190px;
   text-align: right;
