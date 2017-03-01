@@ -5,12 +5,18 @@ WIP.
 Planned :
 
 - Adding Shiny (+ Auto-capture if Shiny)
-- Re-doing Areas
 - Ordering Team
-- Evos back to classic levels.
 - Later : Other gens.
 
 My coding skills are really really (when I say really it's really) limited. So any help would be more than apprecied. Just trying to bring some ideas and doing the boring stuff.
 
-Last version NGGYU.2 :
+Changelog :
+
+NGGYU.1 (02/28/17) :
+- Initial Version
+
+NGGYU.2 (02/28/17) :
 - Fixed all the evolutions levels.
+
+NGGYU.3 (03/01/17) :
+- Areas redone completly. Removed customs areas for matching the real routes from Kanto. CSS need to be updated.
