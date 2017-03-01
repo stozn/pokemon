@@ -223,11 +223,123 @@ const ROUTES = {
     }
    , special10: {
       name: 'Trading Center'
-    , pokes: ['Jynx', 'Farfetchd', 'Lickitung', 'Mr.Mime']
+    , pokes: ['Jynx', 'Farfetchd', 'Lickitung', 'Mr.Mime'] //buggué ici lelelelelelele
     , minLevel: 30
     , maxLevel: 30
     , unlocked: true
     }
+   , route18: {
+      name: 'Route 19'
+    , pokes: ['Raticate', 'Pidgeotto', 'Oddish', 'Ditto']
+    , minLevel: 26
+    , maxLevel: 30
+    , unlocked: true
+    }
+   , special11: {
+      name: 'Seafom Island'
+    , pokes: ['Zubat', 'Golbat', 'Psyduck', 'Golduck', 'Slowpoke', 'Slowbro', 'Seel', 'Dewgong'] 
+    , minLevel: 29
+    , maxLevel: 37
+    , unlocked: true
+    }  
+   , route19: {
+      name: 'Route 20'
+    , pokes: ['Raticate', 'Pidgeotto', 'Weepinbell', 'Kadabra']
+    , minLevel: 27
+    , maxLevel: 31
+    , unlocked: true
+    }
+   , special12: {
+      name: 'Pokemon Mansion'
+    , pokes: ['Vulpix', 'Growlithe', 'Ponyta', 'Grimer', 'Muk', 'Koffing', 'Weezing', 'Magmar'] 
+    , minLevel: 32
+    , maxLevel: 40
+    , unlocked: true
+    }  
+   , route20: {
+      name: 'Route 21'
+    , pokes: ['Pidgey', 'Pidgeotto', 'Rattata', 'Raticate', 'Tangela']
+    , minLevel: 21
+    , maxLevel: 32
+    , unlocked: true
+    }
+   , route21: {
+      name: 'Route 22'
+    , pokes: ['Pidgey', 'Rattata', 'Nidoran f', 'Nidoran m']
+    , minLevel: 2
+    , maxLevel: 5
+    , unlocked: true
+    }
+   , route22: {
+      name: 'Route 23'
+    , pokes: ['Spearow', 'Fearow', 'Ekans', 'Arbok', 'Sandshrew', 'Sandslash', 'Ditto']
+    , minLevel: 33
+    , maxLevel: 43
+    , unlocked: true
+    }
+   , route23: {
+      name: 'Route 24'
+    , pokes: ['Caterpie', 'Metapod', 'Weedle', 'Kakuna', 'Oddish', 'Abra', 'Bellsprout']
+    , minLevel: 7
+    , maxLevel: 14
+    , unlocked: true
+    }
+   , route24: {
+      name: 'Route 25'
+    , pokes: ['Caterpie', 'Metapod', 'Weedle', 'Kakuna', 'Pidgey', 'Oddish', 'Abra', 'Bellsprout']
+    , minLevel: 7
+    , maxLevel: 14
+    , unlocked: true
+    }
+   , special13: {
+      name: 'Victory Road'
+    , pokes: ['Zubat', 'Golbat', 'Venomoth', 'Machop', 'Machoke', 'Geodude', 'Graveler', 'Marowak'] 
+    , minLevel: 36
+    , maxLevel: 45
+    , unlocked: true
+    } 
+   , special14: {
+      name: 'Cerulean Cave'
+    , pokes: ['Wigglytuff', 'Venomoth', 'Kadabra', 'Dodrio', 'Electrode', 'Marowak', 'Rhydon', 'Chansey', 'Ditto'] 
+    , minLevel: 51
+    , maxLevel: 60
+    , unlocked: true
+    }  
+   , special15: {
+      name: 'Legendary Island'
+    , pokes: ['Articuno', 'Zapdos', 'Moltres'] 
+    , minLevel: 50
+    , maxLevel: 50
+    , unlocked: true
+    }  
+   , special16: {
+      name: 'The Movie'
+    , pokes: ['Mewtwo', 'Mew'] 
+    , minLevel: 70
+    , maxLevel: 70
+    , unlocked: true
+    }  
+   , water: {
+      name: 'Old Rod'
+    , pokes: ['Magikarp'] 
+    , minLevel: 5
+    , maxLevel: 5
+    , unlocked: true
+    }  
+   , water1: {
+      name: 'Good Rod'
+    , pokes: ['Psyduck', 'Poliwag', 'Goldeen'] 
+    , minLevel: 20
+    , maxLevel: 25
+    , unlocked: true
+    }  
+   , water2: {
+      name: 'Super Rod'
+    , pokes: ['Krabby', 'Horsea', 'Staryu',	'Dratini'] 
+    , minLevel: 35
+    , maxLevel: 40
+    , unlocked: true
+    }  
 }
 
 const RNG = (func, chance) => {
