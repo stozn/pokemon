@@ -328,7 +328,7 @@ const ROUTES = {
     }  
    , water1: {
       name: 'Good Rod'
-    , pokes: ['Psyduck', 'Poliwag', 'Goldeen'] 
+    , pokes: ['Psyduck', 'Poliwag', 'Goldeen', 'Tentacool'] 
     , minLevel: 20
     , maxLevel: 25
     , unlocked: true
