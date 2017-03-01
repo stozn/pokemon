@@ -223,7 +223,7 @@ const ROUTES = {
     }
    , special10: {
       name: 'Trading Center'
-    , pokes: ['Jynx', 'Farfetchd', 'Lickitung' 'Mr.Mime']
+    , pokes: ['Jynx', 'Farfetchd', 'Lickitung', 'Mr.Mime']
     , minLevel: 30
     , maxLevel: 30
     , unlocked: true
