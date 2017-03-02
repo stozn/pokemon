@@ -20,3 +20,6 @@ NGGYU.2 (02/28/17) :
 
 NGGYU.3 (03/01/17) :
 - Areas redone completly. Removed customs areas for matching the real routes from Kanto. CSS need to be updated.
+
+NGGYU.4 (03/02/17) :
+- Updated the catch rates. 90% of them were missing. Should change the gameplay A LOT.
