@@ -1,4 +1,4 @@
-Original idea from MarcoWorms. Just used a fork in order to make something more fresh and updated.
+Original idea from [MarcoWorms](https://github.com/MarcoWorms). Just used a fork in order to make something more fresh and updated.
 
 WIP.
 
