@@ -50159,7 +50159,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Farfetch'd",
+            "Pokemon": "Farfetchd",
             "Number": "Wild Duck Pokemon",
             "pokedex entry": "Lives where reedy plants grow. They are rarely seen, so it's thought their numbers are decreasing."
          }
