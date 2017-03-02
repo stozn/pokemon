@@ -153,7 +153,7 @@ const ROUTES = {
     }
    , special7: {
       name: 'Celadon City'
-    , pokes: ['Eevee', 'Porygon']
+    , pokes: ['Eevee', 'Vaporeon', 'Flareon', 'Jolteon', 'Porygon']
     , minLevel: 25
     , maxLevel: 30
     , unlocked: true
