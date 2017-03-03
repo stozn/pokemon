@@ -21355,8 +21355,8 @@ const POKEDEX = [
             "sp def": "90",
             "speed": "60",
             "types": {
-               "text": "Fairy",
-               "href": "http://pokemondb.net/type/fairy"
+               "text": "Normal",
+               "href": "http://pokemondb.net/type/normal"
             }
          }
       ],
