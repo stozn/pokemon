@@ -652,9 +652,9 @@ const makePlayer = () => {
   var lastHeal = Date.now()
 
   const ballsRngs = {
-    pokeball: 10,
-    greatball: 15,
-    ultraball: 20
+    pokeball: 2,
+    greatball: 6,
+    ultraball: 10
   }
   var selectedBall = "pokeball"
   var ballsAmmount = {
