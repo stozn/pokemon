@@ -93,7 +93,8 @@ ul {
   border-radius: 0 5px 5px 5px;
   width: 190px;
   text-align: right;
-  overflow: scroll;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
 #areasList li,#areasList a {
