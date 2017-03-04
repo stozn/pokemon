@@ -89,10 +89,11 @@ ul {
   float: right;
   min-height: none;
   max-height: none;
-  height: 960px;
+  height: 600px;
   border-radius: 0 5px 5px 5px;
   width: 190px;
   text-align: right;
+  overflow: scroll;
 }
 
 #areasList li,#areasList a {
