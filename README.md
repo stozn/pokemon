@@ -12,14 +12,29 @@ My coding skills are really really (when I say really it's really) limited. So a
 
 Changelog :
 
-NGGYU.1 (02/28/17) :
-- Initial Version
+NGGYU.5 (05/02/17) : 
+- Fixed Eeveelutions by being available in the wild
+- Fixed some Fairy glitched Pokemon
+- Fixed https links with the help of the PR
+- Fixed the level 101 glitch (level 100 is the max level, it'll be adjusted if you had a level 101 Pokemon)
+- Better catch rate (need feedback for this)
+- Updated the CSS in order to have the same looks as before (bad edit before in order to have all areas in the same place)
+- **HUGE** update of the database. Deleted 70k of lines for stuff NOT used in game. Edited in order to add new gens without any difficulty. So this will be a thing soon.
 
-NGGYU.2 (02/28/17) :
-- Fixed all the evolutions levels.
+NGGYU.4 (03/02/17) :
+- Updated the catch rates. 90% of them were missing. Should change the gameplay A LOT.
 
 NGGYU.3 (03/01/17) :
 - Areas redone completly. Removed customs areas for matching the real routes from Kanto. CSS need to be updated.
 
-NGGYU.4 (03/02/17) :
-- Updated the catch rates. 90% of them were missing. Should change the gameplay A LOT.
+NGGYU.2 (02/28/17) :
+- Fixed all the evolutions levels.
+
+NGGYU.1 (02/28/17) :
+- Initial Version
+
+
+
+
+
+
