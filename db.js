@@ -562,6 +562,11 @@ const POKEDEX = [
             }
          }
       ], 
+      "exp": [
+         {
+            "base exp": "160"
+         }
+      ],
       "species": [
          {
             "species": "Butterfly Pokemon"
