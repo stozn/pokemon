@@ -1990,7 +1990,7 @@ const POKEDEX = [
       ],
       "height": [
          {
-            "height": "2′7″ (0.79m)"
+            "height": "2â²7â³ (0.79m)"
          }
       ],
       "weight": [
@@ -2319,6 +2319,11 @@ const POKEDEX = [
                "text": "Bug",
                "href": "https://pokemondb.net/type/bug"
             }
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "75"
          }
       ],
       "species": [
@@ -2916,7 +2921,7 @@ const POKEDEX = [
       ],
       "height": [
          {
-            "height": "2′0″ (0.61m)"
+            "height": "2â²0â³ (0.61m)"
          }
       ],
       "weight": [
@@ -3259,7 +3264,7 @@ const POKEDEX = [
       ],
       "height": [
          {
-            "height": "4′11″ (1.50m)"
+            "height": "4â²11â³ (1.50m)"
          }
       ],
       "weight": [
@@ -4729,7 +4734,7 @@ const POKEDEX = [
       ],
       "newHeight": [
          {
-            "height": "5′3″ (1.60m)"
+            "height": "5â²3â³ (1.60m)"
          }
       ],
       "weight": [
@@ -6314,7 +6319,7 @@ const POKEDEX = [
       "pokemon": [
          {
             "Pokemon": "Gyarados",
-            "Number": "Atrocious Pok�mon",
+            "Number": "Atrocious Pokémon",
             "pokedex entry": "Brutally vicious and enormously destructive. Known for totally destroying cities in ancient times."
          }
       ],
@@ -6341,7 +6346,7 @@ const POKEDEX = [
       ],
       "species": [
          {
-            "species": "Atrocious Pok�mon"
+            "species": "Atrocious Pokémon"
          }
       ],
       "height": [
@@ -6542,7 +6547,7 @@ const POKEDEX = [
       ],
       "height": [
          {
-            "height": "3′3″ (0.99m)"
+            "height": "3â²3â³ (0.99m)"
          }
       ],
       "weight": [
