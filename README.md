@@ -12,7 +12,7 @@ My coding skills are really really (when I say really it's really) limited. So a
 
 Changelog :
 
-NGGYU.5 (05/02/17) : 
+NGGYU.5 (03/05/17) : 
 - Fixed Eeveelutions by being available in the wild
 - Fixed some Fairy glitched Pokemon
 - Fixed https links with the help of the PR
