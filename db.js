@@ -925,21 +925,6 @@ const POKEDEX = [
             "base exp": "59"
          }
       ],
-      "species": [
-         {
-            "species": "Poison Pin Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "1 ft. 4 in. (0.41m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "15.4 lbs (7.0 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/nidoran-f.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/nidoran-f.gif"
@@ -1349,6 +1334,11 @@ const POKEDEX = [
                "text": "Poison",
                "href": "https://pokemondb.net/type/poison"
             }
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "171"
          }
       ],
       "images": {
@@ -3584,6 +3574,11 @@ const POKEDEX = [
                "text": "Ground",
                "href": "https://pokemondb.net/type/ground"
             }
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "204"
          }
       ],
       "images": {
