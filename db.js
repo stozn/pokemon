@@ -355,9 +355,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Butterfree",
-            "Number": "Butterfly Pokemon",
-            "pokedex entry": "Its wings, covered with poisonous powders, repel water. This allows it to fly in the rain."
+            "Pokemon": "Butterfree"
          }
       ],
       "stats": [
@@ -1112,6 +1110,11 @@ const POKEDEX = [
             }
          }
       ],
+      "exp": [
+         {
+            "base exp": "68"
+         }
+      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/clefairy.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/clefairy.gif"
@@ -1270,11 +1273,6 @@ const POKEDEX = [
       "exp": [
          {
             "base exp": "109"
-         }
-      ],
-      "species": [
-         {
-            "species": "Balloon Pokemon"
          }
       ],
       "images": {
