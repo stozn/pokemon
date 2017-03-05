@@ -1,10 +1,9 @@
 const POKEDEX = [
+//1G
    {
       "pokemon": [
          {
-            "Pokemon": "Bulbasaur",
-            "Number": "Seed Pokemon",
-            "pokedex entry": "It can go for days without eating a single morsel. In the bulb on its back, it stores energy."
+            "Pokemon": "Bulbasaur"
          }
       ],
       "stats": [
@@ -28,21 +27,6 @@ const POKEDEX = [
             "base exp": "64"
          }
       ],
-      "species": [
-         {
-            "species": "Seed Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "2 ft. 4 in. (0.71m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "15.2 lbs (6.9 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/bulbasaur.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/bulbasaur.gif"
@@ -51,9 +35,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Ivysaur",
-            "Number": "Seed Pokemon",
-            "pokedex entry": "The bulb on its back grows by drawing energy. It gives off an aroma when it is ready to bloom."
+            "Pokemon": "Ivysaur"
          }
       ],
       "stats": [
@@ -77,21 +59,6 @@ const POKEDEX = [
             "base exp": "141"
          }
       ],
-      "species": [
-         {
-            "species": "Seed Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "3 ft. 3 in. (0.99m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "28.7 lbs (13.0 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/ivysaur.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/ivysaur.gif"
@@ -100,9 +67,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Venusaur",
-            "Number": "Seed Pokemon",
-            "pokedex entry": "The flower on its back catches the sun's rays. The sunlight is then absorbed and used for energy."
+            "Pokemon": "Venusaur"
          }
       ],
       "stats": [
@@ -126,21 +91,6 @@ const POKEDEX = [
             "base exp": "208"
          }
       ],
-      "species": [
-         {
-            "species": "Seed Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "6 ft. 7 in. (2.01m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "220.5 lbs (100.0 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/venusaur.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/venusaur.gif"
@@ -149,9 +99,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Charmander",
-            "Number": "Lizard Pokemon",
-            "pokedex entry": "The flame at the tip of its tail makes a sound as it burns. You can only hear it in quiet places."
+            "Pokemon": "Charmander"
          }
       ],
       "stats": [
@@ -175,21 +123,6 @@ const POKEDEX = [
             "base exp": "65"
          }
       ],
-      "species": [
-         {
-            "species": "Lizard Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "2 ft. 0 in. (0.61m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "18.7 lbs (8.5 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/charmander.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/charmander.gif"
@@ -198,9 +131,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Charmeleon",
-            "Number": "Flame Pokemon",
-            "pokedex entry": "Tough fights could excite this Pokemon. When excited, it may blow out bluish-white flames."
+            "Pokemon": "Charmeleon"
          }
       ],
       "stats": [
@@ -224,21 +155,6 @@ const POKEDEX = [
             "base exp": "142"
          }
       ],
-      "species": [
-         {
-            "species": "Flame Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "3 ft. 7 in. (1.09m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "41.9 lbs (19.0 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/charmeleon.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/charmeleon.gif"
@@ -247,9 +163,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Charizard",
-            "Number": "Flame Pokemon",
-            "pokedex entry": "When expelling a blast of super hot fire, the red flame at the tip of its tail burns more intensely."
+            "Pokemon": "Charizard"
          }
       ],
       "stats": [
@@ -273,21 +187,6 @@ const POKEDEX = [
             "base exp": "209"
          }
       ],
-      "species": [
-         {
-            "species": "Flame Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "5 ft. 7 in. (1.70m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "199.5 lbs (90.5 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/charizard.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/charizard.gif"
@@ -296,9 +195,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Squirtle",
-            "Number": "Tiny Turtle Pokemon",
-            "pokedex entry": "Shoots water at prey while in the water. Withdraws into its shell when in danger."
+            "Pokemon": "Squirtle"
          }
       ],
       "stats": [
@@ -322,21 +219,6 @@ const POKEDEX = [
             "base exp": "66"
          }
       ],
-      "species": [
-         {
-            "species": "Tiny Turtle Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "1 ft. 8 in. (0.51m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "19.8 lbs (9.0 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/squirtle.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/squirtle.gif"
@@ -345,9 +227,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Wartortle",
-            "Number": "Turtle Pokemon",
-            "pokedex entry": "When tapped, this Pokemon will pull in its head, but its tail will still stick out a little bit."
+            "Pokemon": "Wartortle"
          }
       ],
       "stats": [
@@ -371,21 +251,6 @@ const POKEDEX = [
             "base exp": "143"
          }
       ],
-      "species": [
-         {
-            "species": "Turtle Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "3 ft. 3 in. (0.99m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "49.6 lbs (22.5 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/wartortle.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/wartortle.gif"
@@ -394,9 +259,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Blastoise",
-            "Number": "Shellfish Pokemon",
-            "pokedex entry": "Once it takes aim at its enemy, it blasts out water with even more force than a fire hose."
+            "Pokemon": "Blastoise"
          }
       ],
       "stats": [
@@ -420,21 +283,6 @@ const POKEDEX = [
             "base exp": "210"
          }
       ],
-      "species": [
-         {
-            "species": "Shellfish Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "5 ft. 3 in. (1.60m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "188.5 lbs (85.5 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/blastoise.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/blastoise.gif"
@@ -443,9 +291,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Caterpie",
-            "Number": "Worm Pokemon",
-            "pokedex entry": "If you touch the feeler on top of its head, it will release a horrible stink to protect itself."
+            "Pokemon": "Caterpie"
          }
       ],
       "stats": [
@@ -469,21 +315,6 @@ const POKEDEX = [
             "base exp": "53"
          }
       ],
-      "species": [
-         {
-            "species": "Worm Pokemon"
-         }
-      ],
-      "newHeight": [
-         {
-            "height": "1 ft. 0 in. (0.30m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "6.4 lbs (2.9 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/caterpie.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/caterpie.gif"
@@ -492,9 +323,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Metapod",
-            "Number": "Cocoon Pokemon",
-            "pokedex entry": "Hardens its shell to protect itself. However, a large impact may cause it to pop out of its shell."
+            "Pokemon": "Metapod"
          }
       ],
       "stats": [
@@ -516,21 +345,6 @@ const POKEDEX = [
       "exp": [
          {
             "base exp": "72"
-         }
-      ],
-      "species": [
-         {
-            "species": "Cocoon Pokemon"
-         }
-      ],
-      "newHeight": [
-         {
-            "height": "2 ft. 4 in. (0.71m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "21.8 lbs (9.9 kg)"
          }
       ],
       "images": {
@@ -561,25 +375,10 @@ const POKEDEX = [
                "href": "https://pokemondb.net/type/bug"
             }
          }
-      ], 
+      ],
       "exp": [
          {
             "base exp": "160"
-         }
-      ],
-      "species": [
-         {
-            "species": "Butterfly Pokemon"
-         }
-      ],
-      "newHeight": [
-         {
-            "height": "3 ft. 7 in. (1.09m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "70.5 lbs (32.0 kg)"
          }
       ],
       "images": {
@@ -590,9 +389,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Weedle",
-            "Number": "Hairy Bug Pokemon",
-            "pokedex entry": "Beware of the sharp stinger on its head. It hides in grass and bushes where it eats leaves."
+            "Pokemon": "Weedle"
          }
       ],
       "stats": [
@@ -616,21 +413,6 @@ const POKEDEX = [
             "base exp": "52"
          }
       ],
-      "species": [
-         {
-            "species": "Hairy Bug Pokemon"
-         }
-      ],
-      "newHeight": [
-         {
-            "height": "1 ft. 0 in. (0.30m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "7.1 lbs (3.2 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/weedle.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/weedle.gif"
@@ -639,9 +421,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Kakuna",
-            "Number": "Cocoon Pokemon",
-            "pokedex entry": "Able to move only slightly. When endangered, it may stick out its stinger and poison its enemy."
+            "Pokemon": "Kakuna"
          }
       ],
       "stats": [
@@ -665,21 +445,6 @@ const POKEDEX = [
             "base exp": "71"
          }
       ],
-      "species": [
-         {
-            "species": "Cocoon Pokemon"
-         }
-      ],
-      "newHeight": [
-         {
-            "height": "2 ft. 0 in. (0.61m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "22 lbs (10.0 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/kakuna.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/kakuna.gif"
@@ -688,9 +453,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Beedrill",
-            "Number": "Poison Bee Pokemon",
-            "pokedex entry": "It has 3 poisonous stingers on its forelegs and its tail. They are used to jab its enemy repeatedly."
+            "Pokemon": "Beedrill"
          }
       ],
       "stats": [
@@ -714,21 +477,6 @@ const POKEDEX = [
             "base exp": "159"
          }
       ],
-      "species": [
-         {
-            "species": "Poison Bee Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "3 ft. 3 in. (0.99m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "65 lbs (29.5 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/beedrill.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/beedrill.gif"
@@ -737,9 +485,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Pidgey",
-            "Number": "Tiny Bird Pokemon",
-            "pokedex entry": "Very docile. If attacked, it will often kick up sand to protect itself rather than fight back."
+            "Pokemon": "Pidgey"
          }
       ],
       "stats": [
@@ -763,21 +509,6 @@ const POKEDEX = [
             "base exp": "55"
          }
       ],
-      "species": [
-         {
-            "species": "Tiny Bird Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "1 ft. 0 in. (0.30m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "4 lbs (1.8 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/pidgey.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/pidgey.gif"
@@ -786,9 +517,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Pidgeotto",
-            "Number": "Bird Pokemon",
-            "pokedex entry": "This Pokemon is full of vitality. It constantly flies around its large territory in search of prey."
+            "Pokemon": "Pidgeotto"
          }
       ],
       "stats": [
@@ -812,21 +541,6 @@ const POKEDEX = [
             "base exp": "113"
          }
       ],
-      "species": [
-         {
-            "species": "Bird Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "3 ft. 7 in. (1.09m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "66.1 lbs (30.0 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/pidgeotto.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/pidgeotto.gif"
@@ -835,9 +549,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Pidgeot",
-            "Number": "Bird Pokemon",
-            "pokedex entry": "This Pokemon flies at Mach 2 speed, seeking prey. Its large talons are feared as wicked weapons."
+            "Pokemon": "Pidgeot"
          }
       ],
       "stats": [
@@ -861,21 +573,6 @@ const POKEDEX = [
             "base exp": "172"
          }
       ],
-      "species": [
-         {
-            "species": "Bird Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "4 ft. 11 in. (1.50m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "87.1 lbs (39.5 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/pidgeot.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/pidgeot.gif"
@@ -884,9 +581,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Rattata",
-            "Number": "Mouse Pokemon",
-            "pokedex entry": "Will chew on anything with its fangs. If you see one, it is certain that 40 more live in the area."
+            "Pokemon": "Rattata"
          }
       ],
       "stats": [
@@ -910,21 +605,6 @@ const POKEDEX = [
             "base exp": "57"
          }
       ],
-      "species": [
-         {
-            "species": "Mouse Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "1 ft. 0 in. (0.30m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "7.7 lbs (3.5 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/rattata.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/rattata.gif"
@@ -933,9 +613,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Raticate",
-            "Number": "Mouse Pokemon",
-            "pokedex entry": "Its hind feet are webbed. They act as flippers, so it can swim in rivers and hunt for prey."
+            "Pokemon": "Raticate"
          }
       ],
       "stats": [
@@ -959,21 +637,6 @@ const POKEDEX = [
             "base exp": "116"
          }
       ],
-      "species": [
-         {
-            "species": "Mouse Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "2 ft. 4 in. (0.71m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "40.8 lbs (18.5 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/raticate.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/raticate.gif"
@@ -982,9 +645,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Spearow",
-            "Number": "Tiny Bird Pokemon",
-            "pokedex entry": "Inept at flying high. However, it can fly around very fast to protect its territory."
+            "Pokemon": "Spearow"
          }
       ],
       "stats": [
@@ -1008,21 +669,6 @@ const POKEDEX = [
             "base exp": "58"
          }
       ],
-      "species": [
-         {
-            "species": "Tiny Bird Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "1 ft. 0 in. (0.30m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "4.4 lbs (2.0 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/spearow.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/spearow.gif"
@@ -1031,9 +677,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Fearow",
-            "Number": "Beak Pokemon",
-            "pokedex entry": "A Pokemon that dates back many years. If it senses danger, it flies high and away, instantly."
+            "Pokemon": "Fearow"
          }
       ],
       "stats": [
@@ -1057,21 +701,6 @@ const POKEDEX = [
             "base exp": "162"
          }
       ],
-      "species": [
-         {
-            "species": "Beak Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "3 ft. 11 in. (1.19m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "83.8 lbs (38.0 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/fearow.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/fearow.gif"
@@ -1080,9 +709,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Ekans",
-            "Number": "Snake Pokemon",
-            "pokedex entry": "The older it gets, the longer it grows. At night, it wraps its long body around tree branches to rest."
+            "Pokemon": "Ekans"
          }
       ],
       "stats": [
@@ -1106,21 +733,6 @@ const POKEDEX = [
             "base exp": "62"
          }
       ],
-      "species": [
-         {
-            "species": "Snake Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "6 ft. 7 in. (2.01m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "15.2 lbs (6.9 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/ekans.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/ekans.gif"
@@ -1129,9 +741,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Arbok",
-            "Number": "Cobra Pokemon",
-            "pokedex entry": "The frightening patterns on its belly have been studied. Six variations have been confirmed."
+            "Pokemon": "Arbok"
          }
       ],
       "stats": [
@@ -1155,21 +765,6 @@ const POKEDEX = [
             "base exp": "147"
          }
       ],
-      "species": [
-         {
-            "species": "Cobra Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "11 ft. 6 in. (3.51m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "143.3 lbs (65.0 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/arbok.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/arbok.gif"
@@ -1178,9 +773,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Pikachu",
-            "Number": "Mouse Pokemon",
-            "pokedex entry": "It keeps its tail raised to monitor its surroundings. If you yank its tail, it will try to bite you."
+            "Pokemon": "Pikachu"
          }
       ],
       "stats": [
@@ -1204,21 +797,6 @@ const POKEDEX = [
             "base exp": "82"
          }
       ],
-      "species": [
-         {
-            "species": "Mouse Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "1 ft. 4 in. (0.41m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "13.2 lbs (6.0 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/pikachu.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/pikachu.gif"
@@ -1227,9 +805,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Raichu",
-            "Number": "Mouse Pokemon",
-            "pokedex entry": "When electricity builds up inside its body, it becomes feisty. It also glows in the dark."
+            "Pokemon": "Raichu"
          }
       ],
       "stats": [
@@ -1253,21 +829,6 @@ const POKEDEX = [
             "base exp": "122"
          }
       ],
-      "species": [
-         {
-            "species": "Mouse Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "2 ft. 7 in. (0.79m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "66.1 lbs (30.0 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/raichu.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/raichu.gif"
@@ -1276,9 +837,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Sandshrew",
-            "Number": "Mouse Pokemon",
-            "pokedex entry": "Its body is dry. When it gets cold at night, its hide is said to become coated with a fine dew."
+            "Pokemon": "Sandshrew"
          }
       ],
       "stats": [
@@ -1302,21 +861,6 @@ const POKEDEX = [
             "base exp": "93"
          }
       ],
-      "species": [
-         {
-            "species": "Mouse Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "2 ft. 0 in. (0.61m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "26.5 lbs (12.0 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/sandshrew.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/sandshrew.gif"
@@ -1325,9 +869,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Sandslash",
-            "Number": "Mouse Pokemon",
-            "pokedex entry": "It is skilled at slashing enemies with its claws. If broken, they start to grow back in a day."
+            "Pokemon": "Sandslash"
          }
       ],
       "stats": [
@@ -1351,21 +893,6 @@ const POKEDEX = [
             "base exp": "163"
          }
       ],
-      "species": [
-         {
-            "species": "Mouse Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "3 ft. 3 in. (0.99m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "65 lbs (29.5 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/sandslash.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/sandslash.gif"
@@ -1374,9 +901,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Nidoran f",
-            "Number": "Poison Pin Pokemon",
-            "pokedex entry": "A mild-mannered Pokemon that does not like to fight. Beware, its small horns secrete venom."
+            "Pokemon": "Nidoran f"
          }
       ],
       "stats": [
@@ -1423,9 +948,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Nidorina",
-            "Number": "Poison Pin Pokemon",
-            "pokedex entry": "When resting deep in its burrow, its thorns always retract. This is proof that it is relaxed."
+            "Pokemon": "Nidorina"
          }
       ],
       "stats": [
@@ -1449,21 +972,6 @@ const POKEDEX = [
             "base exp": "117"
          }
       ],
-      "species": [
-         {
-            "species": "Poison Pin Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "2 ft. 7 in. (0.79m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "44.1 lbs (20.0 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/nidorina.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/nidorina.gif"
@@ -1472,9 +980,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Nidoqueen",
-            "Number": "Drill Pokemon",
-            "pokedex entry": "Tough scales cover the sturdy body of this Pokemon. It appears that the scales grow in cycles."
+            "Pokemon": "Nidoqueen"
          }
       ],
       "stats": [
@@ -1498,21 +1004,6 @@ const POKEDEX = [
             "base exp": "194"
          }
       ],
-      "species": [
-         {
-            "species": "Drill Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "4 ft. 3 in. (1.30m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "132.3 lbs (60.0 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/nidoqueen.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/nidoqueen.gif"
@@ -1521,9 +1012,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Nidoran m",
-            "Number": "Poison Pin Pokemon",
-            "pokedex entry": "Its large ears are always kept upright. If it senses danger, it will attack with a poisonous sting."
+            "Pokemon": "Nidoran m"
          }
       ],
       "stats": [
@@ -1547,21 +1036,6 @@ const POKEDEX = [
             "base exp": "60"
          }
       ],
-      "species": [
-         {
-            "species": "Poison Pin Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "1 ft. 8 in. (0.51m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "19.8 lbs (9.0 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/nidoran-m.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/nidoran-m.gif"
@@ -1570,9 +1044,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Nidorino",
-            "Number": "Poison Pin Pokemon",
-            "pokedex entry": "Its horns contain venom. If they are stabbed into an enemy, the impact makes the poison leak out."
+            "Pokemon": "Nidorino"
          }
       ],
       "stats": [
@@ -1596,21 +1068,6 @@ const POKEDEX = [
             "base exp": "118"
          }
       ],
-      "species": [
-         {
-            "species": "Poison Pin Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "2 ft. 11 in. (0.89m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "43 lbs (19.5 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/nidorino.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/nidorino.gif"
@@ -1619,9 +1076,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Nidoking",
-            "Number": "Drill Pokemon",
-            "pokedex entry": "Its steel-like hide adds to its powerful tackle. Its horns are so hard, they can pierce a diamond."
+            "Pokemon": "Nidoking"
          }
       ],
       "stats": [
@@ -1645,21 +1100,6 @@ const POKEDEX = [
             "base exp": "195"
          }
       ],
-      "species": [
-         {
-            "species": "Drill Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "4 ft. 7 in. (1.40m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "136.7 lbs (62.0 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/nidoking.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/nidoking.gif"
@@ -1668,9 +1108,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Clefairy",
-            "Number": "Fairy Pokemon",
-            "pokedex entry": "Adored for their cute looks and playfulness. They are thought to be rare, as they do not appear often."
+            "Pokemon": "Clefairy"
          }
       ],
       "stats": [
@@ -1689,26 +1127,6 @@ const POKEDEX = [
             }
          }
       ],
-      "exp": [
-         {
-            "base exp": "68"
-         }
-      ],
-      "species": [
-         {
-            "species": "Fairy Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "2 ft. 0 in. (0.61m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "16.5 lbs (7.5 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/clefairy.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/clefairy.gif"
@@ -1717,9 +1135,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Clefable",
-            "Number": "Fairy Pokemon",
-            "pokedex entry": "They appear to be very protective of their own world. It is a kind of fairy, rarely seen by people."
+            "Pokemon": "Clefable"
          }
       ],
       "stats": [
@@ -1743,21 +1159,6 @@ const POKEDEX = [
             "base exp": "129"
          }
       ],
-      "species": [
-         {
-            "species": "Fairy Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "4 ft. 3 in. (1.30m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "88.2 lbs (40.0 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/clefable.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/clefable.gif"
@@ -1766,9 +1167,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Vulpix",
-            "Number": "Fox Pokemon",
-            "pokedex entry": "Both its fur and its tails are beautiful. As it grows, the tails split and form more tails."
+            "Pokemon": "Vulpix"
          }
       ],
       "stats": [
@@ -1792,21 +1191,6 @@ const POKEDEX = [
             "base exp": "63"
          }
       ],
-      "species": [
-         {
-            "species": "Fox Pokemon"
-         }
-      ],
-      "newHeight": [
-         {
-            "height": "2 ft. 0 in. (0.61m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "21.8 lbs (9.9 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/vulpix.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/vulpix.gif"
@@ -1815,9 +1199,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Ninetales",
-            "Number": "Fox Pokemon",
-            "pokedex entry": "According to an enduring legend, 9 noble saints were united and reincarnated as this Pokemon."
+            "Pokemon": "Ninetales"
          }
       ],
       "stats": [
@@ -1841,21 +1223,6 @@ const POKEDEX = [
             "base exp": "178"
          }
       ],
-      "species": [
-         {
-            "species": "Fox Pokemon"
-         }
-      ],
-      "newHeight": [
-         {
-            "height": "3 ft. 7 in. (1.09m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "43.9 lbs (19.9 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/ninetales.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/ninetales.gif"
@@ -1864,9 +1231,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Jigglypuff",
-            "Number": "Balloon Pokemon",
-            "pokedex entry": "Uses its alluring eyes to enrapture its foe. It then sings a pleasing melody that lulls the foe to sleep."
+            "Pokemon": "Jigglypuff"
          }
       ],
       "stats": [
@@ -1890,21 +1255,6 @@ const POKEDEX = [
             "base exp": "76"
          }
       ],
-      "species": [
-         {
-            "species": "Balloon Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "1 ft. 8 in. (0.51m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "12.1 lbs (5.5 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/jigglypuff.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/jigglypuff.gif"
@@ -1913,9 +1263,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Wigglytuff",
-            "Number": "Balloon Pokemon",
-            "pokedex entry": "Its body is full of elasticity. By inhaling deeply, it can continue to inflate itself without limit."
+            "Pokemon": "Wigglytuff"
          }
       ],
       "stats": [
@@ -1944,16 +1292,6 @@ const POKEDEX = [
             "species": "Balloon Pokemon"
          }
       ],
-      "height": [
-         {
-            "height": "3 ft. 3 in. (0.99m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "26.5 lbs (12.0 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/wigglytuff.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/wigglytuff.gif"
@@ -1962,9 +1300,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Zubat",
-            "Number": "Bat Pokemon",
-            "pokedex entry": "Emits ultrasonic cries while it flies. They act as a sonar used to check for objects in its way."
+            "Pokemon": "Zubat"
          }
       ],
       "stats": [
@@ -1988,21 +1324,6 @@ const POKEDEX = [
             "base exp": "54"
          }
       ],
-      "species": [
-         {
-            "species": "Bat Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "2â²7â³ (0.79m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "16.5 lbs (7.5 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/zubat.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/zubat.gif"
@@ -2011,9 +1332,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Golbat",
-            "Number": "Bat Pokemon",
-            "pokedex entry": "It attacks in a stealthy manner, without warning. Its sharp fangs are used to bite and suck blood."
+            "Pokemon": "Golbat"
          }
       ],
       "stats": [
@@ -2032,26 +1351,6 @@ const POKEDEX = [
             }
          }
       ],
-      "exp": [
-         {
-            "base exp": "171"
-         }
-      ],
-      "species": [
-         {
-            "species": "Bat Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "5 ft. 3 in. (1.60m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "121.3 lbs (55.0 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/golbat.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/golbat.gif"
@@ -2060,9 +1359,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Oddish",
-            "Number": "Weed Pokemon",
-            "pokedex entry": "It may be mistaken for a clump of weeds. If you try to yank it out of the ground, it shrieks horribly."
+            "Pokemon": "Oddish"
          }
       ],
       "stats": [
@@ -2086,21 +1383,6 @@ const POKEDEX = [
             "base exp": "78"
          }
       ],
-      "species": [
-         {
-            "species": "Weed Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "1 ft. 8 in. (0.51m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "11.9 lbs (5.4 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/oddish.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/oddish.gif"
@@ -2109,9 +1391,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Gloom",
-            "Number": "Weed Pokemon",
-            "pokedex entry": "Smells incredibly foul! However, around 1 out of 1,000 people enjoy sniffing its nose-bending stink."
+            "Pokemon": "Gloom"
          }
       ],
       "stats": [
@@ -2135,21 +1415,6 @@ const POKEDEX = [
             "base exp": "132"
          }
       ],
-      "species": [
-         {
-            "species": "Weed Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "2 ft. 7 in. (0.79m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "19 lbs (8.6 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/gloom.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/gloom.gif"
@@ -2158,9 +1423,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Vileplume",
-            "Number": "Flower Pokemon",
-            "pokedex entry": "Flaps its broad flower petals to scatter its poisonous pollen. The flapping sound is very loud."
+            "Pokemon": "Vileplume"
          }
       ],
       "stats": [
@@ -2184,21 +1447,6 @@ const POKEDEX = [
             "base exp": "184"
          }
       ],
-      "species": [
-         {
-            "species": "Flower Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "3 ft. 11 in. (1.19m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "41 lbs (18.6 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/vileplume.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/vileplume.gif"
@@ -2207,9 +1455,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Paras",
-            "Number": "Mushroom Pokemon",
-            "pokedex entry": "Burrows under the ground to gnaw on tree roots. The mushrooms on its back absorb most of the nutrition."
+            "Pokemon": "Paras"
          }
       ],
       "stats": [
@@ -2233,21 +1479,6 @@ const POKEDEX = [
             "base exp": "70"
          }
       ],
-      "species": [
-         {
-            "species": "Mushroom Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "1 ft. 0 in. (0.30m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "11.9 lbs (5.4 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/paras.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/paras.gif"
@@ -2256,9 +1487,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Parasect",
-            "Number": "Mushroom Pokemon",
-            "pokedex entry": "The bug host is drained of energy by the mushrooms on its back. They appear to do all the thinking."
+            "Pokemon": "Parasect"
          }
       ],
       "stats": [
@@ -2282,21 +1511,6 @@ const POKEDEX = [
             "base exp": "128"
          }
       ],
-      "species": [
-         {
-            "species": "Mushroom Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "3 ft. 3 in. (0.99m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "65 lbs (29.5 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/parasect.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/parasect.gif"
@@ -2305,9 +1519,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Venonat",
-            "Number": "Insect Pokemon",
-            "pokedex entry": "Its large eyes act as radars. In a bright place, you can see that they are clusters of many tiny eyes."
+            "Pokemon": "Venonat"
          }
       ],
       "stats": [
@@ -2331,21 +1543,6 @@ const POKEDEX = [
             "base exp": "75"
          }
       ],
-      "species": [
-         {
-            "species": "Insect Pokemon"
-         }
-      ],
-      "newHeight": [
-         {
-            "height": "3 ft. 3 in. (0.99m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "66.1 lbs (30.0 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/venonat.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/venonat.gif"
@@ -2354,9 +1551,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Venomoth",
-            "Number": "Poison Moth Pokemon",
-            "pokedex entry": "The powdery scales on its wings are hard to remove. They also contain poison that leaks out on contact."
+            "Pokemon": "Venomoth"
          }
       ],
       "stats": [
@@ -2380,21 +1575,6 @@ const POKEDEX = [
             "base exp": "138"
          }
       ],
-      "species": [
-         {
-            "species": "Poison Moth Pokemon"
-         }
-      ],
-      "newHeight": [
-         {
-            "height": "4 ft. 11 in. (1.50m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "27.6 lbs (12.5 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/venomoth.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/venomoth.gif"
@@ -2403,9 +1583,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Diglett",
-            "Number": "Mole Pokemon",
-            "pokedex entry": "It prefers dark places. It spends most of its time underground, though it may pop up in caves."
+            "Pokemon": "Diglett"
          }
       ],
       "stats": [
@@ -2429,21 +1607,6 @@ const POKEDEX = [
             "base exp": "81"
          }
       ],
-      "species": [
-         {
-            "species": "Mole Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "0 ft. 8 in. (0.20m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "1.8 lbs (0.8 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/diglett.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/diglett.gif"
@@ -2452,9 +1615,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Dugtrio",
-            "Number": "Mole Pokemon",
-            "pokedex entry": "A team of triplets that can burrow over 60 MPH. Due to this, some people think it's an earthquake."
+            "Pokemon": "Dugtrio"
          }
       ],
       "stats": [
@@ -2478,21 +1639,6 @@ const POKEDEX = [
             "base exp": "153"
          }
       ],
-      "species": [
-         {
-            "species": "Mole Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "2 ft. 4 in. (0.71m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "73.4 lbs (33.3 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/dugtrio.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/dugtrio.gif"
@@ -2501,9 +1647,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Meowth",
-            "Number": "Scratch Cat Pokemon",
-            "pokedex entry": "Appears to be more active at night. It loves round and shiny things. It can't stop from picking them up."
+            "Pokemon": "Meowth"
          }
       ],
       "stats": [
@@ -2527,21 +1671,6 @@ const POKEDEX = [
             "base exp": "69"
          }
       ],
-      "species": [
-         {
-            "species": "Scratch Cat Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "1 ft. 4 in. (0.41m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "9.3 lbs (4.2 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/meowth.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/meowth.gif"
@@ -2550,9 +1679,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Persian",
-            "Number": "Classy Cat Pokemon",
-            "pokedex entry": "The gem in its forehead glows on its own! It walks with all the grace and elegance of a proud queen."
+            "Pokemon": "Persian"
          }
       ],
       "stats": [
@@ -2576,21 +1703,6 @@ const POKEDEX = [
             "base exp": "148"
          }
       ],
-      "species": [
-         {
-            "species": "Classy Cat Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "3 ft. 3 in. (0.99m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "70.5 lbs (32.0 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/persian.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/persian.gif"
@@ -2599,9 +1711,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Psyduck",
-            "Number": "Duck Pokemon",
-            "pokedex entry": "Always tormented by headaches. It uses psychic powers, but it is not known if it intends to do so."
+            "Pokemon": "Psyduck"
          }
       ],
       "stats": [
@@ -2625,21 +1735,6 @@ const POKEDEX = [
             "base exp": "80"
          }
       ],
-      "species": [
-         {
-            "species": "Duck Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "2 ft. 7 in. (0.79m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "43.2 lbs (19.6 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/psyduck.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/psyduck.gif"
@@ -2648,9 +1743,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Golduck",
-            "Number": "Duck Pokemon",
-            "pokedex entry": "Its slim and long limbs end in broad flippers. They are used for swimming gracefully in lakes."
+            "Pokemon": "Golduck"
          }
       ],
       "stats": [
@@ -2674,21 +1767,6 @@ const POKEDEX = [
             "base exp": "174"
          }
       ],
-      "species": [
-         {
-            "species": "Duck Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "5 ft. 7 in. (1.70m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "168.9 lbs (76.6 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/golduck.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/golduck.gif"
@@ -2697,9 +1775,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Mankey",
-            "Number": "Pig Monkey Pokemon",
-            "pokedex entry": "An agile Pokemon that lives in trees. It angers easily and will not hesitate to attack anything."
+            "Pokemon": "Mankey"
          }
       ],
       "stats": [
@@ -2723,21 +1799,6 @@ const POKEDEX = [
             "base exp": "74"
          }
       ],
-      "species": [
-         {
-            "species": "Pig Monkey Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "1 ft. 8 in. (0.51m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "61.7 lbs (28.0 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/mankey.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/mankey.gif"
@@ -2746,9 +1807,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Primeape",
-            "Number": "Pig Monkey Pokemon",
-            "pokedex entry": "It stops being angry only when nobody else is around. To view this moment is very difficult."
+            "Pokemon": "Primeape"
          }
       ],
       "stats": [
@@ -2772,21 +1831,6 @@ const POKEDEX = [
             "base exp": "149"
          }
       ],
-      "species": [
-         {
-            "species": "Pig Monkey Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "3 ft. 3 in. (0.99m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "70.5 lbs (32.0 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/primeape.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/primeape.gif"
@@ -2795,9 +1839,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Growlithe",
-            "Number": "Puppy Pokemon",
-            "pokedex entry": "A Pokemon with a friendly nature. However, it will bark fiercely at anything invading its territory."
+            "Pokemon": "Growlithe"
          }
       ],
       "stats": [
@@ -2821,21 +1863,6 @@ const POKEDEX = [
             "base exp": "91"
          }
       ],
-      "species": [
-         {
-            "species": "Puppy Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "2 ft. 4 in. (0.71m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "41.9 lbs (19.0 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/growlithe.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/growlithe.gif"
@@ -2844,9 +1871,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Arcanine",
-            "Number": "Legendary Pokemon",
-            "pokedex entry": "A legendary Pokemon in China. Many people are charmed by its grace and beauty while running."
+            "Pokemon": "Arcanine"
          }
       ],
       "stats": [
@@ -2870,21 +1895,6 @@ const POKEDEX = [
             "base exp": "213"
          }
       ],
-      "species": [
-         {
-            "species": "Legendary Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "6 ft. 3 in. (1.91m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "341.7 lbs (155.0 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/arcanine.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/arcanine.gif"
@@ -2893,9 +1903,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Poliwag",
-            "Number": "Tadpole Pokemon",
-            "pokedex entry": "The direction of the spiral on the belly differs by area. It is more adept at swimming than walking."
+            "Pokemon": "Poliwag"
          }
       ],
       "stats": [
@@ -2919,21 +1927,6 @@ const POKEDEX = [
             "base exp": "77"
          }
       ],
-      "species": [
-         {
-            "species": "Tadpole Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "2â²0â³ (0.61m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "27.3 lbs (12.4 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/poliwag.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/poliwag.gif"
@@ -2942,9 +1935,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Poliwhirl",
-            "Number": "Tadpole Pokemon",
-            "pokedex entry": "Under attack, it uses its belly spiral to put the foe to sleep. It then makes its escape."
+            "Pokemon": "Poliwhirl"
          }
       ],
       "stats": [
@@ -2968,21 +1959,6 @@ const POKEDEX = [
             "base exp": "131"
          }
       ],
-      "species": [
-         {
-            "species": "Tadpole Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "3 ft. 3 in. (0.99m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "44.1 lbs (20.0 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/poliwhirl.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/poliwhirl.gif"
@@ -2991,9 +1967,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Poliwrath",
-            "Number": "Tadpole Pokemon",
-            "pokedex entry": "Swims powerfully using all the muscles in its body. It can even overtake champion swimmers."
+            "Pokemon": "Poliwrath"
          }
       ],
       "stats": [
@@ -3017,21 +1991,6 @@ const POKEDEX = [
             "base exp": "185"
          }
       ],
-      "species": [
-         {
-            "species": "Tadpole Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "4 ft. 3 in. (1.30m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "119 lbs (54.0 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/poliwrath.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/poliwrath.gif"
@@ -3040,9 +1999,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Abra",
-            "Number": "Psi Pokemon",
-            "pokedex entry": "Sleeps 18 hours a day. If it senses danger, it will teleport itself to safety even as it sleeps."
+            "Pokemon": "Abra"
          }
       ],
       "stats": [
@@ -3066,21 +2023,6 @@ const POKEDEX = [
             "base exp": "75"
          }
       ],
-      "species": [
-         {
-            "species": "Psi Pokemon"
-         }
-      ],
-      "newHeight": [
-         {
-            "height": "2 ft. 11 in. (0.89m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "43 lbs (19.5 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/abra.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/abra.gif"
@@ -3089,9 +2031,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Kadabra",
-            "Number": "Psi Pokemon",
-            "pokedex entry": "Many odd things happen if this Pokemon is close by. For example, it makes clocks run backwards."
+            "Pokemon": "Kadabra"
          }
       ],
       "stats": [
@@ -3115,21 +2055,6 @@ const POKEDEX = [
             "base exp": "145"
          }
       ],
-      "species": [
-         {
-            "species": "Psi Pokemon"
-         }
-      ],
-      "newHeight": [
-         {
-            "height": "4 ft. 3 in. (1.30m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "124.6 lbs (56.5 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/kadabra.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/kadabra.gif"
@@ -3138,9 +2063,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Alakazam",
-            "Number": "Psi Pokemon",
-            "pokedex entry": "A Pokemon that can memorize anything. It never forgets what it learns--that's why this Pokemon is smart."
+            "Pokemon": "Alakazam"
          }
       ],
       "stats": [
@@ -3164,21 +2087,6 @@ const POKEDEX = [
             "base exp": "186"
          }
       ],
-      "species": [
-         {
-            "species": "Psi Pokemon"
-         }
-      ],
-      "newHeight": [
-         {
-            "height": "4 ft. 11 in. (1.50m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "105.8 lbs (48.0 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/alakazam.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/alakazam.gif"
@@ -3187,9 +2095,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Machop",
-            "Number": "Superpower Pokemon",
-            "pokedex entry": "Very powerful in spite of its small size. Its mastery of many types of martial arts makes it very tough."
+            "Pokemon": "Machop"
          }
       ],
       "stats": [
@@ -3213,21 +2119,6 @@ const POKEDEX = [
             "base exp": "75"
          }
       ],
-      "species": [
-         {
-            "species": "Superpower Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "2 ft. 7 in. (0.79m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "43 lbs (19.5 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/machop.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/machop.gif"
@@ -3236,9 +2127,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Machoke",
-            "Number": "Superpower Pokemon",
-            "pokedex entry": "The belt around its waist holds back its energy. Without it, this Pokemon would be unstoppable."
+            "Pokemon": "Machoke"
          }
       ],
       "stats": [
@@ -3262,21 +2151,6 @@ const POKEDEX = [
             "base exp": "146"
          }
       ],
-      "species": [
-         {
-            "species": "Superpower Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "4â²11â³ (1.50m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "155.4 lbs (70.5 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/machoke.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/machoke.gif"
@@ -3285,9 +2159,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Machamp",
-            "Number": "Superpower Pokemon",
-            "pokedex entry": "One arm alone can move mountains. Using all four arms, this Pokemon fires off awesome punches."
+            "Pokemon": "Machamp"
          }
       ],
       "stats": [
@@ -3311,21 +2183,6 @@ const POKEDEX = [
             "base exp": "193"
          }
       ],
-      "species": [
-         {
-            "species": "Superpower Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "5 ft. 3 in. (1.60m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "286.6 lbs (130.0 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/machamp.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/machamp.gif"
@@ -3334,9 +2191,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Bellsprout",
-            "Number": "Flower Pokemon",
-            "pokedex entry": "Prefers hot and humid places. It ensnares tiny insects with its vines and devours them."
+            "Pokemon": "Bellsprout"
          }
       ],
       "stats": [
@@ -3360,21 +2215,6 @@ const POKEDEX = [
             "base exp": "84"
          }
       ],
-      "species": [
-         {
-            "species": "Flower Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "2 ft. 4 in. (0.71m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "8.8 lbs (4.0 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/bellsprout.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/bellsprout.gif"
@@ -3383,9 +2223,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Weepinbell",
-            "Number": "Flycatcher Pokemon",
-            "pokedex entry": "When hungry, it swallows anything that moves. Its hapless prey is melted inside by strong acids."
+            "Pokemon": "Weepinbell"
          }
       ],
       "stats": [
@@ -3409,21 +2247,6 @@ const POKEDEX = [
             "base exp": "151"
          }
       ],
-      "species": [
-         {
-            "species": "Flycatcher Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "3 ft. 3 in. (0.99m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "14.1 lbs (6.4 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/weepinbell.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/weepinbell.gif"
@@ -3432,9 +2255,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Victreebel",
-            "Number": "Flycatcher Pokemon",
-            "pokedex entry": "Lures prey with the sweet aroma of honey. Swallowed whole, the prey is melted in a day, bones and all."
+            "Pokemon": "Victreebel"
          }
       ],
       "stats": [
@@ -3458,21 +2279,6 @@ const POKEDEX = [
             "base exp": "191"
          }
       ],
-      "species": [
-         {
-            "species": "Flycatcher Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "5 ft. 7 in. (1.70m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "34.2 lbs (15.5 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/victreebel.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/victreebel.gif"
@@ -3481,9 +2287,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Tentacool",
-            "Number": "Jellyfish Pokemon",
-            "pokedex entry": "It can sometimes be found all dry and shriveled up on a beach. Toss it back into the sea to revive it."
+            "Pokemon": "Tentacool"
          }
       ],
       "stats": [
@@ -3507,21 +2311,6 @@ const POKEDEX = [
             "base exp": "105"
          }
       ],
-      "species": [
-         {
-            "species": "Jellyfish Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "2 ft. 11 in. (0.89m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "100.3 lbs (45.5 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/tentacool.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/tentacool.gif"
@@ -3530,9 +2319,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Tentacruel",
-            "Number": "Jellyfish Pokemon",
-            "pokedex entry": "Its 80 tentacles can stretch and contract freely. They wrap around prey and weaken it with poison."
+            "Pokemon": "Tentacruel"
          }
       ],
       "stats": [
@@ -3556,21 +2343,6 @@ const POKEDEX = [
             "base exp": "205"
          }
       ],
-      "species": [
-         {
-            "species": "Jellyfish Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "5 ft. 3 in. (1.60m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "121.3 lbs (55.0 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/tentacruel.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/tentacruel.gif"
@@ -3579,9 +2351,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Geodude",
-            "Number": "Rock Pokemon",
-            "pokedex entry": "Commonly found near mountain trails, etc. If you step on one by accident, it gets angry."
+            "Pokemon": "Geodude"
          }
       ],
       "stats": [
@@ -3605,21 +2375,6 @@ const POKEDEX = [
             "base exp": "73"
          }
       ],
-      "species": [
-         {
-            "species": "Rock Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "1 ft. 4 in. (0.41m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "44.1 lbs (20.0 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/geodude.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/geodude.gif"
@@ -3628,9 +2383,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Graveler",
-            "Number": "Rock Pokemon",
-            "pokedex entry": "Often seen rolling down mountain trails. Obstacles are just things to roll straight over, not avoid."
+            "Pokemon": "Graveler"
          }
       ],
       "stats": [
@@ -3654,21 +2407,6 @@ const POKEDEX = [
             "base exp": "134"
          }
       ],
-      "species": [
-         {
-            "species": "Rock Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "3 ft. 3 in. (0.99m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "231.5 lbs (105.0 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/graveler.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/graveler.gif"
@@ -3677,9 +2415,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Golem",
-            "Number": "Megaton Pokemon",
-            "pokedex entry": "Once it sheds its skin, its body turns tender and whitish. Its hide hardens when it's exposed to air."
+            "Pokemon": "Golem"
          }
       ],
       "stats": [
@@ -3703,21 +2439,6 @@ const POKEDEX = [
             "base exp": "177"
          }
       ],
-      "species": [
-         {
-            "species": "Megaton Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "4 ft. 7 in. (1.40m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "661.4 lbs (300.0 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/golem.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/golem.gif"
@@ -3726,9 +2447,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Ponyta",
-            "Number": "Fire Horse Pokemon",
-            "pokedex entry": "Capable of jumping incredibly high. Its hooves and sturdy legs absorb the impact of a hard landing."
+            "Pokemon": "Ponyta"
          }
       ],
       "stats": [
@@ -3752,21 +2471,6 @@ const POKEDEX = [
             "base exp": "152"
          }
       ],
-      "species": [
-         {
-            "species": "Fire Horse Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "3 ft. 3 in. (0.99m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "66.1 lbs (30.0 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/ponyta.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/ponyta.gif"
@@ -3775,9 +2479,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Rapidash",
-            "Number": "Fire Horse Pokemon",
-            "pokedex entry": "Just loves to run. If it sees something faster than itself, it will give chase at top speed."
+            "Pokemon": "Rapidash"
          }
       ],
       "stats": [
@@ -3801,21 +2503,6 @@ const POKEDEX = [
             "base exp": "192"
          }
       ],
-      "species": [
-         {
-            "species": "Fire Horse Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "5 ft. 7 in. (1.70m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "209.4 lbs (95.0 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/rapidash.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/rapidash.gif"
@@ -3824,9 +2511,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Slowpoke",
-            "Number": "Dopey Pokemon",
-            "pokedex entry": "Incredibly slow and sluggish. It is quite content to loll about without worrying about the time."
+            "Pokemon": "Slowpoke"
          }
       ],
       "stats": [
@@ -3850,21 +2535,6 @@ const POKEDEX = [
             "base exp": "99"
          }
       ],
-      "species": [
-         {
-            "species": "Dopey Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "3 ft. 11 in. (1.19m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "79.4 lbs (36.0 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/slowpoke.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/slowpoke.gif"
@@ -3873,9 +2543,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Slowbro",
-            "Number": "Hermit Crab Pokemon",
-            "pokedex entry": "Lives lazily by the sea. If the SHELLDER on its tail comes off, it becomes a SLOWPOKE again."
+            "Pokemon": "Slowbro"
          }
       ],
       "stats": [
@@ -3899,21 +2567,6 @@ const POKEDEX = [
             "base exp": "164"
          }
       ],
-      "species": [
-         {
-            "species": "Hermit Crab Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "5 ft. 3 in. (1.60m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "173.1 lbs (78.5 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/slowbro.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/slowbro.gif"
@@ -3922,9 +2575,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Magnemite",
-            "Number": "Magnet Pokemon",
-            "pokedex entry": "It is born with the ability to defy gravity. It floats in air on powerful electromagnetic waves."
+            "Pokemon": "Magnemite"
          }
       ],
       "stats": [
@@ -3948,21 +2599,6 @@ const POKEDEX = [
             "base exp": "89"
          }
       ],
-      "species": [
-         {
-            "species": "Magnet Pokemon"
-         }
-      ],
-      "newHeight": [
-         {
-            "height": "1 ft. 0 in. (0.30m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "13.2 lbs (6.0 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/magnemite.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/magnemite.gif"
@@ -3971,9 +2607,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Magneton",
-            "Number": "Magnet Pokemon",
-            "pokedex entry": "Generates strange radio signals. It raises the temperature by 3.6F degrees within 3,300 feet."
+            "Pokemon": "Magneton"
          }
       ],
       "stats": [
@@ -3997,21 +2631,6 @@ const POKEDEX = [
             "base exp": "161"
          }
       ],
-      "species": [
-         {
-            "species": "Magnet Pokemon"
-         }
-      ],
-      "newHeight": [
-         {
-            "height": "3 ft. 3 in. (0.99m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "132.3 lbs (60.0 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/magneton.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/magneton.gif"
@@ -4020,9 +2639,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Farfetchd",
-            "Number": "Wild Duck Pokemon",
-            "pokedex entry": "Lives where reedy plants grow. They are rarely seen, so it's thought their numbers are decreasing."
+            "Pokemon": "Farfetchd"
          }
       ],
       "stats": [
@@ -4046,21 +2663,6 @@ const POKEDEX = [
             "base exp": "94"
          }
       ],
-      "species": [
-         {
-            "species": "Wild Duck Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "2 ft. 7 in. (0.79m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "33.1 lbs (15.0 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/farfetchd.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/farfetchd.gif"
@@ -4069,9 +2671,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Doduo",
-            "Number": "Twin Bird Pokemon",
-            "pokedex entry": "Its short wings make flying difficult. Instead, this Pokemon runs at high speed on developed legs."
+            "Pokemon": "Doduo"
          }
       ],
       "stats": [
@@ -4095,21 +2695,6 @@ const POKEDEX = [
             "base exp": "96"
          }
       ],
-      "species": [
-         {
-            "species": "Twin Bird Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "4 ft. 7 in. (1.40m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "86.4 lbs (39.2 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/doduo.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/doduo.gif"
@@ -4118,9 +2703,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Dodrio",
-            "Number": "Triple Bird Pokemon",
-            "pokedex entry": "One of DODUO's 2 heads splits to form a unique species. It runs close to 40 MPH in prairies."
+            "Pokemon": "Dodrio"
          }
       ],
       "stats": [
@@ -4144,21 +2727,6 @@ const POKEDEX = [
             "base exp": "158"
          }
       ],
-      "species": [
-         {
-            "species": "Triple Bird Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "5 ft. 11 in. (1.80m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "187.8 lbs (85.2 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/dodrio.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/dodrio.gif"
@@ -4167,9 +2735,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Seel",
-            "Number": "Sea Lion Pokemon",
-            "pokedex entry": "Loves freezing cold conditions. Relishes swimming in a frigid climate of around 14F degrees."
+            "Pokemon": "Seel"
          }
       ],
       "stats": [
@@ -4193,21 +2759,6 @@ const POKEDEX = [
             "base exp": "100"
          }
       ],
-      "species": [
-         {
-            "species": "Sea Lion Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "3 ft. 7 in. (1.09m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "198.4 lbs (90.0 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/seel.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/seel.gif"
@@ -4216,9 +2767,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Dewgong",
-            "Number": "Sea Lion Pokemon",
-            "pokedex entry": "Its entire body is a snowy-white. Unharmed by even intense cold, it swims powerfully in icy waters."
+            "Pokemon": "Dewgong"
          }
       ],
       "stats": [
@@ -4242,21 +2791,6 @@ const POKEDEX = [
             "base exp": "176"
          }
       ],
-      "species": [
-         {
-            "species": "Sea Lion Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "5 ft. 7 in. (1.70m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "264.6 lbs (120.0 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/dewgong.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/dewgong.gif"
@@ -4265,9 +2799,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Grimer",
-            "Number": "Sludge Pokemon",
-            "pokedex entry": "Made of hardened sludge. It smells too putrid to touch. Even weeds won't grow in its path."
+            "Pokemon": "Grimer"
          }
       ],
       "stats": [
@@ -4291,21 +2823,6 @@ const POKEDEX = [
             "base exp": "90"
          }
       ],
-      "species": [
-         {
-            "species": "Sludge Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "2 ft. 11 in. (0.89m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "66.1 lbs (30.0 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/grimer.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/grimer.gif"
@@ -4314,9 +2831,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Muk",
-            "Number": "Sludge Pokemon",
-            "pokedex entry": "Smells so awful, it can cause fainting. Through degeneration, it lost its sense of smell."
+            "Pokemon": "Muk"
          }
       ],
       "stats": [
@@ -4340,21 +2855,6 @@ const POKEDEX = [
             "base exp": "157"
          }
       ],
-      "species": [
-         {
-            "species": "Sludge Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "3 ft. 11 in. (1.19m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "66.1 lbs (30.0 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/muk.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/muk.gif"
@@ -4363,9 +2863,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Shellder",
-            "Number": "Bivalve Pokemon",
-            "pokedex entry": "The shell can withstand any attack. However, when it is open, the tender body is exposed."
+            "Pokemon": "Shellder"
          }
       ],
       "stats": [
@@ -4389,21 +2887,6 @@ const POKEDEX = [
             "base exp": "97"
          }
       ],
-      "species": [
-         {
-            "species": "Bivalve Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "1 ft. 0 in. (0.30m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "8.8 lbs (4.0 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/shellder.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/shellder.gif"
@@ -4412,9 +2895,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Cloyster",
-            "Number": "Bivalve Pokemon",
-            "pokedex entry": "For protection, it uses its harder-than-diamonds shell. It also shoots spikes from the shell."
+            "Pokemon": "Cloyster"
          }
       ],
       "stats": [
@@ -4438,21 +2919,6 @@ const POKEDEX = [
             "base exp": "203"
          }
       ],
-      "species": [
-         {
-            "species": "Bivalve Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "4 ft. 11 in. (1.50m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "292.1 lbs (132.5 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/cloyster.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/cloyster.gif"
@@ -4461,9 +2927,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Gastly",
-            "Number": "Gas Pokemon",
-            "pokedex entry": "Said to appear in decrepit, deserted buildings. It has no real shape as it appears to be made of a gas."
+            "Pokemon": "Gastly"
          }
       ],
       "stats": [
@@ -4487,21 +2951,6 @@ const POKEDEX = [
             "base exp": "95"
          }
       ],
-      "species": [
-         {
-            "species": "Gas Pokemon"
-         }
-      ],
-      "newHeight": [
-         {
-            "height": "4 ft. 3 in. (1.30m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "0.2 lbs (0.1 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/gastly.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/gastly.gif"
@@ -4510,9 +2959,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Haunter",
-            "Number": "Gas Pokemon",
-            "pokedex entry": "By licking, it saps the victim's life. It causes shaking that won't stop until the victim's demise."
+            "Pokemon": "Haunter"
          }
       ],
       "stats": [
@@ -4536,21 +2983,6 @@ const POKEDEX = [
             "base exp": "126"
          }
       ],
-      "species": [
-         {
-            "species": "Gas Pokemon"
-         }
-      ],
-      "newHeight": [
-         {
-            "height": "5 ft. 3 in. (1.60m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "0.2 lbs (0.1 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/haunter.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/haunter.gif"
@@ -4559,9 +2991,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Gengar",
-            "Number": "Shadow Pokemon",
-            "pokedex entry": "A GENGAR is close by if you feel a sudden chill. It may be trying to lay a curse on you."
+            "Pokemon": "Gengar"
          }
       ],
       "stats": [
@@ -4585,21 +3015,6 @@ const POKEDEX = [
             "base exp": "190"
          }
       ],
-      "species": [
-         {
-            "species": "Shadow Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "4 ft. 11 in. (1.50m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "89.3 lbs (40.5 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/gengar.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/gengar.gif"
@@ -4608,9 +3023,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Onix",
-            "Number": "Rock Snake Pokemon",
-            "pokedex entry": "Burrows at high speed in search of food. The tunnels it leaves are used as homes by DIGLETTs."
+            "Pokemon": "Onix"
          }
       ],
       "stats": [
@@ -4634,21 +3047,6 @@ const POKEDEX = [
             "base exp": "108"
          }
       ],
-      "species": [
-         {
-            "species": "Rock Snake Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "28 ft. 10 in. (8.79m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "463 lbs (210.0 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/onix.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/onix.gif"
@@ -4657,9 +3055,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Drowzee",
-            "Number": "Hypnosis Pokemon",
-            "pokedex entry": "If you sleep by it all the time, it will sometimes show you dreams it has eaten in the past."
+            "Pokemon": "Drowzee"
          }
       ],
       "stats": [
@@ -4683,21 +3079,6 @@ const POKEDEX = [
             "base exp": "102"
          }
       ],
-      "species": [
-         {
-            "species": "Hypnosis Pokemon"
-         }
-      ],
-      "newHeight": [
-         {
-            "height": "3 ft. 3 in. (0.99m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "71.4 lbs (32.4 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/drowzee.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/drowzee.gif"
@@ -4706,9 +3087,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Hypno",
-            "Number": "Hypnosis Pokemon",
-            "pokedex entry": "Avoid eye contact if you come across one. It will try to put you to sleep by using its pendulum."
+            "Pokemon": "Hypno"
          }
       ],
       "stats": [
@@ -4732,21 +3111,6 @@ const POKEDEX = [
             "base exp": "165"
          }
       ],
-      "species": [
-         {
-            "species": "Hypnosis Pokemon"
-         }
-      ],
-      "newHeight": [
-         {
-            "height": "5â²3â³ (1.60m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "166.7 lbs (75.6 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/hypno.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/hypno.gif"
@@ -4755,9 +3119,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Krabby",
-            "Number": "River Crab Pokemon",
-            "pokedex entry": "Its pincers are superb weapons. They sometimes break off during battle, but they grow back fast."
+            "Pokemon": "Krabby"
          }
       ],
       "stats": [
@@ -4781,21 +3143,6 @@ const POKEDEX = [
             "base exp": "115"
          }
       ],
-      "species": [
-         {
-            "species": "River Crab Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "1 ft. 4 in. (0.41m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "14.3 lbs (6.5 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/krabby.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/krabby.gif"
@@ -4804,9 +3151,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Kingler",
-            "Number": "Pincer Pokemon",
-            "pokedex entry": "One claw grew massively and as hard as steel. It has 10,000-HP strength. However, it is too heavy."
+            "Pokemon": "Kingler"
          }
       ],
       "stats": [
@@ -4830,21 +3175,6 @@ const POKEDEX = [
             "base exp": "206"
          }
       ],
-      "species": [
-         {
-            "species": "Pincer Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "4 ft. 3 in. (1.30m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "132.3 lbs (60.0 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/kingler.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/kingler.gif"
@@ -4853,9 +3183,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Voltorb",
-            "Number": "Ball Pokemon",
-            "pokedex entry": "It is said to camouflage itself as a POKEBALL. It will self-destruct with very little stimulus."
+            "Pokemon": "Voltorb"
          }
       ],
       "stats": [
@@ -4879,21 +3207,6 @@ const POKEDEX = [
             "base exp": "103"
          }
       ],
-      "species": [
-         {
-            "species": "Ball Pokemon"
-         }
-      ],
-      "newHeight": [
-         {
-            "height": "1 ft. 8 in. (0.51m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "22.9 lbs (10.4 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/voltorb.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/voltorb.gif"
@@ -4902,9 +3215,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Electrode",
-            "Number": "Ball Pokemon",
-            "pokedex entry": "Stores electrical energy inside its body. Even the slightest shock could trigger a huge explosion."
+            "Pokemon": "Electrode"
          }
       ],
       "stats": [
@@ -4928,21 +3239,6 @@ const POKEDEX = [
             "base exp": "150"
          }
       ],
-      "species": [
-         {
-            "species": "Ball Pokemon"
-         }
-      ],
-      "newHeight": [
-         {
-            "height": "3 ft. 11 in. (1.19m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "146.8 lbs (66.6 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/electrode.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/electrode.gif"
@@ -4951,9 +3247,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Exeggcute",
-            "Number": "Egg Pokemon",
-            "pokedex entry": "The heads attract each other and spin around. There must be 6 heads for it to maintain balance."
+            "Pokemon": "Exeggcute"
          }
       ],
       "stats": [
@@ -4977,21 +3271,6 @@ const POKEDEX = [
             "base exp": "98"
          }
       ],
-      "species": [
-         {
-            "species": "Egg Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "1 ft. 4 in. (0.41m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "5.5 lbs (2.5 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/exeggcute.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/exeggcute.gif"
@@ -5000,9 +3279,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Exeggutor",
-            "Number": "Coconut Pokemon",
-            "pokedex entry": "Its cries are very noisy. This is because each of the 3 heads thinks about whatever it likes."
+            "Pokemon": "Exeggutor"
          }
       ],
       "stats": [
@@ -5026,21 +3303,6 @@ const POKEDEX = [
             "base exp": "212"
          }
       ],
-      "species": [
-         {
-            "species": "Coconut Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "6 ft. 7 in. (2.01m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "264.6 lbs (120.0 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/exeggutor.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/exeggutor.gif"
@@ -5049,9 +3311,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Cubone",
-            "Number": "Lonely Pokemon",
-            "pokedex entry": "Wears the skull of its deceased mother. Its cries echo inside the skull and come out as a sad melody."
+            "Pokemon": "Cubone"
          }
       ],
       "stats": [
@@ -5075,21 +3335,6 @@ const POKEDEX = [
             "base exp": "87"
          }
       ],
-      "species": [
-         {
-            "species": "Lonely Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "1 ft. 4 in. (0.41m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "14.3 lbs (6.5 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/cubone.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/cubone.gif"
@@ -5098,9 +3343,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Marowak",
-            "Number": "Bone Keeper Pokemon",
-            "pokedex entry": "Small and weak, this Pokemon is adept with its bone club. It has grown more vicious over the ages."
+            "Pokemon": "Marowak"
          }
       ],
       "stats": [
@@ -5124,21 +3367,6 @@ const POKEDEX = [
             "base exp": "124"
          }
       ],
-      "species": [
-         {
-            "species": "Bone Keeper Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "3 ft. 3 in. (0.99m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "99.2 lbs (45.0 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/marowak.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/marowak.gif"
@@ -5147,9 +3375,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Hitmonlee",
-            "Number": "Kicking Pokemon",
-            "pokedex entry": "When kicking, the sole of its foot turns as hard as a diamond on impact and destroys its enemy."
+            "Pokemon": "Hitmonlee"
          }
       ],
       "stats": [
@@ -5173,21 +3399,6 @@ const POKEDEX = [
             "base exp": "139"
          }
       ],
-      "species": [
-         {
-            "species": "Kicking Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "4 ft. 11 in. (1.50m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "109.8 lbs (49.8 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/hitmonlee.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/hitmonlee.gif"
@@ -5196,9 +3407,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Hitmonchan",
-            "Number": "Punching Pokemon",
-            "pokedex entry": "Punches in corkscrew fashion. It can punch its way through a concrete wall in the same way as a drill."
+            "Pokemon": "Hitmonchan"
          }
       ],
       "stats": [
@@ -5222,21 +3431,6 @@ const POKEDEX = [
             "base exp": "140"
          }
       ],
-      "species": [
-         {
-            "species": "Punching Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "4 ft. 7 in. (1.40m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "110.7 lbs (50.2 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/hitmonchan.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/hitmonchan.gif"
@@ -5245,9 +3439,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Lickitung",
-            "Number": "Licking Pokemon",
-            "pokedex entry": "Its tongue spans almost 7 feet and moves more freely than its forelegs. Its licks can cause paralysis."
+            "Pokemon": "Lickitung"
          }
       ],
       "stats": [
@@ -5271,21 +3463,6 @@ const POKEDEX = [
             "base exp": "127"
          }
       ],
-      "species": [
-         {
-            "species": "Licking Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "3 ft. 11 in. (1.19m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "144.4 lbs (65.5 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/lickitung.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/lickitung.gif"
@@ -5294,9 +3471,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Koffing",
-            "Number": "Poison Gas Pokemon",
-            "pokedex entry": "In hot places, its internal gases could expand and explode without any warning. Be very careful!"
+            "Pokemon": "Koffing"
          }
       ],
       "stats": [
@@ -5320,21 +3495,6 @@ const POKEDEX = [
             "base exp": "114"
          }
       ],
-      "species": [
-         {
-            "species": "Poison Gas Pokemon"
-         }
-      ],
-      "newHeight": [
-         {
-            "height": "2 ft. 0 in. (0.61m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "2.2 lbs (1.0 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/koffing.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/koffing.gif"
@@ -5343,9 +3503,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Weezing",
-            "Number": "Poison Gas Pokemon",
-            "pokedex entry": "It lives and grows by absorbing dust, germs and poison gases that are contained in toxic waste and garbage."
+            "Pokemon": "Weezing"
          }
       ],
       "stats": [
@@ -5369,21 +3527,6 @@ const POKEDEX = [
             "base exp": "173"
          }
       ],
-      "species": [
-         {
-            "species": "Poison Gas Pokemon"
-         }
-      ],
-      "newHeight": [
-         {
-            "height": "3 ft. 11 in. (1.19m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "20.9 lbs (9.5 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/weezing.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/weezing.gif"
@@ -5392,9 +3535,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Rhyhorn",
-            "Number": "Spikes Pokemon",
-            "pokedex entry": "A Pokemon with a one-track mind. Once it charges, it won't stop running until it falls asleep."
+            "Pokemon": "Rhyhorn"
          }
       ],
       "stats": [
@@ -5418,21 +3559,6 @@ const POKEDEX = [
             "base exp": "135"
          }
       ],
-      "species": [
-         {
-            "species": "Spikes Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "3 ft. 3 in. (0.99m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "253.5 lbs (115.0 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/rhyhorn.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/rhyhorn.gif"
@@ -5441,9 +3567,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Rhydon",
-            "Number": "Drill Pokemon",
-            "pokedex entry": "Walks on its hind legs. Shows signs of intelligence. Its armor-like hide even repels molten lava."
+            "Pokemon": "Rhydon"
          }
       ],
       "stats": [
@@ -5462,26 +3586,6 @@ const POKEDEX = [
             }
          }
       ],
-      "exp": [
-         {
-            "base exp": "204"
-         }
-      ],
-      "species": [
-         {
-            "species": "Drill Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "6 ft. 3 in. (1.91m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "264.6 lbs (120.0 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/rhydon.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/rhydon.gif"
@@ -5490,9 +3594,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Chansey",
-            "Number": "Egg Pokemon",
-            "pokedex entry": "A gentle and kindhearted Pokemon that shares its nutritious eggs if it sees an injured Pokemon."
+            "Pokemon": "Chansey"
          }
       ],
       "stats": [
@@ -5516,21 +3618,6 @@ const POKEDEX = [
             "base exp": "255"
          }
       ],
-      "species": [
-         {
-            "species": "Egg Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "3 ft. 7 in. (1.09m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "76.3 lbs (34.6 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/chansey.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/chansey.gif"
@@ -5539,9 +3626,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Tangela",
-            "Number": "Vine Pokemon",
-            "pokedex entry": "Its identity is obscured by masses of thick, blue vines. The vines are said to never stop growing."
+            "Pokemon": "Tangela"
          }
       ],
       "stats": [
@@ -5565,21 +3650,6 @@ const POKEDEX = [
             "base exp": "166"
          }
       ],
-      "species": [
-         {
-            "species": "Vine Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "3 ft. 3 in. (0.99m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "77.2 lbs (35.0 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/tangela.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/tangela.gif"
@@ -5588,9 +3658,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Kangaskhan",
-            "Number": "Parent Pokemon",
-            "pokedex entry": "Raises its young in its belly pouch. Won't run from any fight to keep its young protected."
+            "Pokemon": "Kangaskhan"
          }
       ],
       "stats": [
@@ -5614,21 +3682,6 @@ const POKEDEX = [
             "base exp": "175"
          }
       ],
-      "species": [
-         {
-            "species": "Parent Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "7 ft. 3 in. (2.21m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "176.4 lbs (80.0 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/kangaskhan.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/kangaskhan.gif"
@@ -5637,9 +3690,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Horsea",
-            "Number": "Dragon Pokemon",
-            "pokedex entry": "If it senses any danger, it will vigorously spray water or a special type of ink from its mouth."
+            "Pokemon": "Horsea"
          }
       ],
       "stats": [
@@ -5663,21 +3714,6 @@ const POKEDEX = [
             "base exp": "83"
          }
       ],
-      "species": [
-         {
-            "species": "Dragon Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "1 ft. 4 in. (0.41m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "17.6 lbs (8.0 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/horsea.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/horsea.gif"
@@ -5686,9 +3722,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Seadra",
-            "Number": "Dragon Pokemon",
-            "pokedex entry": "Touching the back fin causes numbness. It hooks its tail to coral to stay in place while sleeping."
+            "Pokemon": "Seadra"
          }
       ],
       "stats": [
@@ -5712,21 +3746,6 @@ const POKEDEX = [
             "base exp": "155"
          }
       ],
-      "species": [
-         {
-            "species": "Dragon Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "3 ft. 11 in. (1.19m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "55.1 lbs (25.0 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/seadra.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/seadra.gif"
@@ -5735,9 +3754,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Goldeen",
-            "Number": "Goldfish Pokemon",
-            "pokedex entry": "When it is time for them to lay eggs, they can be seen swimming up rivers and falls in large groups."
+            "Pokemon": "Goldeen"
          }
       ],
       "stats": [
@@ -5761,21 +3778,6 @@ const POKEDEX = [
             "base exp": "111"
          }
       ],
-      "species": [
-         {
-            "species": "Goldfish Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "2 ft. 0 in. (0.61m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "33.1 lbs (15.0 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/goldeen.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/goldeen.gif"
@@ -5784,9 +3786,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Seaking",
-            "Number": "Goldfish Pokemon",
-            "pokedex entry": "It is the male's job to make a nest by carving out boulders in a stream using the horn on its head."
+            "Pokemon": "Seaking"
          }
       ],
       "stats": [
@@ -5810,21 +3810,6 @@ const POKEDEX = [
             "base exp": "170"
          }
       ],
-      "species": [
-         {
-            "species": "Goldfish Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "4 ft. 3 in. (1.30m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "86 lbs (39.0 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/seaking.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/seaking.gif"
@@ -5833,9 +3818,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Staryu",
-            "Number": "Star Shape Pokemon",
-            "pokedex entry": "As long as the center section is unharmed, it can grow back fully even if it is chopped to bits."
+            "Pokemon": "Staryu"
          }
       ],
       "stats": [
@@ -5859,21 +3842,6 @@ const POKEDEX = [
             "base exp": "106"
          }
       ],
-      "species": [
-         {
-            "species": "Star Shape Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "2 ft. 7 in. (0.79m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "76.1 lbs (34.5 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/staryu.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/staryu.gif"
@@ -5882,9 +3850,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Starmie",
-            "Number": "Mysterious Pokemon",
-            "pokedex entry": "The center section is named the core. People think it is communicating when it glows in 7 colors."
+            "Pokemon": "Starmie"
          }
       ],
       "stats": [
@@ -5908,21 +3874,6 @@ const POKEDEX = [
             "base exp": "207"
          }
       ],
-      "species": [
-         {
-            "species": "Mysterious Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "3 ft. 7 in. (1.09m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "176.4 lbs (80.0 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/starmie.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/starmie.gif"
@@ -5931,9 +3882,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Mr. Mime",
-            "Number": "Barrier Pokemon",
-            "pokedex entry": "Always practices its pantomime act. It makes enemies believe something exists that really doesn't."
+            "Pokemon": "Mr. Mime"
          }
       ],
       "stats": [
@@ -5957,21 +3906,6 @@ const POKEDEX = [
             "base exp": "136"
          }
       ],
-      "species": [
-         {
-            "species": "Barrier Pokemon"
-         }
-      ],
-      "newHeight": [
-         {
-            "height": "4 ft. 3 in. (1.30m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "120.2 lbs (54.5 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/mr-mime.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/mr-mime.gif"
@@ -5980,9 +3914,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Scyther",
-            "Number": "Mantis Pokemon",
-            "pokedex entry": "Leaps out of tall grass and slices prey with its scythes. The movement looks like that of a ninja."
+            "Pokemon": "Scyther"
          }
       ],
       "stats": [
@@ -6006,21 +3938,6 @@ const POKEDEX = [
             "base exp": "187"
          }
       ],
-      "species": [
-         {
-            "species": "Mantis Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "4 ft. 11 in. (1.50m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "123.5 lbs (56.0 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/scyther.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/scyther.gif"
@@ -6029,9 +3946,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Jynx",
-            "Number": "Human Shape Pokemon",
-            "pokedex entry": "Appears to move to a rhythm of its own, as if it were dancing. It wiggles its hips as it walks."
+            "Pokemon": "Jynx"
          }
       ],
       "stats": [
@@ -6055,21 +3970,6 @@ const POKEDEX = [
             "base exp": "137"
          }
       ],
-      "species": [
-         {
-            "species": "Human Shape Pokemon"
-         }
-      ],
-      "newHeight": [
-         {
-            "height": "4 ft. 7 in. (1.40m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "89.5 lbs (40.6 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/jynx.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/jynx.gif"
@@ -6078,9 +3978,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Electabuzz",
-            "Number": "Electric Pokemon",
-            "pokedex entry": "If a major power outage occurs, it is certain that this Pokemon has eaten electricity at a power plant."
+            "Pokemon": "Electabuzz"
          }
       ],
       "stats": [
@@ -6104,21 +4002,6 @@ const POKEDEX = [
             "base exp": "156"
          }
       ],
-      "species": [
-         {
-            "species": "Electric Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "3 ft. 7 in. (1.09m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "66.1 lbs (30.0 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/electabuzz.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/electabuzz.gif"
@@ -6127,9 +4010,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Magmar",
-            "Number": "Spitfire Pokemon",
-            "pokedex entry": "Born in an active volcano. Its body is always cloaked in flames, so it looks like a big ball of fire."
+            "Pokemon": "Magmar"
          }
       ],
       "stats": [
@@ -6153,21 +4034,6 @@ const POKEDEX = [
             "base exp": "167"
          }
       ],
-      "species": [
-         {
-            "species": "Spitfire Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "4 ft. 3 in. (1.30m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "98.1 lbs (44.5 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/magmar.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/magmar.gif"
@@ -6176,9 +4042,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Pinsir",
-            "Number": "Stag Beetle Pokemon",
-            "pokedex entry": "Grips its prey in its pincers and squeezes hard! It can't move if it's cold, so it lives in warm places."
+            "Pokemon": "Pinsir"
          }
       ],
       "stats": [
@@ -6202,21 +4066,6 @@ const POKEDEX = [
             "base exp": "200"
          }
       ],
-      "species": [
-         {
-            "species": "Stag Beetle Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "4 ft. 11 in. (1.50m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "121.3 lbs (55.0 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/pinsir.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/pinsir.gif"
@@ -6225,9 +4074,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Tauros",
-            "Number": "Wild Bull Pokemon",
-            "pokedex entry": "A rowdy Pokemon with a lot of stamina. Once running, it won't stop until it hits something."
+            "Pokemon": "Tauros"
          }
       ],
       "stats": [
@@ -6251,21 +4098,6 @@ const POKEDEX = [
             "base exp": "211"
          }
       ],
-      "species": [
-         {
-            "species": "Wild Bull Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "4 ft. 7 in. (1.40m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "194.9 lbs (88.4 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/tauros.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/tauros.gif"
@@ -6274,9 +4106,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Magikarp",
-            "Number": "Fish Pokemon",
-            "pokedex entry": "Famous for being very unreliable. It can be found swimming in seas, lakes, rivers and shallow puddles."
+            "Pokemon": "Magikarp"
          }
       ],
       "stats": [
@@ -6300,21 +4130,6 @@ const POKEDEX = [
             "base exp": "20"
          }
       ],
-      "species": [
-         {
-            "species": "Fish Pokemon"
-         }
-      ],
-      "newHeight": [
-         {
-            "height": "2 ft. 11 in. (0.89m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "22 lbs (10.0 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/magikarp.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/magikarp.gif"
@@ -6323,9 +4138,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Gyarados",
-            "Number": "Atrocious Pokémon",
-            "pokedex entry": "Brutally vicious and enormously destructive. Known for totally destroying cities in ancient times."
+            "Pokemon": "Gyarados"
          }
       ],
       "stats": [
@@ -6349,21 +4162,6 @@ const POKEDEX = [
             "base exp": "214"
          }
       ],
-      "species": [
-         {
-            "species": "Atrocious Pokémon"
-         }
-      ],
-      "height": [
-         {
-            "height": "21'4? (6.50m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "518.1 lbs (235.0 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/gyarados.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/gyarados.gif"
@@ -6372,9 +4170,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Lapras",
-            "Number": "Transport Pokemon",
-            "pokedex entry": "A gentle soul that can read the minds of people. It can ferry people across the sea on its back."
+            "Pokemon": "Lapras"
          }
       ],
       "stats": [
@@ -6398,21 +4194,6 @@ const POKEDEX = [
             "base exp": "219"
          }
       ],
-      "species": [
-         {
-            "species": "Transport Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "8 ft. 2 in. (2.49m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "485 lbs (220.0 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/lapras.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/lapras.gif"
@@ -6421,9 +4202,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Ditto",
-            "Number": "Transform Pokemon",
-            "pokedex entry": "When it spots an enemy, its body transfigures into an almost perfect copy of its opponent."
+            "Pokemon": "Ditto"
          }
       ],
       "stats": [
@@ -6447,21 +4226,6 @@ const POKEDEX = [
             "base exp": "61"
          }
       ],
-      "tms": [
-         {
-            "species": "Transform Pokemon"
-         }
-      ],
-      "newHeight": [
-         {
-            "height": "1 ft. 0 in. (0.30m)"
-         }
-      ],
-      "species": [
-         {
-            "weight": "8.8 lbs (4.0 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/ditto.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/ditto.gif"
@@ -6470,9 +4234,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Eevee",
-            "Number": "Evolution Pokemon",
-            "pokedex entry": "Its genetic code is unstable, so it could evolve in a variety of ways. There are only a few alive."
+            "Pokemon": "Eevee"
          }
       ],
       "stats": [
@@ -6496,21 +4258,6 @@ const POKEDEX = [
             "base exp": "92"
          }
       ],
-      "tms": [
-         {
-            "species": "Evolution Pokemon"
-         }
-      ],
-      "newHeight": [
-         {
-            "height": "1 ft. 0 in. (0.30m)"
-         }
-      ],
-      "species": [
-         {
-            "weight": "14.3 lbs (6.5 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/eevee.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/eevee.gif"
@@ -6519,9 +4266,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Vaporeon",
-            "Number": "Bubble Jet Pokemon",
-            "pokedex entry": "Its cell structure is similar to water molecules. It will melt away and become invisible in water."
+            "Pokemon": "Vaporeon"
          }
       ],
       "stats": [
@@ -6545,21 +4290,6 @@ const POKEDEX = [
             "base exp": "196"
          }
       ],
-      "species": [
-         {
-            "species": "Bubble Jet Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "3â²3â³ (0.99m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "63.9 lbs (29.0 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/vaporeon.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/vaporeon.gif"
@@ -6568,9 +4298,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Jolteon",
-            "Number": "Lightning Pokemon",
-            "pokedex entry": "A sensitive Pokemon that easily becomes sad or angry. Every time its mood changes, it charges power."
+            "Pokemon": "Jolteon"
          }
       ],
       "stats": [
@@ -6594,21 +4322,6 @@ const POKEDEX = [
             "base exp": "197"
          }
       ],
-      "species": [
-         {
-            "species": "Lightning Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "2 ft. 7 in. (0.79m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "54 lbs (24.5 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/jolteon.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/jolteon.gif"
@@ -6617,9 +4330,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Flareon",
-            "Number": "Flame Pokemon",
-            "pokedex entry": "It has a flame chamber inside its body. It inhales, then blows out fire that is over 3,000F degrees."
+            "Pokemon": "Flareon"
          }
       ],
       "stats": [
@@ -6643,21 +4354,6 @@ const POKEDEX = [
             "base exp": "198"
          }
       ],
-      "species": [
-         {
-            "species": "Flame Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "2 ft. 11 (0.89m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "55.1 lbs (25.0 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/flareon.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/flareon.gif"
@@ -6666,9 +4362,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Porygon",
-            "Number": "Virtual Pokemon",
-            "pokedex entry": "The only Pokemon people anticipate can fly into space. None has managed the feat yet, however."
+            "Pokemon": "Porygon"
          }
       ],
       "stats": [
@@ -6692,21 +4386,6 @@ const POKEDEX = [
             "base exp": "130"
          }
       ],
-      "tms": [
-         {
-            "species": "Virtual Pokemon"
-         }
-      ],
-      "newHeight": [
-         {
-            "height": "2 ft. 7 in. (0.79m)"
-         }
-      ],
-      "species": [
-         {
-            "weight": "80.5 lbs (36.5 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/porygon.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/porygon.gif"
@@ -6715,9 +4394,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Omanyte",
-            "Number": "Spiral Pokemon",
-            "pokedex entry": "An ancient Pokemon that was recovered from a fossil. It swims by cleverly twisting its 10 tentacles about."
+            "Pokemon": "Omanyte"
          }
       ],
       "stats": [
@@ -6741,21 +4418,6 @@ const POKEDEX = [
             "base exp": "99"
          }
       ],
-      "species": [
-         {
-            "species": "Spiral Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "1 ft. 4 in. (0.41m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "16.5 lbs (7.5 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/omanyte.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/omanyte.gif"
@@ -6764,9 +4426,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Omastar",
-            "Number": "Spiral Pokemon",
-            "pokedex entry": "Sharp beaks ring its mouth. Its shell was too big for it to move freely, so it became extinct."
+            "Pokemon": "Omastar"
          }
       ],
       "stats": [
@@ -6790,21 +4450,6 @@ const POKEDEX = [
             "base exp": "199"
          }
       ],
-      "species": [
-         {
-            "species": "Spiral Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "3 ft. 3 in. (0.99m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "77.2 lbs (35.0 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/omastar.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/omastar.gif"
@@ -6813,9 +4458,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Kabuto",
-            "Number": "Shellfish Pokemon",
-            "pokedex entry": "A Pokemon that was recovered from a fossil. It uses the eyes on its back while hiding on the sea floor."
+            "Pokemon": "Kabuto"
          }
       ],
       "stats": [
@@ -6839,21 +4482,6 @@ const POKEDEX = [
             "base exp": "99"
          }
       ],
-      "species": [
-         {
-            "species": "Shellfish Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "1 ft. 8 in. (0.51m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "25.4 lbs (11.5 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/kabuto.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/kabuto.gif"
@@ -6862,9 +4490,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Kabutops",
-            "Number": "Shellfish Pokemon",
-            "pokedex entry": "A slim and fast swimmer. It slices its prey with its sharp sickles and drinks the body fluids."
+            "Pokemon": "Kabutops"
          }
       ],
       "stats": [
@@ -6888,21 +4514,6 @@ const POKEDEX = [
             "base exp": "199"
          }
       ],
-      "species": [
-         {
-            "species": "Shellfish Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "4 ft. 3 in. (1.30m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "89.3 lbs (40.5 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/kabutops.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/kabutops.gif"
@@ -6911,9 +4522,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Aerodactyl",
-            "Number": "Fossil Pokemon",
-            "pokedex entry": "A savage Pokemon that died out in ancient times. It was resurrected using DNA taken from amber."
+            "Pokemon": "Aerodactyl"
          }
       ],
       "stats": [
@@ -6937,21 +4546,6 @@ const POKEDEX = [
             "base exp": "202"
          }
       ],
-      "species": [
-         {
-            "species": "Fossil Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "5 ft. 11 in. (1.80m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "130.1 lbs (59.0 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/aerodactyl.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/aerodactyl.gif"
@@ -6960,9 +4554,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Snorlax",
-            "Number": "Sleeping Pokemon",
-            "pokedex entry": "Will eat anything, even if the food happens to be a little moldy. It never gets an upset stomach."
+            "Pokemon": "Snorlax"
          }
       ],
       "stats": [
@@ -6986,21 +4578,6 @@ const POKEDEX = [
             "base exp": "154"
          }
       ],
-      "species": [
-         {
-            "species": "Sleeping Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "6 ft. 11 in. (2.11m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "1014.1 lbs (460.0 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/snorlax.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/snorlax.gif"
@@ -7009,9 +4586,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Articuno",
-            "Number": "Freeze Pokemon",
-            "pokedex entry": "A legendary bird Pokemon. It freezes water that is contained in winter air and makes it snow."
+            "Pokemon": "Articuno"
          }
       ],
       "stats": [
@@ -7035,21 +4610,6 @@ const POKEDEX = [
             "base exp": "215"
          }
       ],
-      "species": [
-         {
-            "species": "Freeze Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "5 ft. 7 in. (1.70m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "122.1 lbs (55.4 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/articuno.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/articuno.gif"
@@ -7058,9 +4618,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Zapdos",
-            "Number": "Electric Pokemon",
-            "pokedex entry": "This legendary bird Pokemon is said to appear when the sky turns dark and lightning showers down."
+            "Pokemon": "Zapdos"
          }
       ],
       "stats": [
@@ -7084,21 +4642,6 @@ const POKEDEX = [
             "base exp": "216"
          }
       ],
-      "species": [
-         {
-            "species": "Electric Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "5 ft. 3 in. (1.60m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "116 lbs (52.6 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/zapdos.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/zapdos.gif"
@@ -7107,9 +4650,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Moltres",
-            "Number": "Flame Pokemon",
-            "pokedex entry": "A legendary bird Pokemon. As it flaps its flaming wings, even the night sky will turn red."
+            "Pokemon": "Moltres"
          }
       ],
       "stats": [
@@ -7133,21 +4674,6 @@ const POKEDEX = [
             "base exp": "217"
          }
       ],
-      "species": [
-         {
-            "species": "Flame Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "6 ft. 7 in. (2.01m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "132.3 lbs (60.0 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/moltres.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/moltres.gif"
@@ -7156,9 +4682,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Dratini",
-            "Number": "Dragon Pokemon",
-            "pokedex entry": "The existence of this mythical Pokemon was only recently confirmed by a fisherman who caught one."
+            "Pokemon": "Dratini"
          }
       ],
       "stats": [
@@ -7182,21 +4706,6 @@ const POKEDEX = [
             "base exp": "67"
          }
       ],
-      "species": [
-         {
-            "species": "Dragon Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "5 ft. 11 in. (1.80m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "7.3 lbs (3.3 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/dratini.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/dratini.gif"
@@ -7205,9 +4714,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Dragonair",
-            "Number": "Dragon Pokemon",
-            "pokedex entry": "According to a witness, its body was surrounded by a strange aura that gave it a mystical look."
+            "Pokemon": "Dragonair"
          }
       ],
       "stats": [
@@ -7231,21 +4738,6 @@ const POKEDEX = [
             "base exp": "144"
          }
       ],
-      "species": [
-         {
-            "species": "Dragon Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "13 ft. 1 in. (3.99m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "36.4 lbs (16.5 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/dragonair.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/dragonair.gif"
@@ -7254,9 +4746,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Dragonite",
-            "Number": "Dragon Pokemon",
-            "pokedex entry": "It is said that this Pokemon lives somewhere in the sea and that it flies. However, it is only a rumor."
+            "Pokemon": "Dragonite"
          }
       ],
       "stats": [
@@ -7280,21 +4770,6 @@ const POKEDEX = [
             "base exp": "218"
          }
       ],
-      "species": [
-         {
-            "species": "Dragon Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "7 ft. 3 in. (2.21m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "463 lbs (210.0 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/dragonite.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/dragonite.gif"
@@ -7303,9 +4778,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Mewtwo",
-            "Number": "Genetic Pokemon",
-            "pokedex entry": "Its DNA is almost the same as MEW's. However, its size and disposition are vastly different."
+            "Pokemon": "Mewtwo"
          }
       ],
       "stats": [
@@ -7329,21 +4802,6 @@ const POKEDEX = [
             "base exp": "220"
          }
       ],
-      "species": [
-         {
-            "species": "Genetic Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "6 ft. 7 in. (2.01m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "269 lbs (122.0 kg)"
-         }
-      ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/mewtwo.gif",
          "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/mewtwo.gif"
@@ -7352,9 +4810,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Mew",
-            "Number": "New Species Pokemon",
-            "pokedex entry": "When viewed through a microscope, this Pokemon's short, fine, delicate hair can be seen."
+            "Pokemon": "Mew"
          }
       ],
       "stats": [
@@ -7376,21 +4832,6 @@ const POKEDEX = [
       "exp": [
          {
             "base exp": "64"
-         }
-      ],
-      "species": [
-         {
-            "species": "New Species Pokemon"
-         }
-      ],
-      "height": [
-         {
-            "height": "1 ft. 4 in. (0.41m)"
-         }
-      ],
-      "weight": [
-         {
-            "weight": "8.8 lbs (4.0 kg)"
          }
       ],
       "images": {
