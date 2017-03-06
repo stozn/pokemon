@@ -2,11 +2,14 @@ Original idea from [MarcoWorms](https://github.com/MarcoWorms). Just used a fork
 
 WIP.
 
-Planned :
+Planned (in order of priority, at leas ALMOST) :
 
-- Adding Shiny (+ Auto-capture if Shiny)
-- Ordering Team
-- Later : Other gens.
+- Ordering team
+- Auto-healer (and having a manual option later)
+- Controling the evolution of a Pokémon
+- More options in catching Pokemon
+- Shiny stuff
+- Other generations (can be done now, so adding database for the moment ONLY)
 
 My coding skills are really really (when I say really it's really) limited. So any help would be more than apprecied. Just trying to bring some ideas and doing the boring stuff.
 
