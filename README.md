@@ -2,7 +2,7 @@ Original idea from [MarcoWorms](https://github.com/MarcoWorms). Just used a fork
 
 WIP.
 
-Planned (in order of priority, at leas ALMOST) :
+Planned (in order of priority, at least ALMOST) :
 
 - Ordering team
 - Auto-healer (and having a manual option later)
