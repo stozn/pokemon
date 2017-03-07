@@ -335,7 +335,7 @@ const ROUTES = {
     }  
    , water2: {
       name: 'Super Rod'
-    , pokes: ['Krabby', 'Horsea', 'Staryu',	'Dratini'] 
+    , pokes: ['Shellder', 'Krabby', 'Horsea', 'Staryu',	'Dratini'] 
     , minLevel: 35
     , maxLevel: 40
     , unlocked: true
