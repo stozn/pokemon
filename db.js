@@ -497,8 +497,8 @@ const POKEDEX = [
             "sp def": "35",
             "speed": "56",
             "types": {
-               "text": "Normal",
-               "href": "https://pokemondb.net/type/normal"
+               "text": "Flying",
+               "href": "https://pokemondb.net/type/flying"
             }
          }
       ],
@@ -529,8 +529,8 @@ const POKEDEX = [
             "sp def": "50",
             "speed": "71",
             "types": {
-               "text": "Normal",
-               "href": "https://pokemondb.net/type/normal"
+               "text": "Flying",
+               "href": "https://pokemondb.net/type/flying"
             }
          }
       ],
@@ -561,8 +561,8 @@ const POKEDEX = [
             "sp def": "70",
             "speed": "101",
             "types": {
-               "text": "Normal",
-               "href": "https://pokemondb.net/type/normal"
+               "text": "Flying",
+               "href": "https://pokemondb.net/type/flying"
             }
          }
       ],
@@ -657,8 +657,8 @@ const POKEDEX = [
             "sp def": "31",
             "speed": "70",
             "types": {
-               "text": "Normal",
-               "href": "https://pokemondb.net/type/normal"
+               "text": "Flying",
+               "href": "https://pokemondb.net/type/flying"
             }
          }
       ],
@@ -689,8 +689,8 @@ const POKEDEX = [
             "sp def": "61",
             "speed": "100",
             "types": {
-               "text": "Normal",
-               "href": "https://pokemondb.net/type/normal"
+               "text": "Flying",
+               "href": "https://pokemondb.net/type/flying"
             }
          }
       ],
@@ -2641,8 +2641,8 @@ const POKEDEX = [
             "sp def": "62",
             "speed": "60",
             "types": {
-               "text": "Normal",
-               "href": "https://pokemondb.net/type/normal"
+               "text": "Flying",
+               "href": "https://pokemondb.net/type/flying"
             }
          }
       ],
@@ -2673,8 +2673,8 @@ const POKEDEX = [
             "sp def": "35",
             "speed": "75",
             "types": {
-               "text": "Normal",
-               "href": "https://pokemondb.net/type/normal"
+               "text": "Flying",
+               "href": "https://pokemondb.net/type/flying"
             }
          }
       ],
@@ -2705,8 +2705,8 @@ const POKEDEX = [
             "sp def": "60",
             "speed": "100",
             "types": {
-               "text": "Normal",
-               "href": "https://pokemondb.net/type/normal"
+               "text": "Flying",
+               "href": "https://pokemondb.net/type/flying"
             }
          }
       ],
@@ -5010,8 +5010,8 @@ const POKEDEX = [
             "sp def": "80",
             "speed": "121",
             "types": {
-               "text": "Normal",
-               "href": "https://pokemondb.net/type/normal"
+               "text": "Flying",
+               "href": "https://pokemondb.net/type/flying"
             }
          }
       ],
