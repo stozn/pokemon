@@ -381,8 +381,8 @@ const makeDomHandler = () => {
     const pokeStatusAsText = (poke) => {
       var output = ''
       output += 'Attack Speed: ' + poke.attackSpeed()/1000 + '<br>'
-      output += '\nAttack: ' + poke.allCombat().attack() + '<br>'
-      output += '\nDefense: ' + poke.allCombat().defense() + '<br>'
+      output += '\nAttack: ' + (poke.allCombat().attack() + poke.allCombat().spAttack())/2 + '<br>'
+      output += '\nDefense: ' + (poke.allCombat().defense() + + poke.allCombat().spDefense())/2 + '<br>'
       return output
     }
     const containerCssQuery = '.container.poke' + '#' + id
