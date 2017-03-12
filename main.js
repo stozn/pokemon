@@ -216,7 +216,7 @@ const ROUTES = {
     }
    , special9: {
       name: 'Safari Zone'
-    , pokes: ['Nidoran f', 'Nidorina', 'Nidoran m', 'Nidorino', 'Parasect', 'Venonat', 'Exeggcute', 'Rhyhorn', 'Scyther', 'Pinsir', 'Tauros']
+    , pokes: ['Nidoran f', 'Nidorina', 'Nidoran m', 'Nidorino', 'Parasect', 'Venonat', 'Exeggcute', 'Rhyhorn', 'Kangaskhan', 'Scyther', 'Pinsir', 'Tauros']
     , minLevel: 22
     , maxLevel: 31
     , unlocked: true
