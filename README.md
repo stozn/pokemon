@@ -15,6 +15,14 @@ My coding skills are really really (when I say really it's really) limited. So a
 
 Changelog :
 
+NGGYU.6 (12/03/17) :
+- Another huge clean in the original code (database related)
+- Preparing stuff for event days (Bonus of experience OR catch rate for the moment) stay tunned for that !
+- Stats for the mega Pokemon of the 1G added ! You can check how to get them in the future, not available
+- Finally a favicon
+- All Pokemon are now available (I deleted some of them by mistake by redoing the routes)
+- **HUGE GAMEPLAY CHANGE** : Before, the game didn't take in consideration Special Stats. This way, Chansey was really under-powered or Pokemon like Mewtwo would be less effective. Before, Pokemon were using only Attack + Defense. Now it's the average of both Physical and Special stats. This should change a lot of things. Keep me updated for any bug or anything.
+
 NGGYU.5 (03/05/17) : 
 - Fixed Eeveelutions by being available in the wild
 - Fixed some Fairy glitched Pokemon
