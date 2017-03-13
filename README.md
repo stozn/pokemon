@@ -17,6 +17,7 @@ Changelog :
 
 NGGYU.6 (12/03/17) :
 - Another huge clean in the original code (database related)
+- Fixing types chart ! (For example Dragon hitting ONLY * .1 on Rock Pokemon)
 - Preparing stuff for event days (Bonus of experience OR catch rate for the moment) stay tunned for that !
 - Stats for the mega Pokemon of the 1G added ! You can check how to get them in the future, not available
 - Finally a favicon
