@@ -68,7 +68,7 @@ var TYPES = {
 		"Dragon" : .5
 	},
 	"Ice" : {
-		"Fire" : 1,
+		"Fire" : .5,
 		"Water" : .5,
 		"Grass" : 2,
 		"Electric" : 1,
@@ -226,12 +226,12 @@ var TYPES = {
 		"Grass" : 1,
 		"Electric" : 1,
 		"Ice" : 1,
-		"Psychic" : .25,
+		"Psychic" : 2,
 		"Normal" : .25,
 		"Fighting" : 1,
 		"Flying" : 1,
 		"Ground" : 1,
-		"Rock" : .1,
+		"Rock" : 1,
 		"Bug" : 1,
 		"Poison" : 1,
 		"Ghost" : 2,
