@@ -248,10 +248,10 @@ var TYPES = {
 		"Fighting" : 1,
 		"Flying" : 1,
 		"Ground" : 1,
-		"Rock" : .1,
+		"Rock" : 1,
 		"Bug" : 1,
 		"Poison" : 1,
 		"Ghost" : 1,
-		"Dragon" : 1
+		"Dragon" : 2
 	}
 }
