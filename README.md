@@ -4,7 +4,6 @@ WIP.
 
 Planned (in order of priority, at least ALMOST) :
 
-- Ordering team
 - Auto-healer (and having a manual option later)
 - Controling the evolution of a Pokémon
 - More options in catching Pokemon
