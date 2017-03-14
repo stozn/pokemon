@@ -15,6 +15,9 @@ My coding skills are really really (when I say really it's really) limited. So a
 
 Changelog :
 
+NGGYU.7 (14/03/17) :
+- Finally a way to order Pokemon team. FOR THE MOMENT there's a button "First!" just click on it and the Pokemon will be on the top of the list. It does the job for the moment perfectly. Huge thanks to piiih for this feature !
+
 NGGYU.6 (12/03/17) :
 - Another huge clean in the original code (database related)
 - Fixing types chart ! (For example Dragon hitting ONLY * .1 on Rock Pokemon)
