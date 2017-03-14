@@ -133,6 +133,12 @@ const makeDomHandler = () => {
            >
              ${poke.pokeName()} (${poke.level()})
            </a>
+           <br>
+           <button href="#"
+           onclick="userInteractions.pokemonToFirst('${index}')"
+           >
+           First!
+           </button>
         <li>`
       , true
       )
@@ -367,6 +373,9 @@ const makePlayer = () => {
   , activePoke: () => pokemons[activePoke]
   , pokemons: () => pokemons
   , canHeal: canHeal
+      , reorderPokes: (newList) => {
+          pokemons = newList
+      }
   , healAllPokemons: () => {
     if (canHeal() === true) {
       pokemons.forEach((poke) => poke.heal())
@@ -482,7 +491,17 @@ const makeUserInteractions = (player, enemy, dom, combatLoop) => {
     },
     changeSelectedBall: (newBall) => {
       player.changeSelectedBall(newBall)
-    }
+    },
+      pokemonToFirst: (pokemonIndex) => {
+          const moveToFirst = (index, arr) => {
+              arr.splice(0, 0, arr.splice(index, 1)[0])
+          }
+
+          moveToFirst(pokemonIndex, player.pokemons())
+          player.savePokes()
+        renderView(dom, enemy, player)
+
+      }
   }
 }
 
