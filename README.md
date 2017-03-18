@@ -1,4 +1,5 @@
 Original idea from [MarcoWorms](https://github.com/MarcoWorms). Just used a fork in order to make something more fresh and updated.
+Huge thanks to [piiih](https://github.com/piiih) for some awesome features !
 
 WIP.
 
@@ -13,6 +14,10 @@ Planned (in order of priority, at least ALMOST) :
 My coding skills are really really (when I say really it's really) limited. So any help would be more than apprecied. Just trying to bring some ideas and doing the boring stuff.
 
 Changelog :
+
+NGGYU.8 (18/03/17) :
+- Auto-healer : Finally ! Now the game heals itself, and you can enjoy the game at 100% as an idle game.
+- Changed "Release" to "Manage Team" : For future updates
 
 NGGYU.7 (14/03/17) :
 - Finally a way to order Pokemon team. FOR THE MOMENT there's a button "First!" just click on it and the Pokemon will be on the top of the list. It does the job for the moment perfectly. Huge thanks to piiih for this feature !
