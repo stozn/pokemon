@@ -1,4 +1,5 @@
 Original idea from [MarcoWorms](https://github.com/MarcoWorms). Just used a fork in order to make something more fresh and updated.
+
 Huge thanks to [piiih](https://github.com/piiih) for some awesome features !
 
 A subreddit for the game is now open ! You can find it [here](https://www.reddit.com/r/Pokeidle/) but like the game, still in progress !
