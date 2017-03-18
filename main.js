@@ -85,6 +85,9 @@ const makeDomHandler = () => {
     if (canHeal === true) {
       setProp(healElement, 'disabled', false)
       setValue(healElement, 'Heal!')
+        player.healAllPokemons()
+        combatLoop.refresh()
+        renderView(dom, enemy, player)
     }
     if (typeof canHeal === 'number') {
       setProp(healElement, 'disabled', true)
@@ -493,14 +496,19 @@ const makeUserInteractions = (player, enemy, dom, combatLoop) => {
       player.changeSelectedBall(newBall)
     },
       pokemonToFirst: (pokemonIndex) => {
-          const moveToFirst = (index, arr) => {
-              arr.splice(0, 0, arr.splice(index, 1)[0])
-          }
+          const moveToFirst = index => arr => [
+              arr[parseInt(index)], 
+              ...arr.slice(0,parseInt(index)), 
+              ...arr.slice(parseInt(index)+1)
+          ]
 
-          moveToFirst(pokemonIndex, player.pokemons())
+          const currentPoke = player.activePoke()
+          let newPokemonsList = moveToFirst(pokemonIndex)(player.pokemons())
+          player.reorderPokes(newPokemonsList)
           player.savePokes()
-        renderView(dom, enemy, player)
-
+          player.setActive(parseInt(pokemonIndex))
+          combatLoop.changePlayerPoke(player.activePoke())
+          renderView(dom, enemy, player)
       }
   }
 }
