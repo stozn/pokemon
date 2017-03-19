@@ -183,6 +183,12 @@ ul {
   left: 450px;
 }
 
+#subLink  {
+  position: absolute;
+  top: 620px;
+  left: 520px;
+}
+
 #version {
   position: absolute;
   top: 620px;
