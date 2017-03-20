@@ -101,10 +101,7 @@ const makeDomHandler = () => {
     setValue(listElement, '')
     const deleteEnabled = deleteEnabledId && $(deleteEnabledId).checked
     list.forEach((poke, index) => {
-      setValue(
-        listElement
-      , `<li>
-          <a href="#"
+		const deleteButton = `<a href="#"
             onclick="userInteractions.deletePokemon(${index})"
             style="
               color: red;
@@ -115,34 +112,48 @@ const makeDomHandler = () => {
             "
           >
             X
-          </a>
-           <a
-           href="#"
-           onclick="userInteractions.changePokemon(${index})"
-           style="color: ${poke.alive()
-                            && (poke === player.activePoke()
-                              && 'rgb(80, 157, 2)'
-                              ||'rgb(66, 116, 10)')
-                            || 'red'
-                          };
-                  ${poke === player.activePoke()
-                    && 'border: solid 1px rgb(139, 142, 4);'
-                      +'border-radius: 2px;'
-                    ||''
-                  }
-                  text-decoration: none;
-          "
+          </a>`
+		const upButton = index !== 0 ? `<button href="#"
+		   onclick="userInteractions.pokemonToUp('${index}')"
+            style="display: ${ deleteEnabled && 'inline' || 'none' };"
+		   >
+		   <i class="fa fa-arrow-up" aria-hidden="true"></i>
+		   </button>` : ''
+		const downButton = index !== list.length-1 ? `<button href="#"
+		   onclick="userInteractions.pokemonToDown('${index}')"
+            style="display: ${ deleteEnabled && 'inline' || 'none' };"
+		   >
+		   <i class="fa fa-arrow-down" aria-hidden="true"></i>
+		   </button>` : ''
 
-           >
-             ${poke.pokeName()} (${poke.level()})
-           </a>
-           <br>
-           <button href="#"
-           onclick="userInteractions.pokemonToFirst('${index}')"
-           >
-           First!
-           </button>
-        <li>`
+		setValue(
+			listElement
+			, `<li>` +
+			deleteButton +
+			`<a
+		   href="#"
+		   onclick="userInteractions.changePokemon(${index})"
+		   style="color: ${poke.alive()
+							&& (poke === player.activePoke()
+								&& 'rgb(80, 157, 2)'
+								||'rgb(66, 116, 10)')
+							|| 'red'
+						  };
+				  ${poke === player.activePoke()
+					&& 'border: solid 1px rgb(139, 142, 4);'
+					  +'border-radius: 2px;'
+					||''
+				  }
+				  text-decoration: none;
+		  "
+
+		   >
+			 ${poke.pokeName()} (${poke.level()})
+		   </a>
+		   <br>` +
+			upButton +
+			downButton +
+			`<li>`
       , true
       )
     })
@@ -495,21 +506,35 @@ const makeUserInteractions = (player, enemy, dom, combatLoop) => {
     changeSelectedBall: (newBall) => {
       player.changeSelectedBall(newBall)
     },
-      pokemonToFirst: (pokemonIndex) => {
-          const moveToFirst = index => arr => [
-              arr[parseInt(index)], 
-              ...arr.slice(0,parseInt(index)), 
-              ...arr.slice(parseInt(index)+1)
-          ]
+      pokemonToDown: (pokemonIndex) => {
+		  const moveToDown = index => arr => [
+			  ...arr.slice(0,parseInt(index)),
+			  arr[parseInt(index)+1],
+			  arr[parseInt(index)],
+			  ...arr.slice(parseInt(index)+2)
+		  ]
 
-          const currentPoke = player.activePoke()
-          let newPokemonsList = moveToFirst(pokemonIndex)(player.pokemons())
-          player.reorderPokes(newPokemonsList)
-          player.savePokes()
-          player.setActive(parseInt(pokemonIndex))
-          combatLoop.changePlayerPoke(player.activePoke())
-          renderView(dom, enemy, player)
-      }
+		  const newPokemonList = moveToDown(pokemonIndex)(player.pokemons())
+		  player.reorderPokes(newPokemonList)
+		  player.savePokes()
+		  combatLoop.changePlayerPoke(player.activePoke())
+		  renderView(dom, enemy, player)
+      },
+	  pokemonToUp: (pokemonIndex) => {
+		  const moveToUp = index => arr => [
+			  ...arr.slice(0,parseInt(index)-1),
+			  arr[parseInt(index)],
+			  arr[parseInt(index)-1],
+			  ...arr.slice(parseInt(index)+1)
+		  ]
+
+		  const newPokemonList = moveToUp(pokemonIndex)(player.pokemons())
+		  player.reorderPokes(newPokemonList)
+		  player.savePokes()
+		  combatLoop.changePlayerPoke(player.activePoke())
+		  renderView(dom, enemy, player)
+	  }
+
   }
 }
 
