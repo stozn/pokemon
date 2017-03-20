@@ -18,6 +18,9 @@ My coding skills are really really (when I say really it's really) limited. So a
 
 Changelog :
 
+NGGYU.9 (20/03/17) :
+- Manage Team updated : Maybe not an important thing, but it needs to be clear. From now, you can order AND release with the 'Manage Team' checked. So no more 'First' button on the page, and changed to up & down buttons !
+
 NGGYU.8 (18/03/17) :
 - Auto-healer : Finally ! Now the game heals itself, and you can enjoy the game at 100% as an idle game.
 - Changed "Release" to "Manage Team" : For future updates
