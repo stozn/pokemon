@@ -113,18 +113,33 @@ const makeDomHandler = () => {
           >
             X
           </a>`
-		const upButton = index !== 0 ? `<button href="#"
-		   onclick="userInteractions.pokemonToUp('${index}')"
+
+		const upButton = index !== 0 
+            ? `<button href="#"
+		    onclick="userInteractions.pokemonToUp('${index}')"
             style="display: ${ deleteEnabled && 'inline' || 'none' };"
-		   >
-		   <i class="fa fa-arrow-up" aria-hidden="true"></i>
-		   </button>` : ''
-		const downButton = index !== list.length-1 ? `<button href="#"
-		   onclick="userInteractions.pokemonToDown('${index}')"
+		    >
+		    <i class="fa fa-arrow-up" aria-hidden="true"></i>
+		    </button>`
+            : ''
+
+        const downButton = index !== list.length - 1 
+            ? `<button href="#"
+            onclick="userInteractions.pokemonToDown('${index}')"
             style="display: ${ deleteEnabled && 'inline' || 'none' };"
-		   >
-		   <i class="fa fa-arrow-down" aria-hidden="true"></i>
-		   </button>` : ''
+            >
+            <i class="fa fa-arrow-down" aria-hidden="true"></i>
+            </button>` 
+            : ''
+
+        const evolveButton = poke.canEvolve
+            ? `<button href="#"
+            onclick="poke.evolve()"
+            style="display:inline"
+            >
+            Evolve
+            </button>` 
+            : ''
 
 		setValue(
 			listElement
@@ -153,6 +168,7 @@ const makeDomHandler = () => {
 		   <br>` +
 			upButton +
 			downButton +
+            evolveButton +
 			`<li>`
       , true
       )
@@ -283,6 +299,20 @@ const makePoke = (pokeModel, initialLevel, initialExp) => {
       }
     }
   }
+
+  const canEvolve = () => {
+      console.log(EVOLUTIONS[poke.pokemon[0].Pokemon])
+    const pokemonHasEvolution =
+      EVOLUTIONS[poke.pokemon[0].Pokemon] !== undefined
+    if (pokemonHasEvolution) {
+      const evolution = EVOLUTIONS[poke.pokemon[0].Pokemon].to
+      const levelToEvolve = Number(EVOLUTIONS[poke.pokemon[0].Pokemon].level)
+      if (currentLevel() >= levelToEvolve) {
+          return true
+      }
+    }
+      return false
+  }
   const combat = {
     mutable: {
       hp: hp(poke.stats[0].hp) * 3
@@ -311,8 +341,10 @@ const makePoke = (pokeModel, initialLevel, initialExp) => {
   , alive: () => combat.mutable.hp > 0
   , giveExp: (ammount) => {
     exp += ammount
-    tryEvolve()
+    //tryEvolve()
   }
+  , canEvolve: canEvolve()
+  , evolve: tryEvolve
   , currentExp: () => exp
   , nextLevelExp: () => expTable[currentLevel()]
   , thisLevelExp: () => expTable[currentLevel() - 1] || 10
