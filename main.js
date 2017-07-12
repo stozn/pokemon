@@ -303,7 +303,7 @@ const makePoke = (pokeModel, initialLevel, initialExp) => {
     }
   }
   , type: () => poke.stats[0].types.text
-  , lifeAsText: () => '' + combat.mutable.hp + ' / ' + combat.maxHp()
+  , lifeAsText: () => '' + (combat.mutable.hp < 0 ? 0 : combat.mutable.hp) + ' / ' + combat.maxHp()
   , life: {
       current: () => combat.mutable.hp
     , max: () => combat.maxHp()
