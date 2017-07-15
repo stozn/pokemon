@@ -31,6 +31,10 @@ const EVOLUTIONS = {
     "level":"36",
     "to":"Blastoise"
   },
+  "Blastoise":{
+    "level":"100",
+    "to":"M-Blastoise"
+  },
   "Caterpie":{
     "level":"7",
     "to":"Metapod"
@@ -47,6 +51,10 @@ const EVOLUTIONS = {
     "level":"10",
     "to":"Beedrill"
   },
+  "Beedrill":{
+    "level":"100",
+    "to":"M-Beedrill"
+  },
   "Pidgey":{
     "level":"18",
     "to":"Pidgeotto"
@@ -54,6 +62,10 @@ const EVOLUTIONS = {
   "Pidgeotto":{
     "level":"36",
     "to":"Pidgeot"
+  },
+  "Pidgeot":{
+    "level":"100",
+    "to":"M-Pidgeot"
   },
   "Rattata":{
     "level":"20",
@@ -159,6 +171,10 @@ const EVOLUTIONS = {
     "level":"40",
     "to":"Alakazam"
   },
+  "Alakazam":{
+    "level":"100",
+    "to":"M-Alakazam"
+  },
   "Machop":{
     "level":"28",
     "to":"Machoke"
@@ -195,6 +211,10 @@ const EVOLUTIONS = {
     "level":"37",
     "to":"Slowbro"
   },
+  "Slowbro":{
+    "level":"100",
+    "to":"M-Slowbro"
+  },
   "Magnemite":{
     "level":"30",
     "to":"Magneton"
@@ -222,6 +242,10 @@ const EVOLUTIONS = {
   "Haunter":{
     "level":"40",
     "to":"Gengar"
+  },
+  "Gengar":{
+    "level":"100",
+    "to":"M-Gengar"
   },
   "Drowzee":{
     "level":"26",
@@ -251,6 +275,10 @@ const EVOLUTIONS = {
     "level":"42",
     "to":"Rhydon"
   },
+  "Kangaskhan":{
+    "level":"100",
+    "to":"M-Kangaskhan"
+  },
   "Horsea":{
     "level":"32",
     "to":"Seadra"
@@ -263,9 +291,17 @@ const EVOLUTIONS = {
     "level":"35",
     "to":"Starmie"
   },
+  "Pinsir":{
+    "level":"100",
+    "to":"M-Pinsir"
+  },
   "Magikarp":{
     "level":"20",
     "to":"Gyarados"
+  },
+  "Gyarados":{
+    "level":"100",
+    "to":"M-Gyarados"
   },
   "Eevee":{
     "level":"25",
@@ -286,6 +322,10 @@ const EVOLUTIONS = {
   "Kabuto":{
     "level":"40",
     "to":"Kabutops"
+  },
+  "Aerodactyl":{
+    "level":"100",
+    "to":"M-Aerodactyl"
   },
   "Dratini":{
     "level":"30",
