@@ -334,7 +334,7 @@ const EVOLUTIONS = {
   "Dragonair":{
     "level":"55",
     "to":"Dragonite"
-  }
+  },
   "Mewtwo":{
     "level":"100",
     "to":"M-Mewtwo Y"
