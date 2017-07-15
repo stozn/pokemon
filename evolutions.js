@@ -8,7 +8,7 @@ const EVOLUTIONS = {
     "to":"Venusaur"
   },
   "Venusaur":{
-    "level":"32",
+    "level":"100",
     "to":"M-Venusaur"
   },
   "Charmander":{
