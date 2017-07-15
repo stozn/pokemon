@@ -1,6 +1,6 @@
 Original idea from [MarcoWorms](https://github.com/MarcoWorms). Just used a fork in order to make something more fresh and updated.
 
-Huge thanks to [piiih](https://github.com/piiih) for some awesome features !
+Huge thanks to [piiih](https://github.com/piiih) for some awesome features ! Huge thanks to [Fastigium](https://github.com/Fastigium) who helped to make the evolve system a new brand thing !
 
 A subreddit for the game is now open ! You can find it [here](https://www.reddit.com/r/Pokeidle/) but like the game, still in progress !
 
@@ -8,7 +8,6 @@ WIP.
 
 Planned (in order of priority, at least ALMOST) :
 
-- Controling the evolution of a Pokémon
 - More options in catching Pokemon
 - Shiny stuff
 - Other generations (can be done now, so adding database for the moment ONLY)
@@ -17,17 +16,20 @@ My coding skills are really really (when I say really it's really) limited. So a
 
 Changelog :
 
-NGGYU.9 (20/03/17) :
+NGGYU 1.0 (07/15/17) :
+- Evolve Button ! Finally ! It was long, I know. It was boring, I know. But PokeIdle is now in 1.0 ! The evolve button is here. In the manage team, once your Pokemon is ready to evolve you can choose to evolve it OR NOT. This means that Mega Pokemon are coming REALLY soon (aka a few hours), and MORE gens soon too. Huge thanks to Fastigium](https://github.com/Fastigium) for completing the work !
+
+NGGYU.9 (03/20/17) :
 - Manage Team updated : Maybe not an important thing, but it needs to be clear. From now, you can order AND release with the 'Manage Team' checked. So no more 'First' button on the page, and changed to up & down buttons !
 
-NGGYU.8 (18/03/17) :
+NGGYU.8 (03/18/17) :
 - Auto-healer : Finally ! Now the game heals itself, and you can enjoy the game at 100% as an idle game.
 - Changed "Release" to "Manage Team" : For future updates
 
-NGGYU.7 (14/03/17) :
+NGGYU.7 (03/14/17) :
 - Finally a way to order Pokemon team. FOR THE MOMENT there's a button "First!" just click on it and the Pokemon will be on the top of the list. It does the job for the moment perfectly. Huge thanks to piiih for this feature !
 
-NGGYU.6 (12/03/17) :
+NGGYU.6 (03/12/17) :
 - Another huge clean in the original code (database related)
 - Fixing types chart ! (For example Dragon hitting ONLY * .1 on Rock Pokemon)
 - Preparing stuff for event days (Bonus of experience OR catch rate for the moment) stay tunned for that !
