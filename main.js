@@ -132,9 +132,9 @@ const makeDomHandler = () => {
             </button>` 
             : ''
 
-        const evolveButton = poke.canEvolve
+        const evolveButton = poke.canEvolve()
             ? `<button href="#"
-            onclick="poke.evolve()"
+            onclick="userInteractions.evolvePokemon('${index}')"
             style="display:inline"
             >
             Evolve
@@ -168,7 +168,7 @@ const makeDomHandler = () => {
 		   <br>` +
 			upButton +
 			downButton +
-            evolveButton +
+			evolveButton +
 			`<li>`
       , true
       )
@@ -301,7 +301,6 @@ const makePoke = (pokeModel, initialLevel, initialExp) => {
   }
 
   const canEvolve = () => {
-      console.log(EVOLUTIONS[poke.pokemon[0].Pokemon])
     const pokemonHasEvolution =
       EVOLUTIONS[poke.pokemon[0].Pokemon] !== undefined
     if (pokemonHasEvolution) {
@@ -341,9 +340,8 @@ const makePoke = (pokeModel, initialLevel, initialExp) => {
   , alive: () => combat.mutable.hp > 0
   , giveExp: (ammount) => {
     exp += ammount
-    //tryEvolve()
   }
-  , canEvolve: canEvolve()
+  , canEvolve: canEvolve
   , evolve: tryEvolve
   , currentExp: () => exp
   , nextLevelExp: () => expTable[currentLevel()]
@@ -564,6 +562,10 @@ const makeUserInteractions = (player, enemy, dom, combatLoop) => {
 		  player.reorderPokes(newPokemonList)
 		  player.savePokes()
 		  combatLoop.changePlayerPoke(player.activePoke())
+		  renderView(dom, enemy, player)
+	  },
+	  evolvePokemon: (pokemonIndex) => {
+		  player.pokemons()[pokemonIndex].evolve()
 		  renderView(dom, enemy, player)
 	  }
 
