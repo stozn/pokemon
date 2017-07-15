@@ -5,7 +5,11 @@ const EVOLUTIONS = {
   },
   "Ivysaur":{
     "level":"32",
-    "to":"Venusaur"
+    "to":"Venusaur
+  },
+  "Venusaur":{
+    "level":"32",
+    "to":"M-Venusaur"
   },
   "Charmander":{
     "level":"16",
@@ -14,6 +18,10 @@ const EVOLUTIONS = {
   "Charmeleon":{
     "level":"36",
     "to":"Charizard"
+  },
+  "Charizard":{
+    "level":"100",
+    "to":"M-Charizard X"
   },
   "Squirtle":{
     "level":"16",
