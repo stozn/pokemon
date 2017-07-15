@@ -17,7 +17,7 @@ My coding skills are really really (when I say really it's really) limited. So a
 Changelog :
 
 NGGYU 1.0 (07/15/17) :
-- Evolve Button ! Finally ! It was long, I know. It was boring, I know. But PokeIdle is now in 1.0 ! The evolve button is here. In the manage team, once your Pokemon is ready to evolve you can choose to evolve it OR NOT. This means that Mega Pokemon are coming REALLY soon (aka a few hours), and MORE gens soon too. Huge thanks to Fastigium](https://github.com/Fastigium) for completing the work !
+- Evolve Button ! Finally ! It was long, I know. It was boring, I know. But PokeIdle is now in 1.0 ! The evolve button is here. In the manage team, once your Pokemon is ready to evolve you can choose to evolve it OR NOT. This means that Mega Pokemon are coming REALLY soon (aka a few hours), and MORE gens soon too. Huge thanks to [Fastigium](https://github.com/Fastigium) for completing the work !
 
 NGGYU.9 (03/20/17) :
 - Manage Team updated : Maybe not an important thing, but it needs to be clear. From now, you can order AND release with the 'Manage Team' checked. So no more 'First' button on the page, and changed to up & down buttons !
