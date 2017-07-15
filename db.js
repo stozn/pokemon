@@ -4862,7 +4862,7 @@ const POKEDEX = [
       ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/venusaur.gif",
-         "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/venusaur.gif"
+         "back": "/sprites/back/001m.png"
       }
    },
    {
@@ -4894,7 +4894,7 @@ const POKEDEX = [
       ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/charizard.gif",
-         "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/charizard.gif"
+         "back": "/sprites/back/001m.png"
       }
    },
    {
