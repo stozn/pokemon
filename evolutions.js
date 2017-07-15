@@ -5,7 +5,7 @@ const EVOLUTIONS = {
   },
   "Ivysaur":{
     "level":"32",
-    "to":"Venusaur
+    "to":"Venusaur"
   },
   "Venusaur":{
     "level":"32",
