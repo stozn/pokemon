@@ -135,7 +135,7 @@ const makeDomHandler = () => {
         const evolveButton = poke.canEvolve()
             ? `<button href="#"
             onclick="userInteractions.evolvePokemon('${index}')"
-            style="display:inline"
+            style="display: ${ deleteEnabled && 'inline' || 'none' };"
             >
             Evolve
             </button>` 
