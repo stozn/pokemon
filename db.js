@@ -4894,7 +4894,7 @@ const POKEDEX = [
       ],
       "images": {
          "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/charizard.gif",
-         "back": "/sprites/back/001m.png"
+         "back": "/sprites/back/006mx.png"
       }
    },
    {
