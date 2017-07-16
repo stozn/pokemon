@@ -332,6 +332,7 @@ const makePoke = (pokeModel, initialLevel, initialExp) => {
     }
   }
   , type: () => poke.stats[0].types.text
+  , catchRate: () => Number(poke.stats[0]['catch rate'])
   , lifeAsText: () => '' + (combat.mutable.hp < 0 ? 0 : combat.mutable.hp) + ' / ' + combat.maxHp()
   , life: {
       current: () => combat.mutable.hp
@@ -378,9 +379,9 @@ const makePlayer = () => {
   var lastHeal = Date.now()
 
   const ballsRngs = {
-    pokeball: 2,
-    greatball: 6,
-    ultraball: 10
+    pokeball: 1,
+    greatball: 1.5,
+    ultraball: 2
   }
   var selectedBall = "pokeball"
   var ballsAmmount = {
@@ -626,7 +627,7 @@ const makeCombatLoop = (enemy, player, dom) => {
             const rngHappened =
               RNG(
                 player.addPoke.bind(null, enemy.activePoke())
-              , player.selectedBallRNG()
+              , (enemy.activePoke().catchRate() * player.selectedBallRNG()) / 3
               )
             if (rngHappened) {
               dom.gameConsoleLog('You caught ' + enemy.activePoke().pokeName() + '!!', 'purple')
