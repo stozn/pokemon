@@ -1,6 +1,6 @@
 Original idea from [MarcoWorms](https://github.com/MarcoWorms). Just used a fork in order to make something more fresh and updated.
 
-Huge thanks to [piiih](https://github.com/piiih) for some awesome features ! Huge thanks to [Fastigium](https://github.com/Fastigium) who helped to make the evolve system a new brand thing !
+Huge thanks to [piiih](https://github.com/piiih) for some awesome features ! Huge thanks to [Fastigium](https://github.com/Fastigium) who helped for the game with awesome things like evolve button or the fixed catch rate.
 
 A subreddit for the game is now open ! You can find it [here](https://www.reddit.com/r/Pokeidle/) but like the game, still in progress !
 
@@ -8,13 +8,19 @@ WIP.
 
 Planned (in order of priority, at least ALMOST) :
 
-- More options in catching Pokemon
+- More options in catching Pokemon (almost finished)
 - Shiny stuff
 - Other generations (can be done now, so adding database for the moment ONLY)
 
 My coding skills are really really (when I say really it's really) limited. So any help would be more than apprecied. Just trying to bring some ideas and doing the boring stuff.
 
 Changelog :
+
+NGGYU 1.2 (07/16/17) :
+- **Real Catch Rate !** It was asking for a long time, it's now done. Using a simple formula (but close to reals mechanics), Pokemon have their own catch rate. No more stupid probability or anything. A Pidgey with an ultraball will be 100% caught, while a Mewtwo with a Pokeball will be almost impossible to catch.
+
+NGGYU 1.1 (07/15/17) :
+- Megas Pokemon ! Right after the Evolve button, it was the first thing to do. You can now have Megas Pokemon once your pokemon is level 100. However, they are not reversibles, they are perma megas and they stay like that for more collecting stuff.
 
 NGGYU 1.0 (07/15/17) :
 - Evolve Button ! Finally ! It was long, I know. It was boring, I know. But PokeIdle is now in 1.0 ! The evolve button is here. In the manage team, once your Pokemon is ready to evolve you can choose to evolve it OR NOT. This means that Mega Pokemon are coming REALLY soon (aka a few hours), and MORE gens soon too. Huge thanks to [Fastigium](https://github.com/Fastigium) for completing the work !
