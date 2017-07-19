@@ -339,9 +339,6 @@ const EVOLUTIONS = {
     "level":"100",
     "to":"M-Mewtwo Y"
   },
-  
- //2G
- 
   "Chikorita":{
     "level":"16",
     "to":"Bayleef"
