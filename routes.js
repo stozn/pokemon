@@ -321,7 +321,7 @@ const ROUTES = {
     , maxLevel: 40
     , unlocked: true
     }  
-   , starter2: {
+   , special41: {
       name: 'New Bark Town'
     , pokes: ['Chikorita', 'Cyndaquil', 'Totodile'] 
     , minLevel: 5
