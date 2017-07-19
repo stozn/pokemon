@@ -327,11 +327,11 @@ const makePoke = (pokeModel, initialLevel, initialExp) => {
     pokeName: () => poke.pokemon[0].Pokemon
   , image: () => {
     return {
-      front: poke.images.front
-    , back: poke.images.back
+      front: poke.images.normal.front
+    , back: poke.images.normal.back
     }
   }
-  , type: () => poke.stats[0].types.text
+  , type: () => poke.stats[0].types[0]
   , catchRate: () => Number(poke.stats[0]['catch rate'])
   , lifeAsText: () => '' + (combat.mutable.hp < 0 ? 0 : combat.mutable.hp) + ' / ' + combat.maxHp()
   , life: {
