@@ -4,6 +4,7 @@ Huge thanks to [piiih](https://github.com/piiih) for some awesome features ! Hug
 
 A subreddit for the game is now open ! You can find it [here](https://www.reddit.com/r/Pokeidle/) but like the game, still in progress !
 
+Time to thanks some websites for sprites data. Without [Pokémon Database](https://pokemondb.net/), no sprites would be in game !
 Moreover, huge thanks to the [Smogon XY Sprite Project](http://www.smogon.com/forums/threads/xy-sprite-project-read-1st-post-release-v1-1-on-post-3240.3486712/) without that all recents gens could not have been possible !
 
 WIP.
