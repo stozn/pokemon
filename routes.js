@@ -321,4 +321,333 @@ const ROUTES = {
     , maxLevel: 40
     , unlocked: true
     }  
+   , starter2: {
+      name: 'New Bark Town'
+    , pokes: ['Chikorita', 'Cyndaquil', 'Totodile'] 
+    , minLevel: 5
+    , maxLevel: 5
+    , unlocked: true
+    } 
+	, route25: {
+      name: 'Route 29'
+    , pokes: ['Sentret', 'Hoothoot', 'Hoppip'] 
+    , minLevel: 2
+    , maxLevel: 3
+    , unlocked: true
+    } 
+	, route26: {
+      name: 'Route 46'
+    , pokes: ['Geodude', 'Rattata', 'Spearow', 'Jigglypuff'] 
+    , minLevel: 2
+    , maxLevel: 5
+    , unlocked: true
+    } 
+	, route27: {
+      name: 'Route 30'
+    , pokes: ['Ledyba', 'Hoppip', 'Spinarak', 'Hoothoot'] 
+    , minLevel: 3
+    , maxLevel: 5
+    , unlocked: true
+    } 
+	, special17: {
+      name: 'Dark Cave'
+    , pokes: ['Teddiursa', 'Dunsparce', 'Ursaring', 'Wobbuffet', 'Slugma'] 
+    , minLevel: 2
+    , maxLevel: 25
+    , unlocked: true
+    } 
+	, special18: {
+      name: 'Sprout Tower'
+    , pokes: ['Rattata', 'Gastly'] 
+    , minLevel: 3
+    , maxLevel: 6
+    , unlocked: true
+    } 
+	, route28: {
+      name: 'Route 32'
+    , pokes: ['Mareep', 'Hoppip', 'Wooper', 'Hoothoot'] 
+    , minLevel: 4
+    , maxLevel: 7
+    , unlocked: true
+    } 
+	, special19: {
+      name: 'Ruin of Alph'
+    , pokes: ['Natu', 'Smeargle'] 
+    , minLevel: 18
+    , maxLevel: 24
+    , unlocked: true
+    } 
+	, special20: {
+      name: 'Inside the Ruins'
+    , pokes: ['Unown'] 
+    , minLevel: 5
+    , maxLevel: 5
+    , unlocked: true
+    } 
+	, special21: {
+      name: 'Union Cave'
+    , pokes: ['Zubat', 'Geodude', 'Onix', 'Rattata', 'Golbat', 'Raticate', 'Lapras'] 
+    , minLevel: 6
+    , maxLevel: 23
+    , unlocked: true
+    } 
+	, route29: {
+      name: 'Route 33'
+    , pokes: ['Rattata', 'Spearow', 'Ekans', 'Geodude', 'Zubat'] 
+    , minLevel: 6
+    , maxLevel: 7
+    , unlocked: true
+    } 
+	, special22: {
+      name: 'Slowpoke Well'
+    , pokes: ['Zubat', 'Slowpoke', 'Slowbro', 'Golbat', 'Slowking'] 
+    , minLevel: 5
+    , maxLevel: 24
+    , unlocked: true
+    }
+	, special23: {
+      name: 'Ilex Forest'
+    , pokes: ['Caterpie', 'Weedle', 'Metapod', 'Kakuna', 'Paras', 'Pidgey', 'Venonat'] 
+    , minLevel: 5
+    , maxLevel: 7
+    , unlocked: true
+    }
+	, route30: {
+      name: 'Route 34'
+    , pokes: ['Snubbull', 'Murkrow', 'Houndour'] 
+    , minLevel: 10
+    , maxLevel: 10
+    , unlocked: true
+    }
+	, special24: {
+      name: 'Daycare House'
+    , pokes: ['Pichu', 'Cleffa', 'Igglybuff', 'Tyrogue', 'Smoochum', 'Elekid', 'Magby', 'Togepi'] 
+    , minLevel: 5
+    , maxLevel: 5
+    , unlocked: true
+    }
+	, special25: {
+      name: 'Goldenrod City'
+    , pokes: ['Umbreon', 'Espeon'] 
+    , minLevel: 20
+    , maxLevel: 20
+    , unlocked: true
+    }
+	, route31: {
+      name: 'Route 35'
+    , pokes: ['Yanma', 'Noctowl'] 
+    , minLevel: 20
+    , maxLevel: 20
+    , unlocked: true
+    }
+	, special26: {
+      name: 'National Park'
+    , pokes: ['Sunkern', 'Ledyba', 'Spinarak', 'Hoothoot'] 
+    , minLevel: 10
+    , maxLevel: 15
+    , unlocked: true
+    }
+	, route32: {
+      name: 'Route 36'
+    , pokes: ['Stantler', 'Sudowoodo', 'Ledyba', 'Spinarak', 'Hoothoot'] 
+    , minLevel: 13
+    , maxLevel: 20
+    , unlocked: true
+    }
+	, route33: {
+      name: 'Route 37'
+    , pokes: ['Stantler', 'Spinarak', 'Ledyba', 'Hoothoot', 'Ledian', 'Ariados'] 
+    , minLevel: 13
+    , maxLevel: 16
+    , unlocked: true
+    }
+	, special27: {
+      name: 'Burned Tower'
+    , pokes: ['Rattata', 'Raticate', 'Zubat', 'Koffing', 'Weezing', 'Magmar'] 
+    , minLevel: 12
+    , maxLevel: 16
+    , unlocked: true
+    }
+	, special28: {
+      name: 'Tin Tower'
+    , pokes: ['Rattata', 'Gastly'] 
+    , minLevel: 20
+    , maxLevel: 24
+    , unlocked: true
+    }
+	, route34: {
+      name: 'Route 38'
+    , pokes: ['Snubull', 'Miltank', 'Noctowl'] 
+    , minLevel: 13
+    , maxLevel: 16
+    , unlocked: true
+    }
+	, route35: {
+      name: 'Route 39'
+    , pokes: ['Miltank', 'Noctowl'] 
+    , minLevel: 15
+    , maxLevel: 16
+    , unlocked: true
+    }
+	, route36: {
+      name: 'Route 40'
+    , pokes: ['Tentacool', 'Tentacruel'] 
+    , minLevel: 15
+    , maxLevel: 24
+    , unlocked: true
+    }
+	, route37: {
+      name: 'Route 41'
+    , pokes: ['Mantine'] 
+    , minLevel: 20
+    , maxLevel: 24
+    , unlocked: true
+    }
+	, special29: {
+      name: 'Whirl Island'
+    , pokes: ['Krabby', 'Zubat', 'Seel', 'Golbat'] 
+    , minLevel: 22
+    , maxLevel: 26
+    , unlocked: true
+    }
+	, special30: {
+      name: 'Cianwood City'
+    , pokes: ['Shuckle'] 
+    , minLevel: 15
+    , maxLevel: 15
+    , unlocked: true
+    }
+	, route38: {
+      name: 'Route 42'
+    , pokes: ['Mareep', 'Flaaffy', 'Marill', 'Bellossom'] 
+    , minLevel: 13
+    , maxLevel: 17
+    , unlocked: true
+    }
+	, special31: {
+      name: 'Mt.Mortar'
+    , pokes: ['Zubat', 'Golbat', 'Machop', 'Machoke', 'Geodude', 'Graveler', 'Raticate'] 
+    , minLevel: 15
+    , maxLevel: 32
+    , unlocked: true
+    }
+	, special32: {
+      name: 'Rocket Hideout'
+    , pokes: ['Electrode'] 
+    , minLevel: 23
+    , maxLevel: 23
+    , unlocked: true
+    }
+	, route39: {
+      name: 'Route 43'
+    , pokes: ['Girafarig', 'Flaffy', 'Mareep', 'Noctowl', 'Sentret', 'Furret'] 
+    , minLevel: 15
+    , maxLevel: 17
+    , unlocked: true
+    }
+	, special33: {
+      name: 'Lake of Rage'
+    , pokes: ['Gyarados'] 
+    , minLevel: 30
+    , maxLevel: 30
+    , unlocked: true
+    }
+	, route40: {
+      name: 'Route 44'
+    , pokes: ['Lickitung', 'Tangela', 'Bellsprout', 'Weepinbell', 'Poliwag', 'Poliwhirl'] 
+    , minLevel: 22
+    , maxLevel: 26
+    , unlocked: true
+    }
+	, special34: {
+      name: 'Ice Path'
+    , pokes: ['Swinub', 'Delibird', 'Sneasel'] 
+    , minLevel: 21
+    , maxLevel: 24
+    , unlocked: true
+    }
+	, special35: {
+      name: 'Dragons Den'
+    , pokes: ['Dratini'] 
+    , minLevel: 10
+    , maxLevel: 14
+    , unlocked: true
+    }
+	, route41: {
+      name: 'Route 45'
+    , pokes: ['Teddiursa', 'Gligar', 'Phanpy', 'Skarmory', 'Donphan'] 
+    , minLevel: 20
+    , maxLevel: 27
+    , unlocked: true
+    }
+	, route42: {
+      name: 'Route 48'
+    , pokes: ['Ursaring', 'Sneasel', 'Donphan'] 
+    , minLevel: 40
+    , maxLevel: 43
+    , unlocked: true
+    }
+	, special36: {
+      name: 'Mt.Silver'
+    , pokes: ['Ursaring', 'Donphan', 'Misdreavus', 'Larvitar', 'Pupitar', 'Politoed'] 
+    , minLevel: 44
+    , maxLevel: 48
+    , unlocked: true
+    }
+	, special37: {
+      name: 'Felines, Cats or Dogs ?'
+    , pokes: ['Raikou', 'Entei', 'Suicune'] 
+    , minLevel: 40
+    , maxLevel: 40
+    , unlocked: true
+    }
+	, special38: {
+      name: 'Whirl Island B2F Inner'
+    , pokes: ['Lugia'] 
+    , minLevel: 60
+    , maxLevel: 60
+    , unlocked: true
+    }
+	, special39: {
+      name: 'Tin Tower 10F'
+    , pokes: ['Ho-oh'] 
+    , minLevel: 60
+    , maxLevel: 60
+    , unlocked: true
+    }
+	, special39: {
+      name: 'Altar of Time'
+    , pokes: ['Celebi'] 
+    , minLevel: 30
+    , maxLevel: 30
+    , unlocked: true
+    }
+	, special40: {
+      name: 'Headbutt'
+    , pokes: ['Aipom', 'Pineco', 'Heracross', 'Spinarak', 'Ledyba', 'Hoothoot', 'Noctowl'] 
+    , minLevel: 10
+    , maxLevel: 10
+    , unlocked: true
+    }
+	, water3: {
+      name: 'Old Rod'
+    , pokes: ['Remoraid'] 
+    , minLevel: 10
+    , maxLevel: 10
+    , unlocked: true
+    }  
+   , water4: {
+      name: 'Good Rod'
+    , pokes: ['Marill', 'Chinchou', 'Wooper'] 
+    , minLevel: 20
+    , maxLevel: 20
+    , unlocked: true
+    }  
+   , water5: {
+      name: 'Super Rod'
+    , pokes: ['Corsola', 'Qwilfish', 'Lanturn', 'Octillery'] 
+    , minLevel: 40
+    , maxLevel: 40
+    , unlocked: true
+    }  
 }
