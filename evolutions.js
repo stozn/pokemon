@@ -486,4 +486,4 @@ const EVOLUTIONS = {
     "level":"55",
     "to":"Tyranitar"
   },
-};
+}
