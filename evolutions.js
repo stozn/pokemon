@@ -403,6 +403,10 @@ const EVOLUTIONS = {
     "level":"30",
     "to":"Ampharos"
   },
+  "Ampharos":{
+    "level":"100",
+    "to":"M-Ampharos"
+  },
   "Marill":{
     "level":"18",
     "to":"Azumarill"
@@ -431,6 +435,10 @@ const EVOLUTIONS = {
     "level":"45",
     "to":"Steelix"
   },
+  "Steelix":{
+    "level":"100",
+    "to":"M-Steelix"
+  },
   "Snubbull":{
     "level":"23",
     "to":"Granbull"
@@ -438,6 +446,14 @@ const EVOLUTIONS = {
   "Scyther":{
     "level":"45",
     "to":"Scizor"
+  },
+  "Scizor":{
+    "level":"100",
+    "to":"M-Scizor"
+  },
+  "Heracross":{
+    "level":"100",
+    "to":"M-Heracross"
   },
   "Teddiursa":{
     "level":"30",
@@ -458,6 +474,10 @@ const EVOLUTIONS = {
   "Houndour":{
     "level":"24",
     "to":"Houndoom"
+  },
+  "Houndoom":{
+    "level":"100",
+    "to":"M-Houndoom"
   },
   "Seadra":{
     "level":"50",
@@ -482,5 +502,9 @@ const EVOLUTIONS = {
   "Pupitar":{
     "level":"55",
     "to":"Tyranitar"
+  },
+  "Tyranitar":{
+    "level":"100",
+    "to":"M-Tyranitar"
   },
 }
