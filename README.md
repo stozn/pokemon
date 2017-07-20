@@ -19,7 +19,11 @@ My coding skills are really really (when I say really it's really) limited. So a
 
 Changelog :
 
-NGGYU 2.0 (07/2017) :
+NGGYU 2.1 (07/20/2017) :
+- Gen 2 Megas added ! You can the 6 Mega-Evolutions from Jotho with sprites ! Ampharos, Steelix, Scizor, Heracross, Houndoom and Tyranitar can evolve level 100 !
+- Fixed the HUGE database problem for people with old save. No need of swiping the save data for old players (Mr. Mime is not a friend anymore). Shot me a PM anywhere you want if you have ANY PROBLEM with save loading.
+
+NGGYU 2.0 (07/19/2017) :
 - **Jotho** : Nothing more than that, the 2G ! New routes, new Pokemon, new evolutions. Everything is ready to start a new adventure !
 
 NGGYU 1.2 (07/16/17) :
