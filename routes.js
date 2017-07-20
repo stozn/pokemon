@@ -981,7 +981,7 @@ const ROUTES = {
     }
 	, special57: {
       name: 'Mirage Island'
-    , pokes: ['Whynaut', 'Shedinja']
+    , pokes: ['Wynaut', 'Shedinja']
 	, minLevel: 5
     , maxLevel: 50
     , unlocked: true
