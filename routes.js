@@ -650,4 +650,438 @@ const ROUTES = {
     , maxLevel: 40
     , unlocked: true
     }  
+	, starter3: {
+      name: 'Littleroot Town'
+    , pokes: ['Treecko', 'Torchic', 'Mudkip'] 
+    , minLevel: 5
+    , maxLevel: 5
+    , unlocked: true
+    } 
+	, route43: {
+      name: 'Route 101'
+    , pokes: ['Zigzagoon', 'Wurmple', 'Poochyena'] 
+    , minLevel: 2
+    , maxLevel: 3
+    , unlocked: true
+    }
+	, route44: {
+      name: 'Route 103'
+    , pokes: ['Zigzagoon', 'Poochyena', 'Wingull'] 
+    , minLevel: 2
+    , maxLevel: 4
+    , unlocked: true
+    }
+	, route45: {
+      name: 'Route 102'
+    , pokes: ['Zigzagoon', 'Poochyena', 'Lotad', 'Wurmple', 'Seedot', 'Ralts', 'Surskit'] 
+    , minLevel: 3
+    , maxLevel: 4
+    , unlocked: true
+    }
+	, route46: {
+      name: 'Route 104'
+    , pokes: ['Zigzagoon', 'Poochyena', 'Wurmple', 'Wingull', 'Taillow'] 
+    , minLevel: 3
+    , maxLevel: 5
+    , unlocked: true
+    }
+	, special42: {
+      name: 'Petalburg Woods'
+    , pokes: ['Zigzagoon', 'Poochyena', 'Wurmple', 'Shroomish', 'Silcoon', 'Cascoon', 'Taillow', 'Slakoth'] 
+    , minLevel: 5
+    , maxLevel: 6
+    , unlocked: true
+    }
+	, route47: {
+      name: 'Route 116'
+    , pokes: ['Zigzagoon', 'Poochyena', 'Whismur', 'Taillow', 'Nincada', 'Skitty'] 
+    , minLevel: 6
+    , maxLevel: 8
+    , unlocked: true
+    }
+	, special43: {
+      name: 'Rusturf Tunnel'
+    , pokes: ['Whismur'] 
+    , minLevel: 5
+    , maxLevel: 8
+    , unlocked: true
+    }
+	, route48: {
+      name: 'Route 105'
+    , pokes: ['Wingull', 'Pelipper'] 
+    , minLevel: 10
+    , maxLevel: 30
+    , unlocked: true
+    }
+	, route49: {
+      name: 'Route 106'
+    , pokes: ['Wingull', 'Pelipper'] 
+    , minLevel: 10
+    , maxLevel: 30
+    , unlocked: true
+    }
+	, special44: {
+      name: 'Granite Cave'
+    , pokes: ['Makuhita', 'Aron', 'Mawile', 'Sableye', 'Nosepass'] 
+    , minLevel: 6
+    , maxLevel: 12
+    , unlocked: true
+    }
+	, route50: {
+      name: 'Route 107'
+    , pokes: ['Wingull', 'Pelipper'] 
+    , minLevel: 10
+    , maxLevel: 30
+    , unlocked: true
+    }
+	, route51: {
+      name: 'Route 108'
+    , pokes: ['Wingull', 'Pelipper'] 
+    , minLevel: 10
+    , maxLevel: 30
+    , unlocked: true
+    }
+	, route52: {
+      name: 'Route 109'
+    , pokes: ['Wingull', 'Pelipper'] 
+    , minLevel: 10
+    , maxLevel: 30
+    , unlocked: true
+    }
+	, route53: {
+      name: 'Route 110'
+    , pokes: ['Zigzagoon', 'Poochyena', 'Electrike', 'Gulpin', 'Minun', 'Wingull', 'Pulse'] 
+    , minLevel: 12
+    , maxLevel: 13
+    , unlocked: true
+    }
+	, special45: {
+      name: 'New Mauville'
+    , pokes: ['Magnemite', 'Magneton', 'Voltorb', 'Electrode'] 
+    , minLevel: 22
+    , maxLevel: 26
+    , unlocked: true
+    }
+	, route54: {
+      name: 'Route 117'
+    , pokes: ['Poochyena', 'Zigzagoon', 'Roselia', 'Illumise', 'Volbeat', 'Seedot', 'Surskit'] 
+    , minLevel: 13
+    , maxLevel: 14
+    , unlocked: true
+    }
+	, route55: {
+      name: 'Route 111'
+    , pokes: ['Trapinch', 'Baltoy', 'Cacnea'] 
+    , minLevel: 19
+    , maxLevel: 22
+    , unlocked: true
+    }
+	, special45: {
+      name: 'Mirage Tower'
+    , pokes: ['Anorith', 'Lileep'] 
+    , minLevel: 20
+    , maxLevel: 20
+    , unlocked: true
+    }
+	, route56: {
+      name: 'Route 112'
+    , pokes: ['Nummel'] 
+    , minLevel: 14
+    , maxLevel: 16
+    , unlocked: true
+    }
+	, special46: {
+      name: 'Fiery Path'
+    , pokes: ['Nummel', 'Torkoal'] 
+    , minLevel: 14
+    , maxLevel: 16
+    , unlocked: true
+    }
+	, special47: {
+      name: 'Jagged Pass'
+    , pokes: ['Nummel', 'Spoink'] 
+    , minLevel: 20
+    , maxLevel: 22
+    , unlocked: true
+    }
+	, route57: {
+      name: 'Route 113'
+    , pokes: ['Spinda'] 
+    , minLevel: 14
+    , maxLevel: 16
+    , unlocked: true
+    }
+	, route58: {
+      name: 'Route 114'
+    , pokes: ['Swablu', 'Seedot', 'Zangoose', 'Nuzleaf', 'Surskit', 'Lotad', 'Seviper', 'Lombre'] 
+    , minLevel: 15
+    , maxLevel: 18
+    , unlocked: true
+    }
+	, special48: {
+      name: 'Meteor Falls'
+    , pokes: ['Solrock', 'Lunatone', 'Bagon'] 
+    , minLevel: 14
+    , maxLevel: 35
+    , unlocked: true
+    }
+	, route59: {
+      name: 'Route 115'
+    , pokes: ['Taillow', 'Swablu', 'Swellow', 'Wingull'] 
+    , minLevel: 23
+    , maxLevel: 26
+    , unlocked: true
+    }
+	, route60: {
+      name: 'Route 118'
+    , pokes: ['Zigzagoon', 'Electrike', 'Wingull', 'Linoone', 'Manectric', 'Kecleon'] 
+    , minLevel: 24
+    , maxLevel: 27
+    , unlocked: true
+    }
+	, route61: {
+      name: 'Route 119'
+    , pokes: ['Zigzagoon', 'Linoone', 'Tropius', 'Kecleon'] 
+    , minLevel: 25
+    , maxLevel: 27
+    , unlocked: true
+    }
+	, special49: {
+      name: 'Weather Institute'
+    , pokes: ['Castform'] 
+    , minLevel: 25
+    , maxLevel: 25
+    , unlocked: true
+    }
+	, route62: {
+      name: 'Route 120'
+    , pokes: ['Linoone', 'Mightyena', 'Zigzagoon', 'Poochyena', 'Seedot', 'Surskit', 'Absol'] 
+    , minLevel: 25
+    , maxLevel: 27
+    , unlocked: true
+    }
+	, route63: {
+      name: 'Route 121'
+    , pokes: ['Duskull', 'Zigzagoon', 'Linoone', 'Wingull', 'Kecleon'] 
+    , minLevel: 25
+    , maxLevel: 28
+    , unlocked: true
+    }
+	, special50: {
+      name: 'Safari Zone (RS Edition)'
+    , pokes: ['Oddish', 'Girafarig', 'Doduo', 'Natu', 'Wobbuffet', 'Pikachu', 'Gloom', 'Rhyhorn', 'Phanpy', 'Dodrio', 'Xatu', 'Heracross', 'Pinsir'] 
+    , minLevel: 25
+    , maxLevel: 31
+    , unlocked: true
+    }
+	, special51: {
+      name: 'Safari Zone (Emerald Edition)'
+    , pokes: ['Aipom', 'Teddiursa', 'Ledyba', 'Sunkern', 'Hoothoot','Pineco', 'Houndour','Miltank', 'Mareep', 'Spinarak', 'Gligar','Snubbull', 'Stantler']
+	, minLevel: 33
+    , maxLevel: 40
+    , unlocked: true
+    }
+	, route64: {
+      name: 'Route 122'
+    , pokes: ['Wingull', 'Pelipper'] 
+    , minLevel: 10
+    , maxLevel: 30
+    , unlocked: true
+    }
+	, special52: {
+      name: 'Mt. Pyre'
+    , pokes: ['Duskull', 'Shuppet', 'Meditite', 'Chimecho', 'Wingull']
+	, minLevel: 22
+    , maxLevel: 30
+    , unlocked: true
+    }
+	, special53: {
+      name: 'Too much Hideouts'
+    , pokes: ['Electrode']
+	, minLevel: 40
+    , maxLevel: 40
+    , unlocked: true
+    }
+	, route65: {
+      name: 'Route 123'
+    , pokes: ['Shuppet', 'Duskull', 'Poochyena', 'Mightyena', 'Zigzagoon', 'Wingull', 'Linoone', 'Kecleon'] 
+    , minLevel: 25
+    , maxLevel: 28
+    , unlocked: true
+    }
+	, route66: {
+      name: 'Route 124'
+    , pokes: ['Wingull', 'Pelipper'] 
+    , minLevel: 10
+    , maxLevel: 30
+    , unlocked: true
+    }
+	, special54: {
+      name: 'Mossdeep City'
+    , pokes: ['Beldum']
+	, minLevel: 5
+    , maxLevel: 5
+    , unlocked: true
+    }
+	, route67: {
+      name: 'Route 125'
+    , pokes: ['Wingull', 'Pelipper'] 
+    , minLevel: 10
+    , maxLevel: 30
+    , unlocked: true
+    }
+	, special55: {
+      name: 'Shoal Cave'
+    , pokes: ['Spheal', 'Snorunt']
+	, minLevel: 26
+    , maxLevel: 32
+    , unlocked: true
+    }
+	, route68: {
+      name: 'Route 126'
+    , pokes: ['Wingull', 'Pelipper'] 
+    , minLevel: 10
+    , maxLevel: 30
+    , unlocked: true
+    }
+	, route69: {
+      name: 'Route 127'
+    , pokes: ['Wingull', 'Pelipper'] 
+    , minLevel: 10
+    , maxLevel: 30
+    , unlocked: true
+    }
+	, route70: {
+      name: 'Route 128'
+    , pokes: ['Wingull', 'Pelipper'] 
+    , minLevel: 10
+    , maxLevel: 30
+    , unlocked: true
+    }
+	, special56: {
+      name: 'Victory Road'
+    , pokes: ['Lairon', 'Hariyama', 'Medicham', 'Loudred', 'Makuhita', 'Lairon', 'Whismur', 'Aron', 'Sableye', 'Mawile']
+	, minLevel: 36
+    , maxLevel: 42
+    , unlocked: true
+    }
+	, route71: {
+      name: 'Route 129'
+    , pokes: ['Wingull', 'Pelipper', 'Wailord'] 
+    , minLevel: 10
+    , maxLevel: 30
+    , unlocked: true
+    }
+	, route72: {
+      name: 'Route 130'
+    , pokes: ['Wingull', 'Pelipper'] 
+    , minLevel: 10
+    , maxLevel: 30
+    , unlocked: true
+    }
+	, special57: {
+      name: 'Mirage Island'
+    , pokes: ['Whynaut', 'Shedinja']
+	, minLevel: 5
+    , maxLevel: 50
+    , unlocked: true
+    }
+	, route73: {
+      name: 'Route 131'
+    , pokes: ['Wingull', 'Pelipper'] 
+    , minLevel: 10
+    , maxLevel: 30
+    , unlocked: true
+    }
+	, special58: {
+      name: 'Sky Pillar'
+    , pokes: ['Mawile', 'Claydol', 'Dusclops', 'Sableye', 'Banette', 'Altaria']
+	, minLevel: 5
+    , maxLevel: 50
+    , unlocked: true
+    }
+	, route74: {
+      name: 'Route 132'
+    , pokes: ['Wingull', 'Pelipper'] 
+    , minLevel: 10
+    , maxLevel: 30
+    , unlocked: true
+    }
+	, route75: {
+      name: 'Route 133'
+    , pokes: ['Wingull', 'Pelipper'] 
+    , minLevel: 10
+    , maxLevel: 30
+    , unlocked: true
+    }
+	, special59: {
+      name: 'Ruins'
+    , pokes: ['Regice', 'Regirock', 'Registeel']
+	, minLevel: 40
+    , maxLevel: 40
+    , unlocked: true
+    }
+	, special60: {
+      name: 'Southern Island'
+    , pokes: ['Latios', 'Latias']
+	, minLevel: 50
+    , maxLevel: 50
+    , unlocked: true
+    }
+	, special61: {
+      name: 'Cave of Origin'
+    , pokes: ['Kyogre', 'Groudon']
+	, minLevel: 45
+    , maxLevel: 45
+    , unlocked: true
+    }
+	, special62: {
+      name: 'Sky Pillar (Top)'
+    , pokes: ['Rayquaza']
+	, minLevel: 70
+    , maxLevel: 70
+    , unlocked: true
+    }
+	, special63: {
+      name: 'Wishmaker'
+    , pokes: ['Jirachi']
+	, minLevel: 5
+    , maxLevel: 5
+    , unlocked: true
+    }
+	, special64: {
+      name: 'THE UNIVERSE'
+    , pokes: ['Deoxys']
+	, minLevel: 30
+    , maxLevel: 30
+    , unlocked: true
+    }
+	, special65: {
+      name: 'Underwater 7.1'
+    , pokes: ['Clamperl', 'Relicanth']
+	, minLevel: 20
+    , maxLevel: 35
+    , unlocked: true
+    }
+	, water6: {
+      name: 'Old Rod'
+    , pokes: ['Feebas', 'Azurill'] 
+    , minLevel: 5
+    , maxLevel: 5
+    , unlocked: true
+    }  
+   , water7: {
+      name: 'Good Rod'
+    , pokes: ['Luvdisc', 'Barboach', 'Corphish'] 
+    , minLevel: 20
+    , maxLevel: 20
+    , unlocked: true
+    }  
+   , water8: {
+      name: 'Super Rod'
+    , pokes: ['Wailmer', 'Carvanha', 'Huntail'] 
+    , minLevel: 40
+    , maxLevel: 40
+    , unlocked: true
+    } 
 }
