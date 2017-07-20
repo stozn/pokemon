@@ -610,19 +610,19 @@ const ROUTES = {
     }
 	, special39: {
       name: 'Tin Tower 10F'
-    , pokes: ['Ho-oh'] 
+    , pokes: ['Ho-Oh'] 
     , minLevel: 60
     , maxLevel: 60
     , unlocked: true
     }
-	, special39: {
+	, special40: {
       name: 'Altar of Time'
     , pokes: ['Celebi'] 
     , minLevel: 30
     , maxLevel: 30
     , unlocked: true
     }
-	, special40: {
+	, special41: {
       name: 'Headbutt'
     , pokes: ['Aipom', 'Pineco', 'Heracross', 'Spinarak', 'Ledyba', 'Hoothoot', 'Noctowl'] 
     , minLevel: 10
