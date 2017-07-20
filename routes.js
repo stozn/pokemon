@@ -540,7 +540,7 @@ const ROUTES = {
     }
 	, route39: {
       name: 'Route 43'
-    , pokes: ['Girafarig', 'Flaffy', 'Mareep', 'Noctowl', 'Sentret', 'Furret'] 
+    , pokes: ['Girafarig', 'Flaaffy', 'Mareep', 'Noctowl', 'Sentret', 'Furret'] 
     , minLevel: 15
     , maxLevel: 17
     , unlocked: true
