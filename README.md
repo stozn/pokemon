@@ -19,6 +19,9 @@ My coding skills are really really (when I say really it's really) limited. So a
 
 Changelog :
 
+NGGYU 3.0 (07/21/2017) :
+- **Hoenn** : Trumpets ! Since this game will never let you down, it was really fast to add all the Gen 3. More areas, more Pokemon, more evolutions. Everything should work fine. The issues are here for any bugs ! Enjoy the water !
+
 NGGYU 2.1 (07/20/2017) :
 - Gen 2 Megas added ! You can the 6 Mega-Evolutions from Jotho with sprites ! Ampharos, Steelix, Scizor, Heracross, Houndoom and Tyranitar can evolve level 100 !
 - Fixed the HUGE database problem for people with old save. No need of swiping the save data for old players (Mr. Mime is not a friend anymore). Shot me a PM anywhere you want if you have ANY PROBLEM with save loading.
