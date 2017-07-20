@@ -20,7 +20,7 @@ My coding skills are really really (when I say really it's really) limited. So a
 Changelog :
 
 NGGYU 2.0 (07/2017) :
-- **Jotho** : Nothing more than that, the 2G ! New routes, new Pokemon, new evolutions. Everything is ready to start a new adventure ! If you have troubles with loading the game, it's save related, you can find more informations [here](https://www.reddit.com/r/Pokeidle/comments/6og1p2/20_update_lets_go_to_the_lake_of_rage_gen_2_update/)
+- **Jotho** : Nothing more than that, the 2G ! New routes, new Pokemon, new evolutions. Everything is ready to start a new adventure !
 
 NGGYU 1.2 (07/16/17) :
 - **Real Catch Rate !** It was asking for a long time, it's now done. Using a simple formula (but close to reals mechanics), Pokemon have their own catch rate. No more stupid probability or anything. A Pidgey with an ultraball will be 100% caught, while a Mewtwo with a Pokeball will be almost impossible to catch.
