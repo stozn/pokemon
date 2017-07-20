@@ -1051,7 +1051,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Nidoran-f"
+            "Pokemon": "Nidoran f"
          }
       ],
       "stats": [
@@ -1163,7 +1163,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Nidoran-m"
+            "Pokemon": "Nidoran m"
          }
       ],
       "stats": [
@@ -4532,7 +4532,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Mr-mime"
+            "Pokemon": "Mr. Mime"
          }
       ],
       "stats": [
