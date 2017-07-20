@@ -487,6 +487,10 @@ const EVOLUTIONS = {
     "level":"25",
     "to":"Donphan"
   },
+  "Porygon":{
+    "level":"30",
+    "to":"Porygon2"
+  },
   "Tyrogue":{
     "level":"20",
     "to":"Hitmontop"
