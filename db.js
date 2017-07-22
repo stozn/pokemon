@@ -28840,5 +28840,80 @@ const POKEDEX = [
             "back": "sprites/back/s015m.png"
          }
       }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "P-Kyogre"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "3",
+            "growth rate": "Slow",
+            "hp": "100",
+            "attack": "150",
+            "defense": "130",
+            "sp atk": "180",
+            "sp def": "160",
+            "speed": "90",
+            "types": [
+               "Water"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "302"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/382p.png",
+            "back": "sprites/back/382p.png"
+         },
+         "shiny": {
+            "front": "sprites/s382p.png",
+            "back": "sprites/back/s382p.png"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "P-Groudon"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "3",
+            "growth rate": "Slow",
+            "hp": "100",
+            "attack": "180",
+            "defense": "160",
+            "sp atk": "150",
+            "sp def": "90",
+            "speed": "90",
+            "types": [
+               "Fire",
+               "Ground"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "302"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/383p.png",
+            "back": "sprites/back/383p.png"
+         },
+         "shiny": {
+            "front": "sprites/s383p.png",
+            "back": "sprites/back/s383p.png"
+         }
+      }
    }
 ];
