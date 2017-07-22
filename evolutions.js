@@ -515,6 +515,10 @@ const EVOLUTIONS = {
     "level":"36",
     "to":"Sceptile"
   },
+  "Sceptile":{
+    "level":"100",
+    "to":"M-Sceptile"
+  },
   "Torchic":{
     "level":"16",
     "to":"Combusken"
@@ -523,6 +527,10 @@ const EVOLUTIONS = {
     "level":"36",
     "to":"Blaziken"
   },
+  "Blaziken":{
+    "level":"100",
+    "to":"M-Blaziken"
+  },
   "Mudkip":{
     "level":"16",
     "to":"Marshtomp"
@@ -530,6 +538,10 @@ const EVOLUTIONS = {
   "Marshtomp":{
     "level":"36",
     "to":"Swampert"
+  },
+  "Swampert":{
+    "level":"100",
+    "to":"M-Swampert"
   },
   "Poochyena":{
     "level":"18",
@@ -579,6 +591,10 @@ const EVOLUTIONS = {
     "level":"30",
     "to":"Gardevoir"
   },
+  "Gardevoir":{
+    "level":"100",
+    "to":"M-Gardevoir"
+  },
   "Surskit":{
     "level":"22",
     "to":"Masquerain"
@@ -615,6 +631,14 @@ const EVOLUTIONS = {
     "level":"25",
     "to":"Delcatty"
   },
+  "Sableye":{
+    "level":"100",
+    "to":"M-Sableye"
+  },
+  "Mawile":{
+    "level":"100",
+    "to":"M-Mawile"
+  },
   "Aron":{
     "level":"32",
     "to":"Lairon"
@@ -623,13 +647,25 @@ const EVOLUTIONS = {
     "level":"42",
     "to":"Aggron"
   },
+  "Aggron":{
+    "level":"100",
+    "to":"M-Aggron"
+  },
   "Meditite":{
     "level":"37",
     "to":"Medicham"
   },
+  "Medicham":{
+    "level":"100",
+    "to":"M-Medicham"
+  },
   "Electrike":{
     "level":"37",
     "to":"Manectric"
+  },
+  "Manectric":{
+    "level":"100",
+    "to":"M-Manectric"
   },
   "Gulpin":{
     "level":"26",
@@ -639,6 +675,10 @@ const EVOLUTIONS = {
     "level":"30",
     "to":"Sharpedo"
   },
+  "Sharpedo":{
+    "level":"100",
+    "to":"M-Sharpedo"
+  },
   "Wailmer":{
     "level":"40",
     "to":"Wailord"
@@ -646,6 +686,10 @@ const EVOLUTIONS = {
   "Nummel":{
     "level":"33",
     "to":"Camerupt"
+  },
+  "Camerupt":{
+    "level":"100",
+    "to":"M-Camerupt"
   },
   "Spoink":{
     "level":"32",
@@ -666,6 +710,10 @@ const EVOLUTIONS = {
   "Swablu":{
     "level":"35",
     "to":"Altaria"
+  },
+  "Altaria":{
+    "level":"100",
+    "to":"M-Altaria"
   },
   "Barboach":{
     "level":"30",
@@ -695,6 +743,10 @@ const EVOLUTIONS = {
     "level":"37",
     "to":"Banette"
   },
+  "Banette":{
+    "level":"100",
+    "to":"M-Banette"
+  },
   "Duskull":{
     "level":"37",
     "to":"Dusclops"
@@ -702,6 +754,10 @@ const EVOLUTIONS = {
   "Snorunt":{
     "level":"42",
     "to":"Glalie"
+  },
+  "Glalie":{
+    "level":"100",
+    "to":"M-Glalie"
   },
   "Spheal":{
     "level":"32",
@@ -723,6 +779,10 @@ const EVOLUTIONS = {
     "level":"50",
     "to":"Salamence"
   },
+  "Salamence":{
+    "level":"100",
+    "to":"M-Salamence"
+  },
   "Beldum":{
     "level":"20",
     "to":"Metang"
@@ -730,5 +790,21 @@ const EVOLUTIONS = {
   "Metang":{
     "level":"45",
     "to":"Metagross"
+  },
+  "Metagross":{
+    "level":"100",
+    "to":"M-Metagross"
+  },
+  "Latias":{
+    "level":"100",
+    "to":"M-Latias"
+  },
+  "Latios":{
+    "level":"100",
+    "to":"M-Latios"
+  },
+  "Rayquaza":{
+    "level":"100",
+    "to":"M-Rayquaza"
   },
 }
