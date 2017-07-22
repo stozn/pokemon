@@ -1,4 +1,5 @@
 const ROUTES = {
+  Kanto: {
     starter: {
       name: 'Pallet Town'
     , pokes: ['Bulbasaur', 'Charmander', 'Squirtle']
@@ -321,7 +322,9 @@ const ROUTES = {
     , maxLevel: 40
     , unlocked: true
     }  
-   , starter2: {
+  },
+  Johto: {
+    starter2: {
       name: 'New Bark Town'
     , pokes: ['Chikorita', 'Cyndaquil', 'Totodile'] 
     , minLevel: 5
@@ -650,7 +653,9 @@ const ROUTES = {
     , maxLevel: 40
     , unlocked: true
     }  
-	, starter3: {
+  },
+  Hoenn: {
+    starter3: {
       name: 'Littleroot Town'
     , pokes: ['Treecko', 'Torchic', 'Mudkip'] 
     , minLevel: 5
@@ -1084,4 +1089,5 @@ const ROUTES = {
     , maxLevel: 40
     , unlocked: true
     } 
+  }
 }
