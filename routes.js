@@ -1001,8 +1001,8 @@ const ROUTES = {
 	, special58: {
       name: 'Sky Pillar'
     , pokes: ['Mawile', 'Claydol', 'Dusclops', 'Sableye', 'Banette', 'Altaria']
-	, minLevel: 5
-    , maxLevel: 50
+    , minLevel: 34
+    , maxLevel: 600
     , unlocked: true
     }
 	, route74: {
