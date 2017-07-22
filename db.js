@@ -9329,7 +9329,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Ho-oh"
+            "Pokemon": "Ho-Oh"
          }
       ],
       "stats": [
