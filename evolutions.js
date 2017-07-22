@@ -683,7 +683,7 @@ const EVOLUTIONS = {
     "level":"40",
     "to":"Wailord"
   },
-  "Nummel":{
+  "Numel":{
     "level":"33",
     "to":"Camerupt"
   },
