@@ -755,7 +755,7 @@ const ROUTES = {
     }
 	, route53: {
       name: 'Route 110'
-    , pokes: ['Zigzagoon', 'Poochyena', 'Electrike', 'Gulpin', 'Minun', 'Wingull', 'Pulse'] 
+    , pokes: ['Zigzagoon', 'Poochyena', 'Electrike', 'Gulpin', 'Minun', 'Wingull', 'Plulse'] 
     , minLevel: 12
     , maxLevel: 13
     , unlocked: true
