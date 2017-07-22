@@ -97,6 +97,14 @@ ul {
   overflow-x: hidden;
 }
 
+#areasList #regionSelectContainer {
+	padding: 5px 10px 0;
+}
+
+#areasList #regionSelect {
+	width: 100%;
+}
+
 #areasList li,#areasList a {
   margin-right: 6px;
 }
