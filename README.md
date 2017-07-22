@@ -19,6 +19,10 @@ My coding skills are really really (when I say really it's really) limited. So a
 
 Changelog :
 
+NGGYU 3.1 (07/22/2017) :
+- Proper Region navigation ! No more LONG list of routes. Now with the new regions, you have a button on the top of the routes list in order to be able to switch region to region. This way the look of the game is really cleaner but nothing more in gameplay side with this.
+- Gen 3 Megas added ! This is more important. They are available for a few hours, but sprites were needed before officialy updating to 3.1 ! **Meta Metagross back sprite is still not a thing, so for the moment well... It's a simple front sprite, will try to find something in order to fix that**
+
 NGGYU 3.0 (07/21/2017) :
 - **Hoenn** : Trumpets ! Since this game will never let you down, it was really fast to add all the Gen 3. More areas, more Pokemon, more evolutions. Everything should work fine. The issues are here for any bugs ! Enjoy the water !
 
