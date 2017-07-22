@@ -511,7 +511,7 @@ const EVOLUTIONS = {
     "level":"16",
     "to":"Grovyle"
   },
-  "Tyranitar":{
+  "Grovyle":{
     "level":"36",
     "to":"Sceptile"
   },
