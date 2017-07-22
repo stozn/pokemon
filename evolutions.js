@@ -803,6 +803,14 @@ const EVOLUTIONS = {
     "level":"100",
     "to":"M-Latios"
   },
+  "Groudon":{
+    "level":"100",
+    "to":"P-Groudon"
+  },
+  "Rayquaza":{
+    "level":"100",
+    "to":"M-Rayquaza"
+  },
   "Rayquaza":{
     "level":"100",
     "to":"M-Rayquaza"
