@@ -790,21 +790,21 @@ const ROUTES = {
     }
 	, route56: {
       name: 'Route 112'
-    , pokes: ['Nummel'] 
+    , pokes: ['Numel'] 
     , minLevel: 14
     , maxLevel: 16
     , unlocked: true
     }
 	, special46: {
       name: 'Fiery Path'
-    , pokes: ['Nummel', 'Torkoal'] 
+    , pokes: ['Numel', 'Torkoal'] 
     , minLevel: 14
     , maxLevel: 16
     , unlocked: true
     }
 	, special47: {
       name: 'Jagged Pass'
-    , pokes: ['Nummel', 'Spoink'] 
+    , pokes: ['Numel', 'Spoink'] 
     , minLevel: 20
     , maxLevel: 22
     , unlocked: true
@@ -966,7 +966,7 @@ const ROUTES = {
 	, special56: {
       name: 'Victory Road'
     , pokes: ['Lairon', 'Hariyama', 'Medicham', 'Loudred', 'Makuhita', 'Lairon', 'Whismur', 'Aron', 'Sableye', 'Mawile']
-	, minLevel: 36
+    , minLevel: 36
     , maxLevel: 42
     , unlocked: true
     }
