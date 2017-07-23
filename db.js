@@ -14429,7 +14429,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Deoxys-normal"
+            "Pokemon": "Deoxys"
          }
       ],
       "stats": [
@@ -15440,7 +15440,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Wormadam-plant"
+            "Pokemon": "Wormadam"
          }
       ],
       "stats": [
@@ -16414,7 +16414,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Mime-jr"
+            "Pokemon": "Mime Jr."
          }
       ],
       "stats": [
@@ -17730,7 +17730,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Porygon-z"
+            "Pokemon": "Porygon-Z"
          }
       ],
       "stats": [
@@ -18218,7 +18218,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Giratina-altered"
+            "Pokemon": "Giratina"
          }
       ],
       "stats": [
@@ -18404,7 +18404,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Shaymin-land"
+            "Pokemon": "Shaymin"
          }
       ],
       "stats": [
@@ -20569,7 +20569,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Basculin-red-striped"
+            "Pokemon": "Basculin"
          }
       ],
       "stats": [
@@ -20757,7 +20757,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Darmanitan-standard"
+            "Pokemon": "Darmanitan"
          }
       ],
       "stats": [
@@ -23983,7 +23983,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Tornadus-incarnate"
+            "Pokemon": "Tornadus"
          }
       ],
       "stats": [
@@ -24020,7 +24020,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Thundurus-incarnate"
+            "Pokemon": "Thundurus"
          }
       ],
       "stats": [
@@ -24134,7 +24134,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Landorus-incarnate"
+            "Pokemon": "Landorus"
          }
       ],
       "stats": [
@@ -24210,7 +24210,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Keldeo-ordinary"
+            "Pokemon": "Keldeo"
          }
       ],
       "stats": [
@@ -24248,7 +24248,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Meloetta-aria"
+            "Pokemon": "Meloetta"
          }
       ],
       "stats": [
@@ -25371,7 +25371,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Meowstic-male"
+            "Pokemon": "Meowstic"
          }
       ],
       "stats": [
@@ -25484,7 +25484,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Aegislash-shield"
+            "Pokemon": "Aegislash"
          }
       ],
       "stats": [
@@ -26576,7 +26576,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Pumpkaboo-average"
+            "Pokemon": "Pumpkaboo"
          }
       ],
       "stats": [
@@ -26614,7 +26614,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Gourgeist-average"
+            "Pokemon": "Gourgeist"
          }
       ],
       "stats": [
