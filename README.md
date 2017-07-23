@@ -18,6 +18,10 @@ My coding skills are really really (when I say really it's really) limited. So a
 
 Changelog :
 
+NGGYU 1.4.2 (07/24/2017) :
+- **Sinnoh** : Gen 4 is here ! Are you ready to face the Pokemon at the origin of everything ? Arceus is waiting for fighting ! More Pokemon, more routes, more evolutions as always. Should be working fine, maybe some missing evolutions or some stupidity for that, but should be alright !
+- **Event Region** : A special place for the future Events in the game. Be ready, it's coming really really soon !
+
 NGGYU 1.3.2 (07/23/2017) :
 - **Minor Update** : Added Shiny sprites for megas. From Gen 1 to Gen 3 so 100% of the sprites are now in game. Let's focus on something new and important now !
 
