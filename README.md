@@ -18,6 +18,9 @@ My coding skills are really really (when I say really it's really) limited. So a
 
 Changelog :
 
+NGGYU 1.3.2 (07/23/2017) :
+- **Minor Update** : Added Shiny sprites for megas. From Gen 1 to Gen 3 so 100% of the sprites are now in game. Let's focus on something new and important now !
+
 NGGYU 1.3.1 (07/23/2017) :
 - **Shiny Pokemon** ! This was the base of the game, the reason I took it in hand, and now it's finally a thing ! You can find Shiny Pokemon anywhere with a 1/8192 probability ! Evolutions are working too, and the system is now good to work ! PokeIdle is now really a farming game if you're a Shiny Hunter !
 
