@@ -95,6 +95,25 @@ const makeDomHandler = () => {
       setValue(healElement, 'Heal: ' + Math.floor(((canHeal/30000)*100)) + '%')
     }
   }
+  const pokeColor = (poke) => {
+    if (poke.alive()) {
+      if (poke === player.activePoke()) {
+        if (poke.shiny()) {
+          return 'rgb(255, 230, 10)'
+        } else {
+          return 'rgb(80, 157, 2)'
+        }
+      } else {
+        if (poke.shiny()) {
+          return 'rgb(255, 255, 76)'
+        } else {
+          return 'rgb(66, 116, 10)'
+        }
+      }
+    } else {
+      return 'red'
+    }
+  }
   const renderPokeList = (id, list, player, deleteEnabledId) => {
     const listCssQuery = '.container.list' + '#' + id
     const listContainer = $(listCssQuery)
@@ -149,12 +168,7 @@ const makeDomHandler = () => {
 			`<a
 		   href="#"
 		   onclick="userInteractions.changePokemon(${index})"
-		   style="color: ${poke.alive()
-							&& (poke === player.activePoke()
-								&& 'rgb(80, 157, 2)'
-								||'rgb(66, 116, 10)')
-							|| 'red'
-						  };
+		   style="color: ${pokeColor(poke)};
 				  ${poke === player.activePoke()
 					&& 'border: solid 1px rgb(139, 142, 4);'
 					  +'border-radius: 2px;'
@@ -271,12 +285,13 @@ const makeDomHandler = () => {
   }
 }
 
-const makePoke = (pokeModel, initialLevel, initialExp) => {
+const makePoke = (pokeModel, initialLevel, initialExp, shiny) => {
   var poke = cloneJsonObject(pokeModel)
   const expTable = EXP_TABLE[poke.stats[0]["growth rate"]]
   var exp = initialLevel
               && expTable[initialLevel - 1]
               || initialExp
+  const isShiny = (shiny == true);
   const currentLevel = () => {
       return expTable
         .filter((xp_requirement) => xp_requirement <= exp)
@@ -327,11 +342,13 @@ const makePoke = (pokeModel, initialLevel, initialExp) => {
   const poke_interface = {
     pokeName: () => poke.pokemon[0].Pokemon
   , image: () => {
+    const imageType = (isShiny ? 'shiny' : 'normal')
     return {
-      front: poke.images.normal.front
-    , back: poke.images.normal.back
+      front: poke.images[imageType].front
+    , back: poke.images[imageType].back
     }
   }
+  , shiny: () => isShiny
   , type: () => poke.stats[0].types[0]
   , catchRate: () => Number(poke.stats[0]['catch rate'])
   , lifeAsText: () => '' + (combat.mutable.hp < 0 ? 0 : combat.mutable.hp) + ' / ' + combat.maxHp()
@@ -368,7 +385,7 @@ const makePoke = (pokeModel, initialLevel, initialExp) => {
   , baseExp: () => Number(poke.exp[0]['base exp'])
   , heal: () => combat.mutable.hp = combat.maxHp()
   , allCombat: () => combat
-  , save: () => [poke.pokemon[0].Pokemon, exp]
+  , save: () => [poke.pokemon[0].Pokemon, exp, isShiny]
   }
   return poke_interface
 }
@@ -447,17 +464,19 @@ const makePlayer = () => {
     }
   , loadPokes: () => {
       Array(Number(localStorage.getItem(`totalPokes`))).fill(0).forEach((el, index) => {
-        const pokeName = JSON.parse(localStorage.getItem('poke'+index))[0]
-        const exp = JSON.parse(localStorage.getItem('poke'+index))[1]
-        pokemons.push(makePoke(pokeByName(pokeName), false, Number(exp)))
+        const loadedPoke = JSON.parse(localStorage.getItem('poke'+index))
+        const pokeName = loadedPoke[0]
+        const exp = loadedPoke[1]
+        const shiny = (loadedPoke[2] == true)
+        pokemons.push(makePoke(pokeByName(pokeName), false, Number(exp), shiny))
       })
       if (JSON.parse(localStorage.getItem('ballsAmmount'))) {
         ballsAmmount = JSON.parse(localStorage.getItem('ballsAmmount'))
       }
 
     }
-  , selectedBallRNG: () => {
-      return ballsRngs[selectedBall]
+  , ballRNG: (ballName) => {
+      return ballsRngs[ballName]
     }
   , changeSelectedBall: (newBall) => {
       selectedBall = newBall
@@ -470,6 +489,14 @@ const makePlayer = () => {
      return false
     }
   , selectedBall: () => selectedBall
+  , bestAvailableBall: () => {
+      const ballsFromBestToWorst = ['ultraball', 'greatball', 'pokeball']
+      for (var i = 0; i < ballsFromBestToWorst.length; i++) {
+        if (ballsAmmount[ballsFromBestToWorst[i]] > 0) {
+          return ballsFromBestToWorst[i];
+        }
+      }
+    }
   , ballsAmmount: () => ballsAmmount
   , addBalls: (ballName, ammount) => {
       ballsAmmount[ballName] += ammount
@@ -483,7 +510,12 @@ const makeEnemy = (starter) => {
 
   const generateNew = (recipe) => {
     const poke = pokeByName(randomArrayElement(recipe.pokes))
-    return makePoke(poke, recipe.minLevel + Math.round((Math.random() * (recipe.maxLevel - recipe.minLevel))))
+    return makePoke(
+      poke,
+      recipe.minLevel + Math.round((Math.random() * (recipe.maxLevel - recipe.minLevel))),
+      false,
+      Math.random() < (1 / (1 << 5 << 8))
+    )
   }
 
   return {
@@ -628,14 +660,15 @@ const makeCombatLoop = (enemy, player, dom) => {
       {
         //enemyActivePoke is dead
 
-        if (catchEnabled) {
+        if (catchEnabled || enemy.activePoke().shiny()) {
           dom.gameConsoleLog('Trying to catch ' + enemy.activePoke().pokeName() + '...', 'purple')
-          if (player.consumeBall(player.selectedBall())) {
+          const selectedBall = (enemy.activePoke().shiny() ? player.bestAvailableBall() : player.selectedBall())
+          if (player.consumeBall(selectedBall)) {
             dom.renderBalls(player.ballsAmmount())
             const rngHappened =
               RNG(
                 player.addPoke.bind(null, enemy.activePoke())
-              , (enemy.activePoke().catchRate() * player.selectedBallRNG()) / 3
+              , (enemy.activePoke().catchRate() * player.ballRNG(selectedBall)) / 3
               )
             if (rngHappened) {
               dom.gameConsoleLog('You caught ' + enemy.activePoke().pokeName() + '!!', 'purple')
