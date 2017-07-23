@@ -11,13 +11,17 @@ WIP.
 
 Planned (in order of priority, at least ALMOST) :
 
-- More options in catching Pokemon (almost finished)
-- Shiny stuff
+- Saving System
 - Other generations
 
 My coding skills are really really (when I say really it's really) limited. So any help would be more than apprecied. Just trying to bring some ideas and doing the boring stuff.
 
 Changelog :
+
+NGGYU 1.3.1 (07/23/2017) :
+- **Shiny Pokemon** ! This was the base of the game, the reason I took it in hand, and now it's finally a thing ! You can find Shiny Pokemon anywhere with a 1/8192 probability ! Evolutions are working too, and the system is now good to work ! PokeIdle is now really a farming game if you're a Shiny Hunter !
+
+- **Update on the Catch System** ! Because of adding Shiny, rethinking the catching system was necessary. I didn't want to bring a 100% catch rate on Shiny Pokemon, and anyway players should have to check the "Try to catch" and so bothering with a lot of useless Pokemon. So, I thought differently, and I've found the right thing : When a Shiny pops up, the game will trhow the **BEST** ball in your inventory. So this way you have the greatest chance to catch the Shiny. Automaticly. No need to check the game or anything. And this way, people will still struggle to have Shiny Legendary, so more challenge !
 
 NGGYU 3.1 (07/22/2017) :
 - Proper Region navigation ! No more LONG list of routes. Now with the new regions, you have a button on the top of the routes list in order to be able to switch region to region. This way the look of the game is really cleaner but nothing more in gameplay side with this.
