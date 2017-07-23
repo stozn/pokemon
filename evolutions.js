@@ -659,6 +659,10 @@ const EVOLUTIONS = {
     "level":"100",
     "to":"M-Gardevoir"
   },
+  "Gallade":{
+    "level":"100",
+    "to":"M-Gallade"
+  },
   "Surskit":{
     "level":"22",
     "to":"Masquerain"
