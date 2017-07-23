@@ -1506,7 +1506,7 @@ const ROUTES = {
     }
 	, special93: {
       name: 'Strange Rocks'
-    , pokes: ['Glaecon', 'Leafeon']
+    , pokes: ['Glaceon', 'Leafeon']
 	, minLevel: 20
     , maxLevel: 20
     , unlocked: true
