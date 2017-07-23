@@ -18,7 +18,7 @@ My coding skills are really really (when I say really it's really) limited. So a
 
 Changelog :
 
-NGGYU 1.4.2 (07/24/2017) :
+NGGYU 1.4.0 (07/24/2017) :
 - **Sinnoh** : Gen 4 is here ! Are you ready to face the Pokemon at the origin of everything ? Arceus is waiting for fighting ! More Pokemon, more routes, more evolutions as always. Should be working fine, maybe some missing evolutions or some stupidity for that, but should be alright !
 - **Event Region** : A special place for the future Events in the game. Be ready, it's coming really really soon !
 
