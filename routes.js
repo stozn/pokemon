@@ -1089,5 +1089,520 @@ const ROUTES = {
     , maxLevel: 40
     , unlocked: true
     } 
-  }
+  },
+    Sinnoh: {
+    starter4: {
+      name: 'Twinleaf Town'
+    , pokes: ['Turtwig', 'Chimchar', 'Piplup'] 
+    , minLevel: 5
+    , maxLevel: 5
+    , unlocked: true
+    } 
+	, route76: {
+      name: 'Route 201'
+    , pokes: ['Starly', 'Bidoof', 'Kricketot'] 
+    , minLevel: 2
+    , maxLevel: 3
+    , unlocked: true
+    } 
+	, special66: {
+      name: 'Lake Verity'
+    , pokes: ['Starly', 'Bidoof']
+	, minLevel: 2
+    , maxLevel: 4
+    , unlocked: true
+    }
+	, route77: {
+      name: 'Route 202'
+    , pokes: ['Starly', 'Bidoof', 'Shinx', 'Kricketot'] 
+    , minLevel: 2
+    , maxLevel: 4
+    , unlocked: true
+    } 
+	, route78: {
+      name: 'Route 203'
+    , pokes: ['Starly', 'Bidoof', 'Shinx', 'Kricketot'] 
+    , minLevel: 4
+    , maxLevel: 6
+    , unlocked: true
+    }
+	, special67: {
+      name: 'Oreburgh Gate'
+    , pokes: ['Zubat', 'Psyduck', 'Geodude']
+	, minLevel: 5
+    , maxLevel: 8
+    , unlocked: true
+    }
+	, special67: {
+      name: 'Oreburgh City'
+    , pokes: ['Cranidos', 'Shieldon']
+	, minLevel: 20
+    , maxLevel: 20
+    , unlocked: true
+    }	
+	, special68: {
+      name: 'Oreburgh Mine'
+    , pokes: ['Geodude', 'Zubat', 'Onix']
+	, minLevel: 5
+    , maxLevel: 10
+    , unlocked: true
+    }	
+	, route79: {
+      name: 'Route 204'
+    , pokes: ['Starly', 'Bidoof', 'Shinx', 'Budew', 'Kricketot'] 
+    , minLevel: 3
+    , maxLevel: 6
+    , unlocked: true
+    }
+	, special69: {
+      name: 'Floaroma Town'
+    , pokes: ['Combee', 'Burmy', 'Cherubi', 'Munchlax', 'Mothim']
+	, minLevel: 5
+    , maxLevel: 15
+    , unlocked: true
+    }		
+	, route80: {
+      name: 'Route 205'
+    , pokes: ['Shellos', 'Buizel', 'Bidoof', 'Pachirisu'] 
+    , minLevel: 8
+    , maxLevel: 12
+    , unlocked: true
+    }
+	, special70: {
+      name: 'Valley Windworks'
+    , pokes: ['Shellos', 'Buizel', 'Shinx', 'Pachirisu', 'Bidoof']
+	, minLevel: 7
+    , maxLevel: 12
+    , unlocked: true
+    }	
+	, special71: {
+      name: '99 Luftballons'
+    , pokes: ['Drifloon']
+	, minLevel: 20
+    , maxLevel: 20
+    , unlocked: true
+    }	
+	, special72: {
+      name: 'Fuego Ironworks'
+    , pokes: ['Floatzel', 'Shellos', 'Gastrodon', 'Shinx', 'Luxio', 'Pachirisu']
+	, minLevel: 28
+    , maxLevel: 30
+    , unlocked: true
+    }	
+	, special73: {
+      name: 'Eterna Forest'
+    , pokes: ['Budew', 'Buneary', 'Bidoof', 'Kricketot']
+	, minLevel: 10
+    , maxLevel: 14
+    , unlocked: true
+    }
+	, special74: {
+      name: 'Old Chateau'
+    , pokes: ['Gastly', 'Haunter']
+	, minLevel: 12
+    , maxLevel: 16
+    , unlocked: true
+    }
+	, special75: {
+      name: 'Strange TV'
+    , pokes: ['Rotom']
+	, minLevel: 15
+    , maxLevel: 15
+    , unlocked: true
+    }
+	, route81: {
+      name: 'Route 206'
+    , pokes: ['Kricketune', 'Bronzor', 'Kricketot', 'Stunky'] 
+    , minLevel: 14
+    , maxLevel: 19
+    , unlocked: true
+    }
+	, special76: {
+      name: 'Wayward Cave'
+    , pokes: ['Bronzor', 'Gible']
+	, minLevel: 14
+    , maxLevel: 20
+    , unlocked: true
+    }
+	, route82: {
+      name: 'Route 207'
+    , pokes: ['Machop', 'Geodude', 'Ponyta'] 
+    , minLevel: 5
+    , maxLevel: 7
+    , unlocked: true
+    }
+	, special77: {
+      name: 'Mt. Coronet'
+    , pokes: ['Chingling', 'Bronzor', 'Bronzong', 'Snover', 'Abomasnow']
+	, minLevel: 12
+    , maxLevel: 40
+    , unlocked: true
+    }
+	, route83: {
+      name: 'Route 208'
+    , pokes: ['Bidoof', 'Bibarel'] 
+    , minLevel: 16
+    , maxLevel: 18
+    , unlocked: true
+    }
+	, special78: {
+      name: 'Hearthome City'
+    , pokes: ['Happiny']
+	, minLevel: 1
+    , maxLevel: 1
+    , unlocked: true
+    }
+	, route84: {
+      name: 'Route 209'
+    , pokes: ['Bibarel', 'Mime Jr.', 'Starly', 'Staravia', 'Bonsly'] 
+    , minLevel: 16
+    , maxLevel: 18
+    , unlocked: true
+    }
+	, special79: {
+      name: 'Hallowed Tower'
+    , pokes: ['Spiritomb']
+	, minLevel: 25
+    , maxLevel: 25
+    , unlocked: true
+    }
+	, special80: {
+      name: 'Lost Tower'
+    , pokes: ['Zubat', 'Gastly', 'Murkrow', 'Misdreavus', 'Duskull', 'Golbat']
+	, minLevel: 16
+    , maxLevel: 19
+    , unlocked: true
+    }
+	, special81: {
+      name: 'Solaceon Ruins'
+    , pokes: ['Unown']
+	, minLevel: 14
+    , maxLevel: 30
+    , unlocked: true
+    }
+	, route85: {
+      name: 'Route 210'
+    , pokes: ['Mime Jr.', 'Kricketune', 'Bonsly', 'Staravia'] 
+    , minLevel: 19
+    , maxLevel: 21
+    , unlocked: true
+    }
+	, route86: {
+      name: 'Route 211'
+    , pokes: ['Chingling', 'Bronzor'] 
+    , minLevel: 27
+    , maxLevel: 30
+    , unlocked: true
+    }
+	, route87: {
+      name: 'Route 212'
+    , pokes: ['Budew', 'Starly', 'Kricketune', 'Staravia'] 
+    , minLevel: 16
+    , maxLevel: 24
+    , unlocked: true
+    }
+	, special82: {
+      name: 'Trophy Garden'
+    , pokes: ['Clefairy', 'Jigglypuff', 'Meowth', 'Chansey', 'Ditto', 'Eevee', 'Cleffa', 'Igglybuff', 'Marill', 'Azurill', 'Plusle', 'Minun', 'Castform']
+	, minLevel: 16
+    , maxLevel: 18
+    , unlocked: true
+    }
+	, special83: {
+      name: 'Great Marsh'
+    , pokes: ['Bibarel', 'Starly', 'Budew', 'Bidoof', 'Staravia', 'Skorupi', 'Drapion', 'Croagunk', 'Toxicroak', 'Carnivine']
+	, minLevel: 20
+    , maxLevel: 30
+    , unlocked: true
+    }
+	, route88: {
+      name: 'Route 213'
+    , pokes: ['Shellos', 'Buizel', 'Chatot', 'Floatzel'] 
+    , minLevel: 20
+    , maxLevel: 26
+    , unlocked: true
+    }
+	, special84: {
+      name: 'Valor Lakefront'
+    , pokes: ['Staravia', 'Bibarel', 'Kricketune']
+	, minLevel: 21
+    , maxLevel: 27
+    , unlocked: true
+    }
+	, route89: {
+      name: 'Route 214'
+    , pokes: ['Stunky', 'Kricketune'] 
+    , minLevel: 21
+    , maxLevel: 24
+    , unlocked: true
+    }
+	, special85: {
+      name: 'Sendoff Spring'
+    , pokes: ['Bibarel', 'Staravia', 'Chingling']
+	, minLevel: 37
+    , maxLevel: 54
+    , unlocked: true
+    }
+	, special86: {
+      name: 'Turnback Cave'
+    , pokes: ['Bronzong', 'Bronzor', 'Chingling']
+	, minLevel: 45
+    , maxLevel: 65
+    , unlocked: true
+    }
+	, route90: {
+      name: 'Route 215'
+    , pokes: ['Kricketune', 'Staravia'] 
+    , minLevel: 19
+    , maxLevel: 22
+    , unlocked: true
+    }
+	, route91: {
+      name: 'Route 216'
+    , pokes: ['Snover'] 
+    , minLevel: 32
+    , maxLevel: 35
+    , unlocked: true
+    }
+	, route91: {
+      name: 'Route 217'
+    , pokes: ['Sneasel', 'Machoke', 'Medicham', 'Meditite', 'Swinub', 'Snorunt'] 
+    , minLevel: 32
+    , maxLevel: 35
+    , unlocked: true
+    }
+	, special87: {
+      name: 'Lake Acuity'
+    , pokes: ['Bibarel', 'Chingling', 'Snover']
+	, minLevel: 34
+    , maxLevel: 41
+    , unlocked: true
+    }
+	, special88: {
+      name: 'Snowpoint Temple'
+    , pokes: ['Golbat', 'Sneasel', 'Onix', 'Graveler', 'Steelix', 'Smoochum', 'Jynx', 'Sneasel']
+	, minLevel: 47
+    , maxLevel: 56
+    , unlocked: true
+    }
+	, route92: {
+      name: 'Route 218'
+    , pokes: ['Floatzel', 'Shellos', 'Gastrodon', 'Glameow', 'Chatot'] 
+    , minLevel: 28
+    , maxLevel: 31
+    , unlocked: true
+    }
+	, special89: {
+      name: 'Iron Island'
+    , pokes: ['Riolu']
+	, minLevel: 1
+    , maxLevel: 1
+    , unlocked: true
+    }
+	, route93: {
+      name: 'Route 219'
+    , pokes: ['Tentacool', 'Wingull', 'Tentacruel', 'Pelipper'] 
+    , minLevel: 20
+    , maxLevel: 40
+    , unlocked: true
+    }
+	, route94: {
+      name: 'Route 220'
+    , pokes: ['Tentacool', 'Wingull', 'Tentacruel', 'Pelipper'] 
+    , minLevel: 20
+    , maxLevel: 40
+    , unlocked: true
+    }
+	, route95: {
+      name: 'Route 221'
+    , pokes: ['Floatzel', 'Stunky', 'Skuntank', 'Shellos', 'Gastrodon'] 
+    , minLevel: 28
+    , maxLevel: 31
+    , unlocked: true
+    }
+	, route96: {
+      name: 'Route 222'
+    , pokes: ['Gastrodon', 'Floatzel', 'Chatot', 'Glameow', 'Luxio', 'Purugly'] 
+    , minLevel: 38
+    , maxLevel: 42
+    , unlocked: true
+    }
+	, route97: {
+      name: 'Route 223'
+    , pokes: ['Mantyke'] 
+    , minLevel: 30
+    , maxLevel: 45
+    , unlocked: true
+    }
+	, special90: {
+      name: 'Victory Road'
+    , pokes: ['Machoke', 'Golbat', 'Graveler', 'Medicham', 'Onix', 'Steelix', 'Rhyhorn', 'Rhydon']
+	, minLevel: 40
+    , maxLevel: 46
+    , unlocked: true
+    }
+	, route98: {
+      name: 'Route 224'
+    , pokes: ['Roselia', 'Gloom', 'Weepinbell', 'Beautifly', 'Dustox', 'Bellsprout', 'Pelipper', 'Oddish'] 
+    , minLevel: 49
+    , maxLevel: 52
+    , unlocked: true
+    }
+	, special91: {
+      name: 'Fight Area'
+    , pokes: ['Gallade', 'Froslass']
+	, minLevel: 30
+    , maxLevel: 30
+    , unlocked: true
+    }
+	, route99: {
+      name: 'Route 225'
+    , pokes: ['Fearow', 'Raticate', 'Banette', 'Roselia', 'Rattata', 'Spearow', 'Machoke', 'Graveler'] 
+    , minLevel: 47
+    , maxLevel: 51
+    , unlocked: true
+    }
+	, route100: {
+      name: 'Route 226'
+    , pokes: ['Fearow', 'Raticate', 'Golduck', 'Machoke', 'Rattata', 'Spearow', 'Graveler', 'Wingull', 'Banette'] 
+    , minLevel: 47
+    , maxLevel: 53
+    , unlocked: true
+    }
+	, route101: {
+      name: 'Route 227'
+    , pokes: ['Rhydon', 'Camerupt', 'Fearow', 'Weezing', 'Golbat', 'Banette', 'Graveler', 'Rhyhorn', 'Skarmory', 'Numel'] 
+    , minLevel: 24
+    , maxLevel: 56
+    , unlocked: true
+    }
+	, special92: {
+      name: 'Stark Mountain'
+    , pokes: ['Magcargo', 'Graveler', 'Golbat', 'Machoke', 'Weezing', 'Geodude', 'Onix', 'Slugma', 'Camerupt']
+	, minLevel: 27
+    , maxLevel: 58
+    , unlocked: true
+    }
+	, route102: {
+      name: 'Route 228'
+    , pokes: ['Cacturne', 'Dugtrio', 'Rhydon', 'Diglett', 'Cacnea'] 
+    , minLevel: 23
+    , maxLevel: 54
+    , unlocked: true
+    }
+	, route103: {
+      name: 'Route 229'
+    , pokes: ['Gloom', 'Weepinbell', 'Ledian', 'Illumise', 'Roselia', 'Oddish', 'Bellsprout', 'Scyther', 'Volbeat', 'Pinsir', 'Pidgey', 'Beautifly', 'Dustox'] 
+    , minLevel: 20
+    , maxLevel: 52
+    , unlocked: true
+    }
+	, route104: {
+      name: 'Route 230'
+    , pokes: ['Gloom', 'Weepinbell', 'Floatzel', 'Oddish', 'Bellsprout', 'Golduck', 'Beautifly', 'Gastrodon', 'Dustox', 'Wingull'] 
+    , minLevel: 18
+    , maxLevel: 51
+    , unlocked: true
+    }
+	, special93: {
+      name: 'Strange Rocks'
+    , pokes: ['Glaecon', 'Leafeon']
+	, minLevel: 20
+    , maxLevel: 20
+    , unlocked: true
+    }
+	, special94: {
+      name: 'Lakes'
+    , pokes: ['Uxie', 'Azelf', 'Mesprit']
+	, minLevel: 50
+    , maxLevel: 50
+    , unlocked: true
+    }
+	, special95: {
+      name: 'Spear Pillar'
+    , pokes: ['Dialga', 'Palkia']
+	, minLevel: 47
+    , maxLevel: 47
+    , unlocked: true
+    }
+	, special96: {
+      name: 'Distortion World'
+    , pokes: ['Giratina']
+	, minLevel: 47
+    , maxLevel: 47
+    , unlocked: true
+    }
+	, special97: {
+      name: 'Slow Down'
+    , pokes: ['Regigigas']
+	, minLevel: 70
+    , maxLevel: 70
+    , unlocked: true
+    }
+	, special98: {
+      name: 'Volcano'
+    , pokes: ['Heatran']
+	, minLevel: 70
+    , maxLevel: 70
+    , unlocked: true
+    }
+	, special99: {
+      name: 'Mysterious Sea'
+    , pokes: ['Phione', 'Manaphy']
+	, minLevel: 1
+    , maxLevel: 1
+    , unlocked: true
+    }
+	, special100: {
+      name: 'Moon Island'
+    , pokes: ['Cresselia', 'Darkrai']
+	, minLevel: 50
+    , maxLevel: 50
+    , unlocked: true
+    }
+	, special101: {
+      name: 'Flower Paradise'
+    , pokes: ['Shaymin']
+	, minLevel: 30
+    , maxLevel: 30
+    , unlocked: true
+    }
+	, special102: {
+      name: 'Hall of Origin'
+    , pokes: ['Arceus']
+	, minLevel: 80
+    , maxLevel: 80
+    , unlocked: true
+    }
+	, water6: {
+      name: 'Old Rod'
+    , pokes: ['Finneon'] 
+    , minLevel: 3
+    , maxLevel: 15
+    , unlocked: true
+    }  
+   , water7: {
+      name: 'Good Rod'
+    , pokes: ['Mantyke', 'Buizel'] 
+    , minLevel: 10
+    , maxLevel: 25
+    , unlocked: true
+    }  
+   , water8: {
+      name: 'Super Rod'
+    , pokes: ['Lumineon', 'Mantyke', 'Floatzel'] 
+    , minLevel: 20
+    , maxLevel: 55
+    , unlocked: true
+    } 
+ },
+     Event: {
+    event1: {
+      name: 'Pallet Town'
+    , pokes: ['M-Charizard Y'] 
+    , minLevel: 100
+    , maxLevel: 100
+    , unlocked: true
+    } 
+ }
 }
