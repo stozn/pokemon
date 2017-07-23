@@ -219,6 +219,10 @@ const EVOLUTIONS = {
     "level":"30",
     "to":"Magneton"
   },
+  "Magneton":{
+    "level":"45",
+    "to":"Magnezone"
+  },
   "Doduo":{
     "level":"31",
     "to":"Dodrio"
@@ -267,13 +271,25 @@ const EVOLUTIONS = {
     "level":"28",
     "to":"Marowak"
   },
+  "Lickitung":{
+    "level":"33",
+    "to":"Lickilicky"
+  },
   "Koffing":{
     "level":"35",
     "to":"Weezing"
-  },
+  },  
   "Rhyhorn":{
     "level":"42",
     "to":"Rhydon"
+  },
+  "Rhydon":{
+    "level":"50",
+    "to":"Rhyperior"
+  },
+  "Tangela":{
+    "level":"38",
+    "to":"Tangrowth"
   },
   "Kangaskhan":{
     "level":"100",
@@ -290,6 +306,14 @@ const EVOLUTIONS = {
   "Staryu":{
     "level":"35",
     "to":"Starmie"
+  },
+  "Electabuzz":{
+    "level":"50",
+    "to":"Electivire"
+  },
+  "Magmar":{
+    "level":"50",
+    "to":"Magmortar"
   },
   "Pinsir":{
     "level":"100",
@@ -314,6 +338,14 @@ const EVOLUTIONS = {
   "Eevee":{
     "level":"29",
     "to":"Flareon"
+  },
+  "Porygon":{
+    "level":"25",
+    "to":"Porygon2"
+  },
+  "Porygon2":{
+    "level":"37",
+    "to":"Porygon-Z"
   },
   "Omanyte":{
     "level":"40",
@@ -391,6 +423,10 @@ const EVOLUTIONS = {
     "level":"20",
     "to":"Togetic"
   },
+  "Togetic":{
+    "level":"35",
+    "to":"Togekiss"
+  },
   "Natu":{
     "level":"25",
     "to":"Xatu"
@@ -419,13 +455,29 @@ const EVOLUTIONS = {
     "level":"30",
     "to":"Jumpluff"
   },
+  "Aipom":{
+    "level":"32",
+    "to":"Ambipom"
+  },
   "Sunkern":{
     "level":"25",
     "to":"Sunflora"
   },
+  "Yanma":{
+    "level":"33",
+    "to":"Yanmega"
+  },
   "Wooper":{
     "level":"20",
     "to":"Quagsire"
+  },
+  "Murkrow":{
+    "level":"35",
+    "to":"Honchkrow"
+  },
+  "Misdreavus":{
+    "level":"35",
+    "to":"Mismagius"
   },
   "Pineco":{
     "level":"31",
@@ -438,6 +490,10 @@ const EVOLUTIONS = {
   "Steelix":{
     "level":"100",
     "to":"M-Steelix"
+  },
+  "Gligar":{
+    "level":"37",
+    "to":"Gliscor"
   },
   "Snubbull":{
     "level":"23",
@@ -455,6 +511,10 @@ const EVOLUTIONS = {
     "level":"100",
     "to":"M-Heracross"
   },
+  "Sneasel":{
+    "level":"40",
+    "to":"Weavile"
+  },
   "Teddiursa":{
     "level":"30",
     "to":"Ursaring"
@@ -466,6 +526,10 @@ const EVOLUTIONS = {
   "Swinub":{
     "level":"33",
     "to":"Piloswine"
+  },
+  "Pilowsine":{
+    "level":"50",
+    "to":"Mamoswine"
   },
   "Remoraid":{
     "level":"25",
@@ -627,6 +691,10 @@ const EVOLUTIONS = {
     "level":"24",
     "to":"Hariyama"
   },
+  "Nosepass":{
+    "level":"35",
+    "to":"Probopass"
+  },
   "Skitty":{
     "level":"25",
     "to":"Delcatty"
@@ -751,6 +819,10 @@ const EVOLUTIONS = {
     "level":"37",
     "to":"Dusclops"
   },
+  "Dusclops":{
+    "level":"50",
+    "to":"Dusknoir"
+  },
   "Snorunt":{
     "level":"42",
     "to":"Glalie"
@@ -814,5 +886,133 @@ const EVOLUTIONS = {
   "Rayquaza":{
     "level":"100",
     "to":"M-Rayquaza"
+  },
+  "Turtwig":{
+    "level":"18",
+    "to":"Grotle"
+  },
+  "Grotle":{
+    "level":"32",
+    "to":"Torterra"
+  },
+  "Chimchar":{
+    "level":"14",
+    "to":"Monferno"
+  },
+  "Monferno":{
+    "level":"36",
+    "to":"Infernape"
+  },
+  "Piplup":{
+    "level":"16",
+    "to":"Prinplup"
+  },
+  "Prinplup":{
+    "level":"36",
+    "to":"Empoleon"
+  },
+  "Starly":{
+    "level":"14",
+    "to":"Staravia"
+  },
+  "Staravia":{
+    "level":"34",
+    "to":"Staraptor"
+  },
+  "Bidoof":{
+    "level":"15",
+    "to":"Bibarel"
+  },
+  "Kricketot":{
+    "level":"10",
+    "to":"Kricketune"
+  },
+  "Shinx":{
+    "level":"15",
+    "to":"Luxio"
+  },
+  "Luxio":{
+    "level":"30",
+    "to":"Luxray"
+  },
+  "Cranidos":{
+    "level":"30",
+    "to":"Rampardos"
+  },
+  "Shieldon":{
+    "level":"30",
+    "to":"Bastiodon"
+  },
+  "Burmy":{
+    "level":"20",
+    "to":"Wormadam"
+  },
+  "Combee":{
+    "level":"21",
+    "to":"Vespiquen"
+  },
+  "Buizel":{
+    "level":"26",
+    "to":"Floatzel"
+  },
+  "Cherubi":{
+    "level":"25",
+    "to":"Cherrim"
+  },
+  "Shellos":{
+    "level":"30",
+    "to":"Gastrodon"
+  },
+  "Drifloon":{
+    "level":"28",
+    "to":"Drifblim"
+  },
+  "Buneary":{
+    "level":"25",
+    "to":"Lopunny"
+  },
+  "Glameow":{
+    "level":"38",
+    "to":"Purugly"
+  },
+  "Stunky":{
+    "level":"34",
+    "to":"Skuntank"
+  },
+  "Bronzor":{
+    "level":"33",
+    "to":"Bronzong"
+  },
+  "Gible":{
+    "level":"24",
+    "to":"Gabite"
+  },
+  "Gabite":{
+    "level":"48",
+    "to":"Garchomp"
+  },
+  "Riolu":{
+    "level":"35",
+    "to":"Lucario"
+  },
+  "Hippopotas":{
+    "level":"34",
+    "to":"Hippowdon"
+  },
+  "Skorupi":{
+    "level":"40",
+    "to":"Drapion"
+  },
+  "Croagunk":{
+    "level":"37",
+    "to":"Toxicroak"
+  },
+  "Finneon":{
+    "level":"31",
+    "to":"Lumineon"
+  },
+  "Snover":{
+    "level":"40",
+    "to":"Abomasnow"
   },
 }
