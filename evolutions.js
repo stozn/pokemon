@@ -971,6 +971,10 @@ const EVOLUTIONS = {
     "level":"25",
     "to":"Lopunny"
   },
+  "Lopunny":{
+    "level":"100",
+    "to":"M-Lopunny"
+  },
   "Glameow":{
     "level":"38",
     "to":"Purugly"
@@ -991,9 +995,17 @@ const EVOLUTIONS = {
     "level":"48",
     "to":"Garchomp"
   },
+  "Garchomp":{
+    "level":"100",
+    "to":"M-Garchomp"
+  },
   "Riolu":{
     "level":"35",
     "to":"Lucario"
+  },
+  "Lucario":{
+    "level":"100",
+    "to":"M-Lucario"
   },
   "Hippopotas":{
     "level":"34",
@@ -1014,5 +1026,9 @@ const EVOLUTIONS = {
   "Snover":{
     "level":"40",
     "to":"Abomasnow"
+  },
+  "Abomasnow":{
+    "level":"100",
+    "to":"M-Abomasnow"
   },
 }
