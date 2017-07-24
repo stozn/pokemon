@@ -18,6 +18,9 @@ My coding skills are really really (when I say really it's really) limited. So a
 
 Changelog :
 
+NGGYU 1.5.0 (07/25/2017) :
+- **Unova** ! And one more region done ! This one was really hard to do. I used BW2 mapping in order to get it done. Coming with the new Pokemon, the evolutions (even the megas this time) and new routes ! No bugs should be here (maybe for evolutions) ! This means the end of the first event too. Let's focus on something new right now.
+
 NGGYU 1.4.1 (07/24/2017) : 
 - **Minor Update** : Gen 4 Mega Evolutions and Sprites added. Level 100 as always ! Lopunny, Garchomp, Lucario, Abomasnow and Gallade.
 
