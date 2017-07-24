@@ -2045,5 +2045,12 @@ const ROUTES = {
     , maxLevel: 15
     , unlocked: true
     }
+       , water9: {
+      name: 'Super Rod'
+    , pokes: ['Alomomola'] 
+    , minLevel: 40
+    , maxLevel: 40
+    , unlocked: true
+    } 
  }
 }
