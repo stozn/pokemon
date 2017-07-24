@@ -480,7 +480,7 @@ const ROUTES = {
     }
 	, route34: {
       name: 'Route 38'
-    , pokes: ['Snubull', 'Miltank', 'Noctowl'] 
+    , pokes: ['Snubbull', 'Miltank', 'Noctowl'] 
     , minLevel: 13
     , maxLevel: 16
     , unlocked: true
@@ -755,7 +755,7 @@ const ROUTES = {
     }
 	, route53: {
       name: 'Route 110'
-    , pokes: ['Zigzagoon', 'Poochyena', 'Electrike', 'Gulpin', 'Minun', 'Wingull', 'Plulse'] 
+    , pokes: ['Zigzagoon', 'Poochyena', 'Electrike', 'Gulpin', 'Minun', 'Wingull', 'Plusle'] 
     , minLevel: 12
     , maxLevel: 13
     , unlocked: true
