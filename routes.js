@@ -2124,42 +2124,42 @@ const ROUTES = {
     , maxLevel: 20
     , unlocked: true
     } 
-	, custom9: {
+	, custom10: {
       name: 'Team Flare Secret HQ'
     , pokes: ['Xerneas', 'Yveltal'] 
     , minLevel: 50
     , maxLevel: 50
     , unlocked: true
     }     
-	, custom10: {
+	, custom11: {
       name: 'Terminus Cave'
     , pokes: ['Zygarde'] 
     , minLevel: 70
     , maxLevel: 70
     , unlocked: true
     } 
-	, custom11: {
+	, custom12: {
       name: 'Queen of Rocks'
     , pokes: ['Diancie'] 
     , minLevel: 50
     , maxLevel: 50
     , unlocked: true
     }  
-	, custom12: {
+	, custom13: {
       name: 'The Magician'
     , pokes: ['Hoopa'] 
     , minLevel: 50
     , maxLevel: 50
     , unlocked: true
     } 
-	, custom13: {
+	, custom14: {
       name: 'Steam Siege'
     , pokes: ['Volcanion'] 
     , minLevel: 70
     , maxLevel: 70
     , unlocked: true
     } 
-	    , custom14: {
+	    , custom15: {
       name: 'Super Rod'
     , pokes: ['Skrelp', 'Skrelp'] 
     , minLevel: 20
