@@ -12,7 +12,7 @@ WIP.
 Planned (in order of priority, at least ALMOST) :
 
 - Saving System
-- Other generations
+- Gen 7
 
 My coding skills are really really (when I say really it's really) limited. So any help would be more than apprecied. Just trying to bring some ideas and doing the boring stuff.
 
