@@ -2070,7 +2070,7 @@ const ROUTES = {
     }
 	, custom2: {
       name: 'Camphrier Town'
-    , pokes: ['Scatterbug', 'Flabébé', 'Skiddo', 'Spewpa'] 
+    , pokes: ['Scatterbug', 'Flabebe', 'Skiddo', 'Spewpa'] 
     , minLevel: 5
     , maxLevel: 8
     , unlocked: true
@@ -2157,6 +2157,13 @@ const ROUTES = {
     , pokes: ['Volcanion'] 
     , minLevel: 70
     , maxLevel: 70
+    , unlocked: true
+    } 
+	    , custom14: {
+      name: 'Super Rod'
+    , pokes: ['Skrelp', 'Skrelp'] 
+    , minLevel: 20
+    , maxLevel: 20
     , unlocked: true
     } 
  }
