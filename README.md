@@ -18,6 +18,9 @@ My coding skills are really really (when I say really it's really) limited. So a
 
 Changelog :
 
+NGGYU 1.6.0 (07/25/2017) :
+- **Kalos** ! And only one hour after Gen 5, a new region is already here. But this time, I did the routes myself, so that's why it's a CUSTOMED Kalos. All Pokemon are findable anyway. For the moment, it'll be the solution, the maps will be edited later with right and correct mapping (no idea how to do it without messing too much for the moment)
+
 NGGYU 1.5.0 (07/25/2017) :
 - **Unova** ! And one more region done ! This one was really hard to do. I used BW2 mapping in order to get it done. Coming with the new Pokemon, the evolutions (even the megas this time) and new routes ! No bugs should be here (maybe for evolutions) ! This means the end of the first event too. Let's focus on something new right now.
 
