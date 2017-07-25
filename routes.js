@@ -1597,7 +1597,7 @@ const ROUTES = {
     } 
  },
      Unova: {
-    starter4: {
+    starter5: {
       name: 'Aspertia City'
     , pokes: ['Snivy', 'Tepig', 'Oshawott'] 
     , minLevel: 5
