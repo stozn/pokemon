@@ -2052,5 +2052,112 @@ const ROUTES = {
     , maxLevel: 40
     , unlocked: true
     } 
+ },
+    Kalos: {
+    starter6: {
+      name: 'Aquacorde Town'
+    , pokes: ['Chespin', 'Fennekin', 'Froakie'] 
+    , minLevel: 5
+    , maxLevel: 5
+    , unlocked: true
+    }
+        , custom1: {
+      name: 'Santalune City'
+    , pokes: ['Bunnelby', 'Fletchling', 'Litleo'] 
+    , minLevel: 2
+    , maxLevel: 4
+    , unlocked: true
+    }
+	, custom2: {
+      name: 'Camphrier Town'
+    , pokes: ['Scatterbug', 'Flabébé', 'Skiddo', 'Spewpa'] 
+    , minLevel: 5
+    , maxLevel: 8
+    , unlocked: true
+    } 
+	, custom3: {
+      name: 'Geosenge Town'
+    , pokes: ['Furfrou', 'Spritzee', 'Swirlix'] 
+    , minLevel: 10
+    , maxLevel: 16
+    , unlocked: true
+    }  
+	, custom4: {
+      name: 'Coumarine City'
+    , pokes: ['Hawlucha', 'Pancham', 'Inkay', 'Espurr'] 
+    , minLevel: 15
+    , maxLevel: 22
+    , unlocked: true
+    }
+	, custom5: {
+      name: 'Laverre City'
+    , pokes: ['Phantump', 'Pumpkaboo'] 
+    , minLevel: 20
+    , maxLevel: 25
+    , unlocked: true
+    }
+        , custom6: {
+      name: 'Ambrette Town'
+    , pokes: ['Amaura', 'Tyrunt'] 
+    , minLevel: 20
+    , maxLevel: 20
+    , unlocked: true
+    }
+	, custom7: {
+      name: 'Anistar City'
+    , pokes: ['Dedenne', 'Helioptile', 'Klefki', 'Honedge'] 
+    , minLevel: 27
+    , maxLevel: 32
+    , unlocked: true
+    }    
+        , custom8: {
+      name: 'Couriway Town'
+    , pokes: ['Bergmite', 'Carbink', 'Binacle', 'Goomy', 'Noibat'] 
+    , minLevel: 32
+    , maxLevel: 38
+    , unlocked: true
+    } 
+	, custom9: {
+      name: 'Snowbelle City'
+    , pokes: ['Sylveon'] 
+    , minLevel: 20
+    , maxLevel: 20
+    , unlocked: true
+    } 
+	, custom9: {
+      name: 'Team Flare Secret HQ'
+    , pokes: ['Xerneas', 'Yveltal'] 
+    , minLevel: 50
+    , maxLevel: 50
+    , unlocked: true
+    }     
+	, custom10: {
+      name: 'Terminus Cave'
+    , pokes: ['Zygarde'] 
+    , minLevel: 70
+    , maxLevel: 70
+    , unlocked: true
+    } 
+	, custom11: {
+      name: 'Queen of Rocks'
+    , pokes: ['Diancie'] 
+    , minLevel: 50
+    , maxLevel: 50
+    , unlocked: true
+    }  
+	, custom12: {
+      name: 'The Magician'
+    , pokes: ['Hoopa'] 
+    , minLevel: 50
+    , maxLevel: 50
+    , unlocked: true
+    } 
+	, custom13: {
+      name: 'Steam Siege'
+    , pokes: ['Volcanion'] 
+    , minLevel: 70
+    , maxLevel: 70
+    , unlocked: true
+    } 
  }
 }
