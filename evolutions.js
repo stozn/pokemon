@@ -1119,6 +1119,10 @@ const EVOLUTIONS = {
     "level":"31",
     "to":"Excadrill"
   },
+  "Audino":{
+    "level":"100",
+    "to":"M-Audino"
+  },
   "Timburr":{
     "level":"25",
     "to":"Gurdurr"
@@ -1267,7 +1271,7 @@ const EVOLUTIONS = {
     "level":"39",
     "to":"Eelektrik"
   },
-  "Tynamo":{
+  "Eelektrik":{
     "level":"50",
     "to":"Eelektross"
   },
