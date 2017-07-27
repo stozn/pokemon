@@ -28853,7 +28853,7 @@ const POKEDEX = [
             "growth rate": "Slow",
             "hp": "100",
             "attack": "150",
-            "defense": "130",
+            "defense": "90",
             "sp atk": "180",
             "sp def": "160",
             "speed": "90",
