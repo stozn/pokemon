@@ -879,6 +879,10 @@ const EVOLUTIONS = {
     "level":"100",
     "to":"M-Latios"
   },
+  "Kyogre":{
+    "level":"100",
+    "to":"P-Kyogre"
+  },
   "Groudon":{
     "level":"100",
     "to":"P-Groudon"
