@@ -1739,7 +1739,7 @@ const ROUTES = {
     }
 	, special115: {
       name: 'Celestial Tower'
-    , pokes: ['Golett ', 'Litwick', 'Elgyem'] 
+    , pokes: ['Golett', 'Litwick', 'Elgyem'] 
     , minLevel: 30
     , maxLevel: 33
     , unlocked: true
