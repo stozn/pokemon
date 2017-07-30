@@ -1363,6 +1363,10 @@ const EVOLUTIONS = {
     "level":"36",
     "to":"Greninja"
   },
+  "Greninja":{
+    "level":"100",
+    "to":"Ash-Greninja"
+  },
   "Bunnelby":{
     "level":"20",
     "to":"Diggersby"
@@ -1598,5 +1602,37 @@ const EVOLUTIONS = {
   "Cosmog":{
     "level":"43",
     "to":"Cosmoem"
+  },
+    "A-Rattata":{
+    "level":"20",
+    "to":"A-Raticate"
+  },
+  "A-Sandshrew":{
+    "level":"22",
+    "to":"A-Sandslash"
+  },
+  "A-Vulpix":{
+    "level":"35",
+    "to":"A-Ninetales"
+  },
+  "A-Diglett":{
+    "level":"26",
+    "to":"A-Dugtrio"
+  },
+  "A-Meowth":{
+    "level":"28",
+    "to":"A-Persian"
+  },
+  "A-Geodude":{
+    "level":"25",
+    "to":"A-Graveler"
+  },
+  "A-Graveler":{
+    "level":"40",
+    "to":"A-Golem"
+  },
+  "A-Grimer":{
+    "level":"38",
+    "to":"A-Muk"
   },
 }
