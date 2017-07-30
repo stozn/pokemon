@@ -18,6 +18,9 @@ My coding skills are really really (when I say really it's really) limited. So a
 
 Changelog :
 
+NGGYU 1.7.0 (07/31/2017) :
+- **Alolan** ! It's done. I thought it'd take me weeks to make this only. But once again, i've coded like non-stop to make this done in 48h. New Pokemon, new forms, new routes, new evolutions, everything should be working well ! It's the last region for the moment. And except some special forms, no more Pokemon to add, the game is **COMPLETE** for that. You can have all 802 basic Pokemon in the game !
+
 NGGYU 1.6.1 (07/30/2017) :
 - **Major bug fix** : Before, catching a lot of Pokemon (I saw a lot, but around 150/180 the bug starts to occur) was making the game lagging a lot or even making it to crash. This has been found on Chrome first, thinking it was a typical Chrome error, but at the end, it's really a bug of the game. So this has been fixed, and now you can catch and deal with many Pokemon. For example catching 600+ Pokemon is working without any lag or anything. So this is fixed for good !
 
