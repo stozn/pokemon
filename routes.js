@@ -2159,12 +2159,139 @@ const ROUTES = {
     , maxLevel: 70
     , unlocked: true
     } 
-	    , custom15: {
+    , custom15: {
       name: 'Super Rod'
     , pokes: ['Skrelp', 'Skrelp'] 
     , minLevel: 20
     , maxLevel: 20
     , unlocked: true
     } 
- }
+ },
+  Kalos: {
+    starter7: {
+      name: 'Iki Town'
+    , pokes: ['Rowlet', 'Litten', 'Popplio'] 
+    , minLevel: 5
+    , maxLevel: 5
+    , unlocked: true
+    }
+    , custom16: {
+      name: 'Route 1'
+    , pokes: ['Pikipek', 'Yungoos', 'Grubbin'] 
+    , minLevel: 2
+    , maxLevel: 4
+    , unlocked: true
+    } 
+    , custom17: {
+      name: 'Route 3'
+    , pokes: ['Cutiefly', 'Rockruff', 'Oricorio', 'Crabrawler'] 
+    , minLevel: 9
+    , maxLevel: 12
+    , unlocked: true
+    }
+    , custom18: {
+      name: 'Route 5'
+    , pokes: ['Mudbray', 'Dewpider', 'Salandit', 'Stufful'] 
+    , minLevel: 13
+    , maxLevel: 16
+    , unlocked: true
+    }
+    , custom19: {
+      name: 'Lush Jungle'
+    , pokes: ['Fomantis', 'Morelull', 'Bounsweet', 'Comfey', 'Oranguru', 'Passimian'] 
+    , minLevel: 18
+    , maxLevel: 21
+    , unlocked: true
+    }
+    , custom20: {
+      name: 'Special Spots'
+    , pokes: ['Wimpod', 'Sandygast', 'Pyukumuku'] 
+    , minLevel: 20
+    , maxLevel: 20
+    , unlocked: true
+    }
+    , custom21: {
+      name: 'Mount Hokulani'
+    , pokes: ['Minior', 'Komala'] 
+    , minLevel: 25
+    , maxLevel: 28
+    , unlocked: true
+    }
+    , custom22: {
+      name: 'Route 14'
+    , pokes: ['Turtonator', 'Togedemaru', 'Mimikyu'] 
+    , minLevel: 29
+    , maxLevel: 32
+    , unlocked: true
+    }
+    , custom23: {
+      name: 'Mount Lanakila'
+    , pokes: ['Drampa', 'Jangmo-o'] 
+    , minLevel: 42
+    , maxLevel: 45
+    , unlocked: true
+    }
+    , custom24: {
+      name: 'Welcome to Alolan'
+    , pokes: ['A-Rattata', 'A-Raichu', 'A-Sandshrew', 'A-Vulpix', 'A-Diglett', 'A-Meowth', 'A-Geodude', 'A-Grimer', 'A-Exeggutor', 'A-Marowak'] 
+    , minLevel: 20
+    , maxLevel: 20
+    , unlocked: true
+    }
+    , custom25: {
+      name: 'Aether Paradise'
+    , pokes: ['Type: Null', 'Cosmog'] 
+    , minLevel: 40
+    , maxLevel: 40
+    , unlocked: true
+    }
+    , custom26: {
+      name: 'Ruins'
+    , pokes: ['Tapu Koko', 'Tapu Lele', 'Tapu Bulu', 'Tapu Fini'] 
+    , minLevel: 60
+    , maxLevel: 60
+    , unlocked: true
+    }
+    , custom27: {
+      name: 'Altar'
+    , pokes: ['Solgaleo', 'Lunala'] 
+    , minLevel: 55
+    , maxLevel: 55
+    , unlocked: true
+    }
+    , custom28: {
+      name: 'Ultra Wormholes'
+    , pokes: ['Nihilego', 'Buzzwole', 'Pheromosa', 'Xurkitree', 'Celesteela', 'Kartana', 'Guzzlord'] 
+    , minLevel: 55
+    , maxLevel: 70
+    , unlocked: true
+    }
+    , custom29: {
+      name: 'Not an Ultra Beast'
+    , pokes: ['Necrozma'] 
+    , minLevel: 70
+    , maxLevel: 70
+    , unlocked: true
+    }
+    , custom30: {
+      name: 'Not a PokeBall'
+    , pokes: ['Magearna'] 
+    , minLevel: 50
+    , maxLevel: 50
+    , unlocked: true
+    }
+    , custom31: {
+      name: 'Fighting Ghost'
+    , pokes: ['Marshadow'] 
+    , minLevel: 50
+    , maxLevel: 50
+    , unlocked: true
+    }
+    , custom32: {
+      name: 'Rod'
+    , pokes: ['Wishiwashi', 'Mareanie', 'Bruxish', 'Dhelmise'] 
+    , minLevel: 30
+    , maxLevel: 30
+    , unlocked: true
+    }
 }
