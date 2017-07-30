@@ -30066,12 +30066,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "sprites/.png",
-            "back": "sprites/back/.png"
+            "front": "sprites/802.png",
+            "back": "sprites/back/802.png"
          },
          "shiny": {
-            "front": "sprites/s.png",
-            "back": "sprites/back/s.png"
+            "front": "sprites/s802.png",
+            "back": "sprites/back/s802.png"
          }
       }
    },
