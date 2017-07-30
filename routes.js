@@ -2167,7 +2167,7 @@ const ROUTES = {
     , unlocked: true
     } 
  },
-  Kalos: {
+  Alolan: {
     starter7: {
       name: 'Iki Town'
     , pokes: ['Rowlet', 'Litten', 'Popplio'] 
