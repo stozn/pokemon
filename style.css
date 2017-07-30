@@ -159,6 +159,34 @@ ul {
   margin-bottom: 10px;
 }
 
+.pokeDeleteButton,
+.pokeUpButton,
+.pokeDownButton,
+.pokeEvolveButton {
+  display: none;
+}
+
+#playerPokesList li:first-child .pokeUpButton,
+#playerPokesList li:last-child .pokeDownButton {
+  display: none;
+}
+
+.manageTeamEnabled .pokeDeleteButton,
+.manageTeamEnabled .pokeUpButton,
+.manageTeamEnabled .pokeDownButton,
+.manageTeamEnabled .canEvolve ~ .pokeEvolveButton {
+  display: inline;
+}
+
+.pokeListName {
+  text-decoration: none;
+}
+
+.pokeListName.activePoke {
+  border: solid 1px rgb(139, 142, 4);
+  border-radius: 2px;
+}
+
 #console {
     float: left;
     width: 259px;

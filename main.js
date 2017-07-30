@@ -118,76 +118,79 @@ const makeDomHandler = () => {
     const listCssQuery = '.container.list' + '#' + id
     const listContainer = $(listCssQuery)
     const listElement = listContainer.querySelector('.list')
-    setValue(listElement, '')
     const deleteEnabled = deleteEnabledId && $(deleteEnabledId).checked
+    listElement.className = 'list' + (deleteEnabled ? ' manageTeamEnabled' : '')
     list.forEach((poke, index) => {
-		const deleteButton = `<a href="#"
+      const listItemElement = listElement.querySelector('#listPoke' + index);
+      if (listItemElement) {
+        const listItemNameElement = listItemElement.querySelector('.pokeListName')
+        listItemNameElement.innerHTML = `${poke.pokeName()} (${poke.level()})`
+        listItemNameElement.style.color = pokeColor(poke)
+        listItemNameElement.className = 'pokeListName'
+          + (poke === player.activePoke() ? ' activePoke' : '')
+          + (poke.canEvolve() ? ' canEvolve' : '')
+      } else {
+        const deleteButton = `<a href="#"
             onclick="userInteractions.deletePokemon(${index})"
             style="
               color: red;
               text-decoration: none;
               position: relative;
               left: -3px;
-              display: ${ deleteEnabled && 'inline' || 'none' };
             "
+            class="pokeDeleteButton"
           >
             X
           </a>`
 
-		const upButton = index !== 0 
-            ? `<button href="#"
-		    onclick="userInteractions.pokemonToUp('${index}')"
-            style="display: ${ deleteEnabled && 'inline' || 'none' };"
-		    >
-		    <i class="fa fa-arrow-up" aria-hidden="true"></i>
-		    </button>`
-            : ''
+        const upButton = `<button href="#"
+            onclick="userInteractions.pokemonToUp('${index}')"
+            class="pokeUpButton"
+          >
+            <i class="fa fa-arrow-up" aria-hidden="true"></i>
+          </button>`
 
-        const downButton = index !== list.length - 1 
-            ? `<button href="#"
+        const downButton = `<button href="#"
             onclick="userInteractions.pokemonToDown('${index}')"
-            style="display: ${ deleteEnabled && 'inline' || 'none' };"
-            >
+            class="pokeDownButton"
+          >
             <i class="fa fa-arrow-down" aria-hidden="true"></i>
-            </button>` 
-            : ''
+          </button>`
 
-        const evolveButton = poke.canEvolve()
-            ? `<button href="#"
+        const evolveButton = `<button href="#"
             onclick="userInteractions.evolvePokemon('${index}')"
-            style="display: ${ deleteEnabled && 'inline' || 'none' };"
-            >
+            class="pokeEvolveButton"
+          >
             Evolve
-            </button>` 
-            : ''
+          </button>`
 
-		setValue(
-			listElement
-			, `<li>` +
-			deleteButton +
-			`<a
-		   href="#"
-		   onclick="userInteractions.changePokemon(${index})"
-		   style="color: ${pokeColor(poke)};
-				  ${poke === player.activePoke()
-					&& 'border: solid 1px rgb(139, 142, 4);'
-					  +'border-radius: 2px;'
-					||''
-				  }
-				  text-decoration: none;
-		  "
-
-		   >
-			 ${poke.pokeName()} (${poke.level()})
-		   </a>
-		   <br>` +
-			upButton +
-			downButton +
-			evolveButton +
-			`<li>`
-      , true
-      )
+        setValue(
+          listElement
+          , `<li id="listPoke${index}">` +
+            deleteButton +
+            `<a
+                href="#"
+                onclick="userInteractions.changePokemon(${index})"
+                style="color: ${pokeColor(poke)}"
+                class="pokeListName"
+              >
+                ${poke.pokeName()} (${poke.level()})
+              </a>
+              <br>` +
+            upButton +
+            downButton +
+            evolveButton +
+            `</li>`
+          , true
+        )
+      }
     })
+    var i = list.length
+    var listItemToRemove
+    while (listItemToRemove = listElement.querySelector('#listPoke' + i)) {
+      listElement.removeChild(listItemToRemove)
+      i++
+    }
   }
   const renderRouteList = (id, routes) => {
     const listCssQuery = '.container.list' + '#' + id
