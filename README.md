@@ -21,7 +21,7 @@ Changelog :
 NGGYU 1.6.1 (07/30/2017) :
 - **Major bug fix** : Before, catching a lot of Pokemon (I saw a lot, but around 150/180 the bug starts to occur) was making the game lagging a lot or even making it to crash. This has been found on Chrome first, thinking it was a typical Chrome error, but at the end, it's really a bug of the game. So this has been fixed, and now you can catch and deal with many Pokemon. For example catching 600+ Pokemon is working without any lag or anything. So this is fixed for good !
 
-- **Minor bugs** : During this past week a lot of little things has been fixed. Shiny Gen 6 sprites are now here, some missing evolutions or routes has been fixed too. A lot of little tweaks to make the game better !
+- **Minor bugs fix** : During this past week a lot of little things has been fixed. Shiny Gen 6 sprites are now here, some missing evolutions or routes has been fixed too. A lot of little tweaks to make the game better !
 
 NGGYU 1.6.0 (07/25/2017) :
 - **Kalos** ! And only one hour after Gen 5, a new region is already here. But this time, I did the routes myself, so that's why it's a CUSTOMED Kalos. All Pokemon are findable anyway. For the moment, it'll be the solution, the maps will be edited later with right and correct mapping (no idea how to do it without messing too much for the moment)
