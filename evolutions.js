@@ -331,14 +331,6 @@ const EVOLUTIONS = {
     "level":"25",
     "to":"Vaporeon"
   },
-  "Eevee":{
-    "level":"27",
-    "to":"Jolteon"
-  },
-  "Eevee":{
-    "level":"29",
-    "to":"Flareon"
-  },
   "Porygon":{
     "level":"25",
     "to":"Porygon2"
