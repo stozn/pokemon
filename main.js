@@ -255,9 +255,9 @@ const makeDomHandler = () => {
   const gameConsoleClear = () => {
     $('#console .console-text').innerHTML = ''
   }
-  const renderBalls = (ballsAmmount) => {
-    Object.keys(ballsAmmount).forEach(ballType => {
-      $('.ball-ammount.' + ballType).innerHTML = ballsAmmount[ballType]
+  const renderBalls = (ballsAmount) => {
+    Object.keys(ballsAmount).forEach(ballType => {
+      $('.ball-Amount.' + ballType).innerHTML = ballsAmount[ballType]
     })
   }
   const bindEvents = () => {
@@ -360,8 +360,8 @@ const makePoke = (pokeModel, initialLevel, initialExp, shiny) => {
     , max: () => combat.maxHp()
     }
   , alive: () => combat.mutable.hp > 0
-  , giveExp: (ammount) => {
-    exp += ammount
+  , giveExp: (Amount) => {
+    exp += Amount
   }
   , canEvolve: canEvolve
   , evolve: tryEvolve
@@ -405,7 +405,7 @@ const makePlayer = () => {
     ultraball: 2
   }
   var selectedBall = "pokeball"
-  var ballsAmmount = {
+  var ballsAmount = {
     pokeball: 20,
     greatball: 0,
     ultraball: 0
@@ -463,7 +463,7 @@ const makePlayer = () => {
       pokemons.forEach((poke, index) => {
         localStorage.setItem(`poke${index}`, JSON.stringify(poke.save()))
       })
-      localStorage.setItem(`ballsAmmount`, JSON.stringify(ballsAmmount))
+      localStorage.setItem(`ballsAmount`, JSON.stringify(ballsAmount))
     }
   , loadPokes: () => {
       Array(Number(localStorage.getItem(`totalPokes`))).fill(0).forEach((el, index) => {
@@ -473,8 +473,8 @@ const makePlayer = () => {
         const shiny = (loadedPoke[2] == true)
         pokemons.push(makePoke(pokeByName(pokeName), false, Number(exp), shiny))
       })
-      if (JSON.parse(localStorage.getItem('ballsAmmount'))) {
-        ballsAmmount = JSON.parse(localStorage.getItem('ballsAmmount'))
+      if (JSON.parse(localStorage.getItem('ballsAmount'))) {
+        ballsAmount = JSON.parse(localStorage.getItem('ballsAmount'))
       }
 
     }
@@ -485,8 +485,8 @@ const makePlayer = () => {
       selectedBall = newBall
     }
   , consumeBall: (ballName) => {
-     if (ballsAmmount[ballName] > 0) {
-       ballsAmmount[ballName] -= 1
+     if (ballsAmount[ballName] > 0) {
+       ballsAmount[ballName] -= 1
        return true
      }
      return false
@@ -495,14 +495,14 @@ const makePlayer = () => {
   , bestAvailableBall: () => {
       const ballsFromBestToWorst = ['ultraball', 'greatball', 'pokeball']
       for (var i = 0; i < ballsFromBestToWorst.length; i++) {
-        if (ballsAmmount[ballsFromBestToWorst[i]] > 0) {
+        if (ballsAmount[ballsFromBestToWorst[i]] > 0) {
           return ballsFromBestToWorst[i];
         }
       }
     }
-  , ballsAmmount: () => ballsAmmount
-  , addBalls: (ballName, ammount) => {
-      ballsAmmount[ballName] += ammount
+  , ballsAmount: () => ballsAmount
+  , addBalls: (ballName, Amount) => {
+      ballsAmount[ballName] += Amount
     }
   }
   return player_interface
@@ -667,7 +667,7 @@ const makeCombatLoop = (enemy, player, dom) => {
           dom.gameConsoleLog('Trying to catch ' + enemy.activePoke().pokeName() + '...', 'purple')
           const selectedBall = (enemy.activePoke().shiny() ? player.bestAvailableBall() : player.selectedBall())
           if (player.consumeBall(selectedBall)) {
-            dom.renderBalls(player.ballsAmmount())
+            dom.renderBalls(player.ballsAmount())
             const rngHappened =
               RNG(
                 player.addPoke.bind(null, enemy.activePoke())
@@ -682,20 +682,20 @@ const makeCombatLoop = (enemy, player, dom) => {
           }
         }
 
-        const ballsAmmount = Math.floor(Math.random() * 10) + 1
+        const ballsAmount = Math.floor(Math.random() * 10) + 1
         const ballName = randomArrayElement(['pokeball', 'pokeball', 'pokeball', 'pokeball', 'pokeball', 'pokeball', 'greatball', 'greatball', 'ultraball'])
         const rngHappened2 =
           RNG(
             player.addBalls.bind(
               null,
               ballName,
-              ballsAmmount
+              ballsAmount
             )
           , 10
           )
         if (rngHappened2) {
-          dom.gameConsoleLog('You found ' + ballsAmmount + ' ' + ballName + 's!!', 'purple')
-          dom.renderBalls(player.ballsAmmount())
+          dom.gameConsoleLog('You found ' + ballsAmount + ' ' + ballName + 's!!', 'purple')
+          dom.renderBalls(player.ballsAmount())
         }
 
         const beforeExp = player.pokemons().map((poke) => poke.level())
@@ -782,7 +782,7 @@ if (localStorage.getItem(`totalPokes`) !== null) {
 
 const dom = makeDomHandler()
 dom.renderRouteList('areasList', ROUTES[currentRegionId])
-dom.renderBalls(player.ballsAmmount())
+dom.renderBalls(player.ballsAmount())
 const combatLoop = makeCombatLoop(enemy, player, dom)
 const userInteractions = makeUserInteractions(player, enemy, dom, combatLoop)
 
