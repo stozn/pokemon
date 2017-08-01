@@ -32719,4 +32719,80 @@ const POKEDEX = [
          }
       }
    },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "B-Kyurem"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "3",
+            "growth rate": "Slow",
+            "hp": "125",
+            "attack": "170",
+            "defense": "100",
+            "sp atk": "120",
+            "sp def": "90",
+            "speed": "95",
+            "types": [
+               "Dragon",
+               "Ice"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "297"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "https://img.pokemondb.net/sprites/black-white-2/anim/normal/kyurem-black.gif",
+            "back": "https://img.pokemondb.net/sprites/black-white-2/anim/back-normal/kyurem-black.gif"
+         },
+         "shiny": {
+            "front": "https://img.pokemondb.net/sprites/black-white-2/anim/shiny/kyurem-black.gif",
+            "back": "https://img.pokemondb.net/sprites/black-white-2/anim/back-shiny/kyurem-black.gif"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "W-Kyurem"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "3",
+            "growth rate": "Slow",
+            "hp": "125",
+            "attack": "120",
+            "defense": "90",
+            "sp atk": "170",
+            "sp def": "100",
+            "speed": "95",
+            "types": [
+               "Dragon",
+               "Ice"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "297"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "https://img.pokemondb.net/sprites/black-white-2/anim/normal/kyurem-white.gif",
+            "back": "https://img.pokemondb.net/sprites/black-white-2/anim/back-normal/kyurem-white.gif"
+         },
+         "shiny": {
+            "front": "https://img.pokemondb.net/sprites/black-white-2/anim/shiny/kyurem-white.gif",
+            "back": "https://img.pokemondb.net/sprites/black-white-2/anim/back-shiny/kyurem-white.gif"
+         }
+      }
+   },
 ];
