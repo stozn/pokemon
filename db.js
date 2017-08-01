@@ -32032,12 +32032,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "sprites/020a.png",
-            "back": "sprites/back/020a.png"
+            "front": "sprites/019a.png",
+            "back": "sprites/back/019a.png"
          },
          "shiny": {
-            "front": "sprites/s020a.png",
-            "back": "sprites/back/s020a.png"
+            "front": "sprites/s019a.png",
+            "back": "sprites/back/s019a.png"
          }
       }
    },
@@ -32069,12 +32069,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "sprites/021a.png",
-            "back": "sprites/back/021a.png"
+            "front": "sprites/020a.png",
+            "back": "sprites/back/020a.png"
          },
          "shiny": {
-            "front": "sprites/s021a.png",
-            "back": "sprites/back/s021a.png"
+            "front": "sprites/s020a.png",
+            "back": "sprites/back/s020a.png"
          }
       }
    },
