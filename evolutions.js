@@ -1675,4 +1675,56 @@ const EVOLUTIONS = {
     "level":"25",
     "to":"Vaporeon"
   },
+  "Vileplume":{
+    "level":"35",
+    "to":"Bellossom"
+  },
+  "Bellossom":{
+    "level":"35",
+    "to":"Vileplume"
+  },
+  "Poliwrath":{
+    "level":"50",
+    "to":"Politoed"
+  },
+  "Politoed":{
+    "level":"50",
+    "to":"Poliwrath"
+  },
+  "Hitmontop":{
+    "level":"20",
+    "to":"Hitmonchan"
+  },
+  "Hitmonchan":{
+    "level":"20",
+    "to":"Hitmonlee"
+  },
+  "Hitmonlee":{
+    "level":"20",
+    "to":"Hitmontop"
+  },
+  "Ninjask":{
+    "level":"20",
+    "to":"Shedinja"
+  },
+  "Shedinja":{
+    "level":"20",
+    "to":"Ninjask"
+  },
+  "Gorebyss":{
+    "level":"30",
+    "to":"Huntail"
+  },
+  "Huntail":{
+    "level":"30",
+    "to":"Gorebyss"
+  },
+  "Wormadam":{
+    "level":"20",
+    "to":"Mothim"
+  },
+  "Mothim":{
+    "level":"20",
+    "to":"Wormadam"
+  },
 }
