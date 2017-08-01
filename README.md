@@ -18,6 +18,18 @@ My coding skills are really really (when I say really it's really) limited. So a
 
 Changelog :
 
+NGGYU 1.7.1 (08/01/2017) :
+- **Test Update about Mutli Branched Evolutions** : So this update is quite special. For once, it's not coming with a LOT of things (as for now) but it's something I need feedback and wanted to try. I've changed some evolutions in order to make them working in the case there are one of more choices of evolution. For example before, Tyrogue was only able to evolve into Hitmontop. Now, once you have evolved your Tyrogue, you can change it to the form you want (so Hitmontop / Hitmonchan / Hitmonlee) ! So yes, you can switch as much as you want. But it's better to have this solution rather than having them in the wild. In the near future, a pop-up message will give you the choice for ONE evolution (and not reversible). That's why I need feedback. To see if people like or not. Here's a list of Pokemon affected by this update : 
+
+* Vileplume / Bellossom
+* Poliwrath / Politoed
+* Hitmonlee / Hitmonchan / Hitmontop
+* Ninjask / Shedinja
+* Huntail / Gorebyss
+* Wormadam / Mothim
+
+If this is approved, the 1.7.1 will come with some changes in routes and evolutions.
+
 NGGYU 1.7.0 (07/31/2017) :
 - **Alolan** ! It's done. I thought it'd take me weeks to make this only. But once again, i've coded like non-stop to make this done in 48h. New Pokemon, new forms, new routes, new evolutions, everything should be working well ! It's the last region for the moment. And except some special forms, no more Pokemon to add, the game is **COMPLETE** for that. You can have all 802 basic Pokemon in the game !
 
