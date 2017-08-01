@@ -1627,4 +1627,52 @@ const EVOLUTIONS = {
     "level":"38",
     "to":"A-Muk"
   },
+  
+  
+  //infinite loop-mons
+  
+  "Kyurem":{
+    "level":"100",
+    "to":"B-Kyurem"
+  },
+  "B-Kyurem":{
+    "level":"100",
+    "to":"W-Kyurem"
+  },
+  "W-Kyurem":{
+    "level":"100",
+    "to":"B-Kyurem"
+  },
+  "Vaporeon":{
+    "level":"25",
+    "to":"Jolteon"
+  },
+  "Jolteon":{
+    "level":"25",
+    "to":"Flareon"
+  },
+  "Flareon":{
+    "level":"25",
+    "to":"Espeon"
+  },
+  "Espeon":{
+    "level":"25",
+    "to":"Umbreon"
+  },
+  "Umbreon":{
+    "level":"25",
+    "to":"Leafeon"
+  },
+  "Leafeon":{
+    "level":"25",
+    "to":"Glaceon"
+  },
+  "Glaceon":{
+    "level":"25",
+    "to":"Sylveon"
+  },
+  "Sylveon":{
+    "level":"25",
+    "to":"Vaporeon"
+  },
 }
