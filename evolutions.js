@@ -615,6 +615,10 @@ const EVOLUTIONS = {
     "level":"10",
     "to":"Beautifly"
   },
+  "Cascoon":{
+    "level":"10",
+    "to":"Dustox"
+  },
   "Lotad":{
     "level":"14",
     "to":"Lombre"
