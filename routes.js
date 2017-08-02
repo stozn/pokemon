@@ -135,7 +135,7 @@ const ROUTES = {
     }
    , special7: {
       name: 'Celadon City'
-    , pokes: ['Eevee', 'Vaporeon', 'Flareon', 'Jolteon', 'Porygon']
+    , pokes: ['Eevee', 'Porygon']
     , minLevel: 25
     , maxLevel: 30
     , unlocked: true
@@ -429,14 +429,7 @@ const ROUTES = {
     , maxLevel: 5
     , unlocked: true
     }
-	, special25: {
-      name: 'Goldenrod City'
-    , pokes: ['Umbreon', 'Espeon'] 
-    , minLevel: 20
-    , maxLevel: 20
-    , unlocked: true
-    }
-	, route31: {
+	  , route31: {
       name: 'Route 35'
     , pokes: ['Yanma', 'Noctowl'] 
     , minLevel: 20
@@ -522,7 +515,7 @@ const ROUTES = {
     }
 	, route38: {
       name: 'Route 42'
-    , pokes: ['Mareep', 'Flaaffy', 'Marill', 'Bellossom'] 
+    , pokes: ['Mareep', 'Flaaffy', 'Marill'] 
     , minLevel: 13
     , maxLevel: 17
     , unlocked: true
@@ -592,7 +585,7 @@ const ROUTES = {
     }
 	, special36: {
       name: 'Mt.Silver'
-    , pokes: ['Ursaring', 'Donphan', 'Misdreavus', 'Larvitar', 'Pupitar', 'Politoed'] 
+    , pokes: ['Ursaring', 'Donphan', 'Misdreavus', 'Larvitar', 'Pupitar'] 
     , minLevel: 44
     , maxLevel: 48
     , unlocked: true
@@ -986,7 +979,7 @@ const ROUTES = {
     }
 	, special57: {
       name: 'Mirage Island'
-    , pokes: ['Wynaut', 'Shedinja']
+    , pokes: ['Wynaut']
 	, minLevel: 5
     , maxLevel: 50
     , unlocked: true
@@ -1084,7 +1077,7 @@ const ROUTES = {
     }  
    , water8: {
       name: 'Super Rod'
-    , pokes: ['Wailmer', 'Carvanha', 'Huntail'] 
+    , pokes: ['Wailmer', 'Carvanha'] 
     , minLevel: 40
     , maxLevel: 40
     , unlocked: true
@@ -1156,7 +1149,7 @@ const ROUTES = {
     }
 	, special69: {
       name: 'Floaroma Town'
-    , pokes: ['Combee', 'Burmy', 'Cherubi', 'Munchlax', 'Mothim']
+    , pokes: ['Combee', 'Burmy', 'Cherubi', 'Munchlax']
 	, minLevel: 5
     , maxLevel: 15
     , unlocked: true
@@ -1502,13 +1495,6 @@ const ROUTES = {
     , pokes: ['Gloom', 'Weepinbell', 'Floatzel', 'Oddish', 'Bellsprout', 'Golduck', 'Beautifly', 'Gastrodon', 'Dustox', 'Wingull'] 
     , minLevel: 18
     , maxLevel: 51
-    , unlocked: true
-    }
-	, special93: {
-      name: 'Strange Rocks'
-    , pokes: ['Glaceon', 'Leafeon']
-	, minLevel: 20
-    , maxLevel: 20
     , unlocked: true
     }
 	, special94: {
@@ -2115,13 +2101,6 @@ const ROUTES = {
     , pokes: ['Bergmite', 'Carbink', 'Binacle', 'Goomy', 'Noibat'] 
     , minLevel: 32
     , maxLevel: 38
-    , unlocked: true
-    } 
-	, custom9: {
-      name: 'Snowbelle City'
-    , pokes: ['Sylveon'] 
-    , minLevel: 20
-    , maxLevel: 20
     , unlocked: true
     } 
 	, custom10: {
