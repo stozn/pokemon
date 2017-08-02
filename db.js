@@ -32795,4 +32795,270 @@ const POKEDEX = [
          }
       }
    },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "H-Rotom"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "45",
+            "growth rate": "Medium Fast",
+            "hp": "50",
+            "attack": "65",
+            "defense": "107",
+            "sp atk": "105",
+            "sp def": "107",
+            "speed": "86",
+            "types": [
+               "Electric",
+			   "Fire"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "154"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/rotom-heat.gif",
+            "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/rotom-heat.gif"
+         },
+         "shiny": {
+            "front": "https://img.pokemondb.net/sprites/black-white/anim/shiny/rotom-heat.gif",
+            "back": "https://img.pokemondb.net/sprites/black-white/anim/back-shiny/rotom-heat.gif"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "W-Rotom"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "45",
+            "growth rate": "Medium Fast",
+            "hp": "50",
+            "attack": "65",
+            "defense": "107",
+            "sp atk": "105",
+            "sp def": "107",
+            "speed": "86",
+            "types": [
+               "Electric",
+			   "Water"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "154"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/rotom-wash.gif",
+            "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/rotom-wash.gif"
+         },
+         "shiny": {
+            "front": "https://img.pokemondb.net/sprites/black-white/anim/shiny/rotom-wash.gif",
+            "back": "https://img.pokemondb.net/sprites/black-white/anim/back-shiny/rotom-wash.gif"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "F-Rotom"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "45",
+            "growth rate": "Medium Fast",
+            "hp": "50",
+            "attack": "65",
+            "defense": "107",
+            "sp atk": "105",
+            "sp def": "107",
+            "speed": "86",
+            "types": [
+               "Electric",
+			   "Ice"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "154"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/rotom-frost.gif",
+            "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/rotom-frost.gif"
+         },
+         "shiny": {
+            "front": "https://img.pokemondb.net/sprites/black-white/anim/shiny/rotom-frost.gif",
+            "back": "https://img.pokemondb.net/sprites/black-white/anim/back-shiny/rotom-frost.gif"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "Fan-Rotom"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "45",
+            "growth rate": "Medium Fast",
+            "hp": "50",
+            "attack": "65",
+            "defense": "107",
+            "sp atk": "105",
+            "sp def": "107",
+            "speed": "86",
+            "types": [
+               "Electric",
+			   "Flying"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "154"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/rotom-fan.gif",
+            "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/rotom-fan.gif"
+         },
+         "shiny": {
+            "front": "https://img.pokemondb.net/sprites/black-white/anim/shiny/rotom-fan.gif",
+            "back": "https://img.pokemondb.net/sprites/black-white/anim/back-shiny/rotom-fan.gif"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "M-Rotom"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "45",
+            "growth rate": "Medium Fast",
+            "hp": "50",
+            "attack": "65",
+            "defense": "107",
+            "sp atk": "105",
+            "sp def": "107",
+            "speed": "86",
+            "types": [
+               "Electric",
+			   "Grass"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "154"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/rotom-mow.gif",
+            "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/rotom-mow.gif"
+         },
+         "shiny": {
+            "front": "https://img.pokemondb.net/sprites/black-white/anim/shiny/rotom-mow.gif",
+            "back": "https://img.pokemondb.net/sprites/black-white/anim/back-shiny/rotom-mow.gif"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "Giratina-O"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "3",
+            "growth rate": "Slow",
+            "hp": "150",
+            "attack": "120",
+            "defense": "100",
+            "sp atk": "120",
+            "sp def": "100",
+            "speed": "90",
+            "types": [
+               "Ghost",
+			   "Dragon"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "306"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/giratina-origin.gif",
+            "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/giratina-origin.gif"
+         },
+         "shiny": {
+            "front": "https://img.pokemondb.net/sprites/black-white/anim/shiny/giratina-origin.gif",
+            "back": "https://img.pokemondb.net/sprites/black-white/anim/back-shiny/giratina-origin.gif"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "Shaymin-S"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "45",
+            "growth rate": "Medium Slow",
+            "hp": "100",
+            "attack": "103",
+            "defense": "75",
+            "sp atk": "120",
+            "sp def": "75",
+            "speed": "127",
+            "types": [
+               "Grass",
+			   "Flying"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "270"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/giratina-origin.gif",
+            "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/giratina-origin.gif"
+         },
+         "shiny": {
+            "front": "https://img.pokemondb.net/sprites/black-white/anim/shiny/giratina-origin.gif",
+            "back": "https://img.pokemondb.net/sprites/black-white/anim/back-shiny/giratina-origin.gif"
+         }
+      }
+   },
 ];
