@@ -1329,6 +1329,13 @@ const ROUTES = {
     , maxLevel: 24
     , unlocked: true
     }
+	, special93: {
+      name: 'Ruin Maniac Cave'
+    , pokes: ['Hippopotas'] 
+    , minLevel: 22
+    , maxLevel: 23
+    , unlocked: true
+    }    
 	, special85: {
       name: 'Sendoff Spring'
     , pokes: ['Bibarel', 'Staravia', 'Chingling']
@@ -2024,7 +2031,14 @@ const ROUTES = {
     , maxLevel: 70
     , unlocked: true
     }
-	, special141: {
+	 , special141: {
+      name: 'Serene Grace'
+    , pokes: ['Meloetta'] 
+    , minLevel: 50
+    , maxLevel: 50
+    , unlocked: true
+    }
+	, special142: {
       name: 'Not Kabutops'
     , pokes: ['Genesect'] 
     , minLevel: 15
@@ -2033,7 +2047,7 @@ const ROUTES = {
     }
        , water9: {
       name: 'Super Rod'
-    , pokes: ['Alomomola'] 
+    , pokes: ['Alomomola', 'Tympole'] 
     , minLevel: 40
     , maxLevel: 40
     , unlocked: true
@@ -2140,7 +2154,7 @@ const ROUTES = {
     } 
     , custom15: {
       name: 'Super Rod'
-    , pokes: ['Skrelp', 'Skrelp'] 
+    , pokes: ['Skrelp', 'Clauncher'] 
     , minLevel: 20
     , maxLevel: 20
     , unlocked: true
