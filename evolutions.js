@@ -1761,10 +1761,18 @@ const EVOLUTIONS = {
   },
   "Giratina":{
     "level":"50",
-    "to":"Giratina-0"
+    "to":"Giratina-O"
   },
   "Shaymin":{
     "level":"30",
     "to":"Shaymin-S"
+  },
+  "Giratina-O":{
+    "level":"50",
+    "to":"Giratina"
+  },
+  "Shaymin-S":{
+    "level":"30",
+    "to":"Shaymin"
   },
 }
