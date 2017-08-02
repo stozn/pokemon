@@ -1655,7 +1655,7 @@ const ROUTES = {
     }
 	, special108: {
       name: 'Relic Castle'
-    , pokes: ['Sandile', 'Yamaske', 'Krokorok'] 
+    , pokes: ['Sandile', 'Yamask', 'Krokorok'] 
     , minLevel: 18
     , maxLevel: 30
     , unlocked: true
