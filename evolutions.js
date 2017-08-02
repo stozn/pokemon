@@ -1727,4 +1727,40 @@ const EVOLUTIONS = {
     "level":"20",
     "to":"Wormadam"
   },
+  "Rotom":{
+    "level":"5",
+    "to":"H-Rotom"
+  },
+  "H-Rotom":{
+    "level":"5",
+    "to":"W-Rotom"
+  },
+  "W-Rotom":{
+    "level":"5",
+    "to":""
+  },
+  "W-Rotom":{
+    "level":"5",
+    "to":"F-Rotom"
+  },
+  "F-Rotom":{
+    "level":"5",
+    "to":"Fan-Rotom"
+  },
+  "Fan-Rotom":{
+    "level":"5",
+    "to":"M-Rotom"
+  },
+  "M-Rotom":{
+    "level":"5",
+    "to":"Rotom"
+  },
+  "Giratina":{
+    "level":"50",
+    "to":"Giratina-0"
+  },
+  "Shaymin":{
+    "level":"30",
+    "to":"Shaymin-S"
+  },
 }
