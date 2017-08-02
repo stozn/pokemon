@@ -519,7 +519,7 @@ const EVOLUTIONS = {
     "level":"33",
     "to":"Piloswine"
   },
-  "Pilowsine":{
+  "Piloswine":{
     "level":"50",
     "to":"Mamoswine"
   },
@@ -938,6 +938,10 @@ const EVOLUTIONS = {
   "Luxio":{
     "level":"30",
     "to":"Luxray"
+  },
+  "Roselia":{
+    "level":"27",
+    "to":"Roserade"
   },
   "Cranidos":{
     "level":"30",
