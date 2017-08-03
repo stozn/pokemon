@@ -33052,12 +33052,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/giratina-origin.gif",
-            "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/giratina-origin.gif"
+            "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/shaymin-sky.gif",
+            "back": "https://img.pokemondb.net/sprites/black-white/anim/normal/shaymin-sky.gif"
          },
          "shiny": {
-            "front": "https://img.pokemondb.net/sprites/black-white/anim/shiny/giratina-origin.gif",
-            "back": "https://img.pokemondb.net/sprites/black-white/anim/back-shiny/giratina-origin.gif"
+            "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/shaymin-sky.gif",
+            "back": "https://img.pokemondb.net/sprites/black-white/anim/normal/shaymin-sky.gif"
          }
       }
    },
