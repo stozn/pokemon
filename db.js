@@ -33323,4 +33323,231 @@ const POKEDEX = [
          }
       }
    },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "Darmanitan-Z"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "60",
+            "growth rate": "Medium Slow",
+            "hp": "105",					
+            "attack": "30",
+            "defense": "105",
+            "sp atk": "140",
+            "sp def": "105",
+            "speed": "55",
+            "types": [
+               "Fire",
+			   "Psychic"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "168"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/darmanitan-zen-mode.gif",
+            "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/darmanitan-zen-mode.gif"
+         },
+         "shiny": {
+            "front": "https://img.pokemondb.net/sprites/black-white/anim/shiny/darmanitan-zen-mode.gif",
+            "back": "https://img.pokemondb.net/sprites/black-white/anim/back-shiny/darmanitan-zen-mode.gif"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "Aegislash-B"
+         }
+      ], 
+      "stats": [
+         {
+            "catch rate": "45",
+            "growth rate": "Medium Fast",
+            "hp": "60",
+            "attack": "150",
+            "defense": "50",
+            "sp atk": "150",
+            "sp def": "50",
+            "speed": "60",
+            "types": [
+               "Steel",
+               "Ghost"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "234"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/681b.png",
+            "back": "sprites/back/681b.png"
+         },
+         "shiny": {
+            "front": "sprites/s681b.png",
+            "back": "sprites/back/s681b.png"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "Zygarde-10"
+         }
+      ], 					
+      "stats": [
+         {
+            "catch rate": "3",
+            "growth rate": "Slow",
+            "hp": "54",
+            "attack": "100",
+            "defense": "71",
+            "sp atk": "61",
+            "sp def": "85",
+            "speed": "115",
+            "types": [
+               "Dragon",
+               "Ground"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "270"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/71810.png",
+            "back": "sprites/back/71810.png"
+         },
+         "shiny": {
+            "front": "sprites/s71810.png",
+            "back": "sprites/back/s71810.png"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "Zygarde-C"
+         }
+      ], 					
+      "stats": [
+         {
+            "catch rate": "3",
+            "growth rate": "Slow",
+            "hp": "216",
+            "attack": "100",
+            "defense": "121",
+            "sp atk": "91",
+            "sp def": "95",
+            "speed": "85",
+            "types": [
+               "Dragon",
+               "Ground"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "270"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/718c.png",
+            "back": "sprites/back/718c.png"
+         },
+         "shiny": {
+            "front": "sprites/s718c.png",
+            "back": "sprites/back/s718c.png"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "Hoopa-U"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "3",
+            "growth rate": "Slow",
+            "hp": "80",
+            "attack": "160",
+            "defense": "60",
+            "sp atk": "170",
+            "sp def": "130",
+            "speed": "80",
+            "types": [
+               "Psychic",
+               "Ghost"
+            ]
+         }
+      ], 	
+      "exp": [
+         {
+            "base exp": "270"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/720u.png",
+            "back": "sprites/back/720u.png"
+         },
+         "shiny": {
+            "front": "sprites/s720u.png",
+            "back": "sprites/back/s720u.png"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "Lycanroc-M"
+         }
+      ],
+      "stats": [ 
+         {
+            "catch rate": "90",
+            "growth rate": "Medium Fast",
+            "hp": "75",
+            "attack": "115",
+            "defense": "65",
+            "sp atk": "55",
+            "sp def": "65",
+            "speed": "112",
+            "types": [
+               "Rock"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "170"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/745m.png",
+            "back": "sprites/back/745m.png"
+         },
+         "shiny": {
+            "front": "sprites/s745m.png",
+            "back": "sprites/back/s745m.png"
+         }
+      }
+   },
 ];
