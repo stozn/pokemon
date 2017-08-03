@@ -1779,4 +1779,36 @@ const EVOLUTIONS = {
     "level":"30",
     "to":"Shaymin"
   },
+  "Deoxys":{
+    "level":"30",
+    "to":"Deoxys-A"
+  },
+  "Deoxys-A":{
+    "level":"30",
+    "to":"Deoxys-D"
+  },
+  "Deoxys-D":{
+    "level":"30",
+    "to":"Deoxys-S"
+  },
+  "Deoxys-S":{
+    "level":"30",
+    "to":"Deoxys"
+  },
+  "Tornadus":{
+    "level":"50",
+    "to":"Tornadus-S"
+  },
+  "Thundurus":{
+    "level":"50",
+    "to":"Thundurus-S"
+  },
+  "Landorus":{
+    "level":"50",
+    "to":"Landorus-S"
+  },
+  "Keldeo":{
+    "level":"15",
+    "to":"Keldeo-R"
+  },
 }
