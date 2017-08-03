@@ -33199,7 +33199,6 @@ const POKEDEX = [
          }
       ],
       "images": {
-         "images": {
          "normal": {
             "front": "https://img.pokemondb.net/sprites/black-white-2/anim/normal/tornadus-therian.gif",
             "back": "https://img.pokemondb.net/sprites/black-white-2/anim/back-normal/tornadus-therian.gif"
@@ -33238,7 +33237,6 @@ const POKEDEX = [
          }
       ],
       "images": {
-         "images": {
          "normal": {
             "front": "https://img.pokemondb.net/sprites/black-white-2/anim/normal/thundurus-therian.gif",
             "back": "https://img.pokemondb.net/sprites/black-white-2/anim/back-normal/thundurus-therian.gif"
@@ -33277,7 +33275,6 @@ const POKEDEX = [
          }
       ],
       "images": {
-         "images": {
          "normal": {
             "front": "https://img.pokemondb.net/sprites/black-white-2/anim/normal/landorus-therian.gif",
             "back": "https://img.pokemondb.net/sprites/black-white-2/anim/back-normal/landorus-therian.gif"
@@ -33316,7 +33313,6 @@ const POKEDEX = [
          }
       ],
       "images": {
-         "images": {
          "normal": {
             "front": "https://img.pokemondb.net/sprites/black-white-2/anim/normal/keldeo-resolute.gif",
             "back": "https://img.pokemondb.net/sprites/black-white-2/anim/back-normal/keldeo-resolute.gif"
