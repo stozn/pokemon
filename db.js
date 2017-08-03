@@ -33352,7 +33352,7 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/meloetta-pirouette.gif"
+            "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/meloetta-pirouette.gif",
             "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/meloetta-pirouette.gif"
          },
          "shiny": {
