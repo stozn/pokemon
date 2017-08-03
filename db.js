@@ -33041,7 +33041,7 @@ const POKEDEX = [
             "speed": "127",
             "types": [
                "Grass",
-			   "Flying"
+               "Flying"
             ]
          }
       ],
@@ -33058,6 +33058,272 @@ const POKEDEX = [
          "shiny": {
             "front": "https://img.pokemondb.net/sprites/black-white/anim/shiny/shaymin-sky.gif",
             "back": "https://img.pokemondb.net/sprites/black-white/anim/shiny/shaymin-sky.gif"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "Deoxys-A"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "3",
+            "growth rate": "Slow",
+            "hp": "50",
+            "attack": "180",
+            "defense": "20",
+            "sp atk": "180",
+            "sp def": "20",
+            "speed": "150",
+            "types": [
+               "Psychic"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "270"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/deoxys-attack.gif",
+            "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/deoxys-attack.gif"
+         },
+         "shiny": {
+            "front": "https://img.pokemondb.net/sprites/black-white/anim/shiny/deoxys-attack.gif",
+            "back": "https://img.pokemondb.net/sprites/black-white/anim/back-shiny/deoxys-attack.gif"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "Deoxys-D"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "3",
+            "growth rate": "Slow",
+            "hp": "50",
+            "attack": "70",
+            "defense": "160",
+            "sp atk": "70",
+            "sp def": "160",
+            "speed": "90",
+            "types": [
+               "Psychic"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "270"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/deoxys-defense.gif",
+            "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/deoxys-defense.gif"
+         },
+         "shiny": {
+            "front": "https://img.pokemondb.net/sprites/black-white/anim/shiny/deoxys-defense.gif",
+            "back": "https://img.pokemondb.net/sprites/black-white/anim/back-shiny/deoxys-defense.gif"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "Deoxys-S"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "3",
+            "growth rate": "Slow",
+            "hp": "50",
+            "attack": "95",
+            "defense": "90",
+            "sp atk": "95",
+            "sp def": "90",
+            "speed": "180",
+            "types": [
+               "Psychic"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "270"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/deoxys-speed.gif",
+            "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/deoxys-speed.gif"
+         },
+         "shiny": {
+            "front": "https://img.pokemondb.net/sprites/black-white/anim/shiny/deoxys-speed.gif",
+            "back": "https://img.pokemondb.net/sprites/black-white/anim/back-shiny/deoxys-speed.gif"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "Tornadus-T"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "3",
+            "growth rate": "Slow",
+            "hp": "79",
+            "attack": "100",
+            "defense": "80",
+            "sp atk": "110",
+            "sp def": "90",
+            "speed": "121",
+            "types": [
+               "Flying"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "261"
+         }
+      ],
+      "images": {
+         "images": {
+         "normal": {
+            "front": "https://img.pokemondb.net/sprites/black-white-2/anim/normal/tornadus-therian.gif",
+            "back": "https://img.pokemondb.net/sprites/black-white-2/anim/back-normal/tornadus-therian.gif"
+         },
+         "shiny": {
+            "front": "https://img.pokemondb.net/sprites/black-white-2/anim/shiny/tornadus-therian.gif",
+            "back": "https://img.pokemondb.net/sprites/black-white-2/anim/back-shiny/tornadus-therian.gif"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "Thundurus-T"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "3",
+            "growth rate": "Slow",
+            "hp": "79",
+            "attack": "105",
+            "defense": "70",
+            "sp atk": "145",
+            "sp def": "80",
+            "speed": "101",
+            "types": [
+               "Electric",
+			   "Flying"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "261"
+         }
+      ],
+      "images": {
+         "images": {
+         "normal": {
+            "front": "https://img.pokemondb.net/sprites/black-white-2/anim/normal/thundurus-therian.gif",
+            "back": "https://img.pokemondb.net/sprites/black-white-2/anim/back-normal/thundurus-therian.gif"
+         },
+         "shiny": {
+            "front": "https://img.pokemondb.net/sprites/black-white-2/anim/shiny/thundurus-therian.gif",
+            "back": "https://img.pokemondb.net/sprites/black-white-2/anim/back-shiny/thundurus-therian.gif"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "Landorus-T"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "3",
+            "growth rate": "Slow",
+            "hp": "89",
+            "attack": "145",
+            "defense": "90",
+            "sp atk": "105",
+            "sp def": "80",
+            "speed": "91",
+            "types": [
+               "Ground",
+			   "Flying"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "270"
+         }
+      ],
+      "images": {
+         "images": {
+         "normal": {
+            "front": "https://img.pokemondb.net/sprites/black-white-2/anim/normal/landorus-therian.gif",
+            "back": "https://img.pokemondb.net/sprites/black-white-2/anim/back-normal/landorus-therian.gif"
+         },
+         "shiny": {
+            "front": "https://img.pokemondb.net/sprites/black-white-2/anim/shiny/landorus-therian.gif",
+            "back": "https://img.pokemondb.net/sprites/black-white-2/anim/back-shiny/landorus-therian.gif"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "Keldeo-R"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "3",
+            "growth rate": "Slow",
+            "hp": "91",
+            "attack": "72",
+            "defense": "90",
+            "sp atk": "129",
+            "sp def": "90",
+            "speed": "108",
+            "types": [
+               "Ground",
+			   "Flying"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "261"
+         }
+      ],
+      "images": {
+         "images": {
+         "normal": {
+            "front": "https://img.pokemondb.net/sprites/black-white-2/anim/normal/keldeo-resolute.gif",
+            "back": "https://img.pokemondb.net/sprites/black-white-2/anim/back-normal/keldeo-resolute.gif"
+         },
+         "shiny": {
+            "front": "https://img.pokemondb.net/sprites/black-white-2/anim/shiny/keldeo-resolute.gif",
+            "back": "https://img.pokemondb.net/sprites/black-white-2/anim/back-shiny/keldeo-resolute.gif"
          }
       }
    },
