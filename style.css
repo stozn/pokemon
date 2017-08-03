@@ -213,16 +213,22 @@ ul {
   width: 150px;
 }
 
-#gitLink  {
-  position: absolute;
-  top: 620px;
-  left: 450px;
+#gitLink {
+	position: absolute;
+	top: 620px;
+	left: 750px;
 }
 
-#subLink  {
-  position: absolute;
-  top: 620px;
-  left: 520px;
+#subLink {
+	position: absolute;
+	top: 620px;
+	left: 670px;
+}
+
+#disLink {
+	position: absolute;
+	top: 620px;
+	left: 600px;
 }
 
 #version {
