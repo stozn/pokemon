@@ -1811,6 +1811,10 @@ const EVOLUTIONS = {
     "level":"50",
     "to":"Meloetta-P"
   },
+  "Meloetta-P":{
+    "level":"50",
+    "to":"Meloetta"
+  },
   "Darmanitan":{
     "level":"35",
     "to":"Darmanitan-Z"
