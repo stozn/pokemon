@@ -1807,4 +1807,48 @@ const EVOLUTIONS = {
     "level":"15",
     "to":"Keldeo-R"
   },
+  "Darmanitan":{
+    "level":"35",
+    "to":"Darmanitan-Z"
+  },
+  "Darmanitan-Z":{
+    "level":"35",
+    "to":"Darmanitan"
+  },
+  "Aegislash":{
+    "level":"50",
+    "to":"Aegislash-B"
+  },
+  "Aegislash":{
+    "level":"50",
+    "to":"Aegislash"
+  },
+  "Zygarde-10":{
+    "level":"10",
+    "to":"Zygarde"
+  },
+  "Zygarde":{
+    "level":"100",
+    "to":"Zygarde-C"
+  },
+  "Zygarde-C":{
+    "level":"100",
+    "to":"Zygarde-10"
+  },
+  "Hoopa":{
+    "level":"100",
+    "to":"Hoopa-U"
+  },
+  "Hoopa-U":{
+    "level":"100",
+    "to":"Hoopa"
+  },
+  "Lycanroc":{
+    "level":"25",
+    "to":"Lycanroc-M"
+  },
+  "Lycanroc-M":{
+    "level":"25",
+    "to":"Lycanroc"
+  },
 }
