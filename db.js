@@ -33053,11 +33053,11 @@ const POKEDEX = [
       "images": {
          "normal": {
             "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/shaymin-sky.gif",
-            "back": "https://img.pokemondb.net/sprites/black-white/anim/normal/shaymin-sky.gif"
+            "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/shaymin-sky.gif"
          },
          "shiny": {
-            "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/shaymin-sky.gif",
-            "back": "https://img.pokemondb.net/sprites/black-white/anim/normal/shaymin-sky.gif"
+            "front": "https://img.pokemondb.net/sprites/black-white/anim/shiny/shaymin-sky.gif",
+            "back": "https://img.pokemondb.net/sprites/black-white/anim/shiny/shaymin-sky.gif"
          }
       }
    },
