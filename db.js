@@ -33302,8 +33302,8 @@ const POKEDEX = [
             "sp def": "90",
             "speed": "108",
             "types": [
-               "Ground",
-			   "Flying"
+               "Water",
+	       "Fighting"
             ]
          }
       ],
@@ -33320,6 +33320,44 @@ const POKEDEX = [
          "shiny": {
             "front": "https://img.pokemondb.net/sprites/black-white-2/anim/shiny/keldeo-resolute.gif",
             "back": "https://img.pokemondb.net/sprites/black-white-2/anim/back-shiny/keldeo-resolute.gif"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "Meloetta-P"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "3",
+            "growth rate": "Slow",
+            "hp": "100",
+            "attack": "128",
+            "defense": "90",
+            "sp atk": "77",
+            "sp def": "77",
+            "speed": "128",
+            "types": [
+               "Normal",
+	       "Fighting"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "270"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "https://img.pokemondb.net/sprites/black-white/anim/normal/meloetta-pirouette.gif"
+            "back": "https://img.pokemondb.net/sprites/black-white/anim/back-normal/meloetta-pirouette.gif"
+         },
+         "shiny": {
+            "front": "https://img.pokemondb.net/sprites/black-white/anim/shiny/meloetta-pirouette.gif",
+            "back": "https://img.pokemondb.net/sprites/black-white/anim/back-shiny/meloetta-pirouette.gif"
          }
       }
    },
