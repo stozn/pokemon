@@ -18,6 +18,9 @@ My coding skills are really really (when I say really it's really) limited. So a
 
 Changelog :
 
+NGGYU 1.7.2 (08/03/2017) :
+- **New Formes** : It was something missing to PokeIdle. After getting a good feedback about the Multi Branched Evolutions solution, I've decided to extand this to formes. Now, you can have and switch between formes of almost every Pokemon available. A few are missing, because I still need to think about how to add them, but 80% of them have been added. You'll be able to find the list on the Reddit post. All sprites has been updated, everything working fine.
+
 NGGYU 1.7.1 (08/01/2017) :
 - **Test Update about Mutli Branched Evolutions** : So this update is quite special. For once, it's not coming with a LOT of things (as for now) but it's something I need feedback and wanted to try. I've changed some evolutions in order to make them working in the case there are one of more choices of evolution. For example before, Tyrogue was only able to evolve into Hitmontop. Now, once you have evolved your Tyrogue, you can change it to the form you want (so Hitmontop / Hitmonchan / Hitmonlee) ! So yes, you can switch as much as you want. But it's better to have this solution rather than having them in the wild. In the near future, a pop-up message will give you the choice for ONE evolution (and not reversible). That's why I need feedback. To see if people like or not. Here's a list of Pokemon affected by this update : 
 
