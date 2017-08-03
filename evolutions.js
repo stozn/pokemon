@@ -887,10 +887,6 @@ const EVOLUTIONS = {
     "level":"100",
     "to":"M-Rayquaza"
   },
-  "Rayquaza":{
-    "level":"100",
-    "to":"M-Rayquaza"
-  },
   "Turtwig":{
     "level":"18",
     "to":"Grotle"
