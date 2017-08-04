@@ -753,7 +753,7 @@ const ROUTES = {
     , maxLevel: 13
     , unlocked: true
     }
-	, special45: {
+	, special145: {
       name: 'New Mauville'
     , pokes: ['Magnemite', 'Magneton', 'Voltorb', 'Electrode'] 
     , minLevel: 22
