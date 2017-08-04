@@ -33057,7 +33057,7 @@ const POKEDEX = [
          },
          "shiny": {
             "front": "https://img.pokemondb.net/sprites/black-white/anim/shiny/shaymin-sky.gif",
-            "back": "https://img.pokemondb.net/sprites/black-white/anim/shiny/shaymin-sky.gif"
+            "back": "https://img.pokemondb.net/sprites/black-white/anim/back-shiny/shaymin-sky.gif"
          }
       }
    },
