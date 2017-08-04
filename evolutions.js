@@ -1839,7 +1839,7 @@ const EVOLUTIONS = {
     "level":"50",
     "to":"Aegislash-B"
   },
-  "Aegislash":{
+  "Aegislash-B":{
     "level":"50",
     "to":"Aegislash"
   },
