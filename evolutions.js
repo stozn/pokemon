@@ -1795,13 +1795,25 @@ const EVOLUTIONS = {
     "level":"50",
     "to":"Tornadus-T"
   },
+  "Tornadus-T":{
+    "level":"50",
+    "to":"Tornadus"
+  },
   "Thundurus":{
     "level":"50",
     "to":"Thundurus-T"
   },
+  "Thundurus-T":{
+    "level":"50",
+    "to":"Thundurus"
+  },
   "Landorus":{
     "level":"50",
     "to":"Landorus-T"
+  },
+  "Landorus-T":{
+    "level":"50",
+    "to":"Landorus"
   },
   "Keldeo":{
     "level":"15",
