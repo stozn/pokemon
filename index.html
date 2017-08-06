@@ -80,10 +80,27 @@
         <span class="console-text"></span>
       </div>
       <div id="playerBox">
-        <input type="checkbox" checked="true" id="enableConsole"><span>Enable console</span><br><br>
-        <button onclick="userInteractions.clearConsole()">Clear Console</button><br><br>
+        <input type="checkbox" checked="true" id="enableConsole"><span>Enable console</span><br>
+        <button onclick="userInteractions.clearConsole()">Clear Console</button><br>
+        <div id="saveLoadButtons">
+          <button onclick="userInteractions.exportSaveDialog()">Save</button>
+          <button onclick="userInteractions.importSaveDialog()">Load</button>
+        </div>
         <input type="checkbox" id="confirmClearData">
         <a href="#" style="color: red;" onclick="userInteractions.clearGameData()">Clear game data</a>
+      </div>
+    </div>
+
+    <div id="saveDialogContainer" style="display: none">
+      <div id="saveDialog">
+        <div>
+          <button id="copySaveText" onclick="userInteractions.copySaveText()" style="display: none">Copy to clipboard</button>
+          <h3 id="saveDialogTitle">Export your save</h3>
+        </div>
+        <textarea id="saveText" placeholder="Paste the save data here"></textarea>
+        <div id="loadButtonContainer" style="display: none">
+          <button onclick="userInteractions.importSave()">Load</button>
+        </div>
       </div>
     </div>
 

@@ -120,6 +120,7 @@ const makeDomHandler = () => {
     const listElement = listContainer.querySelector('.list')
     const deleteEnabled = deleteEnabledId && $(deleteEnabledId).checked
     listElement.className = 'list' + (deleteEnabled ? ' manageTeamEnabled' : '')
+    var listElementsToAdd = ''
     list.forEach((poke, index) => {
       const listItemElement = listElement.querySelector('#listPoke' + index);
       if (listItemElement) {
@@ -164,27 +165,26 @@ const makeDomHandler = () => {
             Evolve
           </button>`
 
-        setValue(
-          listElement
-          , `<li id="listPoke${index}">` +
-            deleteButton +
-            `<a
-                href="#"
-                onclick="userInteractions.changePokemon(${index})"
-                style="color: ${pokeColor(poke)}"
-                class="pokeListName"
-              >
-                ${poke.pokeName()} (${poke.level()})
-              </a>
-              <br>` +
-            upButton +
-            downButton +
-            evolveButton +
-            `</li>`
-          , true
-        )
+        listElementsToAdd += `<li id="listPoke${index}">` +
+          deleteButton +
+          `<a
+              href="#"
+              onclick="userInteractions.changePokemon(${index})"
+              style="color: ${pokeColor(poke)}"
+              class="pokeListName"
+            >
+              ${poke.pokeName()} (${poke.level()})
+            </a>
+            <br>` +
+          upButton +
+          downButton +
+          evolveButton +
+          `</li>`
       }
     })
+    if (listElementsToAdd.length > 0) {
+      setValue(listElement, listElementsToAdd, true)
+    }
     var i = list.length
     var listItemToRemove
     while (listItemToRemove = listElement.querySelector('#listPoke' + i)) {
@@ -273,6 +273,9 @@ const makeDomHandler = () => {
     , () => { userInteractions.changeCatchOption($(`#enableCatch`).checked) }
     )
 
+    $(`#saveDialogContainer`).addEventListener( 'click'
+    , (event) => { event.target === $(`#saveDialogContainer`) && ($(`#saveDialogContainer`).style.display = 'none') }
+    )
   }
   bindEvents()
   return {
@@ -419,6 +422,16 @@ const makePlayer = () => {
       return Date.now() - lastHeal
     }
   }
+  const checksum = (s) =>
+  {
+    var chk = 0x12345678;
+    var len = s.length;
+    for (var i = 0; i < len; i++) {
+        chk += (s.charCodeAt(i) * (i + 1));
+    }
+
+    return (chk & 0xffffffff).toString(16);
+  }
   const player_interface = {
     addPoke: (poke) => {
       // const playerEqualPokes = pokemons.filter((playerPoke) => (playerPoke.pokeName() === poke.pokeName()))
@@ -465,6 +478,13 @@ const makePlayer = () => {
       })
       localStorage.setItem(`ballsAmmount`, JSON.stringify(ballsAmmount))
     }
+  , saveToString: () => {
+      const saveData = JSON.stringify({
+        pokes: pokemons.map((poke) => poke.save()),
+        ballsAmmount: ballsAmmount
+      })
+      return btoa(checksum(saveData) + '|' + saveData)
+    }
   , loadPokes: () => {
       Array(Number(localStorage.getItem(`totalPokes`))).fill(0).forEach((el, index) => {
         const loadedPoke = JSON.parse(localStorage.getItem('poke'+index))
@@ -477,6 +497,28 @@ const makePlayer = () => {
         ballsAmmount = JSON.parse(localStorage.getItem('ballsAmmount'))
       }
 
+    }
+  , loadFromString: (saveData) => {
+      saveData = atob(saveData)
+      saveData = saveData.split('|')
+      if (checksum(saveData[1]) === saveData[0]) {
+        try {
+          saveData = JSON.parse(saveData[1])
+        } catch (err) {
+          alert('Failed to parse save data, loading canceled!')
+          return;
+        }
+        pokemons = []
+        saveData.pokes.forEach((loadedPoke) => {
+          const pokeName = loadedPoke[0]
+          const exp = loadedPoke[1]
+          const shiny = (loadedPoke[2] == true)
+          pokemons.push(makePoke(pokeByName(pokeName), false, Number(exp), shiny))
+        })
+        ballsAmmount = saveData.ballsAmmount
+      } else {
+        alert('Invalid save data, loading canceled!')
+      }
     }
   , ballRNG: (ballName) => {
       return ballsRngs[ballName]
@@ -611,8 +653,35 @@ const makeUserInteractions = (player, enemy, dom, combatLoop) => {
 	  evolvePokemon: (pokemonIndex) => {
 		  player.pokemons()[pokemonIndex].evolve()
 		  renderView(dom, enemy, player)
+	  },
+	  exportSaveDialog: () => {
+		  document.getElementById('saveDialogTitle').innerHTML = 'Export your save'
+		  if (document.queryCommandSupported('copy')) {
+			  document.getElementById('copySaveText').style.display = 'initial'
+		  }
+		  document.getElementById('saveText').value = player.saveToString()
+		  document.getElementById('loadButtonContainer').style.display = 'none'
+		  document.getElementById('saveDialogContainer').style.display = 'block'
+	  },
+	  importSaveDialog: () => {
+		  document.getElementById('saveDialogTitle').innerHTML = 'Import a save'
+		  document.getElementById('copySaveText').style.display = 'none'
+		  document.getElementById('saveText').value = ''
+		  document.getElementById('loadButtonContainer').style.display = 'block'
+		  document.getElementById('saveDialogContainer').style.display = 'block'
+	  },
+	  importSave: () => {
+		  if (window.confirm('Loading a save will overwrite your current progress, are you sure you wish to continue?')) {
+			  player.loadFromString(document.getElementById('saveText').value.trim())
+			  document.getElementById('saveDialogContainer').style.display = 'none'
+			  renderView(dom, enemy, player)
+		  }
+	  },
+	  copySaveText: () => {
+		  document.getElementById('saveText').select()
+		  document.execCommand('copy')
+		  window.getSelection().removeAllRanges()
 	  }
-
   }
 }
 
