@@ -9,14 +9,25 @@ Moreover, huge thanks to the [Smogon XY Sprite Project](http://www.smogon.com/fo
 
 WIP.
 
-Planned (in order of priority, at least ALMOST) :
+Planned (everything major is done now, let's try to make the game EVEN better) :
 
-- Saving System
-- Gen 7
+- (Auto)-Ordering Team
+- Better Catch System
+- A REAL Battle System
 
 My coding skills are really really (when I say really it's really) limited. So any help would be more than apprecied. Just trying to bring some ideas and doing the boring stuff.
 
 Changelog :
+
+NGGYU 1.8.0 (08/06/2017) :
+- **Saving system** ! Huge update this time ! It's a basic system for any Idle game, and it's finally here and live ! From now, if you use more than one device (PC / Mobile), you'll be able to move your save without any problem. Work with any browser etc. You just need a way to send the encrypted datas (like by mail, cloud etc) ! In order to use that, you'll have to :
+1) Click on "Save" and copy the huge letters thing.
+2) On your new device, click on "load" and paste this huge combinaison of letters.
+3) Enjoy !
+4) You can do it again for moving it to the first device. As much as you want.
+Of course, this works as a backup system in case you clean your computer ! Tell me if you find any bugs, it's compatible with your actual save of course !
+
+- **Chrome update** : The manage team has been edited once again to be more light on Chrome. Should help people with the game and some lags on this browser !
 
 NGGYU 1.7.2 (08/03/2017) :
 - **New Formes** : It was something missing to PokeIdle. After getting a good feedback about the Multi Branched Evolutions solution, I've decided to extand this to formes. Now, you can have and switch between formes of almost every Pokemon available. A few are missing, because I still need to think about how to add them, but 80% of them have been added. You'll be able to find the list on the Reddit post. All sprites has been updated, everything working fine.
