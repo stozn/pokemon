@@ -2287,14 +2287,5 @@ const ROUTES = {
     , maxLevel: 30
     , unlocked: true
     }
-},
-	Event: {
-    event: {
-      name: 'Pallet Town'
-    , pokes: ['M-Charizard Y'] 
-    , minLevel: 100
-    , maxLevel: 100
-    , unlocked: true
-    } 
 }
 }
