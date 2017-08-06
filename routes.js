@@ -1905,7 +1905,7 @@ const ROUTES = {
     , maxLevel: 51
     , unlocked: true
     }
-	, special127: {
+	, special150: {
       name: 'Pinwheel Forest'
     , pokes: ['Gurdurr', 'Palpitoad', 'Throh', 'Cottonee', 'Swadloon', 'Petilil', 'Whirlipede', 'Pansage', 'Pansear', 'Panpour'] 
     , minLevel: 54
