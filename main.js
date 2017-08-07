@@ -93,7 +93,7 @@ const makeDomHandler = () => {
       if (typeof dexEntry == 'undefined')
         dexEntry = {name: '', flag: 0}
       if (dexView == 'All' || (dexView == 'Missing' && (dexEntry.flag <= 1)))
-        listValue += '<li class="pokeDex' + dexEntry.flag + '">' + y + ' ' + POKEDEX[y].pokemon[0].Pokemon + '</li>';
+        listValue += '<li class="pokeDex' + dexEntry.flag + '">' + (y + 1) + ' ' + POKEDEX[y].pokemon[0].Pokemon + '</li>';
     }
     setValue(listElement, listValue, false)
   }
