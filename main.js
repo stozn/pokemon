@@ -499,10 +499,14 @@ const makePlayer = () => {
         localStorage.setItem(`poke${index}`, JSON.stringify(poke.save()))
       })
       localStorage.setItem(`ballsAmmount`, JSON.stringify(ballsAmmount))
+      localStorage.setItem(`seenPokemons`, JSON.stringify(seenPokemons))
+      localStorage.setItem(`ownedPokemons`, JSON.stringify(ownedPokemons))
     }
   , saveToString: () => {
       const saveData = JSON.stringify({
         pokes: pokemons.map((poke) => poke.save()),
+        seenPokemons: seenPokemons,
+        ownedPokemons: ownedPokemons,
         ballsAmmount: ballsAmmount
       })
       return btoa(checksum(saveData) + '|' + saveData)
@@ -517,6 +521,12 @@ const makePlayer = () => {
       })
       if (JSON.parse(localStorage.getItem('ballsAmmount'))) {
         ballsAmmount = JSON.parse(localStorage.getItem('ballsAmmount'))
+      }
+      if (JSON.parse(localStorage.getItem('seenPokemons'))) {
+          seenPokemons = JSON.parse(localStorage.getItem('seenPokemons'))
+      }
+      if (JSON.parse(localStorage.getItem('ownedPokemons'))) {
+          ownedPokemons = JSON.parse(localStorage.getItem('ownedPokemons'))
       }
 
     }
@@ -538,6 +548,8 @@ const makePlayer = () => {
           pokemons.push(makePoke(pokeByName(pokeName), false, Number(exp), shiny))
         })
         ballsAmmount = saveData.ballsAmmount
+        seenPokemons = saveData.seenPokemons
+        ownedPokemons = saveData.ownedPokemons
       } else {
         alert('Invalid save data, loading canceled!')
       }
