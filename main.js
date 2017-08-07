@@ -129,7 +129,7 @@ const makeDomHandler = () => {
     const listContainer = $(listCssQuery)
     const listElement = listContainer.querySelector('#playerPokesList')
     const deleteEnabled = deleteEnabledId && $(deleteEnabledId).checked
-    listElement.className = 'list' + (deleteEnabled ? ' manageTeamEnabled' : '')
+    listElement.className = 'list' + (checkConfirmed('#enablePokedex') ? ' hidden' : '') + (deleteEnabled ? ' manageTeamEnabled' : '')
     var listElementsToAdd = ''
     list.forEach((poke, index) => {
       const listItemElement = listElement.querySelector('#listPoke' + index);
