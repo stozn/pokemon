@@ -2,15 +2,6 @@ body {
   background-color: rgb(219, 219, 219);
 }
 
-#pokeDex {
-  position: absolute;
-  left: 10px;
-  top: 10px;
-  overflow: hidden;
-  overflow-y: scroll;
-  height: 600px;
-}
-
 #gameContainer {
   font-family: 'Lato', sans-serif;
   color: #111111;
@@ -151,7 +142,7 @@ ul {
   position: relative;
 }
 
-#playerPokesList {
+#playerPokesList #playerPokeDex {
   position: relative;
   padding-left: 8px;
   overflow-y: auto;
@@ -381,4 +372,8 @@ progress {
 
 progress.expBar {
   width: 120px;
+}
+
+.hidden {
+  display: none;
 }

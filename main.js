@@ -81,12 +81,15 @@ const makeDomHandler = () => {
     setProp(domElements.expBar, 'max', poke.nextLevelExp() - poke.thisLevelExp())
     setValue(domElements.status, pokeStatusAsText(poke))
   }
-  const renderPokeDex = (seen, owned) => {
+  const renderPokeDex = (id, seen, owned) => {
+    const listCssQuery = '.container.list' + '#' + id
+    const listContainer = $(listCssQuery)
+    const listElement = listContainer.querySelector('#playerPokeDex')
     var listValue = '';
     for(var y = 0; y < POKEDEX.length; y++) {
         listValue += '<li>' + y + ' ' + POKEDEX[y].pokemon[0].Pokemon + ((seen.indexOf(POKEDEX[y].pokemon[0].Pokemon) != -1) ? ' S ' : '') + ((owned.indexOf(POKEDEX[y].pokemon[0].Pokemon) != -1) ? ' O ' : '') + '</li>';
     }
-    setValue(document.getElementById("pokeDex"), listValue, false)
+    setValue(listElement, listValue, false)
   }
   const healElement = $('#heal')
   const renderHeal = (canHeal) => {
@@ -124,7 +127,7 @@ const makeDomHandler = () => {
   const renderPokeList = (id, list, player, deleteEnabledId) => {
     const listCssQuery = '.container.list' + '#' + id
     const listContainer = $(listCssQuery)
-    const listElement = listContainer.querySelector('.list')
+    const listElement = listContainer.querySelector('#playerPokesList')
     const deleteEnabled = deleteEnabledId && $(deleteEnabledId).checked
     listElement.className = 'list' + (deleteEnabled ? ' manageTeamEnabled' : '')
     var listElementsToAdd = ''
@@ -274,6 +277,10 @@ const makeDomHandler = () => {
 
     $('#enableDelete').addEventListener( 'click'
     , () => { userInteractions.enablePokeListDelete() }
+    )
+
+    $('#enablePokedex').addEventListener( 'click'
+      , () => { userInteractions.enableViewPokedex() }
     )
 
     $(`#enableCatch`).addEventListener( 'click'
@@ -641,6 +648,15 @@ const makeUserInteractions = (player, enemy, dom, combatLoop) => {
     enablePokeListDelete: () => {
       dom.renderPokeList('playerPokes', player.pokemons(), player, '#enableDelete')
     },
+    enableViewPokedex: () => {
+      if (dom.checkConfirmed('#enablePokedex')) {
+        document.querySelector('#playerPokesList').classList.add('hidden')
+        document.querySelector('#playerPokeDex').classList.remove('hidden')
+      } else {
+        document.querySelector('#playerPokesList').classList.remove('hidden')
+        document.querySelector('#playerPokeDex').classList.add('hidden')
+      }
+    },
     changeCatchOption: (newCatchOption) => {
       combatLoop.changeCatch(newCatchOption)
     },
@@ -870,7 +886,7 @@ const renderView = (dom, enemy, player) => {
   dom.renderPokeOnContainer('enemy', enemy.activePoke())
   dom.renderPokeOnContainer('player', player.activePoke(), 'back')
   dom.renderPokeList('playerPokes', player.pokemons(), player, '#enableDelete')
-  dom.renderPokeDex(player.seenPokemons(), player.ownedPokemons())
+  dom.renderPokeDex('playerPokes', player.seenPokemons(), player.ownedPokemons())
 }
 
 

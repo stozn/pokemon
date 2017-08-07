@@ -11,7 +11,6 @@
   <link rel="icon" type="image/png" href="http://puu.sh/uxvz7/eef94af5d2.png">
 </head>
 <body>
-  <ul id='pokeDex'></ul>
   <div id="gameContainer">
 
     <div id="areasList" class="container list">
@@ -34,10 +33,13 @@
 
     <div id="playerPokes" class="container list">
       <div class="controls">
-        <input type="checkbox" id="enableDelete" ><span class="checkDescription">Manage Team</span>
+        <input type="checkbox" id="enableDelete"><label for="enableDelete"><span class="checkDescription">Manage Team</span></label><br>
+        <input type="checkbox" id="enablePokedex"><label for="enablePokedex"><span class="checkDescription" id="viewPokedexString">View Pokedex</span></label>
         <button type="button" name="button" id="heal">Heal</button>
       </div>
       <ul id="playerPokesList" class="list">
+      </ul>
+      <ul id="playerPokeDex" class="list hidden">
       </ul>
     </div>
 
