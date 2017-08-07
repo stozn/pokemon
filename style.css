@@ -142,7 +142,7 @@ ul {
   position: relative;
 }
 
-#playerPokesList #playerPokeDex {
+#playerPokesList, #playerPokeDex ul {
   position: relative;
   padding-left: 8px;
   overflow-y: auto;
