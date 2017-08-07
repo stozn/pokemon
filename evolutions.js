@@ -79,6 +79,10 @@ const EVOLUTIONS = {
     "level":"22",
     "to":"Arbok"
   },
+  "Pichu":{
+    "level":"10",
+    "to":"Pikacu"
+  },
   "Pikachu":{
     "level":"35",
     "to":"Raichu"
@@ -103,6 +107,10 @@ const EVOLUTIONS = {
     "level":"35",
     "to":"Nidoking"
   },
+  "Cleffa":{
+    "level":"10",
+    "to":"Clefairy"
+  },
   "Clefairy":{
     "level":"35",
     "to":"Clefable"
@@ -111,6 +119,10 @@ const EVOLUTIONS = {
     "level":"35",
     "to":"Ninetales"
   },
+  "Igglybuff":{
+    "level":"35",
+    "to":"Jigglypuff"
+  },
   "Jigglypuff":{
     "level":"35",
     "to":"Wigglytuff"
@@ -118,6 +130,10 @@ const EVOLUTIONS = {
   "Zubat":{
     "level":"22",
     "to":"Golbat"
+  },
+  "Golbat":{
+    "level":"45",
+    "to":"Crobat"
   },
   "Oddish":{
     "level":"21",
@@ -251,6 +267,14 @@ const EVOLUTIONS = {
     "level":"100",
     "to":"M-Gengar"
   },
+  "Onix":{
+    "level":"45",
+    "to":"Steelix"
+  },
+  "Steelix":{
+    "level":"100",
+    "to":"M-Steelix"
+  },
   "Drowzee":{
     "level":"26",
     "to":"Hypno"
@@ -271,6 +295,10 @@ const EVOLUTIONS = {
     "level":"28",
     "to":"Marowak"
   },
+  "Tyrogue":{
+    "level":"20",
+    "to":"Hitmontop"
+  },
   "Lickitung":{
     "level":"33",
     "to":"Lickilicky"
@@ -287,6 +315,10 @@ const EVOLUTIONS = {
     "level":"50",
     "to":"Rhyperior"
   },
+  "Chansey":{
+    "level":"40",
+    "to":"Blissey"
+  },
   "Tangela":{
     "level":"38",
     "to":"Tangrowth"
@@ -299,6 +331,10 @@ const EVOLUTIONS = {
     "level":"32",
     "to":"Seadra"
   },
+  "Seadra":{
+    "level":"50",
+    "to":"Kingdra"
+  },
   "Goldeen":{
     "level":"33",
     "to":"Seaking"
@@ -307,9 +343,33 @@ const EVOLUTIONS = {
     "level":"35",
     "to":"Starmie"
   },
+  "Mime Jr.":{
+    "level":"15",
+    "to":"Mr. Mime"
+  },
+  "Scyther":{
+    "level":"45",
+    "to":"Scizor"
+  },
+  "Scizor":{
+    "level":"100",
+    "to":"M-Scizor"
+  },
+  "Smoochum":{
+    "level":"30",
+    "to":"Jynx"
+  },
+  "Elekid":{
+    "level":"30",
+    "to":"Electabuzz"
+  },
   "Electabuzz":{
     "level":"50",
     "to":"Electivire"
+  },
+  "Magby":{
+    "level":"30",
+    "to":"Magmar"
   },
   "Magmar":{
     "level":"50",
@@ -403,10 +463,6 @@ const EVOLUTIONS = {
     "level":"22",
     "to":"Ariados"
   },
-  "Golbat":{
-    "level":"45",
-    "to":"Crobat"
-  },
   "Chinchou":{
     "level":"27",
     "to":"Lanturn"
@@ -475,14 +531,6 @@ const EVOLUTIONS = {
     "level":"31",
     "to":"Forretress"
   },
-  "Onix":{
-    "level":"45",
-    "to":"Steelix"
-  },
-  "Steelix":{
-    "level":"100",
-    "to":"M-Steelix"
-  },
   "Gligar":{
     "level":"37",
     "to":"Gliscor"
@@ -490,14 +538,6 @@ const EVOLUTIONS = {
   "Snubbull":{
     "level":"23",
     "to":"Granbull"
-  },
-  "Scyther":{
-    "level":"45",
-    "to":"Scizor"
-  },
-  "Scizor":{
-    "level":"100",
-    "to":"M-Scizor"
   },
   "Heracross":{
     "level":"100",
@@ -535,21 +575,9 @@ const EVOLUTIONS = {
     "level":"100",
     "to":"M-Houndoom"
   },
-  "Seadra":{
-    "level":"50",
-    "to":"Kingdra"
-  },
   "Phanpy":{
     "level":"25",
     "to":"Donphan"
-  },
-  "Tyrogue":{
-    "level":"20",
-    "to":"Hitmontop"
-  },
-  "Chansey":{
-    "level":"40",
-    "to":"Blissey"
   },
   "Larvitar":{
     "level":"30",
@@ -1878,5 +1906,29 @@ const EVOLUTIONS = {
   "Lycanroc-M":{
     "level":"25",
     "to":"Lycanroc"
+  },
+  "Raichu":{
+    "level":"35",
+    "to":"A-Raichu"
+  },
+  "A-Raichu":{
+    "level":"35",
+    "to":"Raichu"
+  },
+  "Exeggutor":{
+    "level":"35",
+    "to":"A-Exeggutor"
+  },
+  "A-Exeggutor":{
+    "level":"35",
+    "to":"Exeggutor"
+  },
+  "Marowak":{
+    "level":"28",
+    "to":"A-Marowak"
+  },
+  "A-Marowak":{
+    "level":"28",
+    "to":"Marowak"
   },
 }
