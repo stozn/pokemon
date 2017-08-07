@@ -18,6 +18,7 @@ EXP_TABLE["Fast"] = [1, 2, 6, 21, 51, 100, 172, 274, 409, 583, 800, 1064, 1382, 
 
 var currentRegionId = 'Kanto'
 var currentRouteId = 'starter'
+var dexView = 'All'
 
 const RNG = (func, chance) => {
   const rnd = Math.random() * 100
@@ -84,9 +85,10 @@ const makeDomHandler = () => {
   const renderPokeDex = (id, seen, owned) => {
     const listCssQuery = '.container.list' + '#' + id
     const listContainer = $(listCssQuery)
-    const listElement = listContainer.querySelector('#playerPokeDex')
+    const listElement = listContainer.querySelector('#playerPokeDex ul')
     var listValue = '';
     for(var y = 0; y < POKEDEX.length; y++) {
+      if (dexView == 'All' || (dexView == 'Missing' && (owned.indexOf(POKEDEX[y].pokemon[0].Pokemon) == -1)))
         listValue += '<li>' + y + ' ' + POKEDEX[y].pokemon[0].Pokemon + ((seen.indexOf(POKEDEX[y].pokemon[0].Pokemon) != -1) ? ' S ' : '') + ((owned.indexOf(POKEDEX[y].pokemon[0].Pokemon) != -1) ? ' O ' : '') + '</li>';
     }
     setValue(listElement, listValue, false)
@@ -281,6 +283,10 @@ const makeDomHandler = () => {
 
     $('#enablePokedex').addEventListener( 'click'
       , () => { userInteractions.enableViewPokedex() }
+    )
+
+    $('#dexView').addEventListener( 'change'
+        , () => { userInteractions.changeDexView() }
     )
 
     $(`#enableCatch`).addEventListener( 'click'
@@ -656,6 +662,11 @@ const makeUserInteractions = (player, enemy, dom, combatLoop) => {
         document.querySelector('#playerPokesList').classList.remove('hidden')
         document.querySelector('#playerPokeDex').classList.add('hidden')
       }
+    },
+    changeDexView: () => {
+      const regionSelect = document.getElementById('dexView')
+      dexView = regionSelect.options[regionSelect.selectedIndex].value
+      dom.renderPokeDex('playerPokes', player.seenPokemons(), player.ownedPokemons())
     },
     changeCatchOption: (newCatchOption) => {
       combatLoop.changeCatch(newCatchOption)
