@@ -823,6 +823,10 @@ const EVOLUTIONS = {
     "level":"50",
     "to":"Dusknoir"
   },
+  "Absol":{
+    "level":"100",
+    "to":"M-Absol"
+  },
   "Snorunt":{
     "level":"42",
     "to":"Glalie"
