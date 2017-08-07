@@ -495,9 +495,17 @@ const EVOLUTIONS = {
     "level":"100",
     "to":"M-Ampharos"
   },
+  "Azurill":{
+    "level":"7",
+    "to":"Marill"
+  },
   "Marill":{
     "level":"18",
     "to":"Azumarill"
+  },
+  "Bonsly":{
+    "level":"15",
+    "to":"Sudowoodo"
   },
   "Hoppip":{
     "level":"18",
@@ -530,6 +538,10 @@ const EVOLUTIONS = {
   "Misdreavus":{
     "level":"35",
     "to":"Mismagius"
+  },
+  "Whynaut":{
+    "level":"15",
+    "to":"Wobbuffet"
   },
   "Pineco":{
     "level":"31",
@@ -570,6 +582,10 @@ const EVOLUTIONS = {
   "Remoraid":{
     "level":"25",
     "to":"Octillery"
+  },
+  "Mantyke":{
+    "level":"23",
+    "to":"Mantine"
   },
   "Houndour":{
     "level":"24",
