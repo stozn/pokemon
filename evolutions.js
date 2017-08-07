@@ -411,6 +411,10 @@ const EVOLUTIONS = {
     "level":"100",
     "to":"M-Aerodactyl"
   },
+  "Munchlax":{
+    "level":"20",
+    "to":"Snorlax"
+  },
   "Dratini":{
     "level":"30",
     "to":"Dragonair"
