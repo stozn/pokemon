@@ -82,14 +82,18 @@ const makeDomHandler = () => {
     setProp(domElements.expBar, 'max', poke.nextLevelExp() - poke.thisLevelExp())
     setValue(domElements.status, pokeStatusAsText(poke))
   }
-  const renderPokeDex = (id, seen, owned) => {
+  const renderPokeDex = (id, dexData) => {
     const listCssQuery = '.container.list' + '#' + id
     const listContainer = $(listCssQuery)
     const listElement = listContainer.querySelector('#playerPokeDex ul')
     var listValue = '';
+    function findFlag(obj){ return (this == obj.name) }
     for(var y = 0; y < POKEDEX.length; y++) {
-      if (dexView == 'All' || (dexView == 'Missing' && (owned.indexOf(POKEDEX[y].pokemon[0].Pokemon) == -1)))
-        listValue += '<li>' + y + ' ' + POKEDEX[y].pokemon[0].Pokemon + ((seen.indexOf(POKEDEX[y].pokemon[0].Pokemon) != -1) ? ' S ' : '') + ((owned.indexOf(POKEDEX[y].pokemon[0].Pokemon) != -1) ? ' O ' : '') + '</li>';
+      var dexEntry = dexData.find(findFlag, POKEDEX[y].pokemon[0].Pokemon)
+      if (typeof dexEntry == 'undefined')
+        dexEntry = {name: '', flag: 0}
+      if (dexView == 'All' || (dexView == 'Missing' && (dexEntry.flag <= 1)))
+        listValue += '<li class="pokeDex' + dexEntry.flag + '">' + y + ' ' + POKEDEX[y].pokemon[0].Pokemon + '</li>';
     }
     setValue(listElement, listValue, false)
   }
@@ -339,8 +343,7 @@ const makePoke = (pokeModel, initialLevel, initialExp, shiny) => {
       const levelToEvolve = Number(EVOLUTIONS[poke.pokemon[0].Pokemon].level)
       if (currentLevel() >= levelToEvolve) {
         poke = cloneJsonObject(pokeByName(evolution))
-        player.addSeen(poke.pokeName())
-        player.addOwned(poke.pokeName())
+        player.addPokedex(poke.pokeName(), (poke.shiny() ? 7 : 2))
       }
     }
   }
@@ -422,8 +425,7 @@ const makeRandomPoke = (level) => makePoke(randomArrayElement(POKEDEX), level)
 
 const makePlayer = () => {
   var pokemons = []
-  var seenPokemons = []
-  var ownedPokemons = []
+  var pokedexData = []
   var activePoke = 0
   var lastHeal = Date.now()
 
@@ -471,25 +473,29 @@ const makePlayer = () => {
       // }
       pokemons.push(poke)
     }
-  , addSeen: (pokeName) => {
-      if (seenPokemons.indexOf(pokeName) == -1)
-          seenPokemons.push(pokeName);
-    }
-  , addOwned: (pokeName) => {
-      if (ownedPokemons.indexOf(pokeName) == -1)
-        ownedPokemons.push(pokeName);
+  , addPokedex: (pokeName, flag) => {
+      /* 1: seen, 2: owned, 3: released (not currently owned), 4: seen shiney
+      *  5: have, seen shiney, 6: released, saw shiney, 7: own shiney, 8: released shiney */
+      function findFlag(obj){ return (this == obj.name) }
+      const dexEntry = pokedexData.find(findFlag, pokeName)
+      if (typeof dexEntry == 'object') {
+        if (dexEntry.flag < flag) {
+          pokedexData[pokedexData.indexOf(dexEntry)].flag = flag
+        }
+      } else {
+        pokedexData.push({name: pokeName, flag: flag})
+      }
     }
   , setActive: (index) => {
       activePoke = index
     }
   , activePoke: () => pokemons[activePoke]
   , pokemons: () => pokemons
-  , seenPokemons: () => seenPokemons
-  , ownedPokemons: () => ownedPokemons
+  , pokedexData: () => pokedexData
   , canHeal: canHeal
-      , reorderPokes: (newList) => {
-          pokemons = newList
-      }
+  , reorderPokes: (newList) => {
+      pokemons = newList
+  }
   , healAllPokemons: () => {
     if (canHeal() === true) {
       pokemons.forEach((poke) => poke.heal())
@@ -512,14 +518,12 @@ const makePlayer = () => {
         localStorage.setItem(`poke${index}`, JSON.stringify(poke.save()))
       })
       localStorage.setItem(`ballsAmmount`, JSON.stringify(ballsAmmount))
-      localStorage.setItem(`seenPokemons`, JSON.stringify(seenPokemons))
-      localStorage.setItem(`ownedPokemons`, JSON.stringify(ownedPokemons))
+      localStorage.setItem(`pokedexData`, JSON.stringify(pokedexData))
     }
   , saveToString: () => {
       const saveData = JSON.stringify({
         pokes: pokemons.map((poke) => poke.save()),
-        seenPokemons: seenPokemons,
-        ownedPokemons: ownedPokemons,
+        pokedexData: pokedexData,
         ballsAmmount: ballsAmmount
       })
       return btoa(checksum(saveData) + '|' + saveData)
@@ -535,14 +539,19 @@ const makePlayer = () => {
       if (JSON.parse(localStorage.getItem('ballsAmmount'))) {
         ballsAmmount = JSON.parse(localStorage.getItem('ballsAmmount'))
       }
-      if (JSON.parse(localStorage.getItem('seenPokemons'))) {
-          seenPokemons = JSON.parse(localStorage.getItem('seenPokemons'))
+      if (JSON.parse(localStorage.getItem('pokedexData'))) {
+        pokedexData = JSON.parse(localStorage.getItem('pokedexData'))
       }
-      if (JSON.parse(localStorage.getItem('ownedPokemons'))) {
-          ownedPokemons = JSON.parse(localStorage.getItem('ownedPokemons'))
+      if (Object.keys(pokedexData).length === 0 && pokedexData.constructor === Object) {
+        player.reloadDexData()
       }
-
     }
+  , reloadDexData: () => {
+    // this should only ever be run once
+    for (var i in pokemons) {
+      player.addPokedex (pokemons[i].pokeName(), (pokemons[i].shiny() ? 7 : 2))
+    }
+  }
   , loadFromString: (saveData) => {
       saveData = atob(saveData)
       saveData = saveData.split('|')
@@ -561,8 +570,7 @@ const makePlayer = () => {
           pokemons.push(makePoke(pokeByName(pokeName), false, Number(exp), shiny))
         })
         ballsAmmount = saveData.ballsAmmount
-        seenPokemons = saveData.seenPokemons
-        ownedPokemons = saveData.ownedPokemons
+        pokedexData = saveData.pokedexData
       } else {
         alert('Invalid save data, loading canceled!')
       }
@@ -666,7 +674,7 @@ const makeUserInteractions = (player, enemy, dom, combatLoop) => {
     changeDexView: () => {
       const regionSelect = document.getElementById('dexView')
       dexView = regionSelect.options[regionSelect.selectedIndex].value
-      dom.renderPokeDex('playerPokes', player.seenPokemons(), player.ownedPokemons())
+      dom.renderPokeDex('playerPokes', player.pokedexData())
     },
     changeCatchOption: (newCatchOption) => {
       combatLoop.changeCatch(newCatchOption)
@@ -805,7 +813,7 @@ const makeCombatLoop = (enemy, player, dom) => {
               )
             if (rngHappened) {
               dom.gameConsoleLog('You caught ' + enemy.activePoke().pokeName() + '!!', 'purple')
-              player.addOwned(enemy.activePoke().pokeName())
+              player.addPokedex(enemy.activePoke().pokeName(), (enemy.activePoke().shiny() ? 7 : 2))
               renderView(dom, enemy, player)
             } else {
               dom.gameConsoleLog(enemy.activePoke().pokeName() + ' escaped!!', 'purple')
@@ -843,7 +851,7 @@ const makeCombatLoop = (enemy, player, dom) => {
         player.savePokes()
         enemy.generateNew(ROUTES[currentRegionId][currentRouteId])
         enemyActivePoke = enemy.activePoke()
-        player.addSeen(enemy.activePoke().pokeName())
+        player.addPokedex(enemy.activePoke().pokeName(), (enemy.activePoke().shiny() ? 4 : 1))
         enemyTimer()
         playerTimer()
         dom.renderPokeOnContainer('player', player.activePoke(), 'back')
@@ -897,7 +905,7 @@ const renderView = (dom, enemy, player) => {
   dom.renderPokeOnContainer('enemy', enemy.activePoke())
   dom.renderPokeOnContainer('player', player.activePoke(), 'back')
   dom.renderPokeList('playerPokes', player.pokemons(), player, '#enableDelete')
-  dom.renderPokeDex('playerPokes', player.seenPokemons(), player.ownedPokemons())
+  dom.renderPokeDex('playerPokes', player.pokedexData())
 }
 
 
@@ -912,8 +920,7 @@ if (localStorage.getItem(`totalPokes`) !== null) {
 } else {
   var starterPoke = makePoke(pokeById(randomArrayElement([1, 4, 7])), 5)
   player.addPoke(starterPoke)
-  player.addSeen(starterPoke.pokeName())
-  player.addOwned(starterPoke.pokeName())
+  player.addPokedex(starterPoke.pokeName(), 2)
 }
 
 const dom = makeDomHandler()
