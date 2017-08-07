@@ -570,7 +570,8 @@ const makePlayer = () => {
           pokemons.push(makePoke(pokeByName(pokeName), false, Number(exp), shiny))
         })
         ballsAmmount = saveData.ballsAmmount
-        pokedexData = saveData.pokedexData
+        pokedexData = saveData.pokedexData ? saveData.pokedexData : []
+        player.reloadDexData()
       } else {
         alert('Invalid save data, loading canceled!')
       }
