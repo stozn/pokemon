@@ -2226,7 +2226,7 @@ const ROUTES = {
     }
     , custom24: {
       name: 'Welcome to Alolan'
-    , pokes: ['A-Rattata', 'A-Raichu', 'A-Sandshrew', 'A-Vulpix', 'A-Diglett', 'A-Meowth', 'A-Geodude', 'A-Grimer', 'A-Exeggutor', 'A-Marowak'] 
+    , pokes: ['A-Rattata', 'A-Sandshrew', 'A-Vulpix', 'A-Diglett', 'A-Meowth', 'A-Geodude', 'A-Grimer'] 
     , minLevel: 20
     , maxLevel: 20
     , unlocked: true
