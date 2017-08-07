@@ -628,10 +628,12 @@ const makeUserInteractions = (player, enemy, dom, combatLoop) => {
   const changeRoute = (newRouteId) => {
     currentRouteId = newRouteId
     enemy.generateNew(ROUTES[currentRegionId][newRouteId])
+    player.addPokedex(enemy.activePoke().pokeName(), (enemy.activePoke().shiny() ? 4 : 1))
     combatLoop.changeEnemyPoke(enemy.activePoke())
     renderView(dom, enemy, player)
     player.savePokes()
     dom.renderRouteList('areasList', ROUTES[currentRegionId])
+    dom.renderPokeDex('playerPokes', player.pokedexData())
   };
 
   return {
@@ -855,6 +857,7 @@ const makeCombatLoop = (enemy, player, dom) => {
         enemyTimer()
         playerTimer()
         dom.renderPokeOnContainer('player', player.activePoke(), 'back')
+        dom.renderPokeDex('playerPokes', player.pokedexData())
       } else {
         dom.gameConsoleLog(playerActivePoke.pokeName() + ' Fainted! ')
         const playerLivePokesIndexes = player.pokemons().filter((poke, index) => {
