@@ -783,6 +783,14 @@ const EVOLUTIONS = {
     "level":"100",
     "to":"M-Manectric"
   },
+  "Budew":{
+    "level":"12",
+    "to":"Roselia"
+  },
+  "Roselia":{
+    "level":"27",
+    "to":"Roserade"
+  },
   "Gulpin":{
     "level":"26",
     "to":"Swalot"
@@ -870,6 +878,10 @@ const EVOLUTIONS = {
   "Dusclops":{
     "level":"50",
     "to":"Dusknoir"
+  },
+  "Chingling":{
+    "level":"20",
+    "to":"Chimecho"
   },
   "Absol":{
     "level":"100",
@@ -986,10 +998,6 @@ const EVOLUTIONS = {
   "Luxio":{
     "level":"30",
     "to":"Luxray"
-  },
-  "Roselia":{
-    "level":"27",
-    "to":"Roserade"
   },
   "Cranidos":{
     "level":"30",
