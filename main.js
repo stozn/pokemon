@@ -81,6 +81,13 @@ const makeDomHandler = () => {
     setProp(domElements.expBar, 'max', poke.nextLevelExp() - poke.thisLevelExp())
     setValue(domElements.status, pokeStatusAsText(poke))
   }
+  const renderPokeDex = (seen, owned) => {
+    var listValue = '';
+    for(var y = 0; y < POKEDEX.length; y++) {
+        listValue += '<li>' + y + ' ' + POKEDEX[y].pokemon[0].Pokemon + ((seen.indexOf(POKEDEX[y].pokemon[0].Pokemon) != -1) ? ' S ' : '') + ((owned.indexOf(POKEDEX[y].pokemon[0].Pokemon) != -1) ? ' O ' : '') + '</li>';
+    }
+    setValue(document.getElementById("pokeDex"), listValue, false)
+  }
   const healElement = $('#heal')
   const renderHeal = (canHeal) => {
     if (canHeal === true) {
@@ -280,6 +287,7 @@ const makeDomHandler = () => {
   bindEvents()
   return {
     renderPokeOnContainer: renderPokeOnContainer
+  , renderPokeDex: renderPokeDex
   , renderPokeList: renderPokeList
   , renderRouteList: renderRouteList
   , renderHeal: renderHeal
@@ -318,6 +326,8 @@ const makePoke = (pokeModel, initialLevel, initialExp, shiny) => {
       const levelToEvolve = Number(EVOLUTIONS[poke.pokemon[0].Pokemon].level)
       if (currentLevel() >= levelToEvolve) {
         poke = cloneJsonObject(pokeByName(evolution))
+        player.addSeen(poke.pokeName())
+        player.addOwned(poke.pokeName())
       }
     }
   }
@@ -399,6 +409,8 @@ const makeRandomPoke = (level) => makePoke(randomArrayElement(POKEDEX), level)
 
 const makePlayer = () => {
   var pokemons = []
+  var seenPokemons = []
+  var ownedPokemons = []
   var activePoke = 0
   var lastHeal = Date.now()
 
@@ -446,11 +458,21 @@ const makePlayer = () => {
       // }
       pokemons.push(poke)
     }
+  , addSeen: (pokeName) => {
+      if (seenPokemons.indexOf(pokeName) == -1)
+          seenPokemons.push(pokeName);
+    }
+  , addOwned: (pokeName) => {
+      if (ownedPokemons.indexOf(pokeName) == -1)
+        ownedPokemons.push(pokeName);
+    }
   , setActive: (index) => {
       activePoke = index
     }
   , activePoke: () => pokemons[activePoke]
   , pokemons: () => pokemons
+  , seenPokemons: () => seenPokemons
+  , ownedPokemons: () => ownedPokemons
   , canHeal: canHeal
       , reorderPokes: (newList) => {
           pokemons = newList
@@ -744,6 +766,7 @@ const makeCombatLoop = (enemy, player, dom) => {
               )
             if (rngHappened) {
               dom.gameConsoleLog('You caught ' + enemy.activePoke().pokeName() + '!!', 'purple')
+              player.addOwned(enemy.activePoke().pokeName())
               renderView(dom, enemy, player)
             } else {
               dom.gameConsoleLog(enemy.activePoke().pokeName() + ' escaped!!', 'purple')
@@ -781,6 +804,7 @@ const makeCombatLoop = (enemy, player, dom) => {
         player.savePokes()
         enemy.generateNew(ROUTES[currentRegionId][currentRouteId])
         enemyActivePoke = enemy.activePoke()
+        player.addSeen(enemy.activePoke().pokeName())
         enemyTimer()
         playerTimer()
         dom.renderPokeOnContainer('player', player.activePoke(), 'back')
@@ -834,6 +858,7 @@ const renderView = (dom, enemy, player) => {
   dom.renderPokeOnContainer('enemy', enemy.activePoke())
   dom.renderPokeOnContainer('player', player.activePoke(), 'back')
   dom.renderPokeList('playerPokes', player.pokemons(), player, '#enableDelete')
+  dom.renderPokeDex(player.seenPokemons(), player.ownedPokemons())
 }
 
 
@@ -846,7 +871,10 @@ const player = makePlayer()
 if (localStorage.getItem(`totalPokes`) !== null) {
   player.loadPokes()
 } else {
-  player.addPoke(makePoke(pokeById(randomArrayElement([1, 4, 7])), 5))
+  var starterPoke = makePoke(pokeById(randomArrayElement([1, 4, 7])), 5)
+  player.addPoke(starterPoke)
+  player.addSeen(starterPoke.pokeName())
+  player.addOwned(starterPoke.pokeName())
 }
 
 const dom = makeDomHandler()

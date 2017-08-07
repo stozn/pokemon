@@ -11,7 +11,7 @@
   <link rel="icon" type="image/png" href="http://puu.sh/uxvz7/eef94af5d2.png">
 </head>
 <body>
-
+  <ul id='pokeDex'></ul>
   <div id="gameContainer">
 
     <div id="areasList" class="container list">
@@ -57,9 +57,9 @@
       <div id="capture-options">
         <label><input type="checkbox" id="enableCatch"><span>Try to catch</span></label>
         <p>Using:</p>
-        <input type="radio" name="name" value="pokeball" checked="true" onclick="userInteractions.changeSelectedBall('pokeball')"><span>Pokeballs: </span><span class="ball-ammount pokeball">10</span><br>
-        <input type="radio" name="name" value="greatball" onclick="userInteractions.changeSelectedBall('greatball')"><span>Greatballs: </span><span class="ball-ammount greatball">0</span><br>
-        <input type="radio" name="name" value="ultraball" onclick="userInteractions.changeSelectedBall('ultraball')"><span>Ultraballs: </span><span class="ball-ammount ultraball">0</span><br>
+        <input type="radio" name="name" value="pokeball" checked="true" onclick="userInteractions.changeSelectedBall('pokeball')" id="pokeball"><label for="pokeball"><span>Pokeballs: </span><span class="ball-ammount pokeball">10</span></label><br>
+        <input type="radio" name="name" value="greatball" onclick="userInteractions.changeSelectedBall('greatball')" id="greatball"><label for="greatball"><span>Greatballs: </span><span class="ball-ammount greatball">0</span></label><br>
+        <input type="radio" name="name" value="ultraball" onclick="userInteractions.changeSelectedBall('ultraball')" id="ultraball"><label for="ultraball"><span>Ultraballs: </span><span class="ball-ammount ultraball">0</span></label><br>
       </div>
     </div>
 
