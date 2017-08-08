@@ -1963,4 +1963,8 @@ const EVOLUTIONS = {
     "level":"28",
     "to":"Marowak"
   },
+  "Wishiwashi-S":{
+    "level":"20",
+    "to":"Wishiwashi"
+  },
 }
