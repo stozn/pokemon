@@ -16,7 +16,7 @@ var TYPES = {
 		"Ghost" : 1,
 		"Dragon" : .5,
 		"Dark" : 1,
-		"Steel" : .5,
+		"Steel" : 2,
 		"Fairy" : .5
 	},
 	"Water" : {
@@ -56,7 +56,7 @@ var TYPES = {
 		"Ghost" : 1,
 		"Dragon" : .5,
 		"Dark" : 1,
-		"Steel" : 1,
+		"Steel" : .5,
 		"Fairy" : 1
 	},
 	"Electric" : {
@@ -96,7 +96,7 @@ var TYPES = {
 		"Ghost" : 1,
 		"Dragon" : 2,
 		"Dark" : 1,
-		"Steel" : 2,
+		"Steel" : .5,
 		"Fairy" : 1
 	},
 	"Psychic" : {
@@ -116,7 +116,7 @@ var TYPES = {
 		"Ghost" : 1,
 		"Dragon" : 1,
 		"Dark" : 2,
-		"Steel" : 1,
+		"Steel" : .5,
 		"Fairy" : 1
 	},
 	"Normal" : {
@@ -136,7 +136,7 @@ var TYPES = {
 		"Ghost" : .25,
 		"Dragon" : 1,
 		"Dark" : 1,
-		"Steel" : 1,
+		"Steel" : .5,
 		"Fairy" : 1
 	},
 	"Fighting" : {
@@ -156,7 +156,7 @@ var TYPES = {
 		"Ghost" : .25,
 		"Dragon" : 1,
 		"Dark" : .5,
-		"Steel" : 1,
+		"Steel" : 2,
 		"Fairy" : .5
 	},
 	"Flying" : {
@@ -176,7 +176,7 @@ var TYPES = {
 		"Ghost" : 1,
 		"Dragon" : 1,
 		"Dark" : .5,
-		"Steel" : 1,
+		"Steel" : .5,
 		"Fairy" : 1
 	},
 	"Ground" : {
@@ -196,7 +196,7 @@ var TYPES = {
 		"Ghost" : 1,
 		"Dragon" : 1,
 		"Dark" : 1,
-		"Steel" : 1,
+		"Steel" : 2,
 		"Fairy" : 1
 	},
 	"Rock" : {
@@ -216,7 +216,7 @@ var TYPES = {
 		"Ghost" : 1,
 		"Dragon" : 1,
 		"Dark" : 1,
-		"Steel" : 2,
+		"Steel" : .5,
 		"Fairy" : 1
 	},
 	"Bug" : {
@@ -236,7 +236,7 @@ var TYPES = {
 		"Ghost" : 1,
 		"Dragon" : 1,
 		"Dark" : 1,
-		"Steel" : 1,
+		"Steel" : .5,
 		"Fairy" : .5
 	},
 	"Poison" : {
@@ -256,7 +256,7 @@ var TYPES = {
 		"Ghost" : .5,
 		"Dragon" : 1,
 		"Dark" : 1,
-		"Steel" : 1,
+		"Steel" : .25,
 		"Fairy" : 2
 	},
 	"Ghost" : {
@@ -296,8 +296,8 @@ var TYPES = {
 		"Ghost" : 1,
 		"Dragon" : 2,
 		"Dark" : 1,
-		"Steel" : 1,
-		"Fairy" : 2
+		"Steel" : .5,
+		"Fairy" : .25
 	},
 	"Dark" : {
 		"Fire" : 1,
@@ -320,21 +320,21 @@ var TYPES = {
 		"Fairy" : .5
 	},
 	"Steel" : {
-		"Fire" : 2,
-		"Water" : 1,
-		"Grass" : .5,
-		"Electric" : 1,
-		"Ice" : .5,
-		"Psychic" : .5,
-		"Normal" : .5,
-		"Fighting" : 2,
-		"Flying" : .5,
-		"Ground" : 2,
-		"Rock" :.5,
-		"Bug" : .5,
-		"Poison" : .25,
+		"Fire" : .5,
+		"Water" : .5,
+		"Grass" : 1,
+		"Electric" : .5,
+		"Ice" : 2,
+		"Psychic" : 1,
+		"Normal" : 1,
+		"Fighting" : 1,
+		"Flying" : 1,
+		"Ground" : 1,
+		"Rock" : 2,
+		"Bug" : 1,
+		"Poison" : 1,
 		"Ghost" : 1,
-		"Dragon" : .5,
+		"Dragon" : 1,
 		"Dark" : 1,
 		"Steel" : .5,
 		"Fairy" : 2
