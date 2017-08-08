@@ -81,7 +81,7 @@ const EVOLUTIONS = {
   },
   "Pichu":{
     "level":"10",
-    "to":"Pikacu"
+    "to":"Pikachu"
   },
   "Pikachu":{
     "level":"35",
