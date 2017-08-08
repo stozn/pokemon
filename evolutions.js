@@ -1911,17 +1911,17 @@ const EVOLUTIONS = {
     "level":"50",
     "to":"Aegislash"
   },
-  "Zygarde-10":{
-    "level":"10",
-    "to":"Zygarde"
-  },
   "Zygarde":{
+    "level":"10",
+    "to":"Zygarde-10"
+  },
+  "Zygarde-10":{
     "level":"100",
     "to":"Zygarde-C"
   },
   "Zygarde-C":{
     "level":"100",
-    "to":"Zygarde-10"
+    "to":"Zygarde"
   },
   "Hoopa":{
     "level":"100",
