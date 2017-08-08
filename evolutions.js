@@ -315,6 +315,10 @@ const EVOLUTIONS = {
     "level":"50",
     "to":"Rhyperior"
   },
+  "Happiny":{
+    "level":"17",
+    "to":"Chansey"
+  },
   "Chansey":{
     "level":"40",
     "to":"Blissey"
