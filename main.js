@@ -383,7 +383,7 @@ const makePoke = (pokeModel, initialLevel, initialExp, shiny) => {
   , attack: () => combat.attack()
   , takeDamage: (enemyAttack) => {
       const damageToTake = (enemyAttack - combat.defense() / 10) > 0
-                              && Math.ceil((enemyAttack - combat.defense()/10) * (Math.random() * 2) / 100)
+                              && Math.ceil((enemyAttack - combat.defense()/10) * ((Math.random() + 0.1) * 2) / 100)
                               || 0
       combat.mutable.hp -= damageToTake
       return damageToTake
