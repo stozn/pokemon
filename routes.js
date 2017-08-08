@@ -2160,7 +2160,7 @@ const ROUTES = {
     , unlocked: true
     } 
  },
-  Alolan: {
+  Alola: {
     starter7: {
       name: 'Iki Town'
     , pokes: ['Rowlet', 'Litten', 'Popplio'] 
@@ -2225,7 +2225,7 @@ const ROUTES = {
     , unlocked: true
     }
     , custom24: {
-      name: 'Welcome to Alolan'
+      name: 'Welcome to Alola'
     , pokes: ['A-Rattata', 'A-Sandshrew', 'A-Vulpix', 'A-Diglett', 'A-Meowth', 'A-Geodude', 'A-Grimer'] 
     , minLevel: 20
     , maxLevel: 20
