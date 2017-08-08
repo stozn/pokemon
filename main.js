@@ -475,11 +475,16 @@ const makePlayer = () => {
     }
   , addPokedex: (pokeName, flag) => {
       /* 1: seen, 2: owned, 3: released (not currently owned), 4: seen shiney
-      *  5: have, seen shiney, 6: released, saw shiney, 7: own shiney, 8: released shiney */
+      *  5: have, seen shiney, 6: released, seen shiney, 7: own shiney, 8: released shiney */
       function findFlag(obj){ return (this == obj.name) }
       const dexEntry = pokedexData.find(findFlag, pokeName)
       if (typeof dexEntry == 'object') {
         if (dexEntry.flag < flag) {
+          if (flag == 4 && dexEntry.flag == 3) {
+            flag = 6
+          } else if (flag == 4 && dexEntry.flag == 2) {
+            flag = 5
+          }
           pokedexData[pokedexData.indexOf(dexEntry)].flag = flag
         }
       } else {
