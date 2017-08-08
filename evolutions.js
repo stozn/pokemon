@@ -543,7 +543,7 @@ const EVOLUTIONS = {
     "level":"35",
     "to":"Mismagius"
   },
-  "Whynaut":{
+  "Wynaut":{
     "level":"15",
     "to":"Wobbuffet"
   },
