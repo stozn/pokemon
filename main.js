@@ -504,6 +504,9 @@ const makePlayer = () => {
     }
     return canHeal()
     }
+  , hasPokemon: (pokemonName) => {
+      return typeof pokemons.find(function(obj){ return (this == obj.pokeName()); }, pokemonName) != 'undefined'
+    }
   , deletePoke: (index) => {
       if (index !== activePoke) {
         pokemons.splice(index, 1)
@@ -644,7 +647,10 @@ const makeUserInteractions = (player, enemy, dom, combatLoop) => {
       renderView(dom, enemy, player)
     },
     deletePokemon: (index) => {
+      const pokemon = player.pokemons()[index];
       player.deletePoke(index)
+      if (!player.hasPokemon(pokemon.pokeName()))
+        player.addPokedex(pokemon.pokeName(), (pokemon.shiny() ? 8 : 3))
       combatLoop.changePlayerPoke(player.activePoke())
       renderView(dom, enemy, player)
       player.savePokes()
