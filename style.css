@@ -97,11 +97,14 @@ ul {
 	padding: 5px 10px 0;
 }
 
-#areasList #regionSelect {
-  width: 100%;
+#areasList .list {
   overflow-y: auto;
   overflow-x: hidden;
   height: 558px;
+}
+
+#areasList #regionSelect {
+  width: 100%;
 }
 
 #areasList li,#areasList a {
