@@ -479,7 +479,7 @@ const makePlayer = () => {
       function findFlag(obj){ return (this == obj.name) }
       const dexEntry = pokedexData.find(findFlag, pokeName)
       if (typeof dexEntry == 'object') {
-        if (dexEntry.flag < flag) {
+        if (dexEntry.flag < flag || (dexEntry.flag == 8 && flag == 7) || (dexEntry.flag == 3 && flag == 2) || (dexEntry.flag == 6 && flag == 5)) {
           if (flag == 4 && dexEntry.flag == 3) {
             flag = 6
           } else if (flag == 4 && dexEntry.flag == 2) {
