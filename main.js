@@ -343,7 +343,7 @@ const makePoke = (pokeModel, initialLevel, initialExp, shiny) => {
       const levelToEvolve = Number(EVOLUTIONS[poke.pokemon[0].Pokemon].level)
       if (currentLevel() >= levelToEvolve) {
         poke = cloneJsonObject(pokeByName(evolution))
-        player.addPokedex(poke.pokeName(), (poke.shiny() ? 7 : 2))
+        player.addPokedex(evolution, 2)
       }
     }
   }
