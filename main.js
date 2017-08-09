@@ -335,7 +335,7 @@ const makePoke = (pokeModel, initialLevel, initialExp, shiny) => {
   const hp = (rawHp) => {
     return Math.floor(((rawHp * currentLevel()) / 40))
   }
-  const tryEvolve = () => {
+  const tryEvolve = (shiny) => {
     const pokemonHasEvolution =
       EVOLUTIONS[poke.pokemon[0].Pokemon] !== undefined
     if (pokemonHasEvolution) {
@@ -343,7 +343,7 @@ const makePoke = (pokeModel, initialLevel, initialExp, shiny) => {
       const levelToEvolve = Number(EVOLUTIONS[poke.pokemon[0].Pokemon].level)
       if (currentLevel() >= levelToEvolve) {
         poke = cloneJsonObject(pokeByName(evolution))
-        player.addPokedex(evolution, 2)
+        player.addPokedex(evolution, (shiny ? 7 : 2))
       }
     }
   }
@@ -734,7 +734,7 @@ const makeUserInteractions = (player, enemy, dom, combatLoop) => {
 		  renderView(dom, enemy, player)
 	  },
 	  evolvePokemon: (pokemonIndex) => {
-		  player.pokemons()[pokemonIndex].evolve()
+		  player.pokemons()[pokemonIndex].evolve(player.pokemons()[pokemonIndex].shiny())
 		  renderView(dom, enemy, player)
 	  },
 	  exportSaveDialog: () => {
