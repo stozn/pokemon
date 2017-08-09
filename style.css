@@ -144,12 +144,50 @@ ul {
   position: relative;
 }
 
-#playerPokesList {
+#dexView {
+  margin-left: 8px;
+}
+
+/* 1: seen, 2: owned, 3: released (not currently owned), 4: seen shiney
+ *  5: have, seen shiney, 6: released, seen shiney, 7: own shiney, 8: released shiney */
+.pokeDex0 {
+  color: #808080;
+}
+.pokeDex1 {
+  color: #38375a;
+}
+.pokeDex2, .pokeDex5 {
+  color: #2a37be;
+}
+.pokeDex3, .pokeDex6 {
+  color: rgba(42, 55, 190, 0.50);
+}
+.pokeDex4 {
+  color: #99844b;
+}
+.pokeDex5, .pokeDex6 {
+  font-style: italic;
+}
+.pokeDex7 {
+  color: #c0a000;
+}
+.pokeDex8 {
+  color: rgba(192, 160, 0, 0.5);
+}
+
+#playerPokesList, #playerPokeDex ul {
   position: relative;
   padding-left: 8px;
   overflow-y: auto;
   overflow-x: hidden;
-  height: 525px;
+}
+
+#playerPokesList {
+  height: 505px;
+}
+
+#playerPokeDex ul {
+  height: 485px;
 }
 
 #heal {
@@ -374,4 +412,8 @@ progress {
 
 progress.expBar {
   width: 120px;
+}
+
+.hidden {
+  display: none;
 }

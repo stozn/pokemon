@@ -11,7 +11,6 @@
   <link rel="icon" type="image/png" href="http://puu.sh/uxvz7/eef94af5d2.png">
 </head>
 <body>
-
   <div id="gameContainer">
 
     <div id="areasList" class="container list">
@@ -34,11 +33,16 @@
 
     <div id="playerPokes" class="container list">
       <div class="controls">
-        <input type="checkbox" id="enableDelete" ><span class="checkDescription">Manage Team</span>
+        <input type="checkbox" id="enableDelete"><label for="enableDelete"><span class="checkDescription">Manage Team</span></label><br>
+        <input type="checkbox" id="enablePokedex"><label for="enablePokedex"><span class="checkDescription" id="viewPokedexString">View Pokedex</span></label>
         <button type="button" name="button" id="heal">Heal</button>
       </div>
       <ul id="playerPokesList" class="list">
       </ul>
+      <div id="playerPokeDex" class="list hidden">
+        <select id="dexView"><option>All</option><option>Missing</option><option>Shiny</option></select>
+        <ul></ul>
+      </div>
     </div>
 
 
@@ -57,9 +61,9 @@
       <div id="capture-options">
         <label><input type="checkbox" id="enableCatch"><span>Try to catch</span></label>
         <p>Using:</p>
-        <input type="radio" name="name" value="pokeball" checked="true" onclick="userInteractions.changeSelectedBall('pokeball')"><span>Pokeballs: </span><span class="ball-ammount pokeball">10</span><br>
-        <input type="radio" name="name" value="greatball" onclick="userInteractions.changeSelectedBall('greatball')"><span>Greatballs: </span><span class="ball-ammount greatball">0</span><br>
-        <input type="radio" name="name" value="ultraball" onclick="userInteractions.changeSelectedBall('ultraball')"><span>Ultraballs: </span><span class="ball-ammount ultraball">0</span><br>
+        <input type="radio" name="name" value="pokeball" checked="true" onclick="userInteractions.changeSelectedBall('pokeball')" id="pokeball"><label for="pokeball"><span>Pokeballs: </span><span class="ball-ammount pokeball">10</span></label><br>
+        <input type="radio" name="name" value="greatball" onclick="userInteractions.changeSelectedBall('greatball')" id="greatball"><label for="greatball"><span>Greatballs: </span><span class="ball-ammount greatball">0</span></label><br>
+        <input type="radio" name="name" value="ultraball" onclick="userInteractions.changeSelectedBall('ultraball')" id="ultraball"><label for="ultraball"><span>Ultraballs: </span><span class="ball-ammount ultraball">0</span></label><br>
       </div>
     </div>
 
