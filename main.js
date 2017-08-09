@@ -550,7 +550,7 @@ const makePlayer = () => {
       if (JSON.parse(localStorage.getItem('pokedexData'))) {
         pokedexData = JSON.parse(localStorage.getItem('pokedexData'))
       }
-      if (Object.keys(pokedexData).length === 0 && pokedexData.constructor === Object) {
+      if (typeof pokedexData == 'undefined' || pokedexData.length == 0) {
         player.reloadDexData()
       }
     }
