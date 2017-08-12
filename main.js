@@ -59,8 +59,8 @@ const makeDomHandler = () => {
     const pokeStatusAsText = (poke) => {
       var output = ''
       output += 'Attack Speed: ' + poke.attackSpeed()/1000 + '<br>'
-      output += '\nAttack: ' + (poke.allCombat().attack() + poke.allCombat().spAttack())/2 + '<br>'
-      output += '\nDefense: ' + (poke.allCombat().defense() + + poke.allCombat().spDefense())/2 + '<br>'
+      output += '\nAttack: ' + poke.avgAttack() + '<br>'
+      output += '\nDefense: ' + poke.avgDefense() + '<br>'
       return output
     }
     const containerCssQuery = '.container.poke' + '#' + id
@@ -371,6 +371,7 @@ const makePoke = (pokeModel, initialLevel, initialExp, shiny) => {
   , spDefense: () => statValue(poke.stats[0]['sp def'])
   , speed: () => statValue(poke.stats[0].speed)
   }
+  const avgDefense = () => (combat.defense() + combat.spDefense())/2
   const poke_interface = {
     pokeName: () => poke.pokemon[0].Pokemon
   , image: () => {
@@ -407,9 +408,11 @@ const makePoke = (pokeModel, initialLevel, initialExp, shiny) => {
     }
   }
   , attack: () => combat.attack()
+  , avgAttack: () => (combat.attack() + combat.spAttack())/2
+  , avgDefense: avgDefense
   , takeDamage: (enemyAttack) => {
-      const damageToTake = (enemyAttack - combat.defense() / 10) > 0
-                              && Math.ceil((enemyAttack - combat.defense()/10) * ((Math.random() + 0.1) * 2) / 100)
+      const damageToTake = (enemyAttack - avgDefense() / 10) > 0
+                              && Math.ceil((enemyAttack - avgDefense() / 10) * ((Math.random() + 0.1) * 2) / 100)
                               || 0
       combat.mutable.hp -= damageToTake
       return damageToTake
@@ -790,7 +793,7 @@ const makeCombatLoop = (enemy, player, dom) => {
     if (attacker.alive() && defender.alive()) {
       // both alive
       const damageMultiplier = TYPES[attacker.type()][defender.type()]
-      const damage = defender.takeDamage(attacker.attack() * damageMultiplier)
+      const damage = defender.takeDamage(attacker.avgAttack() * damageMultiplier)
       if (who === 'player') {
         dom.attackAnimation('playerImg', 'right')
         dom.gameConsoleLog(attacker.pokeName() + ' Attacked for ' + damage, 'green')
