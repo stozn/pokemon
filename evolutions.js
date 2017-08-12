@@ -1711,6 +1711,10 @@ const EVOLUTIONS = {
     "level":"100",
     "to":"B-Kyurem"
   },
+  "W-Kyurem":{
+    "level":"100",
+    "to":"Kyurem"
+  },
   "Vaporeon":{
     "level":"25",
     "to":"Jolteon"
