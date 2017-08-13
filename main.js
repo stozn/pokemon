@@ -646,7 +646,24 @@ const makeUserInteractions = (player, enemy, dom, combatLoop) => {
     player.savePokes()
     dom.renderRouteList('areasList', ROUTES[currentRegionId])
     dom.renderPokeDex('playerPokes', player.pokedexData())
-  };
+  }
+
+  const cmpFunctions = {
+    lvl: (lhs, rhs) => {
+      return lhs.level() - rhs.level()
+    },
+    dex: (lhs, rhs) => {
+      let index = p => POKEDEX.findIndex(x=>x.pokemon[0].Pokemon == p.pokeName())
+      return index(lhs) - index(rhs)
+    },
+    vlv: (lhs, rhs) => {
+      return lhs.level() - rhs.level() || lhs.avgAttack() - rhs.avgAttack()
+    }
+  }
+
+  const inverseCmp = (cmpFunc) => {
+    return (lhs, rhs) => -cmpFunc(lhs, rhs);
+  }
 
   return {
     changePokemon: (newActiveIndex) => {
@@ -771,6 +788,20 @@ const makeUserInteractions = (player, enemy, dom, combatLoop) => {
 		  document.getElementById('saveText').select()
 		  document.execCommand('copy')
 		  window.getSelection().removeAllRanges()
+	  },
+	  changePokeSortOrder: () => {
+		  const dirSelect = document.getElementById('pokeSortDirSelect')
+		  const direction = dirSelect.options[dirSelect.selectedIndex].value
+		  const orderSelect = document.getElementById('pokeSortOrderSelect')
+		  const sortOrder = orderSelect.options[orderSelect.selectedIndex].value
+		  var cmpFunc = cmpFunctions[sortOrder]
+		  if (direction === 'desc') {
+			  cmpFunc = inverseCmp(cmpFunc)
+		  }
+		  player.reorderPokes(player.pokemons().sort(cmpFunc))
+		  player.savePokes()
+		  combatLoop.changePlayerPoke(player.activePoke())
+		  renderView(dom, enemy, player)
 	  }
   }
 }
