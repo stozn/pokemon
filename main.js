@@ -100,14 +100,12 @@ const makeDomHandler = () => {
   const healElement = $('#heal')
   const renderHeal = (canHeal) => {
     if (canHeal === true) {
-      setProp(healElement, 'disabled', false)
       setValue(healElement, 'Heal!')
         player.healAllPokemons()
         combatLoop.refresh()
         renderView(dom, enemy, player)
     }
     if (typeof canHeal === 'number') {
-      setProp(healElement, 'disabled', true)
       setValue(healElement, 'Heal: ' + Math.floor(((canHeal/30000)*100)) + '%')
     }
   }
@@ -277,10 +275,6 @@ const makeDomHandler = () => {
     })
   }
   const bindEvents = () => {
-    $('#heal').addEventListener( 'click'
-    , () => { userInteractions.healAllPlayerPokemons() }
-    )
-
     $('#enableDelete').addEventListener( 'click'
     , () => { userInteractions.enablePokeListDelete() }
     )
