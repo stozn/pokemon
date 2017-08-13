@@ -100,14 +100,12 @@ const makeDomHandler = () => {
   const healElement = $('#heal')
   const renderHeal = (canHeal) => {
     if (canHeal === true) {
-      setProp(healElement, 'disabled', false)
       setValue(healElement, 'Heal!')
         player.healAllPokemons()
         combatLoop.refresh()
         renderView(dom, enemy, player)
     }
     if (typeof canHeal === 'number') {
-      setProp(healElement, 'disabled', true)
       setValue(healElement, 'Heal: ' + Math.floor(((canHeal/30000)*100)) + '%')
     }
   }
@@ -148,7 +146,7 @@ const makeDomHandler = () => {
           + (poke.canEvolve() ? ' canEvolve' : '')
       } else {
         const deleteButton = `<a href="#"
-            onclick="userInteractions.deletePokemon(${index})"
+            onclick="userInteractions.deletePokemon(event, ${index});return false"
             style="
               color: red;
               text-decoration: none;
@@ -277,10 +275,6 @@ const makeDomHandler = () => {
     })
   }
   const bindEvents = () => {
-    $('#heal').addEventListener( 'click'
-    , () => { userInteractions.healAllPlayerPokemons() }
-    )
-
     $('#enableDelete').addEventListener( 'click'
     , () => { userInteractions.enablePokeListDelete() }
     )
@@ -646,7 +640,24 @@ const makeUserInteractions = (player, enemy, dom, combatLoop) => {
     player.savePokes()
     dom.renderRouteList('areasList', ROUTES[currentRegionId])
     dom.renderPokeDex('playerPokes', player.pokedexData())
-  };
+  }
+
+  const cmpFunctions = {
+    lvl: (lhs, rhs) => {
+      return lhs.level() - rhs.level()
+    },
+    dex: (lhs, rhs) => {
+      let index = p => POKEDEX.findIndex(x=>x.pokemon[0].Pokemon == p.pokeName())
+      return index(lhs) - index(rhs)
+    },
+    vlv: (lhs, rhs) => {
+      return lhs.level() - rhs.level() || lhs.avgAttack() - rhs.avgAttack()
+    }
+  }
+
+  const inverseCmp = (cmpFunc) => {
+    return (lhs, rhs) => -cmpFunc(lhs, rhs);
+  }
 
   return {
     changePokemon: (newActiveIndex) => {
@@ -654,14 +665,18 @@ const makeUserInteractions = (player, enemy, dom, combatLoop) => {
       combatLoop.changePlayerPoke(player.activePoke())
       renderView(dom, enemy, player)
     },
-    deletePokemon: (index) => {
-      const pokemon = player.pokemons()[index];
-      player.deletePoke(index)
-      if (!player.hasPokemon(pokemon.pokeName()))
-        player.addPokedex(pokemon.pokeName(), (pokemon.shiny() ? 8 : 3))
-      combatLoop.changePlayerPoke(player.activePoke())
-      renderView(dom, enemy, player)
-      player.savePokes()
+    deletePokemon: (event, index) => {
+      if (event.shiftKey) {
+        const pokemon = player.pokemons()[index];
+        player.deletePoke(index)
+        if (!player.hasPokemon(pokemon.pokeName()))
+          player.addPokedex(pokemon.pokeName(), (pokemon.shiny() ? 8 : 3))
+        combatLoop.changePlayerPoke(player.activePoke())
+        renderView(dom, enemy, player)
+        player.savePokes()
+      } else {
+        alert('Hold shift while clicking the X to release a pokemon')
+      }
     },
     healAllPlayerPokemons: () => {
       if (player.healAllPokemons() === "healed") {
@@ -767,6 +782,20 @@ const makeUserInteractions = (player, enemy, dom, combatLoop) => {
 		  document.getElementById('saveText').select()
 		  document.execCommand('copy')
 		  window.getSelection().removeAllRanges()
+	  },
+	  changePokeSortOrder: () => {
+		  const dirSelect = document.getElementById('pokeSortDirSelect')
+		  const direction = dirSelect.options[dirSelect.selectedIndex].value
+		  const orderSelect = document.getElementById('pokeSortOrderSelect')
+		  const sortOrder = orderSelect.options[orderSelect.selectedIndex].value
+		  var cmpFunc = cmpFunctions[sortOrder]
+		  if (direction === 'desc') {
+			  cmpFunc = inverseCmp(cmpFunc)
+		  }
+		  player.reorderPokes(player.pokemons().sort(cmpFunc))
+		  player.savePokes()
+		  combatLoop.changePlayerPoke(player.activePoke())
+		  renderView(dom, enemy, player)
 	  }
   }
 }
