@@ -148,7 +148,7 @@ const makeDomHandler = () => {
           + (poke.canEvolve() ? ' canEvolve' : '')
       } else {
         const deleteButton = `<a href="#"
-            onclick="userInteractions.deletePokemon(${index})"
+            onclick="userInteractions.deletePokemon(event, ${index});return false"
             style="
               color: red;
               text-decoration: none;
@@ -654,14 +654,18 @@ const makeUserInteractions = (player, enemy, dom, combatLoop) => {
       combatLoop.changePlayerPoke(player.activePoke())
       renderView(dom, enemy, player)
     },
-    deletePokemon: (index) => {
-      const pokemon = player.pokemons()[index];
-      player.deletePoke(index)
-      if (!player.hasPokemon(pokemon.pokeName()))
-        player.addPokedex(pokemon.pokeName(), (pokemon.shiny() ? 8 : 3))
-      combatLoop.changePlayerPoke(player.activePoke())
-      renderView(dom, enemy, player)
-      player.savePokes()
+    deletePokemon: (event, index) => {
+      if (event.shiftKey) {
+        const pokemon = player.pokemons()[index];
+        player.deletePoke(index)
+        if (!player.hasPokemon(pokemon.pokeName()))
+          player.addPokedex(pokemon.pokeName(), (pokemon.shiny() ? 8 : 3))
+        combatLoop.changePlayerPoke(player.activePoke())
+        renderView(dom, enemy, player)
+        player.savePokes()
+      } else {
+        alert('Hold shift while clicking the X to release a pokemon')
+      }
     },
     healAllPlayerPokemons: () => {
       if (player.healAllPokemons() === "healed") {
