@@ -287,9 +287,25 @@ const makeDomHandler = () => {
         , () => { userInteractions.changeDexView() }
     )
 
-    $(`#enableCatch`).addEventListener( 'click'
-    , () => { userInteractions.changeCatchOption($(`#enableCatch`).checked) }
+    $(`#enableCatchAll`).addEventListener( 'click'
+    , () => { var setCatchSetting;
+            if ($(`#enableCatchAll`).checked) {
+                $(`#enableCatchNew`).checked = false;
+                setCatchSetting = 'all';
+            } else
+                setCatchSetting = false;
+            userInteractions.changeCatchOption(setCatchSetting)}
     )
+
+      $(`#enableCatchNew`).addEventListener( 'click'
+          , () => { var setCatchSetting;
+              if ($(`#enableCatchNew`).checked) {
+                  $(`#enableCatchAll`).checked = false;
+                  setCatchSetting = 'new';
+              } else
+                  setCatchSetting = false;
+              userInteractions.changeCatchOption(setCatchSetting)}
+      )
 
     $(`#saveDialogContainer`).addEventListener( 'click'
     , (event) => { event.target === $(`#saveDialogContainer`) && ($(`#saveDialogContainer`).style.display = 'none') }
@@ -846,8 +862,8 @@ const makeCombatLoop = (enemy, player, dom) => {
       || (who === 'player') && !defender.alive())
       {
         //enemyActivePoke is dead
-
-        if (catchEnabled || enemy.activePoke().shiny()) {
+          
+        if (catchEnabled == 'all' || (catchEnabled == 'new' && !player.hasPokemon(enemy.activePoke().pokeName())) || enemy.activePoke().shiny()) {
           dom.gameConsoleLog('Trying to catch ' + enemy.activePoke().pokeName() + '...', 'purple')
           const selectedBall = (enemy.activePoke().shiny() ? player.bestAvailableBall() : player.selectedBall())
           if (player.consumeBall(selectedBall)) {
