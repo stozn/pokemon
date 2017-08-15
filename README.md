@@ -1,6 +1,8 @@
-Original idea from [MarcoWorms](https://github.com/MarcoWorms). Just used a fork in order to make something more fresh and updated.
-
-Huge thanks to [piiih](https://github.com/piiih) for some awesome features ! Huge thanks to [Fastigium](https://github.com/Fastigium) who helped for the game with awesome things like evolve button or the fixed catch rate.
+**Credits :**
+- [MarcoWorms](https://github.com/MarcoWorms) because he's the one who made the basics of PokeIdle. I just asked him to take the game in hands in order to have an updated game.
+- [piiih](https://github.com/piiih) for helping me in the first days of PokeIdle. When the game didn't have any name or any Pokemon inside.
+- [Fastigium](https://github.com/Fastigium) for making the game so awesome. Evolution, Shiny, so much help, so much amazing !
+- [racken / renlok](https://github.com/renlok) for the Pokedex !
 
 A subreddit for the game is now open ! You can find it [here](https://www.reddit.com/r/Pokeidle/) but like the game, still in progress !
 
@@ -18,6 +20,12 @@ Planned (everything major is done now, let's try to make the game EVEN better) :
 My coding skills are really really (when I say really it's really) limited. So any help would be more than apprecied. Just trying to bring some ideas and doing the boring stuff.
 
 Changelog :
+
+NGGYU 1.9.1 (08/12/2017) :
+- **Special Stats** ! First step of the battle revamp system, Pokemon has now their Special Stats applied to the game. Before, only Physical stats were in the formula of damage (Attack + Defense) making Physical Pokemon overpowered compared to special Pokemon too much weak. It's fixed for the moment (a better system can be added in the future for a v3 of the Metagame), and now the average of Special Attack + Special Defense is now working. 
+
+NGGYU 1.9.0 (08/09/2017) :
+- **Pokedex** ! Done by racken / renlok, it's finally here. It's still a first version of the Pokedex, but it's working well. You can check Pokemon you've caught, you've released or you've missed. Compatible Normal AND Shiny versions.
 
 NGGYU 1.8.0 (08/06/2017) :
 - **Saving system** ! Huge update this time ! It's a basic system for any Idle game, and it's finally here and live ! From now, if you use more than one device (PC / Mobile), you'll be able to move your save without any problem. Work with any browser etc. You just need a way to send the encrypted datas (like by mail, cloud etc) ! In order to use that, you'll have to :
@@ -40,7 +48,7 @@ NGGYU 1.7.1 (08/01/2017) :
 If this is approved, the 1.7.1 will come with some changes in routes and evolutions.
 
 NGGYU 1.7.0 (07/31/2017) :
-- **Alolan** ! It's done. I thought it'd take me weeks to make this only. But once again, i've coded like non-stop to make this done in 48h. New Pokemon, new forms, new routes, new evolutions, everything should be working well ! It's the last region for the moment. And except some special forms, no more Pokemon to add, the game is **COMPLETE** for that. You can have all 802 basic Pokemon in the game !
+- **Alola** ! It's done. I thought it'd take me weeks to make this only. But once again, i've coded like non-stop to make this done in 48h. New Pokemon, new forms, new routes, new evolutions, everything should be working well ! It's the last region for the moment. And except some special forms, no more Pokemon to add, the game is **COMPLETE** for that. You can have all 802 basic Pokemon in the game !
 
 NGGYU 1.6.1 (07/30/2017) :
 - **Major bug fix** : Before, catching a lot of Pokemon (I saw a lot, but around 150/180 the bug starts to occur) was making the game lagging a lot or even making it to crash. This has been found on Chrome first, thinking it was a typical Chrome error, but at the end, it's really a bug of the game. So this has been fixed, and now you can catch and deal with many Pokemon. For example catching 600+ Pokemon is working without any lag or anything. So this is fixed for good !

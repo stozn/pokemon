@@ -60,8 +60,6 @@ ul {
   margin-right: 0px;
 }
 
-
-
 .poke .inner .name {
   font-size: 18px;
   font-weight: 500;
@@ -93,16 +91,20 @@ ul {
   border-radius: 0 5px 5px 5px;
   width: 190px;
   text-align: right;
-  overflow-y: auto;
-  overflow-x: hidden;
 }
 
 #areasList #regionSelectContainer {
 	padding: 5px 10px 0;
 }
 
+#areasList .list {
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 558px;
+}
+
 #areasList #regionSelect {
-	width: 100%;
+  width: 100%;
 }
 
 #areasList li,#areasList a {
@@ -181,20 +183,16 @@ ul {
 }
 
 #playerPokesList {
-  height: 505px;
+  height: 498px;
 }
 
 #playerPokeDex ul {
-  height: 485px;
+  height: 473px;
 }
 
 #heal {
-  display: block;
-  width: 100px;
-  height: 30px;
-  margin: auto;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  font-size: 14px;
+  margin: 5px;
 }
 
 .pokeDeleteButton,
@@ -271,6 +269,7 @@ ul {
   left: 0;
   right: 0;
   background-color: rgb(0, 0, 0, 0.8);
+  z-index: 2;
 }
 
 #saveDialog {

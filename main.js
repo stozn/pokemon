@@ -59,8 +59,8 @@ const makeDomHandler = () => {
     const pokeStatusAsText = (poke) => {
       var output = ''
       output += 'Attack Speed: ' + poke.attackSpeed()/1000 + '<br>'
-      output += '\nAttack: ' + (poke.allCombat().attack() + poke.allCombat().spAttack())/2 + '<br>'
-      output += '\nDefense: ' + (poke.allCombat().defense() + + poke.allCombat().spDefense())/2 + '<br>'
+      output += '\nAttack: ' + poke.avgAttack() + '<br>'
+      output += '\nDefense: ' + poke.avgDefense() + '<br>'
       return output
     }
     const containerCssQuery = '.container.poke' + '#' + id
@@ -100,14 +100,12 @@ const makeDomHandler = () => {
   const healElement = $('#heal')
   const renderHeal = (canHeal) => {
     if (canHeal === true) {
-      setProp(healElement, 'disabled', false)
       setValue(healElement, 'Heal!')
         player.healAllPokemons()
         combatLoop.refresh()
         renderView(dom, enemy, player)
     }
     if (typeof canHeal === 'number') {
-      setProp(healElement, 'disabled', true)
       setValue(healElement, 'Heal: ' + Math.floor(((canHeal/30000)*100)) + '%')
     }
   }
@@ -148,7 +146,7 @@ const makeDomHandler = () => {
           + (poke.canEvolve() ? ' canEvolve' : '')
       } else {
         const deleteButton = `<a href="#"
-            onclick="userInteractions.deletePokemon(${index})"
+            onclick="userInteractions.deletePokemon(event, ${index});return false"
             style="
               color: red;
               text-decoration: none;
@@ -277,10 +275,6 @@ const makeDomHandler = () => {
     })
   }
   const bindEvents = () => {
-    $('#heal').addEventListener( 'click'
-    , () => { userInteractions.healAllPlayerPokemons() }
-    )
-
     $('#enableDelete').addEventListener( 'click'
     , () => { userInteractions.enablePokeListDelete() }
     )
@@ -371,6 +365,7 @@ const makePoke = (pokeModel, initialLevel, initialExp, shiny) => {
   , spDefense: () => statValue(poke.stats[0]['sp def'])
   , speed: () => statValue(poke.stats[0].speed)
   }
+  const avgDefense = () => (combat.defense() + combat.spDefense())/2
   const poke_interface = {
     pokeName: () => poke.pokemon[0].Pokemon
   , image: () => {
@@ -407,9 +402,11 @@ const makePoke = (pokeModel, initialLevel, initialExp, shiny) => {
     }
   }
   , attack: () => combat.attack()
+  , avgAttack: () => (combat.attack() + combat.spAttack())/2
+  , avgDefense: avgDefense
   , takeDamage: (enemyAttack) => {
-      const damageToTake = (enemyAttack - combat.defense() / 10) > 0
-                              && Math.ceil((enemyAttack - combat.defense()/10) * (Math.random() * 2) / 100)
+      const damageToTake = (enemyAttack - avgDefense() / 10) > 0
+                              && Math.ceil((enemyAttack - avgDefense() / 10) * ((Math.random() + 0.1) * 2) / 100)
                               || 0
       combat.mutable.hp -= damageToTake
       return damageToTake
@@ -643,7 +640,24 @@ const makeUserInteractions = (player, enemy, dom, combatLoop) => {
     player.savePokes()
     dom.renderRouteList('areasList', ROUTES[currentRegionId])
     dom.renderPokeDex('playerPokes', player.pokedexData())
-  };
+  }
+
+  const cmpFunctions = {
+    lvl: (lhs, rhs) => {
+      return lhs.level() - rhs.level()
+    },
+    dex: (lhs, rhs) => {
+      let index = p => POKEDEX.findIndex(x=>x.pokemon[0].Pokemon == p.pokeName())
+      return index(lhs) - index(rhs)
+    },
+    vlv: (lhs, rhs) => {
+      return lhs.level() - rhs.level() || lhs.avgAttack() - rhs.avgAttack()
+    }
+  }
+
+  const inverseCmp = (cmpFunc) => {
+    return (lhs, rhs) => -cmpFunc(lhs, rhs);
+  }
 
   return {
     changePokemon: (newActiveIndex) => {
@@ -651,14 +665,18 @@ const makeUserInteractions = (player, enemy, dom, combatLoop) => {
       combatLoop.changePlayerPoke(player.activePoke())
       renderView(dom, enemy, player)
     },
-    deletePokemon: (index) => {
-      const pokemon = player.pokemons()[index];
-      player.deletePoke(index)
-      if (!player.hasPokemon(pokemon.pokeName()))
-        player.addPokedex(pokemon.pokeName(), (pokemon.shiny() ? 8 : 3))
-      combatLoop.changePlayerPoke(player.activePoke())
-      renderView(dom, enemy, player)
-      player.savePokes()
+    deletePokemon: (event, index) => {
+      if (event.shiftKey) {
+        const pokemon = player.pokemons()[index];
+        player.deletePoke(index)
+        if (!player.hasPokemon(pokemon.pokeName()))
+          player.addPokedex(pokemon.pokeName(), (pokemon.shiny() ? 8 : 3))
+        combatLoop.changePlayerPoke(player.activePoke())
+        renderView(dom, enemy, player)
+        player.savePokes()
+      } else {
+        alert('Hold shift while clicking the X to release a pokemon')
+      }
     },
     healAllPlayerPokemons: () => {
       if (player.healAllPokemons() === "healed") {
@@ -764,6 +782,20 @@ const makeUserInteractions = (player, enemy, dom, combatLoop) => {
 		  document.getElementById('saveText').select()
 		  document.execCommand('copy')
 		  window.getSelection().removeAllRanges()
+	  },
+	  changePokeSortOrder: () => {
+		  const dirSelect = document.getElementById('pokeSortDirSelect')
+		  const direction = dirSelect.options[dirSelect.selectedIndex].value
+		  const orderSelect = document.getElementById('pokeSortOrderSelect')
+		  const sortOrder = orderSelect.options[orderSelect.selectedIndex].value
+		  var cmpFunc = cmpFunctions[sortOrder]
+		  if (direction === 'desc') {
+			  cmpFunc = inverseCmp(cmpFunc)
+		  }
+		  player.reorderPokes(player.pokemons().sort(cmpFunc))
+		  player.savePokes()
+		  combatLoop.changePlayerPoke(player.activePoke())
+		  renderView(dom, enemy, player)
 	  }
   }
 }
@@ -790,7 +822,7 @@ const makeCombatLoop = (enemy, player, dom) => {
     if (attacker.alive() && defender.alive()) {
       // both alive
       const damageMultiplier = TYPES[attacker.type()][defender.type()]
-      const damage = defender.takeDamage(attacker.attack() * damageMultiplier)
+      const damage = defender.takeDamage(attacker.avgAttack() * damageMultiplier)
       if (who === 'player') {
         dom.attackAnimation('playerImg', 'right')
         dom.gameConsoleLog(attacker.pokeName() + ' Attacked for ' + damage, 'green')

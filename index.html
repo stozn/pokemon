@@ -22,7 +22,7 @@
           <option value="Sinnoh">Sinnoh</option>
           <option value="Unova">Unova</option>
           <option value="Kalos">Kalos (Custom)</option>
-          <option value="Alolan">Alolan (Custom)</option>
+          <option value="Alola">Alola (Custom)</option>
         </select>
       </div>
       <ul class="list">
@@ -35,7 +35,16 @@
       <div class="controls">
         <input type="checkbox" id="enableDelete"><label for="enableDelete"><span class="checkDescription">Manage Team</span></label><br>
         <input type="checkbox" id="enablePokedex"><label for="enablePokedex"><span class="checkDescription" id="viewPokedexString">View Pokedex</span></label>
-        <button type="button" name="button" id="heal">Heal</button>
+        <div id="heal">Heal</div>
+        <select id="pokeSortOrderSelect" onchange="userInteractions.changePokeSortOrder()">
+          <option value="lvl">Level</option>
+          <option value="dex">Pokedex #</option>
+          <option value="vlv">Level, attack</option>
+        </select>
+        <select id="pokeSortDirSelect" onchange="userInteractions.changePokeSortOrder()">
+          <option value="asc">Asc</option>
+          <option value="desc">Desc</option>
+        </select>
       </div>
       <ul id="playerPokesList" class="list">
       </ul>
@@ -107,7 +116,7 @@
       </div>
     </div>
 
-    <span id="version">Version: NGGYU 1.8.0</span>
+    <span id="version">Version: NGGYU 1.9.2</span>
     <a id="gitLink" href="https://github.com/RichardPaulAstley/richardpaulastley.github.io" target="_blank">Github</a>
     <a id="subLink" href="https://reddit.com/r/Pokeidle" target="_blank">Subreddit</a>
     <a id="disLink" href="https://discord.gg/pt57KfB" target="_blank">Discord</a>
