@@ -36,6 +36,8 @@
         <input type="checkbox" id="enableDelete"><label for="enableDelete"><span class="checkDescription">Manage Team</span></label><br>
         <input type="checkbox" id="enablePokedex"><label for="enablePokedex"><span class="checkDescription" id="viewPokedexString">View Pokedex</span></label>
         <div id="heal">Heal</div>
+      </div>
+      <div id="playerPokesList" class="list">
         <select id="pokeSortOrderSelect" onchange="userInteractions.changePokeSortOrder()">
           <option value="lvl">Level</option>
           <option value="dex">Pokedex #</option>
@@ -45,9 +47,8 @@
           <option value="asc">Asc</option>
           <option value="desc">Desc</option>
         </select>
+        <ul></ul>
       </div>
-      <ul id="playerPokesList" class="list">
-      </ul>
       <div id="playerPokeDex" class="list hidden">
         <select id="dexView"><option>All</option><option>Missing</option><option>Shiny</option></select>
         <ul></ul>
