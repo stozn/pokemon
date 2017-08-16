@@ -175,18 +175,11 @@ ul {
   color: rgba(192, 160, 0, 0.5);
 }
 
-#playerPokesList, #playerPokeDex ul {
+#playerPokesList ul, #playerPokeDex ul {
   position: relative;
   padding-left: 8px;
   overflow-y: auto;
   overflow-x: hidden;
-}
-
-#playerPokesList {
-  height: 498px;
-}
-
-#playerPokeDex ul {
   height: 473px;
 }
 
@@ -202,8 +195,8 @@ ul {
   display: none;
 }
 
-#playerPokesList li:first-child .pokeUpButton,
-#playerPokesList li:last-child .pokeDownButton {
+#playerPokesList ul li:first-child .pokeUpButton,
+#playerPokesList ul li:last-child .pokeDownButton {
   display: none;
 }
 

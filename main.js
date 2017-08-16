@@ -131,7 +131,7 @@ const makeDomHandler = () => {
   const renderPokeList = (id, list, player, deleteEnabledId) => {
     const listCssQuery = '.container.list' + '#' + id
     const listContainer = $(listCssQuery)
-    const listElement = listContainer.querySelector('#playerPokesList')
+    const listElement = listContainer.querySelector('#playerPokesList ul')
     const deleteEnabled = deleteEnabledId && $(deleteEnabledId).checked
     listElement.className = 'list' + (checkConfirmed('#enablePokedex') ? ' hidden' : '') + (deleteEnabled ? ' manageTeamEnabled' : '')
     var listElementsToAdd = ''
@@ -275,13 +275,21 @@ const makeDomHandler = () => {
     })
   }
   const bindEvents = () => {
-    $('#enableDelete').addEventListener( 'click'
-    , () => { userInteractions.enablePokeListDelete() }
-    )
+    $('#enableDelete').addEventListener( 'click', () => {
+      if ($(`#enablePokedex`).checked) {
+        $(`#enablePokedex`).checked = false;
+        userInteractions.enableViewPokedex();
+      }
+      userInteractions.enablePokeListDelete()
+    })
 
-    $('#enablePokedex').addEventListener( 'click'
-      , () => { userInteractions.enableViewPokedex() }
-    )
+    $('#enablePokedex').addEventListener( 'click', () => {
+        if ($(`#enableDelete`).checked) {
+            $(`#enableDelete`).checked = false;
+            userInteractions.enablePokeListDelete();
+        }
+        userInteractions.enableViewPokedex()
+    })
 
     $('#dexView').addEventListener( 'change'
         , () => { userInteractions.changeDexView() }
@@ -717,6 +725,7 @@ const makeUserInteractions = (player, enemy, dom, combatLoop) => {
       } else {
         document.querySelector('#playerPokesList').classList.remove('hidden')
         document.querySelector('#playerPokeDex').classList.add('hidden')
+        dom.renderPokeList('playerPokes', player.pokemons(), player, '#enableDelete')
       }
     },
     changeDexView: () => {
@@ -862,7 +871,7 @@ const makeCombatLoop = (enemy, player, dom) => {
       || (who === 'player') && !defender.alive())
       {
         //enemyActivePoke is dead
-          
+
         if (catchEnabled == 'all' || (catchEnabled == 'new' && !player.hasPokemon(enemy.activePoke().pokeName())) || enemy.activePoke().shiny()) {
           dom.gameConsoleLog('Trying to catch ' + enemy.activePoke().pokeName() + '...', 'purple')
           const selectedBall = (enemy.activePoke().shiny() ? player.bestAvailableBall() : player.selectedBall())
