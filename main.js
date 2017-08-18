@@ -363,11 +363,15 @@ const makePoke = (pokeModel, initialLevel, initialExp, shiny) => {
     const pokemonHasEvolution =
       EVOLUTIONS[poke.pokemon[0].Pokemon] !== undefined
     if (pokemonHasEvolution) {
+      const oldPokemon = poke.pokemon[0].Pokemon;
       const evolution = EVOLUTIONS[poke.pokemon[0].Pokemon].to
       const levelToEvolve = Number(EVOLUTIONS[poke.pokemon[0].Pokemon].level)
       if (currentLevel() >= levelToEvolve) {
         poke = cloneJsonObject(pokeByName(evolution))
         player.addPokedex(evolution, (shiny ? 8 : 6))
+        if (!player.hasPokemon(oldPokemon)) {
+          player.addPokedex(oldPokemon, (shiny ? 7 : 5))
+        }
       }
     }
   }
@@ -515,7 +519,9 @@ const makePlayer = () => {
       if (typeof dexEntry == 'object') {
         if (dexEntry.flag < flag ||
             (dexEntry.flag == 8 && flag == 4) || // own can be released
-            (dexEntry.flag == 6 && flag == 3)) {
+            (dexEntry.flag == 6 && flag == 3) ||
+            (dexEntry.flag == 8 && flag == 7) || // own can be come owned
+            (dexEntry.flag == 6 && flag == 5)) {
           pokedexData[pokedexData.indexOf(dexEntry)].flag = flag
         }
       } else {
@@ -581,6 +587,7 @@ const makePlayer = () => {
         ballsAmmount = JSON.parse(localStorage.getItem('ballsAmmount'))
       }
       if (JSON.parse(localStorage.getItem('pokedexData'))) {
+        pokedexData = JSON.parse(localStorage.getItem('pokedexData'))
         pokedexData = JSON.parse(localStorage.getItem('pokedexData'))
       } else {
         pokedexData = []

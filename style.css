@@ -157,19 +157,19 @@ ul {
 .pokeDex2 {
   color: #99844b;
 }
-.pokeDex3 {
+.pokeDex3, .pokeDex5 {
   color: rgba(42, 55, 190, 0.5);
 }
-.pokeDex4 {
+.pokeDex4, .pokeDex7 {
   color: rgba(192, 160, 0, 0.5);
 }
 .pokeDex3, .pokeDex4 {
   font-style: italic;
 }
-.pokeDex6, .pokeDex5 {
+.pokeDex6 {
   color: #2a37be;
 }
-.pokeDex8, .pokeDex7 {
+.pokeDex8 {
   color: #c0a000;
 }
 
