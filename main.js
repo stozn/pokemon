@@ -21,7 +21,7 @@ const gameVersion = 194;
 let userSettings = {
   currentRegionId: 'Kanto',
   currentRouteId: 'starter',
-  dexView: 'All',
+  dexView: 'all',
   dexVersion: 194 // check if users dex is out of date
 }
 
@@ -97,8 +97,13 @@ const makeDomHandler = () => {
       var dexEntry = dexData.find(findFlag, POKEDEX[y].pokemon[0].Pokemon)
       if (typeof dexEntry == 'undefined')
         dexEntry = {name: '', flag: 0}
-      if (userSettings.dexView == 'All' || (userSettings.dexView == 'Missing' && (dexEntry.flag <= 1 || dexEntry.flag == 3 || dexEntry.flag == 8)) || (userSettings.dexView == 'Shiny' && (dexEntry.flag >= 7)))
+      if (userSettings.dexView == 'all' ||
+          (userSettings.dexView == 'own' && (dexEntry.flag == 6 || dexEntry.flag == 8)) ||
+          (userSettings.dexView == 'owned' && (dexEntry.flag >= 3)) ||
+          (userSettings.dexView == 'missing' && (dexEntry.flag != 6 && dexEntry.flag != 8)) ||
+          (userSettings.dexView == 'shiny' && (dexEntry.flag == 8))) {
         listValue += '<li class="pokeDex' + dexEntry.flag + '">' + (y + 1) + ' ' + POKEDEX[y].pokemon[0].Pokemon + '</li>';
+      }
     }
     setValue(listElement, listValue, false)
   }
