@@ -16,9 +16,12 @@ EXP_TABLE["Medium Slow"] = [1, 2, 9, 57, 96, 135, 179, 236, 314, 419, 560, 742, 
 EXP_TABLE["Medium Fast"] = [1, 2, 8, 27, 64, 125, 216, 343, 512, 729, 1000, 1331, 1728, 2197, 2744, 3375, 4096, 4913, 5832, 6859, 8000, 9261, 10648, 12167, 13824, 15625, 17576, 19683, 21952, 24389, 27000, 29791, 32768, 35937, 39304, 42875, 46656, 50653, 54872, 59319, 64000, 68921, 74088, 79507, 85184, 91125, 97336, 103823, 110592, 117649, 125000, 132651, 140608, 148877, 157464, 166375, 175616, 185193, 195112, 205379, 216000, 226981, 238328, 250047, 262144, 274625, 287496, 300763, 314432, 328509, 343000, 357911, 373248, 389017, 405224, 421875, 438976, 456533, 474552, 493039, 512000, 531441, 551368, 571787, 592704, 614125, 636056, 658503, 681472, 704969, 729000, 753571, 778688, 804357, 830584, 857375, 884736, 912673, 941192, 970299, 999999999999999999]
 EXP_TABLE["Fast"] = [1, 2, 6, 21, 51, 100, 172, 274, 409, 583, 800, 1064, 1382, 1757, 2195, 2700, 3276, 3930, 4665, 5487, 6400, 7408, 8518, 9733, 11059, 12500, 14060, 15746, 17561, 19511, 21600, 23832, 26214, 28749, 31443, 34300, 37324, 40522, 43897, 47455, 51200, 55136, 59270, 63605, 68147, 72900, 77868, 83058, 88473, 94119, 100000, 106120, 112486, 119101, 125971, 133100, 140492, 148154, 156089, 164303, 172800, 181584, 190662, 200037, 209715, 219700, 229996, 240610, 251545, 262807, 274400, 286328, 298598, 311213, 324179, 337500, 351180, 365226, 379641, 394431, 409600, 425152, 441094, 457429, 474163, 491300, 508844, 526802, 545177, 563975, 583200, 602856, 622950, 643485, 664467, 685900, 707788, 730138, 752953, 776239, 999999999999999999]
 
-var currentRegionId = 'Kanto'
-var currentRouteId = 'starter'
-var dexView = 'All'
+let userSettings = {
+  currentRegionId: 'Kanto',
+  currentRouteId: 'starter',
+  dexView: 'All',
+  dexVersion: 194 // check if users dex is out of date
+}
 
 const RNG = (func, chance) => {
   const rnd = Math.random() * 100
@@ -92,7 +95,7 @@ const makeDomHandler = () => {
       var dexEntry = dexData.find(findFlag, POKEDEX[y].pokemon[0].Pokemon)
       if (typeof dexEntry == 'undefined')
         dexEntry = {name: '', flag: 0}
-      if (dexView == 'All' || (dexView == 'Missing' && (dexEntry.flag <= 1 || dexEntry.flag == 3 || dexEntry.flag == 8)) || (dexView == 'Shiny' && (dexEntry.flag >= 7)))
+      if (userSettings.dexView == 'All' || (userSettings.dexView == 'Missing' && (dexEntry.flag <= 1 || dexEntry.flag == 3 || dexEntry.flag == 8)) || (userSettings.dexView == 'Shiny' && (dexEntry.flag >= 7)))
         listValue += '<li class="pokeDex' + dexEntry.flag + '">' + (y + 1) + ' ' + POKEDEX[y].pokemon[0].Pokemon + '</li>';
     }
     setValue(listElement, listValue, false)
@@ -210,6 +213,7 @@ const makeDomHandler = () => {
     const listCssQuery = '.container.list' + '#' + id
     const listContainer = $(listCssQuery)
     const listElement = listContainer.querySelector('.list')
+    listContainer.querySelector('#regionSelect').value = userSettings.currentRegionId
     setValue(listElement, '')
     Object.keys(routes).forEach((routeId) => {
       const route = routes[routeId]
@@ -225,12 +229,12 @@ const makeDomHandler = () => {
           "
             style="
             color: ${route.unlocked
-                      && (routeId === currentRouteId
+                      && (routeId === userSettings.currentRouteId
                         && 'rgb(51, 111, 22)'
                         || 'rgb(53, 50, 103)' )
                       || 'rgb(167, 167, 167)'
                     };
-            font-weight: ${routeId === currentRouteId
+            font-weight: ${routeId === userSettings.currentRouteId
                           && 'bold'
                           || 'normal'
                           };
@@ -548,11 +552,13 @@ const makePlayer = () => {
       })
       localStorage.setItem(`ballsAmmount`, JSON.stringify(ballsAmmount))
       localStorage.setItem(`pokedexData`, JSON.stringify(pokedexData))
+      localStorage.setItem(`userSettings`, JSON.stringify(userSettings))
     }
   , saveToString: () => {
       const saveData = JSON.stringify({
         pokes: pokemons.map((poke) => poke.save()),
         pokedexData: pokedexData,
+        userSettings: userSettings,
         ballsAmmount: ballsAmmount
       })
       return btoa(checksum(saveData) + '|' + saveData)
@@ -569,11 +575,15 @@ const makePlayer = () => {
         ballsAmmount = JSON.parse(localStorage.getItem('ballsAmmount'))
       }
       if (JSON.parse(localStorage.getItem('pokedexData'))) {
-        pokedexData = JSON.parse(localStorage.getItem('pokedexData'))
+          pokedexData = JSON.parse(localStorage.getItem('pokedexData'))
+      }
+      if (JSON.parse(localStorage.getItem('userSettings'))) {
+        userSettings = JSON.parse(localStorage.getItem('userSettings'))
       }
       if (typeof pokedexData == 'undefined' || pokedexData.length == 0) {
         player.reloadDexData()
       }
+      // TODO: convert old pokedex IDs to new IDs
     }
   , reloadDexData: () => {
     // this should only ever be run once
@@ -599,8 +609,12 @@ const makePlayer = () => {
           pokemons.push(makePoke(pokeByName(pokeName), false, Number(exp), shiny))
         })
         ballsAmmount = saveData.ballsAmmount
+        userSettings = saveData.userSettings ? saveData.userSettings : userSettings
         pokedexData = saveData.pokedexData ? saveData.pokedexData : []
-        player.reloadDexData()
+        if (pokedexData.length == 0) {
+          player.reloadDexData()
+        }
+        // TODO: convert old pokedex IDs to new IDs
       } else {
         alert('Invalid save data, loading canceled!')
       }
@@ -656,13 +670,13 @@ const makeEnemy = (starter) => {
 
 const makeUserInteractions = (player, enemy, dom, combatLoop) => {
   const changeRoute = (newRouteId) => {
-    currentRouteId = newRouteId
-    enemy.generateNew(ROUTES[currentRegionId][newRouteId])
+    userSettings.currentRouteId = newRouteId
+    enemy.generateNew(ROUTES[userSettings.currentRegionId][newRouteId])
     player.addPokedex(enemy.activePoke().pokeName(), (enemy.activePoke().shiny() ? 4 : 1))
     combatLoop.changeEnemyPoke(enemy.activePoke())
     renderView(dom, enemy, player)
     player.savePokes()
-    dom.renderRouteList('areasList', ROUTES[currentRegionId])
+    dom.renderRouteList('areasList', ROUTES[userSettings.currentRegionId])
     dom.renderPokeDex('playerPokes', player.pokedexData())
   }
 
@@ -712,8 +726,8 @@ const makeUserInteractions = (player, enemy, dom, combatLoop) => {
     changeRoute: changeRoute,
     changeRegion: () => {
       const regionSelect = document.getElementById('regionSelect')
-      currentRegionId = regionSelect.options[regionSelect.selectedIndex].value
-      changeRoute(Object.keys(ROUTES[currentRegionId])[0])
+      userSettings.currentRegionId = regionSelect.options[regionSelect.selectedIndex].value
+      changeRoute(Object.keys(ROUTES[userSettings.currentRegionId])[0])
     },
     enablePokeListDelete: () => {
       dom.renderPokeList('playerPokes', player.pokemons(), player, '#enableDelete')
@@ -730,7 +744,7 @@ const makeUserInteractions = (player, enemy, dom, combatLoop) => {
     },
     changeDexView: () => {
       const regionSelect = document.getElementById('dexView')
-      dexView = regionSelect.options[regionSelect.selectedIndex].value
+      userSettings.dexView = regionSelect.options[regionSelect.selectedIndex].value
       dom.renderPokeDex('playerPokes', player.pokedexData())
     },
     changeCatchOption: (newCatchOption) => {
@@ -920,7 +934,7 @@ const makeCombatLoop = (enemy, player, dom) => {
         }
 
         player.savePokes()
-        enemy.generateNew(ROUTES[currentRegionId][currentRouteId])
+        enemy.generateNew(ROUTES[userSettings.currentRegionId][userSettings.currentRouteId])
         enemyActivePoke = enemy.activePoke()
         player.addPokedex(enemy.activePoke().pokeName(), (enemy.activePoke().shiny() ? 4 : 1))
         enemyTimer()
@@ -984,7 +998,7 @@ const renderView = (dom, enemy, player) => {
 // main
 
 const enemy = makeEnemy()
-enemy.generateNew(ROUTES[currentRegionId][currentRouteId])
+enemy.generateNew(ROUTES[userSettings.currentRegionId][userSettings.currentRouteId])
 
 const player = makePlayer()
 if (localStorage.getItem(`totalPokes`) !== null) {
@@ -996,7 +1010,7 @@ if (localStorage.getItem(`totalPokes`) !== null) {
 }
 
 const dom = makeDomHandler()
-dom.renderRouteList('areasList', ROUTES[currentRegionId])
+dom.renderRouteList('areasList', ROUTES[userSettings.currentRegionId])
 dom.renderBalls(player.ballsAmmount())
 const combatLoop = makeCombatLoop(enemy, player, dom)
 const userInteractions = makeUserInteractions(player, enemy, dom, combatLoop)
