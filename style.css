@@ -148,31 +148,29 @@ ul {
   margin-left: 8px;
 }
 
-/* 1: seen, 2: owned, 3: released (not currently owned), 4: seen shiney
- *  5: have, seen shiney, 6: released, seen shiney, 7: own shiney, 8: released shiney */
 .pokeDex0 {
   color: #808080;
 }
 .pokeDex1 {
   color: #38375a;
 }
-.pokeDex2, .pokeDex5 {
-  color: #2a37be;
-}
-.pokeDex3, .pokeDex6 {
-  color: rgba(42, 55, 190, 0.50);
-}
-.pokeDex4 {
+.pokeDex2 {
   color: #99844b;
 }
-.pokeDex5, .pokeDex6 {
+.pokeDex3 {
+  color: rgba(42, 55, 190, 0.5);
+}
+.pokeDex4 {
+  color: rgba(192, 160, 0, 0.5);
+}
+.pokeDex3, .pokeDex4 {
   font-style: italic;
 }
-.pokeDex7 {
-  color: #c0a000;
+.pokeDex6, .pokeDex5 {
+  color: #2a37be;
 }
-.pokeDex8 {
-  color: rgba(192, 160, 0, 0.5);
+.pokeDex8, .pokeDex7 {
+  color: #c0a000;
 }
 
 #playerPokesList ul, #playerPokeDex ul {

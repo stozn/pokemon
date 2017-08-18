@@ -16,6 +16,8 @@ EXP_TABLE["Medium Slow"] = [1, 2, 9, 57, 96, 135, 179, 236, 314, 419, 560, 742, 
 EXP_TABLE["Medium Fast"] = [1, 2, 8, 27, 64, 125, 216, 343, 512, 729, 1000, 1331, 1728, 2197, 2744, 3375, 4096, 4913, 5832, 6859, 8000, 9261, 10648, 12167, 13824, 15625, 17576, 19683, 21952, 24389, 27000, 29791, 32768, 35937, 39304, 42875, 46656, 50653, 54872, 59319, 64000, 68921, 74088, 79507, 85184, 91125, 97336, 103823, 110592, 117649, 125000, 132651, 140608, 148877, 157464, 166375, 175616, 185193, 195112, 205379, 216000, 226981, 238328, 250047, 262144, 274625, 287496, 300763, 314432, 328509, 343000, 357911, 373248, 389017, 405224, 421875, 438976, 456533, 474552, 493039, 512000, 531441, 551368, 571787, 592704, 614125, 636056, 658503, 681472, 704969, 729000, 753571, 778688, 804357, 830584, 857375, 884736, 912673, 941192, 970299, 999999999999999999]
 EXP_TABLE["Fast"] = [1, 2, 6, 21, 51, 100, 172, 274, 409, 583, 800, 1064, 1382, 1757, 2195, 2700, 3276, 3930, 4665, 5487, 6400, 7408, 8518, 9733, 11059, 12500, 14060, 15746, 17561, 19511, 21600, 23832, 26214, 28749, 31443, 34300, 37324, 40522, 43897, 47455, 51200, 55136, 59270, 63605, 68147, 72900, 77868, 83058, 88473, 94119, 100000, 106120, 112486, 119101, 125971, 133100, 140492, 148154, 156089, 164303, 172800, 181584, 190662, 200037, 209715, 219700, 229996, 240610, 251545, 262807, 274400, 286328, 298598, 311213, 324179, 337500, 351180, 365226, 379641, 394431, 409600, 425152, 441094, 457429, 474163, 491300, 508844, 526802, 545177, 563975, 583200, 602856, 622950, 643485, 664467, 685900, 707788, 730138, 752953, 776239, 999999999999999999]
 
+const gameVersion = 194;
+
 let userSettings = {
   currentRegionId: 'Kanto',
   currentRouteId: 'starter',
@@ -365,7 +367,7 @@ const makePoke = (pokeModel, initialLevel, initialExp, shiny) => {
       const levelToEvolve = Number(EVOLUTIONS[poke.pokemon[0].Pokemon].level)
       if (currentLevel() >= levelToEvolve) {
         poke = cloneJsonObject(pokeByName(evolution))
-        player.addPokedex(evolution, (shiny ? 7 : 2))
+        player.addPokedex(evolution, (shiny ? 8 : 6))
       }
     }
   }
@@ -499,17 +501,21 @@ const makePlayer = () => {
       pokemons.push(poke)
     }
   , addPokedex: (pokeName, flag) => {
-      /* 1: seen, 2: owned, 3: released (not currently owned), 4: seen shiney
-      *  5: have, seen shiney, 6: released, seen shiney, 7: own shiney, 8: released shiney */
+      /* 0 Unseen
+      1 Normal, Seen
+      2 Shiny, Seen
+      3 Normal, Released [italic]
+      4 Shiny, Released [italic]
+      5 Normal, Owned (so evolved)
+      6 Normal, Own (actual form in the team)
+      7 Shiny, Owned
+      8 Shiny, Own */
       function findFlag(obj){ return (this == obj.name) }
       const dexEntry = pokedexData.find(findFlag, pokeName)
       if (typeof dexEntry == 'object') {
-        if (dexEntry.flag < flag || (dexEntry.flag == 8 && flag == 7) || (dexEntry.flag == 3 && flag == 2) || (dexEntry.flag == 6 && flag == 5)) {
-          if (flag == 4 && dexEntry.flag == 3) {
-            flag = 6
-          } else if (flag == 4 && dexEntry.flag == 2) {
-            flag = 5
-          }
+        if (dexEntry.flag < flag ||
+            (dexEntry.flag == 8 && flag == 4) || // own can be released
+            (dexEntry.flag == 6 && flag == 3)) {
           pokedexData[pokedexData.indexOf(dexEntry)].flag = flag
         }
       } else {
@@ -575,21 +581,52 @@ const makePlayer = () => {
         ballsAmmount = JSON.parse(localStorage.getItem('ballsAmmount'))
       }
       if (JSON.parse(localStorage.getItem('pokedexData'))) {
-          pokedexData = JSON.parse(localStorage.getItem('pokedexData'))
+        pokedexData = JSON.parse(localStorage.getItem('pokedexData'))
+      } else {
+        pokedexData = []
       }
       if (JSON.parse(localStorage.getItem('userSettings'))) {
         userSettings = JSON.parse(localStorage.getItem('userSettings'))
+      } else {
+        userSettings.dexVersion = (pokedexData.length == 0) ? null : 193;
       }
-      if (typeof pokedexData == 'undefined' || pokedexData.length == 0) {
-        player.reloadDexData()
+      if (pokedexData.length == 0) {
+        player.reloadDexData(null, userSettings.dexVersion)
       }
-      // TODO: convert old pokedex IDs to new IDs
+      else if (userSettings.dexVersion < gameVersion) {
+        player.reloadDexData(userSettings.dexVersion, gameVersion)
+      }
     }
-  , reloadDexData: () => {
-    // this should only ever be run once
-    for (var i in pokemons) {
-      player.addPokedex (pokemons[i].pokeName(), (pokemons[i].shiny() ? 7 : 2))
+  , reloadDexData: (oldVersion, newVersion) => {
+    if (oldVersion == null) {
+      // this should only ever be run once
+      for (var i in pokemons) {
+        player.addPokedex(pokemons[i].pokeName(), (pokemons[i].shiny() ? 8 : 6))
+      }
     }
+    if (oldVersion < 194) {
+      for (var i in pokedexData) {
+        switch (pokedexData[i].flag) {
+          case 2:
+          case 5:
+            player.addPokedex(pokedexData[i].name, 6)
+            break;
+          case 4:
+            player.addPokedex(pokedexData[i].name, 2)
+            break;
+          case 6:
+            player.addPokedex(pokedexData[i].name, 3)
+            break;
+          case 7:
+            player.addPokedex(pokedexData[i].name, 8)
+            break;
+          case 8:
+            player.addPokedex(pokedexData[i].name, 4)
+            break;
+        }
+      }
+    }
+    userSettings.dexVersion = newVersion
   }
   , loadFromString: (saveData) => {
       saveData = atob(saveData)
@@ -609,12 +646,18 @@ const makePlayer = () => {
           pokemons.push(makePoke(pokeByName(pokeName), false, Number(exp), shiny))
         })
         ballsAmmount = saveData.ballsAmmount
-        userSettings = saveData.userSettings ? saveData.userSettings : userSettings
         pokedexData = saveData.pokedexData ? saveData.pokedexData : []
-        if (pokedexData.length == 0) {
-          player.reloadDexData()
+        if (saveData.userSettings) {
+          userSettings = saveData.userSettings
+        } else {
+          userSettings.dexVersion = (pokedexData.length == 0) ? null : 193;
         }
-        // TODO: convert old pokedex IDs to new IDs
+        if (pokedexData.length == 0) {
+          player.reloadDexData(null, userSettings.dexVersion)
+        }
+        else if (userSettings.dexVersion < gameVersion) {
+          player.reloadDexData(userSettings.dexVersion, gameVersion)
+        }
       } else {
         alert('Invalid save data, loading canceled!')
       }
@@ -672,7 +715,7 @@ const makeUserInteractions = (player, enemy, dom, combatLoop) => {
   const changeRoute = (newRouteId) => {
     userSettings.currentRouteId = newRouteId
     enemy.generateNew(ROUTES[userSettings.currentRegionId][newRouteId])
-    player.addPokedex(enemy.activePoke().pokeName(), (enemy.activePoke().shiny() ? 4 : 1))
+    player.addPokedex(enemy.activePoke().pokeName(), (enemy.activePoke().shiny() ? 2 : 1))
     combatLoop.changeEnemyPoke(enemy.activePoke())
     renderView(dom, enemy, player)
     player.savePokes()
@@ -708,7 +751,7 @@ const makeUserInteractions = (player, enemy, dom, combatLoop) => {
         const pokemon = player.pokemons()[index];
         player.deletePoke(index)
         if (!player.hasPokemon(pokemon.pokeName()))
-          player.addPokedex(pokemon.pokeName(), (pokemon.shiny() ? 8 : 3))
+          player.addPokedex(pokemon.pokeName(), (pokemon.shiny() ? 4 : 3))
         combatLoop.changePlayerPoke(player.activePoke())
         renderView(dom, enemy, player)
         player.savePokes()
@@ -898,7 +941,7 @@ const makeCombatLoop = (enemy, player, dom) => {
               )
             if (rngHappened) {
               dom.gameConsoleLog('You caught ' + enemy.activePoke().pokeName() + '!!', 'purple')
-              player.addPokedex(enemy.activePoke().pokeName(), (enemy.activePoke().shiny() ? 7 : 2))
+              player.addPokedex(enemy.activePoke().pokeName(), (enemy.activePoke().shiny() ? 8 : 6))
               renderView(dom, enemy, player)
             } else {
               dom.gameConsoleLog(enemy.activePoke().pokeName() + ' escaped!!', 'purple')
@@ -936,7 +979,7 @@ const makeCombatLoop = (enemy, player, dom) => {
         player.savePokes()
         enemy.generateNew(ROUTES[userSettings.currentRegionId][userSettings.currentRouteId])
         enemyActivePoke = enemy.activePoke()
-        player.addPokedex(enemy.activePoke().pokeName(), (enemy.activePoke().shiny() ? 4 : 1))
+        player.addPokedex(enemy.activePoke().pokeName(), (enemy.activePoke().shiny() ? 2 : 1))
         enemyTimer()
         playerTimer()
         dom.renderPokeOnContainer('player', player.activePoke(), 'back')
@@ -1006,7 +1049,7 @@ if (localStorage.getItem(`totalPokes`) !== null) {
 } else {
   var starterPoke = makePoke(pokeById(randomArrayElement([1, 4, 7])), 5)
   player.addPoke(starterPoke)
-  player.addPokedex(starterPoke.pokeName(), 2)
+  player.addPokedex(starterPoke.pokeName(), 6)
 }
 
 const dom = makeDomHandler()
