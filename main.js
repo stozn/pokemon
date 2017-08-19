@@ -182,6 +182,13 @@ const makeDomHandler = () => {
             <i class="fa fa-arrow-down" aria-hidden="true"></i>
           </button>`
 
+        const firstButton = `<button href="#"
+            onclick="userInteractions.pokemonToFirst('${index}')"
+            class="pokeFirstButton"
+          >
+            #1
+          </button>`
+
         const evolveButton = `<button href="#"
             onclick="userInteractions.evolvePokemon('${index}')"
             class="pokeEvolveButton"
@@ -202,6 +209,7 @@ const makeDomHandler = () => {
             <br>` +
           upButton +
           downButton +
+          firstButton +
           evolveButton +
           `</li>`
       }
@@ -817,7 +825,17 @@ const makeUserInteractions = (player, enemy, dom, combatLoop) => {
     changeSelectedBall: (newBall) => {
       player.changeSelectedBall(newBall)
     },
-      pokemonToDown: (pokemonIndex) => {
+	  pokemonToFirst: (pokemonIndex) => {
+		  const moveToFirst = (index, arr) => {
+			  arr.splice(0, 0, arr.splice(index, 1)[0])
+		  }
+
+		  moveToFirst(pokemonIndex, player.pokemons())
+		  player.savePokes()
+		  combatLoop.changePlayerPoke(player.activePoke())
+		  renderView(dom, enemy, player)
+	  },
+	  pokemonToDown: (pokemonIndex) => {
 		  const moveToDown = index => arr => [
 			  ...arr.slice(0,parseInt(index)),
 			  arr[parseInt(index)+1],

@@ -189,6 +189,7 @@ ul {
 .pokeDeleteButton,
 .pokeUpButton,
 .pokeDownButton,
+.pokeFirstButton,
 .pokeEvolveButton {
   display: none;
 }
@@ -201,8 +202,11 @@ ul {
 .manageTeamEnabled .pokeDeleteButton,
 .manageTeamEnabled .pokeUpButton,
 .manageTeamEnabled .pokeDownButton,
+.manageTeamEnabled .pokeFirstButton,
 .manageTeamEnabled .canEvolve ~ .pokeEvolveButton {
   display: inline;
+  padding-left: 3px;
+  padding-right: 3px;
 }
 
 .pokeListName {
