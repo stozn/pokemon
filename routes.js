@@ -2287,5 +2287,14 @@ const ROUTES = {
     , maxLevel: 30
     , unlocked: true
     }
-}
+},
+	Event: {
+    event1: {
+      name: 'Cerulean Cave'
+    , pokes: ['M-Mewtwo X'] 
+    , minLevel: 100
+    , maxLevel: 100
+    , unlocked: true
+    } 
+}	
 }
