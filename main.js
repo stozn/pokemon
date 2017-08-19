@@ -423,7 +423,7 @@ const makePoke = (pokeModel, initialLevel, initialExp, shiny) => {
     }
   }
   , shiny: () => isShiny
-  , type: () => poke.stats[0].types[0]
+  , types: () => poke.stats[0].types
   , catchRate: () => Number(poke.stats[0]['catch rate'])
   , lifeAsText: () => '' + (combat.mutable.hp < 0 ? 0 : combat.mutable.hp) + ' / ' + combat.maxHp()
   , life: {
@@ -930,10 +930,18 @@ const makeCombatLoop = (enemy, player, dom) => {
     , enemyActivePoke.attackSpeed()
     )
   }
+  const calculateDamageMultiplier = (attackingTypes, defendingTypes) => {
+    const typeEffectiveness = (attackingType, defendingTypes) =>
+      TYPES[attackingType][defendingTypes[0]] * (defendingTypes[1] && TYPES[attackingType][defendingTypes[1]] || 1)
+    return Math.max(
+      typeEffectiveness(attackingTypes[0], defendingTypes),
+      attackingTypes[1] && typeEffectiveness(attackingTypes[1], defendingTypes) || 0
+     )
+  }
   const dealDamage = (attacker, defender, who) => {
     if (attacker.alive() && defender.alive()) {
       // both alive
-      const damageMultiplier = TYPES[attacker.type()][defender.type()]
+      const damageMultiplier = calculateDamageMultiplier(attacker.types(), defender.types())
       const damage = defender.takeDamage(attacker.avgAttack() * damageMultiplier)
       if (who === 'player') {
         dom.attackAnimation('playerImg', 'right')
