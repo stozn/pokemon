@@ -166,6 +166,9 @@ ul {
 .pokeDex3, .pokeDex4 {
   font-style: italic;
 }
+.pokeDex6, .pokeDex8 {
+  font-style: bold;
+}
 .pokeDex6 {
   color: #2a37be;
 }
