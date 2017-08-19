@@ -28659,7 +28659,7 @@ const POKEDEX = [
             "speed": "60",
             "types": [
                "Normal",
-			   "Physic"
+	       "Psychic"
             ]
          }
       ],
