@@ -1849,7 +1849,7 @@ const ROUTES = {
     , maxLevel: 57
     , unlocked: true
     }
-	, special124: {
+	, special160: {
       name: 'Marvelous Bridge'
     , pokes: ['Swanna'] 
     , minLevel: 54
