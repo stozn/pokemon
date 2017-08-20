@@ -1971,4 +1971,20 @@ const EVOLUTIONS = {
     "level":"20",
     "to":"Wishiwashi"
   },
+  "M-Charizard X":{
+    "level":"100",
+    "to":"M-Charizard Y"
+  },
+  "M-Charizard Y":{
+    "level":"100",
+    "to":"M-Charizard X"
+  },
+  "M-Mewtwo X":{
+    "level":"100",
+    "to":"M-Mewtwo Y"
+  },
+  "M-Mewtwo Y":{
+    "level":"100",
+    "to":"M-Mewtwo X"
+  },
 }
