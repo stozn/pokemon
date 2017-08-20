@@ -2287,5 +2287,14 @@ const ROUTES = {
     , maxLevel: 30
     , unlocked: true
     }
-}	
+},
+	Event: {
+    event: {
+      name: 'Old Rod'
+    , pokes: ['Magikarp'] 
+    , minLevel: 5
+    , maxLevel: 5
+    , unlocked: true
+    } 
+	}
 }
