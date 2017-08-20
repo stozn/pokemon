@@ -2289,7 +2289,7 @@ const ROUTES = {
     }
 },
 	Event: {
-    event: {
+    event1: {
       name: 'Old Rod'
     , pokes: ['Magikarp'] 
     , minLevel: 5
