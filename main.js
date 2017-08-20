@@ -22,7 +22,8 @@ let userSettings = {
   currentRegionId: 'Kanto',
   currentRouteId: 'starter',
   dexView: 'all',
-  dexVersion: 194 // check if users dex is out of date
+  dexVersion: 194, // check if users dex is out of date
+  spriteChoice: 'spriteBack'
 }
 
 const RNG = (func, chance) => {
@@ -908,6 +909,17 @@ const makeUserInteractions = (player, enemy, dom, combatLoop) => {
 		  player.savePokes()
 		  combatLoop.changePlayerPoke(player.activePoke())
 		  renderView(dom, enemy, player)
+	  },
+	  changeSpriteChoice: () => {
+		  if (document.getElementById('spriteChoiceFront').checked) {
+			  userSettings.spriteChoice = 'front'
+			  document.getElementById('player').className = 'container poke frontSprite'
+		  } else {
+			  userSettings.spriteChoice = 'back'
+			  document.getElementById('player').className = 'container poke'
+		  }
+		  player.savePokes()
+		  renderView(dom, enemy, player)
 	  }
   }
 }
@@ -955,7 +967,7 @@ const makeCombatLoop = (enemy, player, dom) => {
       }
 
       dom.renderPokeOnContainer('enemy', enemy.activePoke())
-      dom.renderPokeOnContainer('player', player.activePoke(), 'back')
+      dom.renderPokeOnContainer('player', player.activePoke(), userSettings.spriteChoice || 'back')
     }
     if (!attacker.alive() || !defender.alive()) {
       // one is dead
@@ -1020,7 +1032,7 @@ const makeCombatLoop = (enemy, player, dom) => {
         player.addPokedex(enemy.activePoke().pokeName(), (enemy.activePoke().shiny() ? 2 : 1))
         enemyTimer()
         playerTimer()
-        dom.renderPokeOnContainer('player', player.activePoke(), 'back')
+        dom.renderPokeOnContainer('player', player.activePoke(), userSettings.spriteChoice || 'back')
         dom.renderPokeDex('playerPokes', player.pokedexData())
       } else {
         dom.gameConsoleLog(playerActivePoke.pokeName() + ' Fainted! ')
@@ -1070,7 +1082,7 @@ const makeCombatLoop = (enemy, player, dom) => {
 
 const renderView = (dom, enemy, player) => {
   dom.renderPokeOnContainer('enemy', enemy.activePoke())
-  dom.renderPokeOnContainer('player', player.activePoke(), 'back')
+  dom.renderPokeOnContainer('player', player.activePoke(), userSettings.spriteChoice || 'back')
   dom.renderPokeList('playerPokes', player.pokemons(), player, '#enableDelete')
   dom.renderPokeDex('playerPokes', player.pokedexData())
 }
@@ -1088,6 +1100,13 @@ if (localStorage.getItem(`totalPokes`) !== null) {
   var starterPoke = makePoke(pokeById(randomArrayElement([1, 4, 7])), 5)
   player.addPoke(starterPoke)
   player.addPokedex(starterPoke.pokeName(), 6)
+}
+
+if (userSettings.spriteChoice === 'front') {
+  document.getElementById('spriteChoiceFront').checked = true
+  document.getElementById('player').className += ' frontSprite'
+} else {
+  document.getElementById('spriteChoiceBack').checked = true
 }
 
 const dom = makeDomHandler()
