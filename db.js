@@ -27435,7 +27435,7 @@ const POKEDEX = [
             "back": "sprites/back/732.png"
          },
          "shiny": {
-            "front": "spritesss732.png",
+            "front": "sprites/s732.png",
             "back": "sprites/back/s732.png"
          }
       }
@@ -28659,7 +28659,7 @@ const POKEDEX = [
             "speed": "60",
             "types": [
                "Normal",
-			   "Physic"
+	       "Psychic"
             ]
          }
       ],

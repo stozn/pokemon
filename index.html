@@ -23,6 +23,7 @@
           <option value="Unova">Unova</option>
           <option value="Kalos">Kalos (Custom)</option>
           <option value="Alola">Alola (Custom)</option>
+          <option value="Event">Event</option>
         </select>
       </div>
       <ul class="list">
@@ -92,6 +93,10 @@
         <progress class="expBar" value="0" max="100"></progress>
         <br>
         <span class="status"></span>
+        <span class="spriteChoice">
+          <input type="radio" id="spriteChoiceBack" name="spriteChoice" onchange="userInteractions.changeSpriteChoice()" /><label for="spriteChoiceBack">Back</label>
+          <input type="radio" id="spriteChoiceFront" name="spriteChoice" onchange="userInteractions.changeSpriteChoice()" /><label for="spriteChoiceFront">Front</label>
+        </span>
       </div>
       <div id="console">
         <span class="console-text"></span>
@@ -121,7 +126,7 @@
       </div>
     </div>
 
-    <span id="version">Version: NGGYU 1.9.2</span>
+    <span id="version">Version: NGGYU 1.9.6</span>
     <a id="gitLink" href="https://github.com/RichardPaulAstley/richardpaulastley.github.io" target="_blank">Github</a>
     <a id="subLink" href="https://reddit.com/r/Pokeidle" target="_blank">Subreddit</a>
     <a id="disLink" href="https://discord.gg/pt57KfB" target="_blank">Discord</a>

@@ -1849,7 +1849,7 @@ const ROUTES = {
     , maxLevel: 57
     , unlocked: true
     }
-	, special124: {
+	, special160: {
       name: 'Marvelous Bridge'
     , pokes: ['Swanna'] 
     , minLevel: 54
@@ -2287,5 +2287,14 @@ const ROUTES = {
     , maxLevel: 30
     , unlocked: true
     }
-}
+},
+	Event: {
+    event1: {
+      name: 'Old Rod'
+    , pokes: ['Magikarp'] 
+    , minLevel: 5
+    , maxLevel: 5
+    , unlocked: true
+    } 
+	}
 }

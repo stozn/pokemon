@@ -21,6 +21,17 @@ My coding skills are really really (when I say really it's really) limited. So a
 
 Changelog :
 
+NGGYU 1.9.4 (08/19/2017) :
+- **Pokedex fixes** ! Nothing major, but the Pokedex is now more clear and new system of displaying Pokemon in order to be more simple AND do-able for users who want to make a PokeDex OR a LivingDex. More informations about how the game displays everything in the update post in Reddit.
+
+- **Remembering the last place visited** ! Really a QoL update. Now when you refresh the game, the last location is saved, so you'll not have to move from Pallet Town anymore !
+
+NGGYU 1.9.3 (08/16/2017) :
+- **Catching options** ! Update done by racken, once again ! No more "Try to catch", but two neat options, called "All" and "New". "All" will catch any Pokemon defeated, so the same option as before. But the "New" is here and will catch Pokemon you don't have in your team, and will ignore any Pokemon already in your team.
+
+NGGYU 1.9.2 (08/13/2017) :
+- **Manage Team update** ! Wanted for a long time, now people can order team with some simple option like Pokedex, Level, or even the Power ! No more need to move up / down in order to keep a LivingDex updated etc etc. Maybe more options will be added in the future, but the basics are done !
+
 NGGYU 1.9.1 (08/12/2017) :
 - **Special Stats** ! First step of the battle revamp system, Pokemon has now their Special Stats applied to the game. Before, only Physical stats were in the formula of damage (Attack + Defense) making Physical Pokemon overpowered compared to special Pokemon too much weak. It's fixed for the moment (a better system can be added in the future for a v3 of the Metagame), and now the average of Special Attack + Special Defense is now working. 
 

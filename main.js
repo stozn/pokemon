@@ -22,7 +22,8 @@ let userSettings = {
   currentRegionId: 'Kanto',
   currentRouteId: 'starter',
   dexView: 'all',
-  dexVersion: 194 // check if users dex is out of date
+  dexVersion: 194, // check if users dex is out of date
+  spriteChoice: 'spriteBack'
 }
 
 const RNG = (func, chance) => {
@@ -182,6 +183,13 @@ const makeDomHandler = () => {
             <i class="fa fa-arrow-down" aria-hidden="true"></i>
           </button>`
 
+        const firstButton = `<button href="#"
+            onclick="userInteractions.pokemonToFirst('${index}')"
+            class="pokeFirstButton"
+          >
+            #1
+          </button>`
+
         const evolveButton = `<button href="#"
             onclick="userInteractions.evolvePokemon('${index}')"
             class="pokeEvolveButton"
@@ -202,6 +210,7 @@ const makeDomHandler = () => {
             <br>` +
           upButton +
           downButton +
+          firstButton +
           evolveButton +
           `</li>`
       }
@@ -415,7 +424,7 @@ const makePoke = (pokeModel, initialLevel, initialExp, shiny) => {
     }
   }
   , shiny: () => isShiny
-  , type: () => poke.stats[0].types[0]
+  , types: () => poke.stats[0].types
   , catchRate: () => Number(poke.stats[0]['catch rate'])
   , lifeAsText: () => '' + (combat.mutable.hp < 0 ? 0 : combat.mutable.hp) + ' / ' + combat.maxHp()
   , life: {
@@ -817,7 +826,17 @@ const makeUserInteractions = (player, enemy, dom, combatLoop) => {
     changeSelectedBall: (newBall) => {
       player.changeSelectedBall(newBall)
     },
-      pokemonToDown: (pokemonIndex) => {
+	  pokemonToFirst: (pokemonIndex) => {
+		  const moveToFirst = (index, arr) => {
+			  arr.splice(0, 0, arr.splice(index, 1)[0])
+		  }
+
+		  moveToFirst(pokemonIndex, player.pokemons())
+		  player.savePokes()
+		  combatLoop.changePlayerPoke(player.activePoke())
+		  renderView(dom, enemy, player)
+	  },
+	  pokemonToDown: (pokemonIndex) => {
 		  const moveToDown = index => arr => [
 			  ...arr.slice(0,parseInt(index)),
 			  arr[parseInt(index)+1],
@@ -890,6 +909,17 @@ const makeUserInteractions = (player, enemy, dom, combatLoop) => {
 		  player.savePokes()
 		  combatLoop.changePlayerPoke(player.activePoke())
 		  renderView(dom, enemy, player)
+	  },
+	  changeSpriteChoice: () => {
+		  if (document.getElementById('spriteChoiceFront').checked) {
+			  userSettings.spriteChoice = 'front'
+			  document.getElementById('player').className = 'container poke frontSprite'
+		  } else {
+			  userSettings.spriteChoice = 'back'
+			  document.getElementById('player').className = 'container poke'
+		  }
+		  player.savePokes()
+		  renderView(dom, enemy, player)
 	  }
   }
 }
@@ -912,10 +942,18 @@ const makeCombatLoop = (enemy, player, dom) => {
     , enemyActivePoke.attackSpeed()
     )
   }
+  const calculateDamageMultiplier = (attackingTypes, defendingTypes) => {
+    const typeEffectiveness = (attackingType, defendingTypes) =>
+      TYPES[attackingType][defendingTypes[0]] * (defendingTypes[1] && TYPES[attackingType][defendingTypes[1]] || 1)
+    return Math.max(
+      typeEffectiveness(attackingTypes[0], defendingTypes),
+      attackingTypes[1] && typeEffectiveness(attackingTypes[1], defendingTypes) || 0
+     )
+  }
   const dealDamage = (attacker, defender, who) => {
     if (attacker.alive() && defender.alive()) {
       // both alive
-      const damageMultiplier = TYPES[attacker.type()][defender.type()]
+      const damageMultiplier = calculateDamageMultiplier(attacker.types(), defender.types())
       const damage = defender.takeDamage(attacker.avgAttack() * damageMultiplier)
       if (who === 'player') {
         dom.attackAnimation('playerImg', 'right')
@@ -929,7 +967,7 @@ const makeCombatLoop = (enemy, player, dom) => {
       }
 
       dom.renderPokeOnContainer('enemy', enemy.activePoke())
-      dom.renderPokeOnContainer('player', player.activePoke(), 'back')
+      dom.renderPokeOnContainer('player', player.activePoke(), userSettings.spriteChoice || 'back')
     }
     if (!attacker.alive() || !defender.alive()) {
       // one is dead
@@ -994,7 +1032,7 @@ const makeCombatLoop = (enemy, player, dom) => {
         player.addPokedex(enemy.activePoke().pokeName(), (enemy.activePoke().shiny() ? 2 : 1))
         enemyTimer()
         playerTimer()
-        dom.renderPokeOnContainer('player', player.activePoke(), 'back')
+        dom.renderPokeOnContainer('player', player.activePoke(), userSettings.spriteChoice || 'back')
         dom.renderPokeDex('playerPokes', player.pokedexData())
       } else {
         dom.gameConsoleLog(playerActivePoke.pokeName() + ' Fainted! ')
@@ -1044,7 +1082,7 @@ const makeCombatLoop = (enemy, player, dom) => {
 
 const renderView = (dom, enemy, player) => {
   dom.renderPokeOnContainer('enemy', enemy.activePoke())
-  dom.renderPokeOnContainer('player', player.activePoke(), 'back')
+  dom.renderPokeOnContainer('player', player.activePoke(), userSettings.spriteChoice || 'back')
   dom.renderPokeList('playerPokes', player.pokemons(), player, '#enableDelete')
   dom.renderPokeDex('playerPokes', player.pokedexData())
 }
@@ -1062,6 +1100,13 @@ if (localStorage.getItem(`totalPokes`) !== null) {
   var starterPoke = makePoke(pokeById(randomArrayElement([1, 4, 7])), 5)
   player.addPoke(starterPoke)
   player.addPokedex(starterPoke.pokeName(), 6)
+}
+
+if (userSettings.spriteChoice === 'front') {
+  document.getElementById('spriteChoiceFront').checked = true
+  document.getElementById('player').className += ' frontSprite'
+} else {
+  document.getElementById('spriteChoiceBack').checked = true
 }
 
 const dom = makeDomHandler()

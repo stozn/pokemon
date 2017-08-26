@@ -48,6 +48,15 @@ ul {
   border-bottom: solid 1px rgb(7, 0, 90);
 }
 
+#player.frontSprite #playerImg {
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+}
+
 .poke .inner .img.attacked-right{
   margin-left: 15px;
 }
@@ -167,7 +176,7 @@ ul {
   font-style: italic;
 }
 .pokeDex6, .pokeDex8 {
-  font-style: bold;
+  font-weight: bold;
 }
 .pokeDex6 {
   color: #2a37be;
@@ -181,7 +190,7 @@ ul {
   padding-left: 8px;
   overflow-y: auto;
   overflow-x: hidden;
-  height: 473px;
+  height: 495px;
 }
 
 #heal {
@@ -192,6 +201,7 @@ ul {
 .pokeDeleteButton,
 .pokeUpButton,
 .pokeDownButton,
+.pokeFirstButton,
 .pokeEvolveButton {
   display: none;
 }
@@ -204,8 +214,11 @@ ul {
 .manageTeamEnabled .pokeDeleteButton,
 .manageTeamEnabled .pokeUpButton,
 .manageTeamEnabled .pokeDownButton,
+.manageTeamEnabled .pokeFirstButton,
 .manageTeamEnabled .canEvolve ~ .pokeEvolveButton {
   display: inline;
+  padding-left: 3px;
+  padding-right: 3px;
 }
 
 .pokeListName {
