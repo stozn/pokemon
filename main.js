@@ -345,9 +345,13 @@ const makeDomHandler = () => {
               userInteractions.changeCatchOption(setCatchSetting)}
       )
 
-    $(`#saveDialogContainer`).addEventListener( 'click'
-    , (event) => { event.target === $(`#saveDialogContainer`) && ($(`#saveDialogContainer`).style.display = 'none') }
-    )
+      $(`#saveDialogContainer`).addEventListener( 'click'
+          , (event) => { event.target === $(`#saveDialogContainer`) && ($(`#saveDialogContainer`).style.display = 'none') }
+      )
+
+      $(`#statisticsContainer`).addEventListener( 'click'
+          , (event) => { event.target === $(`#statisticsContainer`) && ($(`#statisticsContainer`).style.display = 'none') }
+      )
   }
   bindEvents()
   return {
@@ -940,7 +944,24 @@ const makeUserInteractions = (player, enemy, dom, combatLoop) => {
 		  }
 		  player.savePokes()
 		  renderView(dom, enemy, player)
-	  }
+	  },
+      viewStatistics: () => {
+        let statisticStrings = {
+            'seen':'Pokemon Seen',
+            'caught':'Pokemon Caught',
+            'beaten':'Pokemon Beaten',
+            'shinySeen':'Shiny Pokemon Seen',
+            'shinyCaught':'Shiny Pokemon Caught',
+            'shinyBeaten':'Shiny Pokemon Beaten',
+            'totalDamage':'Total Damage Dealt'
+        }
+        let statList = '';
+        for (let statValue in statistics) {
+          statList += '<li>' + statisticStrings[statValue] + ': ' + statistics[statValue] + '</li>';
+        }
+        document.getElementById('statisticsList').innerHTML = statList
+        document.getElementById('statisticsContainer').style.display = 'block'
+      },
   }
 }
 
