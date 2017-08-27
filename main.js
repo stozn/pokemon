@@ -26,6 +26,16 @@ let userSettings = {
   spriteChoice: 'spriteBack'
 }
 
+let statistics = {
+  'seen':0,
+  'caught':0,
+  'beaten':0,
+  'shinySeen':0,
+  'shinyCaught':0,
+  'shinyBeaten':0,
+  'totalDamage':0
+};
+
 const RNG = (func, chance) => {
   const rnd = Math.random() * 100
   if (rnd < chance) {
@@ -335,9 +345,13 @@ const makeDomHandler = () => {
               userInteractions.changeCatchOption(setCatchSetting)}
       )
 
-    $(`#saveDialogContainer`).addEventListener( 'click'
-    , (event) => { event.target === $(`#saveDialogContainer`) && ($(`#saveDialogContainer`).style.display = 'none') }
-    )
+      $(`#saveDialogContainer`).addEventListener( 'click'
+          , (event) => { event.target === $(`#saveDialogContainer`) && ($(`#saveDialogContainer`).style.display = 'none') }
+      )
+
+      $(`#statisticsContainer`).addEventListener( 'click'
+          , (event) => { event.target === $(`#statisticsContainer`) && ($(`#statisticsContainer`).style.display = 'none') }
+      )
   }
   bindEvents()
   return {
@@ -383,7 +397,7 @@ const makePoke = (pokeModel, initialLevel, initialExp, shiny) => {
       if (currentLevel() >= levelToEvolve) {
         poke = cloneJsonObject(pokeByName(evolution))
         player.addPokedex(evolution, (shiny ? 8 : 6))
-        if (!player.hasPokemon(oldPokemon)) {
+        if (!player.hasPokemon(oldPokemon, shiny)) {
           player.addPokedex(oldPokemon, (shiny ? 7 : 5))
         }
       }
@@ -560,8 +574,8 @@ const makePlayer = () => {
     }
     return canHeal()
     }
-  , hasPokemon: (pokemonName) => {
-      return typeof pokemons.find(function(obj){ return (this == obj.pokeName()); }, pokemonName) != 'undefined'
+  , hasPokemon: (pokemonName, shiny) => {
+      return typeof pokemons.find(function(obj){ return (this[0] == obj.pokeName() && this[1] == obj.shiny()); }, [pokemonName, shiny]) != 'undefined'
     }
   , deletePoke: (index) => {
       if (index !== activePoke) {
@@ -578,12 +592,14 @@ const makePlayer = () => {
       })
       localStorage.setItem(`ballsAmmount`, JSON.stringify(ballsAmmount))
       localStorage.setItem(`pokedexData`, JSON.stringify(pokedexData))
+      localStorage.setItem(`statistics`, JSON.stringify(statistics))
       localStorage.setItem(`userSettings`, JSON.stringify(userSettings))
     }
   , saveToString: () => {
       const saveData = JSON.stringify({
         pokes: pokemons.map((poke) => poke.save()),
         pokedexData: pokedexData,
+        statistics: statistics,
         userSettings: userSettings,
         ballsAmmount: ballsAmmount
       })
@@ -602,9 +618,11 @@ const makePlayer = () => {
       }
       if (JSON.parse(localStorage.getItem('pokedexData'))) {
         pokedexData = JSON.parse(localStorage.getItem('pokedexData'))
-        pokedexData = JSON.parse(localStorage.getItem('pokedexData'))
       } else {
         pokedexData = []
+      }
+      if (JSON.parse(localStorage.getItem('statistics'))) {
+          statistics = JSON.parse(localStorage.getItem('statistics'))
       }
       if (JSON.parse(localStorage.getItem('userSettings'))) {
         userSettings = JSON.parse(localStorage.getItem('userSettings'))
@@ -668,6 +686,7 @@ const makePlayer = () => {
         })
         ballsAmmount = saveData.ballsAmmount
         pokedexData = saveData.pokedexData ? saveData.pokedexData : []
+        statistics = saveData.statistics ? saveData.statistics : statistics
         if (saveData.userSettings) {
           userSettings = saveData.userSettings
         } else {
@@ -737,6 +756,11 @@ const makeUserInteractions = (player, enemy, dom, combatLoop) => {
     userSettings.currentRouteId = newRouteId
     enemy.generateNew(ROUTES[userSettings.currentRegionId][newRouteId])
     player.addPokedex(enemy.activePoke().pokeName(), (enemy.activePoke().shiny() ? 2 : 1))
+    if (enemy.activePoke().shiny()) {
+      statistics.shinySeen++;
+    } else {
+      statistics.seen++;
+    }
     combatLoop.changeEnemyPoke(enemy.activePoke())
     renderView(dom, enemy, player)
     player.savePokes()
@@ -920,7 +944,24 @@ const makeUserInteractions = (player, enemy, dom, combatLoop) => {
 		  }
 		  player.savePokes()
 		  renderView(dom, enemy, player)
-	  }
+	  },
+      viewStatistics: () => {
+        let statisticStrings = {
+            'seen':'Pokemon Seen',
+            'caught':'Pokemon Caught',
+            'beaten':'Pokemon Beaten',
+            'shinySeen':'Shiny Pokemon Seen',
+            'shinyCaught':'Shiny Pokemon Caught',
+            'shinyBeaten':'Shiny Pokemon Beaten',
+            'totalDamage':'Total Damage Dealt'
+        }
+        let statList = '';
+        for (let statValue in statistics) {
+          statList += '<li>' + statisticStrings[statValue] + ': ' + statistics[statValue] + '</li>';
+        }
+        document.getElementById('statisticsList').innerHTML = statList
+        document.getElementById('statisticsContainer').style.display = 'block'
+      },
   }
 }
 
@@ -958,6 +999,7 @@ const makeCombatLoop = (enemy, player, dom) => {
       if (who === 'player') {
         dom.attackAnimation('playerImg', 'right')
         dom.gameConsoleLog(attacker.pokeName() + ' Attacked for ' + damage, 'green')
+        statistics.totalDamage += damage
         playerTimer()
       }
       if (who === 'enemy') {
@@ -978,8 +1020,12 @@ const makeCombatLoop = (enemy, player, dom) => {
       || (who === 'player') && !defender.alive())
       {
         //enemyActivePoke is dead
-
-        if (catchEnabled == 'all' || (catchEnabled == 'new' && !player.hasPokemon(enemy.activePoke().pokeName())) || enemy.activePoke().shiny()) {
+        if (enemy.activePoke().shiny()) {
+          statistics.shinyBeaten++;
+        } else {
+          statistics.beaten++;
+        }
+        if (catchEnabled == 'all' || (catchEnabled == 'new' && !player.hasPokemon(enemy.activePoke().pokeName(), 0)) || enemy.activePoke().shiny()) {
           dom.gameConsoleLog('Trying to catch ' + enemy.activePoke().pokeName() + '...', 'purple')
           const selectedBall = (enemy.activePoke().shiny() ? player.bestAvailableBall() : player.selectedBall())
           if (player.consumeBall(selectedBall)) {
@@ -992,6 +1038,11 @@ const makeCombatLoop = (enemy, player, dom) => {
             if (rngHappened) {
               dom.gameConsoleLog('You caught ' + enemy.activePoke().pokeName() + '!!', 'purple')
               player.addPokedex(enemy.activePoke().pokeName(), (enemy.activePoke().shiny() ? 8 : 6))
+              if (enemy.activePoke().shiny()) {
+                statistics.shinyCaught++;
+              } else {
+                statistics.caught++;
+              }
               renderView(dom, enemy, player)
             } else {
               dom.gameConsoleLog(enemy.activePoke().pokeName() + ' escaped!!', 'purple')
@@ -1030,6 +1081,11 @@ const makeCombatLoop = (enemy, player, dom) => {
         enemy.generateNew(ROUTES[userSettings.currentRegionId][userSettings.currentRouteId])
         enemyActivePoke = enemy.activePoke()
         player.addPokedex(enemy.activePoke().pokeName(), (enemy.activePoke().shiny() ? 2 : 1))
+        if (enemy.activePoke().shiny()) {
+          statistics.shinySeen++;
+        } else {
+          statistics.seen++;
+        }
         enemyTimer()
         playerTimer()
         dom.renderPokeOnContainer('player', player.activePoke(), userSettings.spriteChoice || 'back')
