@@ -397,7 +397,7 @@ const makePoke = (pokeModel, initialLevel, initialExp, shiny) => {
       if (currentLevel() >= levelToEvolve) {
         poke = cloneJsonObject(pokeByName(evolution))
         player.addPokedex(evolution, (shiny ? 8 : 6))
-        if (!player.hasPokemon(oldPokemon)) {
+        if (!player.hasPokemon(oldPokemon, shiny)) {
           player.addPokedex(oldPokemon, (shiny ? 7 : 5))
         }
       }
@@ -574,8 +574,8 @@ const makePlayer = () => {
     }
     return canHeal()
     }
-  , hasPokemon: (pokemonName) => {
-      return typeof pokemons.find(function(obj){ return (this == obj.pokeName()); }, pokemonName) != 'undefined'
+  , hasPokemon: (pokemonName, shiny) => {
+      return typeof pokemons.find(function(obj){ return (this[0] == obj.pokeName() && this[1] == obj.shiny()); }, [pokemonName, shiny]) != 'undefined'
     }
   , deletePoke: (index) => {
       if (index !== activePoke) {
@@ -1025,7 +1025,7 @@ const makeCombatLoop = (enemy, player, dom) => {
         } else {
           statistics.beaten++;
         }
-        if (catchEnabled == 'all' || (catchEnabled == 'new' && !player.hasPokemon(enemy.activePoke().pokeName())) || enemy.activePoke().shiny()) {
+        if (catchEnabled == 'all' || (catchEnabled == 'new' && !player.hasPokemon(enemy.activePoke().pokeName(), 0)) || enemy.activePoke().shiny()) {
           dom.gameConsoleLog('Trying to catch ' + enemy.activePoke().pokeName() + '...', 'purple')
           const selectedBall = (enemy.activePoke().shiny() ? player.bestAvailableBall() : player.selectedBall())
           if (player.consumeBall(selectedBall)) {
