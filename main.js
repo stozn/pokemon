@@ -23,7 +23,7 @@ let userSettings = {
   currentRouteId: 'starter',
   dexView: 'all',
   dexVersion: 194, // check if users dex is out of date
-  spriteChoice: 'spriteBack'
+  spriteChoice: 'back'
 }
 
 let statistics = {
