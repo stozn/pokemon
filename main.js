@@ -991,6 +991,8 @@ const makeCombatLoop = (enemy, player, dom) => {
       attackingTypes[1] && typeEffectiveness(attackingTypes[1], defendingTypes) || 0
      )
   }
+  const eventTimerActive = false
+  const eventTimerExpires = 1507468899
   const dealDamage = (attacker, defender, who) => {
     if (attacker.alive() && defender.alive()) {
       // both alive
@@ -1078,18 +1080,22 @@ const makeCombatLoop = (enemy, player, dom) => {
         }
 
         player.savePokes()
-        enemy.generateNew(ROUTES[userSettings.currentRegionId][userSettings.currentRouteId])
-        enemyActivePoke = enemy.activePoke()
-        player.addPokedex(enemy.activePoke().pokeName(), (enemy.activePoke().shiny() ? 2 : 1))
-        if (enemy.activePoke().shiny()) {
-          statistics.shinySeen++;
+        if (eventTimerActive && Math.floor((new Date()).getTime() / 1000) >= eventTimerExpires) {
+          location.reload(true)
         } else {
-          statistics.seen++;
+          enemy.generateNew(ROUTES[userSettings.currentRegionId][userSettings.currentRouteId])
+          enemyActivePoke = enemy.activePoke()
+          player.addPokedex(enemy.activePoke().pokeName(), (enemy.activePoke().shiny() ? 2 : 1))
+          if (enemy.activePoke().shiny()) {
+            statistics.shinySeen++;
+          } else {
+            statistics.seen++;
+          }
+          enemyTimer()
+          playerTimer()
+          dom.renderPokeOnContainer('player', player.activePoke(), userSettings.spriteChoice || 'back')
+          dom.renderPokeDex('playerPokes', player.pokedexData())
         }
-        enemyTimer()
-        playerTimer()
-        dom.renderPokeOnContainer('player', player.activePoke(), userSettings.spriteChoice || 'back')
-        dom.renderPokeDex('playerPokes', player.pokedexData())
       } else {
         dom.gameConsoleLog(playerActivePoke.pokeName() + ' Fainted! ')
         const playerLivePokesIndexes = player.pokemons().filter((poke, index) => {
