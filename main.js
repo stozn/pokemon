@@ -489,9 +489,9 @@ const makePlayer = () => {
   var lastHeal = Date.now()
 
   const ballsRngs = {
-    pokeball: 1,
-    greatball: 1.5,
-    ultraball: 2
+    pokeball: 1.5,
+    greatball: 2,
+    ultraball: 2.5
   }
   var selectedBall = "pokeball"
   var ballsAmmount = {
@@ -991,8 +991,8 @@ const makeCombatLoop = (enemy, player, dom) => {
       attackingTypes[1] && typeEffectiveness(attackingTypes[1], defendingTypes) || 0
      )
   }
-  const eventTimerActive = false
-  const eventTimerExpires = 1507468899
+  const eventTimerActive = true
+  const eventTimerExpires = 1507561800
   const dealDamage = (attacker, defender, who) => {
     if (attacker.alive() && defender.alive()) {
       // both alive
