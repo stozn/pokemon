@@ -30357,7 +30357,8 @@ const POKEDEX = [
             "sp def": "80",
             "speed": "77",
             "types": [
-               "Normal"
+               "Normal",
+	       "Dark"
             ]
          }
       ],
