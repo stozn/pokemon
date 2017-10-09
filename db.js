@@ -33494,7 +33494,7 @@ const POKEDEX = [
             "speed": "80",
             "types": [
                "Psychic",
-               "Ghost"
+               "Dark"
             ]
          }
       ], 	
