@@ -2294,7 +2294,7 @@ const ROUTES = {
     , pokes: ['B-Kyurem'] 
     , minLevel: 70
     , maxLevel: 70
-    , unlocked: true
+    , unlocked: false
     } 
 	}
 }
