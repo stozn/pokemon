@@ -1055,7 +1055,7 @@ const ROUTES = {
     , unlocked: true
     }
 	, special65: {
-      name: 'Underwater 7.1'
+      name: 'Underwater 7.8'
     , pokes: ['Clamperl', 'Relicanth']
 	, minLevel: 20
     , maxLevel: 35
