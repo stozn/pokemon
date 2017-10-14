@@ -124,7 +124,7 @@ const EVOLUTIONS = {
     "to":"Jigglypuff"
   },
   "Jigglypuff":{
-    "level":"35",
+    "level":"10",
     "to":"Wigglytuff"
   },
   "Zubat":{
