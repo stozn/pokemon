@@ -120,11 +120,11 @@ const EVOLUTIONS = {
     "to":"Ninetales"
   },
   "Igglybuff":{
-    "level":"35",
+    "level":"10",
     "to":"Jigglypuff"
   },
   "Jigglypuff":{
-    "level":"10",
+    "level":"35",
     "to":"Wigglytuff"
   },
   "Zubat":{
