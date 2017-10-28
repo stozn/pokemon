@@ -2290,8 +2290,8 @@ const ROUTES = {
 },
 	Event: {
     event1: {
-      name: 'Old Rod'
-    , pokes: ['Magikarp'] 
+      name: 'Burned Tower'
+    , pokes: ['Entei'] 
     , minLevel: 5
     , maxLevel: 5
     , unlocked: true
