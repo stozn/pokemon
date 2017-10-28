@@ -2292,8 +2292,8 @@ const ROUTES = {
     event1: {
       name: 'Burned Tower'
     , pokes: ['Entei'] 
-    , minLevel: 5
-    , maxLevel: 5
+    , minLevel: 40
+    , maxLevel: 40
     , unlocked: true
     } 
 	}
