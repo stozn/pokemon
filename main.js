@@ -992,7 +992,7 @@ const makeCombatLoop = (enemy, player, dom) => {
      )
   }
   const eventTimerActive = true
-  const eventTimerExpires = 1509408000
+  const eventTimerExpires = 1509667200
 
   const dealDamage = (attacker, defender, who) => {
     if (attacker.alive() && defender.alive()) {
