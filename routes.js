@@ -2290,10 +2290,10 @@ const ROUTES = {
 },
 	Event: {
     event1: {
-      name: 'Burned Tower'
-    , pokes: ['Entei'] 
-    , minLevel: 40
-    , maxLevel: 40
+      name: 'Bouh'
+    , pokes: ['Giratina', 'Darkrai', 'Necrozma', 'Hoopa', 'Marshadow'] 
+    , minLevel: 70
+    , maxLevel: 70
     , unlocked: true
     } 
 	}
