@@ -2290,10 +2290,24 @@ const ROUTES = {
 },
 	Event: {
     event1: {
-      name: 'Old Rod'
-    , pokes: ['Magikarp'] 
-    , minLevel: 5
-    , maxLevel: 5
+      name: 'Fire'
+    , pokes: ['Entei'] 
+    , minLevel: 40
+    , maxLevel: 40
+    , unlocked: true
+    } 
+    , event2: {
+      name: 'Thunder'
+    , pokes: ['Raikou'] 
+    , minLevel: 40
+    , maxLevel: 40
+    , unlocked: true
+    } 
+    , event3: {
+      name: 'Water'
+    , pokes: ['Suicune'] 
+    , minLevel: 40
+    , maxLevel: 40
     , unlocked: true
     } 
 	}
