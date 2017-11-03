@@ -795,7 +795,7 @@ const makeUserInteractions = (player, enemy, dom, combatLoop) => {
       if (event.shiftKey) {
         const pokemon = player.pokemons()[index];
         player.deletePoke(index)
-        if (!player.hasPokemon(pokemon.pokeName()))
+        if (!player.hasPokemon(pokemon.pokeName(), pokemon.shiny()))
           player.addPokedex(pokemon.pokeName(), (pokemon.shiny() ? 4 : 3))
         combatLoop.changePlayerPoke(player.activePoke())
         renderView(dom, enemy, player)
