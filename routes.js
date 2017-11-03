@@ -2290,10 +2290,10 @@ const ROUTES = {
 },
 	Event: {
     event1: {
-      name: 'Bouh'
-    , pokes: ['Giratina', 'Darkrai', 'Necrozma', 'Hoopa', 'Marshadow'] 
-    , minLevel: 70
-    , maxLevel: 70
+      name: 'Old Rod'
+    , pokes: ['Magikarp'] 
+    , minLevel: 5
+    , maxLevel: 5
     , unlocked: true
     } 
 	}
