@@ -268,7 +268,7 @@ const makeDomHandler = () => {
            >
              ${route.name + ' (' + route.minLevel + '~' + route.maxLevel + ')'}
            </a>
-        <li>`
+        </li>`
       , true
       )
     })
