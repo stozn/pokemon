@@ -1154,7 +1154,7 @@ const makeCombatLoop = (enemy, player, dom) => {
             attackingTypes[1] && typeEffectiveness(attackingTypes[1], defendingTypes) || 0
         )
     }
-    const eventTimerActive = false
+    const eventTimerActive = true
     const eventTimerExpires = 1509408000
 
     const dealDamage = (attacker, defender, who) => {
@@ -1311,7 +1311,6 @@ const renderView = (dom, enemy, player) => {
     dom.renderPokeOnContainer('player', player.activePoke(), userSettings.spriteChoice || 'back')
     dom.renderPokeList('playerPokes', player.pokemons(), player, '#enableDelete')
     dom.renderPokeDex('playerPokes', player.pokedexData())
-    dom.renderStorage()
 }
 
 
