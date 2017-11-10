@@ -868,11 +868,13 @@ const makeUserInteractions = (player, enemy, dom, combatLoop) => {
 			  ...arr.slice(parseInt(index)+2)
 		  ]
 
-		  const newPokemonList = moveToDown(pokemonIndex)(player.pokemons())
-		  player.reorderPokes(newPokemonList)
-		  player.savePokes()
-		  combatLoop.changePlayerPoke(player.activePoke())
-		  renderView(dom, enemy, player)
+		  if (player.pokemons()[pokemonIndex + 1]) {
+			  const newPokemonList = moveToDown(pokemonIndex)(player.pokemons())
+			  player.reorderPokes(newPokemonList)
+			  player.savePokes()
+			  combatLoop.changePlayerPoke(player.activePoke())
+			  renderView(dom, enemy, player)
+		  }
       },
 	  pokemonToUp: (pokemonIndex) => {
 		  const moveToUp = index => arr => [
@@ -882,11 +884,13 @@ const makeUserInteractions = (player, enemy, dom, combatLoop) => {
 			  ...arr.slice(parseInt(index)+1)
 		  ]
 
-		  const newPokemonList = moveToUp(pokemonIndex)(player.pokemons())
-		  player.reorderPokes(newPokemonList)
-		  player.savePokes()
-		  combatLoop.changePlayerPoke(player.activePoke())
-		  renderView(dom, enemy, player)
+		  if (player.pokemons()[pokemonIndex - 1]) {
+			  const newPokemonList = moveToUp(pokemonIndex)(player.pokemons())
+			  player.reorderPokes(newPokemonList)
+			  player.savePokes()
+			  combatLoop.changePlayerPoke(player.activePoke())
+			  renderView(dom, enemy, player)
+		  }
 	  },
 	  evolvePokemon: (pokemonIndex) => {
 		  player.pokemons()[pokemonIndex].evolve(player.pokemons()[pokemonIndex].shiny())

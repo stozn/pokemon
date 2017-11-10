@@ -1126,7 +1126,7 @@ const ROUTES = {
     , maxLevel: 8
     , unlocked: true
     }
-	, special67: {
+	, special67a: {
       name: 'Oreburgh City'
     , pokes: ['Cranidos', 'Shieldon']
 	, minLevel: 20
@@ -1364,7 +1364,7 @@ const ROUTES = {
     , maxLevel: 35
     , unlocked: true
     }
-	, route91: {
+	, route217: {
       name: 'Route 217'
     , pokes: ['Sneasel', 'Machoke', 'Medicham', 'Meditite', 'Swinub', 'Snorunt'] 
     , minLevel: 32
