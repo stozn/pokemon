@@ -2290,11 +2290,18 @@ const ROUTES = {
 },
 	Event: {
     event1: {
-      name: 'Old Rod'
-    , pokes: ['Magikarp'] 
-    , minLevel: 5
-    , maxLevel: 5
+      name: 'Sun'
+    , pokes: ['Solgaleo'] 
+    , minLevel: 50
+    , maxLevel: 50
     , unlocked: true
     } 
+    , event2: {
+      name: 'Moon'
+    , pokes: ['Lunala']
+    , minLevel: 50
+    , maxLevel: 50
+    , unlocked: true
+    }
 	}
 }
