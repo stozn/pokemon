@@ -2290,11 +2290,18 @@ const ROUTES = {
 },
 	Event: {
     event1: {
-      name: 'Burned Tower'
-    , pokes: ['Entei'] 
-    , minLevel: 40
-    , maxLevel: 40
+      name: 'Sun'
+    , pokes: ['Solgaleo'] 
+    , minLevel: 50
+    , maxLevel: 50
     , unlocked: true
     } 
+    , event2: {
+      name: 'Moon'
+    , pokes: ['Lunala']
+    , minLevel: 50
+    , maxLevel: 50
+    , unlocked: true
+    }
 	}
 }
