@@ -149,12 +149,12 @@ const makeDomHandler = () => {
             return 'red'
         }
     }
-    const renderStorage = (id, list, player, deleteEnabledId) => {
-        const list = player.storage;
+    const renderStorage = () => {
+        const list = player.storage();
         const listCssQuery = '.container.list#playerPokes';
         const listContainer = $(listCssQuery)
         const listElement = listContainer.querySelector('#playerStorage ul')
-        listElement.className = 'list' + ((checkConfirmed('#enablePokedex') || !checkConfirmed('#enableStorage')) ? ' hidden' : '')
+        listElement.className = 'list manageTeamEnabled' + ((checkConfirmed('#enablePokedex') || !checkConfirmed('#enableStorage')) ? ' hidden' : '')
         var listElementsToAdd = ''
         list.forEach((poke, index) => {
             const listItemElement = listElement.querySelector('#storagePoke' + index);
@@ -199,7 +199,7 @@ const makeDomHandler = () => {
 
                 const rosterButton = `<button href="#"
             onclick="userInteractions.moveToRoster('${index}')"
-            class="pokeEvolveButton"
+            class="pokeFirstButton"
           >
             Roster
           </button>`
@@ -292,7 +292,7 @@ const makeDomHandler = () => {
 
                 const storageButton = `<button href="#"
             onclick="userInteractions.moveToStorage('${index}')"
-            class="pokeEvolveButton"
+            class="pokeFirstButton"
           >
             PC
           </button>`
@@ -454,6 +454,7 @@ const makeDomHandler = () => {
         , renderPokeDex: renderPokeDex
         , renderPokeList: renderPokeList
         , renderRouteList: renderRouteList
+        , renderStorage: renderStorage
         , renderHeal: renderHeal
         , attackAnimation: attackAnimation
         , checkConfirmed: checkConfirmed
@@ -579,6 +580,7 @@ const makeRandomPoke = (level) => makePoke(randomArrayElement(POKEDEX), level)
 
 const makePlayer = () => {
     var pokemons = []
+    var storage = []
     var pokedexData = []
     var activePoke = 0
     var lastHeal = Date.now()
@@ -656,10 +658,14 @@ const makePlayer = () => {
         }
         , activePoke: () => pokemons[activePoke]
         , pokemons: () => pokemons
+        , storage: () => storage
         , pokedexData: () => pokedexData
         , canHeal: canHeal
         , reorderPokes: (newList) => {
             pokemons = newList
+        }
+        , reorderStorage: (newList) => {
+            storage = newList
         }
         , healAllPokemons: () => {
             if (canHeal() === true) {
@@ -685,6 +691,10 @@ const makePlayer = () => {
             pokemons.forEach((poke, index) => {
                 localStorage.setItem(`poke${index}`, JSON.stringify(poke.save()))
             })
+            localStorage.setItem(`totalStorage`, storage.length)
+            storage.forEach((poke, index) => {
+                localStorage.setItem(`storage${index}`, JSON.stringify(poke.save()))
+            })
             localStorage.setItem(`ballsAmmount`, JSON.stringify(ballsAmmount))
             localStorage.setItem(`pokedexData`, JSON.stringify(pokedexData))
             localStorage.setItem(`statistics`, JSON.stringify(statistics))
@@ -693,6 +703,7 @@ const makePlayer = () => {
         , saveToString: () => {
             const saveData = JSON.stringify({
                 pokes: pokemons.map((poke) => poke.save()),
+                storage: storage.map((poke) => poke.save()),
                 pokedexData: pokedexData,
                 statistics: statistics,
                 userSettings: userSettings,
@@ -708,6 +719,16 @@ const makePlayer = () => {
                 const shiny = (loadedPoke[2] == true)
                 pokemons.push(makePoke(pokeByName(pokeName), false, Number(exp), shiny))
             })
+            Array(Number(localStorage.getItem(`totalStorage`))).fill(0).forEach((el, index) => {
+                const loadedPoke = JSON.parse(localStorage.getItem('storage'+index));
+                if (loadedPoke) {
+                    const pokeName = loadedPoke[0];
+                    const exp = loadedPoke[1];
+                    const shiny = (loadedPoke[2] === true);
+                    const caughtAt = loadedPoke[3];
+                    storage.push(makePoke(pokeByName(pokeName), false, Number(exp), shiny, caughtAt));
+                }
+            });
             if (JSON.parse(localStorage.getItem('ballsAmmount'))) {
                 ballsAmmount = JSON.parse(localStorage.getItem('ballsAmmount'))
             }
@@ -779,6 +800,14 @@ const makePlayer = () => {
                     const shiny = (loadedPoke[2] == true)
                     pokemons.push(makePoke(pokeByName(pokeName), false, Number(exp), shiny))
                 })
+                storage = [];
+                saveData.storage.forEach((loadedPoke) => {
+                    const pokeName = loadedPoke[0];
+                    const exp = loadedPoke[1];
+                    const shiny = (loadedPoke[2] === true);
+                    const caughtAt = loadedPoke[3];
+                    storage.push(makePoke(pokeByName(pokeName), false, Number(exp), shiny, caughtAt))
+                });
                 ballsAmmount = saveData.ballsAmmount
                 pokedexData = saveData.pokedexData ? saveData.pokedexData : []
                 statistics = saveData.statistics ? saveData.statistics : statistics
@@ -919,9 +948,11 @@ const makeUserInteractions = (player, enemy, dom, combatLoop) => {
             if (dom.checkConfirmed('#enablePokedex')) {
                 document.querySelector('#playerPokesList').classList.add('hidden')
                 document.querySelector('#playerPokeDex').classList.remove('hidden')
+                document.querySelector('#playerStorage').classList.add('hidden')
             } else {
                 document.querySelector('#playerPokesList').classList.remove('hidden')
                 document.querySelector('#playerPokeDex').classList.add('hidden')
+                document.querySelector('#playerStorage').classList.add('hidden')
                 dom.renderPokeList('playerPokes', player.pokemons(), player, '#enableDelete')
             }
         },
@@ -932,10 +963,15 @@ const makeUserInteractions = (player, enemy, dom, combatLoop) => {
         },
         enableViewStorage: () => {
             if (dom.checkConfirmed('#enableStorage')) {
-                document.querySelector('#playerStorage').classList.add('hidden')
-            } else {
+                document.querySelector('#playerPokesList').classList.add('hidden')
+                document.querySelector('#playerPokeDex').classList.add('hidden')
                 document.querySelector('#playerStorage').classList.remove('hidden')
                 dom.renderStorage()
+            } else {
+                document.querySelector('#playerPokesList').classList.remove('hidden')
+                document.querySelector('#playerPokeDex').classList.add('hidden')
+                document.querySelector('#playerStorage').classList.add('hidden')
+                dom.renderPokeList('playerPokes', player.pokemons(), player, '#enableDelete')
             }
         },
         changeCatchOption: (newCatchOption) => {
@@ -996,15 +1032,23 @@ const makeUserInteractions = (player, enemy, dom, combatLoop) => {
             }
         },
         moveToStorage: function(pokemonIndex) {
-            const poke = player.getPokemon()[pokemonIndex];
-            player.pokemons.splice(pokemonIndex, 1);
-            player.storage.push(poke);
-            dom.renderPokeList();
+            const poke = player.pokemons()[pokemonIndex];
+            const pokeList = player.pokemons();
+            const storageList = player.storage();
+            pokeList.splice(pokemonIndex, 1);
+            storageList.push(poke);
+            player.reorderStorage(storageList);
+            player.reorderPokes(pokeList);
+            dom.renderPokeList('playerPokes', player.pokemons(), player, '#enableDelete');
         },
         moveToRoster: function(pokemonIndex) {
-            const poke = player.storage[pokemonIndex];
-            player.storage.splice(pokemonIndex, 1);
-            player.pokemons.push(poke);
+            const poke = player.storage()[pokemonIndex];
+            const pokeList = player.pokemons();
+            const storageList = player.storage();
+            storageList.splice(pokemonIndex, 1);
+            pokeList.push(poke);
+            player.reorderStorage(storageList);
+            player.reorderPokes(pokeList);
             dom.renderStorage();
         },
         evolvePokemon: (pokemonIndex) => {
@@ -1110,7 +1154,7 @@ const makeCombatLoop = (enemy, player, dom) => {
             attackingTypes[1] && typeEffectiveness(attackingTypes[1], defendingTypes) || 0
         )
     }
-    const eventTimerActive = true
+    const eventTimerActive = false
     const eventTimerExpires = 1509408000
 
     const dealDamage = (attacker, defender, who) => {
