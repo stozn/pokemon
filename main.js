@@ -177,21 +177,21 @@ const makeDomHandler = () => {
           </a>`
 
                 const upButton = `<button href="#"
-            onclick="userInteractions.pokemonToUp('${index}')"
+            onclick="userInteractions.storageToUp('${index}')"
             class="pokeUpButton"
           >
             <i class="fa fa-arrow-up" aria-hidden="true"></i>
           </button>`
 
                 const downButton = `<button href="#"
-            onclick="userInteractions.pokemonToDown('${index}')"
+            onclick="userInteractions.storageToDown('${index}')"
             class="pokeDownButton"
           >
             <i class="fa fa-arrow-down" aria-hidden="true"></i>
           </button>`
 
                 const firstButton = `<button href="#"
-            onclick="userInteractions.pokemonToFirst('${index}')"
+            onclick="userInteractions.storageToFirst('${index}')"
             class="pokeFirstButton"
           >
             #1
@@ -1031,6 +1031,45 @@ const makeUserInteractions = (player, enemy, dom, combatLoop) => {
                 renderView(dom, enemy, player)
             }
         },
+        storageToFirst: (pokemonIndex) => {
+            const moveToFirst = (index, arr) => {
+                arr.splice(0, 0, arr.splice(index, 1)[0])
+            }
+
+            moveToFirst(pokemonIndex, player.storage())
+            player.savePokes()
+            dom.renderStorage();
+        },
+        storageToDown: (pokemonIndex) => {
+            const moveToDown = index => arr => [
+                ...arr.slice(0,parseInt(index)),
+                arr[parseInt(index)+1],
+                arr[parseInt(index)],
+                ...arr.slice(parseInt(index)+2)
+            ]
+
+            if (player.storage()[pokemonIndex + 1]) {
+                const newPokemonList = moveToDown(pokemonIndex)(player.storage())
+                player.reorderPokes(newPokemonList)
+                player.savePokes()
+                dom.renderStorage();
+            }
+        },
+        storageToUp: (pokemonIndex) => {
+            const moveToUp = index => arr => [
+                ...arr.slice(0,parseInt(index)-1),
+                arr[parseInt(index)],
+                arr[parseInt(index)-1],
+                ...arr.slice(parseInt(index)+1)
+            ]
+
+            if (player.storage()[pokemonIndex - 1]) {
+                const newPokemonList = moveToUp(pokemonIndex)(player.storage())
+                player.reorderPokes(newPokemonList)
+                player.savePokes()
+                dom.renderStorage();
+            }
+        },
         moveToStorage: function(pokemonIndex) {
             const poke = player.pokemons()[pokemonIndex];
             const pokeList = player.pokemons();
@@ -1311,6 +1350,7 @@ const renderView = (dom, enemy, player) => {
     dom.renderPokeOnContainer('player', player.activePoke(), userSettings.spriteChoice || 'back')
     dom.renderPokeList('playerPokes', player.pokemons(), player, '#enableDelete')
     dom.renderPokeDex('playerPokes', player.pokedexData())
+    dom.renderStorage()
 }
 
 
