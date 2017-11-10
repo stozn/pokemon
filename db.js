@@ -29072,7 +29072,7 @@ const POKEDEX = [
             "speed": "36",
             "types": [
                "Fire",
-			   "Dragon"
+	       "Dragon"
             ]
          }
       ],
@@ -29715,7 +29715,7 @@ const POKEDEX = [
             "speed": "103",
             "types": [
                "Rock",
-			   "Poison"
+	       "Poison"
             ]
          }
       ],
@@ -29743,7 +29743,7 @@ const POKEDEX = [
       ],
       "stats": [
          {
-            "catch rate": "25",
+            "catch rate": "45",
             "growth rate": "Slow",
             "hp": "107",
             "attack": "139",
@@ -29781,7 +29781,7 @@ const POKEDEX = [
       ],
       "stats": [
          {
-            "catch rate": "255",
+            "catch rate": "45",
             "growth rate": "Slow",
             "hp": "71",
             "attack": "137",
@@ -29819,7 +29819,7 @@ const POKEDEX = [
       ],
       "stats": [
          {
-            "catch rate": "30",
+            "catch rate": "45",
             "growth rate": "Slow",
             "hp": "83",
             "attack": "89",
@@ -29856,7 +29856,7 @@ const POKEDEX = [
       ],
       "stats": [
          {
-            "catch rate": "25",
+            "catch rate": "45",
             "growth rate": "Slow",
             "hp": "97",
             "attack": "101",
@@ -29894,7 +29894,7 @@ const POKEDEX = [
       ],
       "stats": [
          {
-            "catch rate": "255",
+            "catch rate": "45",
             "growth rate": "Slow",
             "hp": "59",
             "attack": "181",
@@ -29932,7 +29932,7 @@ const POKEDEX = [
       ],
       "stats": [
          {
-            "catch rate": "15",
+            "catch rate": "45",
             "growth rate": "Slow",
             "hp": "223",
             "attack": "101",
@@ -29970,7 +29970,7 @@ const POKEDEX = [
       ],
       "stats": [
          {
-            "catch rate": "3",
+            "catch rate": "255",
             "growth rate": "Slow",
             "hp": "97",
             "attack": "107",
