@@ -14284,7 +14284,7 @@ const POKEDEX = [
       ],
       "stats": [
          {
-            "catch rate": "5",
+            "catch rate": "3",
             "growth rate": "Slow",
             "hp": "100",
             "attack": "100",
@@ -14321,7 +14321,7 @@ const POKEDEX = [
       ],
       "stats": [
          {
-            "catch rate": "5",
+            "catch rate": "3",
             "growth rate": "Slow",
             "hp": "100",
             "attack": "150",
@@ -18072,7 +18072,7 @@ const POKEDEX = [
       ],
       "stats": [
          {
-            "catch rate": "30",
+            "catch rate": "3",
             "growth rate": "Slow",
             "hp": "100",
             "attack": "120",
@@ -18110,7 +18110,7 @@ const POKEDEX = [
       ],
       "stats": [
          {
-            "catch rate": "30",
+            "catch rate": "3",
             "growth rate": "Slow",
             "hp": "90",
             "attack": "120",
@@ -24063,7 +24063,7 @@ const POKEDEX = [
       ],
       "stats": [
          {
-            "catch rate": "45",
+            "catch rate": "3",
             "growth rate": "Slow",
             "hp": "100",
             "attack": "120",
@@ -24101,7 +24101,7 @@ const POKEDEX = [
       ],
       "stats": [
          {
-            "catch rate": "45",
+            "catch rate": "3",
             "growth rate": "Slow",
             "hp": "100",
             "attack": "150",
