@@ -1663,6 +1663,10 @@ const EVOLUTIONS = {
     "level":"43",
     "to":"Cosmoem"
   },
+  "Poipole":{
+    "level":"60",
+    "to":"Naganadel"
+  },
     "A-Rattata":{
     "level":"20",
     "to":"A-Raticate"
@@ -1941,7 +1945,7 @@ const EVOLUTIONS = {
   },
   "Lycanroc-M":{
     "level":"25",
-    "to":"Lycanroc"
+    "to":"Lycanroc-D"
   },
   "Raichu":{
     "level":"35",
@@ -1986,5 +1990,25 @@ const EVOLUTIONS = {
   "M-Mewtwo Y":{
     "level":"100",
     "to":"M-Mewtwo X"
+  },
+  "Lycanroc-D":{
+    "level":"25",
+    "to":"Lycanroc"
+  },
+  "Necrozma":{
+    "level":"100",
+    "to":"Necrozma-S"
+  },
+  "Necrozma-S":{
+    "level":"100",
+    "to":"Necrozma-L"
+  },
+  "Necrozma-L":{
+    "level":"100",
+    "to":"U-Necrozma"
+  },
+  "U-Necrozma":{
+    "level":"100",
+    "to":"Necrozma"
   },
 }
