@@ -164,7 +164,7 @@ const makeDomHandler = () => {
                 listItemNameElement.style.color = pokeColor(poke)
             } else {
                 const deleteButton = `<a href="#"
-            onclick="userInteractions.deletePokemon(event, ${index});return false"
+            onclick="userInteractions.deleteStorage(event, ${index});return false"
             style="
               color: red;
               text-decoration: none;
@@ -177,28 +177,28 @@ const makeDomHandler = () => {
           </a>`
 
                 const upButton = `<button href="#"
-            onclick="userInteractions.storageToUp('${index}')"
+            onclick="userInteractions.storageToUp(${index})"
             class="pokeUpButton"
           >
             <i class="fa fa-arrow-up" aria-hidden="true"></i>
           </button>`
 
                 const downButton = `<button href="#"
-            onclick="userInteractions.storageToDown('${index}')"
+            onclick="userInteractions.storageToDown(${index})"
             class="pokeDownButton"
           >
             <i class="fa fa-arrow-down" aria-hidden="true"></i>
           </button>`
 
                 const firstButton = `<button href="#"
-            onclick="userInteractions.storageToFirst('${index}')"
+            onclick="userInteractions.storageToFirst(${index})"
             class="pokeFirstButton"
           >
             #1
           </button>`
 
                 const rosterButton = `<button href="#"
-            onclick="userInteractions.moveToRoster('${index}')"
+            onclick="userInteractions.moveToRoster(${index})"
             class="pokeFirstButton"
           >
             Roster
@@ -208,7 +208,6 @@ const makeDomHandler = () => {
                     deleteButton +
                     `<a
               href="#"
-              onclick="userInteractions.changePokemon(${index})"
               style="color: ${pokeColor(poke)}"
               class="pokeListName"
             >
@@ -719,16 +718,18 @@ const makePlayer = () => {
                 const shiny = (loadedPoke[2] == true)
                 pokemons.push(makePoke(pokeByName(pokeName), false, Number(exp), shiny))
             })
-            Array(Number(localStorage.getItem(`totalStorage`))).fill(0).forEach((el, index) => {
-                const loadedPoke = JSON.parse(localStorage.getItem('storage'+index));
-                if (loadedPoke) {
-                    const pokeName = loadedPoke[0];
-                    const exp = loadedPoke[1];
-                    const shiny = (loadedPoke[2] === true);
-                    const caughtAt = loadedPoke[3];
-                    storage.push(makePoke(pokeByName(pokeName), false, Number(exp), shiny, caughtAt));
-                }
-            });
+            if (localStorage.getItem(`totalStorage`)) {
+                Array(Number(localStorage.getItem(`totalStorage`))).fill(0).forEach((el, index) => {
+                    const loadedPoke = JSON.parse(localStorage.getItem('storage' + index))
+                    if (loadedPoke) {
+                        const pokeName = loadedPoke[0];
+                        const exp = loadedPoke[1];
+                        const shiny = (loadedPoke[2] === true);
+                        const caughtAt = loadedPoke[3];
+                        storage.push(makePoke(pokeByName(pokeName), false, Number(exp), shiny, caughtAt));
+                    }
+                })
+            }
             if (JSON.parse(localStorage.getItem('ballsAmmount'))) {
                 ballsAmmount = JSON.parse(localStorage.getItem('ballsAmmount'))
             }
@@ -801,13 +802,15 @@ const makePlayer = () => {
                     pokemons.push(makePoke(pokeByName(pokeName), false, Number(exp), shiny))
                 })
                 storage = [];
-                saveData.storage.forEach((loadedPoke) => {
-                    const pokeName = loadedPoke[0];
-                    const exp = loadedPoke[1];
-                    const shiny = (loadedPoke[2] === true);
-                    const caughtAt = loadedPoke[3];
-                    storage.push(makePoke(pokeByName(pokeName), false, Number(exp), shiny, caughtAt))
-                });
+                if (saveData.storage) {
+                    saveData.storage.forEach((loadedPoke) => {
+                        const pokeName = loadedPoke[0];
+                        const exp = loadedPoke[1];
+                        const shiny = (loadedPoke[2] === true);
+                        const caughtAt = loadedPoke[3];
+                        storage.push(makePoke(pokeByName(pokeName), false, Number(exp), shiny, caughtAt))
+                    });
+                }
                 ballsAmmount = saveData.ballsAmmount
                 pokedexData = saveData.pokedexData ? saveData.pokedexData : []
                 statistics = saveData.statistics ? saveData.statistics : statistics
@@ -928,6 +931,21 @@ const makeUserInteractions = (player, enemy, dom, combatLoop) => {
                 alert('Hold shift while clicking the X to release a pokemon')
             }
         },
+        deleteStorage: (event, index) => {
+            if (event.shiftKey) {
+                const pokemon = player.storage()[index];
+                const storageList = player.storage();
+                storageList.splice(index, 1)
+                player.reorderStorage(storageList);
+                if (!player.hasPokemon(pokemon.pokeName(), pokemon.shiny()))
+                    player.addPokedex(pokemon.pokeName(), (pokemon.shiny() ? 4 : 3))
+                combatLoop.changePlayerPoke(player.activePoke())
+                renderView(dom, enemy, player)
+                player.savePokes()
+            } else {
+                alert('Hold shift while clicking the X to release a pokemon')
+            }
+        },
         healAllPlayerPokemons: () => {
             if (player.healAllPokemons() === "healed") {
                 dom.gameConsoleLog('Full heal!', 'white')
@@ -1036,7 +1054,9 @@ const makeUserInteractions = (player, enemy, dom, combatLoop) => {
                 arr.splice(0, 0, arr.splice(index, 1)[0])
             }
 
-            moveToFirst(pokemonIndex, player.storage())
+            const newPokemonList = player.storage()
+            moveToFirst(pokemonIndex, newPokemonList)
+            player.reorderStorage(newPokemonList)
             player.savePokes()
             dom.renderStorage();
         },
@@ -1050,7 +1070,7 @@ const makeUserInteractions = (player, enemy, dom, combatLoop) => {
 
             if (player.storage()[pokemonIndex + 1]) {
                 const newPokemonList = moveToDown(pokemonIndex)(player.storage())
-                player.reorderPokes(newPokemonList)
+                player.reorderStorage(newPokemonList)
                 player.savePokes()
                 dom.renderStorage();
             }
@@ -1065,7 +1085,7 @@ const makeUserInteractions = (player, enemy, dom, combatLoop) => {
 
             if (player.storage()[pokemonIndex - 1]) {
                 const newPokemonList = moveToUp(pokemonIndex)(player.storage())
-                player.reorderPokes(newPokemonList)
+                player.reorderStorage(newPokemonList)
                 player.savePokes()
                 dom.renderStorage();
             }
