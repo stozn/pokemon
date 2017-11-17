@@ -13,13 +13,15 @@ WIP.
 
 Planned (everything major is done now, let's try to make the game EVEN better) :
 
-- (Auto)-Ordering Team
-- Better Catch System
-- A REAL Battle System
+- Storage System
+- Giving events again and again
 
 My coding skills are really really (when I say really it's really) limited. So any help would be more than apprecied. Just trying to bring some ideas and doing the boring stuff.
 
 Changelog :
+
+NGGYU NGLYD (10/08/2017) :
+- **The Release version** ! Finally ! After almost 6 months of work, the game is finally in its final form. Everything wanted have been added. It was a long work but it's done. The NGGYU NGLYD version is out ! This update just bring more control for events, and this way allow people to enjoy events ! A last little update will come soon. Now its only about focusing on future Pokemon games and events.
 
 NGGYU 1.9.4 (08/19/2017) :
 - **Pokedex fixes** ! Nothing major, but the Pokedex is now more clear and new system of displaying Pokemon in order to be more simple AND do-able for users who want to make a PokeDex OR a LivingDex. More informations about how the game displays everything in the update post in Reddit.

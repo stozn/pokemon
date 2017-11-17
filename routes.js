@@ -2254,7 +2254,7 @@ const ROUTES = {
     }
     , custom28: {
       name: 'Ultra Wormholes'
-    , pokes: ['Nihilego', 'Buzzwole', 'Pheromosa', 'Xurkitree', 'Celesteela', 'Kartana', 'Guzzlord'] 
+    , pokes: ['Nihilego', 'Buzzwole', 'Pheromosa', 'Xurkitree', 'Celesteela', 'Kartana', 'Guzzlord', 'Poipole', 'Stakataka', 'Blacephalon'] 
     , minLevel: 55
     , maxLevel: 70
     , unlocked: true
@@ -2281,6 +2281,13 @@ const ROUTES = {
     , unlocked: true
     }
     , custom32: {
+      name: 'Ultra Volt'
+    , pokes: ['Zeraora'] 
+    , minLevel: 50
+    , maxLevel: 50
+    , unlocked: true
+    }	  
+    , custom33: {
       name: 'Rod'
     , pokes: ['Wishiwashi', 'Mareanie', 'Bruxish', 'Dhelmise'] 
     , minLevel: 30
@@ -2290,18 +2297,11 @@ const ROUTES = {
 },
 	Event: {
     event1: {
-      name: 'Sun'
-    , pokes: ['Solgaleo'] 
-    , minLevel: 50
-    , maxLevel: 50
+      name: 'USUM Hype'
+    , pokes: ['Necrozma-S', 'Necrozma-L'] 
+    , minLevel: 70
+    , maxLevel: 70
     , unlocked: true
     } 
-    , event2: {
-      name: 'Moon'
-    , pokes: ['Lunala']
-    , minLevel: 50
-    , maxLevel: 50
-    , unlocked: true
-    }
 	}
 }

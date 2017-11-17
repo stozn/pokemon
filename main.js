@@ -1188,53 +1188,53 @@ const makeUserInteractions = (player, enemy, dom, combatLoop) => {
 }
 
 const makeCombatLoop = (enemy, player, dom) => {
-    var playerActivePoke = player.activePoke()
-    var enemyActivePoke = enemy.activePoke()
-    var playerTimerId = null
-    var enemyTimerId = null
-    var catchEnabled = false
-    const playerTimer = () => {
-        playerTimerId = window.setTimeout(
-            () => dealDamage(playerActivePoke, enemyActivePoke, 'player')
-            , playerActivePoke.attackSpeed()
-        )
-    }
-    const enemyTimer = () => {
-        enemyTimerId = window.setTimeout(
-            () => dealDamage(enemyActivePoke, playerActivePoke, 'enemy')
-            , enemyActivePoke.attackSpeed()
-        )
-    }
-    const calculateDamageMultiplier = (attackingTypes, defendingTypes) => {
-        const typeEffectiveness = (attackingType, defendingTypes) =>
-            TYPES[attackingType][defendingTypes[0]] * (defendingTypes[1] && TYPES[attackingType][defendingTypes[1]] || 1)
-        return Math.max(
-            typeEffectiveness(attackingTypes[0], defendingTypes),
-            attackingTypes[1] && typeEffectiveness(attackingTypes[1], defendingTypes) || 0
-        )
-    }
-    const eventTimerActive = true
-    const eventTimerExpires = 1509408000
+  var playerActivePoke = player.activePoke()
+  var enemyActivePoke = enemy.activePoke()
+  var playerTimerId = null
+  var enemyTimerId = null
+  var catchEnabled = false
+  const playerTimer = () => {
+    playerTimerId = window.setTimeout(
+      () => dealDamage(playerActivePoke, enemyActivePoke, 'player')
+    , playerActivePoke.attackSpeed()
+    )
+  }
+  const enemyTimer = () => {
+    enemyTimerId = window.setTimeout(
+      () => dealDamage(enemyActivePoke, playerActivePoke, 'enemy')
+    , enemyActivePoke.attackSpeed()
+    )
+  }
+  const calculateDamageMultiplier = (attackingTypes, defendingTypes) => {
+    const typeEffectiveness = (attackingType, defendingTypes) =>
+      TYPES[attackingType][defendingTypes[0]] * (defendingTypes[1] && TYPES[attackingType][defendingTypes[1]] || 1)
+    return Math.max(
+      typeEffectiveness(attackingTypes[0], defendingTypes),
+      attackingTypes[1] && typeEffectiveness(attackingTypes[1], defendingTypes) || 0
+     )
+  }
+  const eventTimerActive = true
+  const eventTimerExpires = 1511136000
 
-    const dealDamage = (attacker, defender, who) => {
-        if (attacker.alive() && defender.alive()) {
-            // both alive
-            const damageMultiplier = calculateDamageMultiplier(attacker.types(), defender.types())
-            const damage = defender.takeDamage(attacker.avgAttack() * damageMultiplier)
-            if (who === 'player') {
-                dom.attackAnimation('playerImg', 'right')
-                dom.gameConsoleLog(attacker.pokeName() + ' Attacked for ' + damage, 'green')
-                statistics.totalDamage += damage
-                playerTimer()
-            }
-            if (who === 'enemy') {
-                dom.attackAnimation('enemyImg', 'left')
-                dom.gameConsoleLog(attacker.pokeName() + ' Attacked for ' + damage, 'rgb(207, 103, 59)')
-                enemyTimer()
-            }
+  const dealDamage = (attacker, defender, who) => {
+    if (attacker.alive() && defender.alive()) {
+      // both alive
+      const damageMultiplier = calculateDamageMultiplier(attacker.types(), defender.types())
+      const damage = defender.takeDamage(attacker.avgAttack() * damageMultiplier)
+      if (who === 'player') {
+        dom.attackAnimation('playerImg', 'right')
+        dom.gameConsoleLog(attacker.pokeName() + ' Attacked for ' + damage, 'green')
+        statistics.totalDamage += damage
+        playerTimer()
+      }
+      if (who === 'enemy') {
+        dom.attackAnimation('enemyImg', 'left')
+        dom.gameConsoleLog(attacker.pokeName() + ' Attacked for ' + damage, 'rgb(207, 103, 59)')
+        enemyTimer()
+      }
 
-            dom.renderPokeOnContainer('enemy', enemy.activePoke())
-            dom.renderPokeOnContainer('player', player.activePoke(), userSettings.spriteChoice || 'back')
+      dom.renderPokeOnContainer('enemy', enemy.activePoke())
+      dom.renderPokeOnContainer('player', player.activePoke(), userSettings.spriteChoice || 'back')
         }
         if (!attacker.alive() || !defender.alive()) {
             // one is dead

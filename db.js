@@ -14284,7 +14284,7 @@ const POKEDEX = [
       ],
       "stats": [
          {
-            "catch rate": "5",
+            "catch rate": "3",
             "growth rate": "Slow",
             "hp": "100",
             "attack": "100",
@@ -14321,7 +14321,7 @@ const POKEDEX = [
       ],
       "stats": [
          {
-            "catch rate": "5",
+            "catch rate": "3",
             "growth rate": "Slow",
             "hp": "100",
             "attack": "150",
@@ -18072,7 +18072,7 @@ const POKEDEX = [
       ],
       "stats": [
          {
-            "catch rate": "30",
+            "catch rate": "3",
             "growth rate": "Slow",
             "hp": "100",
             "attack": "120",
@@ -18110,7 +18110,7 @@ const POKEDEX = [
       ],
       "stats": [
          {
-            "catch rate": "30",
+            "catch rate": "3",
             "growth rate": "Slow",
             "hp": "90",
             "attack": "120",
@@ -24063,7 +24063,7 @@ const POKEDEX = [
       ],
       "stats": [
          {
-            "catch rate": "45",
+            "catch rate": "3",
             "growth rate": "Slow",
             "hp": "100",
             "attack": "120",
@@ -24101,7 +24101,7 @@ const POKEDEX = [
       ],
       "stats": [
          {
-            "catch rate": "45",
+            "catch rate": "3",
             "growth rate": "Slow",
             "hp": "100",
             "attack": "150",
@@ -30075,6 +30075,194 @@ const POKEDEX = [
          }
       }
    },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "Poipole"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "45",
+            "growth rate": "Slow",
+            "hp": "67",
+            "attack": "73",
+            "defense": "67",
+            "sp atk": "73",
+            "sp def": "67",
+            "speed": "73",
+            "types": [
+               "Poison"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "114"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/803.png",
+            "back": "sprites/back/803.png"
+         },
+         "shiny": {
+            "front": "sprites/s803.png",
+            "back": "sprites/back/s803.png"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "Naganadel"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "45",
+            "growth rate": "Slow",
+            "hp": "73",
+            "attack": "73",
+            "defense": "73",
+            "sp atk": "127",
+            "sp def": "73",
+            "speed": "121",
+            "types": [
+               "Poison",
+			   "Dragon"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "114"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/804.png",
+            "back": "sprites/back/804.png"
+         },
+         "shiny": {
+            "front": "sprites/s804.png",
+            "back": "sprites/back/s804.png"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "Stakataka"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "30",
+            "growth rate": "Slow",
+            "hp": "61",
+            "attack": "131",
+            "defense": "211",
+            "sp atk": "53",
+            "sp def": "101",
+            "speed": "13",
+            "types": [
+               "Rock",
+			   "Steel"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "114"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/805.png",
+            "back": "sprites/back/805.png"
+         },
+         "shiny": {
+            "front": "sprites/s805.png",
+            "back": "sprites/back/s805.png"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "Blacephalon"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "30",
+            "growth rate": "Slow",
+            "hp": "53",
+            "attack": "127",
+            "defense": "53",
+            "sp atk": "151",
+            "sp def": "79",
+            "speed": "107",
+            "types": [
+               "Fire",
+			   "Ghost"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "114"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/806.png",
+            "back": "sprites/back/806.png"
+         },
+         "shiny": {
+            "front": "sprites/s806.png",
+            "back": "sprites/back/s806.png"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "Zeraora"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "3",
+            "growth rate": "Slow",
+            "hp": "88",
+            "attack": "112",
+            "defense": "75",
+            "sp atk": "102",
+            "sp def": "80",
+            "speed": "143",
+            "types": [
+               "Electric"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "270"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/807.png",
+            "back": "sprites/back/807.png"
+         },
+         "shiny": {
+            "front": "sprites/s807.png",
+            "back": "sprites/back/s807.png"
+         }
+      }
+   },
       {
       "pokemon": [
          {
@@ -33586,6 +33774,157 @@ const POKEDEX = [
          "shiny": {
             "front": "sprites/s746s.png",
             "back": "sprites/back/s746s.png"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "Lycanroc-D"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "90",
+            "growth rate": "Medium Fast",
+            "hp": "75",
+            "attack": "117",
+            "defense": "65",
+            "sp atk": "55",
+            "sp def": "65",
+            "speed": "110",
+            "types": [
+               "Rock"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "170"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/745d.png",
+            "back": "sprites/back/745d.png"
+         },
+         "shiny": {
+            "front": "sprites/s745d.png",
+            "back": "sprites/back/s745d.png"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "Necrozma-S"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "255",
+            "growth rate": "Slow",
+            "hp": "97",
+            "attack": "157",
+            "defense": "127",
+            "sp atk": "113",
+            "sp def": "109",
+            "speed": "77",
+            "types": [
+               "Psychic",
+			   "Steel"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "120"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/800s.png",
+            "back": "sprites/back/800s.png"
+         },
+         "shiny": {
+            "front": "sprites/s800s.png",
+            "back": "sprites/back/s800s.png"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "Necrozma-L"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "255",
+            "growth rate": "Slow",
+            "hp": "97",
+            "attack": "113",
+            "defense": "109",
+            "sp atk": "157",
+            "sp def": "127",
+            "speed": "77",
+            "types": [
+               "Psychic",
+			   "Ghost"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "120"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/800l.png",
+            "back": "sprites/back/800l.png"
+         },
+         "shiny": {
+            "front": "sprites/s800l.png",
+            "back": "sprites/back/s800l.png"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "U-Necrozma"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "255",
+            "growth rate": "Slow",
+            "hp": "97",
+            "attack": "167",
+            "defense": "97",
+            "sp atk": "167",
+            "sp def": "97",
+            "speed": "129",
+            "types": [
+               "Psychic",
+			   "Dragon"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "120"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/800u.png",
+            "back": "sprites/back/800u.png"
+         },
+         "shiny": {
+            "front": "sprites/s800u.png",
+            "back": "sprites/back/s800u.png"
          }
       }
    },
