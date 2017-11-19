@@ -2297,10 +2297,10 @@ const ROUTES = {
 },
 	Event: {
     event1: {
-      name: 'USUM Hype'
-    , pokes: ['Necrozma-S', 'Necrozma-L'] 
-    , minLevel: 70
-    , maxLevel: 70
+      name: 'Old Rod'
+    , pokes: ['Wishimashi'] 
+    , minLevel: 5
+    , maxLevel: 5
     , unlocked: true
     } 
 	}
