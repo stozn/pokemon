@@ -207,7 +207,9 @@ ul {
 }
 
 #playerPokesList ul li:first-child .pokeUpButton,
-#playerPokesList ul li:last-child .pokeDownButton {
+#playerPokesList ul li:last-child .pokeDownButton,
+#playerStorage ul li:first-child .pokeUpButton,
+#playerStorage ul li:last-child .pokeDownButton {
   display: none;
 }
 

@@ -35,7 +35,8 @@
     <div id="playerPokes" class="container list">
       <div class="controls">
         <input type="checkbox" id="enableDelete"><label for="enableDelete"><span class="checkDescription">Manage Team</span></label><br>
-        <input type="checkbox" id="enablePokedex"><label for="enablePokedex"><span class="checkDescription" id="viewPokedexString">View Pokedex</span></label>
+        <input type="checkbox" id="enablePokedex"><label for="enablePokedex"><span class="checkDescription" id="viewPokedexString">View Pokedex</span></label><br>
+        <input type="checkbox" id="enableStorage"><label for="enableStorage"><span class="checkDescription" id="viewPokedexString">View Storage</span></label>
         <div id="heal">Heal</div>
       </div>
       <div id="playerPokesList" class="list">
@@ -56,6 +57,9 @@
           <option value="missing">Missing</option>
           <option value="shiny">Shiny</option>
         </select>
+        <ul></ul>
+      </div>
+      <div id="playerStorage" class="list hidden">
         <ul></ul>
       </div>
     </div>
