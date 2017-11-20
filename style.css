@@ -213,6 +213,14 @@ ul {
   display: none;
 }
 
+#playerStorage ul {
+	  position: relative;
+  padding-left: 8px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 502px;
+}
+
 .manageTeamEnabled .pokeDeleteButton,
 .manageTeamEnabled .pokeUpButton,
 .manageTeamEnabled .pokeDownButton,
