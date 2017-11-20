@@ -2297,7 +2297,7 @@ const ROUTES = {
 },
 	Event: {
     event1: {
-      name: 'Rod'
+      name: 'Old Rod'
     , pokes: ['Wishiwashi'] 
     , minLevel: 5
     , maxLevel: 5
