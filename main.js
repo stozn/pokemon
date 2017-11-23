@@ -269,7 +269,7 @@ const makeDomHandler = () => {
           </button>`
 
                 const downButton = `<button href="#"
-            onclick="userInteractions.pokemonToDown('${index}')"
+            onclick="userInteractions.pokemonToDown(${index})"
             class="pokeDownButton"
           >
             <i class="fa fa-arrow-down" aria-hidden="true"></i>
