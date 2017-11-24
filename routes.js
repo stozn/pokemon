@@ -2297,11 +2297,32 @@ const ROUTES = {
 },
 	Event: {
     event1: {
-      name: 'Old Rod'
-    , pokes: ['Wishiwashi'] 
-    , minLevel: 5
-    , maxLevel: 5
+      name: 'Coco'
+    , pokes: ['Tapu Koko'] 
+    , minLevel: 60
+    , maxLevel: 60
     , unlocked: true
     } 
+   , event1: {
+      name: 'Lel'
+    , pokes: ['Tapu Lele'] 
+    , minLevel: 60
+    , maxLevel: 60
+    , unlocked: true
+    } 	
+   , event1: {
+      name: 'Red Bull'
+    , pokes: ['Tapu Bulu'] 
+    , minLevel: 60
+    , maxLevel: 60
+    , unlocked: true
+    } 	
+   , event1: {
+      name: 'Almost Finished'
+    , pokes: ['Tapu Fini'] 
+    , minLevel: 60
+    , maxLevel: 60
+    , unlocked: true
+    } 	
 	}
 }
