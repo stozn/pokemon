@@ -2303,21 +2303,21 @@ const ROUTES = {
     , maxLevel: 60
     , unlocked: true
     } 
-   , event1: {
+   , event2: {
       name: 'Lel'
     , pokes: ['Tapu Lele'] 
     , minLevel: 60
     , maxLevel: 60
     , unlocked: true
     } 	
-   , event1: {
+   , event3: {
       name: 'Red Bull'
     , pokes: ['Tapu Bulu'] 
     , minLevel: 60
     , maxLevel: 60
     , unlocked: true
     } 	
-   , event1: {
+   , event4: {
       name: 'Almost Finished'
     , pokes: ['Tapu Fini'] 
     , minLevel: 60
