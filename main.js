@@ -30,7 +30,7 @@ let statistics = {
     'seen':0,
     'caught':0,
     'beaten':0,
-    'shinySeen':0,
+    'shinySeen':0,f
     'shinyCaught':0,
     'shinyBeaten':0,
     'totalDamage':0
@@ -1213,8 +1213,8 @@ const makeCombatLoop = (enemy, player, dom) => {
       attackingTypes[1] && typeEffectiveness(attackingTypes[1], defendingTypes) || 0
      )
   }
-  const eventTimerActive = false
-  const eventTimerExpires = 1511136000
+  const eventTimerActive = true
+  const eventTimerExpires = 1511827200
 
   const dealDamage = (attacker, defender, who) => {
     if (attacker.alive() && defender.alive()) {
