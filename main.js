@@ -30,7 +30,7 @@ let statistics = {
     'seen':0,
     'caught':0,
     'beaten':0,
-    'shinySeen':0,f
+    'shinySeen':0,
     'shinyCaught':0,
     'shinyBeaten':0,
     'totalDamage':0
