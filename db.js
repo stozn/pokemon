@@ -14358,7 +14358,7 @@ const POKEDEX = [
       ],
       "stats": [
          {
-            "catch rate": "3",
+            "catch rate": "45",
             "growth rate": "Slow",
             "hp": "105",
             "attack": "150",
@@ -32537,7 +32537,7 @@ const POKEDEX = [
       ],
       "stats": [
          {
-            "catch rate": "3",
+            "catch rate": "45",
             "growth rate": "Slow",
             "hp": "105",
             "attack": "180",
