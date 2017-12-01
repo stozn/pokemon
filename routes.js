@@ -2297,10 +2297,24 @@ const ROUTES = {
 },
 	Event: {
     event1: {
-      name: 'Old Rod'
-    , pokes: ['Magikarp'] 
-    , minLevel: 5
-    , maxLevel: 5
+      name: 'Ice'
+    , pokes: ['Regice'] 
+    , minLevel: 50
+    , maxLevel: 50
+    , unlocked: true
+    }
+    , event2: {
+      name: 'Steel'
+    , pokes: ['Registeel'] 
+    , minLevel: 50
+    , maxLevel: 50
+    , unlocked: true
+    }
+    , event3: {
+      name: 'Rock'
+    , pokes: ['Regirock'] 
+    , minLevel: 50
+    , maxLevel: 50
     , unlocked: true
     }
 	}
