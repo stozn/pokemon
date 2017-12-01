@@ -958,7 +958,7 @@ const ROUTES = {
     }
 	, special56: {
       name: 'Victory Road'
-    , pokes: ['Lairon', 'Hariyama', 'Medicham', 'Loudred', 'Makuhita', 'Lairon', 'Whismur', 'Aron', 'Sableye', 'Mawile']
+    , pokes: ['Lairon', 'Hariyama', 'Medicham', 'Loudred', 'Makuhita', 'Whismur', 'Aron', 'Sableye', 'Mawile']
     , minLevel: 36
     , maxLevel: 42
     , unlocked: true
