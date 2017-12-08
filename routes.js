@@ -2310,7 +2310,7 @@ const ROUTES = {
     , maxLevel: 50
     , unlocked: true
     }
-    event3: {
+    , event3: {
       name: 'Burst'
     , pokes: ['Blacephalon'] 
     , minLevel: 50
