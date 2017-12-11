@@ -2297,24 +2297,10 @@ const ROUTES = {
 },
 	Event: {
     event1: {
-      name: 'Adhesive'
-    , pokes: ['Poipole'] 
-    , minLevel: 50
-    , maxLevel: 50
-    , unlocked: true
-    }
-    , event2: {
-      name: 'Assembly'
-    , pokes: ['Stakataka'] 
-    , minLevel: 50
-    , maxLevel: 50
-    , unlocked: true
-    }
-    , event3: {
-      name: 'Burst'
-    , pokes: ['Blacephalon'] 
-    , minLevel: 50
-    , maxLevel: 50
+      name: 'Old Rod'
+    , pokes: ['Magikarp'] 
+    , minLevel: 5
+    , maxLevel: 5
     , unlocked: true
     }
 	}
