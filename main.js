@@ -675,7 +675,11 @@ const makePlayer = () => {
             return canHeal()
         }
         , hasPokemon: (pokemonName, shiny) => {
-            return typeof pokemons.find(function(obj){ return (this[0] == obj.pokeName() && this[1] == obj.shiny()); }, [pokemonName, shiny]) != 'undefined'
+            var allPokemon = pokemons;
+            if (storage.length > 0) {
+                allPokemon = allPokemon.concat(storage);
+            }
+            return typeof allPokemon.find(function(obj){ return (this[0] == obj.pokeName() && this[1] == obj.shiny()); }, [pokemonName, shiny]) != 'undefined'
         }
         , deletePoke: (index) => {
             if (index !== activePoke) {
