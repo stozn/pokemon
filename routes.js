@@ -2297,10 +2297,17 @@ const ROUTES = {
 },
 	Event: {
     event1: {
-      name: 'Old Rod'
-    , pokes: ['Magikarp'] 
-    , minLevel: 5
-    , maxLevel: 5
+      name: 'Cerulean Cave'
+    , pokes: ['Mewtwo'] 
+    , minLevel: 70
+    , maxLevel: 70
+    , unlocked: true
+    }
+   , event1: {
+      name: 'SAVE'
+    , pokes: ['Mew'] 
+    , minLevel: 7
+    , maxLevel: 7
     , unlocked: true
     }
 	}
