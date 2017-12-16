@@ -2303,7 +2303,7 @@ const ROUTES = {
     , maxLevel: 70
     , unlocked: true
     }
-   , event1: {
+   , event2: {
       name: 'SAVE'
     , pokes: ['Mew'] 
     , minLevel: 7
