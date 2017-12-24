@@ -2297,10 +2297,10 @@ const ROUTES = {
 },
 	Event: {
     event1: {
-      name: 'Special Fish'
-    , pokes: ['Magikarp'] 
-    , minLevel: 40
-    , maxLevel: 40
+      name: 'Christmas'
+    , pokes: ['Articuno', 'Regice', 'Kyurem'] 
+    , minLevel: 70
+    , maxLevel: 70
     , unlocked: true
     }
 	}
