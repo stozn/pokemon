@@ -2297,10 +2297,10 @@ const ROUTES = {
 },
 	Event: {
     event1: {
-      name: '2018 hype'
-    , pokes: ['M-Venusaur'] 
-    , minLevel: 100
-    , maxLevel: 100
+      name: 'Old rod'
+    , pokes: ['Magikarp'] 
+    , minLevel: 5
+    , maxLevel: 5
     , unlocked: true
     }
 	}
