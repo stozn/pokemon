@@ -2297,10 +2297,10 @@ const ROUTES = {
 },
 	Event: {
     event1: {
-      name: '#GoodAdviceRPA'
-    , pokes: ['Feraligatr'] 
-    , minLevel: 100
-    , maxLevel: 100
+      name: 'Old Rod'
+    , pokes: ['Magikarp'] 
+    , minLevel: 5
+    , maxLevel: 5
     , unlocked: true
     }
 	}
