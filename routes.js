@@ -2297,10 +2297,10 @@ const ROUTES = {
 },
 	Event: {
     event1: {
-      name: 'VEMINI'
-    , pokes: ['Poipole'] 
-    , minLevel: 40
-    , maxLevel: 40
+      name: 'Old Rod'
+    , pokes: ['Magikarp'] 
+    , minLevel: 20
+    , maxLevel: 20
     , unlocked: true
     }
 	}
