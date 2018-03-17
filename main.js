@@ -1217,8 +1217,8 @@ const makeCombatLoop = (enemy, player, dom) => {
       attackingTypes[1] && typeEffectiveness(attackingTypes[1], defendingTypes) || 0
      )
   }
-  const eventTimerActive = false
-  const eventTimerExpires = 1519948800
+  const eventTimerActive = true
+  const eventTimerExpires = 1521504000
 
 
   const dealDamage = (attacker, defender, who) => {
