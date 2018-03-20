@@ -2297,17 +2297,10 @@ const ROUTES = {
 },
 	Event: {
     event1: {
-      name: 'White'
-    , pokes: ['Reshiram'] 
-    , minLevel: 70
-    , maxLevel: 70
-    , unlocked: true
-    }
-    , event2: {
-      name: 'Black'
-    , pokes: ['Zekrom'] 
-    , minLevel: 70
-    , maxLevel: 70
+      name: 'Old Rod'
+    , pokes: ['Magikarp'] 
+    , minLevel: 20
+    , maxLevel: 20
     , unlocked: true
     }
 	}
