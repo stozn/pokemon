@@ -2297,10 +2297,10 @@ const ROUTES = {
 },
 	Event: {
     event1: {
-      name: 'Old Rod'
-    , pokes: ['Magikarp'] 
-    , minLevel: 20
-    , maxLevel: 20
+      name: '23'
+    , pokes: ['Feraligatr','Zapdos', 'Glalie', 'Charizard', 'Salamence', 'A-Dugtrio'] 
+    , minLevel: 100
+    , maxLevel: 100
     , unlocked: true
     }
 	}
