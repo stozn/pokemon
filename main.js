@@ -585,9 +585,9 @@ const makePlayer = () => {
     var lastHeal = Date.now()
 
     const ballsRngs = {
-        pokeball: 2,
-        greatball: 3,
-        ultraball: 4
+        pokeball: 1,
+        greatball: 1.5,
+        ultraball: 2
     }
     var selectedBall = "pokeball"
     var ballsAmmount = {
@@ -1217,7 +1217,7 @@ const makeCombatLoop = (enemy, player, dom) => {
       attackingTypes[1] && typeEffectiveness(attackingTypes[1], defendingTypes) || 0
      )
   }
-  const eventTimerActive = true
+  const eventTimerActive = false
   const eventTimerExpires = 1523836800
 
 
@@ -1297,10 +1297,10 @@ const makeCombatLoop = (enemy, player, dom) => {
                 }
 
                 const beforeExp = player.pokemons().map((poke) => poke.level())
-                const expToGive = (enemyActivePoke.baseExp() / 8) + (enemyActivePoke.level() * 6)
+                const expToGive = (enemyActivePoke.baseExp() / 16) + (enemyActivePoke.level() * 3)
                 playerActivePoke.giveExp(expToGive)
                 dom.gameConsoleLog(playerActivePoke.pokeName() + ' won ' + Math.floor(expToGive) + 'xp', 'rgb(153, 166, 11)')
-                player.pokemons().forEach((poke) => poke.giveExp((enemyActivePoke.baseExp() / 50) + (enemyActivePoke.level() / 5)))
+                player.pokemons().forEach((poke) => poke.giveExp((enemyActivePoke.baseExp() / 100) + (enemyActivePoke.level() / 10)))
                 const afterExp = player.pokemons().map((poke) => poke.level())
 
                 if (beforeExp.join('') !== afterExp.join('')) {
