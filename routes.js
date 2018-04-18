@@ -2298,9 +2298,9 @@ const ROUTES = {
 	Event: {
     event1: {
       name: 'Old Rod'
-    , pokes: ['Kyogre'] 
-    , minLevel: 70
-    , maxLevel: 70
+    , pokes: ['Magikarp'] 
+    , minLevel: 10
+    , maxLevel: 10
     , unlocked: true
     }
 	}
