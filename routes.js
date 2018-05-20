@@ -2297,10 +2297,10 @@ const ROUTES = {
 },
 	Event: {
     event1: {
-      name: 'Timeline 2.0X'
-    , pokes: ['Xurkitree'] 
-    , minLevel: 60
-    , maxLevel: 60
+      name: 'Old Rod'
+    , pokes: ['Magikarp'] 
+    , minLevel: 10
+    , maxLevel: 10
     , unlocked: true
     }
 	}
