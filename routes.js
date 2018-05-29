@@ -2296,12 +2296,26 @@ const ROUTES = {
     }
 },
 	Event: {
-    event1: {
-      name: 'Old Rod'
-    , pokes: ['Magikarp'] 
-    , minLevel: 10
-    , maxLevel: 10
+      event1: {
+      name: 'Pk Fire'
+    , pokes: ['Moltres'] 
+    , minLevel: 70
+    , maxLevel: 70
     , unlocked: true
     }
-	}
+    , event2: {
+      name: 'Pk Thunder'
+    , pokes: ['Zapdos'] 
+    , minLevel: 70
+    , maxLevel: 70
+    , unlocked: true
+    }
+    , event3: {
+      name: 'Pk Ice'
+    , pokes: ['Articuno'] 
+    , minLevel: 70
+    , maxLevel: 70
+    , unlocked: true
+    }
+}
 }
