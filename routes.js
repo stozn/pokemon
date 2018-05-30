@@ -2298,21 +2298,21 @@ const ROUTES = {
 	Event: {
       event1: {
       name: 'Pk Fire'
-    , pokes: ['Moltres'] 
+    , pokes: ['Magikarp'] 
     , minLevel: 70
     , maxLevel: 70
     , unlocked: true
     }
     , event2: {
       name: 'Pk Thunder'
-    , pokes: ['Zapdos'] 
+    , pokes: ['Magikarp'] 
     , minLevel: 70
     , maxLevel: 70
     , unlocked: true
     }
     , event3: {
       name: 'Pk Ice'
-    , pokes: ['Articuno'] 
+    , pokes: ['Magikarp'] 
     , minLevel: 70
     , maxLevel: 70
     , unlocked: true
