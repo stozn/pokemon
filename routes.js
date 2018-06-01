@@ -2297,22 +2297,22 @@ const ROUTES = {
 },
 	Event: {
       event1: {
-      name: 'Pk Fire'
-    , pokes: ['Magikarp'] 
+      name: 'Who let'
+    , pokes: ['Entei'] 
     , minLevel: 70
     , maxLevel: 70
     , unlocked: true
     }
     , event2: {
-      name: 'Pk Thunder'
-    , pokes: ['Magikarp'] 
+      name: 'the dogs (or felines)'
+    , pokes: ['Raikou'] 
     , minLevel: 70
     , maxLevel: 70
     , unlocked: true
     }
     , event3: {
-      name: 'Pk Ice'
-    , pokes: ['Magikarp'] 
+      name: 'out ? woof woof'
+    , pokes: ['Suicune'] 
     , minLevel: 70
     , maxLevel: 70
     , unlocked: true
