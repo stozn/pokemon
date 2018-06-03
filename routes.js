@@ -2298,21 +2298,21 @@ const ROUTES = {
 	Event: {
       event1: {
       name: 'Who let'
-    , pokes: ['Entei'] 
+    , pokes: ['Magikarp'] 
     , minLevel: 70
     , maxLevel: 70
     , unlocked: true
     }
     , event2: {
       name: 'the dogs (or felines)'
-    , pokes: ['Raikou'] 
+    , pokes: ['Magikarp'] 
     , minLevel: 70
     , maxLevel: 70
     , unlocked: true
     }
     , event3: {
       name: 'out ? woof woof'
-    , pokes: ['Suicune'] 
+    , pokes: ['Magikarp'] 
     , minLevel: 70
     , maxLevel: 70
     , unlocked: true
