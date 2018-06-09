@@ -2297,22 +2297,22 @@ const ROUTES = {
 },
 	Event: {
       event1: {
-      name: 'Who let'
-    , pokes: ['Magikarp'] 
+      name: 'Steel'
+    , pokes: ['Registeel'] 
     , minLevel: 70
     , maxLevel: 70
     , unlocked: true
     }
     , event2: {
-      name: 'the dogs (or felines)'
-    , pokes: ['Magikarp'] 
+      name: 'Rock'
+    , pokes: ['Regirock'] 
     , minLevel: 70
     , maxLevel: 70
     , unlocked: true
     }
     , event3: {
-      name: 'out ? woof woof'
-    , pokes: ['Magikarp'] 
+      name: 'Ice'
+    , pokes: ['Regice'] 
     , minLevel: 70
     , maxLevel: 70
     , unlocked: true
