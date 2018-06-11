@@ -2297,25 +2297,11 @@ const ROUTES = {
 },
 	Event: {
       event1: {
-      name: 'Steel'
-    , pokes: ['Registeel'] 
-    , minLevel: 70
-    , maxLevel: 70
+      name: 'Brand New Rod'
+    , pokes: ['Feebas'] 
+    , minLevel: 5
+    , maxLevel: 5
     , unlocked: true
-    }
-    , event2: {
-      name: 'Rock'
-    , pokes: ['Regirock'] 
-    , minLevel: 70
-    , maxLevel: 70
-    , unlocked: true
-    }
-    , event3: {
-      name: 'Ice'
-    , pokes: ['Regice'] 
-    , minLevel: 70
-    , maxLevel: 70
-    , unlocked: true
-    }
+    },
 }
 }
