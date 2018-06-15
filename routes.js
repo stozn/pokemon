@@ -2303,14 +2303,14 @@ const ROUTES = {
     , maxLevel: 50
     , unlocked: true
     }
-    , custom31: {
+    , event2: {
       name: 'M'
     , pokes: ['Mesprit'] 
     , minLevel: 50
     , maxLevel: 50
     , unlocked: true
     }
-    , custom32: {
+    , event3: {
       name: 'U'
     , pokes: ['UXie'] 
     , minLevel: 50
