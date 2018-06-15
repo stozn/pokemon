@@ -2297,11 +2297,25 @@ const ROUTES = {
 },
 	Event: {
       event1: {
-      name: 'Brand New Rod'
-    , pokes: ['Feebas'] 
-    , minLevel: 5
-    , maxLevel: 5
+      name: 'A'
+    , pokes: ['Azelf'] 
+    , minLevel: 50
+    , maxLevel: 50
     , unlocked: true
-    },
+    }
+    , custom31: {
+      name: 'M'
+    , pokes: ['Mesprit'] 
+    , minLevel: 50
+    , maxLevel: 50
+    , unlocked: true
+    }
+    , custom32: {
+      name: 'U'
+    , pokes: ['UXie'] 
+    , minLevel: 50
+    , maxLevel: 50
+    , unlocked: true
+    }	  
 }
 }
