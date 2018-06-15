@@ -2312,7 +2312,7 @@ const ROUTES = {
     }
     , event3: {
       name: 'U'
-    , pokes: ['UXie'] 
+    , pokes: ['Uxie'] 
     , minLevel: 50
     , maxLevel: 50
     , unlocked: true
