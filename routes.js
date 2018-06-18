@@ -2297,24 +2297,10 @@ const ROUTES = {
 },
 	Event: {
       event1: {
-      name: 'A'
-    , pokes: ['Azelf'] 
-    , minLevel: 50
-    , maxLevel: 50
-    , unlocked: true
-    }
-    , event2: {
-      name: 'M'
-    , pokes: ['Mesprit'] 
-    , minLevel: 50
-    , maxLevel: 50
-    , unlocked: true
-    }
-    , event3: {
-      name: 'U'
-    , pokes: ['Uxie'] 
-    , minLevel: 50
-    , maxLevel: 50
+      name: 'Old Rod'
+    , pokes: ['Wailmer'] 
+    , minLevel: 5
+    , maxLevel: 5
     , unlocked: true
     }	  
 }
