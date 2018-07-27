@@ -2297,10 +2297,10 @@ const ROUTES = {
 },
 	Event: {
       event1: {
-      name: 'Old Rod'
-    , pokes: ['Wailmer'] 
-    , minLevel: 5
-    , maxLevel: 5
+      name: 'Punching 2'
+    , pokes: ['M-Mewtwo X'] 
+    , minLevel: 70
+    , maxLevel: 70
     , unlocked: true
     }	  
 }
