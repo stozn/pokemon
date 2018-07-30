@@ -2297,10 +2297,10 @@ const ROUTES = {
 },
 	Event: {
       event1: {
-      name: 'Punching 2'
-    , pokes: ['M-Mewtwo X'] 
-    , minLevel: 70
-    , maxLevel: 70
+      name: 'Trolling Rod'
+    , pokes: ['Magikarp'] 
+    , minLevel: 1
+    , maxLevel: 100
     , unlocked: true
     }	  
 }
