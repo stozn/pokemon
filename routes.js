@@ -1380,7 +1380,7 @@ const ROUTES = {
     }
 	, special88: {
       name: 'Snowpoint Temple'
-    , pokes: ['Golbat', 'Sneasel', 'Onix', 'Graveler', 'Steelix', 'Smoochum', 'Jynx', 'Sneasel']
+    , pokes: ['Golbat', 'Sneasel', 'Onix', 'Graveler', 'Steelix', 'Smoochum', 'Jynx']
 	, minLevel: 47
     , maxLevel: 56
     , unlocked: true
