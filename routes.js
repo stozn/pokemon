@@ -2297,17 +2297,10 @@ const ROUTES = {
 },
 	Event: {
       event1: {
-      name: 'Mew v1'
-    , pokes: ['Mew'] 
-    , minLevel: 30
+      name: 'Old Rod'
+    , pokes: ['Magikarp'] 
+    , minLevel: 5
     , maxLevel: 30
-    , unlocked: true
-    }	
-     , event2: {
-      name: 'Mew v2'
-    , pokes: ['Mewtwo'] 
-    , minLevel: 70
-    , maxLevel: 70
     , unlocked: true
     }
 }
