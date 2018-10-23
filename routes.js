@@ -2297,8 +2297,8 @@ const ROUTES = {
 },
 	Event: {
       event1: {
-      name: 'Little Event'
-    , pokes: ['Charmander'] 
+      name: 'Old Rod'
+    , pokes: ['Magikarp'] 
     , minLevel: 5
     , maxLevel: 5
     , unlocked: true
