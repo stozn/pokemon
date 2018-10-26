@@ -2299,8 +2299,8 @@ const ROUTES = {
       event1: {
       name: 'UB-05 Glutton'
     , pokes: ['Guzzlord'] 
-    , minLevel: 5
-    , maxLevel: 5
+    , minLevel: 50
+    , maxLevel: 50
     , unlocked: true
     }
 }
