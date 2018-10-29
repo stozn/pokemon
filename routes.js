@@ -2297,10 +2297,10 @@ const ROUTES = {
 },
 	Event: {
       event1: {
-      name: 'UB-05 Glutton'
-    , pokes: ['Guzzlord'] 
-    , minLevel: 50
-    , maxLevel: 50
+      name: 'Old Rod'
+    , pokes: ['Magikarp'] 
+    , minLevel: 5
+    , maxLevel: 5
     , unlocked: true
     }
 }
