@@ -30263,7 +30263,44 @@ const POKEDEX = [
          }
       }
    },
-      {
+   {
+      "pokemon": [
+         {
+            "Pokemon": "Meltan"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "45",
+            "growth rate": "Slow",
+            "hp": "46",
+            "attack": "65",
+            "defense": "65",
+            "sp atk": "55",
+            "sp def": "35",
+            "speed": "34",
+            "types": [
+               "Steel"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "270"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/808.png",
+            "back": "sprites/back/808.png"
+         },
+         "shiny": {
+            "front": "sprites/s808.png",
+            "back": "sprites/back/s808.png"
+         }
+      }
+   },
+   {
       "pokemon": [
          {
             "Pokemon": "M-Venusaur"
