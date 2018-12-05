@@ -795,7 +795,7 @@ const makePlayer = () => {
                 try {
                     saveData = JSON.parse(saveData[1])
                 } catch (err) {
-                    alert('Failed to parse save data, loading canceled!')
+                    alert('无法解析存档数据，加载已取消!')
                     return;
                 }
                 pokemons = []
@@ -830,7 +830,7 @@ const makePlayer = () => {
                     player.reloadDexData(userSettings.dexVersion, gameVersion)
                 }
             } else {
-                alert('Invalid save data, loading canceled!')
+                alert('存档无效，加载已取消!')
             }
         }
         , ballRNG: (ballName) => {
@@ -932,7 +932,7 @@ const makeUserInteractions = (player, enemy, dom, combatLoop) => {
                 renderView(dom, enemy, player)
                 player.savePokes()
             } else {
-                alert('Hold shift while clicking the X to release a pokemon')
+                alert('按住Shift键的同时单击X释放口袋妖怪')
             }
         },
         deleteStorage: (event, index) => {
@@ -947,7 +947,7 @@ const makeUserInteractions = (player, enemy, dom, combatLoop) => {
                 renderView(dom, enemy, player)
                 player.savePokes()
             } else {
-                alert('Hold shift while clicking the X to release a pokemon')
+                alert('按住Shift键的同时单击X释放口袋妖怪')
             }
         },
         healAllPlayerPokemons: () => {
