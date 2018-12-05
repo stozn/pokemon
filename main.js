@@ -1173,13 +1173,13 @@ const makeUserInteractions = (player, enemy, dom, combatLoop) => {
         },
         viewStatistics: () => {
             let statisticStrings = {
-                'seen':'Pokemon Seen',
-                'caught':'Pokemon Caught',
-                'beaten':'Pokemon Beaten',
-                'shinySeen':'Shiny Pokemon Seen',
-                'shinyCaught':'Shiny Pokemon Caught',
-                'shinyBeaten':'Shiny Pokemon Beaten',
-                'totalDamage':'Total Damage Dealt'
+                'seen':'发现的口袋妖怪',
+                'caught':'抓到的口袋妖怪',
+                'beaten':'打败的口袋妖怪',
+                'shinySeen':'发现的闪亮口袋妖怪',
+                'shinyCaught':'抓到的闪亮口袋妖怪',
+                'shinyBeaten':'打败的闪亮口袋妖怪',
+                'totalDamage':'总计造成的伤害'
             }
             let statList = '';
             for (let statValue in statistics) {
