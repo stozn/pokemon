@@ -74,9 +74,9 @@ const makeDomHandler = () => {
         face = face || 'front'
         const pokeStatusAsText = (poke) => {
             var output = ''
-            output += 'Attack Speed: ' + poke.attackSpeed()/1000 + '<br>'
-            output += '\nAttack: ' + poke.avgAttack() + '<br>'
-            output += '\nDefense: ' + poke.avgDefense() + '<br>'
+            output += '攻击速度: ' + poke.attackSpeed()/1000 + '<br>'
+            output += '\n攻击力: ' + poke.avgAttack() + '<br>'
+            output += '\n防御: ' + poke.avgDefense() + '<br>'
             return output
         }
         const containerCssQuery = '.container.poke' + '#' + id
@@ -127,7 +127,7 @@ const makeDomHandler = () => {
             renderView(dom, enemy, player)
         }
         if (typeof canHeal === 'number') {
-            setValue(healElement, 'Heal: ' + Math.floor(((canHeal/30000)*100)) + '%')
+            setValue(healElement, '治疗: ' + Math.floor(((canHeal/30000)*100)) + '%')
         }
     }
     const pokeColor = (poke) => {
@@ -1119,7 +1119,7 @@ const makeUserInteractions = (player, enemy, dom, combatLoop) => {
             renderView(dom, enemy, player)
         },
         exportSaveDialog: () => {
-            document.getElementById('saveDialogTitle').innerHTML = 'Export your save'
+            document.getElementById('saveDialogTitle').innerHTML = '导出存档'
             if (document.queryCommandSupported('copy')) {
                 document.getElementById('copySaveText').style.display = 'initial'
             }
@@ -1128,14 +1128,14 @@ const makeUserInteractions = (player, enemy, dom, combatLoop) => {
             document.getElementById('saveDialogContainer').style.display = 'block'
         },
         importSaveDialog: () => {
-            document.getElementById('saveDialogTitle').innerHTML = 'Import a save'
+            document.getElementById('saveDialogTitle').innerHTML = '导入存档'
             document.getElementById('copySaveText').style.display = 'none'
             document.getElementById('saveText').value = ''
             document.getElementById('loadButtonContainer').style.display = 'block'
             document.getElementById('saveDialogContainer').style.display = 'block'
         },
         importSave: () => {
-            if (window.confirm('Loading a save will overwrite your current progress, are you sure you wish to continue?')) {
+            if (window.confirm('导入存档将覆盖您当前的进度，您确定要继续吗？')) {
                 player.loadFromString(document.getElementById('saveText').value.trim())
                 document.getElementById('saveDialogContainer').style.display = 'none'
                 renderView(dom, enemy, player)
@@ -1227,13 +1227,13 @@ const makeCombatLoop = (enemy, player, dom) => {
       const damage = defender.takeDamage(attacker.avgAttack() * damageMultiplier)
       if (who === 'player') {
         dom.attackAnimation('playerImg', 'right')
-        dom.gameConsoleLog(attacker.pokeName() + ' Attacked for ' + damage, 'green')
+        dom.gameConsoleLog(attacker.pokeName() + ' 给对方造成了 ' + damage +' 伤害', 'green')
         statistics.totalDamage += damage
         playerTimer()
       }
       if (who === 'enemy') {
         dom.attackAnimation('enemyImg', 'left')
-        dom.gameConsoleLog(attacker.pokeName() + ' Attacked for ' + damage, 'rgb(207, 103, 59)')
+        dom.gameConsoleLog(attacker.pokeName() + ' 对你造成了 ' + damage +' 伤害', 'rgb(207, 103, 59)')
         enemyTimer()
       }
 
@@ -1255,7 +1255,7 @@ const makeCombatLoop = (enemy, player, dom) => {
                     statistics.beaten++;
                 }
                 if (catchEnabled == 'all' || (catchEnabled == 'new' && !player.hasPokemon(enemy.activePoke().pokeName(), 0)) || enemy.activePoke().shiny()) {
-                    dom.gameConsoleLog('Trying to catch ' + enemy.activePoke().pokeName() + '...', 'purple')
+                    dom.gameConsoleLog('尝试捕捉 ' + enemy.activePoke().pokeName() + '...', 'purple')
                     const selectedBall = (enemy.activePoke().shiny() ? player.bestAvailableBall() : player.selectedBall())
                     if (player.consumeBall(selectedBall)) {
                         dom.renderBalls(player.ballsAmmount())
@@ -1265,7 +1265,7 @@ const makeCombatLoop = (enemy, player, dom) => {
                                 , (enemy.activePoke().catchRate() * player.ballRNG(selectedBall)) / 3
                             )
                         if (rngHappened) {
-                            dom.gameConsoleLog('You caught ' + enemy.activePoke().pokeName() + '!!', 'purple')
+                            dom.gameConsoleLog('你抓到了 ' + enemy.activePoke().pokeName() + '!!', 'purple')
                             player.addPokedex(enemy.activePoke().pokeName(), (enemy.activePoke().shiny() ? 8 : 6))
                             if (enemy.activePoke().shiny()) {
                                 statistics.shinyCaught++;
@@ -1274,7 +1274,7 @@ const makeCombatLoop = (enemy, player, dom) => {
                             }
                             renderView(dom, enemy, player)
                         } else {
-                            dom.gameConsoleLog(enemy.activePoke().pokeName() + ' escaped!!', 'purple')
+                            dom.gameConsoleLog(enemy.activePoke().pokeName() + ' 逃跑了!!', 'purple')
                         }
                     }
                 }
@@ -1291,14 +1291,14 @@ const makeCombatLoop = (enemy, player, dom) => {
                         , 10
                     )
                 if (rngHappened2) {
-                    dom.gameConsoleLog('You found ' + ballsAmmount + ' ' + ballName + 's!!', 'purple')
+                    dom.gameConsoleLog('你找到了 ' + ballsAmmount + ' ' + ballName + '!!', 'purple')
                     dom.renderBalls(player.ballsAmmount())
                 }
 
                 const beforeExp = player.pokemons().map((poke) => poke.level())
                 const expToGive = (enemyActivePoke.baseExp() / 16) + (enemyActivePoke.level() * 3)
                 playerActivePoke.giveExp(expToGive)
-                dom.gameConsoleLog(playerActivePoke.pokeName() + ' won ' + Math.floor(expToGive) + 'xp', 'rgb(153, 166, 11)')
+                dom.gameConsoleLog(playerActivePoke.pokeName() + ' 赢得了 ' + Math.floor(expToGive) + '经验', 'rgb(153, 166, 11)')
                 player.pokemons().forEach((poke) => poke.giveExp((enemyActivePoke.baseExp() / 100) + (enemyActivePoke.level() / 10)))
                 const afterExp = player.pokemons().map((poke) => poke.level())
 
@@ -1324,7 +1324,7 @@ const makeCombatLoop = (enemy, player, dom) => {
                     dom.renderPokeDex('playerPokes', player.pokedexData())
                 }
             } else {
-                dom.gameConsoleLog(playerActivePoke.pokeName() + ' Fainted! ')
+                dom.gameConsoleLog(playerActivePoke.pokeName() + ' 昏迷了! ')
                 const playerLivePokesIndexes = player.pokemons().filter((poke, index) => {
                     if (poke.alive()) {
                         return true
@@ -1333,7 +1333,7 @@ const makeCombatLoop = (enemy, player, dom) => {
                 if (playerLivePokesIndexes.length > 0) {
                     player.setActive(player.pokemons().indexOf(playerLivePokesIndexes[0]))
                     playerActivePoke = player.activePoke()
-                    dom.gameConsoleLog('Go ' + playerActivePoke.pokeName() + '!')
+                    dom.gameConsoleLog('前往 ' + playerActivePoke.pokeName() + '!')
                     refresh()
                 }
                 dom.renderPokeList('playerPokes', player.pokemons(), player, '#enableDelete')
