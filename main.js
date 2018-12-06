@@ -89,7 +89,7 @@ const makeDomHandler = () => {
             , expBar: container.querySelector('.expBar')
             , status: container.querySelector('.status')
         }
-        setValue(domElements.name, poke.pokeName() + ' (' + poke.level() + ')')
+        setValue(domElements.name, cnText(poke.pokeName()) + ' (' + poke.level() + ')')
         setProp(domElements.img, 'src', poke.image()[face])
         setValue(domElements.hp, poke.lifeAsText())
         setProp(domElements.hpBar, 'value', poke.life.current())
@@ -113,7 +113,7 @@ const makeDomHandler = () => {
                 (userSettings.dexView == 'owned' && (dexEntry.flag >= 3)) ||
                 (userSettings.dexView == 'missing' && (dexEntry.flag != 6 && dexEntry.flag != 8)) ||
                 (userSettings.dexView == 'shiny' && (dexEntry.flag == 8))) {
-                listValue += '<li class="pokeDex' + dexEntry.flag + '">' + (y + 1) + ' ' + POKEDEX[y].pokemon[0].Pokemon + '</li>';
+                listValue += '<li class="pokeDex' + dexEntry.flag + '">' + (y + 1) + ' ' + cnText(POKEDEX[y].pokemon[0].Pokemon) + '</li>';
             }
         }
         setValue(listElement, listValue, false)
@@ -160,7 +160,7 @@ const makeDomHandler = () => {
             const listItemElement = listElement.querySelector('#storagePoke' + index);
             if (listItemElement) {
                 const listItemNameElement = listItemElement.querySelector('.pokeListName')
-                listItemNameElement.innerHTML = `${poke.pokeName()} (${poke.level()})`
+                listItemNameElement.innerHTML =cnText(`${poke.pokeName()}`) `(${poke.level()})`
                 listItemNameElement.style.color = pokeColor(poke)
             } else {
                 const deleteButton = `<a href="#"
@@ -210,8 +210,8 @@ const makeDomHandler = () => {
               href="#"
               style="color: ${pokeColor(poke)}"
               class="pokeListName"
-            >
-              ${poke.pokeName()} (${poke.level()})
+            >`
+              cnText(`${poke.pokeName()}`) `(${poke.level()})
             </a>
             <br>` +
                     upButton +
@@ -242,7 +242,7 @@ const makeDomHandler = () => {
             const listItemElement = listElement.querySelector('#listPoke' + index);
             if (listItemElement) {
                 const listItemNameElement = listItemElement.querySelector('.pokeListName')
-                listItemNameElement.innerHTML = `${poke.pokeName()} (${poke.level()})`
+                listItemNameElement.innerHTML = cnText(`${poke.pokeName()}`) + `(${poke.level()})`
                 listItemNameElement.style.color = pokeColor(poke)
                 listItemNameElement.className = 'pokeListName'
                     + (poke === player.activePoke() ? ' activePoke' : '')
@@ -303,8 +303,8 @@ const makeDomHandler = () => {
               onclick="userInteractions.changePokemon(${index})"
               style="color: ${pokeColor(poke)}"
               class="pokeListName"
-            >
-              ${poke.pokeName()} (${poke.level()})
+            >'
+              cnText('${poke.pokeName()}') '(${poke.level()})
             </a>
             <br>` +
                     upButton +
@@ -1227,13 +1227,13 @@ const makeCombatLoop = (enemy, player, dom) => {
       const damage = defender.takeDamage(attacker.avgAttack() * damageMultiplier)
       if (who === 'player') {
         dom.attackAnimation('playerImg', 'right')
-        dom.gameConsoleLog(attacker.pokeName() + ' 给对方造成了 ' + damage +' 伤害', 'green')
+        dom.gameConsoleLog(cnText(attacker.pokeName()) + ' 给对方造成了 ' + damage +' 伤害', 'green')
         statistics.totalDamage += damage
         playerTimer()
       }
       if (who === 'enemy') {
         dom.attackAnimation('enemyImg', 'left')
-        dom.gameConsoleLog(attacker.pokeName() + ' 对你造成了 ' + damage +' 伤害', 'rgb(207, 103, 59)')
+        dom.gameConsoleLog(cnText(attacker.pokeName()) + ' 对你造成了 ' + damage +' 伤害', 'rgb(207, 103, 59)')
         enemyTimer()
       }
 
@@ -1255,7 +1255,7 @@ const makeCombatLoop = (enemy, player, dom) => {
                     statistics.beaten++;
                 }
                 if (catchEnabled == 'all' || (catchEnabled == 'new' && !player.hasPokemon(enemy.activePoke().pokeName(), 0)) || enemy.activePoke().shiny()) {
-                    dom.gameConsoleLog('尝试捕捉 ' + enemy.activePoke().pokeName() + '...', 'purple')
+                    dom.gameConsoleLog('尝试捕捉 ' + cnText(enemy.activePoke().pokeName()) + '...', 'purple')
                     const selectedBall = (enemy.activePoke().shiny() ? player.bestAvailableBall() : player.selectedBall())
                     if (player.consumeBall(selectedBall)) {
                         dom.renderBalls(player.ballsAmmount())
@@ -1265,7 +1265,7 @@ const makeCombatLoop = (enemy, player, dom) => {
                                 , (enemy.activePoke().catchRate() * player.ballRNG(selectedBall)) / 3
                             )
                         if (rngHappened) {
-                            dom.gameConsoleLog('你抓到了 ' + enemy.activePoke().pokeName() + '!!', 'purple')
+                            dom.gameConsoleLog('你抓到了 ' + cnText(enemy.activePoke().pokeName()) + '!!', 'purple')
                             player.addPokedex(enemy.activePoke().pokeName(), (enemy.activePoke().shiny() ? 8 : 6))
                             if (enemy.activePoke().shiny()) {
                                 statistics.shinyCaught++;
@@ -1274,7 +1274,7 @@ const makeCombatLoop = (enemy, player, dom) => {
                             }
                             renderView(dom, enemy, player)
                         } else {
-                            dom.gameConsoleLog(enemy.activePoke().pokeName() + ' 逃跑了!!', 'purple')
+                            dom.gameConsoleLog(cnText(enemy.activePoke().pokeName()) + ' 逃跑了!!', 'purple')
                         }
                     }
                 }
@@ -1291,14 +1291,14 @@ const makeCombatLoop = (enemy, player, dom) => {
                         , 10
                     )
                 if (rngHappened2) {
-                    dom.gameConsoleLog('你找到了 ' + ballsAmmount + ' ' + ballName + '!!', 'purple')
+                    dom.gameConsoleLog('你找到了 ' + ballsAmmount + ' ' + cnText(ballName) + '!!', 'purple')
                     dom.renderBalls(player.ballsAmmount())
                 }
 
                 const beforeExp = player.pokemons().map((poke) => poke.level())
                 const expToGive = (enemyActivePoke.baseExp() / 16) + (enemyActivePoke.level() * 3)
                 playerActivePoke.giveExp(expToGive)
-                dom.gameConsoleLog(playerActivePoke.pokeName() + ' 赢得了 ' + Math.floor(expToGive) + '经验', 'rgb(153, 166, 11)')
+                dom.gameConsoleLog(cnText(playerActivePoke.pokeName()) + ' 赢得了 ' + Math.floor(expToGive) + '经验', 'rgb(153, 166, 11)')
                 player.pokemons().forEach((poke) => poke.giveExp((enemyActivePoke.baseExp() / 100) + (enemyActivePoke.level() / 10)))
                 const afterExp = player.pokemons().map((poke) => poke.level())
 
@@ -1324,7 +1324,7 @@ const makeCombatLoop = (enemy, player, dom) => {
                     dom.renderPokeDex('playerPokes', player.pokedexData())
                 }
             } else {
-                dom.gameConsoleLog(playerActivePoke.pokeName() + ' 昏迷了! ')
+                dom.gameConsoleLog(cnText(playerActivePoke.pokeName()) + ' 昏迷了! ')
                 const playerLivePokesIndexes = player.pokemons().filter((poke, index) => {
                     if (poke.alive()) {
                         return true
@@ -1413,3 +1413,288 @@ requestAnimationFrame(function renderTime() {
     dom.renderHeal(player.canHeal())
     requestAnimationFrame(renderTime)
 })
+
+//汉化xx
+function cnText(text){
+    var cntext="";
+    var temp=text;
+    if(temp=="Bulbasaur"){
+        cntext="妙蛙种子"
+    }else if(temp=="Ivysaur"){
+        cntext="妙蛙草"
+    }else if(temp=="Venusaur"){
+        cntext="妙蛙花"
+    }else if(temp=="Charmander"){
+        cntext="小火龙"
+    }else if(temp=="Charmeleon"){
+        cntext="火恐龙"
+    }else if(temp=="Charizard"){
+        cntext="喷火龙"
+    }else if(temp=="Squirtle"){
+        cntext="杰尼龟"
+    }else if(temp=="Wartortle"){
+        cntext="卡咪龟"
+    }else if(temp=="Blastoise"){
+        cntext="水箭龟"
+    }else if(temp==""){
+        cntext=""
+    }else if(temp=="pokeball"){
+        cntext="精灵球"
+    }else if(temp=="greatball"){
+        cntext="超级球"
+    }else if(temp=="ultraball"){
+        cntext="高级球"
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else{
+//console.log("需汉化的英文："+text);
+        return text;
+    }
+    return cntext;
+}
