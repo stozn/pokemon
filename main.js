@@ -293,7 +293,7 @@ const makeDomHandler = () => {
             onclick="userInteractions.moveToStorage('${index}')"
             class="pokeFirstButton"
           >
-            PC
+            入库
           </button>`
 
                 listElementsToAdd += `<li id="listPoke${index}">` +
