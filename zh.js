@@ -27,36 +27,36 @@ function cnText(text){
         cntext="卡咪龟"
     }else if(temp=="Blastoise"){
         cntext="水箭龟"
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
+    }else if(temp=="Caterpie"){
+        cntext="绿毛虫"
+    }else if(temp=="Metapod"){
+        cntext="铁甲蛹"
+    }else if(temp=="Butterfree"){
+        cntext="巴大蝶"
+    }else if(temp=="Weedle"){
+        cntext="独角虫"
+    }else if(temp=="Kakuna"){
+        cntext="铁壳蛹"
+    }else if(temp=="Beedrill"){
+        cntext="大针蜂"
+    }else if(temp=="Pidgey"){
+        cntext="波波"
+    }else if(temp=="Pidgeotto"){
+        cntext="比比鸟"
+    }else if(temp=="Pidgeot"){
+        cntext="大比鸟"
+    }else if(temp=="Rattata"){
+        cntext="小拉达"
+    }else if(temp=="Raticate"){
+        cntext="拉达"
+    }else if(temp=="Spearow"){
+        cntext="烈雀"
+    }else if(temp=="Fearow"){
+        cntext="大嘴雀"
+    }else if(temp=="Ekans"){
+        cntext="阿柏蛇"
+    }else if(temp=="Arbok"){
+        cntext="阿柏怪"
     }else if(temp==""){
         cntext=""
     }else if(temp==""){

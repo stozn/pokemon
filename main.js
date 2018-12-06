@@ -160,7 +160,7 @@ const makeDomHandler = () => {
             const listItemElement = listElement.querySelector('#storagePoke' + index);
             if (listItemElement) {
                 const listItemNameElement = listItemElement.querySelector('.pokeListName')
-                listItemNameElement.innerHTML =cnText(`${poke.pokeName()}`) `(${poke.level()})`
+                listItemNameElement.innerHTML =cnText(`${poke.pokeName()}`)+`(${poke.level()})`
                 listItemNameElement.style.color = pokeColor(poke)
             } else {
                 const deleteButton = `<a href="#"
