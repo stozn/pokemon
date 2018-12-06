@@ -211,7 +211,7 @@ const makeDomHandler = () => {
               style="color: ${pokeColor(poke)}"
               class="pokeListName"
             >`+
-              cnText(`${poke.pokeName()}`) `(${poke.level()})
+              cnText(`${poke.pokeName()}`) + `(${poke.level()})
             </a>
             <br>` +
                     upButton +
