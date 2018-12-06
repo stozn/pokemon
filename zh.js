@@ -57,66 +57,66 @@ function cnText(text){
         cntext="阿柏蛇"
     }else if(temp=="Arbok"){
         cntext="阿柏怪"
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
+    }else if(temp=="Pikachu"){
+        cntext="皮卡丘"
+    }else if(temp=="Raichu"){
+        cntext="雷丘"
+    }else if(temp=="Sandshrew"){
+        cntext="穿山鼠"
+    }else if(temp=="Sandslash"){
+        cntext="穿山王"
+    }else if(temp=="Nidoran"){
+        cntext="尼多兰"
+    }else if(temp=="Nidorina"){
+        cntext="尼多娜"
+    }else if(temp=="Nidoqueen"){
+        cntext="尼多后"
+    }else if(temp=="Nidoran"){
+        cntext="尼多朗"
+    }else if(temp=="Nidorino"){
+        cntext="尼多力诺"
+    }else if(temp=="Nidoking"){
+        cntext="尼多王"
+    }else if(temp=="Clefairy"){
+        cntext="皮皮"
+    }else if(temp=="Clefable"){
+        cntext="皮可西"
+    }else if(temp=="Vulpix"){
+        cntext="六尾"
+    }else if(temp=="Ninetales"){
+        cntext="九尾"
+    }else if(temp=="Jigglypuff"){
+        cntext="胖丁"
+    }else if(temp=="Wigglytuff"){
+        cntext="胖可丁"
+    }else if(temp=="Zubat"){
+        cntext="超音蝠"
+    }else if(temp=="Golbat"){
+        cntext="大嘴蝠"
+    }else if(temp=="Oddish"){
+        cntext="走路草"
+    }else if(temp=="Gloom"){
+        cntext="臭臭花"
+    }else if(temp=="Vileplume"){
+        cntext="霸王花"
+    }else if(temp=="Paras"){
+        cntext="派拉斯"
+    }else if(temp=="Parasect"){
+        cntext="派拉斯特"
+    }else if(temp=="Venonat"){
+        cntext="毛球"
+    }else if(temp=="Venomoth"){
+        cntext="摩鲁蛾"
+    }else if(temp=="Diglett"){
+        cntext="地鼠"
+    }else if(temp=="Dugtrio"){
+        cntext="三地鼠"
+    }else if(temp=="Meowth"){
+        cntext="喵喵"
+    }else if(temp=="Persian"){
+        cntext="猫老大"
+    }else if(temp=="Psyduck"){
+        cntext="可达鸭"
     }else if(temp==""){
         cntext=""
     }else if(temp==""){
