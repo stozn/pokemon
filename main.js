@@ -201,7 +201,7 @@ const makeDomHandler = () => {
             onclick="userInteractions.moveToRoster(${index})"
             class="pokeFirstButton"
           >
-            Roster
+            名册
           </button>`
 
                 listElementsToAdd += `<li id="storagePoke${index}">` +
@@ -286,7 +286,7 @@ const makeDomHandler = () => {
             onclick="userInteractions.evolvePokemon('${index}')"
             class="pokeEvolveButton"
           >
-            Evolve
+            进化
           </button>`
 
                 const storageButton = `<button href="#"
