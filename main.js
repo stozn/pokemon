@@ -210,7 +210,7 @@ const makeDomHandler = () => {
               href="#"
               style="color: ${pokeColor(poke)}"
               class="pokeListName"
-            >`
+            >`+
               cnText(`${poke.pokeName()}`) `(${poke.level()})
             </a>
             <br>` +
