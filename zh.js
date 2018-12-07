@@ -657,26 +657,26 @@ function cnText(text){
         cntext="毽子棉"
     }else if(temp=="Aipom"){
         cntext="长尾怪手"
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
+    }else if(temp=="Sunkern"){
+        cntext="向日种子"
+    }else if(temp=="Sunflora"){
+        cntext="向日花怪"
+    }else if(temp=="Yanma"){
+        cntext="蜻蜻蜓"
+    }else if(temp=="Wooper"){
+        cntext="乌波"
+    }else if(temp=="Quagsire"){
+        cntext="沼王"
+    }else if(temp=="Espeon"){
+        cntext="太阳伊布"
+    }else if(temp=="Umbreon"){
+        cntext="月亮伊布"
+    }else if(temp=="Murkrow"){
+        cntext="黑暗鸦"
+    }else if(temp=="Slowking"){
+        cntext="呆呆王"
+    }else if(temp=="Misdreavus"){
+        cntext="梦妖"
     }else if(temp==""){
         cntext=""
     }else if(temp==""){
