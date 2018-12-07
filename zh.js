@@ -677,46 +677,46 @@ function cnText(text){
         cntext="呆呆王"
     }else if(temp=="Misdreavus"){
         cntext="梦妖"
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
+    }else if(temp=="Unown"){
+        cntext="未知图腾"
+    }else if(temp=="Wobbuffet"){
+        cntext="果然翁"
+    }else if(temp=="Girafarig"){
+        cntext="麒麟奇"
+    }else if(temp=="Pineco"){
+        cntext="榛果球"
+    }else if(temp=="Forretress"){
+        cntext="佛烈托斯"
+    }else if(temp=="Dunsparce"){
+        cntext="土龙弟弟"
+    }else if(temp=="Gligar"){
+        cntext="天蝎"
+    }else if(temp=="Steelix"){
+        cntext="大钢蛇"
+    }else if(temp=="Snubbull"){
+        cntext="布鲁"
+    }else if(temp=="Granbull"){
+        cntext="布鲁皇"
+    }else if(temp=="Qwilfish"){
+        cntext="千针鱼"
+    }else if(temp=="Scizor"){
+        cntext="巨钳螳螂"
+    }else if(temp=="Shuckle"){
+        cntext="壶壶"
+    }else if(temp=="Heracross"){
+        cntext="赫拉克罗斯"
+    }else if(temp=="Sneasel"){
+        cntext="狃拉"
+    }else if(temp=="Teddiursa"){
+        cntext="熊宝宝"
+    }else if(temp=="Ursaring"){
+        cntext="圈圈熊"
+    }else if(temp=="Slugma"){
+        cntext="熔岩虫"
+    }else if(temp=="Magcargo"){
+        cntext="熔岩蜗牛"
+    }else if(temp=="Swinub"){
+        cntext="小山猪"
     }else if(temp==""){
         cntext=""
     }else if(temp==""){
