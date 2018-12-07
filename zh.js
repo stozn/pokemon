@@ -717,68 +717,68 @@ function cnText(text){
         cntext="熔岩蜗牛"
     }else if(temp=="Swinub"){
         cntext="小山猪"
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
+    }else if(temp=="Piloswine"){
+        cntext="长毛猪"
+    }else if(temp=="Corsola"){
+        cntext="太阳珊瑚"
+    }else if(temp=="Remoraid"){
+        cntext="铁炮鱼"
+    }else if(temp=="Octillery"){
+        cntext="章鱼桶"
+    }else if(temp=="Delibird"){
+        cntext="信使鸟"
+    }else if(temp=="Mantine"){
+        cntext="巨翅飞鱼"
+    }else if(temp=="Skarmory"){
+        cntext="盔甲鸟"
+    }else if(temp=="Houndour"){
+        cntext="戴鲁比"
+    }else if(temp=="Houndoom"){
+        cntext="黑鲁加"
+    }else if(temp=="Kingdra"){
+        cntext="刺龙王"
+    }else if(temp=="Phanpy"){
+        cntext="小小象"
+    }else if(temp=="Donphan"){
+        cntext="顿甲"
+    }else if(temp=="Porygon2"){
+        cntext="多边兽Ⅱ"
+    }else if(temp=="Stantler"){
+        cntext="惊角鹿"
+    }else if(temp=="Smeargle"){
+        cntext="图图犬"
+    }else if(temp=="Tyrogue"){
+        cntext="无畏小子"
+    }else if(temp=="Hitmontop"){
+        cntext="战舞郎"
+    }else if(temp=="Smoochum"){
+        cntext="迷唇娃"
+    }else if(temp=="Elekid"){
+        cntext="电击怪"
+    }else if(temp=="Magby"){
+        cntext="鸭嘴宝宝"
+    }else if(temp=="Miltank"){
+        cntext="大奶罐"
+    }else if(temp=="Blissey"){
+        cntext="幸福蛋"
+    }else if(temp=="Raikou"){
+        cntext="雷公"
+    }else if(temp=="Entei"){
+        cntext="炎帝"
+    }else if(temp=="Suicune"){
+        cntext="水君"
+    }else if(temp=="Larvitar"){
+        cntext="幼基拉斯"
+    }else if(temp=="Pupitar"){
+        cntext="沙基拉斯"
+    }else if(temp=="Tyranitar"){
+        cntext="班基拉斯"
+    }else if(temp=="Lugia"){
+        cntext="洛奇亚"
+    }else if(temp=="Ho-Oh"){
+        cntext="凤王"
+    }else if(temp=="Celebi"){
+        cntext="时拉比"
     }else if(temp==""){
         cntext=""
     }else if(temp==""){
