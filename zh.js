@@ -349,26 +349,26 @@ function cnText(text){
         cntext="叉字蝠"
     }else if(temp=="Chinchou"){
         cntext="灯笼鱼"
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
+    }else if(temp=="Lanturn"){
+        cntext="电灯怪"
+    }else if(temp=="Pichu"){
+        cntext="皮丘"
+    }else if(temp=="Cleffa"){
+        cntext="皮宝宝"
+    }else if(temp=="Igglybuff"){
+        cntext="宝宝丁"
+    }else if(temp=="Togepi"){
+        cntext="波克比"
+    }else if(temp=="Togetic"){
+        cntext="波克基古"
+    }else if(temp=="Natu"){
+        cntext="天然雀"
+    }else if(temp=="Xatu"){
+        cntext="天然鸟"
+    }else if(temp=="Mareep"){
+        cntext="咩利羊"
+    }else if(temp=="Flaaffy"){
+        cntext="茸茸羊"
     }else if(temp==""){
         cntext=""
     }else if(temp==""){
