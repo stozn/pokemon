@@ -117,98 +117,98 @@ function cnText(text){
         cntext="猫老大"
     }else if(temp=="Psyduck"){
         cntext="可达鸭"
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
+    }else if(temp=="Golduck"){
+        cntext="哥达鸭"
+    }else if(temp=="Mankey"){
+        cntext="猴怪"
+    }else if(temp=="Primeape"){
+        cntext="火暴猴"
+    }else if(temp=="Growlithe"){
+        cntext="卡蒂狗"
+    }else if(temp=="Arcanine"){
+        cntext="风速狗"
+    }else if(temp=="Poliwag"){
+        cntext="蚊香蝌蚪"
+    }else if(temp=="Poliwhirl"){
+        cntext="蚊香君"
+    }else if(temp=="Poliwrath"){
+        cntext="蚊香泳士"
+    }else if(temp=="Abra"){
+        cntext="凯西"
+    }else if(temp=="Kadabra"){
+        cntext="勇基拉"
+    }else if(temp=="Alakazam"){
+        cntext="胡地"
+    }else if(temp=="Machop"){
+        cntext="腕力"
+    }else if(temp=="Machoke"){
+        cntext="豪力"
+    }else if(temp=="Machamp"){
+        cntext="怪力"
+    }else if(temp=="Bellsprout"){
+        cntext="喇叭芽"
+    }else if(temp=="Weepinbell"){
+        cntext="口呆花"
+    }else if(temp=="Victreebel"){
+        cntext="大食花"
+    }else if(temp=="Tentacool"){
+        cntext="玛瑙水母"
+    }else if(temp=="Tentacruel"){
+        cntext="毒刺水母"
+    }else if(temp=="Geodude"){
+        cntext="小拳石"
+    }else if(temp=="Graveler"){
+        cntext="隆隆石"
+    }else if(temp=="Golem"){
+        cntext="隆隆岩"
+    }else if(temp=="Ponyta"){
+        cntext="小火马"
+    }else if(temp=="Rapidash"){
+        cntext="烈焰马"
+    }else if(temp=="Slowpoke"){
+        cntext="呆呆兽"
+    }else if(temp=="Slowbro"){
+        cntext="呆壳兽"
+    }else if(temp=="Magnemite"){
+        cntext="小磁怪"
+    }else if(temp=="Magneton"){
+        cntext="三合一磁怪"
+    }else if(temp=="Farfetchd"){
+        cntext="大葱鸭"
+    }else if(temp=="Doduo"){
+        cntext="嘟嘟"
+    }else if(temp=="Dodrio"){
+        cntext="嘟嘟利"
+    }else if(temp=="Seel"){
+        cntext="小海狮"
+    }else if(temp=="Dewgong"){
+        cntext="白海狮"
+    }else if(temp=="Grimer"){
+        cntext="臭泥"
+    }else if(temp=="Muk"){
+        cntext="臭臭泥"
+    }else if(temp=="Shellder"){
+        cntext="大舌贝"
+    }else if(temp=="Cloyster"){
+        cntext="刺甲贝"
+    }else if(temp=="Gastly"){
+        cntext="鬼斯"
+    }else if(temp=="Haunter"){
+        cntext="鬼斯通"
+    }else if(temp=="Gengar"){
+        cntext="耿鬼"
+    }else if(temp=="Onix"){
+        cntext="大岩蛇"
+    }else if(temp=="Drowzee"){
+        cntext="催眠貘"
+    }else if(temp=="Hypno"){
+        cntext="引梦貘人"
+    }else if(temp=="Krabby"){
+        cntext="大钳蟹"
+    }else if(temp=="Kingler"){
+        cntext="巨钳蟹"
+    }else if(temp=="Voltorb"){
+        cntext="霹雳电球"
     }else if(temp==""){
         cntext=""
     }else if(temp==""){

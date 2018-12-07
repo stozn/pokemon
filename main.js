@@ -194,7 +194,7 @@ const makeDomHandler = () => {
             onclick="userInteractions.storageToFirst(${index})"
             class="pokeFirstButton"
           >
-            #1
+            置顶
           </button>`
 
                 const rosterButton = `<button href="#"
@@ -279,7 +279,7 @@ const makeDomHandler = () => {
             onclick="userInteractions.pokemonToFirst('${index}')"
             class="pokeFirstButton"
           >
-            #1
+            置顶
           </button>`
 
                 const evolveButton = `<button href="#"
