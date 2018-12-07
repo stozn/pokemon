@@ -1333,7 +1333,7 @@ const makeCombatLoop = (enemy, player, dom) => {
                 if (playerLivePokesIndexes.length > 0) {
                     player.setActive(player.pokemons().indexOf(playerLivePokesIndexes[0]))
                     playerActivePoke = player.activePoke()
-                    dom.gameConsoleLog('前往 ' + playerActivePoke.pokeName() + '!')
+                    dom.gameConsoleLog(cnText(playerActivePoke.pokeName()) + ' 出战!')
                     refresh()
                 }
                 dom.renderPokeList('playerPokes', player.pokemons(), player, '#enableDelete')
