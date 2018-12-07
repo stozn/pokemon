@@ -355,8 +355,8 @@ const makeDomHandler = () => {
                 || 'normal'
                     };
            "
-           >
-             ${route.name + ' (' + route.minLevel + '~' + route.maxLevel + ')'}
+           >`+
+             cnMap(`${route.name}`) + `${' (' + route.minLevel + '~' + route.maxLevel + ')'}
            </a>
         </li>`
                 , true

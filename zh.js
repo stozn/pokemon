@@ -1,5 +1,273 @@
+//汉化地名，来源：https://wiki.52poke.com/
+function cnMap(text){
+    var cntext="";
+    var temp=text;
+    if(temp=="Pallet Town"){
+        cntext="真新镇"
+    }else if(temp=="Viridian City"){
+        cntext="常青市"
+    }else if(temp=="Pewter City"){
+        cntext="深灰市"
+    }else if(temp=="Route 1"){
+        cntext="1号道路"
+    }else if(temp=="Route 2"){
+        cntext="2号道路"
+    }else if(temp=="Route 3"){
+        cntext="3号道路"
+    }else if(temp=="Route 4"){
+        cntext="4号道路"
+    }else if(temp=="Route 5"){
+        cntext="5号道路"
+    }else if(temp=="Route 6"){
+        cntext="6号道路"
+    }else if(temp=="Route 7"){
+        cntext="7号道路"
+    }else if(temp=="Route 8"){
+        cntext="8号道路"
+    }else if(temp=="Route 9"){
+        cntext="9号道路"
+    }else if(temp=="Route 10"){
+        cntext="10号道路"
+    }else if(temp=="Route 11"){
+        cntext="11号道路"
+    }else if(temp=="Route 12"){
+        cntext="12号道路"
+    }else if(temp=="Route 13"){
+        cntext="14号道路"
+    }else if(temp=="Route 14"){
+        cntext="14号道路"
+    }else if(temp=="Route 15"){
+        cntext="15号道路"
+    }else if(temp=="Route 16"){
+        cntext="16号道路"
+    }else if(temp=="Route 17"){
+        cntext="17号道路"
+    }else if(temp=="Route 18"){
+        cntext="18号道路"
+    }else if(temp=="Route 19"){
+        cntext="19号道路"
+    }else if(temp=="Route 20"){
+        cntext="20号道路"
+    }else if(temp=="Route 21"){
+        cntext="21号道路"
+    }else if(temp=="Route 22"){
+        cntext="22号道路"
+    }else if(temp=="Route 23"){
+        cntext="23号道路"
+    }else if(temp=="Route 24"){
+        cntext="24号道路"
+    }else if(temp=="Route 25"){
+        cntext="25号道路"
+    }else if(temp=="Virdian Forest"){
+        cntext="常青森林"
+    }else if(temp=="Mt. Moon"){
+        cntext="月见山"
+    }else if(temp=="Diglett Cave"){
+        cntext="地鼠洞穴"
+    }else if(temp=="Rock Tunnel"){
+        cntext="岩山隧道"
+    }else if(temp=="Power Plant"){
+        cntext="无人发电厂"
+    }else if(temp=="Pokemon Tower"){
+        cntext="宝可梦塔"
+    }else if(temp=="Celadon City"){
+        cntext="玉虹市"
+    }else if(temp=="Saffron City"){
+        cntext="金黄市"
+    }else if(temp=="Safari Zone"){
+        cntext="狩猎地带"
+    }else if(temp=="Trading Center"){
+        cntext="交易中心"
+    }else if(temp=="Seafom Island"){
+        cntext="双子岛"
+    }else if(temp=="Pkmn Mansion"){
+        cntext="宝可梦屋"
+    }else if(temp=="Victory Road"){
+        cntext="冠军之路"
+    }else if(temp=="Cerulean Cave"){
+        cntext="华蓝洞窟"
+    }else if(temp=="Legendary Island"){
+        cntext="传说孤岛"
+    }else if(temp=="The Movie"){
+        cntext="电影院"
+    }else if(temp=="Old Rod"){
+        cntext="破旧钓竿"
+    }else if(temp=="Good Rod"){
+        cntext="好钓竿"
+    }else if(temp=="Super Rod"){
+        cntext="厉害钓竿"
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else{
+console.log("需汉化的英文："+text);
+        return text;
+    }
+    return cntext;
+}
 
-//汉化xx
+//汉化精灵名称，来源：http://www.pokemon.name/wiki/
 function cnText(text){
     var cntext="";
     var temp=text;
