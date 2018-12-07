@@ -278,6 +278,7 @@ function cnText(text){
     }else if(temp=="ultraball"){
         cntext="高级球"
     }else if(temp=="Bulbasaur"){
+        //1
         cntext="妙蛙种子"
     }else if(temp=="Ivysaur"){
         cntext="妙蛙草"
@@ -779,6 +780,21 @@ function cnText(text){
         cntext="凤王"
     }else if(temp=="Celebi"){
         cntext="时拉比"
+    }else if(temp=="Treecko"){
+        cntext="木守宫"
+    }else if(temp=="Grovyle"){
+        cntext="森林蜥蜴"
+    }else if(temp=="Sceptile"){
+        cntext="蜥蜴王"
+    }else if(temp=="Torchic"){
+        cntext="火稚鸡"
+    }else if(temp=="Combusken"){
+        cntext="力壮鸡"
+    }else if(temp=="Blaziken"){
+        cntext="火焰鸡"
+    }else if(temp=="Mudkip"){
+        cntext="水跃鱼"
+        //258
     }else if(temp==""){
         cntext=""
     }else if(temp==""){
@@ -817,6 +833,1110 @@ function cnText(text){
         cntext=""
     }else if(temp==""){
         cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp=="Bibarel"){
+        //400
+        cntext="大尾狸"
+    }else if(temp=="Kricketot"){
+        cntext="圆法师"
+    }else if(temp=="Kricketune"){
+        cntext="音箱蟀"
+    }else if(temp=="Shinx"){
+        cntext="小猫怪"
+    }else if(temp=="Luxio"){
+        cntext="勒克猫"
+    }else if(temp=="Luxray"){
+        cntext="伦琴猫"
+    }else if(temp=="Budew"){
+        cntext="含羞苞"
+    }else if(temp=="Roserade"){
+        cntext="罗丝雷朵"
+    }else if(temp=="Cranidos"){
+        cntext="头盖龙"
+    }else if(temp=="Rampardos"){
+        cntext="战槌龙"
+    }else if(temp=="Shieldon"){
+        cntext="盾甲龙"
+    }else if(temp=="Bastiodon"){
+        cntext="护城龙"
+    }else if(temp=="Burmy"){
+        cntext="结草儿"
+    }else if(temp=="Wormadam"){
+        cntext="结草贵妇"
+    }else if(temp=="Mothim"){
+        cntext="绅士蛾"
+    }else if(temp=="Combee"){
+        cntext="三蜜蜂"
+    }else if(temp=="Vespiquen"){
+        cntext="蜂女王"
+    }else if(temp=="Pachirisu"){
+        cntext="帕奇利兹"
+    }else if(temp=="Buizel"){
+        cntext="泳圈鼬"
+    }else if(temp=="Floatzel"){
+        cntext="浮潜鼬"
+    }else if(temp=="Cherubi"){
+        cntext="樱花宝"
+    }else if(temp=="Cherrim"){
+        cntext="樱花儿"
+    }else if(temp=="Shellos"){
+        cntext="无壳海兔"
+    }else if(temp=="Gastrodon"){
+        cntext="海兔兽"
+    }else if(temp=="Ambipom"){
+        cntext="双尾怪手"
+    }else if(temp=="Drifloon"){
+        cntext="飘飘球"
+    }else if(temp=="Drifblim"){
+        cntext="随风球"
+    }else if(temp=="Buneary"){
+        cntext="卷卷耳"
+    }else if(temp=="Lopunny"){
+        cntext="长耳兔"
+    }else if(temp=="Mismagius"){
+        cntext="梦妖魔"
+    }else if(temp=="Honchkrow"){
+        cntext="乌鸦头头"
+    }else if(temp=="Glameow"){
+        cntext="魅力喵"
+    }else if(temp=="Purugly"){
+        cntext="东施喵"
+    }else if(temp=="Chingling"){
+        cntext="铃铛响"
+    }else if(temp=="Stunky"){
+        cntext="臭鼬噗"
+    }else if(temp=="Skuntank"){
+        cntext="坦克臭鼬"
+    }else if(temp=="Bronzor"){
+        cntext="铜镜怪"
+    }else if(temp=="Bronzong"){
+        cntext="青铜钟"
+    }else if(temp=="Bonsly"){
+        cntext="盆才怪"
+    }else if(temp=="Mime Jr."){
+        cntext="魔尼尼"
+    }else if(temp=="Happiny"){
+        cntext="小福蛋"
+    }else if(temp=="Chatot"){
+        cntext="聒噪鸟"
+    }else if(temp=="Spiritomb"){
+        cntext="花岩怪"
+    }else if(temp=="Gible"){
+        cntext="圆陆鲨"
+    }else if(temp=="Gabite"){
+        cntext="尖牙陆鲨"
+    }else if(temp=="Garchomp"){
+        cntext="烈咬陆鲨"
+    }else if(temp=="Munchlax"){
+        cntext="小卡比兽"
+    }else if(temp=="Riolu"){
+        cntext="利欧路"
+    }else if(temp=="Lucario"){
+        cntext="路卡利欧"
+    }else if(temp=="Hippopotas"){
+        cntext="沙河马"
+    }else if(temp=="Hippowdon"){
+        cntext="河马兽"
+    }else if(temp=="Skorupi"){
+        cntext="钳尾蝎"
+    }else if(temp=="Drapion"){
+        cntext="龙王蝎"
+    }else if(temp=="Croagunk"){
+        cntext="不良蛙"
+    }else if(temp=="Toxicroak"){
+        cntext="毒骷蛙"
+    }else if(temp=="Carnivine"){
+        cntext="尖牙笼"
+    }else if(temp=="Finneon"){
+        cntext="荧光鱼"
+    }else if(temp=="Lumineon"){
+        cntext="霓虹鱼"
+    }else if(temp=="Mantyke"){
+        cntext="小球飞鱼"
+    }else if(temp=="Snover"){
+        cntext="雪笠怪"
+    }else if(temp=="Abomasnow"){
+        cntext="暴雪王"
+    }else if(temp=="Weavile"){
+        cntext="玛狃拉"
+    }else if(temp=="Magnezone"){
+        cntext="自爆磁怪"
+    }else if(temp=="Lickilicky"){
+        cntext="大舌舔"
+    }else if(temp=="Rhyperior"){
+        cntext="超甲狂犀"
+    }else if(temp=="Tangrowth"){
+        cntext="巨蔓藤"
+    }else if(temp=="Electivire"){
+        cntext="电击魔兽"
+    }else if(temp=="Magmortar"){
+        cntext="鸭嘴炎兽"
+    }else if(temp=="Togekiss"){
+        cntext="波克基斯"
+    }else if(temp=="Yanmega"){
+        cntext="远古巨蜓"
+    }else if(temp=="Leafeon"){
+        cntext="叶伊布"
+    }else if(temp=="Glaceon"){
+        cntext="冰伊布"
+    }else if(temp=="Gliscor"){
+        cntext="天蝎王"
+    }else if(temp=="Mamoswine"){
+        cntext="象牙猪"
+    }else if(temp=="Porygon-Z"){
+        cntext="多边兽Ｚ"
+    }else if(temp=="Gallade"){
+        cntext="艾路雷朵"
+    }else if(temp=="Probopass"){
+        cntext="大朝北鼻"
+    }else if(temp=="Dusknoir"){
+        cntext="黑夜魔灵"
+    }else if(temp=="Froslass"){
+        cntext="雪妖女"
+	}else if(temp=="Rotom"){
+        cntext="洛托姆"
+    }else if(temp=="Uxie"){
+        cntext="由克希"
+    }else if(temp=="Mesprit"){
+        cntext="艾姆利多"
+    }else if(temp=="Azelf"){
+        cntext="亚克诺姆"
+	}else if(temp=="Dialga"){
+        cntext="帝牙卢卡"
+    }else if(temp=="Palkia"){
+        cntext="帕路奇亚"
+    }else if(temp=="Heatran"){
+        cntext="席多蓝恩"
+    }else if(temp=="Regigigas"){
+        cntext="雷吉奇卡斯"
+	}else if(temp=="Giratina"){
+        cntext="骑拉帝纳"
+    }else if(temp=="Cresselia"){
+        cntext="克雷色利亚"
+    }else if(temp=="Phione"){
+        cntext="霏欧纳"
+    }else if(temp=="Manaphy"){
+        cntext="玛纳霏"
+	}else if(temp=="Darkrai"){
+        cntext="达克莱伊"
+    }else if(temp=="Shaymin"){
+        cntext="谢米"
+    }else if(temp=="Arceus"){
+        cntext="阿尔宙斯"
+    }else if(temp=="Victini"){
+        cntext="比克提尼"
+	}else if(temp=="Snivy"){
+        cntext="藤藤蛇"
+    }else if(temp=="Servine"){
+        cntext="青藤蛇"
+    }else if(temp=="Serperior"){
+        cntext="君主蛇"
+    }else if(temp=="Tepig"){
+        cntext="暖暖猪"
+	}else if(temp=="Pignite"){
+        cntext="炒炒猪"
+    }else if(temp=="Emboar"){
+        cntext="炎武王"
+        //500
+    }else if(temp=="Chespin"){
+        //650
+        cntext="哈力栗"
+    }else if(temp=="Quilladin"){
+        cntext="胖胖哈力"
+    }else if(temp=="Chesnaught"){
+        cntext="布里卡隆"
+    }else if(temp=="Fennekin"){
+        cntext="火狐狸"
+    }else if(temp=="Braixen"){
+        cntext="长尾火狐"
+    }else if(temp=="Delphox"){
+        cntext="妖火红狐"
+    }else if(temp=="Froakie"){
+        cntext="呱呱泡蛙"
+    }else if(temp=="Frogadier"){
+        cntext="呱头蛙"
+    }else if(temp=="Greninja"){
+        cntext="甲贺忍蛙"
+    }else if(temp=="Bunnelby"){
+        cntext="掘掘兔"
+    }else if(temp=="Diggersby"){
+        cntext="掘地兔"
+    }else if(temp=="Fletchling"){
+        cntext="小箭雀"
+    }else if(temp=="Fletchinder"){
+        cntext="火箭雀"
+    }else if(temp=="Talonflame"){
+        cntext="烈箭鹰"
+    }else if(temp=="Scatterbug"){
+        cntext="粉蝶虫"
+    }else if(temp=="Spewpa"){
+        cntext="粉蝶蛹"
+    }else if(temp=="Vivillon"){
+        cntext="彩粉蝶"
+    }else if(temp=="Litleo"){
+        cntext="小狮狮"
+    }else if(temp=="Pyroar"){
+        cntext="火炎狮"
+    }else if(temp=="Flabebe"){
+        cntext="花蓓蓓"
+    }else if(temp=="Floette"){
+        cntext="花叶蒂"
+    }else if(temp=="Florges"){
+        cntext="花洁夫人"
+    }else if(temp=="Skiddo"){
+        cntext="坐骑小羊"
+    }else if(temp=="Gogoat"){
+        cntext="坐骑山羊"
+    }else if(temp=="Pancham"){
+        cntext="顽皮熊猫"
+    }else if(temp=="Pangoro"){
+        cntext="流氓熊猫"
+    }else if(temp=="Furfrou"){
+        cntext="多丽米亚"
+    }else if(temp=="Espurr"){
+        cntext="妙喵"
+    }else if(temp=="Meowstic"){
+        cntext="超能妙喵"
+    }else if(temp=="Honedge"){
+        cntext="独剑鞘"
+    }else if(temp=="Doublade"){
+        cntext="双剑鞘"
+    }else if(temp=="Aegislash"){
+        cntext="坚盾剑怪"
+    }else if(temp=="Spritzee"){
+        cntext="粉香香"
+    }else if(temp=="Aromatisse"){
+        cntext="芳香精"
+    }else if(temp=="Swirlix"){
+        cntext="绵绵泡芙"
+    }else if(temp=="Slurpuff"){
+        cntext="胖甜妮"
+    }else if(temp=="Inkay"){
+        cntext="好啦鱿"
+    }else if(temp=="Malamar"){
+        cntext="乌贼王"
+    }else if(temp=="Binacle"){
+        cntext="龟脚脚"
+    }else if(temp=="Barbaracle"){
+        cntext="龟足巨铠"
+    }else if(temp=="Skrelp"){
+        cntext="垃垃藻"
+    }else if(temp=="Dragalge"){
+        cntext="毒藻龙"
+    }else if(temp=="Clauncher"){
+        cntext="铁臂枪虾"
+    }else if(temp=="Clawitzer"){
+        cntext="钢炮臂虾"
+    }else if(temp=="Helioptile"){
+        cntext="伞电蜥"
+    }else if(temp=="Heliolisk"){
+        cntext="光电伞蜥"
+    }else if(temp=="Tyrunt"){
+        cntext="宝宝暴龙"
+    }else if(temp=="Tyrantrum"){
+        cntext="怪颚龙"
+    }else if(temp=="Amaura"){
+        cntext="冰雪龙"
+    }else if(temp=="Aurorus"){
+        cntext="冰雪巨龙"
+    }else if(temp=="Sylveon"){
+        cntext="仙子伊布"
+    }else if(temp=="Hawlucha"){
+        cntext="摔角鹰人"
+    }else if(temp=="Dedenne"){
+        cntext="咚咚鼠"
+    }else if(temp=="Carbink"){
+        cntext="小碎钻"
+    }else if(temp=="Goomy"){
+        cntext="黏黏宝"
+    }else if(temp=="Sliggoo"){
+        cntext="黏美儿"
+    }else if(temp=="Goodra"){
+        cntext="黏美龙"
+    }else if(temp=="Klefki"){
+        cntext="钥圈儿"
+    }else if(temp=="Phantump"){
+        cntext="小木灵"
+    }else if(temp=="Trevenant"){
+        cntext="朽木妖"
+    }else if(temp=="Pumpkaboo"){
+        cntext="南瓜精"
+    }else if(temp=="Gourgeist"){
+        cntext="南瓜怪人"
+    }else if(temp=="Bergmite"){
+        cntext="冰宝"
+    }else if(temp=="Avalugg"){
+        cntext="冰岩怪"
+    }else if(temp=="Noibat"){
+        cntext="嗡蝠"
+    }else if(temp=="Noivern"){
+        cntext="音波龙"
+    }else if(temp=="Xerneas"){
+        cntext="哲尔尼亚斯"
+    }else if(temp=="Yveltal"){
+        cntext="伊裴尔塔尔"
+    }else if(temp=="Zygarde"){
+        cntext="基格尔德"
+    }else if(temp=="Diancie"){
+        cntext="蒂安希"
+    }else if(temp=="Hoopa"){
+        cntext="胡帕"
+    }else if(temp=="Volcanion"){
+        cntext="波尔凯尼恩"
+        //721
+    }else if(temp=="Rowlet"){
+        //722
+        cntext="木木枭"
+    }else if(temp=="Dartrix"){
+        cntext="投羽枭"
+    }else if(temp=="Decidueye"){
+        cntext="狙射树枭"
+    }else if(temp=="Litten"){
+        cntext="火斑喵"
+    }else if(temp=="Torracat"){
+        cntext="炎热喵"
+    }else if(temp=="Incineroar"){
+        cntext="炽焰咆哮虎"
+    }else if(temp=="Popplio"){
+        cntext="球球海狮"
+    }else if(temp=="Brionne"){
+        cntext="花漾海狮"
+    }else if(temp=="Primarina"){
+        cntext="西狮海壬"
+    }else if(temp=="Pikipek"){
+        cntext="小笃儿"
+    }else if(temp=="Trumbeak"){
+        cntext="喇叭啄鸟"
+    }else if(temp=="Toucannon"){
+        cntext="铳嘴大鸟"
+    }else if(temp=="Yungoos"){
+        cntext="猫鼬少"
+    }else if(temp=="Gumshoos"){
+        cntext="猫鼬探长"
+    }else if(temp=="Grubbin"){
+        cntext="强颚鸡母虫"
+    }else if(temp=="Charjabug"){
+        cntext="虫电宝"
+    }else if(temp=="Vikavolt"){
+        cntext="锹农炮虫"
+    }else if(temp=="Crabrawler"){
+        cntext="好胜蟹"
+    }else if(temp=="Crabominable"){
+        cntext="好胜毛蟹"
+    }else if(temp=="Oricorio"){
+        cntext="花舞鸟"
+    }else if(temp=="Cutiefly"){
+        cntext="萌虻"
+    }else if(temp=="Ribombee"){
+        cntext="蝶结萌虻"
+    }else if(temp=="Rockruff"){
+        cntext="岩狗狗"
+    }else if(temp=="Lycanroc"){
+        cntext="鬃岩狼人"
+    }else if(temp=="Wishiwashi"){
+        cntext="弱丁鱼"
+    }else if(temp=="Mareanie"){
+        cntext="好坏星"
+    }else if(temp=="Toxapex"){
+        cntext="超坏星"
+    }else if(temp=="Mudbray"){
+        cntext="泥驴仔"
+    }else if(temp=="Mudsdale"){
+        cntext="重泥挽马"
+    }else if(temp=="Dewpider"){
+        cntext="滴蛛"
+    }else if(temp=="Araquanid"){
+        cntext="滴蛛霸"
+    }else if(temp=="Fomantis"){
+        cntext="伪螳草"
+    }else if(temp=="Lurantis"){
+        cntext="兰螳花"
+    }else if(temp=="Morelull"){
+        cntext="睡睡菇"
+    }else if(temp=="Shiinotic"){
+        cntext="灯罩夜菇"
+    }else if(temp=="Salandit"){
+        cntext="夜盗火蜥"
+    }else if(temp=="Salazzle"){
+        cntext="焰后蜥"
+    }else if(temp=="Stufful"){
+        cntext="童偶熊"
+    }else if(temp=="Bewear"){
+        cntext="穿着熊"
+    }else if(temp=="Bounsweet"){
+        cntext="甜竹竹"
+    }else if(temp=="Steenee"){
+        cntext="甜舞妮"
+    }else if(temp=="Tsareena"){
+        cntext="甜冷美后"
+    }else if(temp=="Comfey"){
+        cntext="花疗环环"
+    }else if(temp=="Oranguru"){
+        cntext="智挥猩"
+    }else if(temp=="Passimian"){
+        cntext="投掷猴"
+    }else if(temp=="Wimpod"){
+        cntext="胆小虫"
+    }else if(temp=="Golisopod"){
+        cntext="具甲武者"
+    }else if(temp=="Sandygast"){
+        cntext="沙丘娃"
+    }else if(temp=="Palossand"){
+        cntext="噬沙堡爷"
+    }else if(temp=="Pyukumuku"){
+        cntext="拳海参"
+    }else if(temp=="Type: Null"){
+        cntext="属性：空"
+    }else if(temp=="Silvally"){
+        cntext="银伴战兽"
+    }else if(temp=="Minior"){
+        cntext="小陨星"
+    }else if(temp=="Komala"){
+        cntext="树枕尾熊"
+    }else if(temp=="Turtonator"){
+        cntext="爆焰龟兽"
+    }else if(temp=="Togedemaru"){
+        cntext="托戈德玛尔"
+    }else if(temp=="Mimikyu"){
+        cntext="谜拟Ｑ"
+    }else if(temp=="Bruxish"){
+        cntext="磨牙彩皮鱼"
+    }else if(temp=="Drampa"){
+        cntext="老翁龙"
+    }else if(temp=="Dhelmise"){
+        cntext="破破舵轮"
+    }else if(temp=="Jangmo-o"){
+        cntext="心鳞宝"
+    }else if(temp=="Hakamo-o"){
+        cntext="鳞甲龙"
+    }else if(temp=="Kommo-o"){
+        cntext="杖尾鳞甲龙"
+    }else if(temp=="Tapu Koko"){
+        cntext="卡璞・鸣鸣"
+    }else if(temp=="Tapu Lele"){
+        cntext="卡璞・蝶蝶"
+    }else if(temp=="Tapu Bulu"){
+        cntext="卡璞・哞哞"
+    }else if(temp=="Tapu Fini"){
+        cntext="卡璞・鳍鳍"
+    }else if(temp=="Cosmog"){
+        cntext="科斯莫古"
+    }else if(temp=="Cosmoem"){
+        cntext="科斯莫姆"
+    }else if(temp=="Solgaleo"){
+        cntext="索尔迦雷欧"
+    }else if(temp=="Lunala"){
+        cntext="露奈雅拉"
+    }else if(temp=="Nihilego"){
+        cntext="虚吾伊德"
+    }else if(temp=="Buzzwole"){
+        cntext="爆肌蚊"
+    }else if(temp=="Pheromosa"){
+        cntext="费洛美螂"
+    }else if(temp=="Xurkitree"){
+        cntext="电束木"
+    }else if(temp=="Celesteela"){
+        cntext="铁火辉夜"
+    }else if(temp=="Kartana"){
+        cntext="纸御剑"
+    }else if(temp=="Guzzlord"){
+        cntext="恶食大王"
+    }else if(temp=="Necrozma"){
+        cntext="奈克洛兹玛"
+    }else if(temp=="Magearna"){
+        cntext="玛机雅娜"
+    }else if(temp=="Marshadow"){
+        cntext="玛夏多"
+    }else if(temp=="Poipole"){
+        cntext="毒贝比"
+    }else if(temp=="Naganadel"){
+        cntext="四颚针龙"
+    }else if(temp=="Stakataka"){
+        cntext="垒磊石"
+    }else if(temp=="Blacephalon"){
+        cntext="砰头小丑"
+    }else if(temp=="Zeraora"){
+        cntext="捷拉奥拉"
+        //807
     }else{
 //console.log("需汉化的英文："+text);
         return text;
