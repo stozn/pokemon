@@ -209,6 +209,278 @@ function cnText(text){
         cntext="巨钳蟹"
     }else if(temp=="Voltorb"){
         cntext="霹雳电球"
+    }else if(temp=="Electrode"){
+        cntext="顽皮雷弹"
+    }else if(temp=="Exeggcute"){
+        cntext="蛋蛋"
+    }else if(temp=="Exeggutor"){
+        cntext="椰蛋树"
+    }else if(temp=="Cubone"){
+        cntext="卡拉卡拉"
+    }else if(temp=="Marowak"){
+        cntext="嘎啦嘎啦"
+    }else if(temp=="Hitmonlee"){
+        cntext="飞腿郎"
+    }else if(temp=="Hitmonchan"){
+        cntext="快拳郎"
+    }else if(temp=="Lickitung"){
+        cntext="大舌头"
+    }else if(temp=="Koffing"){
+        cntext="瓦斯弹"
+    }else if(temp=="Weezing"){
+        cntext="双弹瓦斯"
+    }else if(temp=="Rhyhorn"){
+        cntext="独角犀牛"
+    }else if(temp=="Rhydon"){
+        cntext="钻角犀兽"
+    }else if(temp=="Chansey"){
+        cntext="吉利蛋"
+    }else if(temp=="Tangela"){
+        cntext="蔓藤怪"
+    }else if(temp=="Kangaskhan"){
+        cntext="袋兽"
+    }else if(temp=="Horsea"){
+        cntext="墨海马"
+    }else if(temp=="Seadra"){
+        cntext="海刺龙"
+    }else if(temp=="Goldeen"){
+        cntext="角金鱼"
+    }else if(temp=="Seaking"){
+        cntext="金鱼王"
+    }else if(temp=="Staryu"){
+        cntext="海星星"
+    }else if(temp=="Starmie"){
+        cntext="宝石海星"
+    }else if(temp=="Mr. Mime"){
+        cntext="魔墙人偶"
+    }else if(temp=="Scyther"){
+        cntext="飞天螳螂"
+    }else if(temp=="Jynx"){
+        cntext="迷唇姐"
+    }else if(temp=="Electabuzz"){
+        cntext="电击兽"
+    }else if(temp=="Magmar"){
+        cntext="鸭嘴火兽"
+    }else if(temp=="Pinsir"){
+        cntext="凯罗斯"
+    }else if(temp=="Tauros"){
+        cntext="肯泰罗"
+    }else if(temp=="Magikarp"){
+        cntext="鲤鱼王"
+    }else if(temp=="Gyarados"){
+        cntext="暴鲤龙"
+    }else if(temp=="Lapras"){
+        cntext="拉普拉斯"
+    }else if(temp=="Ditto"){
+        cntext="百变怪"
+    }else if(temp=="Eevee"){
+        cntext="伊布"
+    }else if(temp=="Vaporeon"){
+        cntext="水伊布"
+    }else if(temp=="Jolteon"){
+        cntext="雷伊布"
+    }else if(temp=="Flareon"){
+        cntext="火伊布"
+    }else if(temp=="Porygon"){
+        cntext="多边兽"
+    }else if(temp=="Omanyte"){
+        cntext="菊石兽"
+    }else if(temp=="Omastar"){
+        cntext="多刺菊石兽"
+    }else if(temp=="Kabuto"){
+        cntext="化石盔"
+    }else if(temp=="Kabutops"){
+        cntext="镰刀盔"
+    }else if(temp=="Aerodactyl"){
+        cntext="化石翼龙"
+    }else if(temp=="Snorlax"){
+        cntext="卡比兽"
+    }else if(temp=="Dratini"){
+        cntext="迷你龙"
+    }else if(temp=="Dragonair"){
+        cntext="哈克龙"
+    }else if(temp=="Dragonite"){
+        cntext="快龙"
+    }else if(temp=="Articuno"){
+        cntext="急冻鸟"
+    }else if(temp=="Zapdos"){
+        cntext="闪电鸟"
+    }else if(temp=="Moltres"){
+        cntext="火焰鸟"
+    }else if(temp=="Mewtwo"){
+        cntext="超梦"
+    }else if(temp=="Mew"){
+        cntext="梦幻"
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
+    }else if(temp==""){
+        cntext=""
     }else if(temp==""){
         cntext=""
     }else if(temp==""){
