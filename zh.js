@@ -311,44 +311,44 @@ function cnText(text){
         cntext="超梦"
     }else if(temp=="Mew"){
         cntext="梦幻"
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
-    }else if(temp==""){
-        cntext=""
+    }else if(temp=="Chikorita"){
+        cntext="菊草叶"
+    }else if(temp=="Bayleef"){
+        cntext="月桂叶"
+    }else if(temp=="Meganium"){
+        cntext="大竺葵"
+    }else if(temp=="Cyndaquil"){
+        cntext="火球鼠"
+    }else if(temp=="Quilava"){
+        cntext="火岩鼠"
+    }else if(temp=="Typhlosion"){
+        cntext="火暴兽"
+    }else if(temp=="Totodile"){
+        cntext="小锯鳄"
+    }else if(temp=="Croconaw"){
+        cntext="蓝鳄"
+    }else if(temp=="Feraligatr"){
+        cntext="大力鳄"
+    }else if(temp=="Sentret"){
+        cntext="尾立"
+    }else if(temp=="Furret"){
+        cntext="大尾立"
+    }else if(temp=="Hoothoot"){
+        cntext="咕咕"
+    }else if(temp=="Noctowl"){
+        cntext="猫头夜鹰"
+    }else if(temp=="Ledyba"){
+        cntext="芭瓢虫"
+    }else if(temp=="Ledian"){
+        cntext="安瓢虫"
+    }else if(temp=="Spinarak"){
+        cntext="圆丝蛛"
+    }else if(temp=="Ariados"){
+        cntext="阿利多斯"
+    }else if(temp=="Crobat"){
+        cntext="叉字蝠"
+    }else if(temp=="Chinchou"){
+        cntext="灯笼鱼"
     }else if(temp==""){
         cntext=""
     }else if(temp==""){
