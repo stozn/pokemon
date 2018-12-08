@@ -1617,6 +1617,306 @@ function cnText(text){
     }else if(temp=="Emboar"){
         cntext="炎武王"
         //500
+    }else if(temp=="Oshawott"){
+        cntext="水水獭"
+    }else if(temp=="Dewott"){
+        cntext="双刃丸"
+    }else if(temp=="Samurott"){
+        cntext="大剑鬼"
+    }else if(temp=="Patrat"){
+        cntext="探探鼠"
+    }else if(temp=="Watchog"){
+        cntext="步哨鼠"
+    }else if(temp=="Lillipup"){
+        cntext="小约克"
+    }else if(temp=="Herdier"){
+        cntext="哈约克"
+    }else if(temp=="Stoutland"){
+        cntext="长毛狗"
+    }else if(temp=="Purrloin"){
+        cntext="扒手猫"
+    }else if(temp=="Liepard"){
+        cntext="酷豹"
+    }else if(temp=="Pansage"){
+        cntext="花椰猴"
+    }else if(temp=="Simisage"){
+        cntext="花椰猿"
+    }else if(temp=="Pansear"){
+        cntext="爆香猴"
+    }else if(temp=="Simisear"){
+        cntext="爆香猿"
+    }else if(temp=="Panpour"){
+        cntext="冷水猴"
+    }else if(temp=="Simipour"){
+        cntext="冷水猿"
+    }else if(temp=="Munna"){
+        cntext="食梦梦"
+    }else if(temp=="Musharna"){
+        cntext="梦梦蚀"
+    }else if(temp=="Pidove"){
+        cntext="豆豆鸽"
+    }else if(temp=="Tranquill"){
+        cntext="咕咕鸽"
+    }else if(temp=="Unfezant"){
+        cntext="高傲雉鸡"
+    }else if(temp=="Blitzle"){
+        cntext="斑斑马"
+    }else if(temp=="Zebstrika"){
+        cntext="雷电斑马"
+    }else if(temp=="Roggenrola"){
+        cntext="石丸子"
+    }else if(temp=="Boldore"){
+        cntext="地幔岩"
+    }else if(temp=="Gigalith"){
+        cntext="庞岩怪"
+    }else if(temp=="Woobat"){
+        cntext="滚滚蝙蝠"
+    }else if(temp=="Swoobat"){
+        cntext="心蝙蝠"
+    }else if(temp=="Drilbur"){
+        cntext="螺钉地鼠"
+    }else if(temp=="Excadrill"){
+        cntext="龙头地鼠"
+    }else if(temp=="Audino"){
+        cntext="差不多娃娃"
+    }else if(temp=="Timburr"){
+        cntext="搬运小匠"
+    }else if(temp=="Gurdurr"){
+        cntext="铁骨土人"
+    }else if(temp=="Conkeldurr"){
+        cntext="修建老匠"
+    }else if(temp=="Tympole"){
+        cntext="圆蝌蚪"
+    }else if(temp=="Palpitoad"){
+        cntext="蓝蟾蜍"
+    }else if(temp=="Seismitoad"){
+        cntext="蟾蜍王"
+    }else if(temp=="Throh"){
+        cntext="投摔鬼"
+    }else if(temp=="Sawk"){
+        cntext="打击鬼"
+    }else if(temp=="Sewaddle"){
+        cntext="虫宝包"
+    }else if(temp=="Swadloon"){
+        cntext="宝包茧"
+    }else if(temp=="Leavanny"){
+        cntext="保姆虫"
+    }else if(temp=="Venipede"){
+        cntext="百足蜈蚣"
+    }else if(temp=="Whirlipede"){
+        cntext="车轮球"
+    }else if(temp=="Scolipede"){
+        cntext="蜈蚣王"
+    }else if(temp=="Cottonee"){
+        cntext="木棉球"
+    }else if(temp=="Whimsicott"){
+        cntext="风妖精"
+    }else if(temp=="Petilil"){
+        cntext="百合根娃娃"
+    }else if(temp=="Lilligant"){
+        cntext="裙儿小姐"
+    }else if(temp=="Basculin"){
+        cntext="野蛮鲈鱼"
+    }else if(temp=="Sandile"){
+        cntext="黑眼鳄"
+    }else if(temp=="Krokorok"){
+        cntext="混混鳄"
+    }else if(temp=="Krookodile"){
+        cntext="流氓鳄"
+    }else if(temp=="Darumaka"){
+        cntext="火红不倒翁"
+    }else if(temp=="Darmanitan"){
+        cntext="达摩狒狒"
+    }else if(temp=="Maractus"){
+        cntext="沙铃仙人掌"
+    }else if(temp=="Dwebble"){
+        cntext="石居蟹"
+    }else if(temp=="Crustle"){
+        cntext="岩殿居蟹"
+    }else if(temp=="Scraggy"){
+        cntext="滑滑小子"
+    }else if(temp=="Scrafty"){
+        cntext="头巾混混"
+    }else if(temp=="Sigilyph"){
+        cntext="象征鸟"
+    }else if(temp=="Yamask"){
+        cntext="哭哭面具"
+    }else if(temp=="Cofagrigus"){
+        cntext="死神棺"
+    }else if(temp=="Tirtouga"){
+        cntext="原盖海龟"
+    }else if(temp=="Carracosta"){
+        cntext="肋骨海龟"
+    }else if(temp=="Archen"){
+        cntext="始祖小鸟"
+    }else if(temp=="Archeops"){
+        cntext="始祖大鸟"
+    }else if(temp=="Trubbish"){
+        cntext="破破袋"
+    }else if(temp=="Garbodor"){
+        cntext="灰尘山"
+    }else if(temp=="Zorua"){
+        cntext="索罗亚"
+    }else if(temp=="Zoroark"){
+        cntext="索罗亚克"
+    }else if(temp=="Minccino"){
+        cntext="泡沫栗鼠"
+    }else if(temp=="Cinccino"){
+        cntext="奇诺栗鼠"
+    }else if(temp=="Gothita"){
+        cntext="哥德宝宝"
+    }else if(temp=="Gothorita"){
+        cntext="哥德小童"
+    }else if(temp=="Gothitelle"){
+        cntext="哥德小姐"
+    }else if(temp=="Solosis"){
+        cntext="单卵细胞球"
+    }else if(temp=="Duosion"){
+        cntext="双卵细胞球"
+    }else if(temp=="Reuniclus"){
+        cntext="人造细胞卵"
+    }else if(temp=="Ducklett"){
+        cntext="鸭宝宝"
+    }else if(temp=="Swanna"){
+        cntext="舞天鹅"
+    }else if(temp=="Vanillite"){
+        cntext="迷你冰"
+    }else if(temp=="Vanillish"){
+        cntext="多多冰"
+    }else if(temp=="Vanilluxe"){
+        cntext="双倍多多冰"
+    }else if(temp=="Deerling"){
+        cntext="四季鹿"
+    }else if(temp=="Sawsbuck"){
+        cntext="萌芽鹿"
+    }else if(temp=="Emolga"){
+        cntext="电飞鼠"
+    }else if(temp=="Karrablast"){
+        cntext="盖盖虫"
+    }else if(temp=="Escavalier"){
+        cntext="骑士蜗牛"
+    }else if(temp=="Foongus"){
+        cntext="哎呀球菇"
+    }else if(temp=="Amoonguss"){
+        cntext="败露球菇"
+    }else if(temp=="Frillish"){
+        cntext="轻飘飘"
+    }else if(temp=="Jellicent"){
+        cntext="胖嘟嘟"
+    }else if(temp=="Alomomola"){
+        cntext="保姆曼波"
+    }else if(temp=="Joltik"){
+        cntext="电电虫"
+    }else if(temp=="Galvantula"){
+        cntext="电蜘蛛"
+    }else if(temp=="Ferroseed"){
+        cntext="种子铁球"
+    }else if(temp=="Ferrothorn"){
+        cntext="坚果哑铃"
+    }else if(temp=="Klink"){
+        cntext="齿轮儿"
+    }else if(temp=="Klang"){
+        cntext="齿轮组"
+    }else if(temp=="Klinklang"){
+        cntext="齿轮怪"
+    }else if(temp=="Tynamo"){
+        cntext="麻麻小鱼"
+    }else if(temp=="Eelektrik"){
+        cntext="麻麻鳗"
+    }else if(temp=="Eelektross"){
+        cntext="麻麻鳗鱼王"
+    }else if(temp=="Elgyem"){
+        cntext="小灰怪"
+    }else if(temp=="Beheeyem"){
+        cntext="大宇怪"
+    }else if(temp=="Litwick"){
+        cntext="烛光灵"
+    }else if(temp=="Lampent"){
+        cntext="灯火幽灵"
+    }else if(temp=="Chandelure"){
+        cntext="水晶灯火灵	"
+    }else if(temp=="Axew"){
+        cntext="牙牙"
+    }else if(temp=="Fraxure"){
+        cntext="斧牙龙"
+    }else if(temp=="Haxorus"){
+        cntext="双斧战龙"
+    }else if(temp=="Cubchoo"){
+        cntext="喷嚏熊"
+    }else if(temp=="Beartic"){
+        cntext="冻原熊"
+    }else if(temp=="Cryogonal"){
+        cntext="几何雪花"
+    }else if(temp=="Shelmet"){
+        cntext="小嘴蜗"
+    }else if(temp=="Accelgor"){
+        cntext="敏捷虫"
+    }else if(temp=="Stunfisk"){
+        cntext="泥巴鱼"
+    }else if(temp=="Mienfoo"){
+        cntext="功夫鼬"
+    }else if(temp=="Mienshao"){
+        cntext="师父鼬"
+    }else if(temp=="Druddigon"){
+        cntext="赤面龙"
+    }else if(temp=="Golett"){
+        cntext="泥偶小人"
+    }else if(temp=="Golurk"){
+        cntext="泥偶巨人"
+    }else if(temp=="Pawniard"){
+        cntext="驹刀小兵"
+    }else if(temp=="Bisharp"){
+        cntext="劈斩司令"
+    }else if(temp=="Bouffalant"){
+        cntext="爆炸头水牛"
+    }else if(temp=="Rufflet"){
+        cntext="毛头小鹰"
+    }else if(temp=="Braviary"){
+        cntext="勇士雄鹰"
+    }else if(temp=="Vullaby"){
+        cntext="秃鹰丫头"
+    }else if(temp=="Mandibuzz"){
+        cntext="秃鹰娜"
+    }else if(temp=="Heatmor"){
+        cntext="熔蚁兽"
+    }else if(temp=="Durant"){
+        cntext="铁蚁"
+    }else if(temp=="Deino"){
+        cntext="单首龙"
+    }else if(temp=="Zweilous"){
+        cntext="双首暴龙"
+    }else if(temp=="Hydreigon"){
+        cntext="三首恶龙"
+    }else if(temp=="Larvesta"){
+        cntext="燃烧虫"
+    }else if(temp=="Volcarona"){
+        cntext="火神蛾"
+    }else if(temp=="Cobalion"){
+        cntext="勾帕路翁"
+    }else if(temp=="Terrakion"){
+        cntext="代拉基翁"
+    }else if(temp=="Virizion"){
+        cntext="毕力吉翁"
+    }else if(temp=="Tornadus"){
+        cntext="龙卷云"
+    }else if(temp=="Thundurus"){
+        cntext="雷电云"
+    }else if(temp=="Reshiram"){
+        cntext="莱希拉姆"
+    }else if(temp=="Zekrom"){
+        cntext="捷克罗姆"
+    }else if(temp=="Landorus"){
+        cntext="土地云"
+    }else if(temp=="Kyurem"){
+        cntext="酋雷姆"
+    }else if(temp=="Keldeo"){
+        cntext="凯路迪欧"
+    }else if(temp=="Meloetta"){
+        cntext="美洛耶塔"
+    }else if(temp=="Genesect"){
+        cntext="盖诺赛克特"
+    }else if(temp=="Chespin"){
+        cntext="哈力栗"
     }else if(temp=="Chespin"){
         //650
         cntext="哈力栗"
