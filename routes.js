@@ -2297,10 +2297,10 @@ const ROUTES = {
 },
 	Event: {
       event1: {
-      name: 'Old Rod'
-    , pokes: ['Magikarp'] 
-    , minLevel: 5
-    , maxLevel: 5
+      name: 'Let\'s Go: Meltan'
+    , pokes: ['Meltan'] 
+    , minLevel: 50
+    , maxLevel: 50
     , unlocked: true
     }
 }
