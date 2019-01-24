@@ -2303,5 +2303,12 @@ const ROUTES = {
     , maxLevel: 5
     , unlocked: true
     }
+    , event2: {
+      name: 'Let\'s Go : Meltan'
+    , pokes: ['Meltan'] 
+    , minLevel: 30
+    , maxLevel: 30
+    , unlocked: true
+    }
 }
 }
