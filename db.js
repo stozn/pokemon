@@ -30271,7 +30271,7 @@ const POKEDEX = [
       ],
       "stats": [
          {
-            "catch rate": "45",
+            "catch rate": "3",
             "growth rate": "Slow",
             "hp": "46",
             "attack": "65",
@@ -30286,7 +30286,7 @@ const POKEDEX = [
       ],
       "exp": [
          {
-            "base exp": "270"
+            "base exp": "135"
          }
       ],
       "images": {
@@ -30297,6 +30297,43 @@ const POKEDEX = [
          "shiny": {
             "front": "sprites/s808.png",
             "back": "sprites/back/s808.png"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "Melmetal"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "3",
+            "growth rate": "Slow",
+            "hp": "135",
+            "attack": "143",
+            "defense": "143",
+            "sp atk": "80",
+            "sp def": "65",
+            "speed": "34",
+            "types": [
+               "Steel"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "270"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/809.png",
+            "back": "sprites/back/809.png"
+         },
+         "shiny": {
+            "front": "sprites/s809.png",
+            "back": "sprites/back/s809.png"
          }
       }
    },
