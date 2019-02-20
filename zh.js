@@ -1210,6 +1210,7 @@ var map = {
     'The Movie': '电影院',
     'Old Rod': '破旧钓竿',
     'Good Rod': '好钓竿',
+    "Let\'s Go : Meltan": '我们走，美录坦',
     'Super Rod': '厉害钓竿',
     //关都结束
     'New Bark Town': '若叶镇',
