@@ -1667,6 +1667,10 @@ const EVOLUTIONS = {
     "level":"60",
     "to":"Naganadel"
   },
+    "Meltan":{
+    "level":"70",
+    "to":"Melmetal"
+  },
     "A-Rattata":{
     "level":"20",
     "to":"A-Raticate"
