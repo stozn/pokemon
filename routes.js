@@ -2297,10 +2297,10 @@ const ROUTES = {
 },
 	Event: {
       event1: {
-      name: 'Old Rod'
-    , pokes: ['Magikarp'] 
-    , minLevel: 5
-    , maxLevel: 15
+      name: 'Ice Bird'
+    , pokes: ['Articuno'] 
+    , minLevel: 70
+    , maxLevel: 70
     , unlocked: true
     }
     , event2: {
