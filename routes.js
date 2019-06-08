@@ -2297,10 +2297,11 @@ const ROUTES = {
 },
 	Event: {
       event1: {
-      name: 'Old Rod'
-    , pokes: ['Magikarp'] 
-    , minLevel: 5
-    , maxLevel: 5
+      name: 'Bad RNG dude'
+    , pokes: ['Tornadus'] 
+    , minLevel: 40
+    , maxLevel: 40
+	      
     , unlocked: true
     }
     , event2: {
