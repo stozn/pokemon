@@ -2301,6 +2301,7 @@ const ROUTES = {
     , pokes: ['Magikarp'] 
     , minLevel: 5
     , maxLevel: 5
+	      
     , unlocked: true
     }
     , event2: {
