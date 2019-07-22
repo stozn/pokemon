@@ -2298,9 +2298,9 @@ const ROUTES = {
 	Event: {
       event1: {
       name: 'Ice Cave'
-    , pokes: ['Regice'] 
-    , minLevel: 40
-    , maxLevel: 40
+    , pokes: ['Magikarp'] 
+    , minLevel: 5
+    , maxLevel: 5
 	      
     , unlocked: true
     }
