@@ -32754,6 +32754,44 @@ const POKEDEX = [
    },
    {
       "pokemon": [
+   {
+            "Pokemon": "M-Lopunny"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "60",
+            "growth rate": "Medium Fast",
+            "hp": "65",
+            "attack": "136",
+            "defense": "94",
+            "sp atk": "54",
+            "sp def": "96",
+            "speed": "135",
+            "types": [
+               "Normal",
+               "Fighting"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "203"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/428m.png",
+            "back": "sprites/back/428m.png"
+         },
+         "shiny": {
+            "front": "sprites/s428m.png",
+            "back": "sprites/back/s428m.png"
+         }
+      }
+   },     
+   {
+      "pokemon": [
          {
             "Pokemon": "M-Garchomp"
          }
@@ -32787,44 +32825,6 @@ const POKEDEX = [
          "shiny": {
             "front": "sprites/s445m.png",
             "back": "sprites/back/s445m.png"
-         }
-      }
-   },
-   {
-      "pokemon": [
-         {
-            "Pokemon": "M-Lopunny"
-         }
-      ],
-      "stats": [
-         {
-            "catch rate": "60",
-            "growth rate": "Medium Fast",
-            "hp": "65",
-            "attack": "136",
-            "defense": "94",
-            "sp atk": "54",
-            "sp def": "96",
-            "speed": "135",
-            "types": [
-               "Normal",
-               "Fighting"
-            ]
-         }
-      ],
-      "exp": [
-         {
-            "base exp": "203"
-         }
-      ],
-      "images": {
-         "normal": {
-            "front": "sprites/428m.png",
-            "back": "sprites/back/428m.png"
-         },
-         "shiny": {
-            "front": "sprites/s428m.png",
-            "back": "sprites/back/s428m.png"
          }
       }
    },
