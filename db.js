@@ -33275,12 +33275,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://img.pokemondb.net/sprites/black-white/normal/darmanitan-zen-mode.png",
-            "back": "https://img.pokemondb.net/sprites/black-white/back-normal/darmanitan-zen-mode.png"
+            "front": "https://img.pokemondb.net/sprites/black-white/normal/darmanitan-zen.png",
+            "back": "https://img.pokemondb.net/sprites/black-white/back-normal/darmanitan-zen.png"
          },
          "shiny": {
-            "front": "https://img.pokemondb.net/sprites/black-white/shiny/darmanitan-zen-mode.png",
-            "back": "https://img.pokemondb.net/sprites/black-white/back-shiny/darmanitan-zen-mode.png"
+            "front": "https://img.pokemondb.net/sprites/black-white/shiny/darmanitan-zen.png",
+            "back": "https://img.pokemondb.net/sprites/black-white/back-shiny/darmanitan-zen.png"
          }
       }
    },
