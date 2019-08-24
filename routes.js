@@ -2297,10 +2297,10 @@ const ROUTES = {
 },
 	Event: {
       event1: {
-      name: 'Old Rod'
-    , pokes: ['Magikarp'] 
-    , minLevel: 10
-    , maxLevel: 10
+      name: 'End'
+    , pokes: ['Tapu Fini'] 
+    , minLevel: 70
+    , maxLevel: 70
 	      
     , unlocked: true
     }
