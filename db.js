@@ -33817,43 +33817,6 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Wishiwashi-S"
-         }
-      ],
-      "stats": [
-         {
-            "catch rate": "60",
-            "growth rate": "Fast",
-            "hp": "45",
-            "attack": "140",
-            "defense": "130",
-            "sp atk": "140",
-            "sp def": "135",
-            "speed": "30",
-            "types": [
-               "Water"
-            ]
-         }
-      ],
-      "exp": [
-         {
-            "base exp": "61"
-         }
-      ],
-      "images": {
-         "normal": {
-            "front": "sprites/746s.png",
-            "back": "sprites/back/746s.png"
-         },
-         "shiny": {
-            "front": "sprites/s746s.png",
-            "back": "sprites/back/s746s.png"
-         }
-      }
-   },
-   {
-      "pokemon": [
-         {
             "Pokemon": "Lycanroc-D"
          }
       ],
@@ -33885,6 +33848,43 @@ const POKEDEX = [
          "shiny": {
             "front": "sprites/s745d.png",
             "back": "sprites/back/s745d.png"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "Wishiwashi-S"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "60",
+            "growth rate": "Fast",
+            "hp": "45",
+            "attack": "140",
+            "defense": "130",
+            "sp atk": "140",
+            "sp def": "135",
+            "speed": "30",
+            "types": [
+               "Water"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "61"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/746s.png",
+            "back": "sprites/back/746s.png"
+         },
+         "shiny": {
+            "front": "sprites/s746s.png",
+            "back": "sprites/back/s746s.png"
          }
       }
    },
