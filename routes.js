@@ -2295,7 +2295,16 @@ const ROUTES = {
     , unlocked: true
     }
 },
-	Event: {
+  Galar: {
+      starter8: {
+      name: 'Postwick'
+    , pokes: ['Grookey', 'Scorbunny', 'Sobble'] 
+    , minLevel: 5
+    , maxLevel: 5
+    , unlocked: true
+    }
+},
+  Event: {
       event1: {
       name: 'Old Rod'
     , pokes: ['Magikarp'] 
