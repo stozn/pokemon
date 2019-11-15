@@ -30340,6 +30340,117 @@ const POKEDEX = [
    {
       "pokemon": [
          {
+            "Pokemon": "Grookey"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "45",
+            "growth rate": "Medium Slow",
+            "hp": "50",
+            "attack": "65",
+            "defense": "50",
+            "sp atk": "40",
+            "sp def": "40",
+            "speed": "65",
+            "types": [
+               "Grass"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "62"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/810.png",
+            "back": "sprites/back/810.png"
+         },
+         "shiny": {
+            "front": "sprites/s810.png",
+            "back": "sprites/back/s810.png"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "Scorbunny"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "45",
+            "growth rate": "Medium Slow",
+            "hp": "50",
+            "attack": "71",
+            "defense": "40",
+            "sp atk": "40",
+            "sp def": "40",
+            "speed": "69",
+            "types": [
+               "Fire"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "62"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/813.png",
+            "back": "sprites/back/813.png"
+         },
+         "shiny": {
+            "front": "sprites/s813.png",
+            "back": "sprites/back/s813.png"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "Sobble"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "45",
+            "growth rate": "Medium Slow",
+            "hp": "50",
+            "attack": "40",
+            "defense": "40",
+            "sp atk": "70",
+            "sp def": "40",
+            "speed": "70",
+            "types": [
+               "Water"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "62"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/816.png",
+            "back": "sprites/back/816.png"
+         },
+         "shiny": {
+            "front": "sprites/s816.png",
+            "back": "sprites/back/s816.png"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
             "Pokemon": "M-Venusaur"
          }
       ],
