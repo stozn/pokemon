@@ -1671,6 +1671,30 @@ const EVOLUTIONS = {
     "level":"70",
     "to":"Melmetal"
   },
+  "Grookey":{
+    "level":"16",
+    "to":"Thwackey"
+  }, 
+  "Thwackey":{
+    "level":"35",
+    "to":"Rillaboom"
+  }, 
+  "Scorbunny":{
+    "level":"16",
+    "to":"Raboot"
+  }, 
+  "Raboot":{
+    "level":"35",
+    "to":"Cinderace"
+  }, 
+  "Sobble":{
+    "level":"16",
+    "to":"Drizzile"
+  }, 
+  "Drizzile":{
+    "level":"35",
+    "to":"Inteleon"
+  }, 
     "A-Rattata":{
     "level":"20",
     "to":"A-Raticate"

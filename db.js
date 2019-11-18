@@ -30377,6 +30377,80 @@ const POKEDEX = [
    {
       "pokemon": [
          {
+            "Pokemon": "Thwackey"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "45",
+            "growth rate": "Medium Slow",
+            "hp": "70",
+            "attack": "85",
+            "defense": "70",
+            "sp atk": "55",
+            "sp def": "60",
+            "speed": "80",
+            "types": [
+               "Grass"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "147"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/811.png",
+            "back": "sprites/back/811.png"
+         },
+         "shiny": {
+            "front": "sprites/s811.png",
+            "back": "sprites/back/s811.png"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "Rillaboom"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "45",
+            "growth rate": "Medium Slow",
+            "hp": "100",
+            "attack": "125",
+            "defense": "90",
+            "sp atk": "60",
+            "sp def": "70",
+            "speed": "85",
+            "types": [
+               "Grass"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "265"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/812.png",
+            "back": "sprites/back/812.png"
+         },
+         "shiny": {
+            "front": "sprites/s812.png",
+            "back": "sprites/back/s812.png"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
             "Pokemon": "Scorbunny"
          }
       ],
@@ -30414,6 +30488,80 @@ const POKEDEX = [
    {
       "pokemon": [
          {
+            "Pokemon": "Raboot"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "45",
+            "growth rate": "Medium Slow",
+            "hp": "65",
+            "attack": "86",
+            "defense": "60",
+            "sp atk": "55",
+            "sp def": "60",
+            "speed": "94",
+            "types": [
+               "Fire"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "147"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/814.png",
+            "back": "sprites/back/814.png"
+         },
+         "shiny": {
+            "front": "sprites/s814.png",
+            "back": "sprites/back/s814.png"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "Cinderace"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "45",
+            "growth rate": "Medium Slow",
+            "hp": "80",
+            "attack": "116",
+            "defense": "75",
+            "sp atk": "65",
+            "sp def": "75",
+            "speed": "119",
+            "types": [
+               "Fire"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "265"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/815.png",
+            "back": "sprites/back/815.png"
+         },
+         "shiny": {
+            "front": "sprites/s815.png",
+            "back": "sprites/back/s815.png"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
             "Pokemon": "Sobble"
          }
       ],
@@ -30445,6 +30593,80 @@ const POKEDEX = [
          "shiny": {
             "front": "sprites/s816.png",
             "back": "sprites/back/s816.png"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "Drizzile"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "45",
+            "growth rate": "Medium Slow",
+            "hp": "65",
+            "attack": "50",
+            "defense": "55",
+            "sp atk": "95",
+            "sp def": "50",
+            "speed": "90",
+            "types": [
+               "Water"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "147"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/817.png",
+            "back": "sprites/back/817.png"
+         },
+         "shiny": {
+            "front": "sprites/s817.png",
+            "back": "sprites/back/s817.png"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "Inteleon"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "45",
+            "growth rate": "Medium Slow",
+            "hp": "70",
+            "attack": "85",
+            "defense": "65",
+            "sp atk": "125",
+            "sp def": "65",
+            "speed": "120",
+            "types": [
+               "Water"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "265"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/818.png",
+            "back": "sprites/back/818.png"
+         },
+         "shiny": {
+            "front": "sprites/s818.png",
+            "back": "sprites/back/s818.png"
          }
       }
    },
