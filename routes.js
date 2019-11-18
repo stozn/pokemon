@@ -2298,14 +2298,14 @@ const ROUTES = {
   Galar: {
       starter8: {
       name: 'Postwick'
-    , pokes: ['Grookey', 'Rookidee', 'Blipbug'] 
+    , pokes: ['Grookey', 'Scorbunny', 'Sobble'] 
     , minLevel: 5
     , maxLevel: 5
     , unlocked: true
     }
     , custom34: {
       name: 'Route 1'
-    , pokes: ['Skwovet', 'Mareanie', 'Bruxish', 'Dhelmise'] 
+    , pokes: ['Skwovet', 'Rookidee', 'Blipbug'] 
     , minLevel: 2
     , maxLevel: 6
     , unlocked: true
