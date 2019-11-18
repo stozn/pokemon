@@ -1694,6 +1694,26 @@ const EVOLUTIONS = {
   "Drizzile":{
     "level":"35",
     "to":"Inteleon"
+  },
+  "Skwovet":{
+    "level":"24",
+    "to":"Greedent"
+  },  
+  "Rookidee":{
+    "level":"18",
+    "to":"Corvisquire"
+  }, 
+  "Corvisquire":{
+    "level":"38",
+    "to":"Corviknight"
+  }, 
+  "Blipbug":{
+    "level":"10",
+    "to":"Dottler"
+  }, 
+  "Dottler":{
+    "level":"30",
+    "to":"Orbeetle"
   }, 
     "A-Rattata":{
     "level":"20",

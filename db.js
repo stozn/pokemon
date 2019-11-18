@@ -30673,6 +30673,305 @@ const POKEDEX = [
    {
       "pokemon": [
          {
+            "Pokemon": "Skwovet"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "255",
+            "growth rate": "Medium Fast",
+            "hp": "70",
+            "attack": "55",
+            "defense": "55",
+            "sp atk": "35",
+            "sp def": "35",
+            "speed": "25",
+            "types": [
+               "Normal"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "55"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/819.png",
+            "back": "sprites/back/819.png"
+         },
+         "shiny": {
+            "front": "sprites/s819.png",
+            "back": "sprites/back/s819.png"
+         }
+      }
+   }, 
+   {
+      "pokemon": [
+         {
+            "Pokemon": "Greedent"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "90",
+            "growth rate": "Medium Fast",
+            "hp": "120",
+            "attack": "95",
+            "defense": "95",
+            "sp atk": "55",
+            "sp def": "75",
+            "speed": "20",
+            "types": [
+               "Normal"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "161"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/820.png",
+            "back": "sprites/back/820.png"
+         },
+         "shiny": {
+            "front": "sprites/s820.png",
+            "back": "sprites/back/s820.png"
+         }
+      }
+   }, 
+   {
+      "pokemon": [
+         {
+            "Pokemon": "Rookidee"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "255",
+            "growth rate": "Medium Slow",
+            "hp": "38",
+            "attack": "47",
+            "defense": "35",
+            "sp atk": "33",
+            "sp def": "35",
+            "speed": "57",
+            "types": [
+               "Flying"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "49"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/821.png",
+            "back": "sprites/back/821.png"
+         },
+         "shiny": {
+            "front": "sprites/s821.png",
+            "back": "sprites/back/s821.png"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "Corvisquire"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "120",
+            "growth rate": "Medium Slow",
+            "hp": "68",
+            "attack": "67",
+            "defense": "55",
+            "sp atk": "43",
+            "sp def": "55",
+            "speed": "77",
+            "types": [
+               "Flying"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "128"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/822.png",
+            "back": "sprites/back/822.png"
+         },
+         "shiny": {
+            "front": "sprites/s822.png",
+            "back": "sprites/back/s822.png"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "Corviknight"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "45",
+            "growth rate": "Medium Slow",
+            "hp": "98",
+            "attack": "87",
+            "defense": "105",
+            "sp atk": "53",
+            "sp def": "85",
+            "speed": "67",
+            "types": [
+               "Flying",
+               "Steel"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "248"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/823.png",
+            "back": "sprites/back/823.png"
+         },
+         "shiny": {
+            "front": "sprites/s823.png",
+            "back": "sprites/back/s823.png"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "Blipbug"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "255",
+            "growth rate": "Medium Fast",
+            "hp": "25",
+            "attack": "20",
+            "defense": "20",
+            "sp atk": "25",
+            "sp def": "45",
+            "speed": "45",
+            "types": [
+               "Bug"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "36"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/824.png",
+            "back": "sprites/back/824.png"
+         },
+         "shiny": {
+            "front": "sprites/s824.png",
+            "back": "sprites/back/s824.png"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "Dottler"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "120",
+            "growth rate": "Medium Fast",
+            "hp": "50",
+            "attack": "35",
+            "defense": "80",
+            "sp atk": "50",
+            "sp def": "90",
+            "speed": "30",
+            "types": [
+               "Bug",
+               "Psychic"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "117"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/825.png",
+            "back": "sprites/back/825.png"
+         },
+         "shiny": {
+            "front": "sprites/s825.png",
+            "back": "sprites/back/s825.png"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "Orbeetle"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "45",
+            "growth rate": "Medium Fast",
+            "hp": "60",
+            "attack": "45",
+            "defense": "110",
+            "sp atk": "80",
+            "sp def": "120",
+            "speed": "90",
+            "types": [
+               "Bug",
+               "Psychic"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "253"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/826.png",
+            "back": "sprites/back/826.png"
+         },
+         "shiny": {
+            "front": "sprites/s826.png",
+            "back": "sprites/back/s826.png"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
             "Pokemon": "M-Venusaur"
          }
       ],
