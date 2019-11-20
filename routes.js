@@ -2305,11 +2305,26 @@ const ROUTES = {
     }
     , custom34: {
       name: 'Route 1'
-    , pokes: ['Skwovet', 'Rookidee', 'Blipbug'] 
+    , pokes: ['Skwovet', 'Rookidee', 'Blipbug', 'Wooloo', 'Nickit'] 
     , minLevel: 2
     , maxLevel: 6
     , unlocked: true
     }
+    , custom35: {
+      name: 'Route 2'
+    , pokes: ['Skwovet', 'Rookidee', 'Nickit', 'Chewtle', 'Yamper'] 
+    , minLevel: 5
+    , maxLevel: 7
+    , unlocked: true
+    }
+    , custom36: {
+      name: 'Route 3'
+    , pokes: ['Gossifleur', 'Rookidee', 'Corvisquire', 'Skwovet', 'Rolycoly'] 
+    , minLevel: 8
+    , maxLevel: 18
+    , unlocked: true
+    }
+    //Add Sizzlipede once in the db
 },
   Event: {
       event1: {

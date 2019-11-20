@@ -1715,6 +1715,34 @@ const EVOLUTIONS = {
     "level":"30",
     "to":"Orbeetle"
   }, 
+  "Nickit":{
+    "level":"18",
+    "to":"Thievul"
+  }, 
+  "Gossifleur":{
+    "level":"20",
+    "to":"Eldegoss"
+  }, 
+  "Wooloo":{
+    "level":"24",
+    "to":"Dubwool"
+  }, 
+  "Chewtle":{
+    "level":"22",
+    "to":"Drednaw"
+  }, 
+  "Yamper":{
+    "level":"25",
+    "to":"Boltund"
+  }, 
+  "Rolycoly":{
+    "level":"18",
+    "to":"Carkol"
+  }, 
+  "Carkol":{
+    "level":"34",
+    "to":"Coalossal"
+  }, 
     "A-Rattata":{
     "level":"20",
     "to":"A-Raticate"
