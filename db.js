@@ -31283,7 +31283,7 @@ const POKEDEX = [
             "sp def": "50",
             "speed": "26",
             "types": [
-               "Eletric"
+               "Electric"
             ]
          }
       ],
