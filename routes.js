@@ -2335,7 +2335,7 @@ const ROUTES = {
     //Add Milcery once in the db
     , custom38: {
       name: 'Route 5'
-    , pokes: ['Dottler', 'Applin'] 
+    , pokes: ['Dottler', 'Applin', 'Eldegoss'] 
     , minLevel: 16
     , maxLevel: 22
     , unlocked: true
