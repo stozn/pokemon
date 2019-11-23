@@ -2325,6 +2325,60 @@ const ROUTES = {
     , unlocked: true
     }
     //Add Sizzlipede once in the db
+    , custom37: {
+      name: 'Route 4'
+    , pokes: ['Yamper', 'Wooloo'] 
+    , minLevel: 13
+    , maxLevel: 16
+    , unlocked: true
+    }
+    //Add Milcery once in the db
+    , custom38: {
+      name: 'Route 5'
+    , pokes: ['Dottler', 'Applin', 'Eldegoss'] 
+    , minLevel: 16
+    , maxLevel: 22
+    , unlocked: true
+    }
+    , custom39: {
+      name: 'Route 6'
+    , pokes: ['Silicobra'] 
+    , minLevel: 28
+    , maxLevel: 33
+    , unlocked: true
+    }
+    , custom40: {
+      name: 'Route 7'
+    , pokes: ['Thievul', 'Toxel', 'Corviknight'] 
+    , minLevel: 36
+    , maxLevel: 41
+    , unlocked: true
+    }
+    //Add Perrserker; Morpeko once in the db
+    , custom41: {
+      name: 'Route 8'
+    , pokes: ['Sandaconda'] 
+    , minLevel: 38
+    , maxLevel: 41
+    , unlocked: true
+    }
+    //Add Falinks once in the db
+    , custom42: {
+      name: 'Route 9'
+    , pokes: ['Cramorant'] 
+    , minLevel: 38
+    , maxLevel: 44
+    , unlocked: true
+    }
+    //Add Clobbopus, Pincurchin and Grapploct once in the db
+    , custom43: {
+      name: 'Rod'
+    , pokes: ['Arrokuda'] 
+    , minLevel: 20
+    , maxLevel: 20
+    , unlocked: true
+    }
+    //Edit to be the last route
 },
   Event: {
       event1: {

@@ -31456,6 +31456,382 @@ const POKEDEX = [
    {
       "pokemon": [
          {
+            "Pokemon": "Applin"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "255",
+            "growth rate": "Fast",
+            "hp": "40",
+            "attack": "40",
+            "defense": "80",
+            "sp atk": "40",
+            "sp def": "40",
+            "speed": "20",
+            "types": [
+               "Grass",
+               "Dragon"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "52"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/840.png",
+            "back": "sprites/back/840.png"
+         },
+         "shiny": {
+            "front": "sprites/s840.png",
+            "back": "sprites/back/s840.png"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "Flapple"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "45",
+            "growth rate": "Fast",
+            "hp": "70",
+            "attack": "110",
+            "defense": "80",
+            "sp atk": "95",
+            "sp def": "60",
+            "speed": "70",
+            "types": [
+               "Dragon",
+               "Grass"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "170"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/841.png",
+            "back": "sprites/back/841.png"
+         },
+         "shiny": {
+            "front": "sprites/s841.png",
+            "back": "sprites/back/s841.png"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "Appletun"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "45",
+            "growth rate": "",
+            "hp": "110",
+            "attack": "85",
+            "defense": "80",
+            "sp atk": "100",
+            "sp def": "80",
+            "speed": "30",
+            "types": [
+               "Dragon",
+               "Grass"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "170"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/842.png",
+            "back": "sprites/back/842.png"
+         },
+         "shiny": {
+            "front": "sprites/s842.png",
+            "back": "sprites/back/s842.png"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "Silicobra"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "255",
+            "growth rate": "Medium Fast",
+            "hp": "52",
+            "attack": "57",
+            "defense": "75",
+            "sp atk": "35",
+            "sp def": "50",
+            "speed": "46",
+            "types": [
+               "Ground"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "63"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/843.png",
+            "back": "sprites/back/843.png"
+         },
+         "shiny": {
+            "front": "sprites/s843.png",
+            "back": "sprites/back/s843.png"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "Sandaconda"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "120",
+            "growth rate": "Medium Fast",
+            "hp": "72",
+            "attack": "107",
+            "defense": "125",
+            "sp atk": "65",
+            "sp def": "70",
+            "speed": "71",
+            "types": [
+               "Ground"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "179"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/844.png",
+            "back": "sprites/back/844.png"
+         },
+         "shiny": {
+            "front": "sprites/s844.png",
+            "back": "sprites/back/s844.png"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "Cramorant"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "45",
+            "growth rate": "Medium Fast",
+            "hp": "70",
+            "attack": "85",
+            "defense": "55",
+            "sp atk": "85",
+            "sp def": "95",
+            "speed": "85",
+            "types": [
+               "Flying",
+               "Water"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "166"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/845.png",
+            "back": "sprites/back/845.png"
+         },
+         "shiny": {
+            "front": "sprites/s845.png",
+            "back": "sprites/back/s845.png"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "Arrokuda"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "255",
+            "growth rate": "Slow",
+            "hp": "41",
+            "attack": "63",
+            "defense": "40",
+            "sp atk": "40",
+            "sp def": "30",
+            "speed": "66",
+            "types": [
+               "Water"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "56"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/846.png",
+            "back": "sprites/back/846.png"
+         },
+         "shiny": {
+            "front": "sprites/s846.png",
+            "back": "sprites/back/s846.png"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "Barraskewda"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "60",
+            "growth rate": "Slow",
+            "hp": "61",
+            "attack": "123",
+            "defense": "60",
+            "sp atk": "60",
+            "sp def": "50",
+            "speed": "136",
+            "types": [
+               "Water"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "172"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/847.png",
+            "back": "sprites/back/847.png"
+         },
+         "shiny": {
+            "front": "sprites/s847.png",
+            "back": "sprites/back/s847.png"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "Toxel"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "75",
+            "growth rate": "Medium Slow",
+            "hp": "40",
+            "attack": "38",
+            "defense": "35",
+            "sp atk": "54",
+            "sp def": "35",
+            "speed": "40",
+            "types": [
+               "Electric",
+               "Poison"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "48"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/848.png",
+            "back": "sprites/back/848.png"
+         },
+         "shiny": {
+            "front": "sprites/s848.png",
+            "back": "sprites/back/s848.png"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "Toxtricity"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "45",
+            "growth rate": "Medium Slow",
+            "hp": "75",
+            "attack": "98",
+            "defense": "70",
+            "sp atk": "114",
+            "sp def": "70",
+            "speed": "75",
+            "types": [
+               "Electric",
+               "Poison"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "176"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/849.png",
+            "back": "sprites/back/849.png"
+         },
+         "shiny": {
+            "front": "sprites/s849.png",
+            "back": "sprites/back/s849.png"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
             "Pokemon": "M-Venusaur"
          }
       ],

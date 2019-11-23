@@ -1743,6 +1743,22 @@ const EVOLUTIONS = {
     "level":"34",
     "to":"Coalossal"
   }, 
+  "Applin":{
+    "level":"35",
+    "to":"Flapple"
+  }, 
+  "Silicobra":{
+    "level":"36",
+    "to":"Sandaconda"
+  }, 
+  "Arrokuda":{
+    "level":"26",
+    "to":"Barraskewda"
+  }, 
+  "Toxel":{
+    "level":"30",
+    "to":"Toxtricity"
+  }, 
     "A-Rattata":{
     "level":"20",
     "to":"A-Raticate"
@@ -2087,4 +2103,12 @@ const EVOLUTIONS = {
     "level":"100",
     "to":"Necrozma"
   },
+  "Flapple":{
+    "level":"35",
+    "to":"Appletun"
+  }, 
+  "Appletun":{
+    "level":"35",
+    "to":"Flapple"
+  }, 
 }
