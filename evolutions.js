@@ -2221,6 +2221,6 @@ const EVOLUTIONS = {
   }, 
   "Zamazenta-CS":{
     "level":"100",
-    "to":"Zacian"
+    "to":"Zamazenta"
   }, 
 }
