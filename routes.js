@@ -2347,7 +2347,7 @@ const ROUTES = {
     }
     , custom40: {
       name: 'Glimwood Tangle'
-    , pokes: ['Morgrem', 'Hattrem', 'Sinistea', 'Indeedee', 'Indeedee-F', 'Impidimp'] 
+    , pokes: ['Morgrem', 'Hattrem', 'Sinistea', 'Indeedee', 'Impidimp'] 
     , minLevel: 31 
     , maxLevel: 38
     , unlocked: true
