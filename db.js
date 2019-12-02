@@ -33069,7 +33069,7 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": ""
+            "Pokemon": "Arctovish"
          }
       ],
       "stats": [
