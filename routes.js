@@ -2382,7 +2382,7 @@ const ROUTES = {
     }
     , custom45: {
       name: 'Wild Area'
-    , pokes: ['Cufant', 'Dreepy'] 
+    , pokes: ['Cufant', 'Dreepy', 'Hatenna'] 
     , minLevel: 40 
     , maxLevel: 50
     , unlocked: true
