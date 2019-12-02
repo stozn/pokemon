@@ -2319,20 +2319,18 @@ const ROUTES = {
     }
     , custom36: {
       name: 'Route 3'
-    , pokes: ['Gossifleur', 'Rookidee', 'Corvisquire', 'Skwovet', 'Rolycoly'] 
+    , pokes: ['Gossifleur', 'Rookidee', 'Corvisquire', 'Skwovet', 'Rolycoly', 'Sizzlipede'] 
     , minLevel: 8
     , maxLevel: 18
     , unlocked: true
     }
-    //Add Sizzlipede once in the db
     , custom37: {
       name: 'Route 4'
-    , pokes: ['Yamper', 'Wooloo'] 
+    , pokes: ['Yamper', 'Wooloo', 'Milcery'] 
     , minLevel: 13
     , maxLevel: 16
     , unlocked: true
     }
-    //Add Milcery once in the db
     , custom38: {
       name: 'Route 5'
     , pokes: ['Dottler', 'Applin', 'Eldegoss'] 
@@ -2348,37 +2346,83 @@ const ROUTES = {
     , unlocked: true
     }
     , custom40: {
+      name: 'Glimwood Tangle'
+    , pokes: ['Morgrem', 'Hattrem', 'Sinistea', 'Indeedee', 'Impidimp'] 
+    , minLevel: 31 
+    , maxLevel: 38
+    , unlocked: true
+    }
+    , custom41: {
       name: 'Route 7'
-    , pokes: ['Thievul', 'Toxel', 'Corviknight'] 
+    , pokes: ['Thievul', 'Toxel', 'Corviknight', 'Perrserker', 'Morpeko'] 
     , minLevel: 36
     , maxLevel: 41
     , unlocked: true
     }
-    //Add Perrserker; Morpeko once in the db
-    , custom41: {
+    , custom42: {
       name: 'Route 8'
-    , pokes: ['Sandaconda'] 
+    , pokes: ['Sandaconda', 'Falinks'] 
     , minLevel: 38
     , maxLevel: 41
     , unlocked: true
     }
-    //Add Falinks once in the db
-    , custom42: {
+    , custom43: {
       name: 'Route 9'
-    , pokes: ['Cramorant'] 
+    , pokes: ['Cramorant', 'Clobbopus', 'Grapploct', 'Pincurchin'] 
     , minLevel: 38
     , maxLevel: 44
     , unlocked: true
     }
-    //Add Clobbopus, Pincurchin and Grapploct once in the db
-    , custom43: {
+    , custom44: {
+      name: 'Route 10'
+    , pokes: ['Snom', 'Duraludon', 'Stonjourner', 'Eiscue'] 
+    , minLevel: 44 
+    , maxLevel: 48
+    , unlocked: true
+    }
+    , custom45: {
+      name: 'Wild Area'
+    , pokes: ['Cufant', 'Dreepy'] 
+    , minLevel: 40 
+    , maxLevel: 50
+    , unlocked: true
+    }
+    , custom46: {
+      name: 'Fossils'
+    , pokes: ['Dracozolt', 'Arctozolt', 'Dracovish', 'Arctovish'] 
+    , minLevel: 10 
+    , maxLevel: 10
+    , unlocked: true
+    }
+    , custom47: {
+      name: 'Welcome to Galar'
+    , pokes: ['G-Meowth', 'G-Ponyta', 'G-Farfetch\'d', 'G-Mr. Mime', 'G-Corsola', 'G-Zigzagoon', 'G-Darumaka', 'G-Yamask', 'G-Stunfisk'] 
+    , minLevel: 20
+    , maxLevel: 20
+    , unlocked: true
+    }
+    //Add Galar Mons qui EVOLUENT pas 
+    , custom48: {
+      name: 'Energy Plant'
+    , pokes: ['Zacian', 'Zamazenta'] 
+    , minLevel: 70 
+    , maxLevel: 70
+    , unlocked: true
+    }
+    , custom49: {
+      name: 'Eternamax'
+    , pokes: ['Eternatus'] 
+    , minLevel: 60 
+    , maxLevel: 60
+    , unlocked: true
+    }
+    , custom50: {
       name: 'Rod'
     , pokes: ['Arrokuda'] 
     , minLevel: 20
     , maxLevel: 20
     , unlocked: true
     }
-    //Edit to be the last route
 },
   Event: {
       event1: {

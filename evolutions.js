@@ -1759,7 +1759,55 @@ const EVOLUTIONS = {
     "level":"30",
     "to":"Toxtricity"
   }, 
-    "A-Rattata":{
+  "Sizzlipede":{
+    "level":"28",
+    "to":"Centiskorch"
+  }, 
+  "Clobbopus":{
+    "level":"35",
+    "to":"Grapploct"
+  }, 
+  "Sinistea":{
+    "level":"30",
+    "to":"Polteageist"
+  }, 
+  "Hatenna":{
+    "level":"32",
+    "to":"Hattrem"
+  }, 
+  "Hattrem":{
+    "level":"42",
+    "to":"Hatterene"
+  }, 
+  "Impidimp":{
+    "level":"32",
+    "to":"Morgrem"
+  }, 
+  "Morgrem":{
+    "level":"42",
+    "to":"Grimmsnarl"
+  }, 
+  "Milcery":{
+    "level":"30",
+    "to":"Alcremie"
+  }, 
+  "Snom":{
+    "level":"35",
+    "to":"Frosmoth"
+  }, 
+  "Cufant":{
+    "level":"34",
+    "to":"Copperajah"
+  }, 
+  "Dreepy":{
+    "level":"50",
+    "to":"Drakloak"
+  }, 
+  "Drakloak":{
+    "level":"60",
+    "to":"Dragapult"
+  }, 
+  "A-Rattata":{
     "level":"20",
     "to":"A-Raticate"
   },
@@ -1779,6 +1827,10 @@ const EVOLUTIONS = {
     "level":"28",
     "to":"A-Persian"
   },
+  "G-Meowth":{
+    "level":"28",
+    "to":"Perrserker"
+  }, 
   "A-Geodude":{
     "level":"25",
     "to":"A-Graveler"
@@ -1791,10 +1843,38 @@ const EVOLUTIONS = {
     "level":"38",
     "to":"A-Muk"
   },
-  
-  
-  //infinite loop-mons
-  
+  "G-Ponyta":{
+    "level":"40",
+    "to":"G-Rapidash"
+  }, 
+  "G-Farfetch\'d":{
+    "level":"35",
+    "to":"Sirfetch\'d"
+  }, 
+  "G-Mr. Mime":{
+    "level":"42",
+    "to":"Mr. Rime"
+  }, 
+  "G-Corsola":{
+    "level":"38",
+    "to":"Cursola"
+  }, 
+  "G-Zigzagoon":{
+    "level":"20",
+    "to":"G-Linoone"
+  }, 
+  "G-Linoone":{
+    "level":"35",
+    "to":"Obstagoon"
+  }, 
+  "G-Darumaka":{
+    "level":"35",
+    "to":"G-Darmanitan"
+  }, 
+  "G-Yamask":{
+    "level":"34",
+    "to":"Runerigus"
+  },  
   "Kyurem":{
     "level":"100",
     "to":"B-Kyurem"
@@ -2110,5 +2190,21 @@ const EVOLUTIONS = {
   "Appletun":{
     "level":"35",
     "to":"Flapple"
+  }, 
+  "Weezing":{
+    "level":"35",
+    "to":"G-Weezing"
+  }, 
+  "G-Weezing":{
+    "level":"35",
+    "to":"Weezing"
+  }, 
+  "G-Darmanitan":{
+    "level":"35",
+    "to":"G-Darmanitan-Z"
+  }, 
+  "G-Darmanitan-Z":{
+    "level":"35",
+    "to":"G-Darmanitan"
   }, 
 }
