@@ -37559,6 +37559,118 @@ const POKEDEX = [
          }
       }
    },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "Indeedee-F"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "30",
+            "growth rate": "Fast",
+            "hp": "70",
+            "attack": "55",
+            "defense": "65",
+            "sp atk": "95",
+            "sp def": "105",
+            "speed": "85",
+            "types": [
+               "Psychic",
+               "Normal"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "166"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/876f.png",
+            "back": "sprites/back/876f.png"
+         },
+         "shiny": {
+            "front": "sprites/s876f.png",
+            "back": "sprites/back/s876f.png"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "Zacian-CS"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "10",
+            "growth rate": "Slow",
+            "hp": "92",
+            "attack": "170",
+            "defense": "115",
+            "sp atk": "80",
+            "sp def": "115",
+            "speed": "148",
+            "types": [
+               "Fairy",
+               "Steel"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "335"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/888cs.png",
+            "back": "sprites/back/888cs.png"
+         },
+         "shiny": {
+            "front": "sprites/s888cs.png",
+            "back": "sprites/back/s888cs.png"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "Zamazenta-CS"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "10",
+            "growth rate": "Slow",
+            "hp": "92",
+            "attack": "130",
+            "defense": "145",
+            "sp atk": "80",
+            "sp def": "145",
+            "speed": "128",
+            "types": [
+               "Fighting",
+               "Steel"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "335"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/889cs.png",
+            "back": "sprites/back/889cs.png"
+         },
+         "shiny": {
+            "front": "sprites/s889cs.png",
+            "back": "sprites/back/s889cs.png"
+         }
+      }
+   },
 ];
-
-//Add Indeedee Female + Legs formes

@@ -2207,4 +2207,20 @@ const EVOLUTIONS = {
     "level":"35",
     "to":"G-Darmanitan"
   }, 
+  "Zacian":{
+    "level":"100",
+    "to":"Zacian-CS"
+  }, 
+  "Zacian-CS":{
+    "level":"100",
+    "to":"Zacian"
+  }, 
+  "Zamazenta":{
+    "level":"100",
+    "to":"Zamazenta-CS"
+  }, 
+  "Zamazenta-CS":{
+    "level":"100",
+    "to":"Zacian"
+  }, 
 }
