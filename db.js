@@ -37560,3 +37560,5 @@ const POKEDEX = [
       }
    },
 ];
+
+//Add Indeedee Female + Legs formes
