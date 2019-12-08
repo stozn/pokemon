@@ -2426,10 +2426,10 @@ const ROUTES = {
 },
   Event: {
       event1: {
-      name: 'Sword'
-    , pokes: ['Zacian-CS', 'Zamazenta-CS'] 
-    , minLevel: 80
-    , maxLevel: 80   
+      name: 'Old Rod'
+    , pokes: ['Magikarp'] 
+    , minLevel: 5
+    , maxLevel: 5  
     , unlocked: true
     }
     , event2: {
