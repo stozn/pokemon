@@ -22,7 +22,7 @@ const ROUTES = {
     , unlocked: true
     }
    , special: {
-      name: 'Virdian Forest'
+      name: 'Viridian Forest'
     , pokes: ['Caterpie', 'Metapod', 'Weedle', 'Kakuna', 'Pikachu']
     , minLevel: 3
     , maxLevel: 6
