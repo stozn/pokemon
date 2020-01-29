@@ -2426,10 +2426,10 @@ const ROUTES = {
 },
   Event: {
       event1: {
-      name: 'Old Rod'
-    , pokes: ['Magikarp'] 
-    , minLevel: 5
-    , maxLevel: 5  
+      name: 'Free DLC preview'
+    , pokes: ['G-Slowpoke'] 
+    , minLevel: 10
+    , maxLevel: 10  
     , unlocked: true
     }
     , event2: {
