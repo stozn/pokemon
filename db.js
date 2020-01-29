@@ -34312,38 +34312,37 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "G-Mr. Mime"
+            "Pokemon": "G-Slowpoke"
          }
       ],
       "stats": [
          {
-            "catch rate": "45",
+            "catch rate": "190",
             "growth rate": "Medium Fast",
-            "hp": "50",
+            "hp": "90",
             "attack": "65",
-            "defense": "65",
-            "sp atk": "90",
-            "sp def": "90",
-            "speed": "100",
+            "defense": "55",
+            "sp atk": "40",
+            "sp def": "40",
+            "speed": "15",
             "types": [
-               "Ice",
                "Psychic"
             ]
          }
       ],
       "exp": [
          {
-            "base exp": "161"
+            "base exp": "63"
          }
       ],
       "images": {
          "normal": {
-            "front": "sprites/122g.png",
-            "back": "sprites/back/122g.png"
+            "front": "sprites/079g.png",
+            "back": "sprites/back/079g.png"
          },
          "shiny": {
-            "front": "sprites/s122g.png",
-            "back": "sprites/back/s122g.png"
+            "front": "sprites/s079g.png",
+            "back": "sprites/back/s079g.png"
          }
       }
    },
@@ -34647,6 +34646,44 @@ const POKEDEX = [
          "shiny": {
             "front": "sprites/s115m.png",
             "back": "sprites/back/s115m.png"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "G-Mr. Mime"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "45",
+            "growth rate": "Medium Fast",
+            "hp": "50",
+            "attack": "65",
+            "defense": "65",
+            "sp atk": "90",
+            "sp def": "90",
+            "speed": "100",
+            "types": [
+               "Ice",
+               "Psychic"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "161"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/122g.png",
+            "back": "sprites/back/122g.png"
+         },
+         "shiny": {
+            "front": "sprites/s122g.png",
+            "back": "sprites/back/s122g.png"
          }
       }
    },
