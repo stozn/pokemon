@@ -22,7 +22,7 @@ const ROUTES = {
     , unlocked: true
     }
    , special: {
-      name: 'Virdian Forest'
+      name: 'Viridian Forest'
     , pokes: ['Caterpie', 'Metapod', 'Weedle', 'Kakuna', 'Pikachu']
     , minLevel: 3
     , maxLevel: 6
@@ -2295,13 +2295,141 @@ const ROUTES = {
     , unlocked: true
     }
 },
-	Event: {
+  Galar: {
+      starter8: {
+      name: 'Postwick'
+    , pokes: ['Grookey', 'Scorbunny', 'Sobble'] 
+    , minLevel: 5
+    , maxLevel: 5
+    , unlocked: true
+    }
+    , custom34: {
+      name: 'Route 1'
+    , pokes: ['Skwovet', 'Rookidee', 'Blipbug', 'Wooloo', 'Nickit'] 
+    , minLevel: 2
+    , maxLevel: 6
+    , unlocked: true
+    }
+    , custom35: {
+      name: 'Route 2'
+    , pokes: ['Skwovet', 'Rookidee', 'Nickit', 'Chewtle', 'Yamper'] 
+    , minLevel: 5
+    , maxLevel: 7
+    , unlocked: true
+    }
+    , custom36: {
+      name: 'Route 3'
+    , pokes: ['Gossifleur', 'Rookidee', 'Corvisquire', 'Skwovet', 'Rolycoly', 'Sizzlipede'] 
+    , minLevel: 8
+    , maxLevel: 18
+    , unlocked: true
+    }
+    , custom37: {
+      name: 'Route 4'
+    , pokes: ['Yamper', 'Wooloo', 'Milcery'] 
+    , minLevel: 13
+    , maxLevel: 16
+    , unlocked: true
+    }
+    , custom38: {
+      name: 'Route 5'
+    , pokes: ['Dottler', 'Applin', 'Eldegoss'] 
+    , minLevel: 16
+    , maxLevel: 22
+    , unlocked: true
+    }
+    , custom39: {
+      name: 'Route 6'
+    , pokes: ['Silicobra'] 
+    , minLevel: 28
+    , maxLevel: 33
+    , unlocked: true
+    }
+    , custom40: {
+      name: 'Glimwood Tangle'
+    , pokes: ['Morgrem', 'Hattrem', 'Sinistea', 'Indeedee', 'Indeedee-F', 'Impidimp'] 
+    , minLevel: 31 
+    , maxLevel: 38
+    , unlocked: true
+    }
+    , custom41: {
+      name: 'Route 7'
+    , pokes: ['Thievul', 'Toxel', 'Corviknight', 'Perrserker', 'Morpeko'] 
+    , minLevel: 36
+    , maxLevel: 41
+    , unlocked: true
+    }
+    , custom42: {
+      name: 'Route 8'
+    , pokes: ['Sandaconda', 'Falinks'] 
+    , minLevel: 38
+    , maxLevel: 41
+    , unlocked: true
+    }
+    , custom43: {
+      name: 'Route 9'
+    , pokes: ['Cramorant', 'Clobbopus', 'Grapploct', 'Pincurchin'] 
+    , minLevel: 38
+    , maxLevel: 44
+    , unlocked: true
+    }
+    , custom44: {
+      name: 'Route 10'
+    , pokes: ['Snom', 'Duraludon', 'Stonjourner', 'Eiscue'] 
+    , minLevel: 44 
+    , maxLevel: 48
+    , unlocked: true
+    }
+    , custom45: {
+      name: 'Wild Area'
+    , pokes: ['Cufant', 'Dreepy', 'Hatenna'] 
+    , minLevel: 40 
+    , maxLevel: 50
+    , unlocked: true
+    }
+    , custom46: {
+      name: 'Fossils'
+    , pokes: ['Dracozolt', 'Arctozolt', 'Dracovish', 'Arctovish'] 
+    , minLevel: 10 
+    , maxLevel: 10
+    , unlocked: true
+    }
+    , custom47: {
+      name: 'Welcome to Galar'
+    , pokes: ['G-Meowth', 'G-Ponyta', 'G-Farfetch\'d', 'G-Mr. Mime', 'G-Corsola', 'G-Zigzagoon', 'G-Darumaka', 'G-Yamask', 'G-Stunfisk'] 
+    , minLevel: 20
+    , maxLevel: 20
+    , unlocked: true
+    }
+    //Add Galar Mons qui EVOLUENT pas 
+    , custom48: {
+      name: 'Energy Plant'
+    , pokes: ['Zacian', 'Zamazenta'] 
+    , minLevel: 70 
+    , maxLevel: 70
+    , unlocked: true
+    }
+    , custom49: {
+      name: 'Eternamax'
+    , pokes: ['Eternatus'] 
+    , minLevel: 60 
+    , maxLevel: 60
+    , unlocked: true
+    }
+    , custom50: {
+      name: 'Rod'
+    , pokes: ['Arrokuda'] 
+    , minLevel: 20
+    , maxLevel: 20
+    , unlocked: true
+    }
+},
+  Event: {
       event1: {
       name: 'Old Rod'
     , pokes: ['Magikarp'] 
-    , minLevel: 5
-    , maxLevel: 5
-	      
+    , minLevel: 10
+    , maxLevel: 10  
     , unlocked: true
     }
     , event2: {

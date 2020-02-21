@@ -1671,7 +1671,143 @@ const EVOLUTIONS = {
     "level":"70",
     "to":"Melmetal"
   },
-    "A-Rattata":{
+  "Grookey":{
+    "level":"16",
+    "to":"Thwackey"
+  }, 
+  "Thwackey":{
+    "level":"35",
+    "to":"Rillaboom"
+  }, 
+  "Scorbunny":{
+    "level":"16",
+    "to":"Raboot"
+  }, 
+  "Raboot":{
+    "level":"35",
+    "to":"Cinderace"
+  }, 
+  "Sobble":{
+    "level":"16",
+    "to":"Drizzile"
+  }, 
+  "Drizzile":{
+    "level":"35",
+    "to":"Inteleon"
+  },
+  "Skwovet":{
+    "level":"24",
+    "to":"Greedent"
+  },  
+  "Rookidee":{
+    "level":"18",
+    "to":"Corvisquire"
+  }, 
+  "Corvisquire":{
+    "level":"38",
+    "to":"Corviknight"
+  }, 
+  "Blipbug":{
+    "level":"10",
+    "to":"Dottler"
+  }, 
+  "Dottler":{
+    "level":"30",
+    "to":"Orbeetle"
+  }, 
+  "Nickit":{
+    "level":"18",
+    "to":"Thievul"
+  }, 
+  "Gossifleur":{
+    "level":"20",
+    "to":"Eldegoss"
+  }, 
+  "Wooloo":{
+    "level":"24",
+    "to":"Dubwool"
+  }, 
+  "Chewtle":{
+    "level":"22",
+    "to":"Drednaw"
+  }, 
+  "Yamper":{
+    "level":"25",
+    "to":"Boltund"
+  }, 
+  "Rolycoly":{
+    "level":"18",
+    "to":"Carkol"
+  }, 
+  "Carkol":{
+    "level":"34",
+    "to":"Coalossal"
+  }, 
+  "Applin":{
+    "level":"35",
+    "to":"Flapple"
+  }, 
+  "Silicobra":{
+    "level":"36",
+    "to":"Sandaconda"
+  }, 
+  "Arrokuda":{
+    "level":"26",
+    "to":"Barraskewda"
+  }, 
+  "Toxel":{
+    "level":"30",
+    "to":"Toxtricity"
+  }, 
+  "Sizzlipede":{
+    "level":"28",
+    "to":"Centiskorch"
+  }, 
+  "Clobbopus":{
+    "level":"35",
+    "to":"Grapploct"
+  }, 
+  "Sinistea":{
+    "level":"30",
+    "to":"Polteageist"
+  }, 
+  "Hatenna":{
+    "level":"32",
+    "to":"Hattrem"
+  }, 
+  "Hattrem":{
+    "level":"42",
+    "to":"Hatterene"
+  }, 
+  "Impidimp":{
+    "level":"32",
+    "to":"Morgrem"
+  }, 
+  "Morgrem":{
+    "level":"42",
+    "to":"Grimmsnarl"
+  }, 
+  "Milcery":{
+    "level":"30",
+    "to":"Alcremie"
+  }, 
+  "Snom":{
+    "level":"35",
+    "to":"Frosmoth"
+  }, 
+  "Cufant":{
+    "level":"34",
+    "to":"Copperajah"
+  }, 
+  "Dreepy":{
+    "level":"50",
+    "to":"Drakloak"
+  }, 
+  "Drakloak":{
+    "level":"60",
+    "to":"Dragapult"
+  }, 
+  "A-Rattata":{
     "level":"20",
     "to":"A-Raticate"
   },
@@ -1691,6 +1827,10 @@ const EVOLUTIONS = {
     "level":"28",
     "to":"A-Persian"
   },
+  "G-Meowth":{
+    "level":"28",
+    "to":"Perrserker"
+  }, 
   "A-Geodude":{
     "level":"25",
     "to":"A-Graveler"
@@ -1703,10 +1843,38 @@ const EVOLUTIONS = {
     "level":"38",
     "to":"A-Muk"
   },
-  
-  
-  //infinite loop-mons
-  
+  "G-Ponyta":{
+    "level":"40",
+    "to":"G-Rapidash"
+  }, 
+  "G-Farfetch\'d":{
+    "level":"35",
+    "to":"Sirfetch\'d"
+  }, 
+  "G-Mr. Mime":{
+    "level":"42",
+    "to":"Mr. Rime"
+  }, 
+  "G-Corsola":{
+    "level":"38",
+    "to":"Cursola"
+  }, 
+  "G-Zigzagoon":{
+    "level":"20",
+    "to":"G-Linoone"
+  }, 
+  "G-Linoone":{
+    "level":"35",
+    "to":"Obstagoon"
+  }, 
+  "G-Darumaka":{
+    "level":"35",
+    "to":"G-Darmanitan"
+  }, 
+  "G-Yamask":{
+    "level":"34",
+    "to":"Runerigus"
+  },  
   "Kyurem":{
     "level":"100",
     "to":"B-Kyurem"
@@ -2015,4 +2183,44 @@ const EVOLUTIONS = {
     "level":"100",
     "to":"Necrozma"
   },
+  "Flapple":{
+    "level":"35",
+    "to":"Appletun"
+  }, 
+  "Appletun":{
+    "level":"35",
+    "to":"Flapple"
+  }, 
+  "Weezing":{
+    "level":"35",
+    "to":"G-Weezing"
+  }, 
+  "G-Weezing":{
+    "level":"35",
+    "to":"Weezing"
+  }, 
+  "G-Darmanitan":{
+    "level":"35",
+    "to":"G-Darmanitan-Z"
+  }, 
+  "G-Darmanitan-Z":{
+    "level":"35",
+    "to":"G-Darmanitan"
+  }, 
+  "Zacian":{
+    "level":"100",
+    "to":"Zacian-CS"
+  }, 
+  "Zacian-CS":{
+    "level":"100",
+    "to":"Zacian"
+  }, 
+  "Zamazenta":{
+    "level":"100",
+    "to":"Zamazenta-CS"
+  }, 
+  "Zamazenta-CS":{
+    "level":"100",
+    "to":"Zamazenta"
+  }, 
 }
