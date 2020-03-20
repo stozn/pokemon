@@ -2427,7 +2427,7 @@ const ROUTES = {
   Event: {
       event1: {
       name: 'Player\'s Choice'
-    , pokes: ['Feraligatr'] 
+    , pokes: ['Absol'] 
     , minLevel: 50
     , maxLevel: 50  
     , unlocked: true
