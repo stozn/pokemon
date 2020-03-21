@@ -2427,9 +2427,9 @@ const ROUTES = {
   Event: {
       event1: {
       name: 'Player\'s Choice'
-    , pokes: ['Absol'] 
-    , minLevel: 50
-    , maxLevel: 50  
+    , pokes: ['Blissey'] 
+    , minLevel: 20
+    , maxLevel: 20  
     , unlocked: true
     }
     , event2: {
