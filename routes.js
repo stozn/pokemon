@@ -2427,9 +2427,9 @@ const ROUTES = {
   Event: {
       event1: {
       name: 'Player\'s Choice'
-    , pokes: ['G-Slowpoke'] 
-    , minLevel: 20
-    , maxLevel: 20  
+    , pokes: ['Sharpedo'] 
+    , minLevel: 50
+    , maxLevel: 50  
     , unlocked: true
     }
     , event2: {
