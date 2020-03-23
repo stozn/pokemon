@@ -2427,7 +2427,7 @@ const ROUTES = {
   Event: {
       event1: {
       name: 'Player\'s Choice'
-    , pokes: ['Blissey'] 
+    , pokes: ['G-Slowpoke'] 
     , minLevel: 20
     , maxLevel: 20  
     , unlocked: true
