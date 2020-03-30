@@ -2427,9 +2427,9 @@ const ROUTES = {
   Event: {
       event1: {
       name: 'Player\'s Choice'
-    , pokes: ['Flygon'] 
-    , minLevel: 50
-    , maxLevel: 50  
+    , pokes: ['Dreepy'] 
+    , minLevel: 10
+    , maxLevel: 10  
     , unlocked: true
     }
     , event2: {
