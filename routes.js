@@ -2426,10 +2426,10 @@ const ROUTES = {
 },
   Event: {
       event1: {
-      name: 'WHO IS THE PLAYER'
-    , pokes: ['Magikarp'] 
-    , minLevel: 100
-    , maxLevel: 100
+      name: 'Player\'s Choice'
+    , pokes: ['Impidimp'] 
+    , minLevel: 20
+    , maxLevel: 20
     , unlocked: true
     }
     , event2: {
