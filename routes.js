@@ -2426,10 +2426,10 @@ const ROUTES = {
 },
   Event: {
       event1: {
-      name: 'Player\'s Choice'
-    , pokes: ['Impidimp'] 
-    , minLevel: 20
-    , maxLevel: 20
+      name: 'RPA\'s Choice'
+    , pokes: ['Feraligatr'] 
+    , minLevel: 25
+    , maxLevel: 25
     , unlocked: true
     }
     , event2: {
