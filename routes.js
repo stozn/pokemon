@@ -2426,8 +2426,8 @@ const ROUTES = {
 },
   Event: {
       event1: {
-      name: 'RPA\'s Choice'
-    , pokes: ['Feraligatr'] 
+      name: 'Player\'s Choice'
+    , pokes: ['Toxel'] 
     , minLevel: 25
     , maxLevel: 25
     , unlocked: true
