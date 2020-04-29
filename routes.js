@@ -2427,9 +2427,9 @@ const ROUTES = {
   Event: {
       event1: {
       name: 'Player\'s Choice'
-    , pokes: ['Toxel'] 
-    , minLevel: 25
-    , maxLevel: 25
+    , pokes: ['Cubone'] 
+    , minLevel: 10
+    , maxLevel: 10
     , unlocked: true
     }
     , event2: {
