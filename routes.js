@@ -2427,7 +2427,7 @@ const ROUTES = {
   Event: {
       event1: {
       name: 'Player\'s Choice'
-    , pokes: ['Cubone'] 
+    , pokes: ['Wimpod'] 
     , minLevel: 10
     , maxLevel: 10
     , unlocked: true
