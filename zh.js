@@ -1209,9 +1209,11 @@ var map = {
     'Legendary Island': '传说孤岛',
     'The Movie': '电影院',
     'Old Rod': '破旧钓竿',
+    'Player\'s Choice': '玩家的选择',
     'Good Rod': '好钓竿',
     "Let\'s Go : Meltan": '我们走，美录坦',
     'Super Rod': '厉害钓竿',
+    'Viridian Forest': '翡翠林',
     //关都结束
     'New Bark Town': '若叶镇',
     'Dark Cave': '黑暗穴',

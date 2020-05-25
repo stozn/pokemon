@@ -2426,10 +2426,10 @@ const ROUTES = {
 },
   Event: {
       event1: {
-      name: 'Old Rod'
-    , pokes: ['Magikarp'] 
+      name: 'Player\'s Choice'
+    , pokes: ['Wimpod'] 
     , minLevel: 10
-    , maxLevel: 10  
+    , maxLevel: 10
     , unlocked: true
     }
     , event2: {
