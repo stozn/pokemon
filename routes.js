@@ -2396,7 +2396,7 @@ const ROUTES = {
     }
     , custom47: {
       name: 'Welcome to Galar'
-    , pokes: ['G-Meowth', 'G-Ponyta', 'G-Farfetch\'d', 'G-Mr. Mime', 'G-Corsola', 'G-Zigzagoon', 'G-Darumaka', 'G-Yamask', 'G-Stunfisk'] 
+    , pokes: ['G-Meowth', 'G-Ponyta', 'G-Farfetch\'d', 'G-Mr. Mime', 'G-Corsola', 'G-Zigzagoon', 'G-Darumaka', 'G-Yamask', 'G-Stunfisk', 'G-Slowpoke'] 
     , minLevel: 20
     , maxLevel: 20
     , unlocked: true
