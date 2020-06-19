@@ -2223,4 +2223,20 @@ const EVOLUTIONS = {
     "level":"100",
     "to":"Zamazenta"
   }, 
+    "G-Slowpoke":{
+    "level":"37",
+    "to":"G-Slowbro"
+  },  
+    "Kubfu":{
+    "level":"70",
+    "to":"Urshifu-SSS"
+  }, 
+    "Urshifu-SSS":{
+    "level":"75",
+    "to":"Urshifu-RSS"
+  }, 
+    "Urshifu-RSS":{
+    "level":"75",
+    "to":"Urshifu-SSS"
+  }, 
 }
