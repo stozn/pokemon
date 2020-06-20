@@ -37879,7 +37879,7 @@ const POKEDEX = [
             "speed": "92",
             "types": [
 	       "Fighting",
-	       "Dark"
+	       "Water"
             ]
          }
       ],
