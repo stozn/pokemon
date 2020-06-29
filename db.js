@@ -33371,6 +33371,119 @@ const POKEDEX = [
    {
       "pokemon": [
          {
+            "Pokemon": "Kubfu"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "3",
+            "growth rate": "Slow",
+            "hp": "60",
+            "attack": "90",
+            "defense": "60",
+            "sp atk": "53",
+            "sp def": "50",
+            "speed": "72",
+            "types": [
+	       "Fighting"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "100"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/891.png",
+            "back": "sprites/back/891.png"
+         },
+         "shiny": {
+            "front": "sprites/s891.png",
+            "back": "sprites/back/s891.png"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "Urshifu-SSS"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "3",
+            "growth rate": "Slow",
+            "hp": "100",
+            "attack": "130",
+            "defense": "100",
+            "sp atk": "63",
+            "sp def": "60",
+            "speed": "92",
+            "types": [
+	       "Fighting",
+	       "Dark"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "200"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/892sss.png",
+            "back": "sprites/back/892sss.png"
+         },
+         "shiny": {
+            "front": "sprites/s892sss.png",
+            "back": "sprites/back/s892sss.png"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "Zarude"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "3",
+            "growth rate": "Slow",
+            "hp": "105",
+            "attack": "120",
+            "defense": "105",
+            "sp atk": "70",
+            "sp def": "95",
+            "speed": "105",
+            "types": [
+	       "Dark",
+	       "Grass"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "100"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/893.png",
+            "back": "sprites/back/893.png"
+         },
+         "shiny": {
+            "front": "sprites/s893.png",
+            "back": "sprites/back/s893.png"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
             "Pokemon": "M-Venusaur"
          }
       ],
@@ -34381,6 +34494,44 @@ const POKEDEX = [
          "shiny": {
             "front": "sprites/s080m.png",
             "back": "sprites/back/s080m.png"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "G-Slowbro"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "75",
+            "growth rate": "Medium Fast",
+            "hp": "95",
+            "attack": "100",
+            "defense": "95",
+            "sp atk": "100",
+            "sp def": "70",
+            "speed": "30",
+            "types": [
+	       "Poison",
+               "Psychic"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "172"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/080g.png",
+            "back": "sprites/back/080g.png"
+         },
+         "shiny": {
+            "front": "sprites/s080g.png",
+            "back": "sprites/back/s080g.png"
          }
       }
    },
@@ -37707,6 +37858,44 @@ const POKEDEX = [
          "shiny": {
             "front": "sprites/s889cs.png",
             "back": "sprites/back/s889cs.png"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "Urshifu-RSS"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "3",
+            "growth rate": "Slow",
+            "hp": "100",
+            "attack": "130",
+            "defense": "100",
+            "sp atk": "63",
+            "sp def": "60",
+            "speed": "92",
+            "types": [
+	       "Fighting",
+	       "Water"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "200"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/892rss.png",
+            "back": "sprites/back/892rss.png"
+         },
+         "shiny": {
+            "front": "sprites/s892rss.png",
+            "back": "sprites/back/s892rss.png"
          }
       }
    },

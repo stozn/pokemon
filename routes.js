@@ -2396,7 +2396,7 @@ const ROUTES = {
     }
     , custom47: {
       name: 'Welcome to Galar'
-    , pokes: ['G-Meowth', 'G-Ponyta', 'G-Farfetch\'d', 'G-Mr. Mime', 'G-Corsola', 'G-Zigzagoon', 'G-Darumaka', 'G-Yamask', 'G-Stunfisk'] 
+    , pokes: ['G-Meowth', 'G-Ponyta', 'G-Farfetch\'d', 'G-Mr. Mime', 'G-Corsola', 'G-Zigzagoon', 'G-Darumaka', 'G-Yamask', 'G-Stunfisk', 'G-Slowpoke'] 
     , minLevel: 20
     , maxLevel: 20
     , unlocked: true
@@ -2417,6 +2417,13 @@ const ROUTES = {
     , unlocked: true
     }
     , custom50: {
+      name: 'Isle of Armor'
+    , pokes: ['Kubfu'] 
+    , minLevel: 10
+    , maxLevel: 10
+    , unlocked: true
+    }
+    , custom51: {
       name: 'Rod'
     , pokes: ['Arrokuda'] 
     , minLevel: 20
@@ -2426,10 +2433,10 @@ const ROUTES = {
 },
   Event: {
       event1: {
-      name: 'Player\'s Choice'
-    , pokes: ['Wimpod'] 
-    , minLevel: 10
-    , maxLevel: 10
+      name: 'Treestorm'
+    , pokes: ['Zarude'] 
+    , minLevel: 70
+    , maxLevel: 70
     , unlocked: true
     }
     , event2: {
