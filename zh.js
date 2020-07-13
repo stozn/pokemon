@@ -1056,8 +1056,8 @@ var obj = {
     '': '',
     '': '',
     '': '',
-    'Kubfu': 'Kubfu',
-    'Zarude': 'Zarude',
+    'Kubfu': '熊徒弟',
+    'Zarude': '萨戮德',
 };
 
 
