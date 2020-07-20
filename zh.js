@@ -1497,5 +1497,15 @@ var map = {
     'Not a PokeBall': '不是精灵球',
     'Fighting Ghost': '战斗幽灵',
     'Ultra Volt': '超级伏特',
-    'Rod': '杆'
+    'Rod': '杆',
+    'Postwick': '化朗镇',
+    'Eternamax': '无极巨化',
+    'Glimwood Tangle': '迷光森林',
+    'Wild Area': '旷野地带',
+    'Fossils': '化石宝可梦',
+    'Welcome to Galar': '欢迎来到加拉尔',
+    'Energy Plant': '能源工厂',
+    'Isle of Armor': '铠岛',
+    '': '',
+    '': '',
 };
