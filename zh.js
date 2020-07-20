@@ -1026,7 +1026,7 @@ var obj = {
     'Sobble': '泪眼蜥',
     'Drizzile': '变涩蜥',
     'Skwovet': '贪心栗鼠',
-    'Rookidee': '贪心栗鼠',
+    'Rookidee': '稚山雀',
     'Corvisquire': '蓝鸦',
     'Corviknight': '钢铠鸦',
     'Blipbug': '索侦虫',
