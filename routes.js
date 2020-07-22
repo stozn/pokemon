@@ -2433,10 +2433,10 @@ const ROUTES = {
 },
   Event: {
       event1: {
-      name: 'AAAAAAAAAAA'
-    , pokes: ['Guzzlord'] 
-    , minLevel: 70
-    , maxLevel: 70
+      name: 'Old Rod'
+    , pokes: ['Magikarp'] 
+    , minLevel: 10
+    , maxLevel: 10
     , unlocked: true
     }
     , event2: {
