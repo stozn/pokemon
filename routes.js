@@ -2401,7 +2401,6 @@ const ROUTES = {
     , maxLevel: 20
     , unlocked: true
     }
-    //Add Galar Mons qui EVOLUENT pas 
     , custom48: {
       name: 'Energy Plant'
     , pokes: ['Zacian', 'Zamazenta'] 
@@ -2424,6 +2423,13 @@ const ROUTES = {
     , unlocked: true
     }
     , custom51: {
+      name: 'Leaf Guardian'
+    , pokes: ['Zarude'] 
+    , minLevel: 60
+    , maxLevel: 60
+    , unlocked: true
+    }
+    , custom52: {
       name: 'Rod'
     , pokes: ['Arrokuda'] 
     , minLevel: 20
@@ -2433,10 +2439,10 @@ const ROUTES = {
 },
   Event: {
       event1: {
-      name: 'Zandstorm.com'
-    , pokes: ['Zarude'] 
-    , minLevel: 70
-    , maxLevel: 70
+      name: 'Old Rod'
+    , pokes: ['Magikarp'] 
+    , minLevel: 5
+    , maxLevel: 5
     , unlocked: true
     }
     , event2: {
