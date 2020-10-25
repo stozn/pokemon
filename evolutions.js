@@ -2227,6 +2227,14 @@ const EVOLUTIONS = {
     "level":"37",
     "to":"G-Slowbro"
   },  
+  "G-Slowbro":{
+    "level":"37",
+    "to":"G-Slowking"
+  },  
+  "G-Slowking":{
+    "level":"37",
+    "to":"G-Slowbro"
+  },  
     "Kubfu":{
     "level":"70",
     "to":"Urshifu-SSS"

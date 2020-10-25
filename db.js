@@ -35368,6 +35368,44 @@ const POKEDEX = [
    {
       "pokemon": [
          {
+            "Pokemon": "G-Slowking"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "70",
+            "growth rate": "Medium Fast",
+            "hp": "95",
+            "attack": "65",
+            "defense": "80",
+            "sp atk": "110",
+            "sp def": "110",
+            "speed": "30",
+            "types": [
+			   "Poison",
+               "Psychic"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "172"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/199g.png",
+            "back": "sprites/back/199g.png"
+         },
+         "shiny": {
+            "front": "sprites/s199g.png",
+            "back": "sprites/back/s199g.png"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
             "Pokemon": "M-Steelix"
          }
       ],
