@@ -2429,7 +2429,35 @@ const ROUTES = {
     , maxLevel: 60
     , unlocked: true
     }
-    , custom52: {
+	, custom52: {
+      name: 'Old Chamber'
+    , pokes: ['Regieleki', 'Regidrago'] 
+    , minLevel: 70
+    , maxLevel: 70
+    , unlocked: true
+    }
+	, custom53: {
+      name: 'Roaming Birds'
+    , pokes: ['G-Articuno', 'G-Zapdos', 'G-Moltres'] 
+    , minLevel: 70
+    , maxLevel: 70
+    , unlocked: true
+    }
+	, custom54: {
+      name: 'Roaming Birds'
+    , pokes: ['Glastrier', 'Spectrier'] 
+    , minLevel: 75
+    , maxLevel: 75
+    , unlocked: true
+    }
+	, custom55: {
+      name: 'Crown Shrine'
+    , pokes: ['Calyrex'] 
+    , minLevel: 80
+    , maxLevel: 80
+    , unlocked: true
+    }
+    , custom56: {
       name: 'Rod'
     , pokes: ['Arrokuda'] 
     , minLevel: 20
