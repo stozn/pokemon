@@ -2451,7 +2451,7 @@ const ROUTES = {
     , unlocked: true
     }
 	, custom55: {
-      name: 'Crown Shrine'
+      name: 'Tundra Riders'
     , pokes: ['Calyrex'] 
     , minLevel: 80
     , maxLevel: 80
