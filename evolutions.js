@@ -2253,10 +2253,10 @@ const EVOLUTIONS = {
   }, 
     "Calyrex-IR":{
     "level":"100",
-    "to":"Urshifu-SR"
+    "to":"Calyrex-SR"
   }, 
     "Calyrex-SR":{
     "level":"100",
-    "to":"Urshifu-IR"
+    "to":"Calyrex-IR"
   }, 
 }
