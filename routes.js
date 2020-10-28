@@ -2444,14 +2444,14 @@ const ROUTES = {
     , unlocked: true
     }
 	, custom54: {
-      name: 'Roaming Birds'
+      name: 'Tundra Riders'
     , pokes: ['Glastrier', 'Spectrier'] 
     , minLevel: 75
     , maxLevel: 75
     , unlocked: true
     }
 	, custom55: {
-      name: 'Tundra Riders'
+      name: 'Crown Shrine'
     , pokes: ['Calyrex'] 
     , minLevel: 80
     , maxLevel: 80
