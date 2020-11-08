@@ -2401,7 +2401,6 @@ const ROUTES = {
     , maxLevel: 20
     , unlocked: true
     }
-    //Add Galar Mons qui EVOLUENT pas 
     , custom48: {
       name: 'Energy Plant'
     , pokes: ['Zacian', 'Zamazenta'] 
@@ -2424,6 +2423,41 @@ const ROUTES = {
     , unlocked: true
     }
     , custom51: {
+      name: 'Leaf Guardian'
+    , pokes: ['Zarude'] 
+    , minLevel: 60
+    , maxLevel: 60
+    , unlocked: true
+    }
+	, custom52: {
+      name: 'Old Chamber'
+    , pokes: ['Regieleki', 'Regidrago'] 
+    , minLevel: 70
+    , maxLevel: 70
+    , unlocked: true
+    }
+	, custom53: {
+      name: 'Roaming Birds'
+    , pokes: ['G-Articuno', 'G-Zapdos', 'G-Moltres'] 
+    , minLevel: 70
+    , maxLevel: 70
+    , unlocked: true
+    }
+	, custom54: {
+      name: 'Tundra Riders'
+    , pokes: ['Glastrier', 'Spectrier'] 
+    , minLevel: 75
+    , maxLevel: 75
+    , unlocked: true
+    }
+	, custom55: {
+      name: 'Crown Shrine'
+    , pokes: ['Calyrex'] 
+    , minLevel: 80
+    , maxLevel: 80
+    , unlocked: true
+    }
+    , custom56: {
       name: 'Rod'
     , pokes: ['Arrokuda'] 
     , minLevel: 20
@@ -2435,8 +2469,8 @@ const ROUTES = {
       event1: {
       name: 'Old Rod'
     , pokes: ['Magikarp'] 
-    , minLevel: 10
-    , maxLevel: 10
+    , minLevel: 5
+    , maxLevel: 5
     , unlocked: true
     }
     , event2: {

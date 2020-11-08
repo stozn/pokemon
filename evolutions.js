@@ -2227,6 +2227,14 @@ const EVOLUTIONS = {
     "level":"37",
     "to":"G-Slowbro"
   },  
+  "G-Slowbro":{
+    "level":"37",
+    "to":"G-Slowking"
+  },  
+  "G-Slowking":{
+    "level":"37",
+    "to":"G-Slowbro"
+  },  
     "Kubfu":{
     "level":"70",
     "to":"Urshifu-SSS"
@@ -2238,5 +2246,17 @@ const EVOLUTIONS = {
     "Urshifu-RSS":{
     "level":"75",
     "to":"Urshifu-SSS"
+  }, 
+	"Calyrex":{
+    "level":"100",
+    "to":"Calyrex-IR"
+  }, 
+    "Calyrex-IR":{
+    "level":"100",
+    "to":"Calyrex-SR"
+  }, 
+    "Calyrex-SR":{
+    "level":"100",
+    "to":"Calyrex-IR"
   }, 
 }
