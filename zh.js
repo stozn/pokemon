@@ -12,7 +12,7 @@ function cnText(text) {
     //数组里面没有的，原样返回
     for (var i in obj) {
         if (text != i) {
-//            console.log(text)
+            console.log(text)
             return text;
         }
     }
@@ -1041,17 +1041,17 @@ var obj = {
     'Inteleon': '千面避役',
     'Greedent': '藏饱栗鼠',
     'Orbeetle': '以欧路普',
-    '': '',
-    '': '',
-    '': '',
-    '': '',
-    '': '',
-    '': '',
-    '': '',
-    '': '',
-    '': '',
-    '': '',
-    '': '',
+    'Regieleki': '雷吉艾勒奇',
+    'Regidrago': '雷吉铎拉戈',
+    'Glastrier': '雪暴马',
+    'Spectrier': '灵幽马',
+    'Calyrex': '蕾冠王',
+    'G-Articuno': 'G-急冻鸟',
+    'G-Zapdos': 'G-闪电鸟',
+    'G-Moltres': 'G-火焰鸟',
+    'G-Slowking': 'G-呆呆王',
+    'Calyrex-IR': '蕾冠王-IR',
+    'Calyrex-SR': '蕾冠王-SR',
     '': '',
     '': '',
     '': '',
