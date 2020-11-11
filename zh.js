@@ -1506,6 +1506,12 @@ var map = {
     'Welcome to Galar': '欢迎来到加拉尔',
     'Energy Plant': '能源工厂',
     'Isle of Armor': '铠岛',
+    'Leaf Guardian': '子亲森林',
+    'Old Chamber': '伽勒尔圣柱王之地',
+    'Roaming Birds': '伽勒尔三神鸟之地',
+    'Tundra Riders': '冠之雪原上的骑士',
+    'Crown Shrine': '王冠神殿',
+    '': '',
     '': '',
     '': '',
 };
