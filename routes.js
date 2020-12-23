@@ -591,7 +591,7 @@ const ROUTES = {
     , unlocked: true
     }
 	, special37: {
-      name: 'Felines, Cats or Dogs ?'
+      name: 'Felines, Cats or Dogs'
     , pokes: ['Raikou', 'Entei', 'Suicune'] 
     , minLevel: 40
     , maxLevel: 40
