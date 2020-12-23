@@ -39334,4 +39334,120 @@ const POKEDEX = [
          }
       }
    },
+      {
+      "pokemon": [
+         {
+            "Pokemon": "GX-Venusaur",
+            "DisplayName": "Venusaur"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "45",
+            "growth rate": "Medium Slow",
+            "hp": "80",
+            "attack": "82",
+            "defense": "83",
+            "sp atk": "100",
+            "sp def": "100",
+            "speed": "80",
+            "types": [
+               "Grass",
+               "Poison"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "236"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/gx003.png",
+            "back": "sprites/back/gx003.png"
+         },
+         "shiny": {
+            "front": "sprites/gx003s.png",
+            "back": "sprites/back/gx003s.png"
+         }
+      }
+   },
+      {
+      "pokemon": [
+         {
+            "Pokemon": "GX-Charizard",
+            "DisplayName": "Charizard"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "45",
+            "growth rate": "Medium Slow",
+            "hp": "78",
+            "attack": "84",
+            "defense": "78",
+            "sp atk": "109",
+            "sp def": "85",
+            "speed": "100",
+            "types": [
+               "Fire",
+               "Flying"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "240"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/gx006.png",
+            "back": "sprites/back/gx006.png"
+         },
+         "shiny": {
+            "front": "sprites/gx006s.png",
+            "back": "sprites/back/gx006s.png"
+         }
+      }
+   },
+      {
+      "pokemon": [
+         {
+            "Pokemon": "GX-Blastoise",
+            "DisplayName": "Blastoise"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "45",
+            "growth rate": "Medium Slow",
+            "hp": "79",
+            "attack": "83",
+            "defense": "100",
+            "sp atk": "85",
+            "sp def": "105",
+            "speed": "78",
+            "types": [
+               "Water"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "239"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/gx009.png",
+            "back": "sprites/back/gx009.png"
+         },
+         "shiny": {
+            "front": "sprites/gx009s.png",
+            "back": "sprites/back/gx009s.png"
+         }
+      }
+   },
 ];
