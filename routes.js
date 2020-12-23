@@ -2467,10 +2467,10 @@ const ROUTES = {
 },
   Event: {
       event1: {
-      name: 'Old Rod'
-    , pokes: ['Magikarp'] 
-    , minLevel: 5
-    , maxLevel: 5
+      name: 'Den 1'
+    , pokes: ['GX-Venusaur', 'GX-Charizard', 'GX-Blastoise'] 
+    , minLevel: 100
+    , maxLevel: 100
     , unlocked: true
     }
     , event2: {
