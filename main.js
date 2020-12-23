@@ -113,7 +113,7 @@ const makeDomHandler = () => {
                 (userSettings.dexView == 'owned' && (dexEntry.flag >= 3)) ||
                 (userSettings.dexView == 'missing' && (dexEntry.flag != 6 && dexEntry.flag != 8)) ||
                 (userSettings.dexView == 'shiny' && (dexEntry.flag == 8))) {
-                listValue += '<li class="pokeDex' + dexEntry.flag + '">' + (y + 1) + ' ' + POKEDEX[y].pokemon[0].Pokemon + '</li>';
+                listValue += '<li class="pokeDex' + dexEntry.flag + '">' + (y + 1) + ' ' + POKEDEX[y].pokemon[0].DisplayName + '</li>';
             }
         }
         setValue(listElement, listValue, false)
@@ -524,7 +524,8 @@ const makePoke = (pokeModel, initialLevel, initialExp, shiny) => {
     }
     const avgDefense = () => (combat.defense() + combat.spDefense())/2
     const poke_interface = {
-        pokeName: () => poke.pokemon[0].Pokemon
+        pokeName: () => poke.pokemon[0].DisplayName
+		, pokeId: () => poke.pokemon[0].Pokemon
         , image: () => {
             const imageType = (isShiny ? 'shiny' : 'normal')
             return {
@@ -679,7 +680,7 @@ const makePlayer = () => {
             if (storage.length > 0) {
                 allPokemon = allPokemon.concat(storage);
             }
-            return typeof allPokemon.find(function(obj){ return (this[0] == obj.pokeName() && this[1] == obj.shiny()); }, [pokemonName, shiny]) != 'undefined'
+            return typeof allPokemon.find(function(obj){ return (this[0] == obj.pokeId() && this[1] == obj.shiny()); }, [pokemonName, shiny]) != 'undefined'
         }
         , deletePoke: (index) => {
             if (index !== activePoke) {
@@ -761,7 +762,7 @@ const makePlayer = () => {
             if (oldVersion == null) {
                 // this should only ever be run once
                 for (var i in pokemons) {
-                    player.addPokedex(pokemons[i].pokeName(), (pokemons[i].shiny() ? 8 : 6))
+                    player.addPokedex(pokemons[i].pokeId(), (pokemons[i].shiny() ? 8 : 6))
                 }
             }
             if (oldVersion < 194) {
@@ -886,7 +887,7 @@ const makeUserInteractions = (player, enemy, dom, combatLoop) => {
     const changeRoute = (newRouteId) => {
         userSettings.currentRouteId = newRouteId
         enemy.generateNew(ROUTES[userSettings.currentRegionId][newRouteId])
-        player.addPokedex(enemy.activePoke().pokeName(), (enemy.activePoke().shiny() ? 2 : 1))
+        player.addPokedex(enemy.activePoke().pokeId(), (enemy.activePoke().shiny() ? 2 : 1))
         if (enemy.activePoke().shiny()) {
             statistics.shinySeen++;
         } else {
@@ -904,7 +905,7 @@ const makeUserInteractions = (player, enemy, dom, combatLoop) => {
             return lhs.level() - rhs.level()
         },
         dex: (lhs, rhs) => {
-            let index = p => POKEDEX.findIndex(x=>x.pokemon[0].Pokemon == p.pokeName())
+            let index = p => POKEDEX.findIndex(x=>x.pokemon[0].Pokemon == p.pokeId())
             return index(lhs) - index(rhs)
         },
         vlv: (lhs, rhs) => {
@@ -926,8 +927,8 @@ const makeUserInteractions = (player, enemy, dom, combatLoop) => {
             if (event.shiftKey) {
                 const pokemon = player.pokemons()[index];
                 player.deletePoke(index)
-                if (!player.hasPokemon(pokemon.pokeName(), pokemon.shiny()))
-                    player.addPokedex(pokemon.pokeName(), (pokemon.shiny() ? 4 : 3))
+                if (!player.hasPokemon(pokemon.pokeId(), pokemon.shiny()))
+                    player.addPokedex(pokemon.pokeId(), (pokemon.shiny() ? 4 : 3))
                 combatLoop.changePlayerPoke(player.activePoke())
                 renderView(dom, enemy, player)
                 player.savePokes()
@@ -941,8 +942,8 @@ const makeUserInteractions = (player, enemy, dom, combatLoop) => {
                 const storageList = player.storage();
                 storageList.splice(index, 1)
                 player.reorderStorage(storageList);
-                if (!player.hasPokemon(pokemon.pokeName(), pokemon.shiny()))
-                    player.addPokedex(pokemon.pokeName(), (pokemon.shiny() ? 4 : 3))
+                if (!player.hasPokemon(pokemon.pokeId(), pokemon.shiny()))
+                    player.addPokedex(pokemon.pokeId(), (pokemon.shiny() ? 4 : 3))
                 combatLoop.changePlayerPoke(player.activePoke())
                 renderView(dom, enemy, player)
                 player.savePokes()
@@ -1254,7 +1255,7 @@ const makeCombatLoop = (enemy, player, dom) => {
                 } else {
                     statistics.beaten++;
                 }
-                if (catchEnabled == 'all' || (catchEnabled == 'new' && !player.hasPokemon(enemy.activePoke().pokeName(), 0)) || enemy.activePoke().shiny()) {
+                if (catchEnabled == 'all' || (catchEnabled == 'new' && !player.hasPokemon(enemy.activePoke().pokeId(), 0)) || enemy.activePoke().shiny()) {
                     dom.gameConsoleLog('Trying to catch ' + enemy.activePoke().pokeName() + '...', 'purple')
                     const selectedBall = (enemy.activePoke().shiny() ? player.bestAvailableBall() : player.selectedBall())
                     if (player.consumeBall(selectedBall)) {
@@ -1266,7 +1267,7 @@ const makeCombatLoop = (enemy, player, dom) => {
                             )
                         if (rngHappened) {
                             dom.gameConsoleLog('You caught ' + enemy.activePoke().pokeName() + '!!', 'purple')
-                            player.addPokedex(enemy.activePoke().pokeName(), (enemy.activePoke().shiny() ? 8 : 6))
+                            player.addPokedex(enemy.activePoke().pokeId(), (enemy.activePoke().shiny() ? 8 : 6))
                             if (enemy.activePoke().shiny()) {
                                 statistics.shinyCaught++;
                             } else {
@@ -1389,7 +1390,7 @@ if (localStorage.getItem(`totalPokes`) !== null) {
 } else {
     var starterPoke = makePoke(pokeById(randomArrayElement([1, 4, 7])), 5)
     player.addPoke(starterPoke)
-    player.addPokedex(starterPoke.pokeName(), 6)
+    player.addPokedex(starterPoke.pokeId(), 6)
 }
 
 if (userSettings.spriteChoice === 'front') {
