@@ -3,7 +3,7 @@ const POKEDEX = [
       "pokemon": [
          {
             "Pokemon": "Bulbasaur",
-            "DisplayName": "NEW UPDATE ? ? ? ?"
+            "DisplayName": "Bulbasaur"
          }
       ],
       "stats": [
