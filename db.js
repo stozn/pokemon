@@ -39450,4 +39450,42 @@ const POKEDEX = [
          }
       }
    },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "GX-Snorlax",
+            "DisplayName": "Snorlax"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "25",
+            "growth rate": "Slow",
+            "hp": "160",
+            "attack": "110",
+            "defense": "65",
+            "sp atk": "65",
+            "sp def": "110",
+            "speed": "30",
+            "types": [
+               "Normal"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "189"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/gx143.png",
+            "back": "sprites/back/gx143.png"
+         },
+         "shiny": {
+            "front": "sprites/gx143s.png",
+            "back": "sprites/back/gx143s.png"
+         }
+      }
+   },
 ];
