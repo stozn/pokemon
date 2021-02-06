@@ -8,7 +8,7 @@ body {
   width: 800px;
   margin: auto;
   background-color: rgb(82, 153, 228);
-  height: 625px;
+  height: 650px;
   padding: 10px;
   border-radius: 3px;
   box-shadow: 0 0 10px black;
@@ -333,8 +333,9 @@ ul {
 
 #version {
   position: absolute;
-  top: 620px;
-  left: 270px;
+  top: 625px;
+  left: 35px;
+  font-size: 30px;
 }
 
 
