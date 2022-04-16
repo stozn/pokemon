@@ -74,9 +74,9 @@ const makeDomHandler = () => {
         face = face || 'front'
         const pokeStatusAsText = (poke) => {
             var output = ''
-            output += '攻击速度: ' + poke.attackSpeed()/1000 + '<br>'
-            output += '\n攻击力: ' + poke.avgAttack() + '<br>'
-            output += '\n防御: ' + poke.avgDefense() + '<br>'
+            output += 'Attack Speed: ' + poke.attackSpeed()/1000 + '<br>'
+            output += '\nAttack: ' + poke.avgAttack() + '<br>'
+            output += '\nDefense: ' + poke.avgDefense() + '<br>'
             return output
         }
         const containerCssQuery = '.container.poke' + '#' + id
@@ -89,7 +89,7 @@ const makeDomHandler = () => {
             , expBar: container.querySelector('.expBar')
             , status: container.querySelector('.status')
         }
-        setValue(domElements.name, cnText(poke.pokeName()) + ' (' + poke.level() + ')')
+        setValue(domElements.name, poke.pokeName() + ' (' + poke.level() + ')')
         setProp(domElements.img, 'src', poke.image()[face])
         setValue(domElements.hp, poke.lifeAsText())
         setProp(domElements.hpBar, 'value', poke.life.current())
@@ -113,7 +113,7 @@ const makeDomHandler = () => {
                 (userSettings.dexView == 'owned' && (dexEntry.flag >= 3)) ||
                 (userSettings.dexView == 'missing' && (dexEntry.flag != 6 && dexEntry.flag != 8)) ||
                 (userSettings.dexView == 'shiny' && (dexEntry.flag == 8))) {
-                listValue += '<li class="pokeDex' + dexEntry.flag + '">' + (y + 1) + ' ' + cnText(POKEDEX[y].pokemon[0].Pokemon) + '</li>';
+                listValue += '<li class="pokeDex' + dexEntry.flag + '">' + (y + 1) + ' ' + POKEDEX[y].pokemon[0].DisplayName + '</li>';
             }
         }
         setValue(listElement, listValue, false)
@@ -127,7 +127,7 @@ const makeDomHandler = () => {
             renderView(dom, enemy, player)
         }
         if (typeof canHeal === 'number') {
-            setValue(healElement, '治疗: ' + Math.floor(((canHeal/30000)*100)) + '%')
+            setValue(healElement, 'Heal: ' + Math.floor(((canHeal/30000)*100)) + '%')
         }
     }
     const pokeColor = (poke) => {
@@ -160,7 +160,7 @@ const makeDomHandler = () => {
             const listItemElement = listElement.querySelector('#storagePoke' + index);
             if (listItemElement) {
                 const listItemNameElement = listItemElement.querySelector('.pokeListName')
-                listItemNameElement.innerHTML =cnText(`${poke.pokeName()}`)+`(${poke.level()})`
+                listItemNameElement.innerHTML = `${poke.pokeName()} (${poke.level()})`
                 listItemNameElement.style.color = pokeColor(poke)
             } else {
                 const deleteButton = `<a href="#"
@@ -194,14 +194,14 @@ const makeDomHandler = () => {
             onclick="userInteractions.storageToFirst(${index})"
             class="pokeFirstButton"
           >
-            置顶
+            #1
           </button>`
 
                 const rosterButton = `<button href="#"
             onclick="userInteractions.moveToRoster(${index})"
             class="pokeFirstButton"
           >
-            名册
+            Roster
           </button>`
 
                 listElementsToAdd += `<li id="storagePoke${index}">` +
@@ -210,8 +210,8 @@ const makeDomHandler = () => {
               href="#"
               style="color: ${pokeColor(poke)}"
               class="pokeListName"
-            >`+
-              cnText(`${poke.pokeName()}`) + `(${poke.level()})
+            >
+              ${poke.pokeName()} (${poke.level()})
             </a>
             <br>` +
                     upButton +
@@ -242,7 +242,7 @@ const makeDomHandler = () => {
             const listItemElement = listElement.querySelector('#listPoke' + index);
             if (listItemElement) {
                 const listItemNameElement = listItemElement.querySelector('.pokeListName')
-                listItemNameElement.innerHTML = cnText(`${poke.pokeName()}`) + `(${poke.level()})`
+                listItemNameElement.innerHTML = `${poke.pokeName()} (${poke.level()})`
                 listItemNameElement.style.color = pokeColor(poke)
                 listItemNameElement.className = 'pokeListName'
                     + (poke === player.activePoke() ? ' activePoke' : '')
@@ -279,21 +279,21 @@ const makeDomHandler = () => {
             onclick="userInteractions.pokemonToFirst('${index}')"
             class="pokeFirstButton"
           >
-            置顶
+            #1
           </button>`
 
                 const evolveButton = `<button href="#"
             onclick="userInteractions.evolvePokemon('${index}')"
             class="pokeEvolveButton"
           >
-            进化
+            Evolve
           </button>`
 
                 const storageButton = `<button href="#"
             onclick="userInteractions.moveToStorage('${index}')"
             class="pokeFirstButton"
           >
-            入库
+            PC
           </button>`
 
                 listElementsToAdd += `<li id="listPoke${index}">` +
@@ -303,8 +303,8 @@ const makeDomHandler = () => {
               onclick="userInteractions.changePokemon(${index})"
               style="color: ${pokeColor(poke)}"
               class="pokeListName"
-            >'
-              cnText('${poke.pokeName()}') '(${poke.level()})
+            >
+              ${poke.pokeName()} (${poke.level()})
             </a>
             <br>` +
                     upButton +
@@ -347,16 +347,16 @@ const makeDomHandler = () => {
             color: ${route.unlocked
                 && (routeId === userSettings.currentRouteId
                     && 'rgb(51, 111, 22)'
-                    || 'rgb(53, 50, 103)' )
-                || 'rgb(167, 167, 167)'
+                    || 'rgb(176, 180, 184)' )
+                || 'rgb(164, 15, 3)'
                     };
             font-weight: ${routeId === userSettings.currentRouteId
                 && 'bold'
                 || 'normal'
                     };
            "
-           >`+
-             cnMap(`${route.name}`) + `${' (' + route.minLevel + '~' + route.maxLevel + ')'}
+           >
+             ${route.name + ' (' + route.minLevel + '~' + route.maxLevel + ')'}
            </a>
         </li>`
                 , true
@@ -524,7 +524,8 @@ const makePoke = (pokeModel, initialLevel, initialExp, shiny) => {
     }
     const avgDefense = () => (combat.defense() + combat.spDefense())/2
     const poke_interface = {
-        pokeName: () => poke.pokemon[0].Pokemon
+        pokeName: () => poke.pokemon[0].DisplayName
+		, pokeId: () => poke.pokemon[0].Pokemon
         , image: () => {
             const imageType = (isShiny ? 'shiny' : 'normal')
             return {
@@ -679,7 +680,7 @@ const makePlayer = () => {
             if (storage.length > 0) {
                 allPokemon = allPokemon.concat(storage);
             }
-            return typeof allPokemon.find(function(obj){ return (this[0] == obj.pokeName() && this[1] == obj.shiny()); }, [pokemonName, shiny]) != 'undefined'
+            return typeof allPokemon.find(function(obj){ return (this[0] == obj.pokeId() && this[1] == obj.shiny()); }, [pokemonName, shiny]) != 'undefined'
         }
         , deletePoke: (index) => {
             if (index !== activePoke) {
@@ -761,7 +762,7 @@ const makePlayer = () => {
             if (oldVersion == null) {
                 // this should only ever be run once
                 for (var i in pokemons) {
-                    player.addPokedex(pokemons[i].pokeName(), (pokemons[i].shiny() ? 8 : 6))
+                    player.addPokedex(pokemons[i].pokeId(), (pokemons[i].shiny() ? 8 : 6))
                 }
             }
             if (oldVersion < 194) {
@@ -795,7 +796,7 @@ const makePlayer = () => {
                 try {
                     saveData = JSON.parse(saveData[1])
                 } catch (err) {
-                    alert('无法解析存档数据，加载已取消!')
+                    alert('Failed to parse save data, loading canceled!')
                     return;
                 }
                 pokemons = []
@@ -830,7 +831,7 @@ const makePlayer = () => {
                     player.reloadDexData(userSettings.dexVersion, gameVersion)
                 }
             } else {
-                alert('存档无效，加载已取消!')
+                alert('Invalid save data, loading canceled!')
             }
         }
         , ballRNG: (ballName) => {
@@ -886,7 +887,7 @@ const makeUserInteractions = (player, enemy, dom, combatLoop) => {
     const changeRoute = (newRouteId) => {
         userSettings.currentRouteId = newRouteId
         enemy.generateNew(ROUTES[userSettings.currentRegionId][newRouteId])
-        player.addPokedex(enemy.activePoke().pokeName(), (enemy.activePoke().shiny() ? 2 : 1))
+        player.addPokedex(enemy.activePoke().pokeId(), (enemy.activePoke().shiny() ? 2 : 1))
         if (enemy.activePoke().shiny()) {
             statistics.shinySeen++;
         } else {
@@ -904,7 +905,7 @@ const makeUserInteractions = (player, enemy, dom, combatLoop) => {
             return lhs.level() - rhs.level()
         },
         dex: (lhs, rhs) => {
-            let index = p => POKEDEX.findIndex(x=>x.pokemon[0].Pokemon == p.pokeName())
+            let index = p => POKEDEX.findIndex(x=>x.pokemon[0].Pokemon == p.pokeId())
             return index(lhs) - index(rhs)
         },
         vlv: (lhs, rhs) => {
@@ -926,13 +927,13 @@ const makeUserInteractions = (player, enemy, dom, combatLoop) => {
             if (event.shiftKey) {
                 const pokemon = player.pokemons()[index];
                 player.deletePoke(index)
-                if (!player.hasPokemon(pokemon.pokeName(), pokemon.shiny()))
-                    player.addPokedex(pokemon.pokeName(), (pokemon.shiny() ? 4 : 3))
+                if (!player.hasPokemon(pokemon.pokeId(), pokemon.shiny()))
+                    player.addPokedex(pokemon.pokeId(), (pokemon.shiny() ? 4 : 3))
                 combatLoop.changePlayerPoke(player.activePoke())
                 renderView(dom, enemy, player)
                 player.savePokes()
             } else {
-                alert('按住Shift键的同时单击X释放口袋妖怪')
+                alert('Hold shift while clicking the X to release a pokemon')
             }
         },
         deleteStorage: (event, index) => {
@@ -941,13 +942,13 @@ const makeUserInteractions = (player, enemy, dom, combatLoop) => {
                 const storageList = player.storage();
                 storageList.splice(index, 1)
                 player.reorderStorage(storageList);
-                if (!player.hasPokemon(pokemon.pokeName(), pokemon.shiny()))
-                    player.addPokedex(pokemon.pokeName(), (pokemon.shiny() ? 4 : 3))
+                if (!player.hasPokemon(pokemon.pokeId(), pokemon.shiny()))
+                    player.addPokedex(pokemon.pokeId(), (pokemon.shiny() ? 4 : 3))
                 combatLoop.changePlayerPoke(player.activePoke())
                 renderView(dom, enemy, player)
                 player.savePokes()
             } else {
-                alert('按住Shift键的同时单击X释放口袋妖怪')
+                alert('Hold shift while clicking the X to release a pokemon')
             }
         },
         healAllPlayerPokemons: () => {
@@ -1119,7 +1120,7 @@ const makeUserInteractions = (player, enemy, dom, combatLoop) => {
             renderView(dom, enemy, player)
         },
         exportSaveDialog: () => {
-            document.getElementById('saveDialogTitle').innerHTML = '导出存档'
+            document.getElementById('saveDialogTitle').innerHTML = 'Export your save'
             if (document.queryCommandSupported('copy')) {
                 document.getElementById('copySaveText').style.display = 'initial'
             }
@@ -1128,14 +1129,14 @@ const makeUserInteractions = (player, enemy, dom, combatLoop) => {
             document.getElementById('saveDialogContainer').style.display = 'block'
         },
         importSaveDialog: () => {
-            document.getElementById('saveDialogTitle').innerHTML = '导入存档'
+            document.getElementById('saveDialogTitle').innerHTML = 'Import a save'
             document.getElementById('copySaveText').style.display = 'none'
             document.getElementById('saveText').value = ''
             document.getElementById('loadButtonContainer').style.display = 'block'
             document.getElementById('saveDialogContainer').style.display = 'block'
         },
         importSave: () => {
-            if (window.confirm('导入存档将覆盖您当前的进度，您确定要继续吗？')) {
+            if (window.confirm('Loading a save will overwrite your current progress, are you sure you wish to continue?')) {
                 player.loadFromString(document.getElementById('saveText').value.trim())
                 document.getElementById('saveDialogContainer').style.display = 'none'
                 renderView(dom, enemy, player)
@@ -1173,13 +1174,13 @@ const makeUserInteractions = (player, enemy, dom, combatLoop) => {
         },
         viewStatistics: () => {
             let statisticStrings = {
-                'seen':'发现的口袋妖怪',
-                'caught':'抓到的口袋妖怪',
-                'beaten':'打败的口袋妖怪',
-                'shinySeen':'发现的闪亮口袋妖怪',
-                'shinyCaught':'抓到的闪亮口袋妖怪',
-                'shinyBeaten':'打败的闪亮口袋妖怪',
-                'totalDamage':'总计造成的伤害'
+                'seen':'Pokemon Seen',
+                'caught':'Pokemon Caught',
+                'beaten':'Pokemon Beaten',
+                'shinySeen':'Shiny Pokemon Seen',
+                'shinyCaught':'Shiny Pokemon Caught',
+                'shinyBeaten':'Shiny Pokemon Beaten',
+                'totalDamage':'Total Damage Dealt'
             }
             let statList = '';
             for (let statValue in statistics) {
@@ -1217,8 +1218,8 @@ const makeCombatLoop = (enemy, player, dom) => {
       attackingTypes[1] && typeEffectiveness(attackingTypes[1], defendingTypes) || 0
      )
   }
-  const eventTimerActive = false
-  const eventTimerExpires = 1598911200
+  const eventTimerActive = true
+  const eventTimerExpires = 1651348800
   
   const dealDamage = (attacker, defender, who) => {
     if (attacker.alive() && defender.alive()) {
@@ -1227,13 +1228,11 @@ const makeCombatLoop = (enemy, player, dom) => {
       const damage = defender.takeDamage(attacker.avgAttack() * damageMultiplier)
       if (who === 'player') {
         dom.attackAnimation('playerImg', 'right')
-        dom.gameConsoleLog(cnText(attacker.pokeName()) + ' 给对方造成了 ' + damage +' 伤害', 'green')
         statistics.totalDamage += damage
         playerTimer()
       }
       if (who === 'enemy') {
         dom.attackAnimation('enemyImg', 'left')
-        dom.gameConsoleLog(cnText(attacker.pokeName()) + ' 对你造成了 ' + damage +' 伤害', 'rgb(207, 103, 59)')
         enemyTimer()
       }
 
@@ -1254,8 +1253,7 @@ const makeCombatLoop = (enemy, player, dom) => {
                 } else {
                     statistics.beaten++;
                 }
-                if (catchEnabled == 'all' || (catchEnabled == 'new' && !player.hasPokemon(enemy.activePoke().pokeName(), 0)) || enemy.activePoke().shiny()) {
-                    dom.gameConsoleLog('尝试捕捉 ' + cnText(enemy.activePoke().pokeName()) + '...', 'purple')
+                if (catchEnabled == 'all' || (catchEnabled == 'new' && !player.hasPokemon(enemy.activePoke().pokeId(), 0)) || enemy.activePoke().shiny()) {
                     const selectedBall = (enemy.activePoke().shiny() ? player.bestAvailableBall() : player.selectedBall())
                     if (player.consumeBall(selectedBall)) {
                         dom.renderBalls(player.ballsAmmount())
@@ -1265,16 +1263,17 @@ const makeCombatLoop = (enemy, player, dom) => {
                                 , (enemy.activePoke().catchRate() * player.ballRNG(selectedBall)) / 3
                             )
                         if (rngHappened) {
-                            dom.gameConsoleLog('你抓到了 ' + cnText(enemy.activePoke().pokeName()) + '!!', 'purple')
-                            player.addPokedex(enemy.activePoke().pokeName(), (enemy.activePoke().shiny() ? 8 : 6))
+                            player.addPokedex(enemy.activePoke().pokeId(), (enemy.activePoke().shiny() ? 8 : 6))
                             if (enemy.activePoke().shiny()) {
+                                dom.gameConsoleLog('You caught a Sh. ' + enemy.activePoke().pokeName() + '!!', 'rgb(255, 255, 76)')
                                 statistics.shinyCaught++;
                             } else {
+                                dom.gameConsoleLog('You caught ' + enemy.activePoke().pokeName() + '!!', 'green')
                                 statistics.caught++;
                             }
                             renderView(dom, enemy, player)
                         } else {
-                            dom.gameConsoleLog(cnText(enemy.activePoke().pokeName()) + ' 逃跑了!!', 'purple')
+                            dom.gameConsoleLog(enemy.activePoke().pokeName() + ' escaped!!', 'red')
                         }
                     }
                 }
@@ -1291,14 +1290,12 @@ const makeCombatLoop = (enemy, player, dom) => {
                         , 10
                     )
                 if (rngHappened2) {
-                    dom.gameConsoleLog('你找到了 ' + ballsAmmount + ' ' + cnText(ballName) + '!!', 'purple')
                     dom.renderBalls(player.ballsAmmount())
                 }
 
                 const beforeExp = player.pokemons().map((poke) => poke.level())
                 const expToGive = (enemyActivePoke.baseExp() / 16) + (enemyActivePoke.level() * 3)
                 playerActivePoke.giveExp(expToGive)
-                dom.gameConsoleLog(cnText(playerActivePoke.pokeName()) + ' 赢得了 ' + Math.floor(expToGive) + '经验', 'rgb(153, 166, 11)')
                 player.pokemons().forEach((poke) => poke.giveExp((enemyActivePoke.baseExp() / 100) + (enemyActivePoke.level() / 10)))
                 const afterExp = player.pokemons().map((poke) => poke.level())
 
@@ -1324,7 +1321,6 @@ const makeCombatLoop = (enemy, player, dom) => {
                     dom.renderPokeDex('playerPokes', player.pokedexData())
                 }
             } else {
-                dom.gameConsoleLog(cnText(playerActivePoke.pokeName()) + ' 昏迷了! ')
                 const playerLivePokesIndexes = player.pokemons().filter((poke, index) => {
                     if (poke.alive()) {
                         return true
@@ -1333,7 +1329,6 @@ const makeCombatLoop = (enemy, player, dom) => {
                 if (playerLivePokesIndexes.length > 0) {
                     player.setActive(player.pokemons().indexOf(playerLivePokesIndexes[0]))
                     playerActivePoke = player.activePoke()
-                    dom.gameConsoleLog(cnText(playerActivePoke.pokeName()) + ' 出战!')
                     refresh()
                 }
                 dom.renderPokeList('playerPokes', player.pokemons(), player, '#enableDelete')
@@ -1389,7 +1384,7 @@ if (localStorage.getItem(`totalPokes`) !== null) {
 } else {
     var starterPoke = makePoke(pokeById(randomArrayElement([1, 4, 7])), 5)
     player.addPoke(starterPoke)
-    player.addPokedex(starterPoke.pokeName(), 6)
+    player.addPokedex(starterPoke.pokeId(), 6)
 }
 
 if (userSettings.spriteChoice === 'front') {

@@ -8,23 +8,25 @@
   <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="style.css" media="screen" title="no title" charset="utf-8">
   <link rel="stylesheet" href="font-awesome.min.css" media="screen" title="no title" charset="utf-8">
-  <link rel="icon" type="image/png" href="https://i.imgur.com/4UonAKj.png">
+  <link rel="icon" type="image/png" href="4UonAKj.png">
 </head>
 <body>
+<script src="chs.js?202106041511"></script>
+<script src="//g8hh.com/zh/core.js"></script>
   <div id="gameContainer">
 
     <div id="areasList" class="container list">
       <div id="regionSelectContainer">
         <select id="regionSelect" onchange="userInteractions.changeRegion()">
-          <option value="Kanto">关都</option>
-          <option value="Johto">城都</option>
-          <option value="Hoenn">丰缘</option>
-          <option value="Sinnoh">神奥</option>
-          <option value="Unova">合众</option>
-          <option value="Kalos">卡洛斯 (Custom)</option>
-          <option value="Alola">阿罗拉 (Custom)</option>
-          <option value="Galar">加拉尔 (Custom)</option>
-          <option value="Event">事件</option>
+          <option value="Kanto">Kanto</option>
+          <option value="Johto">Johto</option>
+          <option value="Hoenn">Hoenn</option>
+          <option value="Sinnoh">Sinnoh</option>
+          <option value="Unova">Unova</option>
+          <option value="Kalos">Kalos (Custom)</option>
+          <option value="Alola">Alola (Custom)</option>
+          <option value="Galar">Galar (Custom)</option>
+          <option value="Event">Event</option>
         </select>
       </div>
       <ul class="list">
@@ -35,28 +37,28 @@
 
     <div id="playerPokes" class="container list">
       <div class="controls">
-        <input type="checkbox" id="enableDelete"><label for="enableDelete"><span class="checkDescription">管理团队</span></label><br>
-        <input type="checkbox" id="enablePokedex"><label for="enablePokedex"><span class="checkDescription" id="viewPokedexString">查看图鉴</span></label><br>
-        <input type="checkbox" id="enableStorage"><label for="enableStorage"><span class="checkDescription">查看仓库</span></label>
+        <input type="checkbox" id="enableDelete"><label for="enableDelete"><span class="checkDescription">Manage Team</span></label><br>
+        <input type="checkbox" id="enablePokedex"><label for="enablePokedex"><span class="checkDescription" id="viewPokedexString">View Pokedex</span></label><br>
+        <input type="checkbox" id="enableStorage"><label for="enableStorage"><span class="checkDescription">View Storage</span></label>
         <div id="heal">Heal</div>
       </div>
       <div id="playerPokesList" class="list">
-        <select id="pokeSortOrderSelect" onchange="userInteractions.changePokeSortOrder()">
-          <option value="lvl">等级</option>
-          <option value="dex">图鉴 #</option>
-          <option value="vlv">等级, 攻击</option>
+        <select id="pokeSortOrderSelect" onchange="userInteractions.changePokeSortOrder()" style="width: 140px;margin-left: 10px;">
+          <option value="lvl">Level</option>
+          <option value="dex">Pokedex #</option>
+          <option value="vlv">Level, attack</option>
         </select>
-        <select id="pokeSortDirSelect" onchange="userInteractions.changePokeSortOrder()">
-          <option value="asc">正序</option>
-          <option value="desc">倒序</option>
+        <select id="pokeSortDirSelect" onchange="userInteractions.changePokeSortOrder()" style="width: 80px;">
+          <option value="asc">Asc</option>
+          <option value="desc">Desc</option>
         </select>
         <ul></ul>
       </div>
       <div id="playerPokeDex" class="list hidden">
         <select id="dexView">
-          <option value="all">全部</option>
-          <option value="missing">缺失</option>
-          <option value="shiny">闪亮</option>
+          <option value="all">All</option>
+          <option value="missing">Missing</option>
+          <option value="shiny">Shiny</option>
         </select>
         <ul></ul>
       </div>
@@ -72,18 +74,18 @@
         <span class="name"></span><br>
         <img id="enemyImg" class="img" src="" alt=""><br>
         <span class="hp"></span><br>
-        <span>生命: </span>
+        <span>hp: </span>
         <progress class="hpBar" value="0" max="100"></progress><br>
         <progress class="expBar" value="0" max="100"></progress>
         <br>
         <span class="status"></span>
       </div>
       <div id="capture-options">
-        捕捉: <label><input type="checkbox" id="enableCatchAll"><span>全部</span></label> <label><input type="checkbox" id="enableCatchNew"><span>新的</span></label>
-        <p>使用:</p>
-        <input type="radio" name="name" value="pokeball" checked="true" onclick="userInteractions.changeSelectedBall('pokeball')" id="pokeball"><label for="pokeball"><span>精灵球: </span><span class="ball-ammount pokeball">10</span></label><br>
-        <input type="radio" name="name" value="greatball" onclick="userInteractions.changeSelectedBall('greatball')" id="greatball"><label for="greatball"><span>超级球: </span><span class="ball-ammount greatball">0</span></label><br>
-        <input type="radio" name="name" value="ultraball" onclick="userInteractions.changeSelectedBall('ultraball')" id="ultraball"><label for="ultraball"><span>高级球: </span><span class="ball-ammount ultraball">0</span></label><br>
+        Catch: <label><input type="checkbox" id="enableCatchAll"><span>All</span></label> <label><input type="checkbox" id="enableCatchNew"><span>New</span></label>
+        <p>Using:</p>
+        <input type="radio" name="name" value="pokeball" checked="true" onclick="userInteractions.changeSelectedBall('pokeball')" id="pokeball"><label for="pokeball"><span>Pokeballs: </span><span class="ball-ammount pokeball">10</span></label><br>
+        <input type="radio" name="name" value="greatball" onclick="userInteractions.changeSelectedBall('greatball')" id="greatball"><label for="greatball"><span>Greatballs: </span><span class="ball-ammount greatball">0</span></label><br>
+        <input type="radio" name="name" value="ultraball" onclick="userInteractions.changeSelectedBall('ultraball')" id="ultraball"><label for="ultraball"><span>Ultraballs: </span><span class="ball-ammount ultraball">0</span></label><br>
       </div>
     </div>
 
@@ -92,42 +94,42 @@
         <span class="name"></span><br>
         <img id="playerImg" class="img" src="" alt=""><br>
         <span class="hp"></span><br>
-        <span>生命: </span>
+        <span>hp: </span>
         <progress class="hpBar" value="0" max="100"></progress><br>
-        <span>经验: </span>
+        <span>xp: </span>
         <progress class="expBar" value="0" max="100"></progress>
         <br>
         <span class="status"></span>
         <span class="spriteChoice">
-          <input type="radio" id="spriteChoiceBack" name="spriteChoice" onchange="userInteractions.changeSpriteChoice()" /><label for="spriteChoiceBack">背面</label>
-          <input type="radio" id="spriteChoiceFront" name="spriteChoice" onchange="userInteractions.changeSpriteChoice()" /><label for="spriteChoiceFront">正面</label>
+          <input type="radio" id="spriteChoiceBack" name="spriteChoice" onchange="userInteractions.changeSpriteChoice()" /><label for="spriteChoiceBack">Back</label>
+          <input type="radio" id="spriteChoiceFront" name="spriteChoice" onchange="userInteractions.changeSpriteChoice()" /><label for="spriteChoiceFront">Front</label>
         </span>
       </div>
       <div id="console">
         <span class="console-text"></span>
       </div>
       <div id="playerBox">
-        <input type="checkbox" checked="true" id="enableConsole"><span>启用日志</span><br>
-        <button onclick="userInteractions.clearConsole()">清理日志</button>
-        <button onclick="userInteractions.viewStatistics()">统计</button>
+        <input type="checkbox" checked="true" id="enableConsole"><span>Enable console</span><br>
+        <button onclick="userInteractions.clearConsole()">Clear Console</button>
+        <button onclick="userInteractions.viewStatistics()">View Stats</button>
         <div id="saveLoadButtons">
-          <button onclick="userInteractions.exportSaveDialog()">保存</button>
-          <button onclick="userInteractions.importSaveDialog()">导入</button>
+          <button onclick="userInteractions.exportSaveDialog()">Save</button>
+          <button onclick="userInteractions.importSaveDialog()">Load</button>
         </div>
         <input type="checkbox" id="confirmClearData">
-        <a href="#" style="color: red;" onclick="userInteractions.clearGameData()">清除存档</a>
+        <a href="#" style="color: red;" onclick="userInteractions.clearGameData()">Clear game data</a>
       </div>
     </div>
 
     <div id="saveDialogContainer" style="display: none">
       <div id="saveDialog">
         <div>
-          <button id="copySaveText" onclick="userInteractions.copySaveText()" style="display: none">复制到粘贴板</button>
-          <h3 id="saveDialogTitle">导出存档</h3>
+          <button id="copySaveText" onclick="userInteractions.copySaveText()" style="display: none">Copy to clipboard</button>
+          <h3 id="saveDialogTitle">Export your save</h3>
         </div>
         <textarea id="saveText" placeholder="Paste the save data here"></textarea>
         <div id="loadButtonContainer" style="display: none">
-          <button onclick="userInteractions.importSave()">加载</button>
+          <button onclick="userInteractions.importSave()">Load</button>
         </div>
       </div>
     </div>
@@ -135,7 +137,7 @@
     <div id="statisticsContainer" style="display: none">
       <div id="statisticsDialog">
         <div>
-          <h3 id="statisticsTitle">统计</h3>
+          <h3 id="statisticsTitle">Statistics</h3>
         </div>
         <div>
           <ul id="statisticsList"></ul>
@@ -143,14 +145,13 @@
       </div>
     </div>
 
-    <span id="version">版本: NGGYU NGLYD - SwSh edition !</span>
-    <a id="gitLink" href="http://likexia.gitee.io/piddb" target="_blank">宝可梦数据库</a>
+    <span id="version">Version: NGGYU NGLYD - Arceus edition !</span>
+    <a id="gitLink" href="https://likexia.gitee.io/piddb" target="_blank">Database</a>
     <a id="subLink" href="https://reddit.com/r/Pokeidle" target="_blank">Subreddit</a>
     <a id="disLink" href="https://discord.gg/pt57KfB" target="_blank">Discord</a>
   </div>
 
   <!-- <script src="//cdn.jsdelivr.net/ramda/latest/ramda.min.js"></script> -->
-  <script src="zh.js"></script>
   <script src="db.js"></script>
   <script src="evolutions.js"></script>
   <script src="typeModifiers.js"></script>
@@ -169,14 +170,14 @@
 
 </script>
 -->
-<!--客服 开始-->
+  <!--客服 开始-->
 <script src="//g8hh.com/static/js/jquery.min.js"></script>
 <link rel="stylesheet" href="//g8hh.com/static/css/kf.css" type="text/css" media="screen" charset="utf-8">
 <script src="//g8hh.com/static/js/kf.js"></script>
 <!-- 客服 结束 -->
 <!--站长统计-->
     <div style="display: none">
-        <script type="text/javascript" src="//s19.cnzz.com/z_stat.php?id=1267958737&web_id=1267958737"></script>
+        <script type="text/javascript" src="https://v1.cnzz.com/z_stat.php?id=1279902880&web_id=1279902880"></script>
     </div>
 </body>
 </html>

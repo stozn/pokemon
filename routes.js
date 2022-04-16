@@ -591,7 +591,7 @@ const ROUTES = {
     , unlocked: true
     }
 	, special37: {
-      name: 'Felines, Cats or Dogs ?'
+      name: 'Felines, Cats or Dogs'
     , pokes: ['Raikou', 'Entei', 'Suicune'] 
     , minLevel: 40
     , maxLevel: 40
@@ -866,14 +866,14 @@ const ROUTES = {
     , unlocked: true
     }
 	, special50: {
-      name: 'Safari Zone (RS Edition)'
+      name: 'Safari Zone (RS)'
     , pokes: ['Oddish', 'Girafarig', 'Doduo', 'Natu', 'Wobbuffet', 'Pikachu', 'Gloom', 'Rhyhorn', 'Phanpy', 'Dodrio', 'Xatu', 'Heracross', 'Pinsir'] 
     , minLevel: 25
     , maxLevel: 31
     , unlocked: true
     }
 	, special51: {
-      name: 'Safari Zone (Emerald Edition)'
+      name: 'Safari Zone (E)'
     , pokes: ['Aipom', 'Teddiursa', 'Ledyba', 'Sunkern', 'Hoothoot','Pineco', 'Houndour','Miltank', 'Mareep', 'Spinarak', 'Gligar','Snubbull', 'Stantler']
 	, minLevel: 33
     , maxLevel: 40
@@ -1588,6 +1588,41 @@ const ROUTES = {
     , maxLevel: 55
     , unlocked: true
     } 
+	, hisuian1: {
+      name: 'Jubilife Village'
+    , pokes: ['Rowlet', 'Cyndaquil', 'Oshawott'] 
+    , minLevel: 5
+    , maxLevel: 5
+    , unlocked: true
+    } 
+	, hisuian2: {
+      name: 'Hisuian Forms'
+    , pokes: ['H-Sneasel', 'H-Qwilfish', 'H-Growlithe', 'H-Voltorb', 'H-Zorua', 'H-Sliggoo'] 
+    , minLevel: 20
+    , maxLevel: 40
+    , unlocked: true
+    } 
+	, hisuian3: {
+      name: 'Grandtree Arena'
+    , pokes: ['Kleavor'] 
+    , minLevel: 40
+    , maxLevel: 40
+    , unlocked: true
+    } 
+	, hisuian4: {
+      name: 'Scarlet Bog'
+    , pokes: ['Enamorus'] 
+    , minLevel: 70
+    , maxLevel: 70
+    , unlocked: true
+    } 
+	, hisuian5: {
+      name: 'Hisuian Fishing'
+    , pokes: ['Basculin-W'] 
+    , minLevel: 20
+    , maxLevel: 20
+    , unlocked: true
+    } 
  },
      Unova: {
     starter5: {
@@ -2025,7 +2060,7 @@ const ROUTES = {
     , unlocked: true
     }
 	, special140: {
-      name: 'Giant Chasm (Deep Cave)'
+      name: 'Giant Chasm (Cave)'
     , pokes: ['Kyurem'] 
     , minLevel: 70
     , maxLevel: 70
@@ -2061,7 +2096,7 @@ const ROUTES = {
     , maxLevel: 5
     , unlocked: true
     }
-        , custom1: {
+    , custom1: {
       name: 'Santalune City'
     , pokes: ['Bunnelby', 'Fletchling', 'Litleo'] 
     , minLevel: 2
@@ -2467,13 +2502,20 @@ const ROUTES = {
 },
   Event: {
       event1: {
-      name: 'Old Rod'
-    , pokes: ['Magikarp'] 
-    , minLevel: 5
-    , maxLevel: 5
+      name: 'Den Rotation'
+    , pokes: ['GX-Charizard'] 
+    , minLevel: 100
+    , maxLevel: 100
     , unlocked: true
     }
-    , event2: {
+	, event2: {
+      name: 'Research, Predict, Attack'
+    , pokes: ['Feraligatr', 'Zapdos', 'Glalie', 'G-Electrode', 'Salamence', 'Primeape'] 
+    , minLevel: 100
+    , maxLevel: 100
+    , unlocked: true
+    }
+	, event3: {
       name: 'Let\'s Go : Meltan'
     , pokes: ['Meltan'] 
     , minLevel: 30

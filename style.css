@@ -1,18 +1,19 @@
 body {
-  background-color: rgb(219, 219, 219);
+  background-color: rgb(53, 56, 59);
 }
 
 #gameContainer {
   font-family: 'Lato', sans-serif;
-  color: #111111;
-  width: 800px;
+  color: rgb(176, 180, 184);
+  width: 1000px;
   margin: auto;
-  background-color: rgb(82, 153, 228);
+  background-color: rgb(20, 47, 74);
   height: 625px;
   padding: 10px;
   border-radius: 3px;
   box-shadow: 0 0 10px black;
   position: relative;
+  top: 30px;
 }
 
 ul {
@@ -28,7 +29,7 @@ ul {
   width: 160px;
   min-height: 100px;
   max-height: 400px;
-  background-color: rgb(217, 217, 217);
+  background-color: rgb(53, 56, 59);
   border: solid 1px rgb(10, 0, 130);
   box-shadow: 0 0 3px rgb(10, 0, 130);
   border-radius: 5px;
@@ -98,26 +99,30 @@ ul {
   max-height: none;
   height: 600px;
   border-radius: 0 5px 5px 5px;
-  width: 190px;
+  width: 300px;
   text-align: right;
 }
 
 #areasList #regionSelectContainer {
-	padding: 5px 10px 0;
+	padding-top: 5px;
+	padding-left: 80px;
+	padding-right: 10px;
 }
 
 #areasList .list {
   overflow-y: auto;
   overflow-x: hidden;
   height: 558px;
+  margin-top: 16px;
 }
 
 #areasList #regionSelect {
   width: 100%;
 }
 
-#areasList li,#areasList a {
+#areasList li, #areasList a {
   margin-right: 6px;
+  color: rgb(176, 180, 184);
 }
 
 #enemy .status, #enemy .expBar {
@@ -131,7 +136,7 @@ ul {
   border-left: none;
   position: absolute;
   top: 270px;
-  left: 172px;
+  left: 262px;
   width: 438px;
   height: 340px;
 }
@@ -143,6 +148,7 @@ ul {
   text-align: center;
   text-align: left;
   max-height: 600px;
+  width: 250px;
 }
 
 #playerPokes .checkDescription {
@@ -161,13 +167,13 @@ ul {
   color: #808080;
 }
 .pokeDex1 {
-  color: #38375a;
+  color: rgb(128, 159, 255);
 }
 .pokeDex2 {
   color: #99844b;
 }
 .pokeDex3, .pokeDex5 {
-  color: rgba(42, 55, 190, 0.5);
+  color: rgba(85, 109, 181, 0.5);
 }
 .pokeDex4, .pokeDex7 {
   color: rgba(192, 160, 0, 0.5);
@@ -179,7 +185,7 @@ ul {
   font-weight: bold;
 }
 .pokeDex6 {
-  color: #2a37be;
+  color: rgb(77, 121, 255);
 }
 .pokeDex8 {
   color: #c0a000;
@@ -190,7 +196,8 @@ ul {
   padding-left: 8px;
   overflow-y: auto;
   overflow-x: hidden;
-  height: 475px;
+  height: 472px;
+  margin-top: 16px;
 }
 
 #heal {
@@ -295,6 +302,7 @@ ul {
   border: solid 1px rgb(10, 0, 130);
   box-shadow: 0 0 3px rgb(10, 0, 130);
   border-radius: 5px;
+  color: black;
 }
 
 #saveDialogTitle, #statisticsTitle {
@@ -317,18 +325,21 @@ ul {
 	position: absolute;
 	top: 620px;
 	left: 750px;
+	color: rgb(176, 180, 184);
 }
 
 #subLink {
 	position: absolute;
 	top: 620px;
 	left: 670px;
+	color: rgb(176, 180, 184);
 }
 
 #disLink {
 	position: absolute;
 	top: 620px;
 	left: 600px;
+	color: rgb(176, 180, 184);
 }
 
 #version {
