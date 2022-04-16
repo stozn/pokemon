@@ -1136,7 +1136,7 @@ const makeUserInteractions = (player, enemy, dom, combatLoop) => {
             document.getElementById('saveDialogContainer').style.display = 'block'
         },
         importSave: () => {
-            if (window.confirm('Loading a save will overwrite your current progress, are you sure you wish to continue?')) {
+            if (window.confirm('加载存档会覆盖您当前的进度，您确定要继续吗？')) {
                 player.loadFromString(document.getElementById('saveText').value.trim())
                 document.getElementById('saveDialogContainer').style.display = 'none'
                 renderView(dom, enemy, player)
