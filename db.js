@@ -2,7 +2,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Bulbasaur"
+            "Pokemon": "Bulbasaur",
+            "DisplayName": "Bulbasaur"
          }
       ],
       "stats": [
@@ -40,7 +41,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Ivysaur"
+            "Pokemon": "Ivysaur",
+            "DisplayName": "Ivysaur"
          }
       ],
       "stats": [
@@ -78,7 +80,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Venusaur"
+            "Pokemon": "Venusaur",
+            "DisplayName": "Venusaur"
          }
       ],
       "stats": [
@@ -116,7 +119,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Charmander"
+            "Pokemon": "Charmander",
+            "DisplayName": "Charmander"
          }
       ],
       "stats": [
@@ -153,7 +157,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Charmeleon"
+            "Pokemon": "Charmeleon",
+            "DisplayName": "Charmeleon"
          }
       ],
       "stats": [
@@ -190,7 +195,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Charizard"
+            "Pokemon": "Charizard",
+            "DisplayName": "Charizard"
          }
       ],
       "stats": [
@@ -228,7 +234,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Squirtle"
+            "Pokemon": "Squirtle",
+            "DisplayName": "Squirtle"
          }
       ],
       "stats": [
@@ -265,7 +272,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Wartortle"
+            "Pokemon": "Wartortle",
+            "DisplayName": "Wartortle"
          }
       ],
       "stats": [
@@ -302,7 +310,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Blastoise"
+            "Pokemon": "Blastoise",
+            "DisplayName": "Blastoise"
          }
       ],
       "stats": [
@@ -339,7 +348,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Caterpie"
+            "Pokemon": "Caterpie",
+            "DisplayName": "Caterpie"
          }
       ],
       "stats": [
@@ -376,7 +386,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Metapod"
+            "Pokemon": "Metapod",
+            "DisplayName": "Metapod"
          }
       ],
       "stats": [
@@ -413,7 +424,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Butterfree"
+            "Pokemon": "Butterfree",
+            "DisplayName": "Butterfree"
          }
       ],
       "stats": [
@@ -451,7 +463,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Weedle"
+            "Pokemon": "Weedle",
+            "DisplayName": "Weedle"
          }
       ],
       "stats": [
@@ -489,7 +502,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Kakuna"
+            "Pokemon": "Kakuna",
+            "DisplayName": "Kakuna"
          }
       ],
       "stats": [
@@ -527,7 +541,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Beedrill"
+            "Pokemon": "Beedrill",
+            "DisplayName": "Beedrill"
          }
       ],
       "stats": [
@@ -565,7 +580,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Pidgey"
+            "Pokemon": "Pidgey",
+            "DisplayName": "Pidgey"
          }
       ],
       "stats": [
@@ -603,7 +619,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Pidgeotto"
+            "Pokemon": "Pidgeotto",
+            "DisplayName": "Pidgeotto"
          }
       ],
       "stats": [
@@ -641,7 +658,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Pidgeot"
+            "Pokemon": "Pidgeot",
+            "DisplayName": "Pidgeot"
          }
       ],
       "stats": [
@@ -679,7 +697,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Rattata"
+            "Pokemon": "Rattata",
+            "DisplayName": "Rattata"
          }
       ],
       "stats": [
@@ -716,7 +735,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Raticate"
+            "Pokemon": "Raticate",
+            "DisplayName": "Raticate"
          }
       ],
       "stats": [
@@ -753,7 +773,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Spearow"
+            "Pokemon": "Spearow",
+            "DisplayName": "Spearow"
          }
       ],
       "stats": [
@@ -791,7 +812,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Fearow"
+            "Pokemon": "Fearow",
+            "DisplayName": "Fearow"
          }
       ],
       "stats": [
@@ -829,7 +851,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Ekans"
+            "Pokemon": "Ekans",
+            "DisplayName": "Ekans"
          }
       ],
       "stats": [
@@ -866,7 +889,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Arbok"
+            "Pokemon": "Arbok",
+            "DisplayName": "Arbok"
          }
       ],
       "stats": [
@@ -903,7 +927,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Pikachu"
+            "Pokemon": "Pikachu",
+            "DisplayName": "Pikachu"
          }
       ],
       "stats": [
@@ -940,7 +965,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Raichu"
+            "Pokemon": "Raichu",
+            "DisplayName": "Raichu"
          }
       ],
       "stats": [
@@ -977,7 +1003,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Sandshrew"
+            "Pokemon": "Sandshrew",
+            "DisplayName": "Sandshrew"
          }
       ],
       "stats": [
@@ -1014,7 +1041,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Sandslash"
+            "Pokemon": "Sandslash",
+            "DisplayName": "Sandslash"
          }
       ],
       "stats": [
@@ -1051,7 +1079,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Nidoran f"
+            "Pokemon": "Nidoran f",
+            "DisplayName": "Nidoran f"
          }
       ],
       "stats": [
@@ -1088,7 +1117,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Nidorina"
+            "Pokemon": "Nidorina",
+            "DisplayName": "Nidorina"
          }
       ],
       "stats": [
@@ -1125,7 +1155,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Nidoqueen"
+            "Pokemon": "Nidoqueen",
+            "DisplayName": "Nidoqueen"
          }
       ],
       "stats": [
@@ -1163,7 +1194,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Nidoran m"
+            "Pokemon": "Nidoran m",
+            "DisplayName": "Nidoran m"
          }
       ],
       "stats": [
@@ -1200,7 +1232,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Nidorino"
+            "Pokemon": "Nidorino",
+            "DisplayName": "Nidorino"
          }
       ],
       "stats": [
@@ -1237,7 +1270,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Nidoking"
+            "Pokemon": "Nidoking",
+            "DisplayName": "Nidoking"
          }
       ],
       "stats": [
@@ -1275,7 +1309,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Clefairy"
+            "Pokemon": "Clefairy",
+            "DisplayName": "Clefairy"
          }
       ],
       "stats": [
@@ -1312,7 +1347,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Clefable"
+            "Pokemon": "Clefable",
+            "DisplayName": "Clefable"
          }
       ],
       "stats": [
@@ -1349,7 +1385,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Vulpix"
+            "Pokemon": "Vulpix",
+            "DisplayName": "Vulpix"
          }
       ],
       "stats": [
@@ -1386,7 +1423,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Ninetales"
+            "Pokemon": "Ninetales",
+            "DisplayName": "Ninetales"
          }
       ],
       "stats": [
@@ -1423,7 +1461,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Jigglypuff"
+            "Pokemon": "Jigglypuff",
+            "DisplayName": "Jigglypuff"
          }
       ],
       "stats": [
@@ -1461,7 +1500,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Wigglytuff"
+            "Pokemon": "Wigglytuff",
+            "DisplayName": "Wigglytuff"
          }
       ],
       "stats": [
@@ -1499,7 +1539,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Zubat"
+            "Pokemon": "Zubat",
+            "DisplayName": "Zubat"
          }
       ],
       "stats": [
@@ -1537,7 +1578,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Golbat"
+            "Pokemon": "Golbat",
+            "DisplayName": "Golbat"
          }
       ],
       "stats": [
@@ -1575,7 +1617,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Oddish"
+            "Pokemon": "Oddish",
+            "DisplayName": "Oddish"
          }
       ],
       "stats": [
@@ -1613,7 +1656,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Gloom"
+            "Pokemon": "Gloom",
+            "DisplayName": "Gloom"
          }
       ],
       "stats": [
@@ -1651,7 +1695,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Vileplume"
+            "Pokemon": "Vileplume",
+            "DisplayName": "Vileplume"
          }
       ],
       "stats": [
@@ -1689,7 +1734,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Paras"
+            "Pokemon": "Paras",
+            "DisplayName": "Paras"
          }
       ],
       "stats": [
@@ -1727,7 +1773,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Parasect"
+            "Pokemon": "Parasect",
+            "DisplayName": "Parasect"
          }
       ],
       "stats": [
@@ -1765,7 +1812,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Venonat"
+            "Pokemon": "Venonat",
+            "DisplayName": "Venonat"
          }
       ],
       "stats": [
@@ -1803,7 +1851,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Venomoth"
+            "Pokemon": "Venomoth",
+            "DisplayName": "Venomoth"
          }
       ],
       "stats": [
@@ -1841,7 +1890,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Diglett"
+            "Pokemon": "Diglett",
+            "DisplayName": "Diglett"
          }
       ],
       "stats": [
@@ -1878,7 +1928,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Dugtrio"
+            "Pokemon": "Dugtrio",
+            "DisplayName": "Dugtrio"
          }
       ],
       "stats": [
@@ -1915,7 +1966,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Meowth"
+            "Pokemon": "Meowth",
+            "DisplayName": "Meowth"
          }
       ],
       "stats": [
@@ -1952,7 +2004,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Persian"
+            "Pokemon": "Persian",
+            "DisplayName": "Persian"
          }
       ],
       "stats": [
@@ -1989,7 +2042,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Psyduck"
+            "Pokemon": "Psyduck",
+            "DisplayName": "Psyduck"
          }
       ],
       "stats": [
@@ -2026,7 +2080,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Golduck"
+            "Pokemon": "Golduck",
+            "DisplayName": "Golduck"
          }
       ],
       "stats": [
@@ -2063,7 +2118,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Mankey"
+            "Pokemon": "Mankey",
+            "DisplayName": "Mankey"
          }
       ],
       "stats": [
@@ -2100,7 +2156,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Primeape"
+            "Pokemon": "Primeape",
+            "DisplayName": "Primeape"
          }
       ],
       "stats": [
@@ -2137,7 +2194,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Growlithe"
+            "Pokemon": "Growlithe",
+            "DisplayName": "Growlithe"
          }
       ],
       "stats": [
@@ -2174,7 +2232,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Arcanine"
+            "Pokemon": "Arcanine",
+            "DisplayName": "Arcanine"
          }
       ],
       "stats": [
@@ -2211,7 +2270,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Poliwag"
+            "Pokemon": "Poliwag",
+            "DisplayName": "Poliwag"
          }
       ],
       "stats": [
@@ -2248,7 +2308,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Poliwhirl"
+            "Pokemon": "Poliwhirl",
+            "DisplayName": "Poliwhirl"
          }
       ],
       "stats": [
@@ -2285,7 +2346,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Poliwrath"
+            "Pokemon": "Poliwrath",
+            "DisplayName": "Poliwrath"
          }
       ],
       "stats": [
@@ -2323,7 +2385,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Abra"
+            "Pokemon": "Abra",
+            "DisplayName": "Abra"
          }
       ],
       "stats": [
@@ -2360,7 +2423,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Kadabra"
+            "Pokemon": "Kadabra",
+            "DisplayName": "Kadabra"
          }
       ],
       "stats": [
@@ -2397,7 +2461,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Alakazam"
+            "Pokemon": "Alakazam",
+            "DisplayName": "Alakazam"
          }
       ],
       "stats": [
@@ -2434,7 +2499,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Machop"
+            "Pokemon": "Machop",
+            "DisplayName": "Machop"
          }
       ],
       "stats": [
@@ -2471,7 +2537,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Machoke"
+            "Pokemon": "Machoke",
+            "DisplayName": "Machoke"
          }
       ],
       "stats": [
@@ -2508,7 +2575,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Machamp"
+            "Pokemon": "Machamp",
+            "DisplayName": "Machamp"
          }
       ],
       "stats": [
@@ -2545,7 +2613,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Bellsprout"
+            "Pokemon": "Bellsprout",
+            "DisplayName": "Bellsprout"
          }
       ],
       "stats": [
@@ -2583,7 +2652,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Weepinbell"
+            "Pokemon": "Weepinbell",
+            "DisplayName": "Weepinbell"
          }
       ],
       "stats": [
@@ -2621,7 +2691,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Victreebel"
+            "Pokemon": "Victreebel",
+            "DisplayName": "Victreebel"
          }
       ],
       "stats": [
@@ -2659,7 +2730,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Tentacool"
+            "Pokemon": "Tentacool",
+            "DisplayName": "Tentacool"
          }
       ],
       "stats": [
@@ -2697,7 +2769,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Tentacruel"
+            "Pokemon": "Tentacruel",
+            "DisplayName": "Tentacruel"
          }
       ],
       "stats": [
@@ -2735,7 +2808,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Geodude"
+            "Pokemon": "Geodude",
+            "DisplayName": "Geodude"
          }
       ],
       "stats": [
@@ -2773,7 +2847,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Graveler"
+            "Pokemon": "Graveler",
+            "DisplayName": "Graveler"
          }
       ],
       "stats": [
@@ -2811,7 +2886,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Golem"
+            "Pokemon": "Golem",
+            "DisplayName": "Golem"
          }
       ],
       "stats": [
@@ -2849,7 +2925,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Ponyta"
+            "Pokemon": "Ponyta",
+            "DisplayName": "Ponyta"
          }
       ],
       "stats": [
@@ -2886,7 +2963,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Rapidash"
+            "Pokemon": "Rapidash",
+            "DisplayName": "Rapidash"
          }
       ],
       "stats": [
@@ -2923,7 +3001,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Slowpoke"
+            "Pokemon": "Slowpoke",
+            "DisplayName": "Slowpoke"
          }
       ],
       "stats": [
@@ -2961,7 +3040,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Slowbro"
+            "Pokemon": "Slowbro",
+            "DisplayName": "Slowbro"
          }
       ],
       "stats": [
@@ -2999,7 +3079,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Magnemite"
+            "Pokemon": "Magnemite",
+            "DisplayName": "Magnemite"
          }
       ],
       "stats": [
@@ -3037,7 +3118,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Magneton"
+            "Pokemon": "Magneton",
+            "DisplayName": "Magneton"
          }
       ],
       "stats": [
@@ -3075,7 +3157,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Farfetchd"
+            "Pokemon": "Farfetchd",
+            "DisplayName": "Farfetchd"
          }
       ],
       "stats": [
@@ -3113,7 +3196,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Doduo"
+            "Pokemon": "Doduo",
+            "DisplayName": "Doduo"
          }
       ],
       "stats": [
@@ -3151,7 +3235,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Dodrio"
+            "Pokemon": "Dodrio",
+            "DisplayName": "Dodrio"
          }
       ],
       "stats": [
@@ -3189,7 +3274,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Seel"
+            "Pokemon": "Seel",
+            "DisplayName": "Seel"
          }
       ],
       "stats": [
@@ -3226,7 +3312,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Dewgong"
+            "Pokemon": "Dewgong",
+            "DisplayName": "Dewgong"
          }
       ],
       "stats": [
@@ -3264,7 +3351,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Grimer"
+            "Pokemon": "Grimer",
+            "DisplayName": "Grimer"
          }
       ],
       "stats": [
@@ -3301,7 +3389,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Muk"
+            "Pokemon": "Muk",
+            "DisplayName": "Muk"
          }
       ],
       "stats": [
@@ -3338,7 +3427,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Shellder"
+            "Pokemon": "Shellder",
+            "DisplayName": "Shellder"
          }
       ],
       "stats": [
@@ -3375,7 +3465,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Cloyster"
+            "Pokemon": "Cloyster",
+            "DisplayName": "Cloyster"
          }
       ],
       "stats": [
@@ -3413,7 +3504,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Gastly"
+            "Pokemon": "Gastly",
+            "DisplayName": "Gastly"
          }
       ],
       "stats": [
@@ -3451,7 +3543,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Haunter"
+            "Pokemon": "Haunter",
+            "DisplayName": "Haunter"
          }
       ],
       "stats": [
@@ -3489,7 +3582,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Gengar"
+            "Pokemon": "Gengar",
+            "DisplayName": "Gengar"
          }
       ],
       "stats": [
@@ -3527,7 +3621,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Onix"
+            "Pokemon": "Onix",
+            "DisplayName": "Onix"
          }
       ],
       "stats": [
@@ -3565,7 +3660,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Drowzee"
+            "Pokemon": "Drowzee",
+            "DisplayName": "Drowzee"
          }
       ],
       "stats": [
@@ -3602,7 +3698,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Hypno"
+            "Pokemon": "Hypno",
+            "DisplayName": "Hypno"
          }
       ],
       "stats": [
@@ -3639,7 +3736,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Krabby"
+            "Pokemon": "Krabby",
+            "DisplayName": "Krabby"
          }
       ],
       "stats": [
@@ -3676,7 +3774,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Kingler"
+            "Pokemon": "Kingler",
+            "DisplayName": "Kingler"
          }
       ],
       "stats": [
@@ -3713,7 +3812,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Voltorb"
+            "Pokemon": "Voltorb",
+            "DisplayName": "Voltorb"
          }
       ],
       "stats": [
@@ -3750,7 +3850,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Electrode"
+            "Pokemon": "Electrode",
+            "DisplayName": "Electrode"
          }
       ],
       "stats": [
@@ -3762,7 +3863,7 @@ const POKEDEX = [
             "defense": "70",
             "sp atk": "80",
             "sp def": "80",
-            "speed": "140",
+            "speed": "150",
             "types": [
                "Electric"
             ]
@@ -3787,7 +3888,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Exeggcute"
+            "Pokemon": "Exeggcute",
+            "DisplayName": "Exeggcute"
          }
       ],
       "stats": [
@@ -3825,7 +3927,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Exeggutor"
+            "Pokemon": "Exeggutor",
+            "DisplayName": "Exeggutor"
          }
       ],
       "stats": [
@@ -3863,7 +3966,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Cubone"
+            "Pokemon": "Cubone",
+            "DisplayName": "Cubone"
          }
       ],
       "stats": [
@@ -3900,7 +4004,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Marowak"
+            "Pokemon": "Marowak",
+            "DisplayName": "Marowak"
          }
       ],
       "stats": [
@@ -3937,7 +4042,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Hitmonlee"
+            "Pokemon": "Hitmonlee",
+            "DisplayName": "Hitmonlee"
          }
       ],
       "stats": [
@@ -3974,7 +4080,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Hitmonchan"
+            "Pokemon": "Hitmonchan",
+            "DisplayName": "Hitmonchan"
          }
       ],
       "stats": [
@@ -4011,7 +4118,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Lickitung"
+            "Pokemon": "Lickitung",
+            "DisplayName": "Lickitung"
          }
       ],
       "stats": [
@@ -4048,7 +4156,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Koffing"
+            "Pokemon": "Koffing",
+            "DisplayName": "Koffing"
          }
       ],
       "stats": [
@@ -4085,7 +4194,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Weezing"
+            "Pokemon": "Weezing",
+            "DisplayName": "Weezing"
          }
       ],
       "stats": [
@@ -4122,7 +4232,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Rhyhorn"
+            "Pokemon": "Rhyhorn",
+            "DisplayName": "Rhyhorn"
          }
       ],
       "stats": [
@@ -4160,7 +4271,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Rhydon"
+            "Pokemon": "Rhydon",
+            "DisplayName": "Rhydon"
          }
       ],
       "stats": [
@@ -4198,7 +4310,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Chansey"
+            "Pokemon": "Chansey",
+            "DisplayName": "Chansey"
          }
       ],
       "stats": [
@@ -4235,7 +4348,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Tangela"
+            "Pokemon": "Tangela",
+            "DisplayName": "Tangela"
          }
       ],
       "stats": [
@@ -4272,7 +4386,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Kangaskhan"
+            "Pokemon": "Kangaskhan",
+            "DisplayName": "Kangaskhan"
          }
       ],
       "stats": [
@@ -4309,7 +4424,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Horsea"
+            "Pokemon": "Horsea",
+            "DisplayName": "Horsea"
          }
       ],
       "stats": [
@@ -4346,7 +4462,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Seadra"
+            "Pokemon": "Seadra",
+            "DisplayName": "Seadra"
          }
       ],
       "stats": [
@@ -4383,7 +4500,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Goldeen"
+            "Pokemon": "Goldeen",
+            "DisplayName": "Goldeen"
          }
       ],
       "stats": [
@@ -4420,7 +4538,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Seaking"
+            "Pokemon": "Seaking",
+            "DisplayName": "Seaking"
          }
       ],
       "stats": [
@@ -4457,7 +4576,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Staryu"
+            "Pokemon": "Staryu",
+            "DisplayName": "Staryu"
          }
       ],
       "stats": [
@@ -4494,7 +4614,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Starmie"
+            "Pokemon": "Starmie",
+            "DisplayName": "Starmie"
          }
       ],
       "stats": [
@@ -4532,7 +4653,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Mr. Mime"
+            "Pokemon": "Mr. Mime",
+            "DisplayName": "Mr. Mime"
          }
       ],
       "stats": [
@@ -4570,7 +4692,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Scyther"
+            "Pokemon": "Scyther",
+            "DisplayName": "Scyther"
          }
       ],
       "stats": [
@@ -4608,7 +4731,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Jynx"
+            "Pokemon": "Jynx",
+            "DisplayName": "Jynx"
          }
       ],
       "stats": [
@@ -4646,7 +4770,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Electabuzz"
+            "Pokemon": "Electabuzz",
+            "DisplayName": "Electabuzz"
          }
       ],
       "stats": [
@@ -4683,7 +4808,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Magmar"
+            "Pokemon": "Magmar",
+            "DisplayName": "Magmar"
          }
       ],
       "stats": [
@@ -4720,7 +4846,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Pinsir"
+            "Pokemon": "Pinsir",
+            "DisplayName": "Pinsir"
          }
       ],
       "stats": [
@@ -4757,7 +4884,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Tauros"
+            "Pokemon": "Tauros",
+            "DisplayName": "Tauros"
          }
       ],
       "stats": [
@@ -4794,7 +4922,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Magikarp"
+            "Pokemon": "Magikarp",
+            "DisplayName": "Magikarp"
          }
       ],
       "stats": [
@@ -4831,7 +4960,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Gyarados"
+            "Pokemon": "Gyarados",
+            "DisplayName": "Gyarados"
          }
       ],
       "stats": [
@@ -4869,7 +4999,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Lapras"
+            "Pokemon": "Lapras",
+            "DisplayName": "Lapras"
          }
       ],
       "stats": [
@@ -4907,7 +5038,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Ditto"
+            "Pokemon": "Ditto",
+            "DisplayName": "Ditto"
          }
       ],
       "stats": [
@@ -4944,7 +5076,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Eevee"
+            "Pokemon": "Eevee",
+            "DisplayName": "Eevee"
          }
       ],
       "stats": [
@@ -4981,7 +5114,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Vaporeon"
+            "Pokemon": "Vaporeon",
+            "DisplayName": "Vaporeon"
          }
       ],
       "stats": [
@@ -5018,7 +5152,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Jolteon"
+            "Pokemon": "Jolteon",
+            "DisplayName": "Jolteon"
          }
       ],
       "stats": [
@@ -5055,7 +5190,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Flareon"
+            "Pokemon": "Flareon",
+            "DisplayName": "Flareon"
          }
       ],
       "stats": [
@@ -5092,7 +5228,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Porygon"
+            "Pokemon": "Porygon",
+            "DisplayName": "Porygon"
          }
       ],
       "stats": [
@@ -5129,7 +5266,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Omanyte"
+            "Pokemon": "Omanyte",
+            "DisplayName": "Omanyte"
          }
       ],
       "stats": [
@@ -5167,7 +5305,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Omastar"
+            "Pokemon": "Omastar",
+            "DisplayName": "Omastar"
          }
       ],
       "stats": [
@@ -5205,7 +5344,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Kabuto"
+            "Pokemon": "Kabuto",
+            "DisplayName": "Kabuto"
          }
       ],
       "stats": [
@@ -5243,7 +5383,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Kabutops"
+            "Pokemon": "Kabutops",
+            "DisplayName": "Kabutops"
          }
       ],
       "stats": [
@@ -5281,7 +5422,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Aerodactyl"
+            "Pokemon": "Aerodactyl",
+            "DisplayName": "Aerodactyl"
          }
       ],
       "stats": [
@@ -5319,7 +5461,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Snorlax"
+            "Pokemon": "Snorlax",
+            "DisplayName": "Snorlax"
          }
       ],
       "stats": [
@@ -5356,7 +5499,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Articuno"
+            "Pokemon": "Articuno",
+            "DisplayName": "Articuno"
          }
       ],
       "stats": [
@@ -5394,7 +5538,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Zapdos"
+            "Pokemon": "Zapdos",
+            "DisplayName": "Zapdos"
          }
       ],
       "stats": [
@@ -5432,7 +5577,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Moltres"
+            "Pokemon": "Moltres",
+            "DisplayName": "Moltres"
          }
       ],
       "stats": [
@@ -5470,7 +5616,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Dratini"
+            "Pokemon": "Dratini",
+            "DisplayName": "Dratini"
          }
       ],
       "stats": [
@@ -5507,7 +5654,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Dragonair"
+            "Pokemon": "Dragonair",
+            "DisplayName": "Dragonair"
          }
       ],
       "stats": [
@@ -5544,7 +5692,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Dragonite"
+            "Pokemon": "Dragonite",
+            "DisplayName": "Dragonite"
          }
       ],
       "stats": [
@@ -5582,7 +5731,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Mewtwo"
+            "Pokemon": "Mewtwo",
+            "DisplayName": "Mewtwo"
          }
       ],
       "stats": [
@@ -5619,7 +5769,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Mew"
+            "Pokemon": "Mew",
+            "DisplayName": "Mew"
          }
       ],
       "stats": [
@@ -5656,7 +5807,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Chikorita"
+            "Pokemon": "Chikorita",
+            "DisplayName": "Chikorita"
          }
       ],
       "stats": [
@@ -5693,7 +5845,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Bayleef"
+            "Pokemon": "Bayleef",
+            "DisplayName": "Bayleef"
          }
       ],
       "stats": [
@@ -5730,7 +5883,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Meganium"
+            "Pokemon": "Meganium",
+            "DisplayName": "Meganium"
          }
       ],
       "stats": [
@@ -5767,7 +5921,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Cyndaquil"
+            "Pokemon": "Cyndaquil",
+            "DisplayName": "Cyndaquil"
          }
       ],
       "stats": [
@@ -5804,7 +5959,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Quilava"
+            "Pokemon": "Quilava",
+            "DisplayName": "Quilava"
          }
       ],
       "stats": [
@@ -5841,7 +5997,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Typhlosion"
+            "Pokemon": "Typhlosion",
+            "DisplayName": "Typhlosion"
          }
       ],
       "stats": [
@@ -5878,7 +6035,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Totodile"
+            "Pokemon": "Totodile",
+            "DisplayName": "Totodile"
          }
       ],
       "stats": [
@@ -5915,7 +6073,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Croconaw"
+            "Pokemon": "Croconaw",
+            "DisplayName": "Croconaw"
          }
       ],
       "stats": [
@@ -5952,7 +6111,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Feraligatr"
+            "Pokemon": "Feraligatr",
+            "DisplayName": "Feraligatr"
          }
       ],
       "stats": [
@@ -5989,7 +6149,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Sentret"
+            "Pokemon": "Sentret",
+            "DisplayName": "Sentret"
          }
       ],
       "stats": [
@@ -6026,7 +6187,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Furret"
+            "Pokemon": "Furret",
+            "DisplayName": "Furret"
          }
       ],
       "stats": [
@@ -6063,7 +6225,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Hoothoot"
+            "Pokemon": "Hoothoot",
+            "DisplayName": "Hoothoot"
          }
       ],
       "stats": [
@@ -6101,7 +6264,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Noctowl"
+            "Pokemon": "Noctowl",
+            "DisplayName": "Noctowl"
          }
       ],
       "stats": [
@@ -6139,7 +6303,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Ledyba"
+            "Pokemon": "Ledyba",
+            "DisplayName": "Ledyba"
          }
       ],
       "stats": [
@@ -6177,7 +6342,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Ledian"
+            "Pokemon": "Ledian",
+            "DisplayName": "Ledian"
          }
       ],
       "stats": [
@@ -6215,7 +6381,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Spinarak"
+            "Pokemon": "Spinarak",
+            "DisplayName": "Spinarak"
          }
       ],
       "stats": [
@@ -6253,7 +6420,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Ariados"
+            "Pokemon": "Ariados",
+            "DisplayName": "Ariados"
          }
       ],
       "stats": [
@@ -6291,7 +6459,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Crobat"
+            "Pokemon": "Crobat",
+            "DisplayName": "Crobat"
          }
       ],
       "stats": [
@@ -6329,7 +6498,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Chinchou"
+            "Pokemon": "Chinchou",
+            "DisplayName": "Chinchou"
          }
       ],
       "stats": [
@@ -6367,7 +6537,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Lanturn"
+            "Pokemon": "Lanturn",
+            "DisplayName": "Lanturn"
          }
       ],
       "stats": [
@@ -6405,7 +6576,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Pichu"
+            "Pokemon": "Pichu",
+            "DisplayName": "Pichu"
          }
       ],
       "stats": [
@@ -6442,7 +6614,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Cleffa"
+            "Pokemon": "Cleffa",
+            "DisplayName": "Cleffa"
          }
       ],
       "stats": [
@@ -6479,7 +6652,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Igglybuff"
+            "Pokemon": "Igglybuff",
+            "DisplayName": "Igglybuff"
          }
       ],
       "stats": [
@@ -6517,7 +6691,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Togepi"
+            "Pokemon": "Togepi",
+            "DisplayName": "Togepi"
          }
       ],
       "stats": [
@@ -6554,7 +6729,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Togetic"
+            "Pokemon": "Togetic",
+            "DisplayName": "Togetic"
          }
       ],
       "stats": [
@@ -6592,7 +6768,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Natu"
+            "Pokemon": "Natu",
+            "DisplayName": "Natu"
          }
       ],
       "stats": [
@@ -6630,7 +6807,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Xatu"
+            "Pokemon": "Xatu",
+            "DisplayName": "Xatu"
          }
       ],
       "stats": [
@@ -6668,7 +6846,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Mareep"
+            "Pokemon": "Mareep",
+            "DisplayName": "Mareep"
          }
       ],
       "stats": [
@@ -6705,7 +6884,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Flaaffy"
+            "Pokemon": "Flaaffy",
+            "DisplayName": "Flaaffy"
          }
       ],
       "stats": [
@@ -6742,7 +6922,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Ampharos"
+            "Pokemon": "Ampharos",
+            "DisplayName": "Ampharos"
          }
       ],
       "stats": [
@@ -6779,7 +6960,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Bellossom"
+            "Pokemon": "Bellossom",
+            "DisplayName": "Bellossom"
          }
       ],
       "stats": [
@@ -6816,7 +6998,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Marill"
+            "Pokemon": "Marill",
+            "DisplayName": "Marill"
          }
       ],
       "stats": [
@@ -6854,7 +7037,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Azumarill"
+            "Pokemon": "Azumarill",
+            "DisplayName": "Azumarill"
          }
       ],
       "stats": [
@@ -6892,7 +7076,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Sudowoodo"
+            "Pokemon": "Sudowoodo",
+            "DisplayName": "Sudowoodo"
          }
       ],
       "stats": [
@@ -6929,7 +7114,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Politoed"
+            "Pokemon": "Politoed",
+            "DisplayName": "Politoed"
          }
       ],
       "stats": [
@@ -6966,7 +7152,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Hoppip"
+            "Pokemon": "Hoppip",
+            "DisplayName": "Hoppip"
          }
       ],
       "stats": [
@@ -7004,7 +7191,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Skiploom"
+            "Pokemon": "Skiploom",
+            "DisplayName": "Skiploom"
          }
       ],
       "stats": [
@@ -7042,7 +7230,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Jumpluff"
+            "Pokemon": "Jumpluff",
+            "DisplayName": "Jumpluff"
          }
       ],
       "stats": [
@@ -7080,7 +7269,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Aipom"
+            "Pokemon": "Aipom",
+            "DisplayName": "Aipom"
          }
       ],
       "stats": [
@@ -7117,7 +7307,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Sunkern"
+            "Pokemon": "Sunkern",
+            "DisplayName": "Sunkern"
          }
       ],
       "stats": [
@@ -7154,7 +7345,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Sunflora"
+            "Pokemon": "Sunflora",
+            "DisplayName": "Sunflora"
          }
       ],
       "stats": [
@@ -7191,7 +7383,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Yanma"
+            "Pokemon": "Yanma",
+            "DisplayName": "Yanma"
          }
       ],
       "stats": [
@@ -7229,7 +7422,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Wooper"
+            "Pokemon": "Wooper",
+            "DisplayName": "Wooper"
          }
       ],
       "stats": [
@@ -7267,7 +7461,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Quagsire"
+            "Pokemon": "Quagsire",
+            "DisplayName": "Quagsire"
          }
       ],
       "stats": [
@@ -7305,7 +7500,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Espeon"
+            "Pokemon": "Espeon",
+            "DisplayName": "Espeon"
          }
       ],
       "stats": [
@@ -7342,7 +7538,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Umbreon"
+            "Pokemon": "Umbreon",
+            "DisplayName": "Umbreon"
          }
       ],
       "stats": [
@@ -7379,7 +7576,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Murkrow"
+            "Pokemon": "Murkrow",
+            "DisplayName": "Murkrow"
          }
       ],
       "stats": [
@@ -7417,7 +7615,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Slowking"
+            "Pokemon": "Slowking",
+            "DisplayName": "Slowking"
          }
       ],
       "stats": [
@@ -7455,7 +7654,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Misdreavus"
+            "Pokemon": "Misdreavus",
+            "DisplayName": "Misdreavus"
          }
       ],
       "stats": [
@@ -7492,7 +7692,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Unown"
+            "Pokemon": "Unown",
+            "DisplayName": "Unown"
          }
       ],
       "stats": [
@@ -7529,7 +7730,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Wobbuffet"
+            "Pokemon": "Wobbuffet",
+            "DisplayName": "Wobbuffet"
          }
       ],
       "stats": [
@@ -7566,7 +7768,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Girafarig"
+            "Pokemon": "Girafarig",
+            "DisplayName": "Girafarig"
          }
       ],
       "stats": [
@@ -7604,7 +7807,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Pineco"
+            "Pokemon": "Pineco",
+            "DisplayName": "Pineco"
          }
       ],
       "stats": [
@@ -7641,7 +7845,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Forretress"
+            "Pokemon": "Forretress",
+            "DisplayName": "Forretress"
          }
       ],
       "stats": [
@@ -7679,7 +7884,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Dunsparce"
+            "Pokemon": "Dunsparce",
+            "DisplayName": "Dunsparce"
          }
       ],
       "stats": [
@@ -7716,7 +7922,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Gligar"
+            "Pokemon": "Gligar",
+            "DisplayName": "Gligar"
          }
       ],
       "stats": [
@@ -7754,7 +7961,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Steelix"
+            "Pokemon": "Steelix",
+            "DisplayName": "Steelix"
          }
       ],
       "stats": [
@@ -7792,7 +8000,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Snubbull"
+            "Pokemon": "Snubbull",
+            "DisplayName": "Snubbull"
          }
       ],
       "stats": [
@@ -7829,7 +8038,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Granbull"
+            "Pokemon": "Granbull",
+            "DisplayName": "Granbull"
          }
       ],
       "stats": [
@@ -7866,7 +8076,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Qwilfish"
+            "Pokemon": "Qwilfish",
+            "DisplayName": "Qwilfish"
          }
       ],
       "stats": [
@@ -7904,7 +8115,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Scizor"
+            "Pokemon": "Scizor",
+            "DisplayName": "Scizor"
          }
       ],
       "stats": [
@@ -7942,7 +8154,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Shuckle"
+            "Pokemon": "Shuckle",
+            "DisplayName": "Shuckle"
          }
       ],
       "stats": [
@@ -7980,7 +8193,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Heracross"
+            "Pokemon": "Heracross",
+            "DisplayName": "Heracross"
          }
       ],
       "stats": [
@@ -8018,7 +8232,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Sneasel"
+            "Pokemon": "Sneasel",
+            "DisplayName": "Sneasel"
          }
       ],
       "stats": [
@@ -8056,7 +8271,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Teddiursa"
+            "Pokemon": "Teddiursa",
+            "DisplayName": "Teddiursa"
          }
       ],
       "stats": [
@@ -8093,7 +8309,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Ursaring"
+            "Pokemon": "Ursaring",
+            "DisplayName": "Ursaring"
          }
       ],
       "stats": [
@@ -8130,7 +8347,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Slugma"
+            "Pokemon": "Slugma",
+            "DisplayName": "Slugma"
          }
       ],
       "stats": [
@@ -8167,7 +8385,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Magcargo"
+            "Pokemon": "Magcargo",
+            "DisplayName": "Magcargo"
          }
       ],
       "stats": [
@@ -8205,7 +8424,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Swinub"
+            "Pokemon": "Swinub",
+            "DisplayName": "Swinub"
          }
       ],
       "stats": [
@@ -8243,7 +8463,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Piloswine"
+            "Pokemon": "Piloswine",
+            "DisplayName": "Piloswine"
          }
       ],
       "stats": [
@@ -8281,7 +8502,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Corsola"
+            "Pokemon": "Corsola",
+            "DisplayName": "Corsola"
          }
       ],
       "stats": [
@@ -8319,7 +8541,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Remoraid"
+            "Pokemon": "Remoraid",
+            "DisplayName": "Remoraid"
          }
       ],
       "stats": [
@@ -8356,7 +8579,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Octillery"
+            "Pokemon": "Octillery",
+            "DisplayName": "Octillery"
          }
       ],
       "stats": [
@@ -8393,7 +8617,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Delibird"
+            "Pokemon": "Delibird",
+            "DisplayName": "Delibird"
          }
       ],
       "stats": [
@@ -8431,7 +8656,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Mantine"
+            "Pokemon": "Mantine",
+            "DisplayName": "Mantine"
          }
       ],
       "stats": [
@@ -8469,7 +8695,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Skarmory"
+            "Pokemon": "Skarmory",
+            "DisplayName": "Skarmory"
          }
       ],
       "stats": [
@@ -8507,7 +8734,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Houndour"
+            "Pokemon": "Houndour",
+            "DisplayName": "Houndour"
          }
       ],
       "stats": [
@@ -8545,7 +8773,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Houndoom"
+            "Pokemon": "Houndoom",
+            "DisplayName": "Houndoom"
          }
       ],
       "stats": [
@@ -8583,7 +8812,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Kingdra"
+            "Pokemon": "Kingdra",
+            "DisplayName": "Kingdra"
          }
       ],
       "stats": [
@@ -8621,7 +8851,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Phanpy"
+            "Pokemon": "Phanpy",
+            "DisplayName": "Phanpy"
          }
       ],
       "stats": [
@@ -8658,7 +8889,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Donphan"
+            "Pokemon": "Donphan",
+            "DisplayName": "Donphan"
          }
       ],
       "stats": [
@@ -8695,7 +8927,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Porygon2"
+            "Pokemon": "Porygon2",
+            "DisplayName": "Porygon2"
          }
       ],
       "stats": [
@@ -8732,7 +8965,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Stantler"
+            "Pokemon": "Stantler",
+            "DisplayName": "Stantler"
          }
       ],
       "stats": [
@@ -8769,7 +9003,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Smeargle"
+            "Pokemon": "Smeargle",
+            "DisplayName": "Smeargle"
          }
       ],
       "stats": [
@@ -8806,7 +9041,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Tyrogue"
+            "Pokemon": "Tyrogue",
+            "DisplayName": "Tyrogue"
          }
       ],
       "stats": [
@@ -8843,7 +9079,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Hitmontop"
+            "Pokemon": "Hitmontop",
+            "DisplayName": "Hitmontop"
          }
       ],
       "stats": [
@@ -8880,7 +9117,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Smoochum"
+            "Pokemon": "Smoochum",
+            "DisplayName": "Smoochum"
          }
       ],
       "stats": [
@@ -8918,7 +9156,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Elekid"
+            "Pokemon": "Elekid",
+            "DisplayName": "Elekid"
          }
       ],
       "stats": [
@@ -8955,7 +9194,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Magby"
+            "Pokemon": "Magby",
+            "DisplayName": "Magby"
          }
       ],
       "stats": [
@@ -8992,7 +9232,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Miltank"
+            "Pokemon": "Miltank",
+            "DisplayName": "Miltank"
          }
       ],
       "stats": [
@@ -9029,7 +9270,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Blissey"
+            "Pokemon": "Blissey",
+            "DisplayName": "Blissey"
          }
       ],
       "stats": [
@@ -9066,7 +9308,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Raikou"
+            "Pokemon": "Raikou",
+            "DisplayName": "Raikou"
          }
       ],
       "stats": [
@@ -9103,7 +9346,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Entei"
+            "Pokemon": "Entei",
+            "DisplayName": "Entei"
          }
       ],
       "stats": [
@@ -9140,7 +9384,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Suicune"
+            "Pokemon": "Suicune",
+            "DisplayName": "Suicune"
          }
       ],
       "stats": [
@@ -9177,7 +9422,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Larvitar"
+            "Pokemon": "Larvitar",
+            "DisplayName": "Larvitar"
          }
       ],
       "stats": [
@@ -9215,7 +9461,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Pupitar"
+            "Pokemon": "Pupitar",
+            "DisplayName": "Pupitar"
          }
       ],
       "stats": [
@@ -9253,7 +9500,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Tyranitar"
+            "Pokemon": "Tyranitar",
+            "DisplayName": "Tyranitar"
          }
       ],
       "stats": [
@@ -9291,7 +9539,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Lugia"
+            "Pokemon": "Lugia",
+            "DisplayName": "Lugia"
          }
       ],
       "stats": [
@@ -9329,7 +9578,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Ho-Oh"
+            "Pokemon": "Ho-Oh",
+            "DisplayName": "Ho-Oh"
          }
       ],
       "stats": [
@@ -9367,7 +9617,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Celebi"
+            "Pokemon": "Celebi",
+            "DisplayName": "Celebi"
          }
       ],
       "stats": [
@@ -9405,7 +9656,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Treecko"
+            "Pokemon": "Treecko",
+            "DisplayName": "Treecko"
          }
       ],
       "stats": [
@@ -9442,7 +9694,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Grovyle"
+            "Pokemon": "Grovyle",
+            "DisplayName": "Grovyle"
          }
       ],
       "stats": [
@@ -9479,7 +9732,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Sceptile"
+            "Pokemon": "Sceptile",
+            "DisplayName": "Sceptile"
          }
       ],
       "stats": [
@@ -9516,7 +9770,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Torchic"
+            "Pokemon": "Torchic",
+            "DisplayName": "Torchic"
          }
       ],
       "stats": [
@@ -9553,7 +9808,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Combusken"
+            "Pokemon": "Combusken",
+            "DisplayName": "Combusken"
          }
       ],
       "stats": [
@@ -9591,7 +9847,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Blaziken"
+            "Pokemon": "Blaziken",
+            "DisplayName": "Blaziken"
          }
       ],
       "stats": [
@@ -9629,7 +9886,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Mudkip"
+            "Pokemon": "Mudkip",
+            "DisplayName": "Mudkip"
          }
       ],
       "stats": [
@@ -9666,7 +9924,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Marshtomp"
+            "Pokemon": "Marshtomp",
+            "DisplayName": "Marshtomp"
          }
       ],
       "stats": [
@@ -9704,7 +9963,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Swampert"
+            "Pokemon": "Swampert",
+            "DisplayName": "Swampert"
          }
       ],
       "stats": [
@@ -9742,7 +10002,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Poochyena"
+            "Pokemon": "Poochyena",
+            "DisplayName": "Poochyena"
          }
       ],
       "stats": [
@@ -9779,7 +10040,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Mightyena"
+            "Pokemon": "Mightyena",
+            "DisplayName": "Mightyena"
          }
       ],
       "stats": [
@@ -9816,7 +10078,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Zigzagoon"
+            "Pokemon": "Zigzagoon",
+            "DisplayName": "Zigzagoon"
          }
       ],
       "stats": [
@@ -9853,7 +10116,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Linoone"
+            "Pokemon": "Linoone",
+            "DisplayName": "Linoone"
          }
       ],
       "stats": [
@@ -9890,7 +10154,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Wurmple"
+            "Pokemon": "Wurmple",
+            "DisplayName": "Wurmple"
          }
       ],
       "stats": [
@@ -9927,7 +10192,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Silcoon"
+            "Pokemon": "Silcoon",
+            "DisplayName": "Silcoon"
          }
       ],
       "stats": [
@@ -9964,7 +10230,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Beautifly"
+            "Pokemon": "Beautifly",
+            "DisplayName": "Beautifly"
          }
       ],
       "stats": [
@@ -10002,7 +10269,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Cascoon"
+            "Pokemon": "Cascoon",
+            "DisplayName": "Cascoon"
          }
       ],
       "stats": [
@@ -10039,7 +10307,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Dustox"
+            "Pokemon": "Dustox",
+            "DisplayName": "Dustox"
          }
       ],
       "stats": [
@@ -10077,7 +10346,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Lotad"
+            "Pokemon": "Lotad",
+            "DisplayName": "Lotad"
          }
       ],
       "stats": [
@@ -10115,7 +10385,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Lombre"
+            "Pokemon": "Lombre",
+            "DisplayName": "Lombre"
          }
       ],
       "stats": [
@@ -10153,7 +10424,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Ludicolo"
+            "Pokemon": "Ludicolo",
+            "DisplayName": "Ludicolo"
          }
       ],
       "stats": [
@@ -10191,7 +10463,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Seedot"
+            "Pokemon": "Seedot",
+            "DisplayName": "Seedot"
          }
       ],
       "stats": [
@@ -10228,7 +10501,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Nuzleaf"
+            "Pokemon": "Nuzleaf",
+            "DisplayName": "Nuzleaf"
          }
       ],
       "stats": [
@@ -10266,7 +10540,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Shiftry"
+            "Pokemon": "Shiftry",
+            "DisplayName": "Shiftry"
          }
       ],
       "stats": [
@@ -10304,7 +10579,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Taillow"
+            "Pokemon": "Taillow",
+            "DisplayName": "Taillow"
          }
       ],
       "stats": [
@@ -10342,7 +10618,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Swellow"
+            "Pokemon": "Swellow",
+            "DisplayName": "Swellow"
          }
       ],
       "stats": [
@@ -10380,7 +10657,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Wingull"
+            "Pokemon": "Wingull",
+            "DisplayName": "Wingull"
          }
       ],
       "stats": [
@@ -10418,7 +10696,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Pelipper"
+            "Pokemon": "Pelipper",
+            "DisplayName": "Pelipper"
          }
       ],
       "stats": [
@@ -10456,7 +10735,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Ralts"
+            "Pokemon": "Ralts",
+            "DisplayName": "Ralts"
          }
       ],
       "stats": [
@@ -10494,7 +10774,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Kirlia"
+            "Pokemon": "Kirlia",
+            "DisplayName": "Kirlia"
          }
       ],
       "stats": [
@@ -10532,7 +10813,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Gardevoir"
+            "Pokemon": "Gardevoir",
+            "DisplayName": "Gardevoir"
          }
       ],
       "stats": [
@@ -10570,7 +10852,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Surskit"
+            "Pokemon": "Surskit",
+            "DisplayName": "Surskit"
          }
       ],
       "stats": [
@@ -10608,7 +10891,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Masquerain"
+            "Pokemon": "Masquerain",
+            "DisplayName": "Masquerain"
          }
       ],
       "stats": [
@@ -10646,7 +10930,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Shroomish"
+            "Pokemon": "Shroomish",
+            "DisplayName": "Shroomish"
          }
       ],
       "stats": [
@@ -10683,7 +10968,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Breloom"
+            "Pokemon": "Breloom",
+            "DisplayName": "Breloom"
          }
       ],
       "stats": [
@@ -10721,7 +11007,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Slakoth"
+            "Pokemon": "Slakoth",
+            "DisplayName": "Slakoth"
          }
       ],
       "stats": [
@@ -10758,7 +11045,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Vigoroth"
+            "Pokemon": "Vigoroth",
+            "DisplayName": "Vigoroth"
          }
       ],
       "stats": [
@@ -10795,7 +11083,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Slaking"
+            "Pokemon": "Slaking",
+            "DisplayName": "Slaking"
          }
       ],
       "stats": [
@@ -10832,7 +11121,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Nincada"
+            "Pokemon": "Nincada",
+            "DisplayName": "Nincada"
          }
       ],
       "stats": [
@@ -10870,7 +11160,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Ninjask"
+            "Pokemon": "Ninjask",
+            "DisplayName": "Ninjask"
          }
       ],
       "stats": [
@@ -10908,7 +11199,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Shedinja"
+            "Pokemon": "Shedinja",
+            "DisplayName": "Shedinja"
          }
       ],
       "stats": [
@@ -10946,7 +11238,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Whismur"
+            "Pokemon": "Whismur",
+            "DisplayName": "Whismur"
          }
       ],
       "stats": [
@@ -10983,7 +11276,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Loudred"
+            "Pokemon": "Loudred",
+            "DisplayName": "Loudred"
          }
       ],
       "stats": [
@@ -11020,7 +11314,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Exploud"
+            "Pokemon": "Exploud",
+            "DisplayName": "Exploud"
          }
       ],
       "stats": [
@@ -11057,7 +11352,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Makuhita"
+            "Pokemon": "Makuhita",
+            "DisplayName": "Makuhita"
          }
       ],
       "stats": [
@@ -11094,7 +11390,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Hariyama"
+            "Pokemon": "Hariyama",
+            "DisplayName": "Hariyama"
          }
       ],
       "stats": [
@@ -11131,7 +11428,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Azurill"
+            "Pokemon": "Azurill",
+            "DisplayName": "Azurill"
          }
       ],
       "stats": [
@@ -11169,7 +11467,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Nosepass"
+            "Pokemon": "Nosepass",
+            "DisplayName": "Nosepass"
          }
       ],
       "stats": [
@@ -11206,7 +11505,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Skitty"
+            "Pokemon": "Skitty",
+            "DisplayName": "Skitty"
          }
       ],
       "stats": [
@@ -11243,7 +11543,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Delcatty"
+            "Pokemon": "Delcatty",
+            "DisplayName": "Delcatty"
          }
       ],
       "stats": [
@@ -11280,7 +11581,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Sableye"
+            "Pokemon": "Sableye",
+            "DisplayName": "Sableye"
          }
       ],
       "stats": [
@@ -11318,7 +11620,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Mawile"
+            "Pokemon": "Mawile",
+            "DisplayName": "Mawile"
          }
       ],
       "stats": [
@@ -11356,7 +11659,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Aron"
+            "Pokemon": "Aron",
+            "DisplayName": "Aron"
          }
       ],
       "stats": [
@@ -11394,7 +11698,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Lairon"
+            "Pokemon": "Lairon",
+            "DisplayName": "Lairon"
          }
       ],
       "stats": [
@@ -11432,7 +11737,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Aggron"
+            "Pokemon": "Aggron",
+            "DisplayName": "Aggron"
          }
       ],
       "stats": [
@@ -11470,7 +11776,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Meditite"
+            "Pokemon": "Meditite",
+            "DisplayName": "Meditite"
          }
       ],
       "stats": [
@@ -11508,7 +11815,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Medicham"
+            "Pokemon": "Medicham",
+            "DisplayName": "Medicham"
          }
       ],
       "stats": [
@@ -11546,7 +11854,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Electrike"
+            "Pokemon": "Electrike",
+            "DisplayName": "Electrike"
          }
       ],
       "stats": [
@@ -11583,7 +11892,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Manectric"
+            "Pokemon": "Manectric",
+            "DisplayName": "Manectric"
          }
       ],
       "stats": [
@@ -11620,7 +11930,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Plusle"
+            "Pokemon": "Plusle",
+            "DisplayName": "Plusle"
          }
       ],
       "stats": [
@@ -11657,7 +11968,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Minun"
+            "Pokemon": "Minun",
+            "DisplayName": "Minun"
          }
       ],
       "stats": [
@@ -11694,7 +12006,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Volbeat"
+            "Pokemon": "Volbeat",
+            "DisplayName": "Volbeat"
          }
       ],
       "stats": [
@@ -11731,7 +12044,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Illumise"
+            "Pokemon": "Illumise",
+            "DisplayName": "Illumise"
          }
       ],
       "stats": [
@@ -11768,7 +12082,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Roselia"
+            "Pokemon": "Roselia",
+            "DisplayName": "Roselia"
          }
       ],
       "stats": [
@@ -11806,7 +12121,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Gulpin"
+            "Pokemon": "Gulpin",
+            "DisplayName": "Gulpin"
          }
       ],
       "stats": [
@@ -11843,7 +12159,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Swalot"
+            "Pokemon": "Swalot",
+            "DisplayName": "Swalot"
          }
       ],
       "stats": [
@@ -11880,7 +12197,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Carvanha"
+            "Pokemon": "Carvanha",
+            "DisplayName": "Carvanha"
          }
       ],
       "stats": [
@@ -11918,7 +12236,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Sharpedo"
+            "Pokemon": "Sharpedo",
+            "DisplayName": "Sharpedo"
          }
       ],
       "stats": [
@@ -11956,7 +12275,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Wailmer"
+            "Pokemon": "Wailmer",
+            "DisplayName": "Wailmer"
          }
       ],
       "stats": [
@@ -11993,7 +12313,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Wailord"
+            "Pokemon": "Wailord",
+            "DisplayName": "Wailord"
          }
       ],
       "stats": [
@@ -12030,7 +12351,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Numel"
+            "Pokemon": "Numel",
+            "DisplayName": "Numel"
          }
       ],
       "stats": [
@@ -12068,7 +12390,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Camerupt"
+            "Pokemon": "Camerupt",
+            "DisplayName": "Camerupt"
          }
       ],
       "stats": [
@@ -12106,7 +12429,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Torkoal"
+            "Pokemon": "Torkoal",
+            "DisplayName": "Torkoal"
          }
       ],
       "stats": [
@@ -12143,7 +12467,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Spoink"
+            "Pokemon": "Spoink",
+            "DisplayName": "Spoink"
          }
       ],
       "stats": [
@@ -12180,7 +12505,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Grumpig"
+            "Pokemon": "Grumpig",
+            "DisplayName": "Grumpig"
          }
       ],
       "stats": [
@@ -12217,7 +12543,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Spinda"
+            "Pokemon": "Spinda",
+            "DisplayName": "Spinda"
          }
       ],
       "stats": [
@@ -12254,7 +12581,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Trapinch"
+            "Pokemon": "Trapinch",
+            "DisplayName": "Trapinch"
          }
       ],
       "stats": [
@@ -12291,7 +12619,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Vibrava"
+            "Pokemon": "Vibrava",
+            "DisplayName": "Vibrava"
          }
       ],
       "stats": [
@@ -12329,7 +12658,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Flygon"
+            "Pokemon": "Flygon",
+            "DisplayName": "Flygon"
          }
       ],
       "stats": [
@@ -12367,7 +12697,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Cacnea"
+            "Pokemon": "Cacnea",
+            "DisplayName": "Cacnea"
          }
       ],
       "stats": [
@@ -12404,7 +12735,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Cacturne"
+            "Pokemon": "Cacturne",
+            "DisplayName": "Cacturne"
          }
       ],
       "stats": [
@@ -12442,7 +12774,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Swablu"
+            "Pokemon": "Swablu",
+            "DisplayName": "Swablu"
          }
       ],
       "stats": [
@@ -12480,7 +12813,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Altaria"
+            "Pokemon": "Altaria",
+            "DisplayName": "Altaria"
          }
       ],
       "stats": [
@@ -12518,7 +12852,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Zangoose"
+            "Pokemon": "Zangoose",
+            "DisplayName": "Zangoose"
          }
       ],
       "stats": [
@@ -12555,7 +12890,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Seviper"
+            "Pokemon": "Seviper",
+            "DisplayName": "Seviper"
          }
       ],
       "stats": [
@@ -12592,7 +12928,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Lunatone"
+            "Pokemon": "Lunatone",
+            "DisplayName": "Lunatone"
          }
       ],
       "stats": [
@@ -12630,7 +12967,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Solrock"
+            "Pokemon": "Solrock",
+            "DisplayName": "Solrock"
          }
       ],
       "stats": [
@@ -12668,7 +13006,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Barboach"
+            "Pokemon": "Barboach",
+            "DisplayName": "Barboach"
          }
       ],
       "stats": [
@@ -12706,7 +13045,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Whiscash"
+            "Pokemon": "Whiscash",
+            "DisplayName": "Whiscash"
          }
       ],
       "stats": [
@@ -12744,7 +13084,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Corphish"
+            "Pokemon": "Corphish",
+            "DisplayName": "Corphish"
          }
       ],
       "stats": [
@@ -12781,7 +13122,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Crawdaunt"
+            "Pokemon": "Crawdaunt",
+            "DisplayName": "Crawdaunt"
          }
       ],
       "stats": [
@@ -12819,7 +13161,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Baltoy"
+            "Pokemon": "Baltoy",
+            "DisplayName": "Baltoy"
          }
       ],
       "stats": [
@@ -12857,7 +13200,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Claydol"
+            "Pokemon": "Claydol",
+            "DisplayName": "Claydol"
          }
       ],
       "stats": [
@@ -12895,7 +13239,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Lileep"
+            "Pokemon": "Lileep",
+            "DisplayName": "Lileep"
          }
       ],
       "stats": [
@@ -12933,7 +13278,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Cradily"
+            "Pokemon": "Cradily",
+            "DisplayName": "Cradily"
          }
       ],
       "stats": [
@@ -12971,7 +13317,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Anorith"
+            "Pokemon": "Anorith",
+            "DisplayName": "Anorith"
          }
       ],
       "stats": [
@@ -13009,7 +13356,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Armaldo"
+            "Pokemon": "Armaldo",
+            "DisplayName": "Armaldo"
          }
       ],
       "stats": [
@@ -13047,7 +13395,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Feebas"
+            "Pokemon": "Feebas",
+            "DisplayName": "Feebas"
          }
       ],
       "stats": [
@@ -13084,7 +13433,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Milotic"
+            "Pokemon": "Milotic",
+            "DisplayName": "Milotic"
          }
       ],
       "stats": [
@@ -13121,7 +13471,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Castform"
+            "Pokemon": "Castform",
+            "DisplayName": "Castform"
          }
       ],
       "stats": [
@@ -13158,7 +13509,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Kecleon"
+            "Pokemon": "Kecleon",
+            "DisplayName": "Kecleon"
          }
       ],
       "stats": [
@@ -13195,7 +13547,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Shuppet"
+            "Pokemon": "Shuppet",
+            "DisplayName": "Shuppet"
          }
       ],
       "stats": [
@@ -13232,7 +13585,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Banette"
+            "Pokemon": "Banette",
+            "DisplayName": "Banette"
          }
       ],
       "stats": [
@@ -13269,7 +13623,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Duskull"
+            "Pokemon": "Duskull",
+            "DisplayName": "Duskull"
          }
       ],
       "stats": [
@@ -13306,7 +13661,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Dusclops"
+            "Pokemon": "Dusclops",
+            "DisplayName": "Dusclops"
          }
       ],
       "stats": [
@@ -13343,7 +13699,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Tropius"
+            "Pokemon": "Tropius",
+            "DisplayName": "Tropius"
          }
       ],
       "stats": [
@@ -13381,7 +13738,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Chimecho"
+            "Pokemon": "Chimecho",
+            "DisplayName": "Chimecho"
          }
       ],
       "stats": [
@@ -13418,7 +13776,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Absol"
+            "Pokemon": "Absol",
+            "DisplayName": "Absol"
          }
       ],
       "stats": [
@@ -13455,7 +13814,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Wynaut"
+            "Pokemon": "Wynaut",
+            "DisplayName": "Wynaut"
          }
       ],
       "stats": [
@@ -13492,7 +13852,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Snorunt"
+            "Pokemon": "Snorunt",
+            "DisplayName": "Snorunt"
          }
       ],
       "stats": [
@@ -13529,7 +13890,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Glalie"
+            "Pokemon": "Glalie",
+            "DisplayName": "Glalie"
          }
       ],
       "stats": [
@@ -13566,7 +13928,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Spheal"
+            "Pokemon": "Spheal",
+            "DisplayName": "Spheal"
          }
       ],
       "stats": [
@@ -13604,7 +13967,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Sealeo"
+            "Pokemon": "Sealeo",
+            "DisplayName": "Sealeo"
          }
       ],
       "stats": [
@@ -13642,7 +14006,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Walrein"
+            "Pokemon": "Walrein",
+            "DisplayName": "Walrein"
          }
       ],
       "stats": [
@@ -13680,7 +14045,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Clamperl"
+            "Pokemon": "Clamperl",
+            "DisplayName": "Clamperl"
          }
       ],
       "stats": [
@@ -13717,7 +14083,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Huntail"
+            "Pokemon": "Huntail",
+            "DisplayName": "Huntail"
          }
       ],
       "stats": [
@@ -13754,7 +14121,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Gorebyss"
+            "Pokemon": "Gorebyss",
+            "DisplayName": "Gorebyss"
          }
       ],
       "stats": [
@@ -13791,7 +14159,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Relicanth"
+            "Pokemon": "Relicanth",
+            "DisplayName": "Relicanth"
          }
       ],
       "stats": [
@@ -13829,7 +14198,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Luvdisc"
+            "Pokemon": "Luvdisc",
+            "DisplayName": "Luvdisc"
          }
       ],
       "stats": [
@@ -13866,7 +14236,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Bagon"
+            "Pokemon": "Bagon",
+            "DisplayName": "Bagon"
          }
       ],
       "stats": [
@@ -13903,7 +14274,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Shelgon"
+            "Pokemon": "Shelgon",
+            "DisplayName": "Shelgon"
          }
       ],
       "stats": [
@@ -13940,7 +14312,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Salamence"
+            "Pokemon": "Salamence",
+            "DisplayName": "Salamence"
          }
       ],
       "stats": [
@@ -13978,7 +14351,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Beldum"
+            "Pokemon": "Beldum",
+            "DisplayName": "Beldum"
          }
       ],
       "stats": [
@@ -14016,7 +14390,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Metang"
+            "Pokemon": "Metang",
+            "DisplayName": "Metang"
          }
       ],
       "stats": [
@@ -14054,7 +14429,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Metagross"
+            "Pokemon": "Metagross",
+            "DisplayName": "Metagross"
          }
       ],
       "stats": [
@@ -14092,7 +14468,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Regirock"
+            "Pokemon": "Regirock",
+            "DisplayName": "Regirock"
          }
       ],
       "stats": [
@@ -14129,7 +14506,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Regice"
+            "Pokemon": "Regice",
+            "DisplayName": "Regice"
          }
       ],
       "stats": [
@@ -14166,7 +14544,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Registeel"
+            "Pokemon": "Registeel",
+            "DisplayName": "Registeel"
          }
       ],
       "stats": [
@@ -14203,7 +14582,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Latias"
+            "Pokemon": "Latias",
+            "DisplayName": "Latias"
          }
       ],
       "stats": [
@@ -14241,7 +14621,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Latios"
+            "Pokemon": "Latios",
+            "DisplayName": "Latios"
          }
       ],
       "stats": [
@@ -14279,7 +14660,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Kyogre"
+            "Pokemon": "Kyogre",
+            "DisplayName": "Kyogre"
          }
       ],
       "stats": [
@@ -14316,7 +14698,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Groudon"
+            "Pokemon": "Groudon",
+            "DisplayName": "Groudon"
          }
       ],
       "stats": [
@@ -14353,7 +14736,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Rayquaza"
+            "Pokemon": "Rayquaza",
+            "DisplayName": "Rayquaza"
          }
       ],
       "stats": [
@@ -14391,7 +14775,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Jirachi"
+            "Pokemon": "Jirachi",
+            "DisplayName": "Jirachi"
          }
       ],
       "stats": [
@@ -14429,7 +14814,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Deoxys"
+            "Pokemon": "Deoxys",
+            "DisplayName": "Deoxys"
          }
       ],
       "stats": [
@@ -14466,7 +14852,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Turtwig"
+            "Pokemon": "Turtwig",
+            "DisplayName": "Turtwig"
          }
       ],
       "stats": [
@@ -14503,7 +14890,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Grotle"
+            "Pokemon": "Grotle",
+            "DisplayName": "Grotle"
          }
       ],
       "stats": [
@@ -14540,7 +14928,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Torterra"
+            "Pokemon": "Torterra",
+            "DisplayName": "Torterra"
          }
       ],
       "stats": [
@@ -14578,7 +14967,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Chimchar"
+            "Pokemon": "Chimchar",
+            "DisplayName": "Chimchar"
          }
       ],
       "stats": [
@@ -14615,7 +15005,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Monferno"
+            "Pokemon": "Monferno",
+            "DisplayName": "Monferno"
          }
       ],
       "stats": [
@@ -14653,7 +15044,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Infernape"
+            "Pokemon": "Infernape",
+            "DisplayName": "Infernape"
          }
       ],
       "stats": [
@@ -14691,7 +15083,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Piplup"
+            "Pokemon": "Piplup",
+            "DisplayName": "Piplup"
          }
       ],
       "stats": [
@@ -14728,7 +15121,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Prinplup"
+            "Pokemon": "Prinplup",
+            "DisplayName": "Prinplup"
          }
       ],
       "stats": [
@@ -14765,7 +15159,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Empoleon"
+            "Pokemon": "Empoleon",
+            "DisplayName": "Empoleon"
          }
       ],
       "stats": [
@@ -14803,7 +15198,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Starly"
+            "Pokemon": "Starly",
+            "DisplayName": "Starly"
          }
       ],
       "stats": [
@@ -14841,7 +15237,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Staravia"
+            "Pokemon": "Staravia",
+            "DisplayName": "Staravia"
          }
       ],
       "stats": [
@@ -14879,7 +15276,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Staraptor"
+            "Pokemon": "Staraptor",
+            "DisplayName": "Staraptor"
          }
       ],
       "stats": [
@@ -14917,7 +15315,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Bidoof"
+            "Pokemon": "Bidoof",
+            "DisplayName": "Bidoof"
          }
       ],
       "stats": [
@@ -14954,7 +15353,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Bibarel"
+            "Pokemon": "Bibarel",
+            "DisplayName": "Bibarel"
          }
       ],
       "stats": [
@@ -14992,7 +15392,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Kricketot"
+            "Pokemon": "Kricketot",
+            "DisplayName": "Kricketot"
          }
       ],
       "stats": [
@@ -15029,7 +15430,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Kricketune"
+            "Pokemon": "Kricketune",
+            "DisplayName": "Kricketune"
          }
       ],
       "stats": [
@@ -15066,7 +15468,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Shinx"
+            "Pokemon": "Shinx",
+            "DisplayName": "Shinx"
          }
       ],
       "stats": [
@@ -15103,7 +15506,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Luxio"
+            "Pokemon": "Luxio",
+            "DisplayName": "Luxio"
          }
       ],
       "stats": [
@@ -15140,7 +15544,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Luxray"
+            "Pokemon": "Luxray",
+            "DisplayName": "Luxray"
          }
       ],
       "stats": [
@@ -15177,7 +15582,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Budew"
+            "Pokemon": "Budew",
+            "DisplayName": "Budew"
          }
       ],
       "stats": [
@@ -15215,7 +15621,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Roserade"
+            "Pokemon": "Roserade",
+            "DisplayName": "Roserade"
          }
       ],
       "stats": [
@@ -15253,7 +15660,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Cranidos"
+            "Pokemon": "Cranidos",
+            "DisplayName": "Cranidos"
          }
       ],
       "stats": [
@@ -15290,7 +15698,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Rampardos"
+            "Pokemon": "Rampardos",
+            "DisplayName": "Rampardos"
          }
       ],
       "stats": [
@@ -15327,7 +15736,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Shieldon"
+            "Pokemon": "Shieldon",
+            "DisplayName": "Shieldon"
          }
       ],
       "stats": [
@@ -15365,7 +15775,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Bastiodon"
+            "Pokemon": "Bastiodon",
+            "DisplayName": "Bastiodon"
          }
       ],
       "stats": [
@@ -15403,7 +15814,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Burmy"
+            "Pokemon": "Burmy",
+            "DisplayName": "Burmy"
          }
       ],
       "stats": [
@@ -15440,7 +15852,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Wormadam"
+            "Pokemon": "Wormadam",
+            "DisplayName": "Wormadam"
          }
       ],
       "stats": [
@@ -15478,7 +15891,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Mothim"
+            "Pokemon": "Mothim",
+            "DisplayName": "Mothim"
          }
       ],
       "stats": [
@@ -15516,7 +15930,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Combee"
+            "Pokemon": "Combee",
+            "DisplayName": "Combee"
          }
       ],
       "stats": [
@@ -15554,7 +15969,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Vespiquen"
+            "Pokemon": "Vespiquen",
+            "DisplayName": "Vespiquen"
          }
       ],
       "stats": [
@@ -15592,7 +16008,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Pachirisu"
+            "Pokemon": "Pachirisu",
+            "DisplayName": "Pachirisu"
          }
       ],
       "stats": [
@@ -15629,7 +16046,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Buizel"
+            "Pokemon": "Buizel",
+            "DisplayName": "Buizel"
          }
       ],
       "stats": [
@@ -15666,7 +16084,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Floatzel"
+            "Pokemon": "Floatzel",
+            "DisplayName": "Floatzel"
          }
       ],
       "stats": [
@@ -15703,7 +16122,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Cherubi"
+            "Pokemon": "Cherubi",
+            "DisplayName": "Cherubi"
          }
       ],
       "stats": [
@@ -15740,7 +16160,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Cherrim"
+            "Pokemon": "Cherrim",
+            "DisplayName": "Cherrim"
          }
       ],
       "stats": [
@@ -15777,7 +16198,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Shellos"
+            "Pokemon": "Shellos",
+            "DisplayName": "Shellos"
          }
       ],
       "stats": [
@@ -15814,7 +16236,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Gastrodon"
+            "Pokemon": "Gastrodon",
+            "DisplayName": "Gastrodon"
          }
       ],
       "stats": [
@@ -15852,7 +16275,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Ambipom"
+            "Pokemon": "Ambipom",
+            "DisplayName": "Ambipom"
          }
       ],
       "stats": [
@@ -15889,7 +16313,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Drifloon"
+            "Pokemon": "Drifloon",
+            "DisplayName": "Drifloon"
          }
       ],
       "stats": [
@@ -15927,7 +16352,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Drifblim"
+            "Pokemon": "Drifblim",
+            "DisplayName": "Drifblim"
          }
       ],
       "stats": [
@@ -15965,7 +16391,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Buneary"
+            "Pokemon": "Buneary",
+            "DisplayName": "Buneary"
          }
       ],
       "stats": [
@@ -16002,7 +16429,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Lopunny"
+            "Pokemon": "Lopunny",
+            "DisplayName": "Lopunny"
          }
       ],
       "stats": [
@@ -16039,7 +16467,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Mismagius"
+            "Pokemon": "Mismagius",
+            "DisplayName": "Mismagius"
          }
       ],
       "stats": [
@@ -16076,7 +16505,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Honchkrow"
+            "Pokemon": "Honchkrow",
+            "DisplayName": "Honchkrow"
          }
       ],
       "stats": [
@@ -16114,7 +16544,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Glameow"
+            "Pokemon": "Glameow",
+            "DisplayName": "Glameow"
          }
       ],
       "stats": [
@@ -16151,7 +16582,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Purugly"
+            "Pokemon": "Purugly",
+            "DisplayName": "Purugly"
          }
       ],
       "stats": [
@@ -16188,7 +16620,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Chingling"
+            "Pokemon": "Chingling",
+            "DisplayName": "Chingling"
          }
       ],
       "stats": [
@@ -16225,7 +16658,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Stunky"
+            "Pokemon": "Stunky",
+            "DisplayName": "Stunky"
          }
       ],
       "stats": [
@@ -16263,7 +16697,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Skuntank"
+            "Pokemon": "Skuntank",
+            "DisplayName": "Skuntank"
          }
       ],
       "stats": [
@@ -16301,7 +16736,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Bronzor"
+            "Pokemon": "Bronzor",
+            "DisplayName": "Bronzor"
          }
       ],
       "stats": [
@@ -16339,7 +16775,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Bronzong"
+            "Pokemon": "Bronzong",
+            "DisplayName": "Bronzong"
          }
       ],
       "stats": [
@@ -16377,7 +16814,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Bonsly"
+            "Pokemon": "Bonsly",
+            "DisplayName": "Bonsly"
          }
       ],
       "stats": [
@@ -16414,7 +16852,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Mime Jr."
+            "Pokemon": "Mime Jr.",
+            "DisplayName": "Mime Jr."
          }
       ],
       "stats": [
@@ -16452,7 +16891,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Happiny"
+            "Pokemon": "Happiny",
+            "DisplayName": "Happiny"
          }
       ],
       "stats": [
@@ -16489,7 +16929,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Chatot"
+            "Pokemon": "Chatot",
+            "DisplayName": "Chatot"
          }
       ],
       "stats": [
@@ -16527,7 +16968,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Spiritomb"
+            "Pokemon": "Spiritomb",
+            "DisplayName": "Spiritomb"
          }
       ],
       "stats": [
@@ -16565,7 +17007,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Gible"
+            "Pokemon": "Gible",
+            "DisplayName": "Gible"
          }
       ],
       "stats": [
@@ -16603,7 +17046,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Gabite"
+            "Pokemon": "Gabite",
+            "DisplayName": "Gabite"
          }
       ],
       "stats": [
@@ -16641,7 +17085,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Garchomp"
+            "Pokemon": "Garchomp",
+            "DisplayName": "Garchomp"
          }
       ],
       "stats": [
@@ -16679,7 +17124,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Munchlax"
+            "Pokemon": "Munchlax",
+            "DisplayName": "Munchlax"
          }
       ],
       "stats": [
@@ -16716,7 +17162,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Riolu"
+            "Pokemon": "Riolu",
+            "DisplayName": "Riolu"
          }
       ],
       "stats": [
@@ -16753,7 +17200,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Lucario"
+            "Pokemon": "Lucario",
+            "DisplayName": "Lucario"
          }
       ],
       "stats": [
@@ -16791,7 +17239,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Hippopotas"
+            "Pokemon": "Hippopotas",
+            "DisplayName": "Hippopotas"
          }
       ],
       "stats": [
@@ -16828,7 +17277,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Hippowdon"
+            "Pokemon": "Hippowdon",
+            "DisplayName": "Hippowdon"
          }
       ],
       "stats": [
@@ -16865,7 +17315,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Skorupi"
+            "Pokemon": "Skorupi",
+            "DisplayName": "Skorupi"
          }
       ],
       "stats": [
@@ -16903,7 +17354,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Drapion"
+            "Pokemon": "Drapion",
+            "DisplayName": "Drapion"
          }
       ],
       "stats": [
@@ -16941,7 +17393,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Croagunk"
+            "Pokemon": "Croagunk",
+            "DisplayName": "Croagunk"
          }
       ],
       "stats": [
@@ -16979,7 +17432,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Toxicroak"
+            "Pokemon": "Toxicroak",
+            "DisplayName": "Toxicroak"
          }
       ],
       "stats": [
@@ -17017,7 +17471,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Carnivine"
+            "Pokemon": "Carnivine",
+            "DisplayName": "Carnivine"
          }
       ],
       "stats": [
@@ -17054,7 +17509,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Finneon"
+            "Pokemon": "Finneon",
+            "DisplayName": "Finneon"
          }
       ],
       "stats": [
@@ -17091,7 +17547,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Lumineon"
+            "Pokemon": "Lumineon",
+            "DisplayName": "Lumineon"
          }
       ],
       "stats": [
@@ -17128,7 +17585,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Mantyke"
+            "Pokemon": "Mantyke",
+            "DisplayName": "Mantyke"
          }
       ],
       "stats": [
@@ -17166,7 +17624,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Snover"
+            "Pokemon": "Snover",
+            "DisplayName": "Snover"
          }
       ],
       "stats": [
@@ -17204,7 +17663,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Abomasnow"
+            "Pokemon": "Abomasnow",
+            "DisplayName": "Abomasnow"
          }
       ],
       "stats": [
@@ -17242,7 +17702,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Weavile"
+            "Pokemon": "Weavile",
+            "DisplayName": "Weavile"
          }
       ],
       "stats": [
@@ -17280,7 +17741,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Magnezone"
+            "Pokemon": "Magnezone",
+            "DisplayName": "Magnezone"
          }
       ],
       "stats": [
@@ -17318,7 +17780,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Lickilicky"
+            "Pokemon": "Lickilicky",
+            "DisplayName": "Lickilicky"
          }
       ],
       "stats": [
@@ -17355,7 +17818,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Rhyperior"
+            "Pokemon": "Rhyperior",
+            "DisplayName": "Rhyperior"
          }
       ],
       "stats": [
@@ -17393,7 +17857,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Tangrowth"
+            "Pokemon": "Tangrowth",
+            "DisplayName": "Tangrowth"
          }
       ],
       "stats": [
@@ -17430,7 +17895,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Electivire"
+            "Pokemon": "Electivire",
+            "DisplayName": "Electivire"
          }
       ],
       "stats": [
@@ -17467,7 +17933,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Magmortar"
+            "Pokemon": "Magmortar",
+            "DisplayName": "Magmortar"
          }
       ],
       "stats": [
@@ -17504,7 +17971,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Togekiss"
+            "Pokemon": "Togekiss",
+            "DisplayName": "Togekiss"
          }
       ],
       "stats": [
@@ -17542,7 +18010,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Yanmega"
+            "Pokemon": "Yanmega",
+            "DisplayName": "Yanmega"
          }
       ],
       "stats": [
@@ -17580,7 +18049,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Leafeon"
+            "Pokemon": "Leafeon",
+            "DisplayName": "Leafeon"
          }
       ],
       "stats": [
@@ -17617,7 +18087,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Glaceon"
+            "Pokemon": "Glaceon",
+            "DisplayName": "Glaceon"
          }
       ],
       "stats": [
@@ -17654,7 +18125,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Gliscor"
+            "Pokemon": "Gliscor",
+            "DisplayName": "Gliscor"
          }
       ],
       "stats": [
@@ -17692,7 +18164,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Mamoswine"
+            "Pokemon": "Mamoswine",
+            "DisplayName": "Mamoswine"
          }
       ],
       "stats": [
@@ -17730,7 +18203,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Porygon-Z"
+            "Pokemon": "Porygon-Z",
+            "DisplayName": "Porygon-Z"
          }
       ],
       "stats": [
@@ -17767,7 +18241,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Gallade"
+            "Pokemon": "Gallade",
+            "DisplayName": "Gallade"
          }
       ],
       "stats": [
@@ -17805,7 +18280,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Probopass"
+            "Pokemon": "Probopass",
+            "DisplayName": "Probopass"
          }
       ],
       "stats": [
@@ -17843,7 +18319,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Dusknoir"
+            "Pokemon": "Dusknoir",
+            "DisplayName": "Dusknoir"
          }
       ],
       "stats": [
@@ -17880,7 +18357,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Froslass"
+            "Pokemon": "Froslass",
+            "DisplayName": "Froslass"
          }
       ],
       "stats": [
@@ -17918,7 +18396,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Rotom"
+            "Pokemon": "Rotom",
+            "DisplayName": "Rotom"
          }
       ],
       "stats": [
@@ -17956,7 +18435,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Uxie"
+            "Pokemon": "Uxie",
+            "DisplayName": "Uxie"
          }
       ],
       "stats": [
@@ -17993,7 +18473,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Mesprit"
+            "Pokemon": "Mesprit",
+            "DisplayName": "Mesprit"
          }
       ],
       "stats": [
@@ -18030,7 +18511,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Azelf"
+            "Pokemon": "Azelf",
+            "DisplayName": "Azelf"
          }
       ],
       "stats": [
@@ -18067,7 +18549,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Dialga"
+            "Pokemon": "Dialga",
+            "DisplayName": "Dialga"
          }
       ],
       "stats": [
@@ -18105,7 +18588,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Palkia"
+            "Pokemon": "Palkia",
+            "DisplayName": "Palkia"
          }
       ],
       "stats": [
@@ -18143,7 +18627,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Heatran"
+            "Pokemon": "Heatran",
+            "DisplayName": "Heatran"
          }
       ],
       "stats": [
@@ -18181,7 +18666,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Regigigas"
+            "Pokemon": "Regigigas",
+            "DisplayName": "Regigigas"
          }
       ],
       "stats": [
@@ -18218,7 +18704,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Giratina"
+            "Pokemon": "Giratina",
+            "DisplayName": "Giratina"
          }
       ],
       "stats": [
@@ -18256,7 +18743,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Cresselia"
+            "Pokemon": "Cresselia",
+            "DisplayName": "Cresselia"
          }
       ],
       "stats": [
@@ -18293,7 +18781,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Phione"
+            "Pokemon": "Phione",
+            "DisplayName": "Phione"
          }
       ],
       "stats": [
@@ -18330,7 +18819,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Manaphy"
+            "Pokemon": "Manaphy",
+            "DisplayName": "Manaphy"
          }
       ],
       "stats": [
@@ -18367,7 +18857,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Darkrai"
+            "Pokemon": "Darkrai",
+            "DisplayName": "Darkrai"
          }
       ],
       "stats": [
@@ -18404,7 +18895,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Shaymin"
+            "Pokemon": "Shaymin",
+            "DisplayName": "Shaymin"
          }
       ],
       "stats": [
@@ -18441,7 +18933,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Arceus"
+            "Pokemon": "Arceus",
+            "DisplayName": "Arceus"
          }
       ],
       "stats": [
@@ -18478,7 +18971,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Victini"
+            "Pokemon": "Victini",
+            "DisplayName": "Victini"
          }
       ],
       "stats": [
@@ -18516,7 +19010,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Snivy"
+            "Pokemon": "Snivy",
+            "DisplayName": "Snivy"
          }
       ],
       "stats": [
@@ -18553,7 +19048,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Servine"
+            "Pokemon": "Servine",
+            "DisplayName": "Servine"
          }
       ],
       "stats": [
@@ -18590,7 +19086,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Serperior"
+            "Pokemon": "Serperior",
+            "DisplayName": "Serperior"
          }
       ],
       "stats": [
@@ -18627,7 +19124,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Tepig"
+            "Pokemon": "Tepig",
+            "DisplayName": "Tepig"
          }
       ],
       "stats": [
@@ -18664,7 +19162,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Pignite"
+            "Pokemon": "Pignite",
+            "DisplayName": "Pignite"
          }
       ],
       "stats": [
@@ -18702,7 +19201,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Emboar"
+            "Pokemon": "Emboar",
+            "DisplayName": "Emboar"
          }
       ],
       "stats": [
@@ -18740,7 +19240,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Oshawott"
+            "Pokemon": "Oshawott",
+            "DisplayName": "Oshawott"
          }
       ],
       "stats": [
@@ -18777,7 +19278,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Dewott"
+            "Pokemon": "Dewott",
+            "DisplayName": "Dewott"
          }
       ],
       "stats": [
@@ -18814,7 +19316,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Samurott"
+            "Pokemon": "Samurott",
+            "DisplayName": "Samurott"
          }
       ],
       "stats": [
@@ -18851,7 +19354,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Patrat"
+            "Pokemon": "Patrat",
+            "DisplayName": "Patrat"
          }
       ],
       "stats": [
@@ -18888,7 +19392,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Watchog"
+            "Pokemon": "Watchog",
+            "DisplayName": "Watchog"
          }
       ],
       "stats": [
@@ -18925,7 +19430,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Lillipup"
+            "Pokemon": "Lillipup",
+            "DisplayName": "Lillipup"
          }
       ],
       "stats": [
@@ -18962,7 +19468,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Herdier"
+            "Pokemon": "Herdier",
+            "DisplayName": "Herdier"
          }
       ],
       "stats": [
@@ -18999,7 +19506,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Stoutland"
+            "Pokemon": "Stoutland",
+            "DisplayName": "Stoutland"
          }
       ],
       "stats": [
@@ -19036,7 +19544,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Purrloin"
+            "Pokemon": "Purrloin",
+            "DisplayName": "Purrloin"
          }
       ],
       "stats": [
@@ -19073,7 +19582,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Liepard"
+            "Pokemon": "Liepard",
+            "DisplayName": "Liepard"
          }
       ],
       "stats": [
@@ -19110,7 +19620,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Pansage"
+            "Pokemon": "Pansage",
+            "DisplayName": "Pansage"
          }
       ],
       "stats": [
@@ -19147,7 +19658,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Simisage"
+            "Pokemon": "Simisage",
+            "DisplayName": "Simisage"
          }
       ],
       "stats": [
@@ -19184,7 +19696,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Pansear"
+            "Pokemon": "Pansear",
+            "DisplayName": "Pansear"
          }
       ],
       "stats": [
@@ -19221,7 +19734,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Simisear"
+            "Pokemon": "Simisear",
+            "DisplayName": "Simisear"
          }
       ],
       "stats": [
@@ -19258,7 +19772,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Panpour"
+            "Pokemon": "Panpour",
+            "DisplayName": "Panpour"
          }
       ],
       "stats": [
@@ -19295,7 +19810,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Simipour"
+            "Pokemon": "Simipour",
+            "DisplayName": "Simipour"
          }
       ],
       "stats": [
@@ -19332,7 +19848,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Munna"
+            "Pokemon": "Munna",
+            "DisplayName": "Munna"
          }
       ],
       "stats": [
@@ -19369,7 +19886,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Musharna"
+            "Pokemon": "Musharna",
+            "DisplayName": "Musharna"
          }
       ],
       "stats": [
@@ -19406,7 +19924,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Pidove"
+            "Pokemon": "Pidove",
+            "DisplayName": "Pidove"
          }
       ],
       "stats": [
@@ -19444,7 +19963,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Tranquill"
+            "Pokemon": "Tranquill",
+            "DisplayName": "Tranquill"
          }
       ],
       "stats": [
@@ -19482,7 +20002,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Unfezant"
+            "Pokemon": "Unfezant",
+            "DisplayName": "Unfezant"
          }
       ],
       "stats": [
@@ -19520,7 +20041,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Blitzle"
+            "Pokemon": "Blitzle",
+            "DisplayName": "Blitzle"
          }
       ],
       "stats": [
@@ -19557,7 +20079,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Zebstrika"
+            "Pokemon": "Zebstrika",
+            "DisplayName": "Zebstrika"
          }
       ],
       "stats": [
@@ -19594,7 +20117,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Roggenrola"
+            "Pokemon": "Roggenrola",
+            "DisplayName": "Roggenrola"
          }
       ],
       "stats": [
@@ -19631,7 +20155,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Boldore"
+            "Pokemon": "Boldore",
+            "DisplayName": "Boldore"
          }
       ],
       "stats": [
@@ -19668,7 +20193,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Gigalith"
+            "Pokemon": "Gigalith",
+            "DisplayName": "Gigalith"
          }
       ],
       "stats": [
@@ -19705,7 +20231,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Woobat"
+            "Pokemon": "Woobat",
+            "DisplayName": "Woobat"
          }
       ],
       "stats": [
@@ -19743,7 +20270,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Swoobat"
+            "Pokemon": "Swoobat",
+            "DisplayName": "Swoobat"
          }
       ],
       "stats": [
@@ -19781,7 +20309,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Drilbur"
+            "Pokemon": "Drilbur",
+            "DisplayName": "Drilbur"
          }
       ],
       "stats": [
@@ -19818,7 +20347,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Excadrill"
+            "Pokemon": "Excadrill",
+            "DisplayName": "Excadrill"
          }
       ],
       "stats": [
@@ -19856,7 +20386,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Audino"
+            "Pokemon": "Audino",
+            "DisplayName": "Audino"
          }
       ],
       "stats": [
@@ -19893,7 +20424,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Timburr"
+            "Pokemon": "Timburr",
+            "DisplayName": "Timburr"
          }
       ],
       "stats": [
@@ -19930,7 +20462,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Gurdurr"
+            "Pokemon": "Gurdurr",
+            "DisplayName": "Gurdurr"
          }
       ],
       "stats": [
@@ -19967,7 +20500,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Conkeldurr"
+            "Pokemon": "Conkeldurr",
+            "DisplayName": "Conkeldurr"
          }
       ],
       "stats": [
@@ -20004,7 +20538,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Tympole"
+            "Pokemon": "Tympole",
+            "DisplayName": "Tympole"
          }
       ],
       "stats": [
@@ -20041,7 +20576,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Palpitoad"
+            "Pokemon": "Palpitoad",
+            "DisplayName": "Palpitoad"
          }
       ],
       "stats": [
@@ -20079,7 +20615,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Seismitoad"
+            "Pokemon": "Seismitoad",
+            "DisplayName": "Seismitoad"
          }
       ],
       "stats": [
@@ -20117,7 +20654,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Throh"
+            "Pokemon": "Throh",
+            "DisplayName": "Throh"
          }
       ],
       "stats": [
@@ -20154,7 +20692,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Sawk"
+            "Pokemon": "Sawk",
+            "DisplayName": "Sawk"
          }
       ],
       "stats": [
@@ -20191,7 +20730,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Sewaddle"
+            "Pokemon": "Sewaddle",
+            "DisplayName": "Sewaddle"
          }
       ],
       "stats": [
@@ -20229,7 +20769,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Swadloon"
+            "Pokemon": "Swadloon",
+            "DisplayName": "Swadloon"
          }
       ],
       "stats": [
@@ -20267,7 +20808,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Leavanny"
+            "Pokemon": "Leavanny",
+            "DisplayName": "Leavanny"
          }
       ],
       "stats": [
@@ -20305,7 +20847,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Venipede"
+            "Pokemon": "Venipede",
+            "DisplayName": "Venipede"
          }
       ],
       "stats": [
@@ -20343,7 +20886,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Whirlipede"
+            "Pokemon": "Whirlipede",
+            "DisplayName": "Whirlipede"
          }
       ],
       "stats": [
@@ -20381,7 +20925,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Scolipede"
+            "Pokemon": "Scolipede",
+            "DisplayName": "Scolipede"
          }
       ],
       "stats": [
@@ -20419,7 +20964,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Cottonee"
+            "Pokemon": "Cottonee",
+            "DisplayName": "Cottonee"
          }
       ],
       "stats": [
@@ -20457,7 +21003,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Whimsicott"
+            "Pokemon": "Whimsicott",
+            "DisplayName": "Whimsicott"
          }
       ],
       "stats": [
@@ -20495,7 +21042,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Petilil"
+            "Pokemon": "Petilil",
+            "DisplayName": "Petilil"
          }
       ],
       "stats": [
@@ -20532,7 +21080,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Lilligant"
+            "Pokemon": "Lilligant",
+            "DisplayName": "Lilligant"
          }
       ],
       "stats": [
@@ -20569,7 +21118,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Basculin"
+            "Pokemon": "Basculin",
+            "DisplayName": "Basculin"
          }
       ],
       "stats": [
@@ -20606,7 +21156,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Sandile"
+            "Pokemon": "Sandile",
+            "DisplayName": "Sandile"
          }
       ],
       "stats": [
@@ -20644,7 +21195,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Krokorok"
+            "Pokemon": "Krokorok",
+            "DisplayName": "Krokorok"
          }
       ],
       "stats": [
@@ -20682,7 +21234,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Krookodile"
+            "Pokemon": "Krookodile",
+            "DisplayName": "Krookodile"
          }
       ],
       "stats": [
@@ -20720,7 +21273,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Darumaka"
+            "Pokemon": "Darumaka",
+            "DisplayName": "Darumaka"
          }
       ],
       "stats": [
@@ -20757,7 +21311,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Darmanitan"
+            "Pokemon": "Darmanitan",
+            "DisplayName": "Darmanitan"
          }
       ],
       "stats": [
@@ -20794,7 +21349,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Maractus"
+            "Pokemon": "Maractus",
+            "DisplayName": "Maractus"
          }
       ],
       "stats": [
@@ -20831,7 +21387,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Dwebble"
+            "Pokemon": "Dwebble",
+            "DisplayName": "Dwebble"
          }
       ],
       "stats": [
@@ -20869,7 +21426,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Crustle"
+            "Pokemon": "Crustle",
+            "DisplayName": "Crustle"
          }
       ],
       "stats": [
@@ -20907,7 +21465,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Scraggy"
+            "Pokemon": "Scraggy",
+            "DisplayName": "Scraggy"
          }
       ],
       "stats": [
@@ -20945,7 +21504,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Scrafty"
+            "Pokemon": "Scrafty",
+            "DisplayName": "Scrafty"
          }
       ],
       "stats": [
@@ -20983,7 +21543,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Sigilyph"
+            "Pokemon": "Sigilyph",
+            "DisplayName": "Sigilyph"
          }
       ],
       "stats": [
@@ -21021,7 +21582,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Yamask"
+            "Pokemon": "Yamask",
+            "DisplayName": "Yamask"
          }
       ],
       "stats": [
@@ -21058,7 +21620,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Cofagrigus"
+            "Pokemon": "Cofagrigus",
+            "DisplayName": "Cofagrigus"
          }
       ],
       "stats": [
@@ -21095,7 +21658,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Tirtouga"
+            "Pokemon": "Tirtouga",
+            "DisplayName": "Tirtouga"
          }
       ],
       "stats": [
@@ -21133,7 +21697,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Carracosta"
+            "Pokemon": "Carracosta",
+            "DisplayName": "Carracosta"
          }
       ],
       "stats": [
@@ -21171,7 +21736,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Archen"
+            "Pokemon": "Archen",
+            "DisplayName": "Archen"
          }
       ],
       "stats": [
@@ -21209,7 +21775,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Archeops"
+            "Pokemon": "Archeops",
+            "DisplayName": "Archeops"
          }
       ],
       "stats": [
@@ -21247,7 +21814,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Trubbish"
+            "Pokemon": "Trubbish",
+            "DisplayName": "Trubbish"
          }
       ],
       "stats": [
@@ -21284,7 +21852,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Garbodor"
+            "Pokemon": "Garbodor",
+            "DisplayName": "Garbodor"
          }
       ],
       "stats": [
@@ -21321,7 +21890,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Zorua"
+            "Pokemon": "Zorua",
+            "DisplayName": "Zorua"
          }
       ],
       "stats": [
@@ -21358,7 +21928,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Zoroark"
+            "Pokemon": "Zoroark",
+            "DisplayName": "Zoroark"
          }
       ],
       "stats": [
@@ -21395,7 +21966,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Minccino"
+            "Pokemon": "Minccino",
+            "DisplayName": "Minccino"
          }
       ],
       "stats": [
@@ -21432,7 +22004,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Cinccino"
+            "Pokemon": "Cinccino",
+            "DisplayName": "Cinccino"
          }
       ],
       "stats": [
@@ -21469,7 +22042,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Gothita"
+            "Pokemon": "Gothita",
+            "DisplayName": "Gothita"
          }
       ],
       "stats": [
@@ -21506,7 +22080,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Gothorita"
+            "Pokemon": "Gothorita",
+            "DisplayName": "Gothorita"
          }
       ],
       "stats": [
@@ -21543,7 +22118,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Gothitelle"
+            "Pokemon": "Gothitelle",
+            "DisplayName": "Gothitelle"
          }
       ],
       "stats": [
@@ -21580,7 +22156,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Solosis"
+            "Pokemon": "Solosis",
+            "DisplayName": "Solosis"
          }
       ],
       "stats": [
@@ -21617,7 +22194,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Duosion"
+            "Pokemon": "Duosion",
+            "DisplayName": "Duosion"
          }
       ],
       "stats": [
@@ -21654,7 +22232,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Reuniclus"
+            "Pokemon": "Reuniclus",
+            "DisplayName": "Reuniclus"
          }
       ],
       "stats": [
@@ -21691,7 +22270,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Ducklett"
+            "Pokemon": "Ducklett",
+            "DisplayName": "Ducklett"
          }
       ],
       "stats": [
@@ -21729,7 +22309,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Swanna"
+            "Pokemon": "Swanna",
+            "DisplayName": "Swanna"
          }
       ],
       "stats": [
@@ -21767,7 +22348,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Vanillite"
+            "Pokemon": "Vanillite",
+            "DisplayName": "Vanillite"
          }
       ],
       "stats": [
@@ -21804,7 +22386,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Vanillish"
+            "Pokemon": "Vanillish",
+            "DisplayName": "Vanillish"
          }
       ],
       "stats": [
@@ -21841,7 +22424,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Vanilluxe"
+            "Pokemon": "Vanilluxe",
+            "DisplayName": "Vanilluxe"
          }
       ],
       "stats": [
@@ -21878,7 +22462,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Deerling"
+            "Pokemon": "Deerling",
+            "DisplayName": "Deerling"
          }
       ],
       "stats": [
@@ -21916,7 +22501,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Sawsbuck"
+            "Pokemon": "Sawsbuck",
+            "DisplayName": "Sawsbuck"
          }
       ],
       "stats": [
@@ -21954,7 +22540,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Emolga"
+            "Pokemon": "Emolga",
+            "DisplayName": "Emolga"
          }
       ],
       "stats": [
@@ -21992,7 +22579,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Karrablast"
+            "Pokemon": "Karrablast",
+            "DisplayName": "Karrablast"
          }
       ],
       "stats": [
@@ -22029,7 +22617,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Escavalier"
+            "Pokemon": "Escavalier",
+            "DisplayName": "Escavalier"
          }
       ],
       "stats": [
@@ -22067,7 +22656,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Foongus"
+            "Pokemon": "Foongus",
+            "DisplayName": "Foongus"
          }
       ],
       "stats": [
@@ -22105,7 +22695,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Amoonguss"
+            "Pokemon": "Amoonguss",
+            "DisplayName": "Amoonguss"
          }
       ],
       "stats": [
@@ -22143,7 +22734,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Frillish"
+            "Pokemon": "Frillish",
+            "DisplayName": "Frillish"
          }
       ],
       "stats": [
@@ -22181,7 +22773,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Jellicent"
+            "Pokemon": "Jellicent",
+            "DisplayName": "Jellicent"
          }
       ],
       "stats": [
@@ -22219,7 +22812,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Alomomola"
+            "Pokemon": "Alomomola",
+            "DisplayName": "Alomomola"
          }
       ],
       "stats": [
@@ -22256,7 +22850,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Joltik"
+            "Pokemon": "Joltik",
+            "DisplayName": "Joltik"
          }
       ],
       "stats": [
@@ -22294,7 +22889,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Galvantula"
+            "Pokemon": "Galvantula",
+            "DisplayName": "Galvantula"
          }
       ],
       "stats": [
@@ -22332,7 +22928,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Ferroseed"
+            "Pokemon": "Ferroseed",
+            "DisplayName": "Ferroseed"
          }
       ],
       "stats": [
@@ -22370,7 +22967,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Ferrothorn"
+            "Pokemon": "Ferrothorn",
+            "DisplayName": "Ferrothorn"
          }
       ],
       "stats": [
@@ -22408,7 +23006,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Klink"
+            "Pokemon": "Klink",
+            "DisplayName": "Klink"
          }
       ],
       "stats": [
@@ -22445,7 +23044,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Klang"
+            "Pokemon": "Klang",
+            "DisplayName": "Klang"
          }
       ],
       "stats": [
@@ -22482,7 +23082,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Klinklang"
+            "Pokemon": "Klinklang",
+            "DisplayName": "Klinklang"
          }
       ],
       "stats": [
@@ -22519,7 +23120,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Tynamo"
+            "Pokemon": "Tynamo",
+            "DisplayName": "Tynamo"
          }
       ],
       "stats": [
@@ -22556,7 +23158,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Eelektrik"
+            "Pokemon": "Eelektrik",
+            "DisplayName": "Eelektrik"
          }
       ],
       "stats": [
@@ -22593,7 +23196,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Eelektross"
+            "Pokemon": "Eelektross",
+            "DisplayName": "Eelektross"
          }
       ],
       "stats": [
@@ -22630,7 +23234,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Elgyem"
+            "Pokemon": "Elgyem",
+            "DisplayName": "Elgyem"
          }
       ],
       "stats": [
@@ -22667,7 +23272,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Beheeyem"
+            "Pokemon": "Beheeyem",
+            "DisplayName": "Beheeyem"
          }
       ],
       "stats": [
@@ -22704,7 +23310,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Litwick"
+            "Pokemon": "Litwick",
+            "DisplayName": "Litwick"
          }
       ],
       "stats": [
@@ -22742,7 +23349,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Lampent"
+            "Pokemon": "Lampent",
+            "DisplayName": "Lampent"
          }
       ],
       "stats": [
@@ -22780,7 +23388,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Chandelure"
+            "Pokemon": "Chandelure",
+            "DisplayName": "Chandelure"
          }
       ],
       "stats": [
@@ -22818,7 +23427,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Axew"
+            "Pokemon": "Axew",
+            "DisplayName": "Axew"
          }
       ],
       "stats": [
@@ -22855,7 +23465,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Fraxure"
+            "Pokemon": "Fraxure",
+            "DisplayName": "Fraxure"
          }
       ],
       "stats": [
@@ -22892,7 +23503,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Haxorus"
+            "Pokemon": "Haxorus",
+            "DisplayName": "Haxorus"
          }
       ],
       "stats": [
@@ -22929,7 +23541,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Cubchoo"
+            "Pokemon": "Cubchoo",
+            "DisplayName": "Cubchoo"
          }
       ],
       "stats": [
@@ -22966,7 +23579,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Beartic"
+            "Pokemon": "Beartic",
+            "DisplayName": "Beartic"
          }
       ],
       "stats": [
@@ -23003,7 +23617,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Cryogonal"
+            "Pokemon": "Cryogonal",
+            "DisplayName": "Cryogonal"
          }
       ],
       "stats": [
@@ -23040,7 +23655,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Shelmet"
+            "Pokemon": "Shelmet",
+            "DisplayName": "Shelmet"
          }
       ],
       "stats": [
@@ -23077,7 +23693,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Accelgor"
+            "Pokemon": "Accelgor",
+            "DisplayName": "Accelgor"
          }
       ],
       "stats": [
@@ -23114,7 +23731,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Stunfisk"
+            "Pokemon": "Stunfisk",
+            "DisplayName": "Stunfisk"
          }
       ],
       "stats": [
@@ -23152,7 +23770,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Mienfoo"
+            "Pokemon": "Mienfoo",
+            "DisplayName": "Mienfoo"
          }
       ],
       "stats": [
@@ -23189,7 +23808,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Mienshao"
+            "Pokemon": "Mienshao",
+            "DisplayName": "Mienshao"
          }
       ],
       "stats": [
@@ -23226,7 +23846,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Druddigon"
+            "Pokemon": "Druddigon",
+            "DisplayName": "Druddigon"
          }
       ],
       "stats": [
@@ -23263,7 +23884,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Golett"
+            "Pokemon": "Golett",
+            "DisplayName": "Golett"
          }
       ],
       "stats": [
@@ -23301,7 +23923,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Golurk"
+            "Pokemon": "Golurk",
+            "DisplayName": "Golurk"
          }
       ],
       "stats": [
@@ -23339,7 +23962,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Pawniard"
+            "Pokemon": "Pawniard",
+            "DisplayName": "Pawniard"
          }
       ],
       "stats": [
@@ -23377,7 +24001,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Bisharp"
+            "Pokemon": "Bisharp",
+            "DisplayName": "Bisharp"
          }
       ],
       "stats": [
@@ -23415,7 +24040,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Bouffalant"
+            "Pokemon": "Bouffalant",
+            "DisplayName": "Bouffalant"
          }
       ],
       "stats": [
@@ -23452,7 +24078,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Rufflet"
+            "Pokemon": "Rufflet",
+            "DisplayName": "Rufflet"
          }
       ],
       "stats": [
@@ -23490,7 +24117,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Braviary"
+            "Pokemon": "Braviary",
+            "DisplayName": "Braviary"
          }
       ],
       "stats": [
@@ -23528,7 +24156,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Vullaby"
+            "Pokemon": "Vullaby",
+            "DisplayName": "Vullaby"
          }
       ],
       "stats": [
@@ -23566,7 +24195,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Mandibuzz"
+            "Pokemon": "Mandibuzz",
+            "DisplayName": "Mandibuzz"
          }
       ],
       "stats": [
@@ -23604,7 +24234,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Heatmor"
+            "Pokemon": "Heatmor",
+            "DisplayName": "Heatmor"
          }
       ],
       "stats": [
@@ -23641,7 +24272,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Durant"
+            "Pokemon": "Durant",
+            "DisplayName": "Durant"
          }
       ],
       "stats": [
@@ -23679,7 +24311,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Deino"
+            "Pokemon": "Deino",
+            "DisplayName": "Deino"
          }
       ],
       "stats": [
@@ -23717,7 +24350,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Zweilous"
+            "Pokemon": "Zweilous",
+            "DisplayName": "Zweilous"
          }
       ],
       "stats": [
@@ -23755,7 +24389,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Hydreigon"
+            "Pokemon": "Hydreigon",
+            "DisplayName": "Hydreigon"
          }
       ],
       "stats": [
@@ -23793,7 +24428,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Larvesta"
+            "Pokemon": "Larvesta",
+            "DisplayName": "Larvesta"
          }
       ],
       "stats": [
@@ -23831,7 +24467,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Volcarona"
+            "Pokemon": "Volcarona",
+            "DisplayName": "Volcarona"
          }
       ],
       "stats": [
@@ -23869,7 +24506,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Cobalion"
+            "Pokemon": "Cobalion",
+            "DisplayName": "Cobalion"
          }
       ],
       "stats": [
@@ -23907,7 +24545,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Terrakion"
+            "Pokemon": "Terrakion",
+            "DisplayName": "Terrakion"
          }
       ],
       "stats": [
@@ -23945,7 +24584,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Virizion"
+            "Pokemon": "Virizion",
+            "DisplayName": "Virizion"
          }
       ],
       "stats": [
@@ -23983,7 +24623,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Tornadus"
+            "Pokemon": "Tornadus",
+            "DisplayName": "Tornadus"
          }
       ],
       "stats": [
@@ -24020,7 +24661,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Thundurus"
+            "Pokemon": "Thundurus",
+            "DisplayName": "Thundurus"
          }
       ],
       "stats": [
@@ -24058,7 +24700,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Reshiram"
+            "Pokemon": "Reshiram",
+            "DisplayName": "Reshiram"
          }
       ],
       "stats": [
@@ -24096,7 +24739,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Zekrom"
+            "Pokemon": "Zekrom",
+            "DisplayName": "Zekrom"
          }
       ],
       "stats": [
@@ -24134,7 +24778,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Landorus"
+            "Pokemon": "Landorus",
+            "DisplayName": "Landorus"
          }
       ],
       "stats": [
@@ -24172,7 +24817,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Kyurem"
+            "Pokemon": "Kyurem",
+            "DisplayName": "Kyurem"
          }
       ],
       "stats": [
@@ -24210,7 +24856,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Keldeo"
+            "Pokemon": "Keldeo",
+            "DisplayName": "Keldeo"
          }
       ],
       "stats": [
@@ -24248,7 +24895,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Meloetta"
+            "Pokemon": "Meloetta",
+            "DisplayName": "Meloetta"
          }
       ],
       "stats": [
@@ -24286,7 +24934,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Genesect"
+            "Pokemon": "Genesect",
+            "DisplayName": "Genesect"
          }
       ],
       "stats": [
@@ -24324,7 +24973,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Chespin"
+            "Pokemon": "Chespin",
+            "DisplayName": "Chespin"
          }
       ],
       "stats": [
@@ -24361,7 +25011,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Quilladin"
+            "Pokemon": "Quilladin",
+            "DisplayName": "Quilladin"
          }
       ],
       "stats": [
@@ -24398,7 +25049,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Chesnaught"
+            "Pokemon": "Chesnaught",
+            "DisplayName": "Chesnaught"
          }
       ],
       "stats": [
@@ -24436,7 +25088,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Fennekin"
+            "Pokemon": "Fennekin",
+            "DisplayName": "Fennekin"
          }
       ],
       "stats": [
@@ -24473,7 +25126,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Braixen"
+            "Pokemon": "Braixen",
+            "DisplayName": "Braixen"
          }
       ],
       "stats": [
@@ -24510,7 +25164,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Delphox"
+            "Pokemon": "Delphox",
+            "DisplayName": "Delphox"
          }
       ],
       "stats": [
@@ -24548,7 +25203,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Froakie"
+            "Pokemon": "Froakie",
+            "DisplayName": "Froakie"
          }
       ],
       "stats": [
@@ -24585,7 +25241,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Frogadier"
+            "Pokemon": "Frogadier",
+            "DisplayName": "Frogadier"
          }
       ],
       "stats": [
@@ -24622,7 +25279,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Greninja"
+            "Pokemon": "Greninja",
+            "DisplayName": "Greninja"
          }
       ],
       "stats": [
@@ -24660,7 +25318,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Bunnelby"
+            "Pokemon": "Bunnelby",
+            "DisplayName": "Bunnelby"
          }
       ],
       "stats": [
@@ -24697,7 +25356,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Diggersby"
+            "Pokemon": "Diggersby",
+            "DisplayName": "Diggersby"
          }
       ],
       "stats": [
@@ -24735,7 +25395,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Fletchling"
+            "Pokemon": "Fletchling",
+            "DisplayName": "Fletchling"
          }
       ],
       "stats": [
@@ -24773,7 +25434,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Fletchinder"
+            "Pokemon": "Fletchinder",
+            "DisplayName": "Fletchinder"
          }
       ],
       "stats": [
@@ -24811,7 +25473,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Talonflame"
+            "Pokemon": "Talonflame",
+            "DisplayName": "Talonflame"
          }
       ],
       "stats": [
@@ -24849,7 +25512,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Scatterbug"
+            "Pokemon": "Scatterbug",
+            "DisplayName": "Scatterbug"
          }
       ],
       "stats": [
@@ -24886,7 +25550,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Spewpa"
+            "Pokemon": "Spewpa",
+            "DisplayName": "Spewpa"
          }
       ],
       "stats": [
@@ -24923,7 +25588,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Vivillon"
+            "Pokemon": "Vivillon",
+            "DisplayName": "Vivillon"
          }
       ],
       "stats": [
@@ -24961,7 +25627,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Litleo"
+            "Pokemon": "Litleo",
+            "DisplayName": "Litleo"
          }
       ],
       "stats": [
@@ -24999,7 +25666,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Pyroar"
+            "Pokemon": "Pyroar",
+            "DisplayName": "Pyroar"
          }
       ],
       "stats": [
@@ -25037,7 +25705,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Flabebe"
+            "Pokemon": "Flabebe",
+            "DisplayName": "Flabebe"
          }
       ],
       "stats": [
@@ -25074,7 +25743,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Floette"
+            "Pokemon": "Floette",
+            "DisplayName": "Floette"
          }
       ],
       "stats": [
@@ -25111,7 +25781,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Florges"
+            "Pokemon": "Florges",
+            "DisplayName": "Florges"
          }
       ],
       "stats": [
@@ -25148,7 +25819,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Skiddo"
+            "Pokemon": "Skiddo",
+            "DisplayName": "Skiddo"
          }
       ],
       "stats": [
@@ -25185,7 +25857,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Gogoat"
+            "Pokemon": "Gogoat",
+            "DisplayName": "Gogoat"
          }
       ],
       "stats": [
@@ -25222,7 +25895,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Pancham"
+            "Pokemon": "Pancham",
+            "DisplayName": "Pancham"
          }
       ],
       "stats": [
@@ -25259,7 +25933,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Pangoro"
+            "Pokemon": "Pangoro",
+            "DisplayName": "Pangoro"
          }
       ],
       "stats": [
@@ -25297,7 +25972,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Furfrou"
+            "Pokemon": "Furfrou",
+            "DisplayName": "Furfrou"
          }
       ],
       "stats": [
@@ -25334,7 +26010,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Espurr"
+            "Pokemon": "Espurr",
+            "DisplayName": "Espurr"
          }
       ],
       "stats": [
@@ -25371,7 +26048,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Meowstic"
+            "Pokemon": "Meowstic",
+            "DisplayName": "Meowstic"
          }
       ],
       "stats": [
@@ -25408,7 +26086,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Honedge"
+            "Pokemon": "Honedge",
+            "DisplayName": "Honedge"
          }
       ],
       "stats": [
@@ -25446,7 +26125,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Doublade"
+            "Pokemon": "Doublade",
+            "DisplayName": "Doublade"
          }
       ],
       "stats": [
@@ -25484,7 +26164,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Aegislash"
+            "Pokemon": "Aegislash",
+            "DisplayName": "Aegislash"
          }
       ],
       "stats": [
@@ -25522,7 +26203,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Spritzee"
+            "Pokemon": "Spritzee",
+            "DisplayName": "Spritzee"
          }
       ],
       "stats": [
@@ -25559,7 +26241,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Aromatisse"
+            "Pokemon": "Aromatisse",
+            "DisplayName": "Aromatisse"
          }
       ],
       "stats": [
@@ -25596,7 +26279,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Swirlix"
+            "Pokemon": "Swirlix",
+            "DisplayName": "Swirlix"
          }
       ],
       "stats": [
@@ -25633,7 +26317,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Slurpuff"
+            "Pokemon": "Slurpuff",
+            "DisplayName": "Slurpuff"
          }
       ],
       "stats": [
@@ -25670,7 +26355,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Inkay"
+            "Pokemon": "Inkay",
+            "DisplayName": "Inkay"
          }
       ],
       "stats": [
@@ -25708,7 +26394,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Malamar"
+            "Pokemon": "Malamar",
+            "DisplayName": "Malamar"
          }
       ],
       "stats": [
@@ -25746,7 +26433,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Binacle"
+            "Pokemon": "Binacle",
+            "DisplayName": "Binacle"
          }
       ],
       "stats": [
@@ -25784,7 +26472,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Barbaracle"
+            "Pokemon": "Barbaracle",
+            "DisplayName": "Barbaracle"
          }
       ],
       "stats": [
@@ -25822,7 +26511,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Skrelp"
+            "Pokemon": "Skrelp",
+            "DisplayName": "Skrelp"
          }
       ],
       "stats": [
@@ -25860,7 +26550,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Dragalge"
+            "Pokemon": "Dragalge",
+            "DisplayName": "Dragalge"
          }
       ],
       "stats": [
@@ -25898,7 +26589,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Clauncher"
+            "Pokemon": "Clauncher",
+            "DisplayName": "Clauncher"
          }
       ],
       "stats": [
@@ -25935,7 +26627,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Clawitzer"
+            "Pokemon": "Clawitzer",
+            "DisplayName": "Clawitzer"
          }
       ],
       "stats": [
@@ -25972,7 +26665,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Helioptile"
+            "Pokemon": "Helioptile",
+            "DisplayName": "Helioptile"
          }
       ],
       "stats": [
@@ -26010,7 +26704,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Heliolisk"
+            "Pokemon": "Heliolisk",
+            "DisplayName": "Heliolisk"
          }
       ],
       "stats": [
@@ -26048,7 +26743,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Tyrunt"
+            "Pokemon": "Tyrunt",
+            "DisplayName": "Tyrunt"
          }
       ],
       "stats": [
@@ -26086,7 +26782,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Tyrantrum"
+            "Pokemon": "Tyrantrum",
+            "DisplayName": "Tyrantrum"
          }
       ],
       "stats": [
@@ -26124,7 +26821,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Amaura"
+            "Pokemon": "Amaura",
+            "DisplayName": "Amaura"
          }
       ],
       "stats": [
@@ -26162,7 +26860,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Aurorus"
+            "Pokemon": "Aurorus",
+            "DisplayName": "Aurorus"
          }
       ],
       "stats": [
@@ -26200,7 +26899,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Sylveon"
+            "Pokemon": "Sylveon",
+            "DisplayName": "Sylveon"
          }
       ],
       "stats": [
@@ -26237,7 +26937,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Hawlucha"
+            "Pokemon": "Hawlucha",
+            "DisplayName": "Hawlucha"
          }
       ],
       "stats": [
@@ -26275,7 +26976,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Dedenne"
+            "Pokemon": "Dedenne",
+            "DisplayName": "Dedenne"
          }
       ],
       "stats": [
@@ -26313,7 +27015,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Carbink"
+            "Pokemon": "Carbink",
+            "DisplayName": "Carbink"
          }
       ],
       "stats": [
@@ -26351,7 +27054,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Goomy"
+            "Pokemon": "Goomy",
+            "DisplayName": "Goomy"
          }
       ],
       "stats": [
@@ -26388,7 +27092,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Sliggoo"
+            "Pokemon": "Sliggoo",
+            "DisplayName": "Sliggoo"
          }
       ],
       "stats": [
@@ -26425,7 +27130,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Goodra"
+            "Pokemon": "Goodra",
+            "DisplayName": "Goodra"
          }
       ],
       "stats": [
@@ -26462,7 +27168,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Klefki"
+            "Pokemon": "Klefki",
+            "DisplayName": "Klefki"
          }
       ],
       "stats": [
@@ -26500,7 +27207,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Phantump"
+            "Pokemon": "Phantump",
+            "DisplayName": "Phantump"
          }
       ],
       "stats": [
@@ -26538,7 +27246,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Trevenant"
+            "Pokemon": "Trevenant",
+            "DisplayName": "Trevenant"
          }
       ],
       "stats": [
@@ -26576,7 +27285,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Pumpkaboo"
+            "Pokemon": "Pumpkaboo",
+            "DisplayName": "Pumpkaboo"
          }
       ],
       "stats": [
@@ -26614,7 +27324,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Gourgeist"
+            "Pokemon": "Gourgeist",
+            "DisplayName": "Gourgeist"
          }
       ],
       "stats": [
@@ -26652,7 +27363,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Bergmite"
+            "Pokemon": "Bergmite",
+            "DisplayName": "Bergmite"
          }
       ],
       "stats": [
@@ -26689,7 +27401,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Avalugg"
+            "Pokemon": "Avalugg",
+            "DisplayName": "Avalugg"
          }
       ],
       "stats": [
@@ -26726,7 +27439,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Noibat"
+            "Pokemon": "Noibat",
+            "DisplayName": "Noibat"
          }
       ],
       "stats": [
@@ -26764,7 +27478,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Noivern"
+            "Pokemon": "Noivern",
+            "DisplayName": "Noivern"
          }
       ],
       "stats": [
@@ -26802,7 +27517,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Xerneas"
+            "Pokemon": "Xerneas",
+            "DisplayName": "Xerneas"
          }
       ],
       "stats": [
@@ -26839,7 +27555,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Yveltal"
+            "Pokemon": "Yveltal",
+            "DisplayName": "Yveltal"
          }
       ],
       "stats": [
@@ -26877,7 +27594,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Zygarde"
+            "Pokemon": "Zygarde",
+            "DisplayName": "Zygarde"
          }
       ],
       "stats": [
@@ -26915,7 +27633,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Diancie"
+            "Pokemon": "Diancie",
+            "DisplayName": "Diancie"
          }
       ],
       "stats": [
@@ -26953,7 +27672,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Hoopa"
+            "Pokemon": "Hoopa",
+            "DisplayName": "Hoopa"
          }
       ],
       "stats": [
@@ -26991,7 +27711,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Volcanion"
+            "Pokemon": "Volcanion",
+            "DisplayName": "Volcanion"
          }
       ],
       "stats": [
@@ -27029,7 +27750,8 @@ const POKEDEX = [
    	{
       "pokemon": [
          {
-            "Pokemon": "Rowlet"
+            "Pokemon": "Rowlet",
+            "DisplayName": "Rowlet"
          }
       ],
       "stats": [
@@ -27067,7 +27789,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Dartrix"
+            "Pokemon": "Dartrix",
+            "DisplayName": "Dartrix"
          }
       ],
       "stats": [
@@ -27105,7 +27828,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Decidueye"
+            "Pokemon": "Decidueye",
+            "DisplayName": "Decidueye"
          }
       ],
       "stats": [
@@ -27143,7 +27867,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Litten"
+            "Pokemon": "Litten",
+            "DisplayName": "Litten"
          }
       ],
       "stats": [
@@ -27180,7 +27905,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Torracat"
+            "Pokemon": "Torracat",
+            "DisplayName": "Torracat"
          }
       ],
       "stats": [
@@ -27217,7 +27943,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Incineroar"
+            "Pokemon": "Incineroar",
+            "DisplayName": "Incineroar"
          }
       ],
       "stats": [
@@ -27255,7 +27982,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Popplio"
+            "Pokemon": "Popplio",
+            "DisplayName": "Popplio"
          }
       ],
       "stats": [
@@ -27292,7 +28020,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Brionne"
+            "Pokemon": "Brionne",
+            "DisplayName": "Brionne"
          }
       ],
       "stats": [
@@ -27329,7 +28058,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Primarina"
+            "Pokemon": "Primarina",
+            "DisplayName": "Primarina"
          }
       ],
       "stats": [
@@ -27367,7 +28097,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Pikipek"
+            "Pokemon": "Pikipek",
+            "DisplayName": "Pikipek"
          }
       ],
       "stats": [
@@ -27405,7 +28136,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Trumbeak"
+            "Pokemon": "Trumbeak",
+            "DisplayName": "Trumbeak"
          }
       ],
       "stats": [
@@ -27443,7 +28175,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Toucannon"
+            "Pokemon": "Toucannon",
+            "DisplayName": "Toucannon"
          }
       ],
       "stats": [
@@ -27481,7 +28214,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Yungoos"
+            "Pokemon": "Yungoos",
+            "DisplayName": "Yungoos"
          }
       ],
       "stats": [
@@ -27518,7 +28252,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Gumshoos"
+            "Pokemon": "Gumshoos",
+            "DisplayName": "Gumshoos"
          }
       ],
       "stats": [
@@ -27555,7 +28290,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Grubbin"
+            "Pokemon": "Grubbin",
+            "DisplayName": "Grubbin"
          }
       ],
       "stats": [
@@ -27592,7 +28328,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Charjabug"
+            "Pokemon": "Charjabug",
+            "DisplayName": "Charjabug"
          }
       ],
       "stats": [
@@ -27630,7 +28367,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Vikavolt"
+            "Pokemon": "Vikavolt",
+            "DisplayName": "Vikavolt"
          }
       ],
       "stats": [
@@ -27668,7 +28406,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Crabrawler"
+            "Pokemon": "Crabrawler",
+            "DisplayName": "Crabrawler"
          }
       ],
       "stats": [
@@ -27705,7 +28444,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Crabominable"
+            "Pokemon": "Crabominable",
+            "DisplayName": "Crabominable"
          }
       ],
       "stats": [
@@ -27743,7 +28483,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Oricorio"
+            "Pokemon": "Oricorio",
+            "DisplayName": "Oricorio"
          }
       ],
       "stats": [
@@ -27781,7 +28522,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Cutiefly"
+            "Pokemon": "Cutiefly",
+            "DisplayName": "Cutiefly"
          }
       ],
       "stats": [
@@ -27819,7 +28561,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Ribombee"
+            "Pokemon": "Ribombee",
+            "DisplayName": "Ribombee"
          }
       ],
       "stats": [
@@ -27857,7 +28600,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Rockruff"
+            "Pokemon": "Rockruff",
+            "DisplayName": "Rockruff"
          }
       ],
       "stats": [
@@ -27894,7 +28638,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Lycanroc"
+            "Pokemon": "Lycanroc",
+            "DisplayName": "Lycanroc"
          }
       ],
       "stats": [
@@ -27931,7 +28676,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Wishiwashi"
+            "Pokemon": "Wishiwashi",
+            "DisplayName": "Wishiwashi"
          }
       ],
       "stats": [
@@ -27968,7 +28714,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Mareanie"
+            "Pokemon": "Mareanie",
+            "DisplayName": "Mareanie"
          }
       ],
       "stats": [
@@ -28006,7 +28753,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Toxapex"
+            "Pokemon": "Toxapex",
+            "DisplayName": "Toxapex"
          }
       ],
       "stats": [
@@ -28044,7 +28792,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Mudbray"
+            "Pokemon": "Mudbray",
+            "DisplayName": "Mudbray"
          }
       ],
       "stats": [
@@ -28081,7 +28830,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Mudsdale"
+            "Pokemon": "Mudsdale",
+            "DisplayName": "Mudsdale"
          }
       ],
       "stats": [
@@ -28118,7 +28868,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Dewpider"
+            "Pokemon": "Dewpider",
+            "DisplayName": "Dewpider"
          }
       ],
       "stats": [
@@ -28156,7 +28907,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Araquanid"
+            "Pokemon": "Araquanid",
+            "DisplayName": "Araquanid"
          }
       ],
       "stats": [
@@ -28194,7 +28946,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Fomantis"
+            "Pokemon": "Fomantis",
+            "DisplayName": "Fomantis"
          }
       ],
       "stats": [
@@ -28231,7 +28984,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Lurantis"
+            "Pokemon": "Lurantis",
+            "DisplayName": "Lurantis"
          }
       ],
       "stats": [
@@ -28268,7 +29022,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Morelull"
+            "Pokemon": "Morelull",
+            "DisplayName": "Morelull"
          }
       ],
       "stats": [
@@ -28306,7 +29061,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Shiinotic"
+            "Pokemon": "Shiinotic",
+            "DisplayName": "Shiinotic"
          }
       ],
       "stats": [
@@ -28344,7 +29100,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Salandit"
+            "Pokemon": "Salandit",
+            "DisplayName": "Salandit"
          }
       ],
       "stats": [
@@ -28382,7 +29139,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Salazzle"
+            "Pokemon": "Salazzle",
+            "DisplayName": "Salazzle"
          }
       ],
       "stats": [
@@ -28420,7 +29178,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Stufful"
+            "Pokemon": "Stufful",
+            "DisplayName": "Stufful"
          }
       ],
       "stats": [
@@ -28458,7 +29217,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Bewear"
+            "Pokemon": "Bewear",
+            "DisplayName": "Bewear"
          }
       ],
       "stats": [
@@ -28496,7 +29256,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Bounsweet"
+            "Pokemon": "Bounsweet",
+            "DisplayName": "Bounsweet"
          }
       ],
       "stats": [
@@ -28533,7 +29294,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Steenee"
+            "Pokemon": "Steenee",
+            "DisplayName": "Steenee"
          }
       ],
       "stats": [
@@ -28570,7 +29332,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Tsareena"
+            "Pokemon": "Tsareena",
+            "DisplayName": "Tsareena"
          }
       ],
       "stats": [
@@ -28607,7 +29370,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Comfey"
+            "Pokemon": "Comfey",
+            "DisplayName": "Comfey"
          }
       ],
       "stats": [
@@ -28644,7 +29408,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Oranguru"
+            "Pokemon": "Oranguru",
+            "DisplayName": "Oranguru"
          }
       ],
       "stats": [
@@ -28682,7 +29447,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Passimian"
+            "Pokemon": "Passimian",
+            "DisplayName": "Passimian"
          }
       ],
       "stats": [
@@ -28719,7 +29485,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Wimpod"
+            "Pokemon": "Wimpod",
+            "DisplayName": "Wimpod"
          }
       ],
       "stats": [
@@ -28757,7 +29524,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Golisopod"
+            "Pokemon": "Golisopod",
+            "DisplayName": "Golisopod"
          }
       ],
       "stats": [
@@ -28795,7 +29563,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Sandygast"
+            "Pokemon": "Sandygast",
+            "DisplayName": "Sandygast"
          }
       ],
       "stats": [
@@ -28833,7 +29602,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Palossand"
+            "Pokemon": "Palossand",
+            "DisplayName": "Palossand"
          }
       ],
       "stats": [
@@ -28871,7 +29641,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Pyukumuku"
+            "Pokemon": "Pyukumuku",
+            "DisplayName": "Pyukumuku"
          }
       ],
       "stats": [
@@ -28908,7 +29679,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Type: Null"
+            "Pokemon": "Type: Null",
+            "DisplayName": "Type: Null"
          }
       ],
       "stats": [
@@ -28945,7 +29717,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Silvally"
+            "Pokemon": "Silvally",
+            "DisplayName": "Silvally"
          }
       ],
       "stats": [
@@ -28982,7 +29755,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Minior"
+            "Pokemon": "Minior",
+            "DisplayName": "Minior"
          }
       ],
       "stats": [
@@ -29020,7 +29794,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Komala"
+            "Pokemon": "Komala",
+            "DisplayName": "Komala"
          }
       ],
       "stats": [
@@ -29057,7 +29832,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Turtonator"
+            "Pokemon": "Turtonator",
+            "DisplayName": "Turtonator"
          }
       ],
       "stats": [
@@ -29095,7 +29871,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Togedemaru"
+            "Pokemon": "Togedemaru",
+            "DisplayName": "Togedemaru"
          }
       ],
       "stats": [
@@ -29133,7 +29910,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Mimikyu"
+            "Pokemon": "Mimikyu",
+            "DisplayName": "Mimikyu"
          }
       ],
       "stats": [
@@ -29171,7 +29949,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Bruxish"
+            "Pokemon": "Bruxish",
+            "DisplayName": "Bruxish"
          }
       ],
       "stats": [
@@ -29209,7 +29988,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Drampa"
+            "Pokemon": "Drampa",
+            "DisplayName": "Drampa"
          }
       ],
       "stats": [
@@ -29247,7 +30027,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Dhelmise"
+            "Pokemon": "Dhelmise",
+            "DisplayName": "Dhelmise"
          }
       ],
       "stats": [
@@ -29285,7 +30066,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Jangmo-o"
+            "Pokemon": "Jangmo-o",
+            "DisplayName": "Jangmo-o"
          }
       ],
       "stats": [
@@ -29322,7 +30104,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Hakamo-o"
+            "Pokemon": "Hakamo-o",
+            "DisplayName": "Hakamo-o"
          }
       ],
       "stats": [
@@ -29360,7 +30143,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Kommo-o"
+            "Pokemon": "Kommo-o",
+            "DisplayName": "Kommo-o"
          }
       ],
       "stats": [
@@ -29398,7 +30182,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Tapu Koko"
+            "Pokemon": "Tapu Koko",
+            "DisplayName": "Tapu Koko"
          }
       ],
       "stats": [
@@ -29436,7 +30221,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Tapu Lele"
+            "Pokemon": "Tapu Lele",
+            "DisplayName": "Tapu Lele"
          }
       ],
       "stats": [
@@ -29474,7 +30260,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Tapu Bulu"
+            "Pokemon": "Tapu Bulu",
+            "DisplayName": "Tapu Bulu"
          }
       ],
       "stats": [
@@ -29512,7 +30299,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Tapu Fini"
+            "Pokemon": "Tapu Fini",
+            "DisplayName": "Tapu Fini"
          }
       ],
       "stats": [
@@ -29550,7 +30338,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Cosmog"
+            "Pokemon": "Cosmog",
+            "DisplayName": "Cosmog"
          }
       ],
       "stats": [
@@ -29587,7 +30376,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Cosmoem"
+            "Pokemon": "Cosmoem",
+            "DisplayName": "Cosmoem"
          }
       ],
       "stats": [
@@ -29624,7 +30414,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Solgaleo"
+            "Pokemon": "Solgaleo",
+            "DisplayName": "Solgaleo"
          }
       ],
       "stats": [
@@ -29662,7 +30453,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Lunala"
+            "Pokemon": "Lunala",
+            "DisplayName": "Lunala"
          }
       ],
       "stats": [
@@ -29700,7 +30492,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Nihilego"
+            "Pokemon": "Nihilego",
+            "DisplayName": "Nihilego"
          }
       ],
       "stats": [
@@ -29738,7 +30531,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Buzzwole"
+            "Pokemon": "Buzzwole",
+            "DisplayName": "Buzzwole"
          }
       ],
       "stats": [
@@ -29776,7 +30570,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Pheromosa"
+            "Pokemon": "Pheromosa",
+            "DisplayName": "Pheromosa"
          }
       ],
       "stats": [
@@ -29814,7 +30609,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Xurkitree"
+            "Pokemon": "Xurkitree",
+            "DisplayName": "Xurkitree"
          }
       ],
       "stats": [
@@ -29851,7 +30647,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Celesteela"
+            "Pokemon": "Celesteela",
+            "DisplayName": "Celesteela"
          }
       ],
       "stats": [
@@ -29889,7 +30686,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Kartana"
+            "Pokemon": "Kartana",
+            "DisplayName": "Kartana"
          }
       ],
       "stats": [
@@ -29927,7 +30725,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Guzzlord"
+            "Pokemon": "Guzzlord",
+            "DisplayName": "Guzzlord"
          }
       ],
       "stats": [
@@ -29965,7 +30764,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Necrozma"
+            "Pokemon": "Necrozma",
+            "DisplayName": "Necrozma"
          }
       ],
       "stats": [
@@ -30002,7 +30802,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Magearna"
+            "Pokemon": "Magearna",
+            "DisplayName": "Magearna"
          }
       ],
       "stats": [
@@ -30040,7 +30841,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Marshadow"
+            "Pokemon": "Marshadow",
+            "DisplayName": "Marshadow"
          }
       ],
       "stats": [
@@ -30078,7 +30880,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Poipole"
+            "Pokemon": "Poipole",
+            "DisplayName": "Poipole"
          }
       ],
       "stats": [
@@ -30115,7 +30918,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Naganadel"
+            "Pokemon": "Naganadel",
+            "DisplayName": "Naganadel"
          }
       ],
       "stats": [
@@ -30153,7 +30957,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Stakataka"
+            "Pokemon": "Stakataka",
+            "DisplayName": "Stakataka"
          }
       ],
       "stats": [
@@ -30191,7 +30996,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Blacephalon"
+            "Pokemon": "Blacephalon",
+            "DisplayName": "Blacephalon"
          }
       ],
       "stats": [
@@ -30229,7 +31035,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Zeraora"
+            "Pokemon": "Zeraora",
+            "DisplayName": "Zeraora"
          }
       ],
       "stats": [
@@ -30266,7 +31073,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Meltan"
+            "Pokemon": "Meltan",
+            "DisplayName": "Meltan"
          }
       ],
       "stats": [
@@ -30303,7 +31111,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Melmetal"
+            "Pokemon": "Melmetal",
+            "DisplayName": "Melmetal"
          }
       ],
       "stats": [
@@ -30340,7 +31149,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Grookey"
+            "Pokemon": "Grookey",
+            "DisplayName": "Grookey"
          }
       ],
       "stats": [
@@ -30377,7 +31187,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Thwackey"
+            "Pokemon": "Thwackey",
+            "DisplayName": "Thwackey"
          }
       ],
       "stats": [
@@ -30414,7 +31225,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Rillaboom"
+            "Pokemon": "Rillaboom",
+            "DisplayName": "Rillaboom"
          }
       ],
       "stats": [
@@ -30451,7 +31263,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Scorbunny"
+            "Pokemon": "Scorbunny",
+            "DisplayName": "Scorbunny"
          }
       ],
       "stats": [
@@ -30488,7 +31301,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Raboot"
+            "Pokemon": "Raboot",
+            "DisplayName": "Raboot"
          }
       ],
       "stats": [
@@ -30525,7 +31339,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Cinderace"
+            "Pokemon": "Cinderace",
+            "DisplayName": "Cinderace"
          }
       ],
       "stats": [
@@ -30562,7 +31377,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Sobble"
+            "Pokemon": "Sobble",
+            "DisplayName": "Sobble"
          }
       ],
       "stats": [
@@ -30599,7 +31415,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Drizzile"
+            "Pokemon": "Drizzile",
+            "DisplayName": "Drizzile"
          }
       ],
       "stats": [
@@ -30636,7 +31453,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Inteleon"
+            "Pokemon": "Inteleon",
+            "DisplayName": "Inteleon"
          }
       ],
       "stats": [
@@ -30673,7 +31491,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Skwovet"
+            "Pokemon": "Skwovet",
+            "DisplayName": "Skwovet"
          }
       ],
       "stats": [
@@ -30710,7 +31529,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Greedent"
+            "Pokemon": "Greedent",
+            "DisplayName": "Greedent"
          }
       ],
       "stats": [
@@ -30747,7 +31567,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Rookidee"
+            "Pokemon": "Rookidee",
+            "DisplayName": "Rookidee"
          }
       ],
       "stats": [
@@ -30784,7 +31605,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Corvisquire"
+            "Pokemon": "Corvisquire",
+            "DisplayName": "Corvisquire"
          }
       ],
       "stats": [
@@ -30821,7 +31643,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Corviknight"
+            "Pokemon": "Corviknight",
+            "DisplayName": "Corviknight"
          }
       ],
       "stats": [
@@ -30859,7 +31682,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Blipbug"
+            "Pokemon": "Blipbug",
+            "DisplayName": "Blipbug"
          }
       ],
       "stats": [
@@ -30896,7 +31720,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Dottler"
+            "Pokemon": "Dottler",
+            "DisplayName": "Dottler"
          }
       ],
       "stats": [
@@ -30934,7 +31759,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Orbeetle"
+            "Pokemon": "Orbeetle",
+            "DisplayName": "Orbeetle"
          }
       ],
       "stats": [
@@ -30972,7 +31798,8 @@ const POKEDEX = [
       {
       "pokemon": [
          {
-            "Pokemon": "Nickit"
+            "Pokemon": "Nickit",
+            "DisplayName": "Nickit"
          }
       ],
       "stats": [
@@ -31009,7 +31836,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Thievul"
+            "Pokemon": "Thievul",
+            "DisplayName": "Thievul"
          }
       ],
       "stats": [
@@ -31046,7 +31874,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Gossifleur"
+            "Pokemon": "Gossifleur",
+            "DisplayName": "Gossifleur"
          }
       ],
       "stats": [
@@ -31083,7 +31912,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Eldegoss"
+            "Pokemon": "Eldegoss",
+            "DisplayName": "Eldegoss"
          }
       ],
       "stats": [
@@ -31120,7 +31950,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Wooloo"
+            "Pokemon": "Wooloo",
+            "DisplayName": "Wooloo"
          }
       ],
       "stats": [
@@ -31157,7 +31988,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Dubwool"
+            "Pokemon": "Dubwool",
+            "DisplayName": "Dubwool"
          }
       ],
       "stats": [
@@ -31194,7 +32026,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Chewtle"
+            "Pokemon": "Chewtle",
+            "DisplayName": "Chewtle"
          }
       ],
       "stats": [
@@ -31231,7 +32064,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Drednaw"
+            "Pokemon": "Drednaw",
+            "DisplayName": "Drednaw"
          }
       ],
       "stats": [
@@ -31269,7 +32103,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Yamper"
+            "Pokemon": "Yamper",
+            "DisplayName": "Yamper"
          }
       ],
       "stats": [
@@ -31306,7 +32141,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Boltund"
+            "Pokemon": "Boltund",
+            "DisplayName": "Boltund"
          }
       ],
       "stats": [
@@ -31343,7 +32179,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Rolycoly"
+            "Pokemon": "Rolycoly",
+            "DisplayName": "Rolycoly"
          }
       ],
       "stats": [
@@ -31380,7 +32217,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Carkol"
+            "Pokemon": "Carkol",
+            "DisplayName": "Carkol"
          }
       ],
       "stats": [
@@ -31418,7 +32256,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Coalossal"
+            "Pokemon": "Coalossal",
+            "DisplayName": "Coalossal"
          }
       ],
       "stats": [
@@ -31456,7 +32295,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Applin"
+            "Pokemon": "Applin",
+            "DisplayName": "Applin"
          }
       ],
       "stats": [
@@ -31494,7 +32334,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Flapple"
+            "Pokemon": "Flapple",
+            "DisplayName": "Flapple"
          }
       ],
       "stats": [
@@ -31532,7 +32373,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Appletun"
+            "Pokemon": "Appletun",
+            "DisplayName": "Appletun"
          }
       ],
       "stats": [
@@ -31570,7 +32412,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Silicobra"
+            "Pokemon": "Silicobra",
+            "DisplayName": "Silicobra"
          }
       ],
       "stats": [
@@ -31607,7 +32450,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Sandaconda"
+            "Pokemon": "Sandaconda",
+            "DisplayName": "Sandaconda"
          }
       ],
       "stats": [
@@ -31644,7 +32488,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Cramorant"
+            "Pokemon": "Cramorant",
+            "DisplayName": "Cramorant"
          }
       ],
       "stats": [
@@ -31682,7 +32527,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Arrokuda"
+            "Pokemon": "Arrokuda",
+            "DisplayName": "Arrokuda"
          }
       ],
       "stats": [
@@ -31719,7 +32565,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Barraskewda"
+            "Pokemon": "Barraskewda",
+            "DisplayName": "Barraskewda"
          }
       ],
       "stats": [
@@ -31756,7 +32603,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Toxel"
+            "Pokemon": "Toxel",
+            "DisplayName": "Toxel"
          }
       ],
       "stats": [
@@ -31794,7 +32642,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Toxtricity"
+            "Pokemon": "Toxtricity",
+            "DisplayName": "Toxtricity"
          }
       ],
       "stats": [
@@ -31832,7 +32681,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Sizzlipede"
+            "Pokemon": "Sizzlipede",
+            "DisplayName": "Sizzlipede"
          }
       ],
       "stats": [
@@ -31870,7 +32720,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Centiskorch"
+            "Pokemon": "Centiskorch",
+            "DisplayName": "Centiskorch"
          }
       ],
       "stats": [
@@ -31908,7 +32759,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Clobbopus"
+            "Pokemon": "Clobbopus",
+            "DisplayName": "Clobbopus"
          }
       ],
       "stats": [
@@ -31945,7 +32797,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Grapploct"
+            "Pokemon": "Grapploct",
+            "DisplayName": "Grapploct"
          }
       ],
       "stats": [
@@ -31982,7 +32835,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Sinistea"
+            "Pokemon": "Sinistea",
+            "DisplayName": "Sinistea"
          }
       ],
       "stats": [
@@ -32019,7 +32873,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Polteageist"
+            "Pokemon": "Polteageist",
+            "DisplayName": "Polteageist"
          }
       ],
       "stats": [
@@ -32056,7 +32911,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Hatenna"
+            "Pokemon": "Hatenna",
+            "DisplayName": "Hatenna"
          }
       ],
       "stats": [
@@ -32093,7 +32949,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Hattrem"
+            "Pokemon": "Hattrem",
+            "DisplayName": "Hattrem"
          }
       ],
       "stats": [
@@ -32130,7 +32987,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Hatterene"
+            "Pokemon": "Hatterene",
+            "DisplayName": "Hatterene"
          }
       ],
       "stats": [
@@ -32168,7 +33026,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Impidimp"
+            "Pokemon": "Impidimp",
+            "DisplayName": "Impidimp"
          }
       ],
       "stats": [
@@ -32206,7 +33065,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Morgrem"
+            "Pokemon": "Morgrem",
+            "DisplayName": "Morgrem"
          }
       ],
       "stats": [
@@ -32244,7 +33104,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Grimmsnarl"
+            "Pokemon": "Grimmsnarl",
+            "DisplayName": "Grimmsnarl"
          }
       ],
       "stats": [
@@ -32282,7 +33143,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Obstagoon"
+            "Pokemon": "Obstagoon",
+            "DisplayName": "Obstagoon"
          }
       ],
       "stats": [
@@ -32320,7 +33182,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Perrserker"
+            "Pokemon": "Perrserker",
+            "DisplayName": "Perrserker"
          }
       ],
       "stats": [
@@ -32357,7 +33220,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Cursola"
+            "Pokemon": "Cursola",
+            "DisplayName": "Cursola"
          }
       ],
       "stats": [
@@ -32394,7 +33258,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Sirfetch\'d"
+            "Pokemon": "Sirfetch\'d",
+            "DisplayName": "Sirfetch\'d"
          }
       ],
       "stats": [
@@ -32431,7 +33296,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Mr. Rime"
+            "Pokemon": "Mr. Rime",
+            "DisplayName": "Mr. Rime"
          }
       ],
       "stats": [
@@ -32469,7 +33335,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Runerigus"
+            "Pokemon": "Runerigus",
+            "DisplayName": "Runerigus"
          }
       ],
       "stats": [
@@ -32507,7 +33374,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Milcery"
+            "Pokemon": "Milcery",
+            "DisplayName": "Milcery"
          }
       ],
       "stats": [
@@ -32544,7 +33412,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Alcremie"
+            "Pokemon": "Alcremie",
+            "DisplayName": "Alcremie"
          }
       ],
       "stats": [
@@ -32581,7 +33450,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Falinks"
+            "Pokemon": "Falinks",
+            "DisplayName": "Falinks"
          }
       ],
       "stats": [
@@ -32618,7 +33488,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Pincurchin"
+            "Pokemon": "Pincurchin",
+            "DisplayName": "Pincurchin"
          }
       ],
       "stats": [
@@ -32655,7 +33526,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Snom"
+            "Pokemon": "Snom",
+            "DisplayName": "Snom"
          }
       ],
       "stats": [
@@ -32693,7 +33565,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Frosmoth"
+            "Pokemon": "Frosmoth",
+            "DisplayName": "Frosmoth"
          }
       ],
       "stats": [
@@ -32731,7 +33604,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Stonjourner"
+            "Pokemon": "Stonjourner",
+            "DisplayName": "Stonjourner"
          }
       ],
       "stats": [
@@ -32768,7 +33642,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Eiscue"
+            "Pokemon": "Eiscue",
+            "DisplayName": "Eiscue"
          }
       ],
       "stats": [
@@ -32805,7 +33680,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Indeedee"
+            "Pokemon": "Indeedee",
+            "DisplayName": "Indeedee"
          }
       ],
       "stats": [
@@ -32843,7 +33719,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Morpeko"
+            "Pokemon": "Morpeko",
+            "DisplayName": "Morpeko"
          }
       ],
       "stats": [
@@ -32881,7 +33758,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Cufant"
+            "Pokemon": "Cufant",
+            "DisplayName": "Cufant"
          }
       ],
       "stats": [
@@ -32918,7 +33796,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Copperajah"
+            "Pokemon": "Copperajah",
+            "DisplayName": "Copperajah"
          }
       ],
       "stats": [
@@ -32955,7 +33834,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Dracozolt"
+            "Pokemon": "Dracozolt",
+            "DisplayName": "Dracozolt"
          }
       ],
       "stats": [
@@ -32993,7 +33873,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Arctozolt"
+            "Pokemon": "Arctozolt",
+            "DisplayName": "Arctozolt"
          }
       ],
       "stats": [
@@ -33031,7 +33912,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Dracovish"
+            "Pokemon": "Dracovish",
+            "DisplayName": "Dracovish"
          }
       ],
       "stats": [
@@ -33069,7 +33951,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Arctovish"
+            "Pokemon": "Arctovish",
+            "DisplayName": "Arctovish"
          }
       ],
       "stats": [
@@ -33107,7 +33990,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Duraludon"
+            "Pokemon": "Duraludon",
+            "DisplayName": "Duraludon"
          }
       ],
       "stats": [
@@ -33145,7 +34029,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Dreepy"
+            "Pokemon": "Dreepy",
+            "DisplayName": "Dreepy"
          }
       ],
       "stats": [
@@ -33183,7 +34068,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Drakloak"
+            "Pokemon": "Drakloak",
+            "DisplayName": "Drakloak"
          }
       ],
       "stats": [
@@ -33221,7 +34107,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Dragapult"
+            "Pokemon": "Dragapult",
+            "DisplayName": "Dragapult"
          }
       ],
       "stats": [
@@ -33259,7 +34146,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Zacian"
+            "Pokemon": "Zacian",
+            "DisplayName": "Zacian"
          }
       ],
       "stats": [
@@ -33296,7 +34184,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Zamazenta"
+            "Pokemon": "Zamazenta",
+            "DisplayName": "Zamazenta"
          }
       ],
       "stats": [
@@ -33333,7 +34222,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Eternatus"
+            "Pokemon": "Eternatus",
+            "DisplayName": "Eternatus"
          }
       ],
       "stats": [
@@ -33371,7 +34261,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Kubfu"
+            "Pokemon": "Kubfu",
+            "DisplayName": "Kubfu"
          }
       ],
       "stats": [
@@ -33408,7 +34299,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Urshifu-SSS"
+            "Pokemon": "Urshifu-SSS",
+            "DisplayName": "Urshifu-SSS"
          }
       ],
       "stats": [
@@ -33446,7 +34338,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Zarude"
+            "Pokemon": "Zarude",
+            "DisplayName": "Zarude"
          }
       ],
       "stats": [
@@ -33484,7 +34377,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Regieleki"
+            "Pokemon": "Regieleki",
+            "DisplayName": "Regieleki"
          }
       ],
       "stats": [
@@ -33521,7 +34415,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Regidrago"
+            "Pokemon": "Regidrago",
+            "DisplayName": "Regidrago"
          }
       ],
       "stats": [
@@ -33558,7 +34453,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Glastrier"
+            "Pokemon": "Glastrier",
+            "DisplayName": "Glastrier"
          }
       ],
       "stats": [
@@ -33595,7 +34491,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Spectrier"
+            "Pokemon": "Spectrier",
+            "DisplayName": "Spectrier"
          }
       ],
       "stats": [
@@ -33632,7 +34529,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Calyrex"
+            "Pokemon": "Calyrex",
+            "DisplayName": "Calyrex"
          }
       ],
       "stats": [
@@ -33667,10 +34565,286 @@ const POKEDEX = [
          }
       }
    },
+  // La base exp est fausse ici pour les 7 nouveaux Pokemon d'Hisui. Faudra corriger ça une fois les data en place.
    {
       "pokemon": [
          {
-            "Pokemon": "M-Venusaur"
+            "Pokemon": "Wyrdeer",
+            "DisplayName": "Wyrdeer"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "135",
+            "growth rate": "Slow",
+            "hp": "103",
+            "attack": "105",
+            "defense": "72",
+            "sp atk": "105",
+            "sp def": "75",
+            "speed": "65",
+            "types": [
+	       "Normal",
+		   "Psychic"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "163"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/899.png",
+            "back": "sprites/back/899.png"
+         },
+         "shiny": {
+            "front": "sprites/s899.png",
+            "back": "sprites/back/s899.png"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "Kleavor",
+            "DisplayName": "Kleavor"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "115",
+            "growth rate": "Medium Fast",
+            "hp": "70",
+            "attack": "135",
+            "defense": "95",
+            "sp atk": "45",
+            "sp def": "70",
+            "speed": "85",
+            "types": [
+	       "Bug",
+		   "Rock"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "175"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/900.png",
+            "back": "sprites/back/900.png"
+         },
+         "shiny": {
+            "front": "sprites/s900.png",
+            "back": "sprites/back/s900.png"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "Ursaluna",
+            "DisplayName": "Ursaluna"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "75",
+            "growth rate": "Medium Fast",
+            "hp": "130",
+            "attack": "140",
+            "defense": "105",
+            "sp atk": "45",
+            "sp def": "80",
+            "speed": "50",
+            "types": [
+	       "Ground",
+		   "Normal"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "175"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/901.png",
+            "back": "sprites/back/901.png"
+         },
+         "shiny": {
+            "front": "sprites/s901.png",
+            "back": "sprites/back/s901.png"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "Basculegion",
+            "DisplayName": "Basculegion Male"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "135",
+            "growth rate": "Medium Fast",
+            "hp": "120",
+            "attack": "112",
+            "defense": "65",
+            "sp atk": "80",
+            "sp def": "75",
+            "speed": "78",
+            "types": [
+	       "Water",
+		   "Ghost"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "161"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/902.png",
+            "back": "sprites/back/902.png"
+         },
+         "shiny": {
+            "front": "sprites/s902.png",
+            "back": "sprites/back/s902.png"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "Sneasler",
+            "DisplayName": "Sneasler"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "135",
+            "growth rate": "Medium Slow",
+            "hp": "80",
+            "attack": "130",
+            "defense": "60",
+            "sp atk": "40",
+            "sp def": "80",
+            "speed": "120",
+            "types": [
+	       "Fighting",
+		   "Poison"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "179"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/903.png",
+            "back": "sprites/back/903.png"
+         },
+         "shiny": {
+            "front": "sprites/s903.png",
+            "back": "sprites/back/s903.png"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "Overqwil",
+            "DisplayName": "Overqwil"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "135",
+            "growth rate": "Medium Fast",
+            "hp": "85",
+            "attack": "115",
+            "defense": "95",
+            "sp atk": "65",
+            "sp def": "65",
+            "speed": "85",
+            "types": [
+	       "Dark",
+		   "Poison"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "88"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/904.png",
+            "back": "sprites/back/904.png"
+         },
+         "shiny": {
+            "front": "sprites/s904.png",
+            "back": "sprites/back/s904.png"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "Enamorus",
+            "DisplayName": "Enamorus"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "3",
+            "growth rate": "Slow",
+            "hp": "74",
+            "attack": "115",
+            "defense": "70",
+            "sp atk": "135",
+            "sp def": "80",
+            "speed": "106",
+            "types": [
+	       "Fairy",
+		   "Flying"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "261"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/905.png",
+            "back": "sprites/back/905.png"
+         },
+         "shiny": {
+            "front": "sprites/s905.png",
+            "back": "sprites/back/s905.png"
+         }
+      }
+   },
+ //FORMDEX
+   {
+      "pokemon": [
+         {
+            "Pokemon": "M-Venusaur",
+            "DisplayName": "Mega Venusaur"
          }
       ],
       "stats": [
@@ -33708,7 +34882,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "M-Charizard X"
+            "Pokemon": "M-Charizard X",
+            "DisplayName": "Mega Charizard X"
          }
       ],
       "stats": [
@@ -33746,7 +34921,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "M-Charizard Y"
+            "Pokemon": "M-Charizard Y",
+            "DisplayName": "Mega Charizard Y"
          }
       ],
       "stats": [
@@ -33784,7 +34960,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "M-Blastoise"
+            "Pokemon": "M-Blastoise",
+            "DisplayName": "Mega Blastoise"
          }
       ],
       "stats": [
@@ -33821,7 +34998,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "M-Beedrill"
+            "Pokemon": "M-Beedrill",
+            "DisplayName": "Mega Beedrill"
          }
       ],
       "stats": [
@@ -33859,7 +35037,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "M-Pidgeot"
+            "Pokemon": "M-Pidgeot",
+            "DisplayName": "Mega Pidgeot"
          }
       ],
       "stats": [
@@ -33897,7 +35076,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "A-Rattata"
+            "Pokemon": "A-Rattata",
+            "DisplayName": "A-Rattata"
          }
       ],
       "stats": [
@@ -33935,7 +35115,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "A-Raticate"
+            "Pokemon": "A-Raticate",
+            "DisplayName": "A-Raticate"
          }
       ],
       "stats": [
@@ -33973,7 +35154,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "A-Raichu"
+            "Pokemon": "A-Raichu",
+            "DisplayName": "A-Raichu"
          }
       ],
       "stats": [
@@ -34011,7 +35193,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "A-Sandshrew"
+            "Pokemon": "A-Sandshrew",
+            "DisplayName": "A-Sandshrew"
          }
       ],
       "stats": [
@@ -34049,7 +35232,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "A-Sandslash"
+            "Pokemon": "A-Sandslash",
+            "DisplayName": "A-Sandslash"
          }
       ],
       "stats": [
@@ -34087,7 +35271,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "A-Vulpix"
+            "Pokemon": "A-Vulpix",
+            "DisplayName": "A-Vulpix"
          }
       ],
       "stats": [
@@ -34124,7 +35309,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "A-Ninetales"
+            "Pokemon": "A-Ninetales",
+            "DisplayName": "A-Ninetales"
          }
       ],
       "stats": [
@@ -34161,7 +35347,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "A-Diglett"
+            "Pokemon": "A-Diglett",
+            "DisplayName": "A-Diglett"
          }
       ],
       "stats": [
@@ -34199,7 +35386,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "A-Dugtrio"
+            "Pokemon": "A-Dugtrio",
+            "DisplayName": "A-Dugtrio"
          }
       ],
       "stats": [
@@ -34237,7 +35425,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "A-Meowth"
+            "Pokemon": "A-Meowth",
+            "DisplayName": "A-Meowth"
          }
       ],
       "stats": [
@@ -34274,7 +35463,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "G-Meowth"
+            "Pokemon": "G-Meowth",
+            "DisplayName": "G-Meowth"
          }
       ],
       "stats": [
@@ -34311,7 +35501,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "A-Persian"
+            "Pokemon": "A-Persian",
+            "DisplayName": "A-Persian"
          }
       ],
       "stats": [
@@ -34348,7 +35539,86 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "M-Alakazam"
+            "Pokemon": "H-Growlithe",
+            "DisplayName": "Hisuian Growlithe"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "190",
+            "growth rate": "Slow",
+            "hp": "60",
+            "attack": "75",
+            "defense": "45",
+            "sp atk": "65",
+            "sp def": "50",
+            "speed": "55",
+            "types": [
+               "Fire",
+			   "Rock"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "70"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/58h.png",
+            "back": "sprites/back/58h.png"
+         },
+         "shiny": {
+            "front": "sprites/s58h.png",
+            "back": "sprites/back/s58h.png"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "H-Arcanine",
+            "DisplayName": "Hisuian Arcanine"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "75",
+            "growth rate": "Slow",
+            "hp": "95",
+            "attack": "115",
+            "defense": "80",
+            "sp atk": "95",
+            "sp def": "80",
+            "speed": "90",
+            "types": [
+               "Fire",
+			   "Rock"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "194"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/59h.png",
+            "back": "sprites/back/59h.png"
+         },
+         "shiny": {
+            "front": "sprites/s59h.png",
+            "back": "sprites/back/s59h.png"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "M-Alakazam",
+            "DisplayName": "Mega Alakazam"
          }
       ],
       "stats": [
@@ -34385,7 +35655,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "A-Geodude"
+            "Pokemon": "A-Geodude",
+            "DisplayName": "A-Geodude"
          }
       ],
       "stats": [
@@ -34423,7 +35694,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "A-Graveler"
+            "Pokemon": "A-Graveler",
+            "DisplayName": "A-Graveler"
          }
       ],
       "stats": [
@@ -34461,7 +35733,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "A-Golem"
+            "Pokemon": "A-Golem",
+            "DisplayName": "A-Golem"
          }
       ],
       "stats": [
@@ -34499,7 +35772,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "G-Ponyta"
+            "Pokemon": "G-Ponyta",
+            "DisplayName": "G-Ponyta"
          }
       ],
       "stats": [
@@ -34536,7 +35810,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "G-Rapidash"
+            "Pokemon": "G-Rapidash",
+            "DisplayName": "G-Rapidash"
          }
       ],
       "stats": [
@@ -34574,7 +35849,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "G-Farfetch\'d"
+            "Pokemon": "G-Farfetch\'d",
+            "DisplayName": "G-Farfetch\'d"
          }
       ],
       "stats": [
@@ -34611,7 +35887,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "G-Slowpoke"
+            "Pokemon": "G-Slowpoke",
+            "DisplayName": "G-Slowpoke"
          }
       ],
       "stats": [
@@ -34648,7 +35925,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "M-Slowbro"
+            "Pokemon": "M-Slowbro",
+            "DisplayName": "Mega Slowbro"
          }
       ],
       "stats": [
@@ -34686,7 +35964,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "G-Slowbro"
+            "Pokemon": "G-Slowbro",
+            "DisplayName": "G-Slowbro"
          }
       ],
       "stats": [
@@ -34724,7 +36003,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "A-Grimer"
+            "Pokemon": "A-Grimer",
+            "DisplayName": "A-Grimer"
          }
       ],
       "stats": [
@@ -34762,7 +36042,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "A-Muk"
+            "Pokemon": "A-Muk",
+            "DisplayName": "A-Muk"
          }
       ],
       "stats": [
@@ -34800,7 +36081,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "M-Gengar"
+            "Pokemon": "M-Gengar",
+            "DisplayName": "Mega Gengar"
          }
       ],
       "stats": [
@@ -34838,7 +36120,86 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "A-Exeggutor"
+            "Pokemon": "H-Voltorb",
+            "DisplayName": "Hisuian Voltorb"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "190",
+            "growth rate": "Medium Fast",
+            "hp": "40",
+            "attack": "30",
+            "defense": "50",
+            "sp atk": "55",
+            "sp def": "55",
+            "speed": "100",
+            "types": [
+               "Electric",
+			   "Grass"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "66"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/100h.png",
+            "back": "sprites/back/100h.png"
+         },
+         "shiny": {
+            "front": "sprites/s100h.png",
+            "back": "sprites/back/s100h.png"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "H-Electrode",
+            "DisplayName": "Hisuian Electrode"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "60",
+            "growth rate": "Medium Fast",
+            "hp": "60",
+            "attack": "50",
+            "defense": "70",
+            "sp atk": "80",
+            "sp def": "80",
+            "speed": "150",
+            "types": [
+               "Electric",
+			   "Grass"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "172"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/101h.png",
+            "back": "sprites/back/101h.png"
+         },
+         "shiny": {
+            "front": "sprites/s101h.png",
+            "back": "sprites/back/s101h.png"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "A-Exeggutor",
+            "DisplayName": "A-Exeggutor"
          }
       ],
       "stats": [
@@ -34876,7 +36237,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "A-Marowak"
+            "Pokemon": "A-Marowak",
+            "DisplayName": "A-Marowak"
          }
       ],
       "stats": [
@@ -34914,7 +36276,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "G-Weezing"
+            "Pokemon": "G-Weezing",
+            "DisplayName": "G-Weezing"
          }
       ],
       "stats": [
@@ -34952,7 +36315,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "M-Kangaskhan"
+            "Pokemon": "M-Kangaskhan",
+            "DisplayName": "Mega Kangaskhan"
          }
       ],
       "stats": [
@@ -34989,7 +36353,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "G-Mr. Mime"
+            "Pokemon": "G-Mr. Mime",
+            "DisplayName": "G-Mr. Mime"
          }
       ],
       "stats": [
@@ -35027,7 +36392,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "M-Pinsir"
+            "Pokemon": "M-Pinsir",
+            "DisplayName": "Mega Pinsir"
          }
       ],
       "stats": [
@@ -35065,7 +36431,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "M-Gyarados"
+            "Pokemon": "M-Gyarados",
+            "DisplayName": "Mega Gyarados"
          }
       ],
       "stats": [
@@ -35103,7 +36470,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "M-Aerodactyl"
+            "Pokemon": "M-Aerodactyl",
+            "DisplayName": "Mega Aerodactyl"
          }
       ],
       "stats": [
@@ -35141,7 +36509,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "G-Articuno"
+            "Pokemon": "G-Articuno",
+            "DisplayName": "G-Articuno"
          }
       ],
       "stats": [
@@ -35179,7 +36548,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "G-Zapdos"
+            "Pokemon": "G-Zapdos",
+            "DisplayName": "G-Zapdos"
          }
       ],
       "stats": [
@@ -35217,7 +36587,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "G-Moltres"
+            "Pokemon": "G-Moltres",
+            "DisplayName": "G-Moltres"
          }
       ],
       "stats": [
@@ -35255,7 +36626,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "M-Mewtwo X"
+            "Pokemon": "M-Mewtwo X",
+            "DisplayName": "Mega Mewtwo X"
          }
       ],
       "stats": [
@@ -35293,7 +36665,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "M-Mewtwo Y"
+            "Pokemon": "M-Mewtwo Y",
+            "DisplayName": "Mega Mewtwo Y"
          }
       ],
       "stats": [
@@ -35330,7 +36703,47 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "M-Ampharos"
+            "Pokemon": "H-Typhlosion",
+            "DisplayName": "Hisuian Typhlosion"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "45",
+            "growth rate": "Medium Slow",
+            "hp": "73",
+            "attack": "84",
+            "defense": "78",
+            "sp atk": "119",
+            "sp def": "85",
+            "speed": "95",
+            "types": [
+               "Fire",
+			   "Ghost"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "240"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/157h.png",
+            "back": "sprites/back/157h.png"
+         },
+         "shiny": {
+            "front": "sprites/s157h.png",
+            "back": "sprites/back/s157h.png"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "M-Ampharos",
+            "DisplayName": "Mega Ampharos"
          }
       ],
       "stats": [
@@ -35368,7 +36781,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "G-Slowking"
+            "Pokemon": "G-Slowking",
+            "DisplayName": "G-Slowking"
          }
       ],
       "stats": [
@@ -35406,7 +36820,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "M-Steelix"
+            "Pokemon": "M-Steelix",
+            "DisplayName": "Mega Steelix"
          }
       ],
       "stats": [
@@ -35444,7 +36859,47 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "M-Scizor"
+            "Pokemon": "H-Qwilfish",
+            "DisplayName": "Hisuian Qwilfish"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "45",
+            "growth rate": "Medium Fast",
+            "hp": "65",
+            "attack": "95",
+            "defense": "85",
+            "sp atk": "55",
+            "sp def": "55",
+            "speed": "85",
+            "types": [
+               "Dark",
+			   "Poison"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "88"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/211h.png",
+            "back": "sprites/back/211h.png"
+         },
+         "shiny": {
+            "front": "sprites/s211h.png",
+            "back": "sprites/back/s211h.png"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "M-Scizor",
+            "DisplayName": "Mega Scizor"
          }
       ],
       "stats": [
@@ -35482,7 +36937,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "M-Heracross"
+            "Pokemon": "M-Heracross",
+            "DisplayName": "Mega Heracross"
          }
       ],
       "stats": [
@@ -35520,7 +36976,47 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "G-Corsola"
+            "Pokemon": "H-Sneasel",
+            "DisplayName": "Hisuian Sneasel"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "60",
+            "growth rate": "Medium Slow",
+            "hp": "55",
+            "attack": "95",
+            "defense": "55",
+            "sp atk": "35",
+            "sp def": "75",
+            "speed": "115",
+            "types": [
+               "Fighting",
+			   "Poison"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "86"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/215h.png",
+            "back": "sprites/back/215h.png"
+         },
+         "shiny": {
+            "front": "sprites/s215h.png",
+            "back": "sprites/back/s215h.png"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "G-Corsola",
+            "DisplayName": "G-Corsola"
          }
       ],
       "stats": [
@@ -35557,7 +37053,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "M-Houndoom"
+            "Pokemon": "M-Houndoom",
+            "DisplayName": "Mega Houndoom"
          }
       ],
       "stats": [
@@ -35595,7 +37092,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "M-Tyranitar"
+            "Pokemon": "M-Tyranitar",
+            "DisplayName": "Mega Tyranitar"
          }
       ],
       "stats": [
@@ -35633,7 +37131,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "M-Sceptile"
+            "Pokemon": "M-Sceptile",
+            "DisplayName": "Mega Sceptile"
          }
       ],
       "stats": [
@@ -35671,7 +37170,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "M-Blaziken"
+            "Pokemon": "M-Blaziken",
+            "DisplayName": "Mega Blaziken"
          }
       ],
       "stats": [
@@ -35709,7 +37209,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "M-Swampert"
+            "Pokemon": "M-Swampert",
+            "DisplayName": "Mega Swampert"
          }
       ],
       "stats": [
@@ -35747,7 +37248,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "G-Zigzagoon"
+            "Pokemon": "G-Zigzagoon",
+            "DisplayName": "G-Zigzagoon"
          }
       ],
       "stats": [
@@ -35785,7 +37287,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "G-Linoone"
+            "Pokemon": "G-Linoone",
+            "DisplayName": "G-Linoone"
          }
       ],
       "stats": [
@@ -35823,7 +37326,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "M-Gardevoir"
+            "Pokemon": "M-Gardevoir",
+            "DisplayName": "Mega Gardevoir"
          }
       ],
       "stats": [
@@ -35861,7 +37365,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "M-Sableye"
+            "Pokemon": "M-Sableye",
+            "DisplayName": "Mega Sableye"
          }
       ],
       "stats": [
@@ -35899,7 +37404,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "M-Mawile"
+            "Pokemon": "M-Mawile",
+            "DisplayName": "Mega Mawile"
          }
       ],
       "stats": [
@@ -35937,7 +37443,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "M-Aggron"
+            "Pokemon": "M-Aggron",
+            "DisplayName": "Mega Aggron"
          }
       ],
       "stats": [
@@ -35974,7 +37481,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "M-Medicham"
+            "Pokemon": "M-Medicham",
+            "DisplayName": "Mega Medicham"
          }
       ],
       "stats": [
@@ -36012,7 +37520,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "M-Manectric"
+            "Pokemon": "M-Manectric",
+            "DisplayName": "Mega Manectric"
          }
       ],
       "stats": [
@@ -36049,7 +37558,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "M-Sharpedo"
+            "Pokemon": "M-Sharpedo",
+            "DisplayName": "Mega Sharpedo"
          }
       ],
       "stats": [
@@ -36087,7 +37597,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "M-Camerupt"
+            "Pokemon": "M-Camerupt",
+            "DisplayName": "Mega Camerupt"
          }
       ],
       "stats": [
@@ -36125,7 +37636,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "M-Altaria"
+            "Pokemon": "M-Altaria",
+            "DisplayName": "Mega Altaria"
          }
       ],
       "stats": [
@@ -36163,7 +37675,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "M-Banette"
+            "Pokemon": "M-Banette",
+            "DisplayName": "Mega Banette"
          }
       ],
       "stats": [
@@ -36200,7 +37713,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "M-Absol"
+            "Pokemon": "M-Absol",
+            "DisplayName": "Mega Absol"
          }
       ],
       "stats": [
@@ -36237,7 +37751,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "M-Glalie"
+            "Pokemon": "M-Glalie",
+            "DisplayName": "Mega Glalie"
          }
       ],
       "stats": [
@@ -36274,7 +37789,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "M-Salamence"
+            "Pokemon": "M-Salamence",
+            "DisplayName": "Mega Salamence"
          }
       ],
       "stats": [
@@ -36312,7 +37828,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "M-Metagross"
+            "Pokemon": "M-Metagross",
+            "DisplayName": "Mega Metagross"
          }
       ],
       "stats": [
@@ -36350,7 +37867,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "M-Latias"
+            "Pokemon": "M-Latias",
+            "DisplayName": "Mega Latias"
          }
       ],
       "stats": [
@@ -36388,7 +37906,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "M-Latios"
+            "Pokemon": "M-Latios",
+            "DisplayName": "Mega Latios"
          }
       ],
       "stats": [
@@ -36426,7 +37945,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "P-Kyogre"
+            "Pokemon": "P-Kyogre",
+            "DisplayName": "P-Kyogre"
          }
       ],
       "stats": [
@@ -36463,7 +37983,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "P-Groudon"
+            "Pokemon": "P-Groudon",
+            "DisplayName": "P-Groudon"
          }
       ],
       "stats": [
@@ -36501,7 +38022,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "M-Rayquaza"
+            "Pokemon": "M-Rayquaza",
+            "DisplayName": "Mega Rayquaza"
          }
       ],
       "stats": [
@@ -36539,7 +38061,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Deoxys-A"
+            "Pokemon": "Deoxys-A",
+            "DisplayName": "Deoxys-A"
          }
       ],
       "stats": [
@@ -36576,7 +38099,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Deoxys-D"
+            "Pokemon": "Deoxys-D",
+            "DisplayName": "Deoxys-D"
          }
       ],
       "stats": [
@@ -36613,7 +38137,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Deoxys-S"
+            "Pokemon": "Deoxys-S",
+            "DisplayName": "Deoxys-S"
          }
       ],
       "stats": [
@@ -36650,7 +38175,8 @@ const POKEDEX = [
    {
       "pokemon": [
    {
-            "Pokemon": "M-Lopunny"
+            "Pokemon": "M-Lopunny",
+            "DisplayName": "Mega Lopunny"
          }
       ],
       "stats": [
@@ -36688,7 +38214,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "M-Garchomp"
+            "Pokemon": "M-Garchomp",
+            "DisplayName": "Mega Garchomp"
          }
       ],
       "stats": [
@@ -36726,7 +38253,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "M-Lucario"
+            "Pokemon": "M-Lucario",
+            "DisplayName": "Mega Lucario"
          }
       ],
       "stats": [
@@ -36764,7 +38292,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "M-Abomasnow"
+            "Pokemon": "M-Abomasnow",
+            "DisplayName": "Mega Abomasnow"
          }
       ],
       "stats": [
@@ -36802,7 +38331,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "M-Gallade"
+            "Pokemon": "M-Gallade",
+            "DisplayName": "Mega Gallade"
          }
       ],
       "stats": [
@@ -36840,7 +38370,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "H-Rotom"
+            "Pokemon": "H-Rotom",
+            "DisplayName": "H-Rotom"
          }
       ],
       "stats": [
@@ -36878,7 +38409,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "W-Rotom"
+            "Pokemon": "W-Rotom",
+            "DisplayName": "W-Rotom"
          }
       ],
       "stats": [
@@ -36916,7 +38448,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "F-Rotom"
+            "Pokemon": "F-Rotom",
+            "DisplayName": "F-Rotom"
          }
       ],
       "stats": [
@@ -36954,7 +38487,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Fan-Rotom"
+            "Pokemon": "Fan-Rotom",
+            "DisplayName": "Fan-Rotom"
          }
       ],
       "stats": [
@@ -36992,7 +38526,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "M-Rotom"
+            "Pokemon": "M-Rotom",
+            "DisplayName": "M-Rotom"
          }
       ],
       "stats": [
@@ -37030,7 +38565,86 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Giratina-O"
+            "Pokemon": "Dialga-O",
+            "DisplayName": "Dialga Origin"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "3",
+            "growth rate": "Slow",
+            "hp": "100",
+            "attack": "100",
+            "defense": "120",
+            "sp atk": "150",
+            "sp def": "120",
+            "speed": "90",
+            "types": [
+               "Steel",
+               "Dragon"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "306"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/483o.png",
+            "back": "sprites/back/483o.png"
+         },
+         "shiny": {
+            "front": "sprites/s483o.png",
+            "back": "sprites/back/s483o.png"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "Palkia-O",
+            "DisplayName": "Palkia Origin"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "3",
+            "growth rate": "Slow",
+            "hp": "90",
+            "attack": "100",
+            "defense": "100",
+            "sp atk": "150",
+            "sp def": "120",
+            "speed": "120",
+            "types": [
+               "Water",
+               "Dragon"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "306"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/484o.png",
+            "back": "sprites/back/484o.png"
+         },
+         "shiny": {
+            "front": "sprites/s484o.png",
+            "back": "sprites/back/s484o.png"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "Giratina-O",
+            "DisplayName": "Giratina-O"
          }
       ],
       "stats": [
@@ -37068,7 +38682,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Shaymin-S"
+            "Pokemon": "Shaymin-S",
+            "DisplayName": "Shaymin-S"
          }
       ],
       "stats": [
@@ -37106,7 +38721,47 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "M-Audino"
+            "Pokemon": "H-Samurott",
+            "DisplayName": "Hisuian Samurott"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "45",
+            "growth rate": "Medium Slow",
+            "hp": "90",
+            "attack": "108",
+            "defense": "80",
+            "sp atk": "100",
+            "sp def": "65",
+            "speed": "85",
+            "types": [
+               "Water",
+			   "Dark"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "238"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/503h.png",
+            "back": "sprites/back/503h.png"
+         },
+         "shiny": {
+            "front": "sprites/s503h.png",
+            "back": "sprites/back/s503h.png"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "M-Audino",
+            "DisplayName": "Mega Audino"
          }
       ],
       "stats": [
@@ -37144,7 +38799,85 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Darmanitan-Z"
+            "Pokemon": "H-Lilligant",
+            "DisplayName": "Hisuian Lilligant"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "75",
+            "growth rate": "Medium Fast",
+            "hp": "70",
+            "attack": "105",
+            "defense": "75",
+            "sp atk": "50",
+            "sp def": "75",
+            "speed": "105",
+            "types": [
+               "Grass",
+			   "Fighting"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "168"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/549h.png",
+            "back": "sprites/back/549h.png"
+         },
+         "shiny": {
+            "front": "sprites/s549h.png",
+            "back": "sprites/back/s549h.png"
+         }
+      }
+   },
+      {
+      "pokemon": [
+         {
+            "Pokemon": "Basculin-W",
+            "DisplayName": "White Striped Basculin"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "25",
+            "growth rate": "Medium Fast",
+            "hp": "70",
+            "attack": "92",
+            "defense": "65",
+            "sp atk": "80",
+            "sp def": "55",
+            "speed": "98",
+            "types": [
+               "Water"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "161"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/550w.png",
+            "back": "sprites/back/550w.png"
+         },
+         "shiny": {
+            "front": "sprites/s550w.png",
+            "back": "sprites/back/s550w.png"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "Darmanitan-Z",
+            "DisplayName": "Darmanitan-Z"
          }
       ],
       "stats": [
@@ -37182,7 +38915,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "G-Darumaka"
+            "Pokemon": "G-Darumaka",
+            "DisplayName": "G-Darumaka"
          }
       ],
       "stats": [
@@ -37219,7 +38953,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "G-Darmanitan"
+            "Pokemon": "G-Darmanitan",
+            "DisplayName": "G-Darmanitan"
          }
       ],
       "stats": [
@@ -37256,7 +38991,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "G-Darmanitan-Z"
+            "Pokemon": "G-Darmanitan-Z",
+            "DisplayName": "G-Darmanitan-Z"
          }
       ],
       "stats": [
@@ -37294,7 +39030,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "G-Yamask"
+            "Pokemon": "G-Yamask",
+            "DisplayName": "G-Yamask"
          }
       ],
       "stats": [
@@ -37332,7 +39069,86 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "G-Stunfisk"
+            "Pokemon": "H-Zorua",
+            "DisplayName": "Hisuian Zorua"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "75",
+            "growth rate": "Medium Slow",
+            "hp": "35",
+            "attack": "60",
+            "defense": "40",
+            "sp atk": "85",
+            "sp def": "40",
+            "speed": "70",
+            "types": [
+               "Normal",
+			   "Ghost"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "66"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/570h.png",
+            "back": "sprites/back/570h.png"
+         },
+         "shiny": {
+            "front": "sprites/s570h.png",
+            "back": "sprites/back/s570h.png"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "H-Zoroark",
+            "DisplayName": "Hisuian Zoroark"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "45",
+            "growth rate": "Medium Slow",
+            "hp": "55",
+            "attack": "100",
+            "defense": "60",
+            "sp atk": "125",
+            "sp def": "60",
+            "speed": "110",
+            "types": [
+               "Normal",
+			   "Ghost"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "179"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/571h.png",
+            "back": "sprites/back/571h.png"
+         },
+         "shiny": {
+            "front": "sprites/s571h.png",
+            "back": "sprites/back/s571h.png"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "G-Stunfisk",
+            "DisplayName": "G-Stunfisk"
          }
       ],
       "stats": [
@@ -37370,7 +39186,47 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Tornadus-T"
+            "Pokemon": "H-Braviary",
+            "DisplayName": "Hisuian Braviary"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "60",
+            "growth rate": "Slow",
+            "hp": "110",
+            "attack": "83",
+            "defense": "70",
+            "sp atk": "112",
+            "sp def": "70",
+            "speed": "65",
+            "types": [
+               "Psychic",
+			   "Flying"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "179"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/628h.png",
+            "back": "sprites/back/628h.png"
+         },
+         "shiny": {
+            "front": "sprites/s628h.png",
+            "back": "sprites/back/s628h.png"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "Tornadus-T",
+            "DisplayName": "Tornadus-T"
          }
       ],
       "stats": [
@@ -37407,7 +39263,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Thundurus-T"
+            "Pokemon": "Thundurus-T",
+            "DisplayName": "Thundurus-T"
          }
       ],
       "stats": [
@@ -37445,7 +39302,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Landorus-T"
+            "Pokemon": "Landorus-T",
+            "DisplayName": "Landorus-T"
          }
       ],
       "stats": [
@@ -37483,7 +39341,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "B-Kyurem"
+            "Pokemon": "B-Kyurem",
+            "DisplayName": "B-Kyurem"
          }
       ],
       "stats": [
@@ -37521,7 +39380,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "W-Kyurem"
+            "Pokemon": "W-Kyurem",
+            "DisplayName": "W-Kyurem"
          }
       ],
       "stats": [
@@ -37559,7 +39419,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Keldeo-R"
+            "Pokemon": "Keldeo-R",
+            "DisplayName": "Keldeo-R"
          }
       ],
       "stats": [
@@ -37597,7 +39458,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Meloetta-P"
+            "Pokemon": "Meloetta-P",
+            "DisplayName": "Meloetta-P"
          }
       ],
       "stats": [
@@ -37635,7 +39497,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Ash-Greninja"
+            "Pokemon": "Ash-Greninja",
+            "DisplayName": "Ash-Greninja"
          }
       ],
       "stats": [
@@ -37673,7 +39536,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Aegislash-B"
+            "Pokemon": "Aegislash-B",
+            "DisplayName": "Aegislash-B"
          }
       ], 
       "stats": [
@@ -37711,7 +39575,125 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Zygarde-10"
+            "Pokemon": "H-Sliggoo",
+            "DisplayName": "Hisuian Sliggoo"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "45",
+            "growth rate": "Slow",
+            "hp": "58",
+            "attack": "75",
+            "defense": "83",
+            "sp atk": "83",
+            "sp def": "113",
+            "speed": "40",
+            "types": [
+               "Steel",
+			   "Dragon"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "158"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/705h.png",
+            "back": "sprites/back/705h.png"
+         },
+         "shiny": {
+            "front": "sprites/s705h.png",
+            "back": "sprites/back/s705h.png"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "H-Goodra",
+            "DisplayName": "Hisuian Goodra"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "45",
+            "growth rate": "Slow",
+            "hp": "80",
+            "attack": "100",
+            "defense": "100",
+            "sp atk": "110",
+            "sp def": "150",
+            "speed": "60",
+            "types": [
+               "Steel",
+			   "Dragon"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "270"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/706h.png",
+            "back": "sprites/back/706h.png"
+         },
+         "shiny": {
+            "front": "sprites/s706h.png",
+            "back": "sprites/back/s706h.png"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "H-Avalugg",
+            "DisplayName": "Hisuian Avalugg"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "55",
+            "growth rate": "Medium Fast",
+            "hp": "95",
+            "attack": "127",
+            "defense": "184",
+            "sp atk": "34",
+            "sp def": "36",
+            "speed": "38",
+            "types": [
+               "Ice",
+			   "Rock"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "180"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/713h.png",
+            "back": "sprites/back/713h.png"
+         },
+         "shiny": {
+            "front": "sprites/s713h.png",
+            "back": "sprites/back/s713h.png"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "Zygarde-10",
+            "DisplayName": "Zygarde-10"
          }
       ], 					
       "stats": [
@@ -37749,7 +39731,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Zygarde-C"
+            "Pokemon": "Zygarde-C",
+            "DisplayName": "Zygarde-C"
          }
       ], 					
       "stats": [
@@ -37787,7 +39770,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "M-Diancie"
+            "Pokemon": "M-Diancie",
+            "DisplayName": "Mega Diancie"
          }
       ],
       "stats": [
@@ -37825,7 +39809,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Hoopa-U"
+            "Pokemon": "Hoopa-U",
+            "DisplayName": "Hoopa-U"
          }
       ],
       "stats": [
@@ -37863,7 +39848,47 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Lycanroc-M"
+            "Pokemon": "H-Decidueye",
+            "DisplayName": "Hisuian Decidueye"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "45",
+            "growth rate": "Medium Slow",
+            "hp": "88",
+            "attack": "112",
+            "defense": "80",
+            "sp atk": "95",
+            "sp def": "95",
+            "speed": "60",
+            "types": [
+               "Grass",
+			   "Fighting"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "239"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/724h.png",
+            "back": "sprites/back/724h.png"
+         },
+         "shiny": {
+            "front": "sprites/s724h.png",
+            "back": "sprites/back/s724h.png"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "Lycanroc-M",
+            "DisplayName": "Lycanroc-M"
          }
       ],
       "stats": [ 
@@ -37900,7 +39925,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Lycanroc-D"
+            "Pokemon": "Lycanroc-D",
+            "DisplayName": "Lycanroc-D"
          }
       ],
       "stats": [
@@ -37937,7 +39963,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Wishiwashi-S"
+            "Pokemon": "Wishiwashi-S",
+            "DisplayName": "Wishiwashi-S"
          }
       ],
       "stats": [
@@ -37974,7 +40001,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Necrozma-S"
+            "Pokemon": "Necrozma-S",
+            "DisplayName": "Necrozma-S"
          }
       ],
       "stats": [
@@ -38012,7 +40040,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Necrozma-L"
+            "Pokemon": "Necrozma-L",
+            "DisplayName": "Necrozma-L"
          }
       ],
       "stats": [
@@ -38050,7 +40079,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "U-Necrozma"
+            "Pokemon": "U-Necrozma",
+            "DisplayName": "U-Necrozma"
          }
       ],
       "stats": [
@@ -38088,7 +40118,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Indeedee-F"
+            "Pokemon": "Indeedee-F",
+            "DisplayName": "Indeedee-F"
          }
       ],
       "stats": [
@@ -38126,7 +40157,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Zacian-CS"
+            "Pokemon": "Zacian-CS",
+            "DisplayName": "Zacian-CS"
          }
       ],
       "stats": [
@@ -38164,7 +40196,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Zamazenta-CS"
+            "Pokemon": "Zamazenta-CS",
+            "DisplayName": "Zamazenta-CS"
          }
       ],
       "stats": [
@@ -38202,7 +40235,8 @@ const POKEDEX = [
    {
       "pokemon": [
          {
-            "Pokemon": "Urshifu-RSS"
+            "Pokemon": "Urshifu-RSS",
+            "DisplayName": "Urshifu-RSS"
          }
       ],
       "stats": [
@@ -38240,7 +40274,8 @@ const POKEDEX = [
       {
       "pokemon": [
          {
-            "Pokemon": "Calyrex-IR"
+            "Pokemon": "Calyrex-IR",
+            "DisplayName": "Calyrex-IR"
          }
       ],
       "stats": [
@@ -38278,7 +40313,8 @@ const POKEDEX = [
       {
       "pokemon": [
          {
-            "Pokemon": "Calyrex-SR"
+            "Pokemon": "Calyrex-SR",
+            "DisplayName": "Calyrex-SR"
          }
       ],
       "stats": [
@@ -38310,6 +40346,1395 @@ const POKEDEX = [
          "shiny": {
             "front": "sprites/s898sr.png",
             "back": "sprites/back/s898sr.png"
+         }
+      }
+   },
+      {
+      "pokemon": [
+         {
+            "Pokemon": "GX-Venusaur",
+            "DisplayName": "Gigantamax Venusaur"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "45",
+            "growth rate": "Medium Slow",
+            "hp": "80",
+            "attack": "82",
+            "defense": "83",
+            "sp atk": "100",
+            "sp def": "100",
+            "speed": "80",
+            "types": [
+               "Grass",
+               "Poison"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "236"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/003gx.png",
+            "back": "sprites/back/003gx.png"
+         },
+         "shiny": {
+            "front": "sprites/s003gx.png",
+            "back": "sprites/back/s003gx.png"
+         }
+      }
+   },
+      {
+      "pokemon": [
+         {
+            "Pokemon": "GX-Charizard",
+            "DisplayName": "Gigantamax Charizard"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "45",
+            "growth rate": "Medium Slow",
+            "hp": "78",
+            "attack": "84",
+            "defense": "78",
+            "sp atk": "109",
+            "sp def": "85",
+            "speed": "100",
+            "types": [
+               "Fire",
+               "Flying"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "240"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/006gx.png",
+            "back": "sprites/back/006gx.png"
+         },
+         "shiny": {
+            "front": "sprites/s006gx.png",
+            "back": "sprites/back/s006gx.png"
+         }
+      }
+   },
+      {
+      "pokemon": [
+         {
+            "Pokemon": "GX-Blastoise",
+            "DisplayName": "Gigantamax Blastoise"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "45",
+            "growth rate": "Medium Slow",
+            "hp": "79",
+            "attack": "83",
+            "defense": "100",
+            "sp atk": "85",
+            "sp def": "105",
+            "speed": "78",
+            "types": [
+               "Water"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "239"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/009gx.png",
+            "back": "sprites/back/009gx.png"
+         },
+         "shiny": {
+            "front": "sprites/s009gx.png",
+            "back": "sprites/back/s009gx.png"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "GX-Butterfree",
+            "DisplayName": "Gigantamax Butterfree"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "45",
+            "growth rate": "Medium Fast",
+            "hp": "60",
+            "attack": "45",
+            "defense": "50",
+            "sp atk": "90",
+            "sp def": "80",
+            "speed": "70",
+            "types": [
+               "Bug",
+               "Flying"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "178"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/012gx.png",
+            "back": "sprites/back/012gx.png"
+         },
+         "shiny": {
+            "front": "sprites/s012gx.png",
+            "back": "sprites/back/s012gx.png"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "GX-Pikachu",
+            "DisplayName": "Gigantamax Pikachu"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "190",
+            "growth rate": "Medium Fast",
+            "hp": "35",
+            "attack": "55",
+            "defense": "40",
+            "sp atk": "50",
+            "sp def": "50",
+            "speed": "90",
+            "types": [
+               "Electric"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "112"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/025gx.png",
+            "back": "sprites/back/025gx.png"
+         },
+         "shiny": {
+            "front": "sprites/s025gx.png",
+            "back": "sprites/back/s025gx.png"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "GX-Meowth",
+            "DisplayName": "Gigantamax Meowth"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "255",
+            "growth rate": "Medium Fast",
+            "hp": "40",
+            "attack": "45",
+            "defense": "35",
+            "sp atk": "40",
+            "sp def": "40",
+            "speed": "90",
+            "types": [
+               "Normal"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "58"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/052gx.png",
+            "back": "sprites/back/052gx.png"
+         },
+         "shiny": {
+            "front": "sprites/s052gx.png",
+            "back": "sprites/back/s052gx.png"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "GX-Machamp",
+            "DisplayName": "Gigantamax Machamp"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "45",
+            "growth rate": "Medium Slow",
+            "hp": "90",
+            "attack": "130",
+            "defense": "80",
+            "sp atk": "65",
+            "sp def": "85",
+            "speed": "55",
+            "types": [
+               "Fighting"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "227"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/068gx.png",
+            "back": "sprites/back/068gx.png"
+         },
+         "shiny": {
+            "front": "sprites/s068gx.png",
+            "back": "sprites/back/s068gx.png"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "GX-Gengar",
+            "DisplayName": "Gigantamax Gengar"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "45",
+            "growth rate": "Medium Slow",
+            "hp": "60",
+            "attack": "65",
+            "defense": "60",
+            "sp atk": "130",
+            "sp def": "75",
+            "speed": "110",
+            "types": [
+               "Ghost",
+               "Poison"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "225"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/094gx.png",
+            "back": "sprites/back/094gx.png"
+         },
+         "shiny": {
+            "front": "sprites/s094gx.png",
+            "back": "sprites/back/s094gx.png"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "GX-Kingler",
+            "DisplayName": "Gigantamax Kingler"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "60",
+            "growth rate": "Medium Fast",
+            "hp": "55",
+            "attack": "130",
+            "defense": "115",
+            "sp atk": "50",
+            "sp def": "50",
+            "speed": "75",
+            "types": [
+               "Water"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "166"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/099gx.png",
+            "back": "sprites/back/099gx.png"
+         },
+         "shiny": {
+            "front": "sprites/s099gx.png",
+            "back": "sprites/back/s099gx.png"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "GX-Lapras",
+            "DisplayName": "Gigantamax Lapras"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "45",
+            "growth rate": "Slow",
+            "hp": "130",
+            "attack": "85",
+            "defense": "80",
+            "sp atk": "85",
+            "sp def": "95",
+            "speed": "60",
+            "types": [
+               "Water",
+               "Ice"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "187"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/131gx.png",
+            "back": "sprites/back/131gx.png"
+         },
+         "shiny": {
+            "front": "sprites/s131gx.png",
+            "back": "sprites/back/s131gx.png"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "GX-Eevee",
+            "DisplayName": "Gigantamax Eevee"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "45",
+            "growth rate": "Medium Fast",
+            "hp": "55",
+            "attack": "55",
+            "defense": "50",
+            "sp atk": "45",
+            "sp def": "65",
+            "speed": "55",
+            "types": [
+               "Normal"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "65"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/133gx.png",
+            "back": "sprites/back/133gx.png"
+         },
+         "shiny": {
+            "front": "sprites/s133gx.png",
+            "back": "sprites/back/s133gx.png"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "GX-Snorlax",
+            "DisplayName": "Gigantamax Snorlax"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "25",
+            "growth rate": "Slow",
+            "hp": "160",
+            "attack": "110",
+            "defense": "65",
+            "sp atk": "65",
+            "sp def": "110",
+            "speed": "30",
+            "types": [
+               "Normal"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "189"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/143gx.png",
+            "back": "sprites/back/143gx.png"
+         },
+         "shiny": {
+            "front": "sprites/s143gx.png",
+            "back": "sprites/back/s143gx.png"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "GX-Garbodor",
+            "DisplayName": "Gigantamax Garbodor"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "60",
+            "growth rate": "Medium Fast",
+            "hp": "80",
+            "attack": "95",
+            "defense": "82",
+            "sp atk": "60",
+            "sp def": "82",
+            "speed": "75",
+            "types": [
+               "Poison"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "166"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/569gx.png",
+            "back": "sprites/back/569gx.png"
+         },
+         "shiny": {
+            "front": "sprites/s569gx.png",
+            "back": "sprites/back/s569gx.png"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "GX-Melmetal",
+            "DisplayName": "Gigantamax Melmetal"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "3",
+            "growth rate": "Slow",
+            "hp": "135",
+            "attack": "143",
+            "defense": "143",
+            "sp atk": "80",
+            "sp def": "65",
+            "speed": "34",
+            "types": [
+               "Steel"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "270"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/809gx.png",
+            "back": "sprites/back/809gx.png"
+         },
+         "shiny": {
+            "front": "sprites/s809gx.png",
+            "back": "sprites/back/s809gx.png"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "GX-Rillaboom",
+            "DisplayName": "Gigantamax Rillaboom"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "45",
+            "growth rate": "Medium Slow",
+            "hp": "100",
+            "attack": "125",
+            "defense": "90",
+            "sp atk": "60",
+            "sp def": "70",
+            "speed": "85",
+            "types": [
+               "Grass"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "265"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/812gx.png",
+            "back": "sprites/back/812gx.png"
+         },
+         "shiny": {
+            "front": "sprites/s812gx.png",
+            "back": "sprites/back/s812gx.png"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "GX-Cinderace",
+            "DisplayName": "Gigantamax Cinderace"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "45",
+            "growth rate": "Medium Slow",
+            "hp": "80",
+            "attack": "116",
+            "defense": "75",
+            "sp atk": "65",
+            "sp def": "75",
+            "speed": "119",
+            "types": [
+               "Fire"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "265"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/815gx.png",
+            "back": "sprites/back/815gx.png"
+         },
+         "shiny": {
+            "front": "sprites/s815gx.png",
+            "back": "sprites/back/s815gx.png"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "GX-Inteleon",
+            "DisplayName": "Gigantamax Inteleon"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "45",
+            "growth rate": "Medium Slow",
+            "hp": "70",
+            "attack": "85",
+            "defense": "65",
+            "sp atk": "125",
+            "sp def": "65",
+            "speed": "120",
+            "types": [
+               "Water"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "265"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/818gx.png",
+            "back": "sprites/back/818gx.png"
+         },
+         "shiny": {
+            "front": "sprites/s818gx.png",
+            "back": "sprites/back/s818gx.png"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "GX-Corviknight",
+            "DisplayName": "Gigantamax Corviknight"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "45",
+            "growth rate": "Medium Slow",
+            "hp": "98",
+            "attack": "87",
+            "defense": "105",
+            "sp atk": "53",
+            "sp def": "85",
+            "speed": "67",
+            "types": [
+               "Flying",
+               "Steel"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "248"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/823gx.png",
+            "back": "sprites/back/823gx.png"
+         },
+         "shiny": {
+            "front": "sprites/s823gx.png",
+            "back": "sprites/back/s823gx.png"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "GX-Orbeetle",
+            "DisplayName": "Gigantamax Orbeetle"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "45",
+            "growth rate": "Medium Fast",
+            "hp": "60",
+            "attack": "45",
+            "defense": "110",
+            "sp atk": "80",
+            "sp def": "120",
+            "speed": "90",
+            "types": [
+               "Bug",
+               "Psychic"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "253"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/826gx.png",
+            "back": "sprites/back/826gx.png"
+         },
+         "shiny": {
+            "front": "sprites/s826gx.png",
+            "back": "sprites/back/s826gx.png"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "GX-Drednaw",
+            "DisplayName": "Gigantamax Drednaw"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "75",
+            "growth rate": "Medium Fast",
+            "hp": "90",
+            "attack": "115",
+            "defense": "90",
+            "sp atk": "48",
+            "sp def": "68",
+            "speed": "74",
+            "types": [
+               "Water",
+               "Rock"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "170"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/834gx.png",
+            "back": "sprites/back/834gx.png"
+         },
+         "shiny": {
+            "front": "sprites/s834gx.png",
+            "back": "sprites/back/s834gx.png"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "GX-Coalossal",
+            "DisplayName": "Gigantamax Coalossal"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "45",
+            "growth rate": "Medium Slow",
+            "hp": "110",
+            "attack": "80",
+            "defense": "120",
+            "sp atk": "80",
+            "sp def": "90",
+            "speed": "30",
+            "types": [
+               "Rock",
+               "Fire"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "255"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/839gx.png",
+            "back": "sprites/back/839gx.png"
+         },
+         "shiny": {
+            "front": "sprites/s839gx.png",
+            "back": "sprites/back/s839gx.png"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "GX-Flapple",
+            "DisplayName": "Gigantamax Flapple"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "45",
+            "growth rate": "Fast",
+            "hp": "70",
+            "attack": "110",
+            "defense": "80",
+            "sp atk": "95",
+            "sp def": "60",
+            "speed": "70",
+            "types": [
+               "Dragon",
+               "Grass"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "170"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/841a842gx.png",
+            "back": "sprites/back/841a842gx.png"
+         },
+         "shiny": {
+            "front": "sprites/s841a842gx.png",
+            "back": "sprites/back/s841a842gx.png"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "GX-Appletun",
+            "DisplayName": "Gigantamax Appletun"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "45",
+            "growth rate": "Fast",
+            "hp": "110",
+            "attack": "85",
+            "defense": "80",
+            "sp atk": "100",
+            "sp def": "80",
+            "speed": "30",
+            "types": [
+               "Dragon",
+               "Grass"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "170"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/841a842gx.png",
+            "back": "sprites/back/841a842gx.png"
+         },
+         "shiny": {
+            "front": "sprites/s841a842gx.png",
+            "back": "sprites/back/s841a842gx.png"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "GX-Sandaconda",
+            "DisplayName": "Gigantamax Sandaconda"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "120",
+            "growth rate": "Medium Fast",
+            "hp": "72",
+            "attack": "107",
+            "defense": "125",
+            "sp atk": "65",
+            "sp def": "70",
+            "speed": "71",
+            "types": [
+               "Ground"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "179"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/844gx.png",
+            "back": "sprites/back/844gx.png"
+         },
+         "shiny": {
+            "front": "sprites/s844gx.png",
+            "back": "sprites/back/s844gx.png"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "GX-Toxtricity",
+            "DisplayName": "Gigantamax Toxtricity"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "45",
+            "growth rate": "Medium Slow",
+            "hp": "75",
+            "attack": "98",
+            "defense": "70",
+            "sp atk": "114",
+            "sp def": "70",
+            "speed": "75",
+            "types": [
+               "Electric",
+               "Poison"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "176"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/849gx.png",
+            "back": "sprites/back/849gx.png"
+         },
+         "shiny": {
+            "front": "sprites/s849gx.png",
+            "back": "sprites/back/s849gx.png"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "GX-Centiskorch",
+            "DisplayName": "Gigantamax Centiskorch"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "75",
+            "growth rate": "Medium Fast",
+            "hp": "100",
+            "attack": "115",
+            "defense": "65",
+            "sp atk": "90",
+            "sp def": "90",
+            "speed": "65",
+            "types": [
+               "Fire",
+               "Bug"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "184"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/851gx.png",
+            "back": "sprites/back/851gx.png"
+         },
+         "shiny": {
+            "front": "sprites/s851gx.png",
+            "back": "sprites/back/s851gx.png"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "GX-Hatterene",
+            "DisplayName": "Gigantamax Hatterene"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "45",
+            "growth rate": "Slow",
+            "hp": "57",
+            "attack": "90",
+            "defense": "95",
+            "sp atk": "136",
+            "sp def": "103",
+            "speed": "29",
+            "types": [
+               "Psychic",
+               "Fairy"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "255"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/858gx.png",
+            "back": "sprites/back/858gx.png"
+         },
+         "shiny": {
+            "front": "sprites/s858gx.png",
+            "back": "sprites/back/s858gx.png"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "GX-Grimmsnarl",
+            "DisplayName": "Gigantamax Grimmsnarl"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "45",
+            "growth rate": "Medium Fast",
+            "hp": "95",
+            "attack": "120",
+            "defense": "65",
+            "sp atk": "95",
+            "sp def": "75",
+            "speed": "60",
+            "types": [
+               "Dark",
+               "Fairy"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "255"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/861gx.png",
+            "back": "sprites/back/861gx.png"
+         },
+         "shiny": {
+            "front": "sprites/s861gx.png",
+            "back": "sprites/back/s861gx.png"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "GX-Alcremie",
+            "DisplayName": "Gigantamax Alcremie"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "100",
+            "growth rate": "Medium Fast",
+            "hp": "65",
+            "attack": "60",
+            "defense": "75",
+            "sp atk": "110",
+            "sp def": "121",
+            "speed": "64",
+            "types": [
+               "Fairy"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "173"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/869gx.png",
+            "back": "sprites/back/869gx.png"
+         },
+         "shiny": {
+            "front": "sprites/s869gx.png",
+            "back": "sprites/back/s869gx.png"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "GX-Copperajah",
+            "DisplayName": "Gigantamax Copperajah"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "90",
+            "growth rate": "Medium Fast",
+            "hp": "122",
+            "attack": "130",
+            "defense": "69",
+            "sp atk": "80",
+            "sp def": "69",
+            "speed": "30",
+            "types": [
+               "Steel"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "175"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/879gx.png",
+            "back": "sprites/back/879gx.png"
+         },
+         "shiny": {
+            "front": "sprites/s879gx.png",
+            "back": "sprites/back/s879gx.png"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "GX-Duraludon",
+            "DisplayName": "Gigantamax Duraludon"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "45",
+            "growth rate": "Medium Fast",
+            "hp": "70",
+            "attack": "95",
+            "defense": "115",
+            "sp atk": "120",
+            "sp def": "50",
+            "speed": "85",
+            "types": [
+               "Steel",
+               "Dragon"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "187"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/884gx.png",
+            "back": "sprites/back/884gx.png"
+         },
+         "shiny": {
+            "front": "sprites/s884gx.png",
+            "back": "sprites/back/s884gx.png"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "GX-Eternatus",
+            "DisplayName": "Eternamax Eternatus"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "255",
+            "growth rate": "Slow",
+            "hp": "255",
+            "attack": "115",
+            "defense": "250",
+            "sp atk": "125",
+            "sp def": "250",
+            "speed": "130",
+            "types": [
+               "Poison",
+               "Dragon"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "345"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/890gx.png",
+            "back": "sprites/back/890gx.png"
+         },
+         "shiny": {
+            "front": "sprites/s890gx.png",
+            "back": "sprites/back/s890gx.png"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "GX-Urshifu-SSS",
+            "DisplayName": "Gigantamax Urshifu-SSS"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "3",
+            "growth rate": "Slow",
+            "hp": "100",
+            "attack": "130",
+            "defense": "100",
+            "sp atk": "63",
+            "sp def": "60",
+            "speed": "92",
+            "types": [
+	       "Fighting",
+	       "Dark"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "200"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/892gxsss.png",
+            "back": "sprites/back/892gxsss.png"
+         },
+         "shiny": {
+            "front": "sprites/s892gxsss.png",
+            "back": "sprites/back/s892gxsss.png"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "GX-Urshifu-RSS",
+            "DisplayName": "Gigantamax Urshifu-RSS"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "3",
+            "growth rate": "Slow",
+            "hp": "100",
+            "attack": "130",
+            "defense": "100",
+            "sp atk": "63",
+            "sp def": "60",
+            "speed": "92",
+            "types": [
+	       "Fighting",
+	       "Water"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "200"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/892gxrss.png",
+            "back": "sprites/back/892gxrss.png"
+         },
+         "shiny": {
+            "front": "sprites/s892gxrss.png",
+            "back": "sprites/back/s892gxrss.png"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "Basculegion-F",
+            "DisplayName": "Basculegion Female"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "135",
+            "growth rate": "Medium Fast",
+            "hp": "120",
+            "attack": "92",
+            "defense": "65",
+            "sp atk": "100",
+            "sp def": "75",
+            "speed": "78",
+            "types": [
+	       "Water",
+		   "Ghost"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "161"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/902f.png",
+            "back": "sprites/back/902f.png"
+         },
+         "shiny": {
+            "front": "sprites/s902f.png",
+            "back": "sprites/back/s902f.png"
+         }
+      }
+   },
+   {
+      "pokemon": [
+         {
+            "Pokemon": "Enamorus-T",
+            "DisplayName": "Enamorus Therian"
+         }
+      ],
+      "stats": [
+         {
+            "catch rate": "3",
+            "growth rate": "Slow",
+            "hp": "74",
+            "attack": "115",
+            "defense": "110",
+            "sp atk": "135",
+            "sp def": "100",
+            "speed": "46",
+            "types": [
+	       "Fairy",
+		   "Flying"
+            ]
+         }
+      ],
+      "exp": [
+         {
+            "base exp": "261"
+         }
+      ],
+      "images": {
+         "normal": {
+            "front": "sprites/905t.png",
+            "back": "sprites/back/905t.png"
+         },
+         "shiny": {
+            "front": "sprites/s905t.png",
+            "back": "sprites/back/s905t.png"
          }
       }
    },
