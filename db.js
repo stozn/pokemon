@@ -24999,12 +24999,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/650.png",
-            "back": "https://pokeidle.net/sprites/back/650.png"
+            "front": "sprites/650.png",
+            "back": "sprites/back/650.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s650.png",
-            "back": "https://pokeidle.net/sprites/back/s650.png"
+            "front": "sprites/s650.png",
+            "back": "sprites/back/s650.png"
          }
       }
    },
@@ -25037,12 +25037,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/651.png",
-            "back": "https://pokeidle.net/sprites/back/651.png"
+            "front": "sprites/651.png",
+            "back": "sprites/back/651.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s651.png",
-            "back": "https://pokeidle.net/sprites/back/s651.png"
+            "front": "sprites/s651.png",
+            "back": "sprites/back/s651.png"
          }
       }
    },
@@ -25076,12 +25076,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/652.png",
-            "back": "https://pokeidle.net/sprites/back/652.png"
+            "front": "sprites/652.png",
+            "back": "sprites/back/652.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s652.png",
-            "back": "https://pokeidle.net/sprites/back/s652.png"
+            "front": "sprites/s652.png",
+            "back": "sprites/back/s652.png"
          }
       }
    },
@@ -25114,12 +25114,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/653.png",
-            "back": "https://pokeidle.net/sprites/back/653.png"
+            "front": "sprites/653.png",
+            "back": "sprites/back/653.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s653.png",
-            "back": "https://pokeidle.net/sprites/back/s653.png"
+            "front": "sprites/s653.png",
+            "back": "sprites/back/s653.png"
          }
       }
    },
@@ -25152,12 +25152,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/654.png",
-            "back": "https://pokeidle.net/sprites/back/654.png"
+            "front": "sprites/654.png",
+            "back": "sprites/back/654.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s654.png",
-            "back": "https://pokeidle.net/sprites/back/s654.png"
+            "front": "sprites/s654.png",
+            "back": "sprites/back/s654.png"
          }
       }
    },
@@ -25191,12 +25191,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/655.png",
-            "back": "https://pokeidle.net/sprites/back/655.png"
+            "front": "sprites/655.png",
+            "back": "sprites/back/655.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s655.png",
-            "back": "https://pokeidle.net/sprites/back/s655.png"
+            "front": "sprites/s655.png",
+            "back": "sprites/back/s655.png"
          }
       }
    },
@@ -25229,12 +25229,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/656.png",
-            "back": "https://pokeidle.net/sprites/back/656.png"
+            "front": "sprites/656.png",
+            "back": "sprites/back/656.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s656.png",
-            "back": "https://pokeidle.net/sprites/back/s656.png"
+            "front": "sprites/s656.png",
+            "back": "sprites/back/s656.png"
          }
       }
    },
@@ -25267,12 +25267,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/657.png",
-            "back": "https://pokeidle.net/sprites/back/657.png"
+            "front": "sprites/657.png",
+            "back": "sprites/back/657.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s657.png",
-            "back": "https://pokeidle.net/sprites/back/s657.png"
+            "front": "sprites/s657.png",
+            "back": "sprites/back/s657.png"
          }
       }
    },
@@ -25306,12 +25306,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/658.png",
-            "back": "https://pokeidle.net/sprites/back/658.png"
+            "front": "sprites/658.png",
+            "back": "sprites/back/658.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s658.png",
-            "back": "https://pokeidle.net/sprites/back/s658.png"
+            "front": "sprites/s658.png",
+            "back": "sprites/back/s658.png"
          }
       }
    },
@@ -25344,12 +25344,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/659.png",
-            "back": "https://pokeidle.net/sprites/back/659.png"
+            "front": "sprites/659.png",
+            "back": "sprites/back/659.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s659.png",
-            "back": "https://pokeidle.net/sprites/back/s659.png"
+            "front": "sprites/s659.png",
+            "back": "sprites/back/s659.png"
          }
       }
    },
@@ -25383,12 +25383,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/660.png",
-            "back": "https://pokeidle.net/sprites/back/660.png"
+            "front": "sprites/660.png",
+            "back": "sprites/back/660.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s660.png",
-            "back": "https://pokeidle.net/sprites/back/s660.png"
+            "front": "sprites/s660.png",
+            "back": "sprites/back/s660.png"
          }
       }
    },
@@ -25422,12 +25422,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/661.png",
-            "back": "https://pokeidle.net/sprites/back/661.png"
+            "front": "sprites/661.png",
+            "back": "sprites/back/661.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s661.png",
-            "back": "https://pokeidle.net/sprites/back/s661.png"
+            "front": "sprites/s661.png",
+            "back": "sprites/back/s661.png"
          }
       }
    },
@@ -25461,12 +25461,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/662.png",
-            "back": "https://pokeidle.net/sprites/back/662.png"
+            "front": "sprites/662.png",
+            "back": "sprites/back/662.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s662.png",
-            "back": "https://pokeidle.net/sprites/back/s662.png"
+            "front": "sprites/s662.png",
+            "back": "sprites/back/s662.png"
          }
       }
    },
@@ -25500,12 +25500,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/663.png",
-            "back": "https://pokeidle.net/sprites/back/663.png"
+            "front": "sprites/663.png",
+            "back": "sprites/back/663.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s663.png",
-            "back": "https://pokeidle.net/sprites/back/s663.png"
+            "front": "sprites/s663.png",
+            "back": "sprites/back/s663.png"
          }
       }
    },
@@ -25538,12 +25538,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/664.png",
-            "back": "https://pokeidle.net/sprites/back/664.png"
+            "front": "sprites/664.png",
+            "back": "sprites/back/664.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s664.png",
-            "back": "https://pokeidle.net/sprites/back/s664.png"
+            "front": "sprites/s664.png",
+            "back": "sprites/back/s664.png"
          }
       }
    },
@@ -25576,12 +25576,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/665.png",
-            "back": "https://pokeidle.net/sprites/back/665.png"
+            "front": "sprites/665.png",
+            "back": "sprites/back/665.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s665.png",
-            "back": "https://pokeidle.net/sprites/back/s665.png"
+            "front": "sprites/s665.png",
+            "back": "sprites/back/s665.png"
          }
       }
    },
@@ -25615,12 +25615,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/666.png",
-            "back": "https://pokeidle.net/sprites/back/666.png"
+            "front": "sprites/666.png",
+            "back": "sprites/back/666.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s666.png",
-            "back": "https://pokeidle.net/sprites/back/s666.png"
+            "front": "sprites/s666.png",
+            "back": "sprites/back/s666.png"
          }
       }
    },
@@ -25654,12 +25654,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/667.png",
-            "back": "https://pokeidle.net/sprites/back/667.png"
+            "front": "sprites/667.png",
+            "back": "sprites/back/667.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s667.png",
-            "back": "https://pokeidle.net/sprites/back/s667.png"
+            "front": "sprites/s667.png",
+            "back": "sprites/back/s667.png"
          }
       }
    },
@@ -25693,12 +25693,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/668.png",
-            "back": "https://pokeidle.net/sprites/back/668.png"
+            "front": "sprites/668.png",
+            "back": "sprites/back/668.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s668.png",
-            "back": "https://pokeidle.net/sprites/back/s668.png"
+            "front": "sprites/s668.png",
+            "back": "sprites/back/s668.png"
          }
       }
    },
@@ -25731,12 +25731,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/669.png",
-            "back": "https://pokeidle.net/sprites/back/669.png"
+            "front": "sprites/669.png",
+            "back": "sprites/back/669.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s669.png",
-            "back": "https://pokeidle.net/sprites/back/s669.png"
+            "front": "sprites/s669.png",
+            "back": "sprites/back/s669.png"
          }
       }
    },
@@ -25769,12 +25769,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/670.png",
-            "back": "https://pokeidle.net/sprites/back/670.png"
+            "front": "sprites/670.png",
+            "back": "sprites/back/670.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s670.png",
-            "back": "https://pokeidle.net/sprites/back/s670.png"
+            "front": "sprites/s670.png",
+            "back": "sprites/back/s670.png"
          }
       }
    },
@@ -25807,12 +25807,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/671.png",
-            "back": "https://pokeidle.net/sprites/back/671.png"
+            "front": "sprites/671.png",
+            "back": "sprites/back/671.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s671.png",
-            "back": "https://pokeidle.net/sprites/back/s671.png"
+            "front": "sprites/s671.png",
+            "back": "sprites/back/s671.png"
          }
       }
    },
@@ -25845,12 +25845,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/672.png",
-            "back": "https://pokeidle.net/sprites/back/672.png"
+            "front": "sprites/672.png",
+            "back": "sprites/back/672.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s672.png",
-            "back": "https://pokeidle.net/sprites/back/s672.png"
+            "front": "sprites/s672.png",
+            "back": "sprites/back/s672.png"
          }
       }
    },
@@ -25883,12 +25883,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/673.png",
-            "back": "https://pokeidle.net/sprites/back/673.png"
+            "front": "sprites/673.png",
+            "back": "sprites/back/673.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s673.png",
-            "back": "https://pokeidle.net/sprites/back/s673.png"
+            "front": "sprites/s673.png",
+            "back": "sprites/back/s673.png"
          }
       }
    },
@@ -25921,12 +25921,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/674.png",
-            "back": "https://pokeidle.net/sprites/back/674.png"
+            "front": "sprites/674.png",
+            "back": "sprites/back/674.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s674.png",
-            "back": "https://pokeidle.net/sprites/back/s674.png"
+            "front": "sprites/s674.png",
+            "back": "sprites/back/s674.png"
          }
       }
    },
@@ -25960,12 +25960,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/675.png",
-            "back": "https://pokeidle.net/sprites/back/675.png"
+            "front": "sprites/675.png",
+            "back": "sprites/back/675.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s675.png",
-            "back": "https://pokeidle.net/sprites/back/s675.png"
+            "front": "sprites/s675.png",
+            "back": "sprites/back/s675.png"
          }
       }
    },
@@ -25998,12 +25998,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/676.png",
-            "back": "https://pokeidle.net/sprites/back/676.png"
+            "front": "sprites/676.png",
+            "back": "sprites/back/676.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s676.png",
-            "back": "https://pokeidle.net/sprites/back/s676.png"
+            "front": "sprites/s676.png",
+            "back": "sprites/back/s676.png"
          }
       }
    },
@@ -26036,12 +26036,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/677.png",
-            "back": "https://pokeidle.net/sprites/back/677.png"
+            "front": "sprites/677.png",
+            "back": "sprites/back/677.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s677.png",
-            "back": "https://pokeidle.net/sprites/back/s677.png"
+            "front": "sprites/s677.png",
+            "back": "sprites/back/s677.png"
          }
       }
    },
@@ -26074,12 +26074,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/678.png",
-            "back": "https://pokeidle.net/sprites/back/678.png"
+            "front": "sprites/678.png",
+            "back": "sprites/back/678.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s678.png",
-            "back": "https://pokeidle.net/sprites/back/s678.png"
+            "front": "sprites/s678.png",
+            "back": "sprites/back/s678.png"
          }
       }
    },
@@ -26113,12 +26113,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/679.png",
-            "back": "https://pokeidle.net/sprites/back/679.png"
+            "front": "sprites/679.png",
+            "back": "sprites/back/679.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s679.png",
-            "back": "https://pokeidle.net/sprites/back/s679.png"
+            "front": "sprites/s679.png",
+            "back": "sprites/back/s679.png"
          }
       }
    },
@@ -26152,12 +26152,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/680.png",
-            "back": "https://pokeidle.net/sprites/back/680.png"
+            "front": "sprites/680.png",
+            "back": "sprites/back/680.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s680.png",
-            "back": "https://pokeidle.net/sprites/back/s680.png"
+            "front": "sprites/s680.png",
+            "back": "sprites/back/s680.png"
          }
       }
    },
@@ -26191,12 +26191,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/681.png",
-            "back": "https://pokeidle.net/sprites/back/681.png"
+            "front": "sprites/681.png",
+            "back": "sprites/back/681.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s681.png",
-            "back": "https://pokeidle.net/sprites/back/s681.png"
+            "front": "sprites/s681.png",
+            "back": "sprites/back/s681.png"
          }
       }
    },
@@ -26229,12 +26229,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/682.png",
-            "back": "https://pokeidle.net/sprites/back/682.png"
+            "front": "sprites/682.png",
+            "back": "sprites/back/682.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s682.png",
-            "back": "https://pokeidle.net/sprites/back/s682.png"
+            "front": "sprites/s682.png",
+            "back": "sprites/back/s682.png"
          }
       }
    },
@@ -26267,12 +26267,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/683.png",
-            "back": "https://pokeidle.net/sprites/back/683.png"
+            "front": "sprites/683.png",
+            "back": "sprites/back/683.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s683.png",
-            "back": "https://pokeidle.net/sprites/back/s683.png"
+            "front": "sprites/s683.png",
+            "back": "sprites/back/s683.png"
          }
       }
    },
@@ -26305,12 +26305,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/684.png",
-            "back": "https://pokeidle.net/sprites/back/684.png"
+            "front": "sprites/684.png",
+            "back": "sprites/back/684.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s684.png",
-            "back": "https://pokeidle.net/sprites/back/s684.png"
+            "front": "sprites/s684.png",
+            "back": "sprites/back/s684.png"
          }
       }
    },
@@ -26343,12 +26343,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/685.png",
-            "back": "https://pokeidle.net/sprites/back/685.png"
+            "front": "sprites/685.png",
+            "back": "sprites/back/685.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s685.png",
-            "back": "https://pokeidle.net/sprites/back/s685.png"
+            "front": "sprites/s685.png",
+            "back": "sprites/back/s685.png"
          }
       }
    },
@@ -26382,12 +26382,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/686.png",
-            "back": "https://pokeidle.net/sprites/back/686.png"
+            "front": "sprites/686.png",
+            "back": "sprites/back/686.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s686.png",
-            "back": "https://pokeidle.net/sprites/back/s686.png"
+            "front": "sprites/s686.png",
+            "back": "sprites/back/s686.png"
          }
       }
    },
@@ -26421,12 +26421,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/687.png",
-            "back": "https://pokeidle.net/sprites/back/687.png"
+            "front": "sprites/687.png",
+            "back": "sprites/back/687.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s687.png",
-            "back": "https://pokeidle.net/sprites/back/s687.png"
+            "front": "sprites/s687.png",
+            "back": "sprites/back/s687.png"
          }
       }
    },
@@ -26460,12 +26460,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/688.png",
-            "back": "https://pokeidle.net/sprites/back/688.png"
+            "front": "sprites/688.png",
+            "back": "sprites/back/688.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s688.png",
-            "back": "https://pokeidle.net/sprites/back/s688.png"
+            "front": "sprites/s688.png",
+            "back": "sprites/back/s688.png"
          }
       }
    },
@@ -26499,12 +26499,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/689.png",
-            "back": "https://pokeidle.net/sprites/back/689.png"
+            "front": "sprites/689.png",
+            "back": "sprites/back/689.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s689.png",
-            "back": "https://pokeidle.net/sprites/back/s689.png"
+            "front": "sprites/s689.png",
+            "back": "sprites/back/s689.png"
          }
       }
    },
@@ -26538,12 +26538,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/690.png",
-            "back": "https://pokeidle.net/sprites/back/690.png"
+            "front": "sprites/690.png",
+            "back": "sprites/back/690.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s690.png",
-            "back": "https://pokeidle.net/sprites/back/s690.png"
+            "front": "sprites/s690.png",
+            "back": "sprites/back/s690.png"
          }
       }
    },
@@ -26577,12 +26577,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/691.png",
-            "back": "https://pokeidle.net/sprites/back/691.png"
+            "front": "sprites/691.png",
+            "back": "sprites/back/691.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s691.png",
-            "back": "https://pokeidle.net/sprites/back/s691.png"
+            "front": "sprites/s691.png",
+            "back": "sprites/back/s691.png"
          }
       }
    },
@@ -26615,12 +26615,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/692.png",
-            "back": "https://pokeidle.net/sprites/back/692.png"
+            "front": "sprites/692.png",
+            "back": "sprites/back/692.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s692.png",
-            "back": "https://pokeidle.net/sprites/back/s692.png"
+            "front": "sprites/s692.png",
+            "back": "sprites/back/s692.png"
          }
       }
    },
@@ -26653,12 +26653,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/693.png",
-            "back": "https://pokeidle.net/sprites/back/693.png"
+            "front": "sprites/693.png",
+            "back": "sprites/back/693.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s693.png",
-            "back": "https://pokeidle.net/sprites/back/s693.png"
+            "front": "sprites/s693.png",
+            "back": "sprites/back/s693.png"
          }
       }
    },
@@ -26692,12 +26692,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/694.png",
-            "back": "https://pokeidle.net/sprites/back/694.png"
+            "front": "sprites/694.png",
+            "back": "sprites/back/694.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s694.png",
-            "back": "https://pokeidle.net/sprites/back/s694.png"
+            "front": "sprites/s694.png",
+            "back": "sprites/back/s694.png"
          }
       }
    },
@@ -26731,12 +26731,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/695.png",
-            "back": "https://pokeidle.net/sprites/back/695.png"
+            "front": "sprites/695.png",
+            "back": "sprites/back/695.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s695.png",
-            "back": "https://pokeidle.net/sprites/back/s695.png"
+            "front": "sprites/s695.png",
+            "back": "sprites/back/s695.png"
          }
       }
    },
@@ -26770,12 +26770,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/696.png",
-            "back": "https://pokeidle.net/sprites/back/696.png"
+            "front": "sprites/696.png",
+            "back": "sprites/back/696.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s696.png",
-            "back": "https://pokeidle.net/sprites/back/s696.png"
+            "front": "sprites/s696.png",
+            "back": "sprites/back/s696.png"
          }
       }
    },
@@ -26809,12 +26809,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/697.png",
-            "back": "https://pokeidle.net/sprites/back/697.png"
+            "front": "sprites/697.png",
+            "back": "sprites/back/697.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s697.png",
-            "back": "https://pokeidle.net/sprites/back/s697.png"
+            "front": "sprites/s697.png",
+            "back": "sprites/back/s697.png"
          }
       }
    },
@@ -26848,12 +26848,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/698.png",
-            "back": "https://pokeidle.net/sprites/back/698.png"
+            "front": "sprites/698.png",
+            "back": "sprites/back/698.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s698.png",
-            "back": "https://pokeidle.net/sprites/back/s698.png"
+            "front": "sprites/s698.png",
+            "back": "sprites/back/s698.png"
          }
       }
    },
@@ -26887,12 +26887,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/699.png",
-            "back": "https://pokeidle.net/sprites/back/699.png"
+            "front": "sprites/699.png",
+            "back": "sprites/back/699.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s699.png",
-            "back": "https://pokeidle.net/sprites/back/s699.png"
+            "front": "sprites/s699.png",
+            "back": "sprites/back/s699.png"
          }
       }
    },
@@ -26925,12 +26925,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/700.png",
-            "back": "https://pokeidle.net/sprites/back/700.png"
+            "front": "sprites/700.png",
+            "back": "sprites/back/700.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s700.png",
-            "back": "https://pokeidle.net/sprites/back/s700.png"
+            "front": "sprites/s700.png",
+            "back": "sprites/back/s700.png"
          }
       }
    },
@@ -26964,12 +26964,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/701.png",
-            "back": "https://pokeidle.net/sprites/back/701.png"
+            "front": "sprites/701.png",
+            "back": "sprites/back/701.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s701.png",
-            "back": "https://pokeidle.net/sprites/back/s701.png"
+            "front": "sprites/s701.png",
+            "back": "sprites/back/s701.png"
          }
       }
    },
@@ -27003,12 +27003,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/702.png",
-            "back": "https://pokeidle.net/sprites/back/702.png"
+            "front": "sprites/702.png",
+            "back": "sprites/back/702.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s702.png",
-            "back": "https://pokeidle.net/sprites/back/s702.png"
+            "front": "sprites/s702.png",
+            "back": "sprites/back/s702.png"
          }
       }
    },
@@ -27042,12 +27042,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/703.png",
-            "back": "https://pokeidle.net/sprites/back/703.png"
+            "front": "sprites/703.png",
+            "back": "sprites/back/703.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s703.png",
-            "back": "https://pokeidle.net/sprites/back/s703.png"
+            "front": "sprites/s703.png",
+            "back": "sprites/back/s703.png"
          }
       }
    },
@@ -27080,12 +27080,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/704.png",
-            "back": "https://pokeidle.net/sprites/back/704.png"
+            "front": "sprites/704.png",
+            "back": "sprites/back/704.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s704.png",
-            "back": "https://pokeidle.net/sprites/back/s704.png"
+            "front": "sprites/s704.png",
+            "back": "sprites/back/s704.png"
          }
       }
    },
@@ -27118,12 +27118,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/705.png",
-            "back": "https://pokeidle.net/sprites/back/705.png"
+            "front": "sprites/705.png",
+            "back": "sprites/back/705.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s705.png",
-            "back": "https://pokeidle.net/sprites/back/s705.png"
+            "front": "sprites/s705.png",
+            "back": "sprites/back/s705.png"
          }
       }
    },
@@ -27156,12 +27156,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/706.png",
-            "back": "https://pokeidle.net/sprites/back/706.png"
+            "front": "sprites/706.png",
+            "back": "sprites/back/706.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s706.png",
-            "back": "https://pokeidle.net/sprites/back/s706.png"
+            "front": "sprites/s706.png",
+            "back": "sprites/back/s706.png"
          }
       }
    },
@@ -27195,12 +27195,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/707.png",
-            "back": "https://pokeidle.net/sprites/back/707.png"
+            "front": "sprites/707.png",
+            "back": "sprites/back/707.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s707.png",
-            "back": "https://pokeidle.net/sprites/back/s707.png"
+            "front": "sprites/s707.png",
+            "back": "sprites/back/s707.png"
          }
       }
    },
@@ -27234,12 +27234,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/708.png",
-            "back": "https://pokeidle.net/sprites/back/708.png"
+            "front": "sprites/708.png",
+            "back": "sprites/back/708.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s708.png",
-            "back": "https://pokeidle.net/sprites/back/s708.png"
+            "front": "sprites/s708.png",
+            "back": "sprites/back/s708.png"
          }
       }
    },
@@ -27273,12 +27273,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/709.png",
-            "back": "https://pokeidle.net/sprites/back/709.png"
+            "front": "sprites/709.png",
+            "back": "sprites/back/709.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s709.png",
-            "back": "https://pokeidle.net/sprites/back/s709.png"
+            "front": "sprites/s709.png",
+            "back": "sprites/back/s709.png"
          }
       }
    },
@@ -27312,12 +27312,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/710.png",
-            "back": "https://pokeidle.net/sprites/back/710.png"
+            "front": "sprites/710.png",
+            "back": "sprites/back/710.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s710.png",
-            "back": "https://pokeidle.net/sprites/back/s710.png"
+            "front": "sprites/s710.png",
+            "back": "sprites/back/s710.png"
          }
       }
    },
@@ -27351,12 +27351,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/711.png",
-            "back": "https://pokeidle.net/sprites/back/711.png"
+            "front": "sprites/711.png",
+            "back": "sprites/back/711.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s711.png",
-            "back": "https://pokeidle.net/sprites/back/s711.png"
+            "front": "sprites/s711.png",
+            "back": "sprites/back/s711.png"
          }
       }
    },
@@ -27389,12 +27389,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/712.png",
-            "back": "https://pokeidle.net/sprites/back/712.png"
+            "front": "sprites/712.png",
+            "back": "sprites/back/712.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s712.png",
-            "back": "https://pokeidle.net/sprites/back/s712.png"
+            "front": "sprites/s712.png",
+            "back": "sprites/back/s712.png"
          }
       }
    },
@@ -27427,12 +27427,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/713.png",
-            "back": "https://pokeidle.net/sprites/back/713.png"
+            "front": "sprites/713.png",
+            "back": "sprites/back/713.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s713.png",
-            "back": "https://pokeidle.net/sprites/back/s713.png"
+            "front": "sprites/s713.png",
+            "back": "sprites/back/s713.png"
          }
       }
    },
@@ -27466,12 +27466,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/714.png",
-            "back": "https://pokeidle.net/sprites/back/714.png"
+            "front": "sprites/714.png",
+            "back": "sprites/back/714.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s714.png",
-            "back": "https://pokeidle.net/sprites/back/s714.png"
+            "front": "sprites/s714.png",
+            "back": "sprites/back/s714.png"
          }
       }
    },
@@ -27505,12 +27505,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/715.png",
-            "back": "https://pokeidle.net/sprites/back/715.png"
+            "front": "sprites/715.png",
+            "back": "sprites/back/715.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s715.png",
-            "back": "https://pokeidle.net/sprites/back/s715.png"
+            "front": "sprites/s715.png",
+            "back": "sprites/back/s715.png"
          }
       }
    },
@@ -27543,12 +27543,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/716.png",
-            "back": "https://pokeidle.net/sprites/back/716.png"
+            "front": "sprites/716.png",
+            "back": "sprites/back/716.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s716.png",
-            "back": "https://pokeidle.net/sprites/back/s716.png"
+            "front": "sprites/s716.png",
+            "back": "sprites/back/s716.png"
          }
       }
    },
@@ -27582,12 +27582,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/717.png",
-            "back": "https://pokeidle.net/sprites/back/717.png"
+            "front": "sprites/717.png",
+            "back": "sprites/back/717.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s717.png",
-            "back": "https://pokeidle.net/sprites/back/s717.png"
+            "front": "sprites/s717.png",
+            "back": "sprites/back/s717.png"
          }
       }
    },
@@ -27621,12 +27621,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/718.png",
-            "back": "https://pokeidle.net/sprites/back/718.png"
+            "front": "sprites/718.png",
+            "back": "sprites/back/718.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s718.png",
-            "back": "https://pokeidle.net/sprites/back/s718.png"
+            "front": "sprites/s718.png",
+            "back": "sprites/back/s718.png"
          }
       }
    },
@@ -27660,12 +27660,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/719.png",
-            "back": "https://pokeidle.net/sprites/back/719.png"
+            "front": "sprites/719.png",
+            "back": "sprites/back/719.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s719.png",
-            "back": "https://pokeidle.net/sprites/back/s719.png"
+            "front": "sprites/s719.png",
+            "back": "sprites/back/s719.png"
          }
       }
    },
@@ -27699,12 +27699,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/720.png",
-            "back": "https://pokeidle.net/sprites/back/720.png"
+            "front": "sprites/720.png",
+            "back": "sprites/back/720.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s720.png",
-            "back": "https://pokeidle.net/sprites/back/s720.png"
+            "front": "sprites/s720.png",
+            "back": "sprites/back/s720.png"
          }
       }
    },
@@ -27738,12 +27738,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/721.png",
-            "back": "https://pokeidle.net/sprites/back/721.png"
+            "front": "sprites/721.png",
+            "back": "sprites/back/721.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s721.png",
-            "back": "https://pokeidle.net/sprites/back/s721.png"
+            "front": "sprites/s721.png",
+            "back": "sprites/back/s721.png"
          }
       }
    },
@@ -27777,12 +27777,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/722.png",
-            "back": "https://pokeidle.net/sprites/back/722.png"
+            "front": "sprites/722.png",
+            "back": "sprites/back/722.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s722.png",
-            "back": "https://pokeidle.net/sprites/back/s722.png"
+            "front": "sprites/s722.png",
+            "back": "sprites/back/s722.png"
          }
       }
    },
@@ -27816,12 +27816,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/723.png",
-            "back": "https://pokeidle.net/sprites/back/723.png"
+            "front": "sprites/723.png",
+            "back": "sprites/back/723.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s723.png",
-            "back": "https://pokeidle.net/sprites/back/s723.png"
+            "front": "sprites/s723.png",
+            "back": "sprites/back/s723.png"
          }
       }
    },
@@ -27855,12 +27855,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/724.png",
-            "back": "https://pokeidle.net/sprites/back/724.png"
+            "front": "sprites/724.png",
+            "back": "sprites/back/724.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s724.png",
-            "back": "https://pokeidle.net/sprites/back/s724.png"
+            "front": "sprites/s724.png",
+            "back": "sprites/back/s724.png"
          }
       }
    },
@@ -27893,12 +27893,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/725.png",
-            "back": "https://pokeidle.net/sprites/back/725.png"
+            "front": "sprites/725.png",
+            "back": "sprites/back/725.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s725.png",
-            "back": "https://pokeidle.net/sprites/back/s725.png"
+            "front": "sprites/s725.png",
+            "back": "sprites/back/s725.png"
          }
       }
    },
@@ -27931,12 +27931,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/726.png",
-            "back": "https://pokeidle.net/sprites/back/726.png"
+            "front": "sprites/726.png",
+            "back": "sprites/back/726.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s726.png",
-            "back": "https://pokeidle.net/sprites/back/s726.png"
+            "front": "sprites/s726.png",
+            "back": "sprites/back/s726.png"
          }
       }
    },
@@ -27970,12 +27970,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/727.png",
-            "back": "https://pokeidle.net/sprites/back/727.png"
+            "front": "sprites/727.png",
+            "back": "sprites/back/727.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s727.png",
-            "back": "https://pokeidle.net/sprites/back/s727.png"
+            "front": "sprites/s727.png",
+            "back": "sprites/back/s727.png"
          }
       }
    },
@@ -28008,12 +28008,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/728.png",
-            "back": "https://pokeidle.net/sprites/back/728.png"
+            "front": "sprites/728.png",
+            "back": "sprites/back/728.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s728.png",
-            "back": "https://pokeidle.net/sprites/back/s728.png"
+            "front": "sprites/s728.png",
+            "back": "sprites/back/s728.png"
          }
       }
    },
@@ -28046,12 +28046,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/729.png",
-            "back": "https://pokeidle.net/sprites/back/729.png"
+            "front": "sprites/729.png",
+            "back": "sprites/back/729.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s729.png",
-            "back": "https://pokeidle.net/sprites/back/s729.png"
+            "front": "sprites/s729.png",
+            "back": "sprites/back/s729.png"
          }
       }
    },
@@ -28085,12 +28085,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/730.png",
-            "back": "https://pokeidle.net/sprites/back/730.png"
+            "front": "sprites/730.png",
+            "back": "sprites/back/730.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s730.png",
-            "back": "https://pokeidle.net/sprites/back/s730.png"
+            "front": "sprites/s730.png",
+            "back": "sprites/back/s730.png"
          }
       }
    },
@@ -28124,12 +28124,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/731.png",
-            "back": "https://pokeidle.net/sprites/back/731.png"
+            "front": "sprites/731.png",
+            "back": "sprites/back/731.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s731.png",
-            "back": "https://pokeidle.net/sprites/back/s731.png"
+            "front": "sprites/s731.png",
+            "back": "sprites/back/s731.png"
          }
       }
    },
@@ -28163,12 +28163,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/732.png",
-            "back": "https://pokeidle.net/sprites/back/732.png"
+            "front": "sprites/732.png",
+            "back": "sprites/back/732.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s732.png",
-            "back": "https://pokeidle.net/sprites/back/s732.png"
+            "front": "sprites/s732.png",
+            "back": "sprites/back/s732.png"
          }
       }
    },
@@ -28202,12 +28202,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/733.png",
-            "back": "https://pokeidle.net/sprites/back/733.png"
+            "front": "sprites/733.png",
+            "back": "sprites/back/733.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s733.png",
-            "back": "https://pokeidle.net/sprites/back/s733.png"
+            "front": "sprites/s733.png",
+            "back": "sprites/back/s733.png"
          }
       }
    },
@@ -28240,12 +28240,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/734.png",
-            "back": "https://pokeidle.net/sprites/back/734.png"
+            "front": "sprites/734.png",
+            "back": "sprites/back/734.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s734.png",
-            "back": "https://pokeidle.net/sprites/back/s734.png"
+            "front": "sprites/s734.png",
+            "back": "sprites/back/s734.png"
          }
       }
    },
@@ -28278,12 +28278,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/735.png",
-            "back": "https://pokeidle.net/sprites/back/735.png"
+            "front": "sprites/735.png",
+            "back": "sprites/back/735.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s735.png",
-            "back": "https://pokeidle.net/sprites/back/s735.png"
+            "front": "sprites/s735.png",
+            "back": "sprites/back/s735.png"
          }
       }
    },
@@ -28316,12 +28316,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/736.png",
-            "back": "https://pokeidle.net/sprites/back/736.png"
+            "front": "sprites/736.png",
+            "back": "sprites/back/736.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s736.png",
-            "back": "https://pokeidle.net/sprites/back/s736.png"
+            "front": "sprites/s736.png",
+            "back": "sprites/back/s736.png"
          }
       }
    },
@@ -28355,12 +28355,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/737.png",
-            "back": "https://pokeidle.net/sprites/back/737.png"
+            "front": "sprites/737.png",
+            "back": "sprites/back/737.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s737.png",
-            "back": "https://pokeidle.net/sprites/back/s737.png"
+            "front": "sprites/s737.png",
+            "back": "sprites/back/s737.png"
          }
       }
    },
@@ -28394,12 +28394,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/738.png",
-            "back": "https://pokeidle.net/sprites/back/738.png"
+            "front": "sprites/738.png",
+            "back": "sprites/back/738.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s738.png",
-            "back": "https://pokeidle.net/sprites/back/s738.png"
+            "front": "sprites/s738.png",
+            "back": "sprites/back/s738.png"
          }
       }
    },
@@ -28432,12 +28432,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/739.png",
-            "back": "https://pokeidle.net/sprites/back/739.png"
+            "front": "sprites/739.png",
+            "back": "sprites/back/739.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s739.png",
-            "back": "https://pokeidle.net/sprites/back/s739.png"
+            "front": "sprites/s739.png",
+            "back": "sprites/back/s739.png"
          }
       }
    },
@@ -28471,12 +28471,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/740.png",
-            "back": "https://pokeidle.net/sprites/back/740.png"
+            "front": "sprites/740.png",
+            "back": "sprites/back/740.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s740.png",
-            "back": "https://pokeidle.net/sprites/back/s740.png"
+            "front": "sprites/s740.png",
+            "back": "sprites/back/s740.png"
          }
       }
    },
@@ -28510,12 +28510,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/741.png",
-            "back": "https://pokeidle.net/sprites/back/741.png"
+            "front": "sprites/741.png",
+            "back": "sprites/back/741.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s741.png",
-            "back": "https://pokeidle.net/sprites/back/s741.png"
+            "front": "sprites/s741.png",
+            "back": "sprites/back/s741.png"
          }
       }
    },
@@ -28549,12 +28549,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/742.png",
-            "back": "https://pokeidle.net/sprites/back/742.png"
+            "front": "sprites/742.png",
+            "back": "sprites/back/742.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s742.png",
-            "back": "https://pokeidle.net/sprites/back/s742.png"
+            "front": "sprites/s742.png",
+            "back": "sprites/back/s742.png"
          }
       }
    },
@@ -28588,12 +28588,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/743.png",
-            "back": "https://pokeidle.net/sprites/back/743.png"
+            "front": "sprites/743.png",
+            "back": "sprites/back/743.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s743.png",
-            "back": "https://pokeidle.net/sprites/back/s743.png"
+            "front": "sprites/s743.png",
+            "back": "sprites/back/s743.png"
          }
       }
    },
@@ -28626,12 +28626,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/744.png",
-            "back": "https://pokeidle.net/sprites/back/744.png"
+            "front": "sprites/744.png",
+            "back": "sprites/back/744.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s744.png",
-            "back": "https://pokeidle.net/sprites/back/s744.png"
+            "front": "sprites/s744.png",
+            "back": "sprites/back/s744.png"
          }
       }
    },
@@ -28664,12 +28664,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/745.png",
-            "back": "https://pokeidle.net/sprites/back/745.png"
+            "front": "sprites/745.png",
+            "back": "sprites/back/745.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s745.png",
-            "back": "https://pokeidle.net/sprites/back/s745.png"
+            "front": "sprites/s745.png",
+            "back": "sprites/back/s745.png"
          }
       }
    },
@@ -28702,12 +28702,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/746.png",
-            "back": "https://pokeidle.net/sprites/back/746.png"
+            "front": "sprites/746.png",
+            "back": "sprites/back/746.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s746.png",
-            "back": "https://pokeidle.net/sprites/back/s746.png"
+            "front": "sprites/s746.png",
+            "back": "sprites/back/s746.png"
          }
       }
    },
@@ -28741,12 +28741,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/747.png",
-            "back": "https://pokeidle.net/sprites/back/747.png"
+            "front": "sprites/747.png",
+            "back": "sprites/back/747.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s747.png",
-            "back": "https://pokeidle.net/sprites/back/s747.png"
+            "front": "sprites/s747.png",
+            "back": "sprites/back/s747.png"
          }
       }
    },
@@ -28780,12 +28780,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/748.png",
-            "back": "https://pokeidle.net/sprites/back/748.png"
+            "front": "sprites/748.png",
+            "back": "sprites/back/748.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s748.png",
-            "back": "https://pokeidle.net/sprites/back/s748.png"
+            "front": "sprites/s748.png",
+            "back": "sprites/back/s748.png"
          }
       }
    },
@@ -28818,12 +28818,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/749.png",
-            "back": "https://pokeidle.net/sprites/back/749.png"
+            "front": "sprites/749.png",
+            "back": "sprites/back/749.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s749.png",
-            "back": "https://pokeidle.net/sprites/back/s749.png"
+            "front": "sprites/s749.png",
+            "back": "sprites/back/s749.png"
          }
       }
    },
@@ -28856,12 +28856,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/750.png",
-            "back": "https://pokeidle.net/sprites/back/750.png"
+            "front": "sprites/750.png",
+            "back": "sprites/back/750.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s750.png",
-            "back": "https://pokeidle.net/sprites/back/s750.png"
+            "front": "sprites/s750.png",
+            "back": "sprites/back/s750.png"
          }
       }
    },
@@ -28895,12 +28895,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/751.png",
-            "back": "https://pokeidle.net/sprites/back/751.png"
+            "front": "sprites/751.png",
+            "back": "sprites/back/751.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s751.png",
-            "back": "https://pokeidle.net/sprites/back/s751.png"
+            "front": "sprites/s751.png",
+            "back": "sprites/back/s751.png"
          }
       }
    },
@@ -28934,12 +28934,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/752.png",
-            "back": "https://pokeidle.net/sprites/back/752.png"
+            "front": "sprites/752.png",
+            "back": "sprites/back/752.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s752.png",
-            "back": "https://pokeidle.net/sprites/back/s752.png"
+            "front": "sprites/s752.png",
+            "back": "sprites/back/s752.png"
          }
       }
    },
@@ -28972,12 +28972,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/753.png",
-            "back": "https://pokeidle.net/sprites/back/753.png"
+            "front": "sprites/753.png",
+            "back": "sprites/back/753.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s753.png",
-            "back": "https://pokeidle.net/sprites/back/s753.png"
+            "front": "sprites/s753.png",
+            "back": "sprites/back/s753.png"
          }
       }
    },
@@ -29010,12 +29010,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/754.png",
-            "back": "https://pokeidle.net/sprites/back/754.png"
+            "front": "sprites/754.png",
+            "back": "sprites/back/754.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s754.png",
-            "back": "https://pokeidle.net/sprites/back/s754.png"
+            "front": "sprites/s754.png",
+            "back": "sprites/back/s754.png"
          }
       }
    },
@@ -29049,12 +29049,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/755.png",
-            "back": "https://pokeidle.net/sprites/back/755.png"
+            "front": "sprites/755.png",
+            "back": "sprites/back/755.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s755.png",
-            "back": "https://pokeidle.net/sprites/back/s755.png"
+            "front": "sprites/s755.png",
+            "back": "sprites/back/s755.png"
          }
       }
    },
@@ -29088,12 +29088,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/756.png",
-            "back": "https://pokeidle.net/sprites/back/756.png"
+            "front": "sprites/756.png",
+            "back": "sprites/back/756.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s756.png",
-            "back": "https://pokeidle.net/sprites/back/s756.png"
+            "front": "sprites/s756.png",
+            "back": "sprites/back/s756.png"
          }
       }
    },
@@ -29127,12 +29127,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/757.png",
-            "back": "https://pokeidle.net/sprites/back/757.png"
+            "front": "sprites/757.png",
+            "back": "sprites/back/757.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s757.png",
-            "back": "https://pokeidle.net/sprites/back/s757.png"
+            "front": "sprites/s757.png",
+            "back": "sprites/back/s757.png"
          }
       }
    },
@@ -29166,12 +29166,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/758.png",
-            "back": "https://pokeidle.net/sprites/back/758.png"
+            "front": "sprites/758.png",
+            "back": "sprites/back/758.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s758.png",
-            "back": "https://pokeidle.net/sprites/back/s758.png"
+            "front": "sprites/s758.png",
+            "back": "sprites/back/s758.png"
          }
       }
    },
@@ -29205,12 +29205,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/759.png",
-            "back": "https://pokeidle.net/sprites/back/759.png"
+            "front": "sprites/759.png",
+            "back": "sprites/back/759.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s759.png",
-            "back": "https://pokeidle.net/sprites/back/s759.png"
+            "front": "sprites/s759.png",
+            "back": "sprites/back/s759.png"
          }
       }
    },
@@ -29244,12 +29244,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/760.png",
-            "back": "https://pokeidle.net/sprites/back/760.png"
+            "front": "sprites/760.png",
+            "back": "sprites/back/760.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s760.png",
-            "back": "https://pokeidle.net/sprites/back/s760.png"
+            "front": "sprites/s760.png",
+            "back": "sprites/back/s760.png"
          }
       }
    },
@@ -29282,12 +29282,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/761.png",
-            "back": "https://pokeidle.net/sprites/back/761.png"
+            "front": "sprites/761.png",
+            "back": "sprites/back/761.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s761.png",
-            "back": "https://pokeidle.net/sprites/back/s761.png"
+            "front": "sprites/s761.png",
+            "back": "sprites/back/s761.png"
          }
       }
    },
@@ -29320,12 +29320,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/762.png",
-            "back": "https://pokeidle.net/sprites/back/762.png"
+            "front": "sprites/762.png",
+            "back": "sprites/back/762.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s762.png",
-            "back": "https://pokeidle.net/sprites/back/s762.png"
+            "front": "sprites/s762.png",
+            "back": "sprites/back/s762.png"
          }
       }
    },
@@ -29358,12 +29358,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/763.png",
-            "back": "https://pokeidle.net/sprites/back/763.png"
+            "front": "sprites/763.png",
+            "back": "sprites/back/763.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s763.png",
-            "back": "https://pokeidle.net/sprites/back/s763.png"
+            "front": "sprites/s763.png",
+            "back": "sprites/back/s763.png"
          }
       }
    },
@@ -29396,12 +29396,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/764.png",
-            "back": "https://pokeidle.net/sprites/back/764.png"
+            "front": "sprites/764.png",
+            "back": "sprites/back/764.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s764.png",
-            "back": "https://pokeidle.net/sprites/back/s764.png"
+            "front": "sprites/s764.png",
+            "back": "sprites/back/s764.png"
          }
       }
    },
@@ -29435,12 +29435,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/765.png",
-            "back": "https://pokeidle.net/sprites/back/765.png"
+            "front": "sprites/765.png",
+            "back": "sprites/back/765.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s765.png",
-            "back": "https://pokeidle.net/sprites/back/s765.png"
+            "front": "sprites/s765.png",
+            "back": "sprites/back/s765.png"
          }
       }
    },
@@ -29473,12 +29473,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/766.png",
-            "back": "https://pokeidle.net/sprites/back/766.png"
+            "front": "sprites/766.png",
+            "back": "sprites/back/766.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s766.png",
-            "back": "https://pokeidle.net/sprites/back/s766.png"
+            "front": "sprites/s766.png",
+            "back": "sprites/back/s766.png"
          }
       }
    },
@@ -29512,12 +29512,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/767.png",
-            "back": "https://pokeidle.net/sprites/back/767.png"
+            "front": "sprites/767.png",
+            "back": "sprites/back/767.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s767.png",
-            "back": "https://pokeidle.net/sprites/back/s767.png"
+            "front": "sprites/s767.png",
+            "back": "sprites/back/s767.png"
          }
       }
    },
@@ -29551,12 +29551,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/768.png",
-            "back": "https://pokeidle.net/sprites/back/768.png"
+            "front": "sprites/768.png",
+            "back": "sprites/back/768.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s768.png",
-            "back": "https://pokeidle.net/sprites/back/s768.png"
+            "front": "sprites/s768.png",
+            "back": "sprites/back/s768.png"
          }
       }
    },
@@ -29590,12 +29590,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/769.png",
-            "back": "https://pokeidle.net/sprites/back/769.png"
+            "front": "sprites/769.png",
+            "back": "sprites/back/769.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s769.png",
-            "back": "https://pokeidle.net/sprites/back/s769.png"
+            "front": "sprites/s769.png",
+            "back": "sprites/back/s769.png"
          }
       }
    },
@@ -29629,12 +29629,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/770.png",
-            "back": "https://pokeidle.net/sprites/back/770.png"
+            "front": "sprites/770.png",
+            "back": "sprites/back/770.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s770.png",
-            "back": "https://pokeidle.net/sprites/back/s770.png"
+            "front": "sprites/s770.png",
+            "back": "sprites/back/s770.png"
          }
       }
    },
@@ -29667,12 +29667,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/771.png",
-            "back": "https://pokeidle.net/sprites/back/771.png"
+            "front": "sprites/771.png",
+            "back": "sprites/back/771.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s771.png",
-            "back": "https://pokeidle.net/sprites/back/s771.png"
+            "front": "sprites/s771.png",
+            "back": "sprites/back/s771.png"
          }
       }
    },
@@ -29705,12 +29705,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/772.png",
-            "back": "https://pokeidle.net/sprites/back/772.png"
+            "front": "sprites/772.png",
+            "back": "sprites/back/772.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s772.png",
-            "back": "https://pokeidle.net/sprites/back/s772.png"
+            "front": "sprites/s772.png",
+            "back": "sprites/back/s772.png"
          }
       }
    },
@@ -29743,12 +29743,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/773.png",
-            "back": "https://pokeidle.net/sprites/back/773.png"
+            "front": "sprites/773.png",
+            "back": "sprites/back/773.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s773.png",
-            "back": "https://pokeidle.net/sprites/back/s773.png"
+            "front": "sprites/s773.png",
+            "back": "sprites/back/s773.png"
          }
       }
    },
@@ -29782,12 +29782,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/774.png",
-            "back": "https://pokeidle.net/sprites/back/774.png"
+            "front": "sprites/774.png",
+            "back": "sprites/back/774.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s774.png",
-            "back": "https://pokeidle.net/sprites/back/s774.png"
+            "front": "sprites/s774.png",
+            "back": "sprites/back/s774.png"
          }
       }
    },
@@ -29820,12 +29820,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/775.png",
-            "back": "https://pokeidle.net/sprites/back/775.png"
+            "front": "sprites/775.png",
+            "back": "sprites/back/775.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s775.png",
-            "back": "https://pokeidle.net/sprites/back/s775.png"
+            "front": "sprites/s775.png",
+            "back": "sprites/back/s775.png"
          }
       }
    },
@@ -29859,12 +29859,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/776.png",
-            "back": "https://pokeidle.net/sprites/back/776.png"
+            "front": "sprites/776.png",
+            "back": "sprites/back/776.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s776.png",
-            "back": "https://pokeidle.net/sprites/back/s776.png"
+            "front": "sprites/s776.png",
+            "back": "sprites/back/s776.png"
          }
       }
    },
@@ -29898,12 +29898,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/777.png",
-            "back": "https://pokeidle.net/sprites/back/777.png"
+            "front": "sprites/777.png",
+            "back": "sprites/back/777.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s777.png",
-            "back": "https://pokeidle.net/sprites/back/s777.png"
+            "front": "sprites/s777.png",
+            "back": "sprites/back/s777.png"
          }
       }
    },
@@ -29937,12 +29937,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/778.png",
-            "back": "https://pokeidle.net/sprites/back/778.png"
+            "front": "sprites/778.png",
+            "back": "sprites/back/778.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s778.png",
-            "back": "https://pokeidle.net/sprites/back/s778.png"
+            "front": "sprites/s778.png",
+            "back": "sprites/back/s778.png"
          }
       }
    },
@@ -29976,12 +29976,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/779.png",
-            "back": "https://pokeidle.net/sprites/back/779.png"
+            "front": "sprites/779.png",
+            "back": "sprites/back/779.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s779.png",
-            "back": "https://pokeidle.net/sprites/back/s779.png"
+            "front": "sprites/s779.png",
+            "back": "sprites/back/s779.png"
          }
       }
    },
@@ -30015,12 +30015,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/780.png",
-            "back": "https://pokeidle.net/sprites/back/780.png"
+            "front": "sprites/780.png",
+            "back": "sprites/back/780.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s780.png",
-            "back": "https://pokeidle.net/sprites/back/s780.png"
+            "front": "sprites/s780.png",
+            "back": "sprites/back/s780.png"
          }
       }
    },
@@ -30054,12 +30054,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/781.png",
-            "back": "https://pokeidle.net/sprites/back/781.png"
+            "front": "sprites/781.png",
+            "back": "sprites/back/781.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s781.png",
-            "back": "https://pokeidle.net/sprites/back/s781.png"
+            "front": "sprites/s781.png",
+            "back": "sprites/back/s781.png"
          }
       }
    },
@@ -30092,12 +30092,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/782.png",
-            "back": "https://pokeidle.net/sprites/back/782.png"
+            "front": "sprites/782.png",
+            "back": "sprites/back/782.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s782.png",
-            "back": "https://pokeidle.net/sprites/back/s782.png"
+            "front": "sprites/s782.png",
+            "back": "sprites/back/s782.png"
          }
       }
    },
@@ -30131,12 +30131,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/783.png",
-            "back": "https://pokeidle.net/sprites/back/783.png"
+            "front": "sprites/783.png",
+            "back": "sprites/back/783.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s783.png",
-            "back": "https://pokeidle.net/sprites/back/s783.png"
+            "front": "sprites/s783.png",
+            "back": "sprites/back/s783.png"
          }
       }
    },
@@ -30170,12 +30170,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/784.png",
-            "back": "https://pokeidle.net/sprites/back/784.png"
+            "front": "sprites/784.png",
+            "back": "sprites/back/784.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s784.png",
-            "back": "https://pokeidle.net/sprites/back/s784.png"
+            "front": "sprites/s784.png",
+            "back": "sprites/back/s784.png"
          }
       }
    },
@@ -30209,12 +30209,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/785.png",
-            "back": "https://pokeidle.net/sprites/back/785.png"
+            "front": "sprites/785.png",
+            "back": "sprites/back/785.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s785.png",
-            "back": "https://pokeidle.net/sprites/back/s785.png"
+            "front": "sprites/s785.png",
+            "back": "sprites/back/s785.png"
          }
       }
    },
@@ -30248,12 +30248,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/786.png",
-            "back": "https://pokeidle.net/sprites/back/786.png"
+            "front": "sprites/786.png",
+            "back": "sprites/back/786.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s786.png",
-            "back": "https://pokeidle.net/sprites/back/s786.png"
+            "front": "sprites/s786.png",
+            "back": "sprites/back/s786.png"
          }
       }
    },
@@ -30287,12 +30287,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/787.png",
-            "back": "https://pokeidle.net/sprites/back/787.png"
+            "front": "sprites/787.png",
+            "back": "sprites/back/787.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s787.png",
-            "back": "https://pokeidle.net/sprites/back/s787.png"
+            "front": "sprites/s787.png",
+            "back": "sprites/back/s787.png"
          }
       }
    },
@@ -30326,12 +30326,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/788.png",
-            "back": "https://pokeidle.net/sprites/back/788.png"
+            "front": "sprites/788.png",
+            "back": "sprites/back/788.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s788.png",
-            "back": "https://pokeidle.net/sprites/back/s788.png"
+            "front": "sprites/s788.png",
+            "back": "sprites/back/s788.png"
          }
       }
    },
@@ -30364,12 +30364,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/789.png",
-            "back": "https://pokeidle.net/sprites/back/789.png"
+            "front": "sprites/789.png",
+            "back": "sprites/back/789.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s789.png",
-            "back": "https://pokeidle.net/sprites/back/s789.png"
+            "front": "sprites/s789.png",
+            "back": "sprites/back/s789.png"
          }
       }
    },
@@ -30402,12 +30402,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/790.png",
-            "back": "https://pokeidle.net/sprites/back/790.png"
+            "front": "sprites/790.png",
+            "back": "sprites/back/790.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s790.png",
-            "back": "https://pokeidle.net/sprites/back/s790.png"
+            "front": "sprites/s790.png",
+            "back": "sprites/back/s790.png"
          }
       }
    },
@@ -30441,12 +30441,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/791.png",
-            "back": "https://pokeidle.net/sprites/back/791.png"
+            "front": "sprites/791.png",
+            "back": "sprites/back/791.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s791.png",
-            "back": "https://pokeidle.net/sprites/back/s791.png"
+            "front": "sprites/s791.png",
+            "back": "sprites/back/s791.png"
          }
       }
    },
@@ -30480,12 +30480,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/792.png",
-            "back": "https://pokeidle.net/sprites/back/792.png"
+            "front": "sprites/792.png",
+            "back": "sprites/back/792.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s792.png",
-            "back": "https://pokeidle.net/sprites/back/s792.png"
+            "front": "sprites/s792.png",
+            "back": "sprites/back/s792.png"
          }
       }
    },
@@ -30519,12 +30519,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/793.png",
-            "back": "https://pokeidle.net/sprites/back/793.png"
+            "front": "sprites/793.png",
+            "back": "sprites/back/793.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s793.png",
-            "back": "https://pokeidle.net/sprites/back/s793.png"
+            "front": "sprites/s793.png",
+            "back": "sprites/back/s793.png"
          }
       }
    },
@@ -30558,12 +30558,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/794.png",
-            "back": "https://pokeidle.net/sprites/back/794.png"
+            "front": "sprites/794.png",
+            "back": "sprites/back/794.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s794.png",
-            "back": "https://pokeidle.net/sprites/back/s794.png"
+            "front": "sprites/s794.png",
+            "back": "sprites/back/s794.png"
          }
       }
    },
@@ -30597,12 +30597,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/795.png",
-            "back": "https://pokeidle.net/sprites/back/795.png"
+            "front": "sprites/795.png",
+            "back": "sprites/back/795.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s795.png",
-            "back": "https://pokeidle.net/sprites/back/s795.png"
+            "front": "sprites/s795.png",
+            "back": "sprites/back/s795.png"
          }
       }
    },
@@ -30635,12 +30635,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/796.png",
-            "back": "https://pokeidle.net/sprites/back/796.png"
+            "front": "sprites/796.png",
+            "back": "sprites/back/796.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s796.png",
-            "back": "https://pokeidle.net/sprites/back/s796.png"
+            "front": "sprites/s796.png",
+            "back": "sprites/back/s796.png"
          }
       }
    },
@@ -30674,12 +30674,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/797.png",
-            "back": "https://pokeidle.net/sprites/back/797.png"
+            "front": "sprites/797.png",
+            "back": "sprites/back/797.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s797.png",
-            "back": "https://pokeidle.net/sprites/back/s797.png"
+            "front": "sprites/s797.png",
+            "back": "sprites/back/s797.png"
          }
       }
    },
@@ -30713,12 +30713,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/798.png",
-            "back": "https://pokeidle.net/sprites/back/798.png"
+            "front": "sprites/798.png",
+            "back": "sprites/back/798.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s798.png",
-            "back": "https://pokeidle.net/sprites/back/s798.png"
+            "front": "sprites/s798.png",
+            "back": "sprites/back/s798.png"
          }
       }
    },
@@ -30752,12 +30752,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/799.png",
-            "back": "https://pokeidle.net/sprites/back/799.png"
+            "front": "sprites/799.png",
+            "back": "sprites/back/799.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s799.png",
-            "back": "https://pokeidle.net/sprites/back/s799.png"
+            "front": "sprites/s799.png",
+            "back": "sprites/back/s799.png"
          }
       }
    },
@@ -30790,12 +30790,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/800.png",
-            "back": "https://pokeidle.net/sprites/back/800.png"
+            "front": "sprites/800.png",
+            "back": "sprites/back/800.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s800.png",
-            "back": "https://pokeidle.net/sprites/back/s800.png"
+            "front": "sprites/s800.png",
+            "back": "sprites/back/s800.png"
          }
       }
    },
@@ -30829,12 +30829,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/801.png",
-            "back": "https://pokeidle.net/sprites/back/801.png"
+            "front": "sprites/801.png",
+            "back": "sprites/back/801.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s801.png",
-            "back": "https://pokeidle.net/sprites/back/s801.png"
+            "front": "sprites/s801.png",
+            "back": "sprites/back/s801.png"
          }
       }
    },
@@ -30868,12 +30868,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/802.png",
-            "back": "https://pokeidle.net/sprites/back/802.png"
+            "front": "sprites/802.png",
+            "back": "sprites/back/802.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s802.png",
-            "back": "https://pokeidle.net/sprites/back/s802.png"
+            "front": "sprites/s802.png",
+            "back": "sprites/back/s802.png"
          }
       }
    },
@@ -30906,12 +30906,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/803.png",
-            "back": "https://pokeidle.net/sprites/back/803.png"
+            "front": "sprites/803.png",
+            "back": "sprites/back/803.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s803.png",
-            "back": "https://pokeidle.net/sprites/back/s803.png"
+            "front": "sprites/s803.png",
+            "back": "sprites/back/s803.png"
          }
       }
    },
@@ -30945,12 +30945,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/804.png",
-            "back": "https://pokeidle.net/sprites/back/804.png"
+            "front": "sprites/804.png",
+            "back": "sprites/back/804.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s804.png",
-            "back": "https://pokeidle.net/sprites/back/s804.png"
+            "front": "sprites/s804.png",
+            "back": "sprites/back/s804.png"
          }
       }
    },
@@ -30984,12 +30984,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/805.png",
-            "back": "https://pokeidle.net/sprites/back/805.png"
+            "front": "sprites/805.png",
+            "back": "sprites/back/805.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s805.png",
-            "back": "https://pokeidle.net/sprites/back/s805.png"
+            "front": "sprites/s805.png",
+            "back": "sprites/back/s805.png"
          }
       }
    },
@@ -31023,12 +31023,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/806.png",
-            "back": "https://pokeidle.net/sprites/back/806.png"
+            "front": "sprites/806.png",
+            "back": "sprites/back/806.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s806.png",
-            "back": "https://pokeidle.net/sprites/back/s806.png"
+            "front": "sprites/s806.png",
+            "back": "sprites/back/s806.png"
          }
       }
    },
@@ -31061,12 +31061,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/807.png",
-            "back": "https://pokeidle.net/sprites/back/807.png"
+            "front": "sprites/807.png",
+            "back": "sprites/back/807.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s807.png",
-            "back": "https://pokeidle.net/sprites/back/s807.png"
+            "front": "sprites/s807.png",
+            "back": "sprites/back/s807.png"
          }
       }
    },
@@ -31099,12 +31099,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/808.png",
-            "back": "https://pokeidle.net/sprites/back/808.png"
+            "front": "sprites/808.png",
+            "back": "sprites/back/808.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s808.png",
-            "back": "https://pokeidle.net/sprites/back/s808.png"
+            "front": "sprites/s808.png",
+            "back": "sprites/back/s808.png"
          }
       }
    },
@@ -31137,12 +31137,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/809.png",
-            "back": "https://pokeidle.net/sprites/back/809.png"
+            "front": "sprites/809.png",
+            "back": "sprites/back/809.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s809.png",
-            "back": "https://pokeidle.net/sprites/back/s809.png"
+            "front": "sprites/s809.png",
+            "back": "sprites/back/s809.png"
          }
       }
    },
@@ -31175,12 +31175,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/810.png",
-            "back": "https://pokeidle.net/sprites/back/810.png"
+            "front": "sprites/810.png",
+            "back": "sprites/back/810.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s810.png",
-            "back": "https://pokeidle.net/sprites/back/s810.png"
+            "front": "sprites/s810.png",
+            "back": "sprites/back/s810.png"
          }
       }
    },
@@ -31213,12 +31213,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/811.png",
-            "back": "https://pokeidle.net/sprites/back/811.png"
+            "front": "sprites/811.png",
+            "back": "sprites/back/811.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s811.png",
-            "back": "https://pokeidle.net/sprites/back/s811.png"
+            "front": "sprites/s811.png",
+            "back": "sprites/back/s811.png"
          }
       }
    },
@@ -31251,12 +31251,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/812.png",
-            "back": "https://pokeidle.net/sprites/back/812.png"
+            "front": "sprites/812.png",
+            "back": "sprites/back/812.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s812.png",
-            "back": "https://pokeidle.net/sprites/back/s812.png"
+            "front": "sprites/s812.png",
+            "back": "sprites/back/s812.png"
          }
       }
    },
@@ -31289,12 +31289,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/813.png",
-            "back": "https://pokeidle.net/sprites/back/813.png"
+            "front": "sprites/813.png",
+            "back": "sprites/back/813.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s813.png",
-            "back": "https://pokeidle.net/sprites/back/s813.png"
+            "front": "sprites/s813.png",
+            "back": "sprites/back/s813.png"
          }
       }
    },
@@ -31327,12 +31327,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/814.png",
-            "back": "https://pokeidle.net/sprites/back/814.png"
+            "front": "sprites/814.png",
+            "back": "sprites/back/814.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s814.png",
-            "back": "https://pokeidle.net/sprites/back/s814.png"
+            "front": "sprites/s814.png",
+            "back": "sprites/back/s814.png"
          }
       }
    },
@@ -31365,12 +31365,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/815.png",
-            "back": "https://pokeidle.net/sprites/back/815.png"
+            "front": "sprites/815.png",
+            "back": "sprites/back/815.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s815.png",
-            "back": "https://pokeidle.net/sprites/back/s815.png"
+            "front": "sprites/s815.png",
+            "back": "sprites/back/s815.png"
          }
       }
    },
@@ -31403,12 +31403,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/816.png",
-            "back": "https://pokeidle.net/sprites/back/816.png"
+            "front": "sprites/816.png",
+            "back": "sprites/back/816.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s816.png",
-            "back": "https://pokeidle.net/sprites/back/s816.png"
+            "front": "sprites/s816.png",
+            "back": "sprites/back/s816.png"
          }
       }
    },
@@ -31441,12 +31441,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/817.png",
-            "back": "https://pokeidle.net/sprites/back/817.png"
+            "front": "sprites/817.png",
+            "back": "sprites/back/817.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s817.png",
-            "back": "https://pokeidle.net/sprites/back/s817.png"
+            "front": "sprites/s817.png",
+            "back": "sprites/back/s817.png"
          }
       }
    },
@@ -31479,12 +31479,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/818.png",
-            "back": "https://pokeidle.net/sprites/back/818.png"
+            "front": "sprites/818.png",
+            "back": "sprites/back/818.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s818.png",
-            "back": "https://pokeidle.net/sprites/back/s818.png"
+            "front": "sprites/s818.png",
+            "back": "sprites/back/s818.png"
          }
       }
    },
@@ -31517,12 +31517,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/819.png",
-            "back": "https://pokeidle.net/sprites/back/819.png"
+            "front": "sprites/819.png",
+            "back": "sprites/back/819.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s819.png",
-            "back": "https://pokeidle.net/sprites/back/s819.png"
+            "front": "sprites/s819.png",
+            "back": "sprites/back/s819.png"
          }
       }
    }, 
@@ -31555,12 +31555,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/820.png",
-            "back": "https://pokeidle.net/sprites/back/820.png"
+            "front": "sprites/820.png",
+            "back": "sprites/back/820.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s820.png",
-            "back": "https://pokeidle.net/sprites/back/s820.png"
+            "front": "sprites/s820.png",
+            "back": "sprites/back/s820.png"
          }
       }
    }, 
@@ -31593,12 +31593,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/821.png",
-            "back": "https://pokeidle.net/sprites/back/821.png"
+            "front": "sprites/821.png",
+            "back": "sprites/back/821.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s821.png",
-            "back": "https://pokeidle.net/sprites/back/s821.png"
+            "front": "sprites/s821.png",
+            "back": "sprites/back/s821.png"
          }
       }
    },
@@ -31631,12 +31631,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/822.png",
-            "back": "https://pokeidle.net/sprites/back/822.png"
+            "front": "sprites/822.png",
+            "back": "sprites/back/822.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s822.png",
-            "back": "https://pokeidle.net/sprites/back/s822.png"
+            "front": "sprites/s822.png",
+            "back": "sprites/back/s822.png"
          }
       }
    },
@@ -31670,12 +31670,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/823.png",
-            "back": "https://pokeidle.net/sprites/back/823.png"
+            "front": "sprites/823.png",
+            "back": "sprites/back/823.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s823.png",
-            "back": "https://pokeidle.net/sprites/back/s823.png"
+            "front": "sprites/s823.png",
+            "back": "sprites/back/s823.png"
          }
       }
    },
@@ -31708,12 +31708,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/824.png",
-            "back": "https://pokeidle.net/sprites/back/824.png"
+            "front": "sprites/824.png",
+            "back": "sprites/back/824.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s824.png",
-            "back": "https://pokeidle.net/sprites/back/s824.png"
+            "front": "sprites/s824.png",
+            "back": "sprites/back/s824.png"
          }
       }
    },
@@ -31747,12 +31747,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/825.png",
-            "back": "https://pokeidle.net/sprites/back/825.png"
+            "front": "sprites/825.png",
+            "back": "sprites/back/825.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s825.png",
-            "back": "https://pokeidle.net/sprites/back/s825.png"
+            "front": "sprites/s825.png",
+            "back": "sprites/back/s825.png"
          }
       }
    },
@@ -31786,12 +31786,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/826.png",
-            "back": "https://pokeidle.net/sprites/back/826.png"
+            "front": "sprites/826.png",
+            "back": "sprites/back/826.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s826.png",
-            "back": "https://pokeidle.net/sprites/back/s826.png"
+            "front": "sprites/s826.png",
+            "back": "sprites/back/s826.png"
          }
       }
    },
@@ -31824,12 +31824,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/827.png",
-            "back": "https://pokeidle.net/sprites/back/827.png"
+            "front": "sprites/827.png",
+            "back": "sprites/back/827.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s827.png",
-            "back": "https://pokeidle.net/sprites/back/s827.png"
+            "front": "sprites/s827.png",
+            "back": "sprites/back/s827.png"
          }
       }
    },
@@ -31862,12 +31862,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/828.png",
-            "back": "https://pokeidle.net/sprites/back/828.png"
+            "front": "sprites/828.png",
+            "back": "sprites/back/828.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s828.png",
-            "back": "https://pokeidle.net/sprites/back/s828.png"
+            "front": "sprites/s828.png",
+            "back": "sprites/back/s828.png"
          }
       }
    },
@@ -31900,12 +31900,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/829.png",
-            "back": "https://pokeidle.net/sprites/back/829.png"
+            "front": "sprites/829.png",
+            "back": "sprites/back/829.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s829.png",
-            "back": "https://pokeidle.net/sprites/back/s829.png"
+            "front": "sprites/s829.png",
+            "back": "sprites/back/s829.png"
          }
       }
    },
@@ -31938,12 +31938,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/830.png",
-            "back": "https://pokeidle.net/sprites/back/830.png"
+            "front": "sprites/830.png",
+            "back": "sprites/back/830.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s830.png",
-            "back": "https://pokeidle.net/sprites/back/s830.png"
+            "front": "sprites/s830.png",
+            "back": "sprites/back/s830.png"
          }
       }
    },
@@ -31976,12 +31976,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/831.png",
-            "back": "https://pokeidle.net/sprites/back/831.png"
+            "front": "sprites/831.png",
+            "back": "sprites/back/831.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s831.png",
-            "back": "https://pokeidle.net/sprites/back/s831.png"
+            "front": "sprites/s831.png",
+            "back": "sprites/back/s831.png"
          }
       }
    },
@@ -32014,12 +32014,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/832.png",
-            "back": "https://pokeidle.net/sprites/back/832.png"
+            "front": "sprites/832.png",
+            "back": "sprites/back/832.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s832.png",
-            "back": "https://pokeidle.net/sprites/back/s832.png"
+            "front": "sprites/s832.png",
+            "back": "sprites/back/s832.png"
          }
       }
    },
@@ -32052,12 +32052,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/833.png",
-            "back": "https://pokeidle.net/sprites/back/833.png"
+            "front": "sprites/833.png",
+            "back": "sprites/back/833.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s833.png",
-            "back": "https://pokeidle.net/sprites/back/s833.png"
+            "front": "sprites/s833.png",
+            "back": "sprites/back/s833.png"
          }
       }
    },
@@ -32091,12 +32091,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/834.png",
-            "back": "https://pokeidle.net/sprites/back/834.png"
+            "front": "sprites/834.png",
+            "back": "sprites/back/834.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s834.png",
-            "back": "https://pokeidle.net/sprites/back/s834.png"
+            "front": "sprites/s834.png",
+            "back": "sprites/back/s834.png"
          }
       }
    },
@@ -32129,12 +32129,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/835.png",
-            "back": "https://pokeidle.net/sprites/back/835.png"
+            "front": "sprites/835.png",
+            "back": "sprites/back/835.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s835.png",
-            "back": "https://pokeidle.net/sprites/back/s835.png"
+            "front": "sprites/s835.png",
+            "back": "sprites/back/s835.png"
          }
       }
    },
@@ -32167,12 +32167,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/836.png",
-            "back": "https://pokeidle.net/sprites/back/836.png"
+            "front": "sprites/836.png",
+            "back": "sprites/back/836.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s836.png",
-            "back": "https://pokeidle.net/sprites/back/s836.png"
+            "front": "sprites/s836.png",
+            "back": "sprites/back/s836.png"
          }
       }
    },
@@ -32205,12 +32205,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/837.png",
-            "back": "https://pokeidle.net/sprites/back/837.png"
+            "front": "sprites/837.png",
+            "back": "sprites/back/837.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s837.png",
-            "back": "https://pokeidle.net/sprites/back/s837.png"
+            "front": "sprites/s837.png",
+            "back": "sprites/back/s837.png"
          }
       }
    },
@@ -32244,12 +32244,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/838.png",
-            "back": "https://pokeidle.net/sprites/back/838.png"
+            "front": "sprites/838.png",
+            "back": "sprites/back/838.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s838.png",
-            "back": "https://pokeidle.net/sprites/back/s838.png"
+            "front": "sprites/s838.png",
+            "back": "sprites/back/s838.png"
          }
       }
    },
@@ -32283,12 +32283,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/839.png",
-            "back": "https://pokeidle.net/sprites/back/839.png"
+            "front": "sprites/839.png",
+            "back": "sprites/back/839.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s839.png",
-            "back": "https://pokeidle.net/sprites/back/s839.png"
+            "front": "sprites/s839.png",
+            "back": "sprites/back/s839.png"
          }
       }
    },
@@ -32322,12 +32322,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/840.png",
-            "back": "https://pokeidle.net/sprites/back/840.png"
+            "front": "sprites/840.png",
+            "back": "sprites/back/840.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s840.png",
-            "back": "https://pokeidle.net/sprites/back/s840.png"
+            "front": "sprites/s840.png",
+            "back": "sprites/back/s840.png"
          }
       }
    },
@@ -32361,12 +32361,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/841.png",
-            "back": "https://pokeidle.net/sprites/back/841.png"
+            "front": "sprites/841.png",
+            "back": "sprites/back/841.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s841.png",
-            "back": "https://pokeidle.net/sprites/back/s841.png"
+            "front": "sprites/s841.png",
+            "back": "sprites/back/s841.png"
          }
       }
    },
@@ -32400,12 +32400,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/842.png",
-            "back": "https://pokeidle.net/sprites/back/842.png"
+            "front": "sprites/842.png",
+            "back": "sprites/back/842.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s842.png",
-            "back": "https://pokeidle.net/sprites/back/s842.png"
+            "front": "sprites/s842.png",
+            "back": "sprites/back/s842.png"
          }
       }
    },
@@ -32438,12 +32438,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/843.png",
-            "back": "https://pokeidle.net/sprites/back/843.png"
+            "front": "sprites/843.png",
+            "back": "sprites/back/843.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s843.png",
-            "back": "https://pokeidle.net/sprites/back/s843.png"
+            "front": "sprites/s843.png",
+            "back": "sprites/back/s843.png"
          }
       }
    },
@@ -32476,12 +32476,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/844.png",
-            "back": "https://pokeidle.net/sprites/back/844.png"
+            "front": "sprites/844.png",
+            "back": "sprites/back/844.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s844.png",
-            "back": "https://pokeidle.net/sprites/back/s844.png"
+            "front": "sprites/s844.png",
+            "back": "sprites/back/s844.png"
          }
       }
    },
@@ -32515,12 +32515,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/845.png",
-            "back": "https://pokeidle.net/sprites/back/845.png"
+            "front": "sprites/845.png",
+            "back": "sprites/back/845.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s845.png",
-            "back": "https://pokeidle.net/sprites/back/s845.png"
+            "front": "sprites/s845.png",
+            "back": "sprites/back/s845.png"
          }
       }
    },
@@ -32553,12 +32553,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/846.png",
-            "back": "https://pokeidle.net/sprites/back/846.png"
+            "front": "sprites/846.png",
+            "back": "sprites/back/846.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s846.png",
-            "back": "https://pokeidle.net/sprites/back/s846.png"
+            "front": "sprites/s846.png",
+            "back": "sprites/back/s846.png"
          }
       }
    },
@@ -32591,12 +32591,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/847.png",
-            "back": "https://pokeidle.net/sprites/back/847.png"
+            "front": "sprites/847.png",
+            "back": "sprites/back/847.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s847.png",
-            "back": "https://pokeidle.net/sprites/back/s847.png"
+            "front": "sprites/s847.png",
+            "back": "sprites/back/s847.png"
          }
       }
    },
@@ -32630,12 +32630,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/848.png",
-            "back": "https://pokeidle.net/sprites/back/848.png"
+            "front": "sprites/848.png",
+            "back": "sprites/back/848.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s848.png",
-            "back": "https://pokeidle.net/sprites/back/s848.png"
+            "front": "sprites/s848.png",
+            "back": "sprites/back/s848.png"
          }
       }
    },
@@ -32669,12 +32669,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/849.png",
-            "back": "https://pokeidle.net/sprites/back/849.png"
+            "front": "sprites/849.png",
+            "back": "sprites/back/849.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s849.png",
-            "back": "https://pokeidle.net/sprites/back/s849.png"
+            "front": "sprites/s849.png",
+            "back": "sprites/back/s849.png"
          }
       }
    },
@@ -32708,12 +32708,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/850.png",
-            "back": "https://pokeidle.net/sprites/back/850.png"
+            "front": "sprites/850.png",
+            "back": "sprites/back/850.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s850.png",
-            "back": "https://pokeidle.net/sprites/back/s850.png"
+            "front": "sprites/s850.png",
+            "back": "sprites/back/s850.png"
          }
       }
    },
@@ -32747,12 +32747,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/851.png",
-            "back": "https://pokeidle.net/sprites/back/851.png"
+            "front": "sprites/851.png",
+            "back": "sprites/back/851.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s851.png",
-            "back": "https://pokeidle.net/sprites/back/s851.png"
+            "front": "sprites/s851.png",
+            "back": "sprites/back/s851.png"
          }
       }
    },
@@ -32785,12 +32785,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/852.png",
-            "back": "https://pokeidle.net/sprites/back/852.png"
+            "front": "sprites/852.png",
+            "back": "sprites/back/852.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s852.png",
-            "back": "https://pokeidle.net/sprites/back/s852.png"
+            "front": "sprites/s852.png",
+            "back": "sprites/back/s852.png"
          }
       }
    },
@@ -32823,12 +32823,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/853.png",
-            "back": "https://pokeidle.net/sprites/back/853.png"
+            "front": "sprites/853.png",
+            "back": "sprites/back/853.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s853.png",
-            "back": "https://pokeidle.net/sprites/back/s853.png"
+            "front": "sprites/s853.png",
+            "back": "sprites/back/s853.png"
          }
       }
    },
@@ -32861,12 +32861,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/854.png",
-            "back": "https://pokeidle.net/sprites/back/854.png"
+            "front": "sprites/854.png",
+            "back": "sprites/back/854.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s854.png",
-            "back": "https://pokeidle.net/sprites/back/s854.png"
+            "front": "sprites/s854.png",
+            "back": "sprites/back/s854.png"
          }
       }
    },
@@ -32899,12 +32899,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/855.png",
-            "back": "https://pokeidle.net/sprites/back/855.png"
+            "front": "sprites/855.png",
+            "back": "sprites/back/855.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s855.png",
-            "back": "https://pokeidle.net/sprites/back/s855.png"
+            "front": "sprites/s855.png",
+            "back": "sprites/back/s855.png"
          }
       }
    },
@@ -32937,12 +32937,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/856.png",
-            "back": "https://pokeidle.net/sprites/back/856.png"
+            "front": "sprites/856.png",
+            "back": "sprites/back/856.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s856.png",
-            "back": "https://pokeidle.net/sprites/back/s856.png"
+            "front": "sprites/s856.png",
+            "back": "sprites/back/s856.png"
          }
       }
    },
@@ -32975,12 +32975,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/857.png",
-            "back": "https://pokeidle.net/sprites/back/857.png"
+            "front": "sprites/857.png",
+            "back": "sprites/back/857.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s857.png",
-            "back": "https://pokeidle.net/sprites/back/s857.png"
+            "front": "sprites/s857.png",
+            "back": "sprites/back/s857.png"
          }
       }
    },
@@ -33014,12 +33014,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/858.png",
-            "back": "https://pokeidle.net/sprites/back/858.png"
+            "front": "sprites/858.png",
+            "back": "sprites/back/858.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s858.png",
-            "back": "https://pokeidle.net/sprites/back/s858.png"
+            "front": "sprites/s858.png",
+            "back": "sprites/back/s858.png"
          }
       }
    },
@@ -33053,12 +33053,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/859.png",
-            "back": "https://pokeidle.net/sprites/back/859.png"
+            "front": "sprites/859.png",
+            "back": "sprites/back/859.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s859.png",
-            "back": "https://pokeidle.net/sprites/back/s859.png"
+            "front": "sprites/s859.png",
+            "back": "sprites/back/s859.png"
          }
       }
    },
@@ -33092,12 +33092,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/860.png",
-            "back": "https://pokeidle.net/sprites/back/860.png"
+            "front": "sprites/860.png",
+            "back": "sprites/back/860.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s860.png",
-            "back": "https://pokeidle.net/sprites/back/s860.png"
+            "front": "sprites/s860.png",
+            "back": "sprites/back/s860.png"
          }
       }
    },
@@ -33131,12 +33131,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/861.png",
-            "back": "https://pokeidle.net/sprites/back/861.png"
+            "front": "sprites/861.png",
+            "back": "sprites/back/861.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s861.png",
-            "back": "https://pokeidle.net/sprites/back/s861.png"
+            "front": "sprites/s861.png",
+            "back": "sprites/back/s861.png"
          }
       }
    },
@@ -33170,12 +33170,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/862.png",
-            "back": "https://pokeidle.net/sprites/back/862.png"
+            "front": "sprites/862.png",
+            "back": "sprites/back/862.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s862.png",
-            "back": "https://pokeidle.net/sprites/back/s862.png"
+            "front": "sprites/s862.png",
+            "back": "sprites/back/s862.png"
          }
       }
    },
@@ -33208,12 +33208,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/863.png",
-            "back": "https://pokeidle.net/sprites/back/863.png"
+            "front": "sprites/863.png",
+            "back": "sprites/back/863.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s863.png",
-            "back": "https://pokeidle.net/sprites/back/s863.png"
+            "front": "sprites/s863.png",
+            "back": "sprites/back/s863.png"
          }
       }
    },
@@ -33246,12 +33246,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/864.png",
-            "back": "https://pokeidle.net/sprites/back/864.png"
+            "front": "sprites/864.png",
+            "back": "sprites/back/864.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s864.png",
-            "back": "https://pokeidle.net/sprites/back/s864.png"
+            "front": "sprites/s864.png",
+            "back": "sprites/back/s864.png"
          }
       }
    },
@@ -33284,12 +33284,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/865.png",
-            "back": "https://pokeidle.net/sprites/back/865.png"
+            "front": "sprites/865.png",
+            "back": "sprites/back/865.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s865.png",
-            "back": "https://pokeidle.net/sprites/back/s865.png"
+            "front": "sprites/s865.png",
+            "back": "sprites/back/s865.png"
          }
       }
    },
@@ -33323,12 +33323,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/866.png",
-            "back": "https://pokeidle.net/sprites/back/866.png"
+            "front": "sprites/866.png",
+            "back": "sprites/back/866.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s866.png",
-            "back": "https://pokeidle.net/sprites/back/s866.png"
+            "front": "sprites/s866.png",
+            "back": "sprites/back/s866.png"
          }
       }
    },
@@ -33362,12 +33362,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/867.png",
-            "back": "https://pokeidle.net/sprites/back/867.png"
+            "front": "sprites/867.png",
+            "back": "sprites/back/867.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s867.png",
-            "back": "https://pokeidle.net/sprites/back/s867.png"
+            "front": "sprites/s867.png",
+            "back": "sprites/back/s867.png"
          }
       }
    },
@@ -33400,12 +33400,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/868.png",
-            "back": "https://pokeidle.net/sprites/back/868.png"
+            "front": "sprites/868.png",
+            "back": "sprites/back/868.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s868.png",
-            "back": "https://pokeidle.net/sprites/back/s868.png"
+            "front": "sprites/s868.png",
+            "back": "sprites/back/s868.png"
          }
       }
    },
@@ -33438,12 +33438,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/869.png",
-            "back": "https://pokeidle.net/sprites/back/869.png"
+            "front": "sprites/869.png",
+            "back": "sprites/back/869.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s869.png",
-            "back": "https://pokeidle.net/sprites/back/s869.png"
+            "front": "sprites/s869.png",
+            "back": "sprites/back/s869.png"
          }
       }
    },
@@ -33476,12 +33476,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/870.png",
-            "back": "https://pokeidle.net/sprites/back/870.png"
+            "front": "sprites/870.png",
+            "back": "sprites/back/870.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s870.png",
-            "back": "https://pokeidle.net/sprites/back/s870.png"
+            "front": "sprites/s870.png",
+            "back": "sprites/back/s870.png"
          }
       }
    },
@@ -33514,12 +33514,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/871.png",
-            "back": "https://pokeidle.net/sprites/back/871.png"
+            "front": "sprites/871.png",
+            "back": "sprites/back/871.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s871.png",
-            "back": "https://pokeidle.net/sprites/back/s871.png"
+            "front": "sprites/s871.png",
+            "back": "sprites/back/s871.png"
          }
       }
    },
@@ -33553,12 +33553,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/872.png",
-            "back": "https://pokeidle.net/sprites/back/872.png"
+            "front": "sprites/872.png",
+            "back": "sprites/back/872.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s872.png",
-            "back": "https://pokeidle.net/sprites/back/s872.png"
+            "front": "sprites/s872.png",
+            "back": "sprites/back/s872.png"
          }
       }
    },
@@ -33592,12 +33592,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/873.png",
-            "back": "https://pokeidle.net/sprites/back/873.png"
+            "front": "sprites/873.png",
+            "back": "sprites/back/873.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s873.png",
-            "back": "https://pokeidle.net/sprites/back/s873.png"
+            "front": "sprites/s873.png",
+            "back": "sprites/back/s873.png"
          }
       }
    },
@@ -33630,12 +33630,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/874.png",
-            "back": "https://pokeidle.net/sprites/back/874.png"
+            "front": "sprites/874.png",
+            "back": "sprites/back/874.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s874.png",
-            "back": "https://pokeidle.net/sprites/back/s874.png"
+            "front": "sprites/s874.png",
+            "back": "sprites/back/s874.png"
          }
       }
    },
@@ -33668,12 +33668,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/875.png",
-            "back": "https://pokeidle.net/sprites/back/875.png"
+            "front": "sprites/875.png",
+            "back": "sprites/back/875.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s875.png",
-            "back": "https://pokeidle.net/sprites/back/s875.png"
+            "front": "sprites/s875.png",
+            "back": "sprites/back/s875.png"
          }
       }
    },
@@ -33707,12 +33707,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/876.png",
-            "back": "https://pokeidle.net/sprites/back/876.png"
+            "front": "sprites/876.png",
+            "back": "sprites/back/876.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s876.png",
-            "back": "https://pokeidle.net/sprites/back/s876.png"
+            "front": "sprites/s876.png",
+            "back": "sprites/back/s876.png"
          }
       }
    },
@@ -33746,12 +33746,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/877.png",
-            "back": "https://pokeidle.net/sprites/back/877.png"
+            "front": "sprites/877.png",
+            "back": "sprites/back/877.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s877.png",
-            "back": "https://pokeidle.net/sprites/back/s877.png"
+            "front": "sprites/s877.png",
+            "back": "sprites/back/s877.png"
          }
       }
    },
@@ -33784,12 +33784,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/878.png",
-            "back": "https://pokeidle.net/sprites/back/878.png"
+            "front": "sprites/878.png",
+            "back": "sprites/back/878.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s878.png",
-            "back": "https://pokeidle.net/sprites/back/s878.png"
+            "front": "sprites/s878.png",
+            "back": "sprites/back/s878.png"
          }
       }
    },
@@ -33822,12 +33822,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/879.png",
-            "back": "https://pokeidle.net/sprites/back/879.png"
+            "front": "sprites/879.png",
+            "back": "sprites/back/879.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s879.png",
-            "back": "https://pokeidle.net/sprites/back/s879.png"
+            "front": "sprites/s879.png",
+            "back": "sprites/back/s879.png"
          }
       }
    },
@@ -33861,12 +33861,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/880.png",
-            "back": "https://pokeidle.net/sprites/back/880.png"
+            "front": "sprites/880.png",
+            "back": "sprites/back/880.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s880.png",
-            "back": "https://pokeidle.net/sprites/back/s880.png"
+            "front": "sprites/s880.png",
+            "back": "sprites/back/s880.png"
          }
       }
    },
@@ -33900,12 +33900,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/881.png",
-            "back": "https://pokeidle.net/sprites/back/881.png"
+            "front": "sprites/881.png",
+            "back": "sprites/back/881.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s881.png",
-            "back": "https://pokeidle.net/sprites/back/s881.png"
+            "front": "sprites/s881.png",
+            "back": "sprites/back/s881.png"
          }
       }
    },
@@ -33939,12 +33939,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/882.png",
-            "back": "https://pokeidle.net/sprites/back/882.png"
+            "front": "sprites/882.png",
+            "back": "sprites/back/882.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s882.png",
-            "back": "https://pokeidle.net/sprites/back/s882.png"
+            "front": "sprites/s882.png",
+            "back": "sprites/back/s882.png"
          }
       }
    },
@@ -33978,12 +33978,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/883.png",
-            "back": "https://pokeidle.net/sprites/back/883.png"
+            "front": "sprites/883.png",
+            "back": "sprites/back/883.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s883.png",
-            "back": "https://pokeidle.net/sprites/back/s883.png"
+            "front": "sprites/s883.png",
+            "back": "sprites/back/s883.png"
          }
       }
    },
@@ -34017,12 +34017,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/884.png",
-            "back": "https://pokeidle.net/sprites/back/884.png"
+            "front": "sprites/884.png",
+            "back": "sprites/back/884.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s884.png",
-            "back": "https://pokeidle.net/sprites/back/s884.png"
+            "front": "sprites/s884.png",
+            "back": "sprites/back/s884.png"
          }
       }
    },
@@ -34056,12 +34056,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/885.png",
-            "back": "https://pokeidle.net/sprites/back/885.png"
+            "front": "sprites/885.png",
+            "back": "sprites/back/885.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s885.png",
-            "back": "https://pokeidle.net/sprites/back/s885.png"
+            "front": "sprites/s885.png",
+            "back": "sprites/back/s885.png"
          }
       }
    },
@@ -34095,12 +34095,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/886.png",
-            "back": "https://pokeidle.net/sprites/back/886.png"
+            "front": "sprites/886.png",
+            "back": "sprites/back/886.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s886.png",
-            "back": "https://pokeidle.net/sprites/back/s886.png"
+            "front": "sprites/s886.png",
+            "back": "sprites/back/s886.png"
          }
       }
    },
@@ -34134,12 +34134,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/887.png",
-            "back": "https://pokeidle.net/sprites/back/887.png"
+            "front": "sprites/887.png",
+            "back": "sprites/back/887.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s887.png",
-            "back": "https://pokeidle.net/sprites/back/s887.png"
+            "front": "sprites/s887.png",
+            "back": "sprites/back/s887.png"
          }
       }
    },
@@ -34172,12 +34172,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/888.png",
-            "back": "https://pokeidle.net/sprites/back/888.png"
+            "front": "sprites/888.png",
+            "back": "sprites/back/888.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s888.png",
-            "back": "https://pokeidle.net/sprites/back/s888.png"
+            "front": "sprites/s888.png",
+            "back": "sprites/back/s888.png"
          }
       }
    },
@@ -34210,12 +34210,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/889.png",
-            "back": "https://pokeidle.net/sprites/back/889.png"
+            "front": "sprites/889.png",
+            "back": "sprites/back/889.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s889.png",
-            "back": "https://pokeidle.net/sprites/back/s889.png"
+            "front": "sprites/s889.png",
+            "back": "sprites/back/s889.png"
          }
       }
    },
@@ -34249,12 +34249,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/890.png",
-            "back": "https://pokeidle.net/sprites/back/890.png"
+            "front": "sprites/890.png",
+            "back": "sprites/back/890.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s890.png",
-            "back": "https://pokeidle.net/sprites/back/s890.png"
+            "front": "sprites/s890.png",
+            "back": "sprites/back/s890.png"
          }
       }
    },
@@ -34287,12 +34287,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/891.png",
-            "back": "https://pokeidle.net/sprites/back/891.png"
+            "front": "sprites/891.png",
+            "back": "sprites/back/891.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s891.png",
-            "back": "https://pokeidle.net/sprites/back/s891.png"
+            "front": "sprites/s891.png",
+            "back": "sprites/back/s891.png"
          }
       }
    },
@@ -34326,12 +34326,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/892sss.png",
-            "back": "https://pokeidle.net/sprites/back/892sss.png"
+            "front": "sprites/892sss.png",
+            "back": "sprites/back/892sss.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s892sss.png",
-            "back": "https://pokeidle.net/sprites/back/s892sss.png"
+            "front": "sprites/s892sss.png",
+            "back": "sprites/back/s892sss.png"
          }
       }
    },
@@ -34365,12 +34365,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/893.png",
-            "back": "https://pokeidle.net/sprites/back/893.png"
+            "front": "sprites/893.png",
+            "back": "sprites/back/893.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s893.png",
-            "back": "https://pokeidle.net/sprites/back/s893.png"
+            "front": "sprites/s893.png",
+            "back": "sprites/back/s893.png"
          }
       }
    },
@@ -34403,12 +34403,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/894.png",
-            "back": "https://pokeidle.net/sprites/back/894.png"
+            "front": "sprites/894.png",
+            "back": "sprites/back/894.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s894.png",
-            "back": "https://pokeidle.net/sprites/back/s894.png"
+            "front": "sprites/s894.png",
+            "back": "sprites/back/s894.png"
          }
       }
    },
@@ -34441,12 +34441,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/895.png",
-            "back": "https://pokeidle.net/sprites/back/895.png"
+            "front": "sprites/895.png",
+            "back": "sprites/back/895.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s895.png",
-            "back": "https://pokeidle.net/sprites/back/s895.png"
+            "front": "sprites/s895.png",
+            "back": "sprites/back/s895.png"
          }
       }
    },
@@ -34479,12 +34479,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/896.png",
-            "back": "https://pokeidle.net/sprites/back/896.png"
+            "front": "sprites/896.png",
+            "back": "sprites/back/896.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s896.png",
-            "back": "https://pokeidle.net/sprites/back/s896.png"
+            "front": "sprites/s896.png",
+            "back": "sprites/back/s896.png"
          }
       }
    },
@@ -34517,12 +34517,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/897.png",
-            "back": "https://pokeidle.net/sprites/back/897.png"
+            "front": "sprites/897.png",
+            "back": "sprites/back/897.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s897.png",
-            "back": "https://pokeidle.net/sprites/back/s897.png"
+            "front": "sprites/s897.png",
+            "back": "sprites/back/s897.png"
          }
       }
    },
@@ -34556,12 +34556,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/898.png",
-            "back": "https://pokeidle.net/sprites/back/898.png"
+            "front": "sprites/898.png",
+            "back": "sprites/back/898.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s898.png",
-            "back": "https://pokeidle.net/sprites/back/s898.png"
+            "front": "sprites/s898.png",
+            "back": "sprites/back/s898.png"
          }
       }
    },
@@ -34596,12 +34596,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/899.png",
-            "back": "https://pokeidle.net/sprites/back/899.png"
+            "front": "sprites/899.png",
+            "back": "sprites/back/899.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s899.png",
-            "back": "https://pokeidle.net/sprites/back/s899.png"
+            "front": "sprites/s899.png",
+            "back": "sprites/back/s899.png"
          }
       }
    },
@@ -34635,12 +34635,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/900.png",
-            "back": "https://pokeidle.net/sprites/back/900.png"
+            "front": "sprites/900.png",
+            "back": "sprites/back/900.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s900.png",
-            "back": "https://pokeidle.net/sprites/back/s900.png"
+            "front": "sprites/s900.png",
+            "back": "sprites/back/s900.png"
          }
       }
    },
@@ -34674,12 +34674,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/901.png",
-            "back": "https://pokeidle.net/sprites/back/901.png"
+            "front": "sprites/901.png",
+            "back": "sprites/back/901.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s901.png",
-            "back": "https://pokeidle.net/sprites/back/s901.png"
+            "front": "sprites/s901.png",
+            "back": "sprites/back/s901.png"
          }
       }
    },
@@ -34713,12 +34713,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/902.png",
-            "back": "https://pokeidle.net/sprites/back/902.png"
+            "front": "sprites/902.png",
+            "back": "sprites/back/902.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s902.png",
-            "back": "https://pokeidle.net/sprites/back/s902.png"
+            "front": "sprites/s902.png",
+            "back": "sprites/back/s902.png"
          }
       }
    },
@@ -34752,12 +34752,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/903.png",
-            "back": "https://pokeidle.net/sprites/back/903.png"
+            "front": "sprites/903.png",
+            "back": "sprites/back/903.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s903.png",
-            "back": "https://pokeidle.net/sprites/back/s903.png"
+            "front": "sprites/s903.png",
+            "back": "sprites/back/s903.png"
          }
       }
    },
@@ -34791,12 +34791,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/904.png",
-            "back": "https://pokeidle.net/sprites/back/904.png"
+            "front": "sprites/904.png",
+            "back": "sprites/back/904.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s904.png",
-            "back": "https://pokeidle.net/sprites/back/s904.png"
+            "front": "sprites/s904.png",
+            "back": "sprites/back/s904.png"
          }
       }
    },
@@ -34830,12 +34830,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/905.png",
-            "back": "https://pokeidle.net/sprites/back/905.png"
+            "front": "sprites/905.png",
+            "back": "sprites/back/905.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s905.png",
-            "back": "https://pokeidle.net/sprites/back/s905.png"
+            "front": "sprites/s905.png",
+            "back": "sprites/back/s905.png"
          }
       }
    },
@@ -34870,12 +34870,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/003m.png",
-            "back": "https://pokeidle.net/sprites/back/003m.png"
+            "front": "sprites/003m.png",
+            "back": "sprites/back/003m.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s003m.png",
-            "back": "https://pokeidle.net/sprites/back/s003m.png"
+            "front": "sprites/s003m.png",
+            "back": "sprites/back/s003m.png"
          }
       }
    },
@@ -34909,12 +34909,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/006mx.png",
-            "back": "https://pokeidle.net/sprites/back/006mx.png"
+            "front": "sprites/006mx.png",
+            "back": "sprites/back/006mx.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s006mx.png",
-            "back": "https://pokeidle.net/sprites/back/s006mx.png"
+            "front": "sprites/s006mx.png",
+            "back": "sprites/back/s006mx.png"
          }
       }
    },
@@ -34948,12 +34948,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/006my.png",
-            "back": "https://pokeidle.net/sprites/back/006my.png"
+            "front": "sprites/006my.png",
+            "back": "sprites/back/006my.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s006my.png",
-            "back": "https://pokeidle.net/sprites/back/s006my.png"
+            "front": "sprites/s006my.png",
+            "back": "sprites/back/s006my.png"
          }
       }
    },
@@ -34986,12 +34986,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/009m.png",
-            "back": "https://pokeidle.net/sprites/back/009m.png"
+            "front": "sprites/009m.png",
+            "back": "sprites/back/009m.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s009m.png",
-            "back": "https://pokeidle.net/sprites/back/s009m.png"
+            "front": "sprites/s009m.png",
+            "back": "sprites/back/s009m.png"
          }
       }
    },
@@ -35025,12 +35025,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/015m.png",
-            "back": "https://pokeidle.net/sprites/back/015m.png"
+            "front": "sprites/015m.png",
+            "back": "sprites/back/015m.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s015m.png",
-            "back": "https://pokeidle.net/sprites/back/s015m.png"
+            "front": "sprites/s015m.png",
+            "back": "sprites/back/s015m.png"
          }
       }
    },
@@ -35064,12 +35064,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/018m.png",
-            "back": "https://pokeidle.net/sprites/back/018m.png"
+            "front": "sprites/018m.png",
+            "back": "sprites/back/018m.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s018m.png",
-            "back": "https://pokeidle.net/sprites/back/s018m.png"
+            "front": "sprites/s018m.png",
+            "back": "sprites/back/s018m.png"
          }
       }
    },
@@ -35103,12 +35103,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/019a.png",
-            "back": "https://pokeidle.net/sprites/back/019a.png"
+            "front": "sprites/019a.png",
+            "back": "sprites/back/019a.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s019a.png",
-            "back": "https://pokeidle.net/sprites/back/s019a.png"
+            "front": "sprites/s019a.png",
+            "back": "sprites/back/s019a.png"
          }
       }
    },
@@ -35142,12 +35142,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/020a.png",
-            "back": "https://pokeidle.net/sprites/back/020a.png"
+            "front": "sprites/020a.png",
+            "back": "sprites/back/020a.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s020a.png",
-            "back": "https://pokeidle.net/sprites/back/s020a.png"
+            "front": "sprites/s020a.png",
+            "back": "sprites/back/s020a.png"
          }
       }
    },
@@ -35181,12 +35181,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/026a.png",
-            "back": "https://pokeidle.net/sprites/back/026a.png"
+            "front": "sprites/026a.png",
+            "back": "sprites/back/026a.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s026a.png",
-            "back": "https://pokeidle.net/sprites/back/s026a.png"
+            "front": "sprites/s026a.png",
+            "back": "sprites/back/s026a.png"
          }
       }
    },
@@ -35220,12 +35220,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/027a.png",
-            "back": "https://pokeidle.net/sprites/back/027a.png"
+            "front": "sprites/027a.png",
+            "back": "sprites/back/027a.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s027a.png",
-            "back": "https://pokeidle.net/sprites/back/s027a.png"
+            "front": "sprites/s027a.png",
+            "back": "sprites/back/s027a.png"
          }
       }
    },
@@ -35259,12 +35259,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/028a.png",
-            "back": "https://pokeidle.net/sprites/back/028a.png"
+            "front": "sprites/028a.png",
+            "back": "sprites/back/028a.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s028a.png",
-            "back": "https://pokeidle.net/sprites/back/s028a.png"
+            "front": "sprites/s028a.png",
+            "back": "sprites/back/s028a.png"
          }
       }
    },
@@ -35297,12 +35297,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/037a.png",
-            "back": "https://pokeidle.net/sprites/back/037a.png"
+            "front": "sprites/037a.png",
+            "back": "sprites/back/037a.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s037a.png",
-            "back": "https://pokeidle.net/sprites/back/s037a.png"
+            "front": "sprites/s037a.png",
+            "back": "sprites/back/s037a.png"
          }
       }
    },
@@ -35335,12 +35335,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/038a.png",
-            "back": "https://pokeidle.net/sprites/back/038a.png"
+            "front": "sprites/038a.png",
+            "back": "sprites/back/038a.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s038a.png",
-            "back": "https://pokeidle.net/sprites/back/s038a.png"
+            "front": "sprites/s038a.png",
+            "back": "sprites/back/s038a.png"
          }
       }
    },
@@ -35374,12 +35374,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/050a.png",
-            "back": "https://pokeidle.net/sprites/back/050a.png"
+            "front": "sprites/050a.png",
+            "back": "sprites/back/050a.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s050a.png",
-            "back": "https://pokeidle.net/sprites/back/s050a.png"
+            "front": "sprites/s050a.png",
+            "back": "sprites/back/s050a.png"
          }
       }
    },
@@ -35413,12 +35413,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/051a.png",
-            "back": "https://pokeidle.net/sprites/back/051a.png"
+            "front": "sprites/051a.png",
+            "back": "sprites/back/051a.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s051a.png",
-            "back": "https://pokeidle.net/sprites/back/s051a.png"
+            "front": "sprites/s051a.png",
+            "back": "sprites/back/s051a.png"
          }
       }
    },
@@ -35451,12 +35451,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/052a.png",
-            "back": "https://pokeidle.net/sprites/back/052a.png"
+            "front": "sprites/052a.png",
+            "back": "sprites/back/052a.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s052a.png",
-            "back": "https://pokeidle.net/sprites/back/s052a.png"
+            "front": "sprites/s052a.png",
+            "back": "sprites/back/s052a.png"
          }
       }
    },
@@ -35489,12 +35489,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/052g.png",
-            "back": "https://pokeidle.net/sprites/back/052g.png"
+            "front": "sprites/052g.png",
+            "back": "sprites/back/052g.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s052g.png",
-            "back": "https://pokeidle.net/sprites/back/s052g.png"
+            "front": "sprites/s052g.png",
+            "back": "sprites/back/s052g.png"
          }
       }
    },
@@ -35527,12 +35527,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/053a.png",
-            "back": "https://pokeidle.net/sprites/back/053a.png"
+            "front": "sprites/053a.png",
+            "back": "sprites/back/053a.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s053a.png",
-            "back": "https://pokeidle.net/sprites/back/s053a.png"
+            "front": "sprites/s053a.png",
+            "back": "sprites/back/s053a.png"
          }
       }
    },
@@ -35566,12 +35566,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/58h.png",
-            "back": "https://pokeidle.net/sprites/back/58h.png"
+            "front": "sprites/58h.png",
+            "back": "sprites/back/58h.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s58h.png",
-            "back": "https://pokeidle.net/sprites/back/s58h.png"
+            "front": "sprites/s58h.png",
+            "back": "sprites/back/s58h.png"
          }
       }
    },
@@ -35605,12 +35605,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/59h.png",
-            "back": "https://pokeidle.net/sprites/back/59h.png"
+            "front": "sprites/59h.png",
+            "back": "sprites/back/59h.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s59h.png",
-            "back": "https://pokeidle.net/sprites/back/s59h.png"
+            "front": "sprites/s59h.png",
+            "back": "sprites/back/s59h.png"
          }
       }
    },
@@ -35643,12 +35643,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/065m.png",
-            "back": "https://pokeidle.net/sprites/back/065m.png"
+            "front": "sprites/065m.png",
+            "back": "sprites/back/065m.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s065m.png",
-            "back": "https://pokeidle.net/sprites/back/s065m.png"
+            "front": "sprites/s065m.png",
+            "back": "sprites/back/s065m.png"
          }
       }
    },
@@ -35682,12 +35682,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/074a.png",
-            "back": "https://pokeidle.net/sprites/back/074a.png"
+            "front": "sprites/074a.png",
+            "back": "sprites/back/074a.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s074a.png",
-            "back": "https://pokeidle.net/sprites/back/s074a.png"
+            "front": "sprites/s074a.png",
+            "back": "sprites/back/s074a.png"
          }
       }
    },
@@ -35721,12 +35721,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/075a.png",
-            "back": "https://pokeidle.net/sprites/back/075a.png"
+            "front": "sprites/075a.png",
+            "back": "sprites/back/075a.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s075a.png",
-            "back": "https://pokeidle.net/sprites/back/s075a.png"
+            "front": "sprites/s075a.png",
+            "back": "sprites/back/s075a.png"
          }
       }
    },
@@ -35760,12 +35760,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/076a.png",
-            "back": "https://pokeidle.net/sprites/back/076a.png"
+            "front": "sprites/076a.png",
+            "back": "sprites/back/076a.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s076a.png",
-            "back": "https://pokeidle.net/sprites/back/s076a.png"
+            "front": "sprites/s076a.png",
+            "back": "sprites/back/s076a.png"
          }
       }
    },
@@ -35798,12 +35798,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/077g.png",
-            "back": "https://pokeidle.net/sprites/back/077g.png"
+            "front": "sprites/077g.png",
+            "back": "sprites/back/077g.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s077g.png",
-            "back": "https://pokeidle.net/sprites/back/s077g.png"
+            "front": "sprites/s077g.png",
+            "back": "sprites/back/s077g.png"
          }
       }
    },
@@ -35837,12 +35837,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/078g.png",
-            "back": "https://pokeidle.net/sprites/back/078g.png"
+            "front": "sprites/078g.png",
+            "back": "sprites/back/078g.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s078g.png",
-            "back": "https://pokeidle.net/sprites/back/s078g.png"
+            "front": "sprites/s078g.png",
+            "back": "sprites/back/s078g.png"
          }
       }
    },
@@ -35875,12 +35875,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/083g.png",
-            "back": "https://pokeidle.net/sprites/back/083g.png"
+            "front": "sprites/083g.png",
+            "back": "sprites/back/083g.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s083g.png",
-            "back": "https://pokeidle.net/sprites/back/s083g.png"
+            "front": "sprites/s083g.png",
+            "back": "sprites/back/s083g.png"
          }
       }
    },
@@ -35913,12 +35913,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/079g.png",
-            "back": "https://pokeidle.net/sprites/back/079g.png"
+            "front": "sprites/079g.png",
+            "back": "sprites/back/079g.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s079g.png",
-            "back": "https://pokeidle.net/sprites/back/s079g.png"
+            "front": "sprites/s079g.png",
+            "back": "sprites/back/s079g.png"
          }
       }
    },
@@ -35952,12 +35952,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/080m.png",
-            "back": "https://pokeidle.net/sprites/back/080m.png"
+            "front": "sprites/080m.png",
+            "back": "sprites/back/080m.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s080m.png",
-            "back": "https://pokeidle.net/sprites/back/s080m.png"
+            "front": "sprites/s080m.png",
+            "back": "sprites/back/s080m.png"
          }
       }
    },
@@ -35991,12 +35991,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/080g.png",
-            "back": "https://pokeidle.net/sprites/back/080g.png"
+            "front": "sprites/080g.png",
+            "back": "sprites/back/080g.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s080g.png",
-            "back": "https://pokeidle.net/sprites/back/s080g.png"
+            "front": "sprites/s080g.png",
+            "back": "sprites/back/s080g.png"
          }
       }
    },
@@ -36030,12 +36030,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/088a.png",
-            "back": "https://pokeidle.net/sprites/back/088a.png"
+            "front": "sprites/088a.png",
+            "back": "sprites/back/088a.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s088a.png",
-            "back": "https://pokeidle.net/sprites/back/s088a.png"
+            "front": "sprites/s088a.png",
+            "back": "sprites/back/s088a.png"
          }
       }
    },
@@ -36069,12 +36069,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/089a.png",
-            "back": "https://pokeidle.net/sprites/back/089a.png"
+            "front": "sprites/089a.png",
+            "back": "sprites/back/089a.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s089a.png",
-            "back": "https://pokeidle.net/sprites/back/s089a.png"
+            "front": "sprites/s089a.png",
+            "back": "sprites/back/s089a.png"
          }
       }
    },
@@ -36108,12 +36108,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/094m.png",
-            "back": "https://pokeidle.net/sprites/back/094m.png"
+            "front": "sprites/094m.png",
+            "back": "sprites/back/094m.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s094m.png",
-            "back": "https://pokeidle.net/sprites/back/s094m.png"
+            "front": "sprites/s094m.png",
+            "back": "sprites/back/s094m.png"
          }
       }
    },
@@ -36147,12 +36147,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/100h.png",
-            "back": "https://pokeidle.net/sprites/back/100h.png"
+            "front": "sprites/100h.png",
+            "back": "sprites/back/100h.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s100h.png",
-            "back": "https://pokeidle.net/sprites/back/s100h.png"
+            "front": "sprites/s100h.png",
+            "back": "sprites/back/s100h.png"
          }
       }
    },
@@ -36186,12 +36186,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/101h.png",
-            "back": "https://pokeidle.net/sprites/back/101h.png"
+            "front": "sprites/101h.png",
+            "back": "sprites/back/101h.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s101h.png",
-            "back": "https://pokeidle.net/sprites/back/s101h.png"
+            "front": "sprites/s101h.png",
+            "back": "sprites/back/s101h.png"
          }
       }
    },
@@ -36225,12 +36225,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/103a.png",
-            "back": "https://pokeidle.net/sprites/back/103a.png"
+            "front": "sprites/103a.png",
+            "back": "sprites/back/103a.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s103a.png",
-            "back": "https://pokeidle.net/sprites/back/s103a.png"
+            "front": "sprites/s103a.png",
+            "back": "sprites/back/s103a.png"
          }
       }
    },
@@ -36264,12 +36264,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/105a.png",
-            "back": "https://pokeidle.net/sprites/back/105a.png"
+            "front": "sprites/105a.png",
+            "back": "sprites/back/105a.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s105a.png",
-            "back": "https://pokeidle.net/sprites/back/s105a.png"
+            "front": "sprites/s105a.png",
+            "back": "sprites/back/s105a.png"
          }
       }
    },
@@ -36303,12 +36303,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/110g.png",
-            "back": "https://pokeidle.net/sprites/back/110g.png"
+            "front": "sprites/110g.png",
+            "back": "sprites/back/110g.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s110g.png",
-            "back": "https://pokeidle.net/sprites/back/s110g.png"
+            "front": "sprites/s110g.png",
+            "back": "sprites/back/s110g.png"
          }
       }
    },
@@ -36341,12 +36341,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/115m.png",
-            "back": "https://pokeidle.net/sprites/back/115m.png"
+            "front": "sprites/115m.png",
+            "back": "sprites/back/115m.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s115m.png",
-            "back": "https://pokeidle.net/sprites/back/s115m.png"
+            "front": "sprites/s115m.png",
+            "back": "sprites/back/s115m.png"
          }
       }
    },
@@ -36380,12 +36380,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/122g.png",
-            "back": "https://pokeidle.net/sprites/back/122g.png"
+            "front": "sprites/122g.png",
+            "back": "sprites/back/122g.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s122g.png",
-            "back": "https://pokeidle.net/sprites/back/s122g.png"
+            "front": "sprites/s122g.png",
+            "back": "sprites/back/s122g.png"
          }
       }
    },
@@ -36419,12 +36419,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/127m.png",
-            "back": "https://pokeidle.net/sprites/back/127m.png"
+            "front": "sprites/127m.png",
+            "back": "sprites/back/127m.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s127m.png",
-            "back": "https://pokeidle.net/sprites/back/s127m.png"
+            "front": "sprites/s127m.png",
+            "back": "sprites/back/s127m.png"
          }
       }
    },
@@ -36458,12 +36458,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/130m.png",
-            "back": "https://pokeidle.net/sprites/back/130m.png"
+            "front": "sprites/130m.png",
+            "back": "sprites/back/130m.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s130m.png",
-            "back": "https://pokeidle.net/sprites/back/s130m.png"
+            "front": "sprites/s130m.png",
+            "back": "sprites/back/s130m.png"
          }
       }
    },
@@ -36497,12 +36497,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/142m.png",
-            "back": "https://pokeidle.net/sprites/back/142m.png"
+            "front": "sprites/142m.png",
+            "back": "sprites/back/142m.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s142m.png",
-            "back": "https://pokeidle.net/sprites/back/s142m.png"
+            "front": "sprites/s142m.png",
+            "back": "sprites/back/s142m.png"
          }
       }
    },
@@ -36536,12 +36536,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/144g.png",
-            "back": "https://pokeidle.net/sprites/back/144g.png"
+            "front": "sprites/144g.png",
+            "back": "sprites/back/144g.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s144g.png",
-            "back": "https://pokeidle.net/sprites/back/s144g.png"
+            "front": "sprites/s144g.png",
+            "back": "sprites/back/s144g.png"
          }
       }
    },
@@ -36575,12 +36575,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/145g.png",
-            "back": "https://pokeidle.net/sprites/back/145g.png"
+            "front": "sprites/145g.png",
+            "back": "sprites/back/145g.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s145g.png",
-            "back": "https://pokeidle.net/sprites/back/s145g.png"
+            "front": "sprites/s145g.png",
+            "back": "sprites/back/s145g.png"
          }
       }
    },
@@ -36614,12 +36614,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/146g.png",
-            "back": "https://pokeidle.net/sprites/back/146g.png"
+            "front": "sprites/146g.png",
+            "back": "sprites/back/146g.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s146g.png",
-            "back": "https://pokeidle.net/sprites/back/s146g.png"
+            "front": "sprites/s146g.png",
+            "back": "sprites/back/s146g.png"
          }
       }
    },
@@ -36653,12 +36653,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/150mx.png",
-            "back": "https://pokeidle.net/sprites/back/150mx.png"
+            "front": "sprites/150mx.png",
+            "back": "sprites/back/150mx.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s150mx.png",
-            "back": "https://pokeidle.net/sprites/back/s150mx.png"
+            "front": "sprites/s150mx.png",
+            "back": "sprites/back/s150mx.png"
          }
       }
    },
@@ -36691,12 +36691,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/150my.png",
-            "back": "https://pokeidle.net/sprites/back/150my.png"
+            "front": "sprites/150my.png",
+            "back": "sprites/back/150my.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s150my.png",
-            "back": "https://pokeidle.net/sprites/back/s150my.png"
+            "front": "sprites/s150my.png",
+            "back": "sprites/back/s150my.png"
          }
       }
    },
@@ -36730,12 +36730,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/157h.png",
-            "back": "https://pokeidle.net/sprites/back/157h.png"
+            "front": "sprites/157h.png",
+            "back": "sprites/back/157h.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s157h.png",
-            "back": "https://pokeidle.net/sprites/back/s157h.png"
+            "front": "sprites/s157h.png",
+            "back": "sprites/back/s157h.png"
          }
       }
    },
@@ -36769,12 +36769,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/181m.png",
-            "back": "https://pokeidle.net/sprites/back/181m.png"
+            "front": "sprites/181m.png",
+            "back": "sprites/back/181m.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s181m.png",
-            "back": "https://pokeidle.net/sprites/back/s181m.png"
+            "front": "sprites/s181m.png",
+            "back": "sprites/back/s181m.png"
          }
       }
    },
@@ -36808,12 +36808,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/199g.png",
-            "back": "https://pokeidle.net/sprites/back/199g.png"
+            "front": "sprites/199g.png",
+            "back": "sprites/back/199g.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s199g.png",
-            "back": "https://pokeidle.net/sprites/back/s199g.png"
+            "front": "sprites/s199g.png",
+            "back": "sprites/back/s199g.png"
          }
       }
    },
@@ -36847,12 +36847,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/208m.png",
-            "back": "https://pokeidle.net/sprites/back/208m.png"
+            "front": "sprites/208m.png",
+            "back": "sprites/back/208m.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s208m.png",
-            "back": "https://pokeidle.net/sprites/back/s208m.png"
+            "front": "sprites/s208m.png",
+            "back": "sprites/back/s208m.png"
          }
       }
    },
@@ -36886,12 +36886,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/211h.png",
-            "back": "https://pokeidle.net/sprites/back/211h.png"
+            "front": "sprites/211h.png",
+            "back": "sprites/back/211h.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s211h.png",
-            "back": "https://pokeidle.net/sprites/back/s211h.png"
+            "front": "sprites/s211h.png",
+            "back": "sprites/back/s211h.png"
          }
       }
    },
@@ -36925,12 +36925,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/212m.png",
-            "back": "https://pokeidle.net/sprites/back/212m.png"
+            "front": "sprites/212m.png",
+            "back": "sprites/back/212m.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s212m.png",
-            "back": "https://pokeidle.net/sprites/back/s212m.png"
+            "front": "sprites/s212m.png",
+            "back": "sprites/back/s212m.png"
          }
       }
    },
@@ -36964,12 +36964,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/214m.png",
-            "back": "https://pokeidle.net/sprites/back/214m.png"
+            "front": "sprites/214m.png",
+            "back": "sprites/back/214m.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s214m.png",
-            "back": "https://pokeidle.net/sprites/back/s214m.png"
+            "front": "sprites/s214m.png",
+            "back": "sprites/back/s214m.png"
          }
       }
    },
@@ -37003,12 +37003,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/215h.png",
-            "back": "https://pokeidle.net/sprites/back/215h.png"
+            "front": "sprites/215h.png",
+            "back": "sprites/back/215h.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s215h.png",
-            "back": "https://pokeidle.net/sprites/back/s215h.png"
+            "front": "sprites/s215h.png",
+            "back": "sprites/back/s215h.png"
          }
       }
    },
@@ -37041,12 +37041,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/222g.png",
-            "back": "https://pokeidle.net/sprites/back/222g.png"
+            "front": "sprites/222g.png",
+            "back": "sprites/back/222g.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s222g.png",
-            "back": "https://pokeidle.net/sprites/back/s222g.png"
+            "front": "sprites/s222g.png",
+            "back": "sprites/back/s222g.png"
          }
       }
    },
@@ -37080,12 +37080,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/229m.png",
-            "back": "https://pokeidle.net/sprites/back/229m.png"
+            "front": "sprites/229m.png",
+            "back": "sprites/back/229m.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s229m.png",
-            "back": "https://pokeidle.net/sprites/back/s229m.png"
+            "front": "sprites/s229m.png",
+            "back": "sprites/back/s229m.png"
          }
       }
    },
@@ -37119,12 +37119,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/248m.png",
-            "back": "https://pokeidle.net/sprites/back/248m.png"
+            "front": "sprites/248m.png",
+            "back": "sprites/back/248m.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s248m.png",
-            "back": "https://pokeidle.net/sprites/back/s248m.png"
+            "front": "sprites/s248m.png",
+            "back": "sprites/back/s248m.png"
          }
       }
    },
@@ -37158,12 +37158,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/254m.png",
-            "back": "https://pokeidle.net/sprites/back/254m.png"
+            "front": "sprites/254m.png",
+            "back": "sprites/back/254m.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s254m.png",
-            "back": "https://pokeidle.net/sprites/back/s254m.png"
+            "front": "sprites/s254m.png",
+            "back": "sprites/back/s254m.png"
          }
       }
    },
@@ -37197,12 +37197,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/257m.png",
-            "back": "https://pokeidle.net/sprites/back/257m.png"
+            "front": "sprites/257m.png",
+            "back": "sprites/back/257m.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s257m.png",
-            "back": "https://pokeidle.net/sprites/back/s257m.png"
+            "front": "sprites/s257m.png",
+            "back": "sprites/back/s257m.png"
          }
       }
    },
@@ -37236,12 +37236,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/260m.png",
-            "back": "https://pokeidle.net/sprites/back/260m.png"
+            "front": "sprites/260m.png",
+            "back": "sprites/back/260m.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s260m.png",
-            "back": "https://pokeidle.net/sprites/back/s260m.png"
+            "front": "sprites/s260m.png",
+            "back": "sprites/back/s260m.png"
          }
       }
    },
@@ -37275,12 +37275,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/263g.png",
-            "back": "https://pokeidle.net/sprites/back/263g.png"
+            "front": "sprites/263g.png",
+            "back": "sprites/back/263g.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s263g.png",
-            "back": "https://pokeidle.net/sprites/back/s263g.png"
+            "front": "sprites/s263g.png",
+            "back": "sprites/back/s263g.png"
          }
       }
    },
@@ -37314,12 +37314,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/264g.png",
-            "back": "https://pokeidle.net/sprites/back/264g.png"
+            "front": "sprites/264g.png",
+            "back": "sprites/back/264g.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s264g.png",
-            "back": "https://pokeidle.net/sprites/back/s264g.png"
+            "front": "sprites/s264g.png",
+            "back": "sprites/back/s264g.png"
          }
       }
    },
@@ -37353,12 +37353,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/282m.png",
-            "back": "https://pokeidle.net/sprites/back/282m.png"
+            "front": "sprites/282m.png",
+            "back": "sprites/back/282m.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s282m.png",
-            "back": "https://pokeidle.net/sprites/back/s282m.png"
+            "front": "sprites/s282m.png",
+            "back": "sprites/back/s282m.png"
          }
       }
    },
@@ -37392,12 +37392,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/302m.png",
-            "back": "https://pokeidle.net/sprites/back/302m.png"
+            "front": "sprites/302m.png",
+            "back": "sprites/back/302m.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s302m.png",
-            "back": "https://pokeidle.net/sprites/back/s302m.png"
+            "front": "sprites/s302m.png",
+            "back": "sprites/back/s302m.png"
          }
       }
    },
@@ -37431,12 +37431,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/303m.png",
-            "back": "https://pokeidle.net/sprites/back/303m.png"
+            "front": "sprites/303m.png",
+            "back": "sprites/back/303m.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s303m.png",
-            "back": "https://pokeidle.net/sprites/back/s303m.png"
+            "front": "sprites/s303m.png",
+            "back": "sprites/back/s303m.png"
          }
       }
    },
@@ -37469,12 +37469,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/306m.png",
-            "back": "https://pokeidle.net/sprites/back/306m.png"
+            "front": "sprites/306m.png",
+            "back": "sprites/back/306m.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s306m.png",
-            "back": "https://pokeidle.net/sprites/back/s306m.png"
+            "front": "sprites/s306m.png",
+            "back": "sprites/back/s306m.png"
          }
       }
    },
@@ -37508,12 +37508,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/308m.png",
-            "back": "https://pokeidle.net/sprites/back/308m.png"
+            "front": "sprites/308m.png",
+            "back": "sprites/back/308m.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s308m.png",
-            "back": "https://pokeidle.net/sprites/back/s308m.png"
+            "front": "sprites/s308m.png",
+            "back": "sprites/back/s308m.png"
          }
       }
    },
@@ -37546,12 +37546,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/310m.png",
-            "back": "https://pokeidle.net/sprites/back/310m.png"
+            "front": "sprites/310m.png",
+            "back": "sprites/back/310m.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s310m.png",
-            "back": "https://pokeidle.net/sprites/back/s310m.png"
+            "front": "sprites/s310m.png",
+            "back": "sprites/back/s310m.png"
          }
       }
    },
@@ -37585,12 +37585,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/319m.png",
-            "back": "https://pokeidle.net/sprites/back/319m.png"
+            "front": "sprites/319m.png",
+            "back": "sprites/back/319m.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s319m.png",
-            "back": "https://pokeidle.net/sprites/back/s319m.png"
+            "front": "sprites/s319m.png",
+            "back": "sprites/back/s319m.png"
          }
       }
    },
@@ -37624,12 +37624,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/323m.png",
-            "back": "https://pokeidle.net/sprites/back/323m.png"
+            "front": "sprites/323m.png",
+            "back": "sprites/back/323m.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s323m.png",
-            "back": "https://pokeidle.net/sprites/back/s323m.png"
+            "front": "sprites/s323m.png",
+            "back": "sprites/back/s323m.png"
          }
       }
    },
@@ -37663,12 +37663,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/334m.png",
-            "back": "https://pokeidle.net/sprites/back/334m.png"
+            "front": "sprites/334m.png",
+            "back": "sprites/back/334m.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s334m.png",
-            "back": "https://pokeidle.net/sprites/back/s334m.png"
+            "front": "sprites/s334m.png",
+            "back": "sprites/back/s334m.png"
          }
       }
    },
@@ -37701,12 +37701,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/354m.png",
-            "back": "https://pokeidle.net/sprites/back/354m.png"
+            "front": "sprites/354m.png",
+            "back": "sprites/back/354m.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s354m.png",
-            "back": "https://pokeidle.net/sprites/back/s354m.png"
+            "front": "sprites/s354m.png",
+            "back": "sprites/back/s354m.png"
          }
       }
    },
@@ -37739,12 +37739,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/359m.png",
-            "back": "https://pokeidle.net/sprites/back/359m.png"
+            "front": "sprites/359m.png",
+            "back": "sprites/back/359m.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s359m.png",
-            "back": "https://pokeidle.net/sprites/back/s359m.png"
+            "front": "sprites/s359m.png",
+            "back": "sprites/back/s359m.png"
          }
       }
    },
@@ -37777,12 +37777,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/362m.png",
-            "back": "https://pokeidle.net/sprites/back/362m.png"
+            "front": "sprites/362m.png",
+            "back": "sprites/back/362m.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s362m.png",
-            "back": "https://pokeidle.net/sprites/back/s362m.png"
+            "front": "sprites/s362m.png",
+            "back": "sprites/back/s362m.png"
          }
       }
    },
@@ -37816,12 +37816,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/373m.png",
-            "back": "https://pokeidle.net/sprites/back/373m.png"
+            "front": "sprites/373m.png",
+            "back": "sprites/back/373m.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s373m.png",
-            "back": "https://pokeidle.net/sprites/back/s373m.png"
+            "front": "sprites/s373m.png",
+            "back": "sprites/back/s373m.png"
          }
       }
    },
@@ -37855,12 +37855,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/376m.png",
-            "back": "https://pokeidle.net/sprites/back/376m.png"
+            "front": "sprites/376m.png",
+            "back": "sprites/back/376m.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s376m.png",
-            "back": "https://pokeidle.net/sprites/back/s376m.png"
+            "front": "sprites/s376m.png",
+            "back": "sprites/back/s376m.png"
          }
       }
    },
@@ -37894,12 +37894,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/380m.png",
-            "back": "https://pokeidle.net/sprites/back/380m.png"
+            "front": "sprites/380m.png",
+            "back": "sprites/back/380m.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s380m.png",
-            "back": "https://pokeidle.net/sprites/back/s380m.png"
+            "front": "sprites/s380m.png",
+            "back": "sprites/back/s380m.png"
          }
       }
    },
@@ -37933,12 +37933,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/381m.png",
-            "back": "https://pokeidle.net/sprites/back/381m.png"
+            "front": "sprites/381m.png",
+            "back": "sprites/back/381m.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s381m.png",
-            "back": "https://pokeidle.net/sprites/back/s381m.png"
+            "front": "sprites/s381m.png",
+            "back": "sprites/back/s381m.png"
          }
       }
    },
@@ -37971,12 +37971,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/382p.png",
-            "back": "https://pokeidle.net/sprites/back/382p.png"
+            "front": "sprites/382p.png",
+            "back": "sprites/back/382p.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s382p.png",
-            "back": "https://pokeidle.net/sprites/back/s382p.png"
+            "front": "sprites/s382p.png",
+            "back": "sprites/back/s382p.png"
          }
       }
    },
@@ -38010,12 +38010,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/383p.png",
-            "back": "https://pokeidle.net/sprites/back/383p.png"
+            "front": "sprites/383p.png",
+            "back": "sprites/back/383p.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s383p.png",
-            "back": "https://pokeidle.net/sprites/back/s383p.png"
+            "front": "sprites/s383p.png",
+            "back": "sprites/back/s383p.png"
          }
       }
    },
@@ -38049,12 +38049,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/384m.png",
-            "back": "https://pokeidle.net/sprites/back/384m.png"
+            "front": "sprites/384m.png",
+            "back": "sprites/back/384m.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s384m.png",
-            "back": "https://pokeidle.net/sprites/back/s384m.png"
+            "front": "sprites/s384m.png",
+            "back": "sprites/back/s384m.png"
          }
       }
    },
@@ -38202,12 +38202,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/428m.png",
-            "back": "https://pokeidle.net/sprites/back/428m.png"
+            "front": "sprites/428m.png",
+            "back": "sprites/back/428m.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s428m.png",
-            "back": "https://pokeidle.net/sprites/back/s428m.png"
+            "front": "sprites/s428m.png",
+            "back": "sprites/back/s428m.png"
          }
       }
    },     
@@ -38241,12 +38241,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/445m.png",
-            "back": "https://pokeidle.net/sprites/back/445m.png"
+            "front": "sprites/445m.png",
+            "back": "sprites/back/445m.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s445m.png",
-            "back": "https://pokeidle.net/sprites/back/s445m.png"
+            "front": "sprites/s445m.png",
+            "back": "sprites/back/s445m.png"
          }
       }
    },
@@ -38280,12 +38280,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/448m.png",
-            "back": "https://pokeidle.net/sprites/back/448m.png"
+            "front": "sprites/448m.png",
+            "back": "sprites/back/448m.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s448m.png",
-            "back": "https://pokeidle.net/sprites/back/s448m.png"
+            "front": "sprites/s448m.png",
+            "back": "sprites/back/s448m.png"
          }
       }
    },
@@ -38319,12 +38319,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/460m.png",
-            "back": "https://pokeidle.net/sprites/back/460m.png"
+            "front": "sprites/460m.png",
+            "back": "sprites/back/460m.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s460m.png",
-            "back": "https://pokeidle.net/sprites/back/s460m.png"
+            "front": "sprites/s460m.png",
+            "back": "sprites/back/s460m.png"
          }
       }
    },
@@ -38358,12 +38358,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/475m.png",
-            "back": "https://pokeidle.net/sprites/back/475m.png"
+            "front": "sprites/475m.png",
+            "back": "sprites/back/475m.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s475m.png",
-            "back": "https://pokeidle.net/sprites/back/s475m.png"
+            "front": "sprites/s475m.png",
+            "back": "sprites/back/s475m.png"
          }
       }
    },
@@ -38592,12 +38592,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/483o.png",
-            "back": "https://pokeidle.net/sprites/back/483o.png"
+            "front": "sprites/483o.png",
+            "back": "sprites/back/483o.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s483o.png",
-            "back": "https://pokeidle.net/sprites/back/s483o.png"
+            "front": "sprites/s483o.png",
+            "back": "sprites/back/s483o.png"
          }
       }
    },
@@ -38631,12 +38631,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/484o.png",
-            "back": "https://pokeidle.net/sprites/back/484o.png"
+            "front": "sprites/484o.png",
+            "back": "sprites/back/484o.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s484o.png",
-            "back": "https://pokeidle.net/sprites/back/s484o.png"
+            "front": "sprites/s484o.png",
+            "back": "sprites/back/s484o.png"
          }
       }
    },
@@ -38748,12 +38748,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/503h.png",
-            "back": "https://pokeidle.net/sprites/back/503h.png"
+            "front": "sprites/503h.png",
+            "back": "sprites/back/503h.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s503h.png",
-            "back": "https://pokeidle.net/sprites/back/s503h.png"
+            "front": "sprites/s503h.png",
+            "back": "sprites/back/s503h.png"
          }
       }
    },
@@ -38787,12 +38787,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/531m.png",
-            "back": "https://pokeidle.net/sprites/back/531m.png"
+            "front": "sprites/531m.png",
+            "back": "sprites/back/531m.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s531m.png",
-            "back": "https://pokeidle.net/sprites/back/s531m.png"
+            "front": "sprites/s531m.png",
+            "back": "sprites/back/s531m.png"
          }
       }
    },
@@ -38826,12 +38826,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/549h.png",
-            "back": "https://pokeidle.net/sprites/back/549h.png"
+            "front": "sprites/549h.png",
+            "back": "sprites/back/549h.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s549h.png",
-            "back": "https://pokeidle.net/sprites/back/s549h.png"
+            "front": "sprites/s549h.png",
+            "back": "sprites/back/s549h.png"
          }
       }
    },
@@ -38864,12 +38864,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/550w.png",
-            "back": "https://pokeidle.net/sprites/back/550w.png"
+            "front": "sprites/550w.png",
+            "back": "sprites/back/550w.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s550w.png",
-            "back": "https://pokeidle.net/sprites/back/s550w.png"
+            "front": "sprites/s550w.png",
+            "back": "sprites/back/s550w.png"
          }
       }
    },
@@ -38941,12 +38941,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/554g.png",
-            "back": "https://pokeidle.net/sprites/back/554g.png"
+            "front": "sprites/554g.png",
+            "back": "sprites/back/554g.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s554g.png",
-            "back": "https://pokeidle.net/sprites/back/s554g.png"
+            "front": "sprites/s554g.png",
+            "back": "sprites/back/s554g.png"
          }
       }
    },
@@ -38979,12 +38979,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/555g.png",
-            "back": "https://pokeidle.net/sprites/back/555g.png"
+            "front": "sprites/555g.png",
+            "back": "sprites/back/555g.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s555g.png",
-            "back": "https://pokeidle.net/sprites/back/s555g.png"
+            "front": "sprites/s555g.png",
+            "back": "sprites/back/s555g.png"
          }
       }
    },
@@ -39018,12 +39018,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/555gz.png",
-            "back": "https://pokeidle.net/sprites/back/555gz.png"
+            "front": "sprites/555gz.png",
+            "back": "sprites/back/555gz.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s555gz.png",
-            "back": "https://pokeidle.net/sprites/back/s555gz.png"
+            "front": "sprites/s555gz.png",
+            "back": "sprites/back/s555gz.png"
          }
       }
    },
@@ -39057,12 +39057,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/562g.png",
-            "back": "https://pokeidle.net/sprites/back/562g.png"
+            "front": "sprites/562g.png",
+            "back": "sprites/back/562g.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s562g.png",
-            "back": "https://pokeidle.net/sprites/back/s562g.png"
+            "front": "sprites/s562g.png",
+            "back": "sprites/back/s562g.png"
          }
       }
    },
@@ -39096,12 +39096,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/570h.png",
-            "back": "https://pokeidle.net/sprites/back/570h.png"
+            "front": "sprites/570h.png",
+            "back": "sprites/back/570h.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s570h.png",
-            "back": "https://pokeidle.net/sprites/back/s570h.png"
+            "front": "sprites/s570h.png",
+            "back": "sprites/back/s570h.png"
          }
       }
    },
@@ -39135,12 +39135,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/571h.png",
-            "back": "https://pokeidle.net/sprites/back/571h.png"
+            "front": "sprites/571h.png",
+            "back": "sprites/back/571h.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s571h.png",
-            "back": "https://pokeidle.net/sprites/back/s571h.png"
+            "front": "sprites/s571h.png",
+            "back": "sprites/back/s571h.png"
          }
       }
    },
@@ -39174,12 +39174,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/618g.png",
-            "back": "https://pokeidle.net/sprites/back/618g.png"
+            "front": "sprites/618g.png",
+            "back": "sprites/back/618g.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s618g.png",
-            "back": "https://pokeidle.net/sprites/back/s618g.png"
+            "front": "sprites/s618g.png",
+            "back": "sprites/back/s618g.png"
          }
       }
    },
@@ -39213,12 +39213,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/628h.png",
-            "back": "https://pokeidle.net/sprites/back/628h.png"
+            "front": "sprites/628h.png",
+            "back": "sprites/back/628h.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s628h.png",
-            "back": "https://pokeidle.net/sprites/back/s628h.png"
+            "front": "sprites/s628h.png",
+            "back": "sprites/back/s628h.png"
          }
       }
    },
@@ -39524,12 +39524,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/658a.png",
-            "back": "https://pokeidle.net/sprites/back/658a.png"
+            "front": "sprites/658a.png",
+            "back": "sprites/back/658a.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s658a.png",
-            "back": "https://pokeidle.net/sprites/back/s658a.png"
+            "front": "sprites/s658a.png",
+            "back": "sprites/back/s658a.png"
          }
       }
    },
@@ -39563,12 +39563,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/681b.png",
-            "back": "https://pokeidle.net/sprites/back/681b.png"
+            "front": "sprites/681b.png",
+            "back": "sprites/back/681b.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s681b.png",
-            "back": "https://pokeidle.net/sprites/back/s681b.png"
+            "front": "sprites/s681b.png",
+            "back": "sprites/back/s681b.png"
          }
       }
    },
@@ -39602,12 +39602,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/705h.png",
-            "back": "https://pokeidle.net/sprites/back/705h.png"
+            "front": "sprites/705h.png",
+            "back": "sprites/back/705h.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s705h.png",
-            "back": "https://pokeidle.net/sprites/back/s705h.png"
+            "front": "sprites/s705h.png",
+            "back": "sprites/back/s705h.png"
          }
       }
    },
@@ -39641,12 +39641,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/706h.png",
-            "back": "https://pokeidle.net/sprites/back/706h.png"
+            "front": "sprites/706h.png",
+            "back": "sprites/back/706h.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s706h.png",
-            "back": "https://pokeidle.net/sprites/back/s706h.png"
+            "front": "sprites/s706h.png",
+            "back": "sprites/back/s706h.png"
          }
       }
    },
@@ -39680,12 +39680,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/713h.png",
-            "back": "https://pokeidle.net/sprites/back/713h.png"
+            "front": "sprites/713h.png",
+            "back": "sprites/back/713h.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s713h.png",
-            "back": "https://pokeidle.net/sprites/back/s713h.png"
+            "front": "sprites/s713h.png",
+            "back": "sprites/back/s713h.png"
          }
       }
    },
@@ -39719,12 +39719,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/71810.png",
-            "back": "https://pokeidle.net/sprites/back/71810.png"
+            "front": "sprites/71810.png",
+            "back": "sprites/back/71810.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s71810.png",
-            "back": "https://pokeidle.net/sprites/back/s71810.png"
+            "front": "sprites/s71810.png",
+            "back": "sprites/back/s71810.png"
          }
       }
    },
@@ -39758,12 +39758,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/718c.png",
-            "back": "https://pokeidle.net/sprites/back/718c.png"
+            "front": "sprites/718c.png",
+            "back": "sprites/back/718c.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s718c.png",
-            "back": "https://pokeidle.net/sprites/back/s718c.png"
+            "front": "sprites/s718c.png",
+            "back": "sprites/back/s718c.png"
          }
       }
    },
@@ -39797,12 +39797,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/719m.png",
-            "back": "https://pokeidle.net/sprites/back/719m.png"
+            "front": "sprites/719m.png",
+            "back": "sprites/back/719m.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s719m.png",
-            "back": "https://pokeidle.net/sprites/back/s719m.png"
+            "front": "sprites/s719m.png",
+            "back": "sprites/back/s719m.png"
          }
       }
    },
@@ -39836,12 +39836,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/720u.png",
-            "back": "https://pokeidle.net/sprites/back/720u.png"
+            "front": "sprites/720u.png",
+            "back": "sprites/back/720u.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s720u.png",
-            "back": "https://pokeidle.net/sprites/back/s720u.png"
+            "front": "sprites/s720u.png",
+            "back": "sprites/back/s720u.png"
          }
       }
    },
@@ -39875,12 +39875,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/724h.png",
-            "back": "https://pokeidle.net/sprites/back/724h.png"
+            "front": "sprites/724h.png",
+            "back": "sprites/back/724h.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s724h.png",
-            "back": "https://pokeidle.net/sprites/back/s724h.png"
+            "front": "sprites/s724h.png",
+            "back": "sprites/back/s724h.png"
          }
       }
    },
@@ -39913,12 +39913,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/745m.png",
-            "back": "https://pokeidle.net/sprites/back/745m.png"
+            "front": "sprites/745m.png",
+            "back": "sprites/back/745m.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s745m.png",
-            "back": "https://pokeidle.net/sprites/back/s745m.png"
+            "front": "sprites/s745m.png",
+            "back": "sprites/back/s745m.png"
          }
       }
    },
@@ -39951,12 +39951,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/745d.png",
-            "back": "https://pokeidle.net/sprites/back/745d.png"
+            "front": "sprites/745d.png",
+            "back": "sprites/back/745d.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s745d.png",
-            "back": "https://pokeidle.net/sprites/back/s745d.png"
+            "front": "sprites/s745d.png",
+            "back": "sprites/back/s745d.png"
          }
       }
    },
@@ -39989,12 +39989,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/746s.png",
-            "back": "https://pokeidle.net/sprites/back/746s.png"
+            "front": "sprites/746s.png",
+            "back": "sprites/back/746s.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s746s.png",
-            "back": "https://pokeidle.net/sprites/back/s746s.png"
+            "front": "sprites/s746s.png",
+            "back": "sprites/back/s746s.png"
          }
       }
    },
@@ -40028,12 +40028,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/800s.png",
-            "back": "https://pokeidle.net/sprites/back/800s.png"
+            "front": "sprites/800s.png",
+            "back": "sprites/back/800s.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s800s.png",
-            "back": "https://pokeidle.net/sprites/back/s800s.png"
+            "front": "sprites/s800s.png",
+            "back": "sprites/back/s800s.png"
          }
       }
    },
@@ -40067,12 +40067,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/800l.png",
-            "back": "https://pokeidle.net/sprites/back/800l.png"
+            "front": "sprites/800l.png",
+            "back": "sprites/back/800l.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s800l.png",
-            "back": "https://pokeidle.net/sprites/back/s800l.png"
+            "front": "sprites/s800l.png",
+            "back": "sprites/back/s800l.png"
          }
       }
    },
@@ -40106,12 +40106,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/800u.png",
-            "back": "https://pokeidle.net/sprites/back/800u.png"
+            "front": "sprites/800u.png",
+            "back": "sprites/back/800u.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s800u.png",
-            "back": "https://pokeidle.net/sprites/back/s800u.png"
+            "front": "sprites/s800u.png",
+            "back": "sprites/back/s800u.png"
          }
       }
    },
@@ -40145,12 +40145,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/876f.png",
-            "back": "https://pokeidle.net/sprites/back/876f.png"
+            "front": "sprites/876f.png",
+            "back": "sprites/back/876f.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s876f.png",
-            "back": "https://pokeidle.net/sprites/back/s876f.png"
+            "front": "sprites/s876f.png",
+            "back": "sprites/back/s876f.png"
          }
       }
    },
@@ -40184,12 +40184,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/888cs.png",
-            "back": "https://pokeidle.net/sprites/back/888cs.png"
+            "front": "sprites/888cs.png",
+            "back": "sprites/back/888cs.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s888cs.png",
-            "back": "https://pokeidle.net/sprites/back/s888cs.png"
+            "front": "sprites/s888cs.png",
+            "back": "sprites/back/s888cs.png"
          }
       }
    },
@@ -40223,12 +40223,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/889cs.png",
-            "back": "https://pokeidle.net/sprites/back/889cs.png"
+            "front": "sprites/889cs.png",
+            "back": "sprites/back/889cs.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s889cs.png",
-            "back": "https://pokeidle.net/sprites/back/s889cs.png"
+            "front": "sprites/s889cs.png",
+            "back": "sprites/back/s889cs.png"
          }
       }
    },
@@ -40262,12 +40262,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/892rss.png",
-            "back": "https://pokeidle.net/sprites/back/892rss.png"
+            "front": "sprites/892rss.png",
+            "back": "sprites/back/892rss.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s892rss.png",
-            "back": "https://pokeidle.net/sprites/back/s892rss.png"
+            "front": "sprites/s892rss.png",
+            "back": "sprites/back/s892rss.png"
          }
       }
    },
@@ -40301,12 +40301,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/898ir.png",
-            "back": "https://pokeidle.net/sprites/back/898ir.png"
+            "front": "sprites/898ir.png",
+            "back": "sprites/back/898ir.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s898ir.png",
-            "back": "https://pokeidle.net/sprites/back/s898ir.png"
+            "front": "sprites/s898ir.png",
+            "back": "sprites/back/s898ir.png"
          }
       }
    },
@@ -40340,12 +40340,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/898sr.png",
-            "back": "https://pokeidle.net/sprites/back/898sr.png"
+            "front": "sprites/898sr.png",
+            "back": "sprites/back/898sr.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s898sr.png",
-            "back": "https://pokeidle.net/sprites/back/s898sr.png"
+            "front": "sprites/s898sr.png",
+            "back": "sprites/back/s898sr.png"
          }
       }
    },
@@ -40379,12 +40379,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/003gx.png",
-            "back": "https://pokeidle.net/sprites/back/003gx.png"
+            "front": "sprites/003gx.png",
+            "back": "sprites/back/003gx.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s003gx.png",
-            "back": "https://pokeidle.net/sprites/back/s003gx.png"
+            "front": "sprites/s003gx.png",
+            "back": "sprites/back/s003gx.png"
          }
       }
    },
@@ -40418,12 +40418,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/006gx.png",
-            "back": "https://pokeidle.net/sprites/back/006gx.png"
+            "front": "sprites/006gx.png",
+            "back": "sprites/back/006gx.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s006gx.png",
-            "back": "https://pokeidle.net/sprites/back/s006gx.png"
+            "front": "sprites/s006gx.png",
+            "back": "sprites/back/s006gx.png"
          }
       }
    },
@@ -40456,12 +40456,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/009gx.png",
-            "back": "https://pokeidle.net/sprites/back/009gx.png"
+            "front": "sprites/009gx.png",
+            "back": "sprites/back/009gx.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s009gx.png",
-            "back": "https://pokeidle.net/sprites/back/s009gx.png"
+            "front": "sprites/s009gx.png",
+            "back": "sprites/back/s009gx.png"
          }
       }
    },
@@ -40495,12 +40495,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/012gx.png",
-            "back": "https://pokeidle.net/sprites/back/012gx.png"
+            "front": "sprites/012gx.png",
+            "back": "sprites/back/012gx.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s012gx.png",
-            "back": "https://pokeidle.net/sprites/back/s012gx.png"
+            "front": "sprites/s012gx.png",
+            "back": "sprites/back/s012gx.png"
          }
       }
    },
@@ -40533,12 +40533,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/025gx.png",
-            "back": "https://pokeidle.net/sprites/back/025gx.png"
+            "front": "sprites/025gx.png",
+            "back": "sprites/back/025gx.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s025gx.png",
-            "back": "https://pokeidle.net/sprites/back/s025gx.png"
+            "front": "sprites/s025gx.png",
+            "back": "sprites/back/s025gx.png"
          }
       }
    },
@@ -40571,12 +40571,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/052gx.png",
-            "back": "https://pokeidle.net/sprites/back/052gx.png"
+            "front": "sprites/052gx.png",
+            "back": "sprites/back/052gx.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s052gx.png",
-            "back": "https://pokeidle.net/sprites/back/s052gx.png"
+            "front": "sprites/s052gx.png",
+            "back": "sprites/back/s052gx.png"
          }
       }
    },
@@ -40609,12 +40609,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/068gx.png",
-            "back": "https://pokeidle.net/sprites/back/068gx.png"
+            "front": "sprites/068gx.png",
+            "back": "sprites/back/068gx.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s068gx.png",
-            "back": "https://pokeidle.net/sprites/back/s068gx.png"
+            "front": "sprites/s068gx.png",
+            "back": "sprites/back/s068gx.png"
          }
       }
    },
@@ -40648,12 +40648,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/094gx.png",
-            "back": "https://pokeidle.net/sprites/back/094gx.png"
+            "front": "sprites/094gx.png",
+            "back": "sprites/back/094gx.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s094gx.png",
-            "back": "https://pokeidle.net/sprites/back/s094gx.png"
+            "front": "sprites/s094gx.png",
+            "back": "sprites/back/s094gx.png"
          }
       }
    },
@@ -40686,12 +40686,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/099gx.png",
-            "back": "https://pokeidle.net/sprites/back/099gx.png"
+            "front": "sprites/099gx.png",
+            "back": "sprites/back/099gx.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s099gx.png",
-            "back": "https://pokeidle.net/sprites/back/s099gx.png"
+            "front": "sprites/s099gx.png",
+            "back": "sprites/back/s099gx.png"
          }
       }
    },
@@ -40725,12 +40725,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/131gx.png",
-            "back": "https://pokeidle.net/sprites/back/131gx.png"
+            "front": "sprites/131gx.png",
+            "back": "sprites/back/131gx.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s131gx.png",
-            "back": "https://pokeidle.net/sprites/back/s131gx.png"
+            "front": "sprites/s131gx.png",
+            "back": "sprites/back/s131gx.png"
          }
       }
    },
@@ -40763,12 +40763,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/133gx.png",
-            "back": "https://pokeidle.net/sprites/back/133gx.png"
+            "front": "sprites/133gx.png",
+            "back": "sprites/back/133gx.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s133gx.png",
-            "back": "https://pokeidle.net/sprites/back/s133gx.png"
+            "front": "sprites/s133gx.png",
+            "back": "sprites/back/s133gx.png"
          }
       }
    },
@@ -40801,12 +40801,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/143gx.png",
-            "back": "https://pokeidle.net/sprites/back/143gx.png"
+            "front": "sprites/143gx.png",
+            "back": "sprites/back/143gx.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s143gx.png",
-            "back": "https://pokeidle.net/sprites/back/s143gx.png"
+            "front": "sprites/s143gx.png",
+            "back": "sprites/back/s143gx.png"
          }
       }
    },
@@ -40839,12 +40839,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/569gx.png",
-            "back": "https://pokeidle.net/sprites/back/569gx.png"
+            "front": "sprites/569gx.png",
+            "back": "sprites/back/569gx.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s569gx.png",
-            "back": "https://pokeidle.net/sprites/back/s569gx.png"
+            "front": "sprites/s569gx.png",
+            "back": "sprites/back/s569gx.png"
          }
       }
    },
@@ -40877,12 +40877,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/809gx.png",
-            "back": "https://pokeidle.net/sprites/back/809gx.png"
+            "front": "sprites/809gx.png",
+            "back": "sprites/back/809gx.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s809gx.png",
-            "back": "https://pokeidle.net/sprites/back/s809gx.png"
+            "front": "sprites/s809gx.png",
+            "back": "sprites/back/s809gx.png"
          }
       }
    },
@@ -40915,12 +40915,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/812gx.png",
-            "back": "https://pokeidle.net/sprites/back/812gx.png"
+            "front": "sprites/812gx.png",
+            "back": "sprites/back/812gx.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s812gx.png",
-            "back": "https://pokeidle.net/sprites/back/s812gx.png"
+            "front": "sprites/s812gx.png",
+            "back": "sprites/back/s812gx.png"
          }
       }
    },
@@ -40953,12 +40953,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/815gx.png",
-            "back": "https://pokeidle.net/sprites/back/815gx.png"
+            "front": "sprites/815gx.png",
+            "back": "sprites/back/815gx.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s815gx.png",
-            "back": "https://pokeidle.net/sprites/back/s815gx.png"
+            "front": "sprites/s815gx.png",
+            "back": "sprites/back/s815gx.png"
          }
       }
    },
@@ -40991,12 +40991,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/818gx.png",
-            "back": "https://pokeidle.net/sprites/back/818gx.png"
+            "front": "sprites/818gx.png",
+            "back": "sprites/back/818gx.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s818gx.png",
-            "back": "https://pokeidle.net/sprites/back/s818gx.png"
+            "front": "sprites/s818gx.png",
+            "back": "sprites/back/s818gx.png"
          }
       }
    },
@@ -41030,12 +41030,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/823gx.png",
-            "back": "https://pokeidle.net/sprites/back/823gx.png"
+            "front": "sprites/823gx.png",
+            "back": "sprites/back/823gx.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s823gx.png",
-            "back": "https://pokeidle.net/sprites/back/s823gx.png"
+            "front": "sprites/s823gx.png",
+            "back": "sprites/back/s823gx.png"
          }
       }
    },
@@ -41069,12 +41069,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/826gx.png",
-            "back": "https://pokeidle.net/sprites/back/826gx.png"
+            "front": "sprites/826gx.png",
+            "back": "sprites/back/826gx.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s826gx.png",
-            "back": "https://pokeidle.net/sprites/back/s826gx.png"
+            "front": "sprites/s826gx.png",
+            "back": "sprites/back/s826gx.png"
          }
       }
    },
@@ -41108,12 +41108,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/834gx.png",
-            "back": "https://pokeidle.net/sprites/back/834gx.png"
+            "front": "sprites/834gx.png",
+            "back": "sprites/back/834gx.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s834gx.png",
-            "back": "https://pokeidle.net/sprites/back/s834gx.png"
+            "front": "sprites/s834gx.png",
+            "back": "sprites/back/s834gx.png"
          }
       }
    },
@@ -41147,12 +41147,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/839gx.png",
-            "back": "https://pokeidle.net/sprites/back/839gx.png"
+            "front": "sprites/839gx.png",
+            "back": "sprites/back/839gx.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s839gx.png",
-            "back": "https://pokeidle.net/sprites/back/s839gx.png"
+            "front": "sprites/s839gx.png",
+            "back": "sprites/back/s839gx.png"
          }
       }
    },
@@ -41186,12 +41186,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/841a842gx.png",
-            "back": "https://pokeidle.net/sprites/back/841a842gx.png"
+            "front": "sprites/841a842gx.png",
+            "back": "sprites/back/841a842gx.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s841a842gx.png",
-            "back": "https://pokeidle.net/sprites/back/s841a842gx.png"
+            "front": "sprites/s841a842gx.png",
+            "back": "sprites/back/s841a842gx.png"
          }
       }
    },
@@ -41225,12 +41225,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/841a842gx.png",
-            "back": "https://pokeidle.net/sprites/back/841a842gx.png"
+            "front": "sprites/841a842gx.png",
+            "back": "sprites/back/841a842gx.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s841a842gx.png",
-            "back": "https://pokeidle.net/sprites/back/s841a842gx.png"
+            "front": "sprites/s841a842gx.png",
+            "back": "sprites/back/s841a842gx.png"
          }
       }
    },
@@ -41263,12 +41263,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/844gx.png",
-            "back": "https://pokeidle.net/sprites/back/844gx.png"
+            "front": "sprites/844gx.png",
+            "back": "sprites/back/844gx.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s844gx.png",
-            "back": "https://pokeidle.net/sprites/back/s844gx.png"
+            "front": "sprites/s844gx.png",
+            "back": "sprites/back/s844gx.png"
          }
       }
    },
@@ -41302,12 +41302,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/849gx.png",
-            "back": "https://pokeidle.net/sprites/back/849gx.png"
+            "front": "sprites/849gx.png",
+            "back": "sprites/back/849gx.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s849gx.png",
-            "back": "https://pokeidle.net/sprites/back/s849gx.png"
+            "front": "sprites/s849gx.png",
+            "back": "sprites/back/s849gx.png"
          }
       }
    },
@@ -41341,12 +41341,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/851gx.png",
-            "back": "https://pokeidle.net/sprites/back/851gx.png"
+            "front": "sprites/851gx.png",
+            "back": "sprites/back/851gx.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s851gx.png",
-            "back": "https://pokeidle.net/sprites/back/s851gx.png"
+            "front": "sprites/s851gx.png",
+            "back": "sprites/back/s851gx.png"
          }
       }
    },
@@ -41380,12 +41380,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/858gx.png",
-            "back": "https://pokeidle.net/sprites/back/858gx.png"
+            "front": "sprites/858gx.png",
+            "back": "sprites/back/858gx.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s858gx.png",
-            "back": "https://pokeidle.net/sprites/back/s858gx.png"
+            "front": "sprites/s858gx.png",
+            "back": "sprites/back/s858gx.png"
          }
       }
    },
@@ -41419,12 +41419,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/861gx.png",
-            "back": "https://pokeidle.net/sprites/back/861gx.png"
+            "front": "sprites/861gx.png",
+            "back": "sprites/back/861gx.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s861gx.png",
-            "back": "https://pokeidle.net/sprites/back/s861gx.png"
+            "front": "sprites/s861gx.png",
+            "back": "sprites/back/s861gx.png"
          }
       }
    },
@@ -41457,12 +41457,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/869gx.png",
-            "back": "https://pokeidle.net/sprites/back/869gx.png"
+            "front": "sprites/869gx.png",
+            "back": "sprites/back/869gx.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s869gx.png",
-            "back": "https://pokeidle.net/sprites/back/s869gx.png"
+            "front": "sprites/s869gx.png",
+            "back": "sprites/back/s869gx.png"
          }
       }
    },
@@ -41495,12 +41495,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/879gx.png",
-            "back": "https://pokeidle.net/sprites/back/879gx.png"
+            "front": "sprites/879gx.png",
+            "back": "sprites/back/879gx.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s879gx.png",
-            "back": "https://pokeidle.net/sprites/back/s879gx.png"
+            "front": "sprites/s879gx.png",
+            "back": "sprites/back/s879gx.png"
          }
       }
    },
@@ -41534,12 +41534,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/884gx.png",
-            "back": "https://pokeidle.net/sprites/back/884gx.png"
+            "front": "sprites/884gx.png",
+            "back": "sprites/back/884gx.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s884gx.png",
-            "back": "https://pokeidle.net/sprites/back/s884gx.png"
+            "front": "sprites/s884gx.png",
+            "back": "sprites/back/s884gx.png"
          }
       }
    },
@@ -41573,12 +41573,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/890gx.png",
-            "back": "https://pokeidle.net/sprites/back/890gx.png"
+            "front": "sprites/890gx.png",
+            "back": "sprites/back/890gx.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s890gx.png",
-            "back": "https://pokeidle.net/sprites/back/s890gx.png"
+            "front": "sprites/s890gx.png",
+            "back": "sprites/back/s890gx.png"
          }
       }
    },
@@ -41612,12 +41612,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/892gxsss.png",
-            "back": "https://pokeidle.net/sprites/back/892gxsss.png"
+            "front": "sprites/892gxsss.png",
+            "back": "sprites/back/892gxsss.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s892gxsss.png",
-            "back": "https://pokeidle.net/sprites/back/s892gxsss.png"
+            "front": "sprites/s892gxsss.png",
+            "back": "sprites/back/s892gxsss.png"
          }
       }
    },
@@ -41651,12 +41651,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/892gxrss.png",
-            "back": "https://pokeidle.net/sprites/back/892gxrss.png"
+            "front": "sprites/892gxrss.png",
+            "back": "sprites/back/892gxrss.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s892gxrss.png",
-            "back": "https://pokeidle.net/sprites/back/s892gxrss.png"
+            "front": "sprites/s892gxrss.png",
+            "back": "sprites/back/s892gxrss.png"
          }
       }
    },
@@ -41690,12 +41690,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/902f.png",
-            "back": "https://pokeidle.net/sprites/back/902f.png"
+            "front": "sprites/902f.png",
+            "back": "sprites/back/902f.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s902f.png",
-            "back": "https://pokeidle.net/sprites/back/s902f.png"
+            "front": "sprites/s902f.png",
+            "back": "sprites/back/s902f.png"
          }
       }
    },
@@ -41729,12 +41729,12 @@ const POKEDEX = [
       ],
       "images": {
          "normal": {
-            "front": "https://pokeidle.net/sprites/905t.png",
-            "back": "https://pokeidle.net/sprites/back/905t.png"
+            "front": "sprites/905t.png",
+            "back": "sprites/back/905t.png"
          },
          "shiny": {
-            "front": "https://pokeidle.net/sprites/s905t.png",
-            "back": "https://pokeidle.net/sprites/back/s905t.png"
+            "front": "sprites/s905t.png",
+            "back": "sprites/back/s905t.png"
          }
       }
    },

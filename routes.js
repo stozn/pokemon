@@ -2503,14 +2503,14 @@ const ROUTES = {
   Event: {
       event1: {
       name: 'Den Rotation'
-    , pokes: ['GX-Charizard'] 
+    , pokes: ['GX-Blastoise'] 
     , minLevel: 100
     , maxLevel: 100
     , unlocked: true
     }
 	, event2: {
-      name: 'Research, Predict, Attack'
-    , pokes: ['Feraligatr', 'Zapdos', 'Glalie', 'G-Electrode', 'Salamence', 'Primeape'] 
+      name: 'Lakes'
+    , pokes: ['Azelf'] 
     , minLevel: 100
     , maxLevel: 100
     , unlocked: true

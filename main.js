@@ -1136,7 +1136,7 @@ const makeUserInteractions = (player, enemy, dom, combatLoop) => {
             document.getElementById('saveDialogContainer').style.display = 'block'
         },
         importSave: () => {
-            if (window.confirm('加载存档会覆盖您当前的进度，您确定要继续吗？')) {
+            if (window.confirm('Loading a save will overwrite your current progress, are you sure you wish to continue?')) {
                 player.loadFromString(document.getElementById('saveText').value.trim())
                 document.getElementById('saveDialogContainer').style.display = 'none'
                 renderView(dom, enemy, player)
@@ -1219,7 +1219,7 @@ const makeCombatLoop = (enemy, player, dom) => {
      )
   }
   const eventTimerActive = true
-  const eventTimerExpires = 1651348800
+  const eventTimerExpires = 1652648400
   
   const dealDamage = (attacker, defender, who) => {
     if (attacker.alive() && defender.alive()) {
