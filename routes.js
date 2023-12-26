@@ -2290,8 +2290,8 @@ const ROUTES = {
     , custom28: {
       name: 'Ultra Wormholes'
     , pokes: ['Nihilego', 'Buzzwole', 'Pheromosa', 'Xurkitree', 'Celesteela', 'Kartana', 'Guzzlord', 'Poipole', 'Stakataka', 'Blacephalon'] 
-    , minLevel: 55
-    , maxLevel: 70
+    , minLevel: 60
+    , maxLevel: 60
     , unlocked: true
     }
     , custom29: {
@@ -2500,27 +2500,871 @@ const ROUTES = {
     , unlocked: true
     }
 },
-  Event: {
-      event1: {
-      name: 'Den Rotation'
-    , pokes: ['GX-Blastoise'] 
-    , minLevel: 100
-    , maxLevel: 100
-    , unlocked: true
-    }
-	, event2: {
-      name: 'Lakes'
-    , pokes: ['Azelf'] 
-    , minLevel: 100
-    , maxLevel: 100
-    , unlocked: true
-    }
-	, event3: {
-      name: 'Let\'s Go : Meltan'
-    , pokes: ['Meltan'] 
-    , minLevel: 30
-    , maxLevel: 30
-    , unlocked: true
-    }
+Paldea: {
+  starter9: {
+    name: 'Cabo Poco'
+  , pokes: ['Sprigatito', 'Fuecoco', 'Quaxly'] 
+  , minLevel: 5
+  , maxLevel: 5
+  , unlocked: true
+  }
+  , custom57: {
+    name: 'South Province - Grass'
+  , pokes: ['Lechonk', 'Tarountula', 'Nymble', 'Tandemaus'] 
+  , minLevel: 5
+  , maxLevel: 10
+  , unlocked: true
+  }
+  , custom58: {
+    name: 'South Province - Plains'
+  , pokes: ['Pawmi', 'Fidough', 'Smoliv', 'Squawkabilly', 'Charcadet'] 
+  , minLevel: 10
+  , maxLevel: 15
+  , unlocked: true
+  }
+  , custom59: {
+    name: 'South Province - Beach'
+  , pokes: ['Wiglett', 'Finizen', 'Veluza'] 
+  , minLevel: 30
+  , maxLevel: 35
+  , unlocked: true
+  }
+  , custom60: {
+    name: 'East Province - Mountains'
+  , pokes: ['Nacli', 'Tadbulb', 'Klawf', 'Maschiff'] 
+  , minLevel: 10
+  , maxLevel: 15
+  , unlocked: true
+  }
+  , custom61: {
+    name: 'East Province - Plains'
+  , pokes: ['Wattrel', 'Shroodle', 'Toedscool', 'Cyclizar'] 
+  , minLevel: 20
+  , maxLevel: 30
+  , unlocked: true
+  }
+  , custom62: {
+    name: 'East Province - Plateau'
+  , pokes: ['Varoom', 'Orthworm'] 
+  , minLevel: 30
+  , maxLevel: 35
+  , unlocked: true
+  }
+  , custom63: {
+    name: 'West Province - Plains'
+  , pokes: ['Capsakid', 'Flittle', 'Bombirdier'] 
+  , minLevel: 15
+  , maxLevel: 20
+  , unlocked: true
+  }
+  , custom64: {
+    name: 'West Province - Desert'
+  , pokes: ['Bramblin', 'Rellor', 'Tinkatink'] 
+  , minLevel: 20
+  , maxLevel: 25
+  , unlocked: true
+  }
+  , custom65: {
+    name: 'West Province - Cave'
+  , pokes: ['Glimmet', 'Frigibax'] 
+  , minLevel: 25
+  , maxLevel: 30
+  , unlocked: true
+  }
+  , custom66: {
+    name: 'North Province - Mountain'
+  , pokes: ['Greavard', 'Cetoddle', 'Flamigo'] 
+  , minLevel: 35
+  , maxLevel: 40
+  , unlocked: true
+  }
+  , custom67: {
+    name: 'North Province - Lake'
+  , pokes: ['Dondozo', 'Tatsugiri'] 
+  , minLevel: 50
+  , maxLevel: 55
+  , unlocked: true
+  }
+  , custom68: {
+    name: 'Welcome to Paldea'
+  , pokes: ['P-Wooper', 'P-Tauros-B', 'P-Tauros', 'P-Tauros-A'] 
+  , minLevel: 20
+  , maxLevel: 20
+  , unlocked: true
+  }
+  , custom69: {
+    name: 'Area Zero - Past'
+  , pokes: ['Great Tusk', 'Scream Tail', 'Brute Bonnet', 'Flutter Mane', 'Sandy Shocks', 'Slither Wing', 'Roaring Moon'] 
+  , minLevel: 50
+  , maxLevel: 70
+  , unlocked: true
+  }
+  , custom70: {
+    name: 'Area Zero - Future'
+  , pokes: ['Iron Treads', 'Iron Bundle', 'Iron Hands', 'Iron Jugulis', 'Iron Moth', 'Iron Thorns', 'Iron Valiant'] 
+  , minLevel: 50
+  , maxLevel: 70
+  , unlocked: true
+  }
+  , custom71: {
+    name: 'Chest'
+  , pokes: ['Gimmighoul'] 
+  , minLevel: 30
+  , maxLevel: 30
+  , unlocked: true
+  }
+  , custom72: {
+    name: 'Paldea Shrines'
+  , pokes: ['Wo-Chien', 'Chien-Pao', 'Ting-Lu', 'Chi-Yu'] 
+  , minLevel: 60
+  , maxLevel: 60
+  , unlocked: true
+  }
+  , custom73: {
+    name: 'Zero Lab'
+  , pokes: ['Koraidon', 'Miraidon'] 
+  , minLevel: 72
+  , maxLevel: 72
+  , unlocked: true
+  }
+},
+Event: {
+  leg: {
+    name: 'Welcome'
+  , pokes: ['Ditto'] 
+  , minLevel: 50
+  , maxLevel: 50
+  , unlocked: true
+  }
+, leg1: {
+    name: 'Ice Feather'
+  , pokes: ['Articuno'] 
+  , minLevel: 50
+  , maxLevel: 50
+  , unlocked: true
+  }
+  , leg2: {
+    name: 'Thunder Feather'
+  , pokes: ['Zapdos'] 
+  , minLevel: 50
+  , maxLevel: 50
+  , unlocked: false
+  }
+  , leg3: {
+    name: 'Fire Feather'
+  , pokes: ['Moltres'] 
+  , minLevel: 50
+  , maxLevel: 50
+  , unlocked: false
+  }
+, leg4: {
+    name: 'Origin Sash'
+  , pokes: ['Mewtwo'] 
+  , minLevel: 70
+  , maxLevel: 70
+  , unlocked: false
+  }
+, leg5: {
+    name: 'Cloned Sash'
+  , pokes: ['Mew'] 
+  , minLevel: 30
+  , maxLevel: 30
+  , unlocked: false
+  }
+, leg6: {
+    name: 'Thunder Fang'
+  , pokes: ['Raikou'] 
+  , minLevel: 40
+  , maxLevel: 40
+  , unlocked: false
+  }
+, leg7: {
+    name: 'Fire Fang'
+  , pokes: ['Entei'] 
+  , minLevel: 40
+  , maxLevel: 40
+  , unlocked: false
+  }
+, leg8: {
+    name: 'Ice Fang'
+  , pokes: ['Suicune'] 
+  , minLevel: 40
+  , maxLevel: 40
+  , unlocked: true
+  }
+, leg9: {
+    name: 'Rock Statue'
+  , pokes: ['Regirock'] 
+  , minLevel: 40
+  , maxLevel: 40
+  , unlocked: false
+  }
+, leg10: {
+    name: 'Ice Statue'
+  , pokes: ['Regice'] 
+  , minLevel: 40
+  , maxLevel: 40
+  , unlocked: false
+  }
+, leg11: {
+    name: 'Steel Statue'
+  , pokes: ['Registeel'] 
+  , minLevel: 40
+  , maxLevel: 40
+  , unlocked: false
+  }
+, leg12: {
+    name: 'Red Soul Dew'
+  , pokes: ['Latias'] 
+  , minLevel: 50
+  , maxLevel: 50
+  , unlocked: false
+  }
+, leg13: {
+    name: 'Blue Soul Dew'
+  , pokes: ['Latios'] 
+  , minLevel: 50
+  , maxLevel: 50
+  , unlocked: false
+  }
+, leg14: {
+    name: 'Sapphire Orb'
+  , pokes: ['Kyogre'] 
+  , minLevel: 45
+  , maxLevel: 45
+  , unlocked: false
+  }
+, leg15: {
+    name: 'Ruby Orb'
+  , pokes: ['Groudon'] 
+  , minLevel: 45
+  , maxLevel: 45
+  , unlocked: false
+  }
+, leg16: {
+    name: 'Kagami'
+  , pokes: ['Uxie'] 
+  , minLevel: 50
+  , maxLevel: 50
+  , unlocked: false
+  }
+, leg17: {
+    name: 'Magatama'
+  , pokes: ['Mesprit'] 
+  , minLevel: 50
+  , maxLevel: 50
+  , unlocked: false
+  }
+, leg18: {
+    name: 'Kusanagi'
+  , pokes: ['Azelf'] 
+  , minLevel: 50
+  , maxLevel: 50
+  , unlocked: false
+  }
+, leg19: {
+    name: 'Adamant Orb'
+  , pokes: ['Dialga'] 
+  , minLevel: 47
+  , maxLevel: 47
+  , unlocked: false
+  }
+, leg20: {
+    name: 'Lustrous Orb'
+  , pokes: ['Palkia'] 
+  , minLevel: 47
+  , maxLevel: 47
+  , unlocked: false
+  }
+, leg21: {
+    name: 'Sea Egg'
+  , pokes: ['Phione'] 
+  , minLevel: 1
+  , maxLevel: 1
+  , unlocked: false
+  }
+, leg22: {
+    name: 'Sea Crown'
+  , pokes: ['Manaphy'] 
+  , minLevel: 1
+  , maxLevel: 1
+  , unlocked: false
+  }
+, leg23: {
+    name: 'Lunar Wing'
+  , pokes: ['Cresselia'] 
+  , minLevel: 50
+  , maxLevel: 50
+  , unlocked: false
+  }
+, leg24: {
+    name: 'Nightmare Shroud'
+  , pokes: ['Darkrai'] 
+  , minLevel: 50
+  , maxLevel: 50
+  , unlocked: false
+  }
+, leg25: {
+    name: 'Cobalt Épée'
+  , pokes: ['Cobalion'] 
+  , minLevel: 50
+  , maxLevel: 50
+  , unlocked: false
+  }
+, leg26: {
+    name: 'Terracotta Épée'
+  , pokes: ['Terrakion'] 
+  , minLevel: 50
+  , maxLevel: 50
+  , unlocked: false
+  }
+, leg27: {
+    name: 'Viridian Épée'
+  , pokes: ['Virizion'] 
+  , minLevel: 50
+  , maxLevel: 50
+  , unlocked: false
+  }
+, leg28: {
+    name: 'Apprentice\'s Épée'
+  , pokes: ['Keldeo'] 
+  , minLevel: 50
+  , maxLevel: 50
+  , unlocked: false
+  }
+, leg29: {
+    name: 'Fujin\'s Lamp'
+  , pokes: ['Tornadus'] 
+  , minLevel: 70
+  , maxLevel: 70
+  , unlocked: false
+  }
+, leg30: {
+    name: 'Raijin\'s Lamp'
+  , pokes: ['Thundurus'] 
+  , minLevel: 70
+  , maxLevel: 70
+  , unlocked: false
+  }
+, leg31: {
+    name: 'Inari\'s Lamp'
+  , pokes: ['Landorus'] 
+  , minLevel: 70
+  , maxLevel: 70
+  , unlocked: false
+  }
+, leg32: {
+    name: 'White Stone'
+  , pokes: ['Reshiram'] 
+  , minLevel: 70
+  , maxLevel: 70
+  , unlocked: false
+  }
+, leg33: {
+    name: 'Black Stone'
+  , pokes: ['Zekrom'] 
+  , minLevel: 70
+  , maxLevel: 70
+  , unlocked: false
+  }
+, leg34: {
+    name: 'Life Antler'
+  , pokes: ['Xerneas'] 
+  , minLevel: 50
+  , maxLevel: 50
+  , unlocked: false
+  }
+, leg35: {
+    name: 'Death Wing'
+  , pokes: ['Yveltal'] 
+  , minLevel: 50
+  , maxLevel: 50
+  , unlocked: false
+  }
+, leg36: {
+    name: 'Anti-UB Fighting life-form'
+  , pokes: ['Type: Null'] 
+  , minLevel: 40
+  , maxLevel: 40
+  , unlocked: false
+  }
+, leg37: {
+    name: 'Eclipse Flute'
+  , pokes: ['Cosmog'] 
+  , minLevel: 15
+  , maxLevel: 15
+  , unlocked: false
+  }
+, leg38: {
+    name: 'Kū Idol'
+  , pokes: ['Tapu Koko'] 
+  , minLevel: 60
+  , maxLevel: 60
+  , unlocked: false
+  }
+, leg39: {
+    name: 'Kāne Idol'
+  , pokes: ['Tapu Lele'] 
+  , minLevel: 60
+  , maxLevel: 60
+  , unlocked: false
+  }
+, leg40: {
+    name: 'Lono Idol'
+  , pokes: ['Tapu Bulu'] 
+  , minLevel: 60
+  , maxLevel: 60
+  , unlocked: false
+  }
+, leg41: {
+    name: 'Kanaloa Idol'
+  , pokes: ['Tapu Fini'] 
+  , minLevel: 60
+  , maxLevel: 60
+  , unlocked: false
+  }
+, leg42: {
+    name: 'Sun Flute'
+  , pokes: ['Solgaleo'] 
+  , minLevel: 55
+  , maxLevel: 55
+  , unlocked: false
+  }
+, leg43: {
+    name: 'Moon Flute'
+  , pokes: ['Lunala'] 
+  , minLevel: 55
+  , maxLevel: 55
+  , unlocked: false
+  }
+, leg44: {
+    name: 'UB-01 Symbiont'
+  , pokes: ['Nihilego'] 
+  , minLevel: 60
+  , maxLevel: 60
+  , unlocked: false
+  }
+, leg45: {
+    name: 'UB-02 Absorption'
+  , pokes: ['Buzzwole'] 
+  , minLevel: 60
+  , maxLevel: 60
+  , unlocked: false
+  }
+, leg46: {
+    name: 'UB-02 Beauty'
+  , pokes: ['Pheromosa'] 
+  , minLevel: 60
+  , maxLevel: 60
+  , unlocked: false
+  }
+, leg47: {
+    name: 'UB-03 Lighting'
+  , pokes: ['Xurkitree'] 
+  , minLevel: 60
+  , maxLevel: 60
+  , unlocked: false
+  }
+, leg48: {
+    name: 'UB-04 Blaster'
+  , pokes: ['Celesteela'] 
+  , minLevel: 60
+  , maxLevel: 60
+  , unlocked: false
+  }
+, leg49: {
+    name: 'UB-04 Blade'
+  , pokes: ['Kartana'] 
+  , minLevel: 60
+  , maxLevel: 60
+  , unlocked: false
+  }
+, leg50: {
+    name: 'UB-05 Glutton'
+  , pokes: ['Guzzlord'] 
+  , minLevel: 60
+  , maxLevel: 60
+  , unlocked: false
+  }
+, leg51: {
+    name: 'UB Adhesive'
+  , pokes: ['Poipole'] 
+  , minLevel: 40
+  , maxLevel: 40
+  , unlocked: false
+  }
+, leg52: {
+    name: 'UB Assembly'
+  , pokes: ['Stakataka'] 
+  , minLevel: 60
+  , maxLevel: 60
+  , unlocked: false
+  }
+, leg53: {
+    name: 'UB Burst'
+  , pokes: ['Blacephalon'] 
+  , minLevel: 60
+  , maxLevel: 60
+  , unlocked: false
+  }
+, leg54: {
+    name: 'Scrap Metal'
+  , pokes: ['Meltan'] 
+  , minLevel: 30
+  , maxLevel: 30
+  , unlocked: false
+  }
+, leg55: {
+    name: 'Rusted Sword'
+  , pokes: ['Zacian'] 
+  , minLevel: 70
+  , maxLevel: 70
+  , unlocked: false
+  }
+, leg56: {
+    name: 'Rusted Shield'
+  , pokes: ['Zamazenta'] 
+  , minLevel: 70
+  , maxLevel: 70
+  , unlocked: false
+  }
+, leg57: {
+    name: 'Electric Statue'
+  , pokes: ['Regieleki'] 
+  , minLevel: 70
+  , maxLevel: 70
+  , unlocked: false
+  }
+, leg58: {
+    name: 'Dragon Statue'
+  , pokes: ['Regidrago'] 
+  , minLevel: 70
+  , maxLevel: 70
+  , unlocked: false
+  }
+, leg59: {
+    name: 'Psychic Feather'
+  , pokes: ['G-Articuno'] 
+  , minLevel: 70
+  , maxLevel: 70
+  , unlocked: true
+  }
+, leg60: {
+    name: 'Combat Feather'
+  , pokes: ['G-Zapdos'] 
+  , minLevel: 70
+  , maxLevel: 70
+  , unlocked: false
+  }
+, leg61: {
+    name: 'Rage Feather'
+  , pokes: ['G-Moltres'] 
+  , minLevel: 70
+  , maxLevel: 70
+  , unlocked: false
+  }
+, leg62: {
+    name: 'Iceroot Carrot'
+  , pokes: ['Glastrier'] 
+  , minLevel: 75
+  , maxLevel: 75
+  , unlocked: true
+  }
+, leg63: {
+    name: 'Shaderoot Carrot'
+  , pokes: ['Spectrier'] 
+  , minLevel: 75
+  , maxLevel: 75
+  , unlocked: false
+  }
+, leg64: {
+    name: 'Grasswither Shrine'
+  , pokes: ['Wo-Chien'] 
+  , minLevel: 60
+  , maxLevel: 60
+  , unlocked: false
+  }
+, leg65: {
+    name: 'Icerend Shrine'
+  , pokes: ['Chien-Pao'] 
+  , minLevel: 60
+  , maxLevel: 60
+  , unlocked: false
+  }
+, leg66: {
+    name: 'Groundblight Shrine'
+  , pokes: ['Ting-Lu'] 
+  , minLevel: 60
+  , maxLevel: 60
+  , unlocked: false
+  }
+, leg67: {
+    name: 'Firescourge Shrine'
+  , pokes: ['Chi-Yu'] 
+  , minLevel: 60
+  , maxLevel: 60
+  , unlocked: false
+  }
+, leg68: {
+    name: 'Apex Pokeball'
+  , pokes: ['Koraidon'] 
+  , minLevel: 72
+  , maxLevel: 72
+  , unlocked: false
+  } 
+, leg69: {
+    name: 'Ultimate Pokeball'
+  , pokes: ['Miraidon'] 
+  , minLevel: 72
+  , maxLevel: 72
+  , unlocked: false
+  }   
+},
+  Gigantamax: {
+    giga: {
+    name: 'Welcome'
+  , pokes: ['Ditto'] 
+  , minLevel: 50
+  , maxLevel: 50
+  , unlocked: true
+  }
+  , giga1: {
+    name: '#003'
+  , pokes: ['GX-Venusaur'] 
+  , minLevel: 100
+  , maxLevel: 100
+  , unlocked: true
+  }
+  , giga2: {
+    name: '#006'
+  , pokes: ['GX-Charizard'] 
+  , minLevel: 100
+  , maxLevel: 100
+  , unlocked: true
+  }
+  , giga3: {
+    name: '#009'
+  , pokes: ['GX-Blastoise'] 
+  , minLevel: 100
+  , maxLevel: 100
+  , unlocked: true
+  }
+  , giga4: {
+    name: '#012'
+  , pokes: ['GX-Butterfree'] 
+  , minLevel: 100
+  , maxLevel: 100
+  , unlocked: false
+  }
+  , giga5: {
+    name: '#025'
+  , pokes: ['GX-Pikachu'] 
+  , minLevel: 100
+  , maxLevel: 100
+  , unlocked: true
+  }
+  , giga6: {
+    name: '#052'
+  , pokes: ['GX-Meowth'] 
+  , minLevel: 100
+  , maxLevel: 100
+  , unlocked: false
+  }
+  , giga7: {
+    name: '#068'
+  , pokes: ['GX-Machamp'] 
+  , minLevel: 100
+  , maxLevel: 100
+  , unlocked: false
+  }
+  , giga8: {
+    name: '#094'
+  , pokes: ['GX-Gengar'] 
+  , minLevel: 100
+  , maxLevel: 100
+  , unlocked: false
+  }
+  , giga9: {
+    name: '#099'
+  , pokes: ['GX-Kingler'] 
+  , minLevel: 100
+  , maxLevel: 100
+  , unlocked: false
+  }
+  , giga10: {
+    name: '#131'
+  , pokes: ['GX-Lapras'] 
+  , minLevel: 100
+  , maxLevel: 100
+  , unlocked: true
+  }
+  , giga11: {
+    name: '#133'
+  , pokes: ['GX-Eevee'] 
+  , minLevel: 100
+  , maxLevel: 100
+  , unlocked: true
+  }
+  , giga12: {
+    name: '#143'
+  , pokes: ['GX-Snorlax'] 
+  , minLevel: 100
+  , maxLevel: 100
+  , unlocked: false
+  }
+  , giga13: {
+    name: '#569'
+  , pokes: ['GX-Garbodor'] 
+  , minLevel: 100
+  , maxLevel: 100
+  , unlocked: false
+  }
+  , giga14: {
+    name: '#809'
+  , pokes: ['GX-Melmetal'] 
+  , minLevel: 100
+  , maxLevel: 100
+  , unlocked: false
+  }
+  , giga15: {
+    name: '#812'
+  , pokes: ['GX-Rillaboom'] 
+  , minLevel: 100
+  , maxLevel: 100
+  , unlocked: false
+  }
+  , giga16: {
+    name: '#815'
+  , pokes: ['GX-Cinderace'] 
+  , minLevel: 100
+  , maxLevel: 100
+  , unlocked: false
+  }
+  , giga17: {
+    name: '#818'
+  , pokes: ['GX-Inteleon'] 
+  , minLevel: 100
+  , maxLevel: 100
+  , unlocked: false
+  }
+  , giga18: {
+    name: '#823'
+  , pokes: ['GX-Corviknight'] 
+  , minLevel: 100
+  , maxLevel: 100
+  , unlocked: false
+  }
+  , giga19: {
+    name: '#826'
+  , pokes: ['GX-Orbeetle'] 
+  , minLevel: 100
+  , maxLevel: 100
+  , unlocked: false
+  }
+  , giga20: {
+    name: '#834'
+  , pokes: ['GX-Drednaw'] 
+  , minLevel: 100
+  , maxLevel: 100
+  , unlocked: false
+  }
+  , giga21: {
+    name: '#839'
+  , pokes: ['GX-Coalossal'] 
+  , minLevel: 100
+  , maxLevel: 100
+  , unlocked: false
+  }
+  , giga22: {
+    name: '#841'
+  , pokes: ['GX-Flapple'] 
+  , minLevel: 100
+  , maxLevel: 100
+  , unlocked: false
+  }
+  , giga23: {
+    name: '#842'
+  , pokes: ['GX-Appletun'] 
+  , minLevel: 100
+  , maxLevel: 100
+  , unlocked: false
+  }
+  , giga24: {
+    name: '#844'
+  , pokes: ['GX-Sandaconda'] 
+  , minLevel: 100
+  , maxLevel: 100
+  , unlocked: false
+  }
+  , giga25: {
+    name: '#849'
+  , pokes: ['GX-Toxtricity'] 
+  , minLevel: 100
+  , maxLevel: 100
+  , unlocked: false
+  }
+  , giga26: {
+    name: '#851'
+  , pokes: ['GX-Centiskorch'] 
+  , minLevel: 100
+  , maxLevel: 100
+  , unlocked: false
+  }
+  , giga27: {
+    name: '#858'
+  , pokes: ['GX-Hatterene'] 
+  , minLevel: 100
+  , maxLevel: 100
+  , unlocked: false
+  }
+  , giga28: {
+    name: '#861'
+  , pokes: ['GX-Grimmsnarl'] 
+  , minLevel: 100
+  , maxLevel: 100
+  , unlocked: false
+  }
+  , giga29: {
+    name: '#869'
+  , pokes: ['GX-Alcremie'] 
+  , minLevel: 100
+  , maxLevel: 100
+  , unlocked: false
+  }
+  , giga30: {
+    name: '#879'
+  , pokes: ['GX-Copperajah'] 
+  , minLevel: 100
+  , maxLevel: 100
+  , unlocked: false
+  }
+  , giga31: {
+    name: '#884'
+  , pokes: ['GX-Duraludon'] 
+  , minLevel: 100
+  , maxLevel: 100
+  , unlocked: false
+  }
+  , giga32: {
+    name: 'Eternal'
+  , pokes: ['GX-Eternatus'] 
+  , minLevel: 100
+  , maxLevel: 100
+  , unlocked: false
+  }
+  , giga33: {
+    name: '#892-RSS'
+  , pokes: ['GX-Urshifu-RSS'] 
+  , minLevel: 100
+  , maxLevel: 100
+  , unlocked: false
+  }
+  , giga34: {
+    name: '#892-SSS'
+  , pokes: ['GX-Urshifu-SSS'] 
+  , minLevel: 100
+  , maxLevel: 100
+  , unlocked: false
+  }
 }
 }

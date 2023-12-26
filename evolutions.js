@@ -1807,6 +1807,182 @@ const EVOLUTIONS = {
     "level":"60",
     "to":"Dragapult"
   }, 
+  "Sprigatito":{
+    "level":"16",
+    "to":"Floragato"
+  }, 
+  "Floragato":{
+    "level":"36",
+    "to":"Meowscarada"
+  }, 
+  "Fuecoco":{
+    "level":"16",
+    "to":"Crocalor"
+  },
+  "Crocalor":{
+    "level":"36",
+    "to":"Skeledirge"
+  },
+  "Quaxly":{
+    "level":"16",
+    "to":"Quaxwell"
+  },
+  "Quaxwell":{
+    "level":"36",
+    "to":"Quaquaval"
+  },
+  "Lechonk":{
+    "level":"18",
+    "to":"Oinkologne"
+  },
+  "Oinkologne":{
+    "level":"18",
+    "to":"Oinkologne-F"
+  },
+  "Oinkologne-F":{
+    "level":"18",
+    "to":"Oinkologne"
+  },
+  "Tarountula":{
+    "level":"15",
+    "to":"Spidops"
+  },
+  "Nymble":{
+    "level":"24",
+    "to":"Lokix"
+  },
+  "Pawmi":{
+    "level":"18",
+    "to":"Pawmo"
+  },
+  "Pawmo":{
+    "level":"40",
+    "to":"Pawmot"
+  },
+  "Tandemaus":{
+    "level":"25",
+    "to":"Maushold"
+  },
+  "Fidough":{
+    "level":"26",
+    "to":"Dachsbun"
+  },
+  "Smoliv":{
+    "level":"25",
+    "to":"Dolliv"
+  },
+  "Dolliv":{
+    "level":"35",
+    "to":"Arboliva"
+  },
+  "Nacli":{
+    "level":"24",
+    "to":"Naclstack"
+  },
+  "Naclstack":{
+    "level":"38",
+    "to":"Garganacl"
+  },
+  "Charcadet":{
+    "level":"35",
+    "to":"Armarouge"
+  },
+  "Armarouge":{
+    "level":"35",
+    "to":"Ceruledge"
+  },
+  "Ceruledge":{
+    "level":"35",
+    "to":"Armarouge"
+  },
+  "Tadbulb":{
+    "level":"30",
+    "to":"Bellibolt"
+  },
+  "Wattrel":{
+    "level":"25",
+    "to":"Kilowattrel"
+  },
+  "Maschiff":{
+    "level":"30",
+    "to":"Mabosstiff"
+  },
+  "Shroodle":{
+    "level":"28",
+    "to":"Grafaiai"
+  },
+  "Bramblin":{
+    "level":"40",
+    "to":"Brambleghast"
+  },
+  "Toedscool":{
+    "level":"30",
+    "to":"Toedscruel"
+  },
+  "Capsakid":{
+    "level":"30",
+    "to":"Scovillain"
+  },
+  "Rellor":{
+    "level":"40",
+    "to":"Rabsca"
+  },
+  "Flittle":{
+    "level":"35",
+    "to":"Espathra"
+  },
+  "Tinkatink":{
+    "level":"24",
+    "to":"Tinkatuff"
+  },
+  "Tinkatuff":{
+    "level":"38",
+    "to":"Tinkaton"
+  },
+  "Wiglett":{
+    "level":"26",
+    "to":"Wugtrio"
+  },
+  "Finizen":{
+    "level":"38",
+    "to":"Palafin"
+  },
+  "Palafin":{
+    "level":"38",
+    "to":"Palafin-H"
+  },
+  "Palafin-H":{
+    "level":"38",
+    "to":"Palafin"
+  },
+  "Varoom":{
+    "level":"40",
+    "to":"Revavroom"
+  },
+  "Glimmet":{
+    "level":"35",
+    "to":"Glimmora"
+  },
+  "Greavard":{
+    "level":"30",
+    "to":"Houndstone"
+  },
+  "Cetoddle":{
+    "level":"40",
+    "to":"Cetitan"
+  },
+  "Frigibax":{
+    "level":"35",
+    "to":"Arctibax"
+  },
+  "Arctibax":{
+    "level":"54",
+    "to":"Baxcalibur"
+  },
+  "Gimmighoul":{
+    "level":"70",
+    "to":"Gholdengo"
+  },
   "A-Rattata":{
     "level":"20",
     "to":"A-Raticate"
@@ -2235,15 +2411,15 @@ const EVOLUTIONS = {
     "level":"37",
     "to":"G-Slowbro"
   },  
-    "Kubfu":{
+  "Kubfu":{
     "level":"70",
     "to":"Urshifu-SSS"
   }, 
-    "Urshifu-SSS":{
+  "Urshifu-SSS":{
     "level":"75",
     "to":"Urshifu-RSS"
   }, 
-    "Urshifu-RSS":{
+  "Urshifu-RSS":{
     "level":"75",
     "to":"Urshifu-SSS"
   }, 
@@ -2251,128 +2427,148 @@ const EVOLUTIONS = {
     "level":"100",
     "to":"Calyrex-IR"
   }, 
-    "Calyrex-IR":{
+  "Calyrex-IR":{
     "level":"100",
     "to":"Calyrex-SR"
   }, 
-    "Calyrex-SR":{
+  "Calyrex-SR":{
     "level":"100",
     "to":"Calyrex-IR"
   }, 
-    "H-Voltorb":{
+  "H-Voltorb":{
     "level":"30",
     "to":"H-Electrode"
   },
-    "H-Growlithe":{
+  "H-Growlithe":{
     "level":"35",
     "to":"H-Arcanine"
   },
-    "Typhlosion":{
+  "Typhlosion":{
     "level":"36",
     "to":"H-Typhlosion"
   },
-    "H-Typhlosion":{
+  "H-Typhlosion":{
     "level":"36",
     "to":"Typhlosion"
   },
-    "Samurott":{
+  "Samurott":{
     "level":"36",
     "to":"H-Samurott"
   },
-    "H-Samurott":{
+  "H-Samurott":{
     "level":"36",
     "to":"Samurott"
   },
-    "Lilligant":{
+  "Lilligant":{
     "level":"27",
     "to":"H-Lilligant"
   },
-    "H-Lilligant":{
+  "H-Lilligant":{
     "level":"27",
     "to":"Lilligant"
   },
-    "H-Zorua":{
+  "H-Zorua":{
     "level":"30",
     "to":"H-Zoroark"
   },
-    "Braviary":{
+  "Braviary":{
     "level":"54",
     "to":"H-Braviary"
   },
-    "H-Braviary":{
+  "H-Braviary":{
     "level":"54",
     "to":"Braviary"
   },
-    "Avalugg":{
+  "Avalugg":{
     "level":"37",
     "to":"H-Avalugg"
   },
-    "H-Avalugg":{
+  "H-Avalugg":{
     "level":"37",
     "to":"Avalugg"
   },
-    "H-Sliggoo":{
+  "H-Sliggoo":{
     "level":"40",
     "to":"H-Goodra"
   },
-    "Decidueye":{
+  "Decidueye":{
     "level":"34",
     "to":"H-Decidueye"
   },
-    "H-Decidueye":{
+  "H-Decidueye":{
     "level":"34",
     "to":"Decidueye"
   },
-    "Stantler":{
+  "Stantler":{
     "level":"30",
     "to":"Wyrdeer"
   },
-    "Ursaring":{
+  "Ursaring":{
     "level":"50",
     "to":"Ursaluna"
   },
-    "Basculin-W":{
+  "Basculin-W":{
     "level":"50",
     "to":"Basculegion"
   },
-    "Basculegion":{
+  "Basculegion":{
     "level":"50",
     "to":"Basculegion-F"
   },
-    "Basculegion-F":{
+  "Basculegion-F":{
     "level":"50",
     "to":"Basculegion"
   },
-    "H-Sneasel":{
+  "H-Sneasel":{
     "level":"40",
     "to":"Sneasler"
   },
-    "H-Qwilfish":{
+  "H-Qwilfish":{
     "level":"35",
     "to":"Overqwil"
   },
-    "Enamorus":{
+  "Enamorus":{
     "level":"50",
     "to":"Enamorus-T"
   },
-    "Enamorus-T":{
+  "Enamorus-T":{
     "level":"50",
     "to":"Enamorus"
   },
-    "Dialga":{
+  "Dialga":{
     "level":"100",
     "to":"Dialga-O"
   },
-    "Dialga-O":{
+  "Dialga-O":{
     "level":"100",
     "to":"Dialga"
   },
-    "Palkia":{
+  "Palkia":{
     "level":"100",
     "to":"Palkia-O"
   },
-    "Palkia-O":{
+  "Palkia-O":{
     "level":"100",
     "to":"Palkia"
+  },
+  "Primeape":{
+    "level":"35",
+    "to":"Annihilape"
+  },
+  "P-Wooper":{
+    "level":"20",
+    "to":"Clodsire"
+  },
+  "Girafarig":{
+    "level":"32",
+    "to":"Farigiraf"
+  },
+  "Dunsparce":{
+    "level":"32",
+    "to":"Dudunsparce"
+  },
+  "Bisharp":{
+    "level":"65",
+    "to":"Kingambit"
   },
 }
